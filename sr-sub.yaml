@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-14 23:17:45 | alive 26
+# Mac hourly sync 2026-09-15 00:18:02 | alive 30
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -20,11 +20,12 @@ proxies:
   type: socks5
   server: 101.36.104.239
   port: 10808
-- name: US - zhuhai.uk 02
+- name: IT - zhuhai.uk
   type: http
-  server: 149.88.21.129
+  server: 93.42.177.250
   port: 443
   tls: true
+  sni: 93.42.177.250
   skip-cert-verify: true
 - name: US - zhuhai.uk 03
   type: vless
@@ -63,18 +64,18 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-- name: NO - zhuhai.uk
+- name: US - zhuhai.uk 06
   type: vless
-  server: 89.185.81.65
-  port: 40443
-  uuid: ed91e79c-f6bf-4fba-8cc0-6d45acaec22b
+  server: fi1.zuoai.cf
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   tls: true
-  servername: deepl.com
-  skip-cert-verify: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
-    short-id: '7606'
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
 - name: DE - zhuhai.uk
   type: http
   server: fan.973511.xyz
@@ -86,6 +87,12 @@ proxies:
   port: 9002
   username: 'null'
   password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: EC - zhuhai.uk
+  type: http
+  server: 38.165.231.71
+  port: 9443
   tls: true
   skip-cert-verify: true
 - name: DE - zhuhai.uk 02
@@ -115,6 +122,13 @@ proxies:
   tls: true
   sni: 84.17.47.147
   skip-cert-verify: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  username: Ok5vbmU=
+  tls: true
+  sni: efr-marktplatz.club
 - name: US - zhuhai.uk 08
   type: http
   server: 138.199.35.214
@@ -170,12 +184,21 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
-- name: ID - zhuhai.uk
-  type: http
-  server: crosscards.site
+- name: JP - zhuhai.uk 02
+  type: hysteria2
+  server: 8.209.217.129
   port: 443
-  username: Ok5vbmU=
-  tls: true
+  password: 20b7100438be713dc89876906214c5b1
+  sni: 8.209.217.129
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
+- name: GB - zhuhai.uk 02
+  type: ss
+  server: 158.173.221.214
+  port: 11001
+  cipher: chacha20-ietf-poly1305
+  password: c58d16e593d44f42
 - name: US - zhuhai.uk 01
   type: vless
   server: us1-r.link-t7.com
@@ -191,6 +214,21 @@ proxies:
     short-id: 686c0ef0
   grpc-opts:
     grpc-service-name: movie
+- name: JP - zhuhai.uk 01
+  type: vless
+  server: 103.76.85.156
+  port: 443
+  uuid: 4082b282-dc67-40df-b114-f70d71d61f6f
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: safari
+  skip-cert-verify: true
+  reality-opts:
+    public-key: SsqcoKQAh4wOwKVxQcS4QGb_8xiHJ_IgzsEoTsEPDj8
+    short-id: 41dd2ebdd7e0a61a
 - name: TR - zhuhai.uk 01
   type: vless
   server: 13.143.137.164
