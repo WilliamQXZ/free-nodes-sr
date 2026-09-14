@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-14 16:17:42 | alive 23
+# Mac hourly sync 2026-09-14 17:17:15 | alive 26
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -103,6 +103,13 @@ proxies:
   port: 4356
   password: c2356e22-b026-4f12-8508-cf61f0b0c867
   skip-cert-verify: true
+- name: US - zhuhai.uk 14
+  type: http
+  server: 138.199.35.208
+  port: 9002
+  tls: true
+  sni: 138.199.35.208
+  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.34
@@ -124,6 +131,21 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
+  skip-cert-verify: true
+- name: GR - zhuhai.uk
+  type: http
+  server: 149.22.85.78
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 16
+  type: http
+  server: 138.199.35.197
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  sni: 138.199.35.197
   skip-cert-verify: true
 - name: US - zhuhai.uk 17
   type: http
