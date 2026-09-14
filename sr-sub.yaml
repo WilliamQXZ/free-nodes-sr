@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-14 19:17:20 | alive 21
+# Mac hourly sync 2026-09-14 20:17:16 | alive 18
 proxies:
 - name: US - zhuhai.uk
   type: vless
@@ -36,10 +36,6 @@ proxies:
   reality-opts:
     public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU
     short-id: b3f2a1c9
-- name: FI - zhuhai.uk
-  type: socks5
-  server: 83.147.216.208
-  port: 1080
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.21
@@ -81,6 +77,10 @@ proxies:
   tls: true
   sni: 138.199.35.207
   skip-cert-verify: true
+- name: ES - zhuhai.uk
+  type: socks5
+  server: 161.35.90.93
+  port: 1083
 - name: US - zhuhai.uk 07
   type: http
   server: 138.199.35.209
@@ -113,13 +113,6 @@ proxies:
   reality-opts:
     public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
     short-id: e336c9a786fae301
-- name: US - zhuhai.uk 09
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-  username: Ok5vbmU=
-  tls: true
-  sni: fullmanfirm.icu
 - name: HK - zhuhai.uk
   type: http
   server: fan.240104.xyz
@@ -149,22 +142,8 @@ proxies:
   reality-opts:
     public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
     short-id: '7606'
-- name: DE - zhuhai.uk 02
-  type: http
-  server: fan.973511.xyz
-  port: 443
-  tls: true
 - name: KR - zhuhai.uk 02
   type: socks5
   server: 121.169.46.116
   port: 1090
   username: T2c9PTo=
-- name: JP - zhuhai.uk 02
-  type: hysteria2
-  server: 8.209.217.129
-  port: 443
-  password: 20b7100438be713dc89876906214c5b1
-  sni: 8.209.217.129
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
