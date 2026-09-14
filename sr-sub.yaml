@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-14 17:17:15 | alive 26
+# Mac hourly sync 2026-09-14 18:17:44 | alive 26
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -90,6 +90,12 @@ proxies:
   tls: true
   sni: 138.199.35.209
   skip-cert-verify: true
+- name: US - zhuhai.uk 11
+  type: http
+  server: voteshirleysew.club
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 12
   type: http
   server: 138.199.35.213
@@ -130,12 +136,6 @@ proxies:
   port: 9002
   username: 'null'
   password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: GR - zhuhai.uk
-  type: http
-  server: 149.22.85.78
-  port: 443
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 16
