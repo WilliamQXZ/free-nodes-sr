@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-14 22:17:16 | alive 25
+# Mac hourly sync 2026-09-14 23:17:45 | alive 26
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -20,6 +20,12 @@ proxies:
   type: socks5
   server: 101.36.104.239
   port: 10808
+- name: US - zhuhai.uk 02
+  type: http
+  server: 149.88.21.129
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 03
   type: vless
   server: nl4.zuoai.cf
@@ -74,6 +80,14 @@ proxies:
   server: fan.973511.xyz
   port: 443
   tls: true
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.31
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
 - name: DE - zhuhai.uk 02
   type: http
   server: 167.172.172.190
@@ -83,24 +97,15 @@ proxies:
   tls: true
   sni: 167.172.172.190
   skip-cert-verify: true
+- name: FR - zhuhai.uk
+  type: socks5
+  server: 144.91.111.48
+  port: 1088
 - name: GB - zhuhai.uk
   type: http
   server: 5.101.149.245
   port: 8443
   tls: true
-- name: SG - zhuhai.uk
-  type: vless
-  server: 47.250.212.59
-  port: 443
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-  tls: true
-  servername: mia11.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TG:@MiaChatChannel
-    headers:
-      Host: mia11.pages.dev
 - name: NL - zhuhai.uk 02
   type: http
   server: 84.17.47.147
@@ -110,13 +115,6 @@ proxies:
   tls: true
   sni: 84.17.47.147
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: efr-marktplatz.club
-  port: 443
-  username: Ok5vbmU=
-  tls: true
-  sni: efr-marktplatz.club
 - name: US - zhuhai.uk 08
   type: http
   server: 138.199.35.214
@@ -172,6 +170,12 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
+- name: ID - zhuhai.uk
+  type: http
+  server: crosscards.site
+  port: 443
+  username: Ok5vbmU=
+  tls: true
 - name: US - zhuhai.uk 01
   type: vless
   server: us1-r.link-t7.com
@@ -187,21 +191,6 @@ proxies:
     short-id: 686c0ef0
   grpc-opts:
     grpc-service-name: movie
-- name: JP - zhuhai.uk 01
-  type: vless
-  server: 103.76.85.156
-  port: 443
-  uuid: 4082b282-dc67-40df-b114-f70d71d61f6f
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: safari
-  skip-cert-verify: true
-  reality-opts:
-    public-key: SsqcoKQAh4wOwKVxQcS4QGb_8xiHJ_IgzsEoTsEPDj8
-    short-id: 41dd2ebdd7e0a61a
 - name: TR - zhuhai.uk 01
   type: vless
   server: 13.143.137.164
