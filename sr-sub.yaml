@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-14 15:22:15 | alive 23
+# Mac hourly sync 2026-09-14 16:17:42 | alive 23
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -30,13 +30,12 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 05
+- name: GB - zhuhai.uk
   type: http
-  server: purecambogiasl.live
-  port: 443
-  username: 'null'
-  password: 'null'
+  server: 5.101.149.245
+  port: 8443
   tls: true
+  sni: 5.101.149.245
   skip-cert-verify: true
 - name: JP - zhuhai.uk
   type: http
@@ -75,18 +74,21 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 09
+  type: hysteria2
+  server: 24.233.8.109
+  port: 443
+  password: 8294f130408299df8cab08c80bf6f819
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c8827ab99e316c5bd414e21afa915ddf
 - name: US - zhuhai.uk 10
   type: http
   server: 138.199.35.209
   port: 9002
   tls: true
   sni: 138.199.35.209
-  skip-cert-verify: true
-- name: US - zhuhai.uk 11
-  type: http
-  server: voteshirleysew.club
-  port: 443
-  tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 12
   type: http
@@ -95,12 +97,11 @@ proxies:
   tls: true
   sni: 138.199.35.213
   skip-cert-verify: true
-- name: US - zhuhai.uk 14
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  tls: true
-  sni: 138.199.35.208
+- name: US - zhuhai.uk 13
+  type: hysteria2
+  server: 107.174.255.14
+  port: 4356
+  password: c2356e22-b026-4f12-8508-cf61f0b0c867
   skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
@@ -123,15 +124,6 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 16
-  type: http
-  server: 138.199.35.197
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.197
   skip-cert-verify: true
 - name: US - zhuhai.uk 17
   type: http
@@ -157,6 +149,15 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
+- name: HK - zhuhai.uk 02
+  type: hysteria2
+  server: 8.218.56.189
+  port: 443
+  password: 0c7fa158eb9f72a1c4b80927e48373dc
+  sni: 8.218.56.189
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
 - name: KR - zhuhai.uk
   type: vless
   server: 123.111.169.70
