@@ -1,5 +1,17 @@
-# Mac hourly sync 2026-09-15 01:17:41 | alive 26
+# Mac hourly sync 2026-09-15 03:17:41 | alive 32
 proxies:
+- name: US - zhuhai.uk
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: DE - zhuhai.uk
+  type: ss
+  server: setlor.rehan-iogsar.ir
+  port: 4680
+  cipher: 2022-blake3-aes-128-gcm
+  password: 1JvlmtT4v8y1yGczDtT6Ww==:aCtpeMietGsJY50h6jDW6w==
 - name: US - zhuhai.uk 02
   type: http
   server: 138.199.35.207
@@ -15,12 +27,6 @@ proxies:
   tls: true
   sni: fan.571589.xyz
   skip-cert-verify: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: webdrone.club
-  port: 443
-  username: T2s1dmJtVT06
-  tls: true
 - name: BD - zhuhai.uk
   type: http
   server: 34.124.244.22
@@ -28,6 +34,12 @@ proxies:
   tls: true
   sni: 34.124.244.22
   skip-cert-verify: true
+- name: GB - zhuhai.uk
+  type: ss
+  server: 158.173.221.214
+  port: 11001
+  cipher: chacha20-ietf-poly1305
+  password: c58d16e593d44f42
 - name: US - zhuhai.uk 05
   type: http
   server: 38.28.193.1
@@ -35,6 +47,12 @@ proxies:
   tls: true
   sni: 38.28.193.1
   skip-cert-verify: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: zebpay.site
+  port: 443
+  username: Ok5vbmU=
+  tls: true
 - name: SE - zhuhai.uk
   type: http
   server: 146.70.242.130
@@ -102,6 +120,12 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
+- name: DE - zhuhai.uk 02
+  type: ss
+  server: 130.61.236.161
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: jDcGibduRNsgoed1T+wYpfvxjfkqQCz/8GwzmQbnZCE=
 - name: US - zhuhai.uk 11
   type: http
   server: 138.199.35.203
@@ -117,6 +141,12 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: c8827ab99e316c5bd414e21afa915ddf
+- name: US - zhuhai.uk 13
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 14
   type: http
   server: 52.55.81.168
@@ -196,6 +226,21 @@ proxies:
     short-id: 686c0ef0
   grpc-opts:
     grpc-service-name: movie
+- name: JP - zhuhai.uk 01
+  type: vless
+  server: 103.76.85.156
+  port: 443
+  uuid: 4082b282-dc67-40df-b114-f70d71d61f6f
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: safari
+  skip-cert-verify: true
+  reality-opts:
+    public-key: SsqcoKQAh4wOwKVxQcS4QGb_8xiHJ_IgzsEoTsEPDj8
+    short-id: 41dd2ebdd7e0a61a
 - name: TR - zhuhai.uk 01
   type: vless
   server: 13.143.137.164
