@@ -1,5 +1,16 @@
-# Mac hourly sync 2026-09-15 08:17:43 | alive 25
+# Mac hourly sync 2026-09-15 09:17:17 | alive 21
 proxies:
+- name: NL - zhuhai.uk
+  type: vless
+  server: pr-media.pepro.site
+  port: 14443
+  uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
+  tls: true
+  servername: pr-media.pepro.site
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
 - name: HK - zhuhai.uk
   type: http
   server: fan.240104.xyz
@@ -50,6 +61,11 @@ proxies:
   port: 1080
   username: test123
   password: test123
+- name: KR - zhuhai.uk
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: T2c9PTo=
 - name: US - zhuhai.uk 05
   type: http
   server: 104.219.236.83
@@ -65,17 +81,6 @@ proxies:
   tls: true
   sni: a7acacbe.acsnet.co
   skip-cert-verify: true
-- name: NO - zhuhai.uk
-  type: vless
-  server: 89.185.81.65
-  port: 40443
-  uuid: ed91e79c-f6bf-4fba-8cc0-6d45acaec22b
-  tls: true
-  servername: deepl.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
-    short-id: '7606'
 - name: US - zhuhai.uk 06
   type: http
   server: 138.199.35.204
@@ -96,13 +101,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: RO - zhuhai.uk
-  type: http
-  server: 193.176.84.30
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: US - zhuhai.uk 09
   type: http
   server: 138.199.35.200
@@ -111,20 +109,6 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: DE - zhuhai.uk 02
-  type: vless
-  server: 5.35.81.60
-  port: 4443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  tls: true
-  servername: maps.apple.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: snob-grpc-de
-  reality-opts:
-    public-key: nhvyI4KrKDUSgw9Fa63SDeNATaTsAu9bRZ4qaraydRM
-    short-id: e5f6a1b2
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.35
@@ -142,26 +126,6 @@ proxies:
   server: 149.36.50.157
   port: 443
   tls: true
-  skip-cert-verify: true
-- name: TR - zhuhai.uk
-  type: vless
-  server: 13.143.137.164
-  port: 9443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: plaincanvas.videoclothing.xyz
-  skip-cert-verify: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: e336c9a786fae301
-- name: SG - zhuhai.uk
-  type: hysteria2
-  server: mszz.mangshe.xyz
-  port: 20562
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  sni: www.microsoft.com
   skip-cert-verify: true
 - name: AE - zhuhai.uk 01
   type: vless
@@ -205,18 +169,3 @@ proxies:
   reality-opts:
     public-key: jnu0rNHECTe_v7H9Fmgg0iUSepHz4QQQRPW0XpX5URs
     short-id: 1359c9bf9f7442e5
-- name: TR - zhuhai.uk 01
-  type: vless
-  server: 13.143.137.164
-  port: 9443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: plaincanvas.videoclothing.xyz
-  client-fingerprint: firefox
-  skip-cert-verify: true
-  reality-opts:
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: e336c9a786fae301
