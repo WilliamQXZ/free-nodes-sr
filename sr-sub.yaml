@@ -1,5 +1,9 @@
-# Mac hourly sync 2026-09-16 03:17:14 | alive 24
+# Mac hourly sync 2026-09-16 04:17:14 | alive 22
 proxies:
+- name: FR - zhuhai.uk
+  type: socks5
+  server: 51.178.49.241
+  port: 1088
 - name: US - zhuhai.uk
   type: http
   server: 138.199.35.198
@@ -19,23 +23,9 @@ proxies:
   tls: true
   sni: 138.199.35.201
   skip-cert-verify: true
-- name: US - zhuhai.uk 03
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
 - name: JP - zhuhai.uk
   type: http
   server: fan.571589.xyz
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: GB - zhuhai.uk
-  type: http
-  server: 185.235.0.2
   port: 443
   tls: true
   skip-cert-verify: true
@@ -86,12 +76,6 @@ proxies:
   server: fan.571589.xyz
   port: 443
   tls: true
-- name: SG - zhuhai.uk
-  type: ss
-  server: 161.118.194.62
-  port: 56927
-  cipher: 2022-blake3-chacha20-poly1305
-  password: GATdQ8IY0B5z9jtFKltJI7l741GnlfZMWakUB6UbXFU=
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.39
@@ -99,12 +83,6 @@ proxies:
   tls: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: SG - zhuhai.uk 02
-  type: ss
-  server: 129.150.47.10
-  port: 56927
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 2qp7Use01vjL1J+F3HLyTc1qhBMOcaTUv5mR1ExQJ10=
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.37
@@ -117,6 +95,11 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 04
+  type: http
+  server: crosscards.site
+  port: 443
+  tls: true
 - name: RO - zhuhai.uk 04
   type: http
   server: 193.176.84.22
@@ -149,15 +132,16 @@ proxies:
   username: Ok5vbmU=
   tls: true
   sni: fullmanfirm.icu
-- name: NL - zhuhai.uk 04
+- name: NL - zhuhai.uk 03
   type: vless
   server: pr-media.pepro.site
   port: 14443
   uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
   tls: true
   servername: pr-media.pepro.site
-  skip-cert-verify: true
   client-fingerprint: qq
   network: ws
   ws-opts:
     path: /ws
+    headers:
+      Host: pr-media.pepro.site
