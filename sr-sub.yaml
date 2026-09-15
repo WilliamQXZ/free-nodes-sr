@@ -1,16 +1,11 @@
-# Mac hourly sync 2026-09-15 21:19:06 | alive 21
+# Mac hourly sync 2026-09-15 22:17:44 | alive 17
 proxies:
-- name: BE - zhuhai.uk
+- name: US - zhuhai.uk
   type: http
-  server: 146.70.123.98
-  port: 443
+  server: 138.199.35.219
+  port: 9002
   tls: true
-  skip-cert-verify: true
-- name: EC - zhuhai.uk
-  type: http
-  server: 38.165.231.71
-  port: 9443
-  tls: true
+  sni: 138.199.35.219
   skip-cert-verify: true
 - name: RO - zhuhai.uk 03
   type: http
@@ -20,10 +15,12 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 03
+- name: US - zhuhai.uk 04
   type: http
-  server: fan.365747.xyz
-  port: 443
+  server: 138.199.35.219
+  port: 9002
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
 - name: GB - zhuhai.uk
@@ -38,29 +35,18 @@ proxies:
   reality-opts:
     public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
     short-id: d923
-- name: US - zhuhai.uk 05
-  type: vless
-  server: us-1.gsafevpnapi.com
-  port: 20270
-  uuid: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
-  tls: true
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 9I4kbgR2flpbRraCLQ-C0umbyQO26riRY3-GY-Tp9DE
-    short-id: e67d9a00676f15ac
 - name: US - zhuhai.uk 06
   type: http
   server: 138.199.35.204
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
+- name: US - zhuhai.uk 08
   type: http
-  server: 138.199.35.196
+  server: 138.199.35.215
   port: 9002
   tls: true
-  sni: 138.199.35.196
+  sni: 138.199.35.215
   skip-cert-verify: true
 - name: TR - zhuhai.uk
   type: vless
@@ -74,18 +60,12 @@ proxies:
   reality-opts:
     public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
     short-id: e336c9a786fae301
-- name: AU - zhuhai.uk
-  type: vless
-  server: au1.gsafevpnapi.com
-  port: 20270
-  uuid: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
-  flow: xtls-rprx-vision
+- name: US - zhuhai.uk 09
+  type: http
+  server: 138.199.35.220
+  port: 9002
   tls: true
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE
-    short-id: e6a5a4a9115456de
+  skip-cert-verify: true
 - name: US - zhuhai.uk 10
   type: http
   server: 38.28.193.1
@@ -99,6 +79,13 @@ proxies:
   tls: true
   sni: fan.226278.xyz
   skip-cert-verify: true
+- name: US - zhuhai.uk 12
+  type: http
+  server: 138.199.35.199
+  port: 9002
+  tls: true
+  sni: 138.199.35.199
+  skip-cert-verify: true
 - name: RO - zhuhai.uk 04
   type: http
   server: 193.176.84.39
@@ -106,27 +93,12 @@ proxies:
   tls: true
   sni: 193.176.84.39
   skip-cert-verify: true
-- name: US - zhuhai.uk 13
-  type: http
-  server: purecambogiasl.live
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
 - name: US - zhuhai.uk 14
   type: http
   server: 138.199.35.216
   port: 9002
   username: 'null'
   password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 15
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  username: 'null'
-  password: None
   tls: true
   skip-cert-verify: true
 - name: RO - zhuhai.uk 05
@@ -159,15 +131,3 @@ proxies:
   reality-opts:
     public-key: aVGSSemhxqqDg75lUDBxCNZZXfuBb4QrU8yZYnJD6nk
     short-id: f554f56d31
-- name: SG - zhuhai.uk 02
-  type: vless
-  server: sg-1.gsafevpnapi.com
-  port: 20270
-  uuid: e016d072-ed97-40d4-a83f-04c00f8df2a5
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: q78tZmuaXQTsrrjZtjjRDtoni6tzN-HhXcAY-iT5zF0
-    short-id: fc13d6208ebbae16
