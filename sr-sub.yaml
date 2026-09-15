@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-15 23:17:19 | alive 20
+# Mac hourly sync 2026-09-16 00:17:15 | alive 20
 proxies:
 - name: NL - zhuhai.uk
   type: http
@@ -34,6 +34,13 @@ proxies:
   port: 56927
   cipher: 2022-blake3-chacha20-poly1305
   password: X53+M8P3IXVVnTKCeRN0wX7VQ+g3J4HQnlTcaP73SAQ=
+- name: US - zhuhai.uk
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  tls: true
+  sni: efr-marktplatz.club
+  skip-cert-verify: true
 - name: SG - zhuhai.uk 02
   type: ss
   server: 138.2.88.172
@@ -138,16 +145,3 @@ proxies:
   reality-opts:
     public-key: 0MIamX22OTB4zDokZ5WN_GHBVYs7MkFceuipUvql9Q8
     short-id: d5b538acf8a93540
-- name: KR - zhuhai.uk
-  type: vless
-  server: 134.185.112.134
-  port: 443
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: true
-  servername: odhra.gxr1.yvm.hh.vavava.kdns.fr
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: odhra.gxr1.yvm.hh.vavava.kdns.fr
