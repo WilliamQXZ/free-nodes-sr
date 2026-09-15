@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-15 09:17:17 | alive 21
+# Mac hourly sync 2026-09-15 10:17:16 | alive 22
 proxies:
 - name: NL - zhuhai.uk
   type: vless
@@ -11,6 +11,19 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
+- name: FI - zhuhai.uk
+  type: vless
+  server: app-ms-35.ecom-ai-solutions.com
+  port: 443
+  uuid: a71ad164-3b29-4dbe-aa66-24d095ca7b6d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: assets-ms-35.ecom-ai-solutions.com
+  skip-cert-verify: true
+  client-fingerprint: randomized
+  reality-opts:
+    public-key: NA5eMfdHkl_L80S75uxQwUirS9nvZ80V2u1s71KeXkc
+    short-id: 2de63d3fd7261b7e
 - name: HK - zhuhai.uk
   type: http
   server: fan.240104.xyz
@@ -61,11 +74,6 @@ proxies:
   port: 1080
   username: test123
   password: test123
-- name: KR - zhuhai.uk
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: T2c9PTo=
 - name: US - zhuhai.uk 05
   type: http
   server: 104.219.236.83
@@ -109,6 +117,18 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
+- name: MD - zhuhai.uk
+  type: vless
+  server: 31.59.150.174
+  port: 9443
+  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: hotcoals.aeternavpn.space
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
+    short-id: a1b2c3d4
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.35
@@ -121,12 +141,18 @@ proxies:
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: DE - zhuhai.uk 03
-  type: http
-  server: 149.36.50.157
+- name: FI - zhuhai.uk 02
+  type: vless
+  server: app-ms-35.ecom-ai-solutions.com
   port: 443
+  uuid: a71ad164-3b29-4dbe-aa66-24d095ca7b6d
+  flow: xtls-rprx-vision
   tls: true
-  skip-cert-verify: true
+  servername: assets-ms-35.ecom-ai-solutions.com
+  client-fingerprint: randomized
+  reality-opts:
+    public-key: NA5eMfdHkl_L80S75uxQwUirS9nvZ80V2u1s71KeXkc
+    short-id: 2de63d3fd7261b7e
 - name: AE - zhuhai.uk 01
   type: vless
   server: 217.60.98.56
