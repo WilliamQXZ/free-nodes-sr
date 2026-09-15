@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-16 01:17:42 | alive 21
+# Mac hourly sync 2026-09-16 02:17:42 | alive 19
 proxies:
 - name: NL - zhuhai.uk
   type: http
@@ -27,12 +27,6 @@ proxies:
   port: 45819
   cipher: 2022-blake3-chacha20-poly1305
   password: rTprlZ/C069y6KUXNnd4GDrjrtpRA3bNdUeQGRcZmXY=
-- name: EC - zhuhai.uk
-  type: http
-  server: 38.165.231.71
-  port: 9443
-  tls: true
-  skip-cert-verify: true
 - name: NL - zhuhai.uk 04
   type: http
   server: 84.17.47.149
@@ -82,13 +76,6 @@ proxies:
   port: 56927
   cipher: 2022-blake3-chacha20-poly1305
   password: 2qp7Use01vjL1J+F3HLyTc1qhBMOcaTUv5mR1ExQJ10=
-- name: US - zhuhai.uk 03
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-  username: Ok5vbmU=
-  tls: true
-  sni: fullmanfirm.icu
 - name: RO - zhuhai.uk 04
   type: http
   server: 193.176.84.36
@@ -117,14 +104,14 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: JP - zhuhai.uk 02
-  type: vmess
-  server: 38.47.121.14
-  port: 49432
-  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
-  alterId: 0
-  cipher: auto
-  network: http
+- name: HK - zhuhai.uk
+  type: http
+  server: fan.240104.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: fan.240104.xyz
 - name: US - zhuhai.uk 05
   type: http
   server: 138.199.35.212
