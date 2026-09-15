@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-16 04:17:14 | alive 22
+# Mac hourly sync 2026-09-16 05:17:14 | alive 19
 proxies:
 - name: FR - zhuhai.uk
   type: socks5
@@ -12,16 +12,20 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: HK - zhuhai.uk
-  type: socks5
-  server: 123.58.219.171
-  port: 10808
 - name: US - zhuhai.uk 02
   type: http
   server: 138.199.35.201
   port: 9002
   tls: true
   sni: 138.199.35.201
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: 138.199.35.208
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
   skip-cert-verify: true
 - name: JP - zhuhai.uk
   type: http
@@ -95,11 +99,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: crosscards.site
-  port: 443
-  tls: true
 - name: RO - zhuhai.uk 04
   type: http
   server: 193.176.84.22
@@ -119,12 +118,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: zebpay.site
-  port: 443
-  tls: true
-  sni: zebpay.site
 - name: US - zhuhai.uk 08
   type: http
   server: fullmanfirm.icu
@@ -132,16 +125,3 @@ proxies:
   username: Ok5vbmU=
   tls: true
   sni: fullmanfirm.icu
-- name: NL - zhuhai.uk 03
-  type: vless
-  server: pr-media.pepro.site
-  port: 14443
-  uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
-  tls: true
-  servername: pr-media.pepro.site
-  client-fingerprint: qq
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: pr-media.pepro.site
