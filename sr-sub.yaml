@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-15 15:17:16 | alive 12
+# Mac hourly sync 2026-09-15 16:17:16 | alive 19
 proxies:
 - name: RO - zhuhai.uk
   type: http
@@ -42,6 +42,11 @@ proxies:
   reality-opts:
     public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
     short-id: e336c9a786fae301
+- name: FR - zhuhai.uk
+  type: http
+  server: fan.132031.xyz
+  port: 443
+  tls: true
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.22
@@ -54,19 +59,49 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: FI - zhuhai.uk
+  type: socks5
+  server: 83.147.216.208
+  port: 1080
+  username: Og==
+- name: GB - zhuhai.uk
+  type: http
+  server: 185.235.0.98
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: purecambogiasl.live
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: JP - zhuhai.uk 02
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  tls: true
+  sni: fan.571589.xyz
+- name: BE - zhuhai.uk
+  type: http
+  server: 146.70.176.242
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: HK - zhuhai.uk 02
   type: socks5
   server: 47.239.116.165
   port: 1080
   username: admin
   password: admin
-- name: JP - zhuhai.uk 03
+- name: JP - zhuhai.uk 04
   type: http
-  server: fan.571589.xyz
+  server: fan.587475.xyz
   port: 443
-  username: bnVsbDpudWxs
   tls: true
-  skip-cert-verify: true
+  sni: fan.587475.xyz
 - name: JP - zhuhai.uk 05
   type: http
   server: fan.571589.xyz
@@ -85,6 +120,12 @@ proxies:
   tls: true
   sni: 84.17.47.150
   skip-cert-verify: true
+- name: DE - zhuhai.uk
+  type: hysteria2
+  server: gta.internet-card.sbs
+  port: 443
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  sni: gta.internet-card.sbs
 - name: GB - zhuhai.uk 02
   type: ss
   server: 129.151.74.10
