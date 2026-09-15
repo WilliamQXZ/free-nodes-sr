@@ -1,5 +1,16 @@
-# Mac hourly sync 2026-09-15 11:17:17 | alive 21
+# Mac hourly sync 2026-09-15 12:17:16 | alive 22
 proxies:
+- name: NL - zhuhai.uk
+  type: vless
+  server: pr-media.pepro.site
+  port: 14443
+  uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
+  tls: true
+  servername: pr-media.pepro.site
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
 - name: FI - zhuhai.uk
   type: vless
   server: app-ms-35.ecom-ai-solutions.com
@@ -57,6 +68,12 @@ proxies:
   port: 443
   tls: true
   sni: fan.587475.xyz
+- name: US - zhuhai.uk 04
+  type: socks5
+  server: 185.145.99.41
+  port: 1080
+  username: test123
+  password: test123
 - name: US - zhuhai.uk 05
   type: http
   server: 104.219.236.83
@@ -122,12 +139,6 @@ proxies:
   type: http
   server: 5.101.149.245
   port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: DE - zhuhai.uk 03
-  type: http
-  server: 149.36.50.157
-  port: 443
   tls: true
   skip-cert-verify: true
 - name: FI - zhuhai.uk 02
