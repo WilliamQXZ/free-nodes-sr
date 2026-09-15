@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-15 14:17:47 | alive 14
+# Mac hourly sync 2026-09-15 15:17:16 | alive 12
 proxies:
 - name: RO - zhuhai.uk
   type: http
@@ -48,51 +48,10 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: KR - zhuhai.uk 02
-  type: vless
-  server: 123.111.169.70
-  port: 443
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  tls: true
-  servername: vip.868068.xyz
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: vip.868068.xyz
 - name: US - zhuhai.uk 04
   type: http
   server: 138.199.35.211
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: FI - zhuhai.uk
-  type: socks5
-  server: 83.147.216.208
-  port: 1080
-  username: Og==
-- name: JP - zhuhai.uk
-  type: vless
-  server: 202.144.192.76
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  tls: true
-  servername: tesla.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-- name: GB - zhuhai.uk
-  type: http
-  server: 185.235.0.98
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: BE - zhuhai.uk
-  type: http
-  server: 146.70.176.242
-  port: 443
   tls: true
   skip-cert-verify: true
 - name: HK - zhuhai.uk 02
@@ -101,6 +60,22 @@ proxies:
   port: 1080
   username: admin
   password: admin
+- name: JP - zhuhai.uk 03
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+  skip-cert-verify: true
+- name: JP - zhuhai.uk 05
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: fan.571589.xyz
+  skip-cert-verify: true
 - name: NL - zhuhai.uk
   type: http
   server: 84.17.47.150
@@ -110,3 +85,9 @@ proxies:
   tls: true
   sni: 84.17.47.150
   skip-cert-verify: true
+- name: GB - zhuhai.uk 02
+  type: ss
+  server: 129.151.74.10
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: T1M/5P2Hc8WTkog/3oP2qI8NptCcefVAAe5tK2uqZ70=
