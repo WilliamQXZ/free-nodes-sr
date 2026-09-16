@@ -1,33 +1,47 @@
-# Mac hourly sync 2026-09-16 19:22:51 | alive 18
+# Mac hourly sync 2026-09-16 20:20:12 | alive 23
 proxies:
+- name: GB - zhuhai.uk
+  type: ss
+  server: 129.151.91.115
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ktsunSg4AnlcqH3JiVv7JWSHpbDjDfTvldDgDpApNHw=
+- name: NL - zhuhai.uk
+  type: http
+  server: 84.17.47.150
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 84.17.47.150
+  skip-cert-verify: true
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.39
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: HK - zhuhai.uk
+  type: socks5
+  server: 123.58.219.171
+  port: 10808
 - name: JP - zhuhai.uk
   type: http
   server: fan.571589.xyz
   port: 443
-  username: bnVsbDpudWxs
   tls: true
-  skip-cert-verify: true
-- name: DE - zhuhai.uk
-  type: http
-  server: 167.172.172.190
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: a7acacbe.acsnet.co
-  skip-cert-verify: true
 - name: US - zhuhai.uk
   type: http
-  server: fan.365747.xyz
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: NL - zhuhai.uk
-  type: http
-  server: 84.17.47.149
+  server: 138.199.35.220
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: GB - zhuhai.uk 02
+  type: ss
+  server: 144.24.225.195
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: +USQg0EtDGWako1JYfnp7wjswdFw/HSuX3kZwOsFxpU=
 - name: JP - zhuhai.uk 02
   type: http
   server: fan.571589.xyz
@@ -35,40 +49,28 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
+  sni: fan.571589.xyz
   skip-cert-verify: true
-- name: KR - zhuhai.uk
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VmtSS2FrOVdRbFZpZWpBMk9nPT06
-- name: EE - zhuhai.uk
-  type: vless
-  server: 94.183.170.147
-  port: 8443
-  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
-  tls: true
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 9d30d49278
-  reality-opts:
-    public-key: s2uiu3GQA2SlZzsr86Z5Dav97eAFTPf7Nvr-zqzzRgg
-    short-id: 72ccd4a7563c2953
-- name: RO - zhuhai.uk
+- name: NL - zhuhai.uk 03
   type: http
-  server: 193.176.84.16
+  server: 84.17.47.150
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk 04
+  type: ss
+  server: 193.123.39.7
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: yE6QCb+TH9e+h01wELq5xdiBgl/ePvuk31Uk8fKYCJ4=
+- name: US - zhuhai.uk 04
+  type: http
+  server: 138.199.35.200
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  tls: true
+  sni: 138.199.35.200
   skip-cert-verify: true
 - name: JP - zhuhai.uk 03
   type: http
@@ -78,30 +80,64 @@ proxies:
   sni: fan.587475.xyz
 - name: RO - zhuhai.uk 02
   type: http
-  server: 193.176.84.22
+  server: 193.176.84.37
   port: 9002
   tls: true
-  sni: 193.176.84.22
   skip-cert-verify: true
-- name: US - zhuhai.uk 04
+- name: US - zhuhai.uk 05
   type: http
-  server: 38.28.193.188
+  server: fan.365747.xyz
   port: 443
-  username: 'null'
-  password: 'null'
   tls: true
+  sni: fan.365747.xyz
   skip-cert-verify: true
-- name: NL - zhuhai.uk 03
+- name: GB - zhuhai.uk 04
+  type: ss
+  server: 144.24.226.100
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: U/JCe7Gq8z+hTeMcZTHvLsueYpo+YGZdxT/egK5sd8c=
+- name: RO - zhuhai.uk 03
   type: http
-  server: 51.159.225.196
-  port: 23856
-  username: 'null'
-  password: 'null'
+  server: 193.176.84.25
+  port: 9002
   tls: true
   skip-cert-verify: true
+- name: JP - zhuhai.uk 04
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+  skip-cert-verify: true
+- name: JP - zhuhai.uk 05
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: KR - zhuhai.uk
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: Og==
+- name: KR - zhuhai.uk 02
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: T2clM0QlM0Q6T2clM0QlM0Q=
+- name: SG - zhuhai.uk
+  type: hysteria2
+  server: 138.2.89.249
+  port: 443
+  password: d042d150716709bb778cc73889cddb02
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
 - name: DE - zhuhai.uk 01
   type: vless
-  server: 212.16.92.112
+  server: 212.16.92.111
   port: 443
   uuid: 32721515-985b-4773-9e70-5d2e1b88a060
   udp: true
@@ -112,60 +148,16 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: AE - zhuhai.uk 01
+- name: JP - zhuhai.uk 01
   type: vless
-  server: 94.183.170.147
-  port: 8443
-  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
-  udp: true
-  network: grpc
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: s2uiu3GQA2SlZzsr86Z5Dav97eAFTPf7Nvr-zqzzRgg
-    short-id: 72ccd4a7563c2953
-  grpc-opts:
-    grpc-service-name: 9d30d49278
-- name: HK - zhuhai.uk 01
-  type: vless
-  server: sie824.node2.top
-  port: 32001
-  uuid: 7eb44724-d792-4133-90ef-0bc0f55fec20
+  server: 202.144.192.76
+  port: 13779
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
   udp: true
   network: tcp
-  flow: xtls-rprx-vision
   tls: true
-  servername: itunes.apple.com
+  servername: tesla.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-- name: HK - zhuhai.uk 02
-  type: vless
-  server: sie824.node2.top
-  port: 32001
-  uuid: 8ea00d02-1e73-48bf-8708-ed35b5639559
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
-- name: HK - zhuhai.uk 03
-  type: vless
-  server: sie824.node2.top
-  port: 32001
-  uuid: c2d6f052-d3c4-4a59-bed9-9d7b0a66198c
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
-    short-id: dfa28122
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
