@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-16 20:20:12 | alive 23
+# Mac hourly sync 2026-09-16 21:20:45 | alive 24
 proxies:
 - name: GB - zhuhai.uk
   type: ss
@@ -6,15 +6,6 @@ proxies:
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: ktsunSg4AnlcqH3JiVv7JWSHpbDjDfTvldDgDpApNHw=
-- name: NL - zhuhai.uk
-  type: http
-  server: 84.17.47.150
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 84.17.47.150
-  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.39
@@ -42,6 +33,14 @@ proxies:
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: +USQg0EtDGWako1JYfnp7wjswdFw/HSuX3kZwOsFxpU=
+- name: US - zhuhai.uk 02
+  type: http
+  server: 138.199.35.208
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
 - name: JP - zhuhai.uk 02
   type: http
   server: fan.571589.xyz
@@ -51,6 +50,20 @@ proxies:
   tls: true
   sni: fan.571589.xyz
   skip-cert-verify: true
+- name: NL - zhuhai.uk 02
+  type: vless
+  server: freev2.cloudflare.182682.xyz
+  port: 443
+  uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
+  tls: true
+  servername: nl-ams.xhs152.shop
+  skip-cert-verify: true
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /announcement
+    headers:
+      Host: nl-ams.xhs152.shop
 - name: NL - zhuhai.uk 03
   type: http
   server: 84.17.47.150
@@ -63,6 +76,12 @@ proxies:
   port: 45819
   cipher: 2022-blake3-chacha20-poly1305
   password: yE6QCb+TH9e+h01wELq5xdiBgl/ePvuk31Uk8fKYCJ4=
+- name: US - zhuhai.uk 03
+  type: http
+  server: purecambogiasl.live
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
 - name: US - zhuhai.uk 04
   type: http
   server: 138.199.35.200
@@ -148,16 +167,3 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: JP - zhuhai.uk 01
-  type: vless
-  server: 202.144.192.76
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  udp: true
-  network: tcp
-  tls: true
-  servername: tesla.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
