@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-17 03:21:42 | alive 24
+# Mac hourly sync 2026-09-17 04:17:36 | alive 24
 proxies:
 - name: RO - zhuhai.uk
   type: http
@@ -50,12 +50,6 @@ proxies:
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: Jzj07HQI64SzM0hsx0pGCWTw+v9KY0G1IrOh/BXdPpc=
-- name: DE - zhuhai.uk 02
-  type: http
-  server: 149.36.50.1
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: HK - zhuhai.uk 02
   type: http
   server: fan.240104.xyz
@@ -155,6 +149,12 @@ proxies:
   server: purposebydesig.club
   port: 443
   tls: true
+- name: ID - zhuhai.uk 02
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  tls: true
+  sni: efr-marktplatz.club
 - name: DE - zhuhai.uk 01
   type: vless
   server: 212.16.92.111
