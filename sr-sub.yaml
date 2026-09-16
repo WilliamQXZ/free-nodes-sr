@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-16 21:20:45 | alive 24
+# Mac hourly sync 2026-09-16 22:40:36 | alive 16
 proxies:
 - name: GB - zhuhai.uk
   type: ss
@@ -6,6 +6,15 @@ proxies:
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: ktsunSg4AnlcqH3JiVv7JWSHpbDjDfTvldDgDpApNHw=
+- name: NL - zhuhai.uk
+  type: http
+  server: 84.17.47.150
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 84.17.47.150
+  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.39
@@ -16,17 +25,6 @@ proxies:
   type: socks5
   server: 123.58.219.171
   port: 10808
-- name: JP - zhuhai.uk
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  tls: true
-- name: US - zhuhai.uk
-  type: http
-  server: 138.199.35.220
-  port: 9002
-  tls: true
-  skip-cert-verify: true
 - name: GB - zhuhai.uk 02
   type: ss
   server: 144.24.225.195
@@ -40,15 +38,6 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
-  skip-cert-verify: true
-- name: JP - zhuhai.uk 02
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: fan.571589.xyz
   skip-cert-verify: true
 - name: NL - zhuhai.uk 02
   type: vless
@@ -70,33 +59,12 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: NL - zhuhai.uk 04
-  type: ss
-  server: 193.123.39.7
-  port: 45819
-  cipher: 2022-blake3-chacha20-poly1305
-  password: yE6QCb+TH9e+h01wELq5xdiBgl/ePvuk31Uk8fKYCJ4=
 - name: US - zhuhai.uk 03
   type: http
   server: purecambogiasl.live
   port: 443
   username: bnVsbDpudWxs
   tls: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.200
-  skip-cert-verify: true
-- name: JP - zhuhai.uk 03
-  type: http
-  server: fan.587475.xyz
-  port: 443
-  tls: true
-  sni: fan.587475.xyz
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.37
@@ -122,19 +90,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: JP - zhuhai.uk 04
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
-  skip-cert-verify: true
-- name: JP - zhuhai.uk 05
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: KR - zhuhai.uk
   type: socks5
   server: 121.169.46.116
@@ -154,16 +109,3 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-- name: DE - zhuhai.uk 01
-  type: vless
-  server: 212.16.92.111
-  port: 443
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: jobinvest.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
