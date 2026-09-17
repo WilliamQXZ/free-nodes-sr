@@ -1,10 +1,11 @@
-# Mac hourly sync 2026-09-17 22:17:17 | alive 16
+# Mac hourly sync 2026-09-17 23:17:17 | alive 13
 proxies:
-- name: DE - zhuhai.uk
+- name: US - zhuhai.uk
   type: http
-  server: 149.36.50.129
-  port: 443
+  server: 138.199.35.212
+  port: 9002
   tls: true
+  sni: 138.199.35.212
   skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
@@ -20,23 +21,6 @@ proxies:
   port: 443
   tls: true
   sni: jgwynphotoarts.pro
-- name: GB - zhuhai.uk 02
-  type: http
-  server: 185.235.0.34
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: kimberlymilano.icu
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: socks5
-  server: 144.24.47.42
-  port: 1080
-  username: Og==
 - name: US - zhuhai.uk 06
   type: http
   server: 138.199.35.200
@@ -56,10 +40,18 @@ proxies:
   type: socks5
   server: 123.58.219.171
   port: 10808
-- name: HU - zhuhai.uk
+- name: JP - zhuhai.uk
   type: http
-  server: 146.70.203.18
+  server: fan.587475.xyz
   port: 443
+  tls: true
+  skip-cert-verify: true
+- name: FR - zhuhai.uk
+  type: http
+  server: fan.132031.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 07
@@ -79,24 +71,18 @@ proxies:
   tls: true
   sni: 51.158.243.91
   skip-cert-verify: true
-- name: US - zhuhai.uk 08
+- name: US - zhuhai.uk 10
   type: http
-  server: goedkoopgeluid.icu
+  server: mmgr.club
   port: 443
   tls: true
-- name: US - zhuhai.uk 09
-  type: http
-  server: 138.199.35.220
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: KR - zhuhai.uk
+  sni: mmgr.club
+- name: KR - zhuhai.uk 02
   type: socks5
   server: 121.169.46.116
   port: 1090
-  username: VkRKak9WQlViejA2Og==
+  username: Og%3D%3D
+  password: Og%3D%3D
 - name: NL - zhuhai.uk 01
   type: vless
   server: 146.103.100.242
