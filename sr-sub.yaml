@@ -1,5 +1,18 @@
-# Mac hourly sync 2026-09-17 15:17:43 | alive 20
+# Mac hourly sync 2026-09-17 16:17:44 | alive 20
 proxies:
+- name: US - zhuhai.uk
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+  username: Ok5vbmU=
+  tls: true
+- name: US - zhuhai.uk 02
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+  tls: true
+  sni: fullmanfirm.icu
+  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.23
@@ -77,12 +90,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: GB - zhuhai.uk
-  type: ss
-  server: 129.151.82.31
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 9eJ4Stlb7jKiYJnaWih2vrIpdyQX7W5IPcc9t5EXrC8=
 - name: US - zhuhai.uk 08
   type: http
   server: kimberlymilano.icu
@@ -99,26 +106,18 @@ proxies:
   password: e4b72b531a2d10900519
   tls: true
   sni: 93b6d804.acsnet.co
+- name: BE - zhuhai.uk
+  type: http
+  server: 146.70.123.98
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: RO - zhuhai.uk 03
   type: http
   server: 193.176.84.20
   port: 9002
   tls: true
   sni: www.bing.com
-  skip-cert-verify: true
-- name: KR - zhuhai.uk
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: T2c9PTo=
-- name: SG - zhuhai.uk
-  type: http
-  server: 146.70.29.45
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: 92461d2d.acsnet.co
   skip-cert-verify: true
 - name: DE - zhuhai.uk 01
   type: vless
