@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-18 01:17:15 | alive 23
+# Mac hourly sync 2026-09-18 02:17:42 | alive 16
 proxies:
 - name: HK - zhuhai.uk
   type: socks5
@@ -6,37 +6,12 @@ proxies:
   port: 8899
   username: admin
   password: admin
-- name: SE - zhuhai.uk
-  type: http
-  server: 146.70.242.130
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: DE - zhuhai.uk
-  type: http
-  server: 149.36.50.1
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.30
   port: 9002
   tls: true
   sni: www.bing.com
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 02
-  type: http
-  server: 193.176.84.39
-  port: 9002
-  tls: true
-  sni: 193.176.84.39
   skip-cert-verify: true
 - name: JP - zhuhai.uk
   type: http
@@ -90,21 +65,9 @@ proxies:
   tls: true
   sni: 84.17.47.150
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: ss
-  server: 3.141.200.225
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: NL - zhuhai.uk 02
   type: http
   server: 84.17.47.125
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08
-  type: http
-  server: 138.199.35.200
   port: 9002
   tls: true
   skip-cert-verify: true
@@ -116,18 +79,6 @@ proxies:
   tls: true
   sni: fan.571589.xyz
   skip-cert-verify: true
-- name: GB - zhuhai.uk
-  type: ss
-  server: 129.151.73.188
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: XXq8087l/F/17nlKDoxF5yHMha+CZIJKCj0UwWf0wRA=
-- name: US - zhuhai.uk 09
-  type: http
-  server: crosscards.site
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
 - name: KR - zhuhai.uk
   type: socks5
   server: 121.169.46.116
@@ -154,3 +105,9 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
+- name: ID - zhuhai.uk
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  tls: true
+  sni: efr-marktplatz.club
