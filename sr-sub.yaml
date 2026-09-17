@@ -1,11 +1,5 @@
-# Mac hourly sync 2026-09-17 09:17:14 | alive 22
+# Mac hourly sync 2026-09-17 10:17:16 | alive 21
 proxies:
-- name: SE - zhuhai.uk
-  type: http
-  server: 146.70.242.130
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.37
