@@ -1,33 +1,65 @@
-# Mac hourly sync 2026-09-17 21:17:21 | alive 12
+# Mac hourly sync 2026-09-17 22:17:17 | alive 16
 proxies:
-- name: GB - zhuhai.uk
-  type: ss
-  server: 144.24.225.111
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: xtHPuZw32Ek7q4odOVXoMn+UY9C/IdokDkolQjvdxrk=
+- name: DE - zhuhai.uk
+  type: http
+  server: 149.36.50.129
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.20
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: jgwynphotoarts.pro
+  port: 443
+  tls: true
+  sni: jgwynphotoarts.pro
+- name: GB - zhuhai.uk 02
+  type: http
+  server: 185.235.0.34
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 04
   type: http
   server: kimberlymilano.icu
   port: 443
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 05
+  type: socks5
+  server: 144.24.47.42
+  port: 1080
+  username: Og==
+- name: US - zhuhai.uk 06
+  type: http
+  server: 138.199.35.200
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 02
+  type: http
+  server: 193.176.84.34
+  port: 9002
+  tls: true
+  sni: 193.176.84.34
+  skip-cert-verify: true
 - name: HK - zhuhai.uk
   type: socks5
   server: 123.58.219.171
   port: 10808
-- name: JP - zhuhai.uk
+- name: HU - zhuhai.uk
   type: http
-  server: fan.587475.xyz
+  server: 146.70.203.18
   port: 443
-  tls: true
-  skip-cert-verify: true
-- name: FR - zhuhai.uk
-  type: http
-  server: fan.132031.xyz
-  port: 443
-  username: 'null'
-  password: 'null'
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 07
@@ -60,22 +92,23 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 10
-  type: http
-  server: mmgr.club
+- name: KR - zhuhai.uk
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: VkRKak9WQlViejA2Og==
+- name: NL - zhuhai.uk 01
+  type: vless
+  server: 146.103.100.242
   port: 443
+  uuid: a7c35c0c-e8b6-49a4-9d2c-1acee63fe2d6
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
   tls: true
-  sni: mmgr.club
-- name: US - zhuhai.uk 11
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-  username: Ok5vbmU=
-  tls: true
+  servername: dzen.ru
+  client-fingerprint: firefox
   skip-cert-verify: true
-- name: SG - zhuhai.uk
-  type: ss
-  server: 129.150.52.139
-  port: 56927
-  cipher: 2022-blake3-chacha20-poly1305
-  password: cAUXme9Y9EAWi28SXTU+es4KTr42+2hpNvFd7VohRO8=
+  reality-opts:
+    public-key: CxjnGHCI3HXN2RAXwytela7jXyOGDCBqzMAqTfm60D0
+    short-id: 4ed920401771c4ab
