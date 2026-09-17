@@ -1,5 +1,11 @@
-# Mac hourly sync 2026-09-17 17:17:20 | alive 17
+# Mac hourly sync 2026-09-17 18:17:19 | alive 13
 proxies:
+- name: US - zhuhai.uk
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+  username: Ok5vbmU=
+  tls: true
 - name: HK - zhuhai.uk
   type: http
   server: fan.240104.xyz
@@ -7,6 +13,13 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
+- name: US - zhuhai.uk 02
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+  tls: true
+  sni: fullmanfirm.icu
+  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.23
@@ -14,12 +27,6 @@ proxies:
   tls: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: US - zhuhai.uk 03
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-  username: Ok5vbmU=
-  tls: true
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.20
@@ -28,28 +35,18 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: NL - zhuhai.uk
+- name: JP - zhuhai.uk
   type: http
-  server: 157.22.183.72
+  server: fan.587475.xyz
   port: 443
   tls: true
+  sni: fan.587475.xyz
 - name: US - zhuhai.uk 04
   type: http
   server: 138.199.35.210
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: DE - zhuhai.uk
-  type: vless
-  server: 212.16.92.111
-  port: 443
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-  flow: xtls-rprx-vision
-  tls: true
-  servername: jobinvest.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - name: US - zhuhai.uk 05
   type: http
   server: 138.199.35.206
@@ -72,14 +69,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 09
-  type: http
-  server: 147.182.216.4
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: 93b6d804.acsnet.co
 - name: RO - zhuhai.uk 03
   type: http
   server: 193.176.84.20
@@ -101,42 +90,3 @@ proxies:
   tls: true
   sni: 92461d2d.acsnet.co
   skip-cert-verify: true
-- name: DE - zhuhai.uk 01
-  type: vless
-  server: 212.16.92.121
-  port: 443
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: jobinvest.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: AT - zhuhai.uk 01
-  type: vless
-  server: 212.16.92.111
-  port: 443
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: jobinvest.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: DE - zhuhai.uk 04
-  type: vless
-  server: 212.16.92.112
-  port: 443
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: jobinvest.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
