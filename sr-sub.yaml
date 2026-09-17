@@ -1,64 +1,21 @@
-# Mac hourly sync 2026-09-17 20:17:19 | alive 19
+# Mac hourly sync 2026-09-17 21:17:21 | alive 12
 proxies:
-- name: DE - zhuhai.uk
-  type: http
-  server: 149.36.50.129
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  tls: true
-  sni: 138.199.35.212
-  skip-cert-verify: true
 - name: GB - zhuhai.uk
   type: ss
   server: 144.24.225.111
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: xtHPuZw32Ek7q4odOVXoMn+UY9C/IdokDkolQjvdxrk=
-- name: RO - zhuhai.uk
-  type: http
-  server: 193.176.84.20
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03
-  type: http
-  server: jgwynphotoarts.pro
-  port: 443
-  tls: true
-  sni: jgwynphotoarts.pro
-- name: NL - zhuhai.uk
-  type: ss
-  server: 158.178.158.85
-  port: 45819
-  cipher: 2022-blake3-chacha20-poly1305
-  password: Wgb2EnMrwzgoO+oFwfT7h5HbnfrLd98XMXl/HYU/Qjw=
-- name: GB - zhuhai.uk 02
-  type: http
-  server: 185.235.0.34
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 04
   type: http
   server: kimberlymilano.icu
   port: 443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
+- name: HK - zhuhai.uk
+  type: socks5
+  server: 123.58.219.171
+  port: 10808
 - name: JP - zhuhai.uk
   type: http
   server: fan.587475.xyz
@@ -71,12 +28,6 @@ proxies:
   port: 443
   username: 'null'
   password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: HU - zhuhai.uk
-  type: http
-  server: 146.70.203.18
-  port: 443
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 07
@@ -109,6 +60,12 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 10
+  type: http
+  server: mmgr.club
+  port: 443
+  tls: true
+  sni: mmgr.club
 - name: US - zhuhai.uk 11
   type: http
   server: fullmanfirm.icu
@@ -116,11 +73,6 @@ proxies:
   username: Ok5vbmU=
   tls: true
   skip-cert-verify: true
-- name: KR - zhuhai.uk
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VkRKak9WQlViejA2Og==
 - name: SG - zhuhai.uk
   type: ss
   server: 129.150.52.139
