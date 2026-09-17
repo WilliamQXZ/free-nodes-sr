@@ -1,11 +1,5 @@
-# Mac hourly sync 2026-09-18 04:18:00 | alive 22
+# Mac hourly sync 2026-09-18 05:17:42 | alive 23
 proxies:
-- name: US - zhuhai.uk
-  type: http
-  server: zebpay.site
-  port: 443
-  username: Ok5vbmU=
-  tls: true
 - name: US - zhuhai.uk 02
   type: http
   server: 138.199.35.209
@@ -43,13 +37,6 @@ proxies:
   tls: true
   sni: 138.199.35.217
   skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: jewelscollecti.icu
-  port: 443
-  tls: true
-  sni: jewelscollecti.icu
-  skip-cert-verify: true
 - name: US - zhuhai.uk 06
   type: http
   server: 138.199.35.195
@@ -69,11 +56,14 @@ proxies:
   tls: true
   sni: 138.199.35.203
   skip-cert-verify: true
-- name: US - zhuhai.uk 08
+- name: US - zhuhai.uk 09
   type: http
-  server: purposebydesig.club
+  server: webdrone.club
   port: 443
+  username: Ok5vbmU=
   tls: true
+  sni: webdrone.club
+  skip-cert-verify: true
 - name: FR - zhuhai.uk
   type: http
   server: 141.94.16.4
@@ -92,12 +82,6 @@ proxies:
   port: 443
   tls: true
   sni: fan.240104.xyz
-- name: US - zhuhai.uk 11
-  type: http
-  server: mmgr.club
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
 - name: US - zhuhai.uk 12
   type: http
   server: 138.199.35.201
@@ -144,6 +128,23 @@ proxies:
   tls: true
   sni: fan.587475.xyz
   skip-cert-verify: true
+- name: KR - zhuhai.uk
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: VDJjbE0wUWxNMFE2Og
+  password: VDJjbE0wUWxNMFE2Og
+- name: KR - zhuhai.uk 02
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: Og%3D%3D
+- name: ID - zhuhai.uk
+  type: http
+  server: kimberlymilano.icu
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
 - name: HK - zhuhai.uk 02
   type: anytls
   server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -151,6 +152,17 @@ proxies:
   password: 9sK2mP8xQ7vL3nZ6
   udp: true
   sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  client-fingerprint: chrome
+- name: US - zhuhai.uk 15
+  type: anytls
+  server: awefd2313fefarg23fr24.pnuqcnp.cn
+  port: 443
+  password: 9sK2mP8xQ7vL3nZ6
+  udp: true
+  sni: images.ctfassets.net
   alpn:
   - http/1.1
   skip-cert-verify: true
