@@ -1,26 +1,5 @@
-# Mac hourly sync 2026-09-18 19:17:48 | alive 27
+# Mac hourly sync 2026-09-18 20:17:21 | alive 20
 proxies:
-- name: US - zhuhai.uk
-  type: http
-  server: 138.199.35.196
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.196
-  skip-cert-verify: true
-- name: DE - zhuhai.uk
-  type: http
-  server: 149.36.50.129
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: CZ - zhuhai.uk
-  type: http
-  server: 185.216.35.130
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: NL - zhuhai.uk
   type: http
   server: 84.17.47.146
@@ -35,9 +14,9 @@ proxies:
   server: 158.101.209.32
   port: 62145
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: DE - zhuhai.uk 02
+- name: NL - zhuhai.uk 03
   type: http
-  server: 149.36.50.1
+  server: 157.22.183.72
   port: 443
   tls: true
   skip-cert-verify: true
@@ -52,14 +31,6 @@ proxies:
   type: http
   server: 47.90.206.169
   port: 7615
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  username: 'null'
-  password: None
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 05
@@ -77,10 +48,11 @@ proxies:
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: GB - zhuhai.uk 02
+- name: DE - zhuhai.uk 03
   type: http
-  server: 37.120.233.18
+  server: fan.973511.xyz
   port: 443
+  username: bnVsbDpudWxs
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 07
@@ -108,13 +80,6 @@ proxies:
   port: 6103
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 08
-  type: http
-  server: crosscards.site
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
 - name: NL - zhuhai.uk 04
   type: http
   server: 84.17.47.148
@@ -136,24 +101,25 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 10
+  type: http
+  server: goedkoopgeluid.icu
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 11
   type: http
   server: tzoa.fun
   port: 443
   tls: true
-- name: DE - zhuhai.uk 04
-  type: ss
-  server: 130.61.112.180
-  port: 59924
-  cipher: 2022-blake3-chacha20-poly1305
-  password: ++mR5br/NAviA18jrILlV+DvdnZdmQqWhx54nclkxAI=
-- name: CZ - zhuhai.uk 02
-  type: http
-  server: 185.216.35.66
-  port: 443
-  tls: true
-  sni: 185.216.35.66
-  skip-cert-verify: true
+- name: HK - zhuhai.uk
+  type: socks5
+  server: 47.243.173.50
+  port: 11211
+  username: '111'
+  password: '111'
 - name: JP - zhuhai.uk
   type: http
   server: fan.571589.xyz
@@ -168,22 +134,3 @@ proxies:
   password: 'null'
   tls: true
   sni: fan.571589.xyz
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VmtSS2FrOVdRbFZpZWpBMk9nPT06
-- name: FI - zhuhai.uk 01
-  type: vless
-  server: a2.arshia-nova.ir
-  port: 443
-  uuid: cc3ec459-8d76-4066-ab4b-2614608f1afb
-  udp: true
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
