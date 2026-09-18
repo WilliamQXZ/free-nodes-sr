@@ -1,127 +1,122 @@
-# Mac hourly sync 2026-09-18 13:17:15 | alive 19
+# Mac hourly sync 2026-09-18 14:17:16 | alive 20
 proxies:
-- name: DE - zhuhai.uk
-  type: ss
-  server: 130.61.45.208
-  port: 59924
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 5rGNq8QrmZV0BGch+Rxs68Jr0LuVGuDhkVhLj4zEhR0=
-- name: DE - zhuhai.uk 02
+- name: NL - zhuhai.uk
   type: http
-  server: fan.973511.xyz
+  server: 84.17.47.148
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: JP - zhuhai.uk
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  tls: true
+  sni: fan.571589.xyz
+- name: DE - zhuhai.uk
+  type: http
+  server: 185.44.107.166
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: FI - zhuhai.uk
+  type: socks5
+  server: 83.147.216.208
+  port: 1080
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.17
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 193.176.84.17
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 02
+  type: http
+  server: 193.176.84.38
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk
+  type: http
+  server: 138.199.35.207
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: JP - zhuhai.uk 02
+  type: http
+  server: fan.571589.xyz
   port: 443
   username: bnVsbDpudWxs
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 02
   type: http
-  server: 138.199.35.215
+  server: 138.199.35.218
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: DE - zhuhai.uk 03
-  type: ss
-  server: 130.61.82.183
-  port: 59924
-  cipher: 2022-blake3-chacha20-poly1305
-  password: rsZGSjFXUyi6kX8P6glg15+TdK0zdtKVBjkHYeZdJ58=
 - name: US - zhuhai.uk 03
   type: http
-  server: 138.199.35.211
+  server: 138.199.35.204
   port: 9002
-  username: 'null'
-  password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04
+- name: NL - zhuhai.uk 02
   type: http
-  server: 147.182.216.4
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
+  server: 84.17.47.150
+  port: 9002
   tls: true
-  sni: 93b6d804.acsnet.co
-- name: DE - zhuhai.uk 04
+  skip-cert-verify: true
+- name: DE - zhuhai.uk 02
   type: ss
-  server: 130.61.119.117
+  server: 130.61.148.34
   port: 59924
   cipher: 2022-blake3-chacha20-poly1305
-  password: QXDAqNvQJDUMd7I6mdmSnWxJHM09yjBC6Gf5xGFDkFg=
-- name: LV - zhuhai.uk
+  password: NiPxf0H2Yidm6y+KQxFBL9h6N0fIGwFOiUQPGC+3l+w=
+- name: US - zhuhai.uk 04
   type: http
-  server: 109.248.147.66
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: 138.199.35.199
+  server: 138.199.35.205
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06
-  type: http
-  server: 138.199.35.204
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.204
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: 138.199.35.196
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: FR - zhuhai.uk
-  type: socks5
-  server: 51.178.49.241
-  port: 1088
-- name: US - zhuhai.uk 08
-  type: http
-  server: 138.199.35.217
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 09
-  type: http
-  server: 138.199.35.204
-  port: 9002
-  tls: true
-  sni: 138.199.35.204
-  skip-cert-verify: true
-- name: NL - zhuhai.uk
-  type: http
-  server: 51.158.243.91
-  port: 443
   username: 'null'
   password: 'null'
   tls: true
-  sni: 51.158.243.91
+  sni: 138.199.35.205
   skip-cert-verify: true
+- name: FI - zhuhai.uk 02
+  type: socks5
+  server: 83.147.216.208
+  port: 1080
+  username: Og==
+- name: ES - zhuhai.uk
+  type: socks5
+  server: 161.35.90.93
+  port: 1083
+- name: JP - zhuhai.uk 05
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: JP - zhuhai.uk 06
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  tls: true
 - name: HK - zhuhai.uk
   type: socks5
-  server: 47.239.116.165
-  port: 1080
-  username: admin
-  password: admin
+  server: 123.58.219.171
+  port: 10808
 - name: KR - zhuhai.uk 02
   type: socks5
   server: 121.169.46.116
   port: 1090
-  username: VmtSS2FrOVdRbFZpZWpBMk9nPT06
+  username: T2c9PTo=
 - name: SG - zhuhai.uk
   type: http
-  server: 146.70.29.45
+  server: 154.26.139.24
   port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
   tls: true
-  sni: 92461d2d.acsnet.co
-- name: SG - zhuhai.uk 02
-  type: ss
-  server: 161.118.242.116
-  port: 56927
-  cipher: 2022-blake3-chacha20-poly1305
-  password: O8NAGBdB4ptCXObiSU8J/Gf38K8gnGNG6Bj6QU6/1WI=
+  skip-cert-verify: true
