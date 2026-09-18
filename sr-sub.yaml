@@ -1,5 +1,12 @@
-# Mac hourly sync 2026-09-18 09:11:40 | alive 10
+# Mac hourly sync 2026-09-18 09:17:15 | alive 14
 proxies:
+- name: US - zhuhai.uk
+  type: http
+  server: webdrone.club
+  port: 443
+  username: T2s1dmJtVT06
+  tls: true
+  sni: webdrone.club
 - name: US - zhuhai.uk 02
   type: http
   server: 138.199.35.219
@@ -27,10 +34,23 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: jgwynphotoarts.pro
+  port: 443
+  tls: true
 - name: US - zhuhai.uk 07
   type: socks5
   server: 144.24.47.42
   port: 1080
+- name: DE - zhuhai.uk 02
+  type: http
+  server: fan.973511.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 08
   type: http
   server: 138.199.35.204
@@ -60,6 +80,10 @@ proxies:
   tls: true
   sni: 138.199.35.202
   skip-cert-verify: true
+- name: KR - zhuhai.uk 02
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
 - name: SG - zhuhai.uk
   type: http
   server: 146.70.29.45
