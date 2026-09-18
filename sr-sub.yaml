@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-19 03:17:17 | alive 23
+# Mac hourly sync 2026-09-19 04:18:02 | alive 23
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -103,12 +103,6 @@ proxies:
   tls: true
   sni: 193.176.84.27
   skip-cert-verify: true
-- name: US - zhuhai.uk 09
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-  username: Ok5vbmU=
-  tls: true
 - name: NL - zhuhai.uk 03
   type: vless
   server: 92.5.238.234
@@ -140,19 +134,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: JP - zhuhai.uk 02
-  type: vless
-  server: 8.209.248.218
-  port: 443
-  uuid: caab26f1-c2e0-438d-8342-5d2125fb45df
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.amazon.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: V94ws5oTIja_a6Hui3rSjomr7hZ-QCtYlsT7BWmxTzk
-    short-id: 973bd4f3d8d217fd
 - name: NO - zhuhai.uk
   type: vless
   server: norw-mori-3.failspace.top
@@ -163,8 +144,19 @@ proxies:
   servername: norw-mori-3.failspace.top
   skip-cert-verify: true
   client-fingerprint: firefox
+- name: HK - zhuhai.uk 02
+  type: socks5
+  server: 47.243.173.50
+  port: 11211
+  username: '111'
+  password: '111'
 - name: KR - zhuhai.uk 02
   type: socks5
   server: 121.169.46.116
   port: 1090
   username: Vm10U1MyRnJPVmRSYkZacFpXcEJNazluUFQwNjo=
+- name: ID - zhuhai.uk
+  type: http
+  server: zebpay.site
+  port: 443
+  tls: true
