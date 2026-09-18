@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-18 23:17:42 | alive 18
+# Mac hourly sync 2026-09-19 00:17:18 | alive 15
 proxies:
 - name: JP - zhuhai.uk
   type: http
@@ -14,19 +14,17 @@ proxies:
   tls: true
   sni: 193.176.84.17
   skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: vless
-  server: 172.64.159.196
+- name: ID - zhuhai.uk
+  type: http
+  server: crosscards.site
   port: 443
-  uuid: 49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1
   tls: true
-  servername: gy-cffc4-ch-node-x4hbj8y3aar0kil1.lancelot.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /new/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
-    headers:
-      Host: gy-cffc4-ch-node-x4hbj8y3aar0kil1.lancelot.dpdns.org
+- name: DE - zhuhai.uk
+  type: ss
+  server: 130.61.176.44
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: AQqPf1u0AmCFWLNBxK7ve1ODd1cTFFCg+q5qsF3hwoM=
 - name: DE - zhuhai.uk 02
   type: ss
   server: 130.61.235.30
@@ -59,24 +57,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VkRKamJFMHdVV3hOTUZFMk9nOlZESmpiRTB3VVd4Tk1GRTJPZw==
-- name: US - zhuhai.uk 07
-  type: vless
-  server: 172.64.152.145
-  port: 443
-  uuid: 49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1
-  tls: true
-  servername: gy-cffc2-ch-node-x4hbj8y3aar0kil1.lancelot.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /groups/episode/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
-    headers:
-      Host: gy-cffc2-ch-node-x4hbj8y3aar0kil1.lancelot.dpdns.org
 - name: NL - zhuhai.uk 02
   type: ss
   server: 134.98.137.0
@@ -94,25 +74,18 @@ proxies:
   tls: true
   sni: 138.199.35.198
   skip-cert-verify: true
-- name: US - zhuhai.uk 09
-  type: vless
-  server: ctcc.cloudflare.seeck.cn
-  port: 443
-  uuid: 49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1
-  tls: true
-  servername: gy-cffc3-ch-node-x4hbj8y3aar0kil1.lancelot.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /go.php/novel/soft/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
-    headers:
-      Host: gy-cffc3-ch-node-x4hbj8y3aar0kil1.lancelot.dpdns.org
 - name: SG - zhuhai.uk
   type: hysteria2
   server: sg3.xiaoliyu.us
   port: 2052
   password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
   sni: sg3.xiaoliyu.us
+  skip-cert-verify: true
+- name: US - zhuhai.uk 10
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+  tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 11
   type: http
@@ -121,35 +94,9 @@ proxies:
   tls: true
   sni: 138.199.35.219
   skip-cert-verify: true
-- name: HK - zhuhai.uk
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: 49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1
-  tls: true
-  servername: gy-cffc5-ch-node-x4hbj8y3aar0kil1.lancelot.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /f/lesson/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
-    headers:
-      Host: gy-cffc5-ch-node-x4hbj8y3aar0kil1.lancelot.dpdns.org
 - name: HK - zhuhai.uk 02
   type: socks5
   server: 47.242.19.215
   port: 8899
   username: admin
   password: admin
-- name: AT - zhuhai.uk 01
-  type: vless
-  server: g1.haxat.bestvbest.ir
-  port: 20610
-  uuid: d65a82af-a403-405e-8b7b-27a68b830511
-  udp: true
-  network: tcp
-  tls: true
-  servername: doctor-yab.ir
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: lcXIrYi2o8yXrYHR321qQ--5lqVT8a6TKbaGpYTq4CI
-    short-id: 1d1a8f9fefeff5e6
