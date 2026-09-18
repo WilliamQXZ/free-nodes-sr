@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-18 10:17:49 | alive 12
+# Mac hourly sync 2026-09-18 11:17:26 | alive 16
 proxies:
 - name: US - zhuhai.uk 02
   type: http
@@ -8,12 +8,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: DE - zhuhai.uk
-  type: http
-  server: 149.36.50.157
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.26
@@ -21,6 +15,12 @@ proxies:
   tls: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: NL - zhuhai.uk
+  type: ss
+  server: 92.5.231.133
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: gBPl8MuQUn/PBFVy+dKiMcPL6c0Ergh8ZmmGqMIH2NA=
 - name: US - zhuhai.uk 04
   type: hysteria2
   server: 24.233.8.109
@@ -30,6 +30,10 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: c8827ab99e316c5bd414e21afa915ddf
+- name: FR - zhuhai.uk
+  type: socks5
+  server: 144.91.121.61
+  port: 1088
 - name: US - zhuhai.uk 05
   type: http
   server: 138.199.35.197
@@ -38,6 +42,10 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 07
+  type: socks5
+  server: 144.24.47.42
+  port: 1080
 - name: DE - zhuhai.uk 02
   type: http
   server: fan.973511.xyz
@@ -62,6 +70,12 @@ proxies:
   tls: true
   sni: 193.35.104.196
   skip-cert-verify: true
+- name: GB - zhuhai.uk
+  type: ss
+  server: 129.151.65.24
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: YtbZ5p/WBjlRfs2aQ1vr44sGpkdKyx5Xbdd+DKP7ke0=
 - name: JP - zhuhai.uk
   type: http
   server: fan.587475.xyz
@@ -81,6 +95,10 @@ proxies:
   tls: true
   sni: 138.199.35.202
   skip-cert-verify: true
+- name: KR - zhuhai.uk 02
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
 - name: SG - zhuhai.uk
   type: http
   server: 146.70.29.45
