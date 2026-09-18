@@ -1,18 +1,17 @@
-# Mac hourly sync 2026-09-18 09:17:15 | alive 14
+# Mac hourly sync 2026-09-18 10:17:49 | alive 12
 proxies:
-- name: US - zhuhai.uk
-  type: http
-  server: webdrone.club
-  port: 443
-  username: T2s1dmJtVT06
-  tls: true
-  sni: webdrone.club
 - name: US - zhuhai.uk 02
   type: http
   server: 138.199.35.219
   port: 9002
   username: 'null'
   password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: DE - zhuhai.uk
+  type: http
+  server: 149.36.50.157
+  port: 443
   tls: true
   skip-cert-verify: true
 - name: RO - zhuhai.uk
@@ -22,10 +21,15 @@ proxies:
   tls: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: FR - zhuhai.uk
-  type: socks5
-  server: 144.91.121.61
-  port: 1088
+- name: US - zhuhai.uk 04
+  type: hysteria2
+  server: 24.233.8.109
+  port: 443
+  password: 8294f130408299df8cab08c80bf6f819
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c8827ab99e316c5bd414e21afa915ddf
 - name: US - zhuhai.uk 05
   type: http
   server: 138.199.35.197
@@ -34,15 +38,6 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06
-  type: http
-  server: jgwynphotoarts.pro
-  port: 443
-  tls: true
-- name: US - zhuhai.uk 07
-  type: socks5
-  server: 144.24.47.42
-  port: 1080
 - name: DE - zhuhai.uk 02
   type: http
   server: fan.973511.xyz
@@ -67,6 +62,12 @@ proxies:
   tls: true
   sni: 193.35.104.196
   skip-cert-verify: true
+- name: JP - zhuhai.uk
+  type: http
+  server: fan.587475.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: HK - zhuhai.uk
   type: http
   server: fan.240104.xyz
@@ -80,10 +81,6 @@ proxies:
   tls: true
   sni: 138.199.35.202
   skip-cert-verify: true
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
 - name: SG - zhuhai.uk
   type: http
   server: 146.70.29.45
