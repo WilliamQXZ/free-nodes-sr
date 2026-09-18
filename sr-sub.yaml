@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-18 21:17:49 | alive 21
+# Mac hourly sync 2026-09-18 22:17:47 | alive 22
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -9,9 +9,9 @@ proxies:
   tls: true
   sni: 138.199.35.196
   skip-cert-verify: true
-- name: CZ - zhuhai.uk
+- name: DE - zhuhai.uk
   type: http
-  server: 185.216.35.130
+  server: 149.36.50.129
   port: 443
   tls: true
   skip-cert-verify: true
@@ -35,11 +35,12 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: DE - zhuhai.uk 02
+- name: US - zhuhai.uk 02
   type: http
-  server: 149.36.50.1
+  server: jewelscollecti.icu
   port: 443
   tls: true
+  sni: jewelscollecti.icu
   skip-cert-verify: true
 - name: US - zhuhai.uk 03
   type: http
@@ -70,12 +71,6 @@ proxies:
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: GB - zhuhai.uk 02
-  type: http
-  server: 37.120.233.18
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: DE - zhuhai.uk 03
   type: http
   server: fan.973511.xyz
@@ -96,6 +91,12 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: SG - zhuhai.uk
+  type: ss
+  server: 168.107.65.209
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: jzbveBTs+YuJotZVNhD1uM6abJDkpkxoV/ZPZTYTaSs=
 - name: FR - zhuhai.uk
   type: http
   server: 87.98.174.157
@@ -117,27 +118,36 @@ proxies:
   tls: true
   sni: 138.199.35.217
   skip-cert-verify: true
+- name: US - zhuhai.uk 10
+  type: http
+  server: goedkoopgeluid.icu
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 11
+  type: http
+  server: tzoa.fun
+  port: 443
+  tls: true
 - name: DE - zhuhai.uk 04
   type: ss
   server: 130.61.112.180
   port: 59924
   cipher: 2022-blake3-chacha20-poly1305
   password: ++mR5br/NAviA18jrILlV+DvdnZdmQqWhx54nclkxAI=
-- name: CZ - zhuhai.uk 02
-  type: http
-  server: 185.216.35.66
-  port: 443
-  tls: true
-  sni: 185.216.35.66
-  skip-cert-verify: true
 - name: HK - zhuhai.uk
   type: socks5
   server: 47.243.173.50
   port: 11211
   username: '111'
   password: '111'
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VmtSS2FrOVdRbFZpZWpBMk9nPT06
+- name: JP - zhuhai.uk 02
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: fan.571589.xyz
