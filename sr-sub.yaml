@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-18 17:17:15 | alive 15
+# Mac hourly sync 2026-09-18 18:17:21 | alive 16
 proxies:
 - name: NL - zhuhai.uk
   type: http
@@ -8,10 +8,12 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: FI - zhuhai.uk
-  type: socks5
-  server: 83.147.216.208
-  port: 1080
+- name: DE - zhuhai.uk
+  type: http
+  server: 185.44.107.166
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.17
@@ -71,23 +73,25 @@ proxies:
   server: 83.147.216.208
   port: 1080
   username: Og==
-- name: DE - zhuhai.uk 03
-  type: hysteria2
-  server: fl2.xiaoliyu.us
-  port: 2052
-  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-  sni: fl2.xiaoliyu.us
-  skip-cert-verify: true
+- name: ES - zhuhai.uk
+  type: socks5
+  server: 161.35.90.93
+  port: 1083
+- name: JP - zhuhai.uk 05
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
 - name: JP - zhuhai.uk 06
   type: http
   server: fan.571589.xyz
   port: 443
   tls: true
-- name: HK - zhuhai.uk 02
-  type: http
-  server: fan.240104.xyz
-  port: 443
-  tls: true
+- name: HK - zhuhai.uk
+  type: socks5
+  server: 123.58.219.171
+  port: 10808
 - name: SG - zhuhai.uk
   type: http
   server: 154.26.139.24
