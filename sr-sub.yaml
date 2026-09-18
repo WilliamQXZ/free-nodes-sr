@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-19 05:17:16 | alive 26
+# Mac hourly sync 2026-09-19 06:17:43 | alive 21
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -80,25 +80,6 @@ proxies:
   tls: true
   sni: 138.199.35.199
   skip-cert-verify: true
-- name: US - zhuhai.uk 10
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: NL - zhuhai.uk
-  type: vless
-  server: 150.251.141.28
-  port: 443
-  uuid: 129799e0-a9b1-4ae8-80bd-fa92db813f85
-  flow: xtls-rprx-vision
-  tls: true
-  servername: nolan.shhflow.xyz
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: iKiBA7VUMrGy7J3puIr6rbsEj7FMtRazqQywedgGeCA
 - name: US - zhuhai.uk 11
   type: http
   server: 138.199.35.218
@@ -114,14 +95,6 @@ proxies:
   username: 'null'
   password: None
   tls: true
-  skip-cert-verify: true
-- name: JP - zhuhai.uk
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
-  sni: fan.571589.xyz
   skip-cert-verify: true
 - name: NL - zhuhai.uk 02
   type: http
@@ -152,12 +125,6 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: GB - zhuhai.uk
-  type: ss
-  server: 129.151.68.65
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 0N1dYtQFmHnwBeKv53o5MJDkRzbGYY1KkLXnaNkWo3o=
 - name: US - zhuhai.uk 14
   type: http
   server: 138.199.35.216
@@ -166,27 +133,22 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
+- name: HK - zhuhai.uk
+  type: http
+  server: hk40.240104.xyz
+  port: 443
+  tls: true
+  sni: hk40.240104.xyz
+  skip-cert-verify: true
 - name: HK - zhuhai.uk 02
   type: socks5
   server: 47.242.19.215
   port: 8899
   username: admin
   password: admin
-- name: SG - zhuhai.uk
-  type: ss
-  server: 168.107.65.209
-  port: 56927
-  cipher: 2022-blake3-chacha20-poly1305
-  password: jzbveBTs+YuJotZVNhD1uM6abJDkpkxoV/ZPZTYTaSs=
 - name: IN - zhuhai.uk
   type: http
   server: 35.197.129.84
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: ID - zhuhai.uk
-  type: http
-  server: goedkoopgeluid.icu
   port: 443
   tls: true
   skip-cert-verify: true
