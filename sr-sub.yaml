@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-18 07:17:14 | alive 18
+# Mac hourly sync 2026-09-18 08:17:42 | alive 24
 proxies:
 - name: JP - zhuhai.uk
   type: http
@@ -45,12 +45,33 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: carolinafreigh.fun
+- name: US - zhuhai.uk 03
+  type: hysteria2
+  server: 24.233.8.109
   port: 443
-  username: Ok5vbmU=
+  password: 8294f130408299df8cab08c80bf6f819
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c8827ab99e316c5bd414e21afa915ddf
+- name: KR - zhuhai.uk
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: VkRKamJFMHdVV3hOTUZFMk9nOlZESmpiRTB3VVd4Tk1GRTJPZw==
+- name: JP - zhuhai.uk 03
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: bnVsbDpudWxs
   tls: true
+  sni: fan.571589.xyz
+- name: US - zhuhai.uk 05
+  type: ss
+  server: 3.148.253.102
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: NL - zhuhai.uk 02
   type: http
   server: 51.158.243.91
@@ -91,6 +112,20 @@ proxies:
   - http/1.1
   skip-cert-verify: true
   client-fingerprint: chrome
+- name: ES - zhuhai.uk
+  type: hysteria2
+  server: es1.xiaoliyu.cyou
+  port: 4433
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08
+  type: http
+  server: mmgr.club
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
 - name: FR - zhuhai.uk
   type: http
   server: fan.132031.xyz
@@ -121,6 +156,18 @@ proxies:
   tls: true
   sni: fan.571589.xyz
   skip-cert-verify: true
+- name: NL - zhuhai.uk 03
+  type: vless
+  server: 186.246.10.40
+  port: 443
+  uuid: 86ea1e85-b95d-4afd-b28f-b41831d56665
+  tls: true
+  servername: cdn.dachniy-vopros.org
+  network: ws
+  ws-opts:
+    path: /home
+    headers:
+      Host: cdn.dachniy-vopros.org
 - name: SG - zhuhai.uk
   type: http
   server: 146.70.29.45
