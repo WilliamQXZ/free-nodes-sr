@@ -1,16 +1,5 @@
-# Mac hourly sync 2026-09-19 08:17:16 | alive 18
+# Mac hourly sync 2026-09-19 09:17:46 | alive 14
 proxies:
-- name: NL - zhuhai.uk
-  type: vless
-  server: 150.251.141.28
-  port: 443
-  uuid: 129799e0-a9b1-4ae8-80bd-fa92db813f85
-  flow: xtls-rprx-vision
-  tls: true
-  servername: nolan.shhflow.xyz
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: iKiBA7VUMrGy7J3puIr6rbsEj7FMtRazqQywedgGeCA
 - name: DE - zhuhai.uk
   type: ss
   server: 130.61.130.33
@@ -34,12 +23,6 @@ proxies:
   tls: true
   sni: 138.199.35.217
   skip-cert-verify: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: crosscards.site
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.17
@@ -68,12 +51,12 @@ proxies:
   server: 134.98.133.200
   port: 62145
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: US - zhuhai.uk 05
+- name: US - zhuhai.uk 04
   type: http
-  server: goedkoopgeluid.icu
+  server: zebpay.site
   port: 443
   username: 'null'
-  password: 'null'
+  password: None
   tls: true
 - name: NL - zhuhai.uk 03
   type: http
@@ -81,25 +64,16 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: FI - zhuhai.uk
+  type: socks5
+  server: 83.147.216.208
+  port: 1080
 - name: US - zhuhai.uk 06
   type: http
   server: fan.226278.xyz
   port: 443
   tls: true
   sni: fan.226278.xyz
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: efr-marktplatz.club
-  port: 443
-  username: Ok5vbmU=
-  tls: true
-  sni: efr-marktplatz.club
-- name: SE - zhuhai.uk
-  type: http
-  server: 146.70.242.130
-  port: 443
-  tls: true
   skip-cert-verify: true
 - name: JP - zhuhai.uk 03
   type: http
@@ -121,10 +95,4 @@ proxies:
   password: e4b72b531a2d10900519
   tls: true
   sni: 92461d2d.acsnet.co
-  skip-cert-verify: true
-- name: ID - zhuhai.uk
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-  tls: true
   skip-cert-verify: true
