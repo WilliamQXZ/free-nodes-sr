@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-19 13:18:12 | alive 20
+# Mac hourly sync 2026-09-19 14:17:44 | alive 15
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -6,12 +6,6 @@ proxies:
   port: 9002
   username: 'null'
   password: None
-  tls: true
-  skip-cert-verify: true
-- name: SG - zhuhai.uk
-  type: http
-  server: 149.88.99.209
-  port: 9443
   tls: true
   skip-cert-verify: true
 - name: JP - zhuhai.uk
@@ -33,31 +27,16 @@ proxies:
   server: fan.240104.xyz
   port: 443
   tls: true
-- name: US - zhuhai.uk 03
-  type: http
-  server: fan.365747.xyz
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.23
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: JP - zhuhai.uk 02
-  type: vless
-  server: 8.209.248.218
-  port: 443
-  uuid: caab26f1-c2e0-438d-8342-5d2125fb45df
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.amazon.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: V94ws5oTIja_a6Hui3rSjomr7hZ-QCtYlsT7BWmxTzk
-    short-id: 973bd4f3d8d217fd
+- name: FI - zhuhai.uk
+  type: socks5
+  server: 83.147.216.208
+  port: 1080
 - name: JP - zhuhai.uk 03
   type: http
   server: fan.587475.xyz
@@ -92,12 +71,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: AT - zhuhai.uk
-  type: http
-  server: 146.70.244.18
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: GB - zhuhai.uk
   type: ss
   server: 129.151.68.65
@@ -111,17 +84,6 @@ proxies:
   username: bnVsbDpudWxs
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: vless
-  server: 172.67.183.52
-  port: 80
-  uuid: c8f3f81a-5276-48e9-af6b-c537fb4c7856
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vl/2INL39K32mKsOBKt?ed=2560
-    headers:
-      Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
 - name: NL - zhuhai.uk 02
   type: vless
   server: hhhorp.plus-hit.ru
@@ -150,17 +112,3 @@ proxies:
     path: /?TELEGRAM-TOOTFFARANGI
     headers:
       Host: c12.com
-- name: SG - zhuhai.uk 01
-  type: vless
-  server: 18.140.28.73
-  port: 443
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-  udp: true
-  network: ws
-  tls: true
-  servername: mia11.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /TG:@MiaChatChannel
-    headers:
-      Host: mia11.pages.dev
