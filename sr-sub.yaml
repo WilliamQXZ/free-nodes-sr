@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-19 20:17:24 | alive 20
+# Mac hourly sync 2026-09-19 21:17:50 | alive 15
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -35,12 +35,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: RU - zhuhai.uk
-  type: hysteria2
-  server: msk.frkn.org
-  port: 443
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  sni: msk.frkn.org
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.17
@@ -82,12 +76,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 10
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 11
   type: http
   server: 138.199.35.204
@@ -97,21 +85,19 @@ proxies:
   tls: true
   sni: 138.199.35.204
   skip-cert-verify: true
-- name: FR - zhuhai.uk
-  type: socks5
-  server: 51.178.49.241
-  port: 1088
+- name: US - zhuhai.uk 12
+  type: http
+  server: purposebydesig.club
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
 - name: JP - zhuhai.uk
   type: http
   server: fan.571589.xyz
   port: 443
   tls: true
   skip-cert-verify: true
-- name: JP - zhuhai.uk 02
-  type: http
-  server: fan.587475.xyz
-  port: 443
-  tls: true
 - name: KR - zhuhai.uk 02
   type: vless
   server: 34.64.149.137
@@ -124,18 +110,6 @@ proxies:
   reality-opts:
     public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
     short-id: 3fd0a8ddef3ae5c6
-- name: SG - zhuhai.uk
-  type: http
-  server: 154.26.139.24
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: SG - zhuhai.uk 02
-  type: http
-  server: 149.88.99.209
-  port: 9443
-  tls: true
-  skip-cert-verify: true
 - name: IN - zhuhai.uk
   type: http
   server: 35.197.129.84
