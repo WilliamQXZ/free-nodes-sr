@@ -1,60 +1,5 @@
-# Mac hourly sync 2026-09-19 07:17:18 | alive 20
+# Mac hourly sync 2026-09-19 08:17:16 | alive 18
 proxies:
-- name: US - zhuhai.uk
-  type: http
-  server: 138.199.35.202
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03
-  type: http
-  server: fan.596189.xyz
-  port: 443
-  tls: true
-  sni: fan.596189.xyz
-  skip-cert-verify: true
-- name: FR - zhuhai.uk
-  type: http
-  server: fan.132031.xyz
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: 138.199.35.195
-  port: 9002
-  tls: true
-  sni: 138.199.35.195
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 09
-  type: http
-  server: 138.199.35.199
-  port: 9002
-  tls: true
-  sni: 138.199.35.199
-  skip-cert-verify: true
-- name: US - zhuhai.uk 10
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
 - name: NL - zhuhai.uk
   type: vless
   server: 150.251.141.28
@@ -63,86 +8,123 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: nolan.shhflow.xyz
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   reality-opts:
     public-key: iKiBA7VUMrGy7J3puIr6rbsEj7FMtRazqQywedgGeCA
-- name: US - zhuhai.uk 11
-  type: http
-  server: 138.199.35.218
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk
-  type: http
-  server: 193.176.84.22
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
+- name: DE - zhuhai.uk
+  type: ss
+  server: 130.61.130.33
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: RpNOp0rdeUcXTBh/XgawUngLjpcB87tY8NaiVQl/dpo=
 - name: JP - zhuhai.uk
   type: http
   server: fan.571589.xyz
   port: 443
-  username: bnVsbDpudWxs
+  username: 'null'
+  password: 'null'
   tls: true
   sni: fan.571589.xyz
+- name: US - zhuhai.uk
+  type: http
+  server: 138.199.35.217
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.217
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02
+  type: http
+  server: crosscards.site
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.17
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 193.176.84.17
+  skip-cert-verify: true
+- name: JP - zhuhai.uk 02
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  tls: true
+  sni: fan.571589.xyz
+- name: US - zhuhai.uk 03
+  type: http
+  server: 138.199.35.205
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
   skip-cert-verify: true
 - name: NL - zhuhai.uk 02
+  type: vless
+  server: 134.98.133.200
+  port: 62145
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: US - zhuhai.uk 05
   type: http
-  server: 84.17.47.149
-  port: 9002
+  server: goedkoopgeluid.icu
+  port: 443
   username: 'null'
   password: 'null'
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 12
+- name: NL - zhuhai.uk 03
   type: http
-  server: 138.199.35.210
+  server: 84.17.47.148
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: BD - zhuhai.uk
+- name: US - zhuhai.uk 06
   type: http
-  server: 35.247.136.78
+  server: fan.226278.xyz
+  port: 443
+  tls: true
+  sni: fan.226278.xyz
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  username: Ok5vbmU=
+  tls: true
+  sni: efr-marktplatz.club
+- name: SE - zhuhai.uk
+  type: http
+  server: 146.70.242.130
   port: 443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 13
+- name: JP - zhuhai.uk 03
   type: http
-  server: 138.199.35.195
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.195
-  skip-cert-verify: true
-- name: US - zhuhai.uk 14
-  type: http
-  server: 138.199.35.216
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: HK - zhuhai.uk
-  type: http
-  server: hk40.240104.xyz
+  server: fan.571589.xyz
   port: 443
   tls: true
-  sni: hk40.240104.xyz
   skip-cert-verify: true
-- name: HK - zhuhai.uk 02
-  type: socks5
-  server: 47.242.19.215
-  port: 8899
-  username: admin
-  password: admin
-- name: IN - zhuhai.uk
+- name: NL - zhuhai.uk 04
+  type: ss
+  server: 150.230.23.94
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: KwT6JM5cthwFzkjJ7MNDvFwSFtXqYgAAj6q7kkJjLOY=
+- name: SG - zhuhai.uk 02
   type: http
-  server: 35.197.129.84
+  server: 146.70.29.45
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: 92461d2d.acsnet.co
+  skip-cert-verify: true
+- name: ID - zhuhai.uk
+  type: http
+  server: goedkoopgeluid.icu
   port: 443
   tls: true
   skip-cert-verify: true
