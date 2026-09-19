@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-19 15:17:17 | alive 19
+# Mac hourly sync 2026-09-19 16:17:17 | alive 22
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -64,11 +64,6 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: FI - zhuhai.uk
-  type: socks5
-  server: 83.147.216.208
-  port: 1080
-  username: Og==
 - name: JP - zhuhai.uk 03
   type: http
   server: fan.571589.xyz
@@ -80,6 +75,19 @@ proxies:
   port: 8090
   tls: true
   skip-cert-verify: true
+- name: JP - zhuhai.uk 04
+  type: vless
+  server: 8.209.248.218
+  port: 443
+  uuid: caab26f1-c2e0-438d-8342-5d2125fb45df
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.amazon.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: V94ws5oTIja_a6Hui3rSjomr7hZ-QCtYlsT7BWmxTzk
+    short-id: 973bd4f3d8d217fd
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.22
@@ -94,6 +102,12 @@ proxies:
   port: 9002
   username: 'null'
   password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: AT - zhuhai.uk
+  type: http
+  server: 146.70.244.18
+  port: 443
   tls: true
   skip-cert-verify: true
 - name: HK - zhuhai.uk
@@ -118,6 +132,23 @@ proxies:
   tls: true
   sni: 92461d2d.acsnet.co
   skip-cert-verify: true
+- name: SG - zhuhai.uk 02
+  type: http
+  server: 149.88.99.209
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04
+  type: vless
+  server: 172.67.179.98
+  port: 8880
+  uuid: 81b3fa7e-12b0-4c2b-9866-324edd26ef7f
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: falling-lake-0b5a.192-3e2.workers.dev
 - name: FI - zhuhai.uk 01
   type: vless
   server: 151.101.56.6
