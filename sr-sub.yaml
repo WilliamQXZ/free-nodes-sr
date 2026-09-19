@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-19 17:17:16 | alive 18
+# Mac hourly sync 2026-09-19 18:17:16 | alive 18
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -34,6 +34,12 @@ proxies:
   port: 443
   username: bnVsbDpudWxs
   tls: true
+- name: CZ - zhuhai.uk
+  type: http
+  server: 193.35.104.196
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.25
@@ -46,23 +52,12 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: NL - zhuhai.uk 03
-  type: ss
-  server: 158.178.151.166
-  port: 45819
-  cipher: 2022-blake3-chacha20-poly1305
-  password: gfUQDQFFyto9dzLAec5MeJgPRwSwEedoPiuWL6+NTPA=
 - name: JP - zhuhai.uk 02
   type: http
   server: fan.571589.xyz
   port: 443
   tls: true
   skip-cert-verify: true
-- name: FI - zhuhai.uk
-  type: socks5
-  server: 83.147.216.208
-  port: 1080
-  username: Og==
 - name: JP - zhuhai.uk 03
   type: http
   server: fan.571589.xyz
@@ -74,6 +69,19 @@ proxies:
   port: 8090
   tls: true
   skip-cert-verify: true
+- name: JP - zhuhai.uk 04
+  type: vless
+  server: 8.209.248.218
+  port: 443
+  uuid: caab26f1-c2e0-438d-8342-5d2125fb45df
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.amazon.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: V94ws5oTIja_a6Hui3rSjomr7hZ-QCtYlsT7BWmxTzk
+    short-id: 973bd4f3d8d217fd
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.22
@@ -112,14 +120,17 @@ proxies:
   tls: true
   sni: 92461d2d.acsnet.co
   skip-cert-verify: true
-- name: US - zhuhai.uk 04
+- name: FI - zhuhai.uk 01
   type: vless
-  server: 172.67.179.98
-  port: 8880
-  uuid: 81b3fa7e-12b0-4c2b-9866-324edd26ef7f
+  server: 151.101.56.6
+  port: 443
+  uuid: 029fc301-ac31-4aae-9fd8-5d0bff6ec5c0
   udp: true
   network: ws
+  tls: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: /?TELEGRAM-TOOTFFARANGI
     headers:
-      Host: falling-lake-0b5a.192-3e2.workers.dev
+      Host: c12.com
