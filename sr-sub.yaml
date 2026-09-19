@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-20 02:17:18 | alive 24
+# Mac hourly sync 2026-09-20 03:17:14 | alive 18
 proxies:
 - name: NL - zhuhai.uk
   type: http
@@ -45,18 +45,6 @@ proxies:
   reality-opts:
     public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
     short-id: 4d14da19b19cfc8c
-- name: GB - zhuhai.uk
-  type: vless
-  server: uk1.miyazono-kaori.com
-  port: 443
-  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.bp.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-    short-id: d923
 - name: GB - zhuhai.uk 02
   type: ss
   server: 129.151.72.10
@@ -77,12 +65,6 @@ proxies:
   port: 1080
   username: test123
   password: test123
-- name: GB - zhuhai.uk 03
-  type: http
-  server: 37.120.233.50
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 03
   type: http
   server: 138.199.35.199
@@ -147,51 +129,3 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: HK - zhuhai.uk
-  type: vless
-  server: hk3.miyazono-kaori.com
-  port: 443
-  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
-  flow: xtls-rprx-vision
-  tls: true
-  servername: hk4e-launcher-static.hoyoverse.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
-    short-id: b81edf7fdee4
-- name: HK - zhuhai.uk 02
-  type: vless
-  server: hk5.miyazono-kaori.com
-  port: 443
-  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.hsbc.com.hk
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
-    short-id: a273e9ee6ac0a466
-- name: SG - zhuhai.uk
-  type: vless
-  server: sg3.miyazono-kaori.com
-  port: 443
-  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.changiairport.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: jpn2pLj_p5lxGwycLht80v2qNeP7jHwh1Gv-nTU8zXY
-    short-id: ddcd71ec09e5893a
-- name: SG - zhuhai.uk 02
-  type: vless
-  server: sg1.miyazono-kaori.com
-  port: 443
-  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
-  flow: xtls-rprx-vision
-  tls: true
-  servername: sg-hyp-api.hoyoverse.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
-    short-id: 37c94ae25b69a93a
