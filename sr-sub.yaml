@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-21 02:17:15 | alive 21
+# Mac hourly sync 2026-09-21 03:17:43 | alive 18
 proxies:
 - name: HK - zhuhai.uk
   type: vless
@@ -11,14 +11,18 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: 0BRJ4nv0yLutb5ATRT3WbLgE9Y58udx3PbVOUVbOhkY
-- name: US - zhuhai.uk
-  type: http
-  server: 107.151.238.27
+- name: NL - zhuhai.uk
+  type: vless
+  server: 45.11.27.86
   port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
+  uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
+  flow: xtls-rprx-vision
   tls: true
-  sni: 6b97ee1b.acsnet.co
+  servername: 5post-gate.x5.ru
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: IBzFSziv_xISB-Q6X90PocTBde6jb4X6swEvdZQhqzk
+    short-id: d0aae44f
 - name: US - zhuhai.uk 02
   type: http
   server: 138.199.35.219
@@ -39,13 +43,6 @@ proxies:
   type: socks5
   server: 123.58.219.171
   port: 10808
-- name: DE - zhuhai.uk
-  type: hysteria2
-  server: dg1.mangshe.xyz
-  port: 2056
-  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  sni: dg1.mangshe.xyz
-  skip-cert-verify: true
 - name: US - zhuhai.uk 03
   type: http
   server: 138.199.35.198
@@ -67,12 +64,6 @@ proxies:
   tls: true
   sni: 138.199.35.209
   skip-cert-verify: true
-- name: US - zhuhai.uk 06
-  type: http
-  server: berniesbodybla.fun
-  port: 443
-  username: Ok5vbmU=
-  tls: true
 - name: DE - zhuhai.uk 02
   type: http
   server: fan.973511.xyz
@@ -107,12 +98,6 @@ proxies:
   tls: true
   sni: 138.199.35.207
   skip-cert-verify: true
-- name: US - zhuhai.uk 09
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 10
   type: http
   server: 138.199.35.208
@@ -133,6 +118,17 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
+- name: HK - zhuhai.uk 04
+  type: vless
+  server: 45.144.137.215
+  port: 29827
+  uuid: 2726dd7f-81fe-4b31-9b9b-e691ee730562
+  flow: xtls-rprx-vision
+  tls: true
+  servername: aws.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: aFwfZMfFUyzU8RB_vh3fxtjUxDcQlu4QapSdQH0jG04
 - name: JP - zhuhai.uk
   type: http
   server: fan.571589.xyz
@@ -145,11 +141,3 @@ proxies:
   server: 121.169.46.116
   port: 1090
   username: Vm10U1MyRnJPVmRSYkZacFpXcEJNazluUFQwNjo=
-- name: SG - zhuhai.uk 02
-  type: vless
-  server: 172.104.57.243
-  port: 443
-  uuid: b847f2ff-091f-4396-a8d0-d2fe3bfaa0bf
-  tls: true
-  servername: zoom.us
-  skip-cert-verify: true
