@@ -1,159 +1,119 @@
-# Mac hourly sync 2026-09-21 04:17:43 | alive 21
+# Mac hourly sync 2026-09-21 05:17:44 | alive 14
 proxies:
-- name: HK - zhuhai.uk
-  type: vless
-  server: 207.57.128.108
-  port: 35559
-  uuid: 6d7deb4c-d700-4e0f-bc17-122ccc564f28
-  flow: xtls-rprx-vision
+- name: JP - zhuhai.uk
+  type: http
+  server: fan.571589.xyz
+  port: 443
   tls: true
-  servername: www.ebay.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0BRJ4nv0yLutb5ATRT3WbLgE9Y58udx3PbVOUVbOhkY
+  skip-cert-verify: true
 - name: US - zhuhai.uk
   type: http
-  server: 107.151.238.27
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: 6b97ee1b.acsnet.co
-- name: US - zhuhai.uk 02
-  type: http
-  server: 138.199.35.219
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.219
-  skip-cert-verify: true
-- name: BD - zhuhai.uk
-  type: http
-  server: 35.247.136.78
-  port: 443
-  tls: true
-  sni: 35.247.136.78
-  skip-cert-verify: true
-- name: HK - zhuhai.uk 02
-  type: socks5
-  server: 123.58.219.171
-  port: 10808
-- name: US - zhuhai.uk 03
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: NL - zhuhai.uk 02
-  type: http
-  server: 84.17.47.148
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: 138.199.35.209
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.209
-  skip-cert-verify: true
-- name: RU - zhuhai.uk
-  type: hysteria2
-  server: ru.xiaoliyu.cyou
-  port: 4433
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  skip-cert-verify: true
-- name: DE - zhuhai.uk 02
-  type: http
-  server: fan.973511.xyz
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: 138.199.35.209
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: HK - zhuhai.uk 03
-  type: vless
-  server: 207.57.129.114
-  port: 14934
-  uuid: 630b700b-3c91-463a-9ef5-ee01f5848b45
-  flow: xtls-rprx-vision
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: C9qIqeSCAkCLIqki3n21hyeILLltWcZJ6M0HgRTGmk4
-- name: US - zhuhai.uk 08
-  type: http
-  server: 138.199.35.207
+  server: 138.199.35.215
   port: 9002
   username: 'null'
   password: None
   tls: true
-  sni: 138.199.35.207
   skip-cert-verify: true
-- name: US - zhuhai.uk 09
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 10
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: IN - zhuhai.uk
-  type: http
-  server: 35.197.129.84
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: AU - zhuhai.uk
-  type: http
-  server: 159.13.44.228
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: HK - zhuhai.uk 04
-  type: vless
-  server: 45.144.137.215
-  port: 29827
-  uuid: 2726dd7f-81fe-4b31-9b9b-e691ee730562
-  flow: xtls-rprx-vision
-  tls: true
-  servername: aws.amazon.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: aFwfZMfFUyzU8RB_vh3fxtjUxDcQlu4QapSdQH0jG04
-- name: JP - zhuhai.uk
+- name: ES - zhuhai.uk
+  type: socks5
+  server: 161.35.90.93
+  port: 1083
+- name: JP - zhuhai.uk 02
   type: http
   server: fan.571589.xyz
   port: 443
   username: bnVsbDpudWxs
   tls: true
-  skip-cert-verify: true
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: Vm10U1MyRnJPVmRSYkZacFpXcEJNazluUFQwNjo=
-- name: SG - zhuhai.uk 02
-  type: vless
-  server: 172.104.57.243
+  sni: fan.571589.xyz
+- name: JP - zhuhai.uk 03
+  type: http
+  server: fan.571589.xyz
   port: 443
-  uuid: b847f2ff-091f-4396-a8d0-d2fe3bfaa0bf
+  username: 'null'
+  password: 'null'
   tls: true
-  servername: zoom.us
+  sni: fan.571589.xyz
+- name: US - zhuhai.uk 03
+  type: http
+  server: 138.199.35.204
+  port: 9002
+  tls: true
+  sni: 138.199.35.204
   skip-cert-verify: true
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.34
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: HK - zhuhai.uk
+  type: vless
+  server: 207.57.135.42
+  port: 30852
+  uuid: 10fdf9ce-3304-47cf-874b-9a3be30d5030
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.paypal.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: HN9gCD2plpOr5jSNJfv9Xcl2Zjj-AKvfbNmLBNYWcUc
+- name: DE - zhuhai.uk 02
+  type: vless
+  server: gesmankos.sadiepinki.com
+  port: 443
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  flow: xtls-rprx-vision
+  tls: true
+  servername: gesmankos.sadiepinki.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+- name: HK - zhuhai.uk 02
+  type: vless
+  server: 38.147.171.99
+  port: 46042
+  uuid: 1e89e68f-eceb-4159-baee-2b77c9d34717
+  flow: xtls-rprx-vision
+  tls: true
+  servername: dash.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: BjAkOapbZN6R4cUgz8Ye-o-uyWz6o_LoUlI5kbURMh0
+- name: IT - zhuhai.uk
+  type: http
+  server: 93.42.177.250
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: DE - zhuhai.uk 05
+  type: ss
+  server: 130.61.119.116
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8ilYOpgiXMq8BCHWqfd1G6/MWatxTQ0jVfSgvE18hqA=
+- name: TR - zhuhai.uk
+  type: vless
+  server: 13.143.137.164
+  port: 9443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  flow: xtls-rprx-vision
+  tls: true
+  servername: plaincanvas.videoclothing.xyz
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
+    short-id: e336c9a786fae301
+- name: TW - zhuhai.uk
+  type: anytls
+  server: 6ivh.pnuqcnp.cn
+  port: 443
+  password: 9sK2mP8xQ7vL3nZ6
+  udp: true
+  sni: images.ctfassets.net
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  client-fingerprint: chrome
