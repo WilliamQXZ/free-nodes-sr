@@ -1,79 +1,169 @@
-# Mac hourly sync 2026-09-20 21:27:08 | alive 8
+# Mac hourly sync 2026-09-20 22:17:23 | alive 23
 proxies:
-- name: DE - zhuhai.uk
-  type: ss
-  server: 130.61.37.86
-  port: 59924
-  cipher: 2022-blake3-chacha20-poly1305
-  password: dynqHFTd+BvukKi9taotWYzRPZM/yitJoTufLzUA8W0=
-- name: HK - zhuhai.uk 02
-  type: vless
-  server: 45.145.229.198
-  port: 45838
-  uuid: 01556b48-8cbc-47f6-8967-ff8f46cf7e77
-  flow: xtls-rprx-vision
-  tls: true
-  servername: aws.amazon.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: uXR_8HuoykVpZgv9r27qlbwUsL8dOIg5wFbnWybA5Fg
-- name: HK - zhuhai.uk 03
-  type: anytls
-  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
-  port: 443
-  password: 9sK2mP8xQ7vL3nZ6
-  udp: true
-  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-  skip-cert-verify: true
-- name: HK - zhuhai.uk 05
-  type: vless
-  server: 193.134.211.12
-  port: 40229
-  uuid: fd33946a-ad66-48bb-bece-36a19009a20e
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: NdYhIYluMQg_VZTxYc9DtlCWl6bNDXS421HBsTECaBE
 - name: RO - zhuhai.uk
   type: http
-  server: 193.176.84.34
+  server: 193.176.84.39
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: DE - zhuhai.uk 04
+- name: JP - zhuhai.uk
   type: http
-  server: fan.973511.xyz
+  server: fan.587475.xyz
   port: 443
   tls: true
-- name: FI - zhuhai.uk 01
-  type: vless
-  server: 31.77.7.122
-  port: 2087
-  uuid: 36cd557b-2b3d-46d3-8071-c77dd9cf7623
-  udp: true
-  network: tcp
+  skip-cert-verify: true
+- name: DE - zhuhai.uk
+  type: ss
+  server: 130.61.82.115
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: UHeN58i27tHwMOyID/b2nSDz0YkTZ6nTfrcihEV7uJ0=
+- name: RO - zhuhai.uk 02
+  type: http
+  server: 193.176.84.22
+  port: 9002
   tls: true
-  servername: www.nokia.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: TqsHQWg0oFULyLiaXe9vuwYXmLR6mRLiL376GJbX2Cs
-    short-id: 407f4d9be75efc56
-- name: FI - zhuhai.uk 02
-  type: vless
-  server: 2.26.9.243
-  port: 3454
-  uuid: 5adaf80e-2347-481f-84cb-46109d582c95
-  udp: true
-  network: grpc
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: 138.199.35.214
+  port: 9002
   tls: true
-  servername: yandex.ru
+  sni: 138.199.35.214
+  skip-cert-verify: true
+- name: FR - zhuhai.uk
+  type: http
+  server: fan.132031.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04
+  type: http
+  server: 138.199.35.218
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.218
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+  tls: true
+  sni: fullmanfirm.icu
+  skip-cert-verify: true
+- name: HU - zhuhai.uk
+  type: http
+  server: 146.70.203.18
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 03
+  type: http
+  server: 193.176.84.36
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: GB - zhuhai.uk
+  type: vless
+  server: 45.152.65.129
+  port: 11563
+  uuid: d949020f-6ec6-455a-819b-7d7b32f9ff14
+  flow: xtls-rprx-vision
+  tls: true
+  servername: aws.amazon.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: Bz2EFAfox-uD9nn8qAVKy86A1kDKO2OpYQhMO4fCrCg
-    short-id: 159b4efc
-  grpc-opts:
-    grpc-service-name: google.android.location.SyncService
+    public-key: WzLRxXsO23hehh3gwGkVYfGpAW_tV0QOpfza_Os5Cgg
+- name: IT - zhuhai.uk
+  type: http
+  server: 185.183.105.130
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: tzoa.fun
+  port: 443
+  tls: true
+- name: US - zhuhai.uk 08
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 04
+  type: http
+  server: 193.176.84.33
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: RS - zhuhai.uk
+  type: http
+  server: 146.70.221.34
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: JP - zhuhai.uk 02
+  type: http
+  server: fan.587475.xyz
+  port: 443
+  tls: true
+  sni: fan.587475.xyz
+  skip-cert-verify: true
+- name: HK - zhuhai.uk
+  type: vless
+  server: 156.248.10.58
+  port: 443
+  uuid: fcc91034-a05d-4da1-ab38-422b21987ff9
+  flow: xtls-rprx-vision
+  tls: true
+  servername: nono.hhhkkhktt.xyz
+  client-fingerprint: safari
+  reality-opts:
+    public-key: EXIEsAJq-s30mA0r997iwrR8ijvGLZ7DOTkr_R39QCE
+    short-id: 54fc3827c8
+- name: HK - zhuhai.uk 02
+  type: vless
+  server: 207.57.131.116
+  port: 60156
+  uuid: d42830a2-4a5f-4f55-bd01-fc3d2651505e
+  flow: xtls-rprx-vision
+  tls: true
+  servername: aws.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 0WCIcNPaAc_UqgQmKptY2vvQKSCjz7LkoG6YEgtzuFs
+- name: SG - zhuhai.uk
+  type: ss
+  server: 213.35.111.253
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: C25V/6gv6fyZZv+U67QLZOACToa971I8evHylJZ2Atg=
+- name: SG - zhuhai.uk 02
+  type: ss
+  server: 152.69.223.67
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: dFodKJiNEMs6b5I5fLtQ7axZedHEdSsuiyhY7ewHCYk=
+- name: MY - zhuhai.uk
+  type: hysteria2
+  server: 103.117.141.103
+  port: 2060
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  sni: mlxy.mangshe.xyz
+  skip-cert-verify: true
+- name: IN - zhuhai.uk
+  type: http
+  server: 35.197.129.84
+  port: 443
+  tls: true
+  skip-cert-verify: true
