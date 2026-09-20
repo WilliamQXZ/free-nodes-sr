@@ -1,5 +1,11 @@
-# Mac hourly sync 2026-09-20 10:23:27 | alive 21
+# Mac hourly sync 2026-09-20 11:17:18 | alive 21
 proxies:
+- name: GB - zhuhai.uk
+  type: ss
+  server: 144.24.225.39
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: JXVCv3N78Ulr/V2Rsk0UN8DJEzD+yC0cbtWo9zjGTkg=
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.27
@@ -19,30 +25,12 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: FI - zhuhai.uk
-  type: vless
-  server: finkafsb.finiki.lol
-  port: 443
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-  flow: xtls-rprx-vision
-  tls: true
-  servername: finkafsb.finiki.lol
-  client-fingerprint: random
-  reality-opts:
-    public-key: YBKHp6R7xp2Ss2kxbvDNMFPpRrf3oh1wQ2dVMukPHmA
-    short-id: d110331f200987ae
 - name: US - zhuhai.uk 04
   type: http
   server: 138.199.35.217
   port: 9002
   username: 'null'
   password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: GB - zhuhai.uk 02
-  type: http
-  server: 212.102.63.1
-  port: 443
   tls: true
   skip-cert-verify: true
 - name: RO - zhuhai.uk 02
@@ -53,6 +41,12 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
+- name: GB - zhuhai.uk 03
+  type: ss
+  server: 144.24.225.235
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: jlZ+5kQHq6TR/bzwXHKfktx8zz7PsRPuNK4BrQuZvnk=
 - name: NL - zhuhai.uk
   type: http
   server: 84.17.47.147
