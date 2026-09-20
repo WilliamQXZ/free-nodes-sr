@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-21 05:17:44 | alive 14
+# Mac hourly sync 2026-09-21 06:17:13 | alive 18
 proxies:
 - name: JP - zhuhai.uk
   type: http
@@ -6,6 +6,12 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
+- name: NL - zhuhai.uk
+  type: ss
+  server: 158.101.222.3
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: aXCC+LogUNgffkN9eZuLOIdClpoHAWXvN8GxcmEkkis=
 - name: US - zhuhai.uk
   type: http
   server: 138.199.35.215
@@ -40,6 +46,18 @@ proxies:
   tls: true
   sni: 138.199.35.204
   skip-cert-verify: true
+- name: DE - zhuhai.uk
+  type: ss
+  server: 130.61.229.22
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: wXzmFw7CAbcKLPRBcOReRJ7KiCYB5H0VRqDc2r6AZVU=
+- name: SG - zhuhai.uk
+  type: ss
+  server: 152.69.223.67
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: dFodKJiNEMs6b5I5fLtQ7axZedHEdSsuiyhY7ewHCYk=
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.34
@@ -47,17 +65,6 @@ proxies:
   tls: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: HK - zhuhai.uk
-  type: vless
-  server: 207.57.135.42
-  port: 30852
-  uuid: 10fdf9ce-3304-47cf-874b-9a3be30d5030
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.paypal.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: HN9gCD2plpOr5jSNJfv9Xcl2Zjj-AKvfbNmLBNYWcUc
 - name: DE - zhuhai.uk 02
   type: vless
   server: gesmankos.sadiepinki.com
@@ -87,25 +94,18 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
+- name: DE - zhuhai.uk 03
+  type: ss
+  server: 130.61.226.114
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: wJJYYALkxTj4TAIgQiiuM0WLYLKjCe9UMc9BIN3peYg=
 - name: DE - zhuhai.uk 05
   type: ss
   server: 130.61.119.116
   port: 59924
   cipher: 2022-blake3-chacha20-poly1305
   password: 8ilYOpgiXMq8BCHWqfd1G6/MWatxTQ0jVfSgvE18hqA=
-- name: TR - zhuhai.uk
-  type: vless
-  server: 13.143.137.164
-  port: 9443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: plaincanvas.videoclothing.xyz
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-    short-id: e336c9a786fae301
 - name: TW - zhuhai.uk
   type: anytls
   server: 6ivh.pnuqcnp.cn
@@ -117,3 +117,17 @@ proxies:
   - http/1.1
   skip-cert-verify: true
   client-fingerprint: chrome
+- name: JP - zhuhai.uk 04
+  type: hysteria2
+  server: msjp1.mangshe.xyz
+  port: 20561
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: MY - zhuhai.uk
+  type: hysteria2
+  server: 103.117.141.103
+  port: 2060
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  sni: mlxy.mangshe.xyz
+  skip-cert-verify: true
