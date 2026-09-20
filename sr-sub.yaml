@@ -1,12 +1,11 @@
-# Mac hourly sync 2026-09-21 00:17:41 | alive 12
+# Mac hourly sync 2026-09-21 01:17:18 | alive 17
 proxies:
-- name: US - zhuhai.uk 02
+- name: RO - zhuhai.uk
   type: http
-  server: goedkoopgeluid.icu
-  port: 443
-  username: 'null'
-  password: 'null'
+  server: 193.176.84.22
+  port: 9002
   tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 03
   type: anytls
   server: anytls2.864106.xyz
@@ -15,11 +14,12 @@ proxies:
   udp: true
   sni: anytls2.864106.xyz
   skip-cert-verify: true
-- name: DK - zhuhai.uk
+- name: US - zhuhai.uk 04
   type: http
-  server: 185.245.84.50
+  server: purecambogiasl.live
   port: 443
   tls: true
+  sni: purecambogiasl.live
   skip-cert-verify: true
 - name: US - zhuhai.uk 05
   type: http
@@ -38,6 +38,27 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: t-BhtrNH7C1zTuLOuBu4tXeIv3JR-cN88pVFywIkti4
+- name: US - zhuhai.uk 08
+  type: http
+  server: 138.199.35.204
+  port: 9002
+  tls: true
+  sni: 138.199.35.204
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 02
+  type: http
+  server: 193.176.84.26
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 03
+  type: http
+  server: 193.176.84.21
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: DE - zhuhai.uk
   type: ss
   server: 130.61.80.74
@@ -67,18 +88,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: HK - zhuhai.uk 04
-  type: vless
-  server: 156.248.10.58
-  port: 443
-  uuid: fcc91034-a05d-4da1-ab38-422b21987ff9
-  flow: xtls-rprx-vision
-  tls: true
-  servername: nono.hhhkkhktt.xyz
-  client-fingerprint: safari
-  reality-opts:
-    public-key: EXIEsAJq-s30mA0r997iwrR8ijvGLZ7DOTkr_R39QCE
-    short-id: 54fc3827c8
 - name: HK - zhuhai.uk 05
   type: vless
   server: 68.64.180.244
@@ -90,6 +99,26 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: 9fmJUGDBBcdT0WITLiZtF7mKKDnzfQ8kvBj0r5nIZyc
+- name: NL - zhuhai.uk
+  type: hysteria2
+  server: 46.8.210.152
+  port: 23443
+  password: 2a3b101d-d8f9-40e7-9373-b0ef487c0035
+  sni: disk.api-yandex.net
+- name: JP - zhuhai.uk
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: JP - zhuhai.uk 02
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: fan.571589.xyz
 - name: FI - zhuhai.uk 02
   type: vless
   server: 2.26.9.243
