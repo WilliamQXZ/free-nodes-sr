@@ -1,5 +1,11 @@
-# Mac hourly sync 2026-09-21 18:26:01 | alive 20
+# Mac hourly sync 2026-09-21 19:17:16 | alive 22
 proxies:
+- name: US - zhuhai.uk
+  type: http
+  server: voteshirleysew.club
+  port: 443
+  tls: true
+  sni: voteshirleysew.club
 - name: HK - zhuhai.uk
   type: vless
   server: 45.145.229.32
@@ -57,12 +63,6 @@ proxies:
   server: fan.571589.xyz
   port: 443
   tls: true
-- name: SG - zhuhai.uk
-  type: ss
-  server: 161.118.247.164
-  port: 56927
-  cipher: 2022-blake3-chacha20-poly1305
-  password: Q70CetEalirnFI/x4fkKfNkfug9mx9O3zE9BRT2FUAE=
 - name: HK - zhuhai.uk 04
   type: vless
   server: 68.64.183.164
@@ -94,19 +94,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: DE - zhuhai.uk 02
-  type: vless
-  server: gesmankos.sadiepinki.com
-  port: 443
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  flow: xtls-rprx-vision
-  tls: true
-  servername: gesmankos.sadiepinki.com
-  skip-cert-verify: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: 4fa44664f6a566d3
 - name: US - zhuhai.uk 09
   type: anytls
   server: awefd2313fefarg23fr24.pnuqcnp.cn
@@ -126,14 +113,6 @@ proxies:
   reality-opts:
     public-key: pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs
     short-id: b62a4da6cd1c4dd6
-- name: RO - zhuhai.uk
-  type: http
-  server: 193.176.84.32
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
 - name: IN - zhuhai.uk
   type: http
   server: 35.197.129.84
@@ -143,6 +122,21 @@ proxies:
 - name: JP - zhuhai.uk 02
   type: vless
   server: 45.202.254.133
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  network: ws
+  tls: true
+  servername: shuma.ccwu.cc
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: NL - zhuhai.uk 02
+  type: vless
+  server: 109.176.202.20
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
@@ -170,10 +164,55 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
+- name: SG - zhuhai.uk 02
+  type: vless
+  server: 103.195.188.192
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  network: ws
+  tls: true
+  servername: shuma.ccwu.cc
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
 - name: SK - zhuhai.uk 01
   type: vless
   server: 89.46.42.92
   port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  network: ws
+  tls: true
+  servername: shuma.ccwu.cc
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: SE - zhuhai.uk 01
+  type: vless
+  server: 144.31.217.95
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  network: ws
+  tls: true
+  servername: shuma.ccwu.cc
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: MD - zhuhai.uk 01
+  type: vless
+  server: 185.153.198.86
+  port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   network: ws
