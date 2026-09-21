@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-21 17:17:55 | alive 19
+# Mac hourly sync 2026-09-21 18:26:01 | alive 20
 proxies:
 - name: HK - zhuhai.uk
   type: vless
@@ -52,17 +52,36 @@ proxies:
   tls: true
   sni: 138.199.35.207
   skip-cert-verify: true
-- name: HK - zhuhai.uk 03
+- name: JP - zhuhai.uk
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  tls: true
+- name: SG - zhuhai.uk
+  type: ss
+  server: 161.118.247.164
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Q70CetEalirnFI/x4fkKfNkfug9mx9O3zE9BRT2FUAE=
+- name: HK - zhuhai.uk 04
   type: vless
-  server: 207.57.121.65
-  port: 16726
-  uuid: 16e074a9-2489-4dd2-9eba-9f783e950b31
+  server: 68.64.183.164
+  port: 14163
+  uuid: 8871f4a9-cb90-4159-b3d0-84b90efdd3ca
   flow: xtls-rprx-vision
   tls: true
-  servername: www.ebay.com
+  servername: www.paypal.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: Q4ZKxZyCgFw5odhLQpntELcGnSFjefn_pJBgPYV3CXM
+    public-key: 40j_uKu51A06ECDlinwC6Q7h7ZPWs9Bkv24_EZdcvnQ
+- name: US - zhuhai.uk 07
+  type: http
+  server: 138.199.35.197
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
 - name: GB - zhuhai.uk 02
   type: hysteria2
   server: 95.133.242.213
@@ -121,6 +140,21 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
+- name: JP - zhuhai.uk 02
+  type: vless
+  server: 45.202.254.133
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  network: ws
+  tls: true
+  servername: shuma.ccwu.cc
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
 - name: SG - zhuhai.uk 01
   type: vless
   server: 103.195.188.206
@@ -136,54 +170,9 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-- name: SG - zhuhai.uk 02
-  type: vless
-  server: 103.195.188.192
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
 - name: SK - zhuhai.uk 01
   type: vless
   server: 89.46.42.92
-  port: 2053
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: SE - zhuhai.uk 01
-  type: vless
-  server: 144.31.217.95
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: PL - zhuhai.uk 01
-  type: vless
-  server: 46.8.194.76
   port: 2053
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
