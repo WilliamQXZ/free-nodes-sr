@@ -1,5 +1,22 @@
-# Mac hourly sync 2026-09-21 15:17:50 | alive 21
+# Mac hourly sync 2026-09-21 16:17:29 | alive 25
 proxies:
+- name: US - zhuhai.uk
+  type: http
+  server: voteshirleysew.club
+  port: 443
+  tls: true
+  sni: voteshirleysew.club
+- name: HK - zhuhai.uk
+  type: vless
+  server: 45.145.229.32
+  port: 47481
+  uuid: 965d4b67-706e-4937-a7c4-c0e03f4b4b37
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.paypal.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mBoopmF9JfhJzKygTCLMJOfBmC8OQvNsuI46UUDD2Qw
 - name: US - zhuhai.uk 02
   type: http
   server: 138.199.35.212
@@ -41,15 +58,6 @@ proxies:
   tls: true
   sni: 138.199.35.207
   skip-cert-verify: true
-- name: GB - zhuhai.uk
-  type: vless
-  server: roskaa6.api3-max.ru
-  port: 443
-  uuid: cdd6bfce-781a-4454-b7d5-4778abb5c24f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: roskaa6.api3-max.ru
-  client-fingerprint: firefox
 - name: HK - zhuhai.uk 03
   type: vless
   server: 207.57.121.65
@@ -66,6 +74,17 @@ proxies:
   server: fan.571589.xyz
   port: 443
   tls: true
+- name: HK - zhuhai.uk 04
+  type: vless
+  server: 68.64.183.164
+  port: 14163
+  uuid: 8871f4a9-cb90-4159-b3d0-84b90efdd3ca
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.paypal.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 40j_uKu51A06ECDlinwC6Q7h7ZPWs9Bkv24_EZdcvnQ
 - name: US - zhuhai.uk 07
   type: http
   server: 138.199.35.197
@@ -74,6 +93,12 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
+- name: GB - zhuhai.uk 02
+  type: hysteria2
+  server: 95.133.242.213
+  port: 30443
+  password: 1e6fed5b-5edc-4ddb-a268-79d7fae4365c
+  sni: filesconvert.org
 - name: US - zhuhai.uk 08
   type: http
   server: 138.199.35.198
@@ -93,6 +118,14 @@ proxies:
   reality-opts:
     public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
     short-id: 4fa44664f6a566d3
+- name: US - zhuhai.uk 09
+  type: anytls
+  server: awefd2313fefarg23fr24.pnuqcnp.cn
+  port: 443
+  password: 9sK2mP8xQ7vL3nZ6
+  udp: true
+  sni: images.ctfassets.net
+  skip-cert-verify: true
 - name: BR - zhuhai.uk
   type: vless
   server: 34.39.174.220
