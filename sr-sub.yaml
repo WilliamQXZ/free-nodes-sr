@@ -1,11 +1,5 @@
-# Mac hourly sync 2026-09-21 16:17:29 | alive 25
+# Mac hourly sync 2026-09-21 17:17:55 | alive 19
 proxies:
-- name: US - zhuhai.uk
-  type: http
-  server: voteshirleysew.club
-  port: 443
-  tls: true
-  sni: voteshirleysew.club
 - name: HK - zhuhai.uk
   type: vless
   server: 45.145.229.32
@@ -69,30 +63,6 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: Q4ZKxZyCgFw5odhLQpntELcGnSFjefn_pJBgPYV3CXM
-- name: JP - zhuhai.uk
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  tls: true
-- name: HK - zhuhai.uk 04
-  type: vless
-  server: 68.64.183.164
-  port: 14163
-  uuid: 8871f4a9-cb90-4159-b3d0-84b90efdd3ca
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.paypal.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 40j_uKu51A06ECDlinwC6Q7h7ZPWs9Bkv24_EZdcvnQ
-- name: US - zhuhai.uk 07
-  type: http
-  server: 138.199.35.197
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
 - name: GB - zhuhai.uk 02
   type: hysteria2
   server: 95.133.242.213
@@ -151,36 +121,6 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: JP - zhuhai.uk 02
-  type: vless
-  server: 45.202.254.133
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: NL - zhuhai.uk 02
-  type: vless
-  server: 109.176.202.20
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
 - name: SG - zhuhai.uk 01
   type: vless
   server: 103.195.188.206
@@ -241,10 +181,10 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-- name: MD - zhuhai.uk 01
+- name: PL - zhuhai.uk 01
   type: vless
-  server: 185.153.198.86
-  port: 443
+  server: 46.8.194.76
+  port: 2053
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   network: ws
