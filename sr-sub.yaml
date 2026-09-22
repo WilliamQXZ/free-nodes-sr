@@ -1,5 +1,12 @@
-# Mac hourly sync 2026-09-22 22:17:28 | alive 13
+# Mac hourly sync 2026-09-23 00:53:55 | alive 17
 proxies:
+- name: US - zhuhai.uk
+  type: http
+  server: 138.199.35.210
+  port: 9002
+  tls: true
+  sni: 138.199.35.210
+  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.36
@@ -28,6 +35,12 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 02
+  type: http
+  server: crosscards.site
+  port: 443
+  tls: true
+  sni: crosscards.site
 - name: NL - zhuhai.uk
   type: http
   server: 84.17.47.148
@@ -37,6 +50,12 @@ proxies:
   tls: true
   sni: 84.17.47.148
   skip-cert-verify: true
+- name: GB - zhuhai.uk 02
+  type: ss
+  server: 144.24.228.23
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: hsuAtTyIs0Gl65/0moSA/jcDwzE2LUfpWINEzRhWxG0=
 - name: TW - zhuhai.uk
   type: anytls
   server: 6ivh.pnuqcnp.cn
@@ -48,6 +67,31 @@ proxies:
 - name: RO - zhuhai.uk 04
   type: http
   server: 193.176.84.33
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  tls: true
+  sni: 138.199.35.212
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05
+  type: socks5
+  server: 144.24.47.42
+  port: 1080
+  username: T2c9PTo=
+- name: US - zhuhai.uk 06
+  type: http
+  server: crosscards.site
+  port: 443
+  tls: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: 138.199.35.202
   port: 9002
   username: 'null'
   password: None
@@ -69,47 +113,8 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 08
-  type: http
-  server: jewelscollecti.icu
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: jewelscollecti.icu
-  skip-cert-verify: true
 - name: KR - zhuhai.uk 02
   type: socks5
   server: 121.169.46.116
   port: 1090
   username: T2clM0QlM0Q6
-- name: PL - zhuhai.uk 01
-  type: vless
-  server: 2.59.253.251
-  port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: nvidia.com
-  client-fingerprint: firefox
-  skip-cert-verify: true
-  reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: db04ce8bdb8900f1
-- name: DE - zhuhai.uk 04
-  type: vless
-  server: 193.29.58.131
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
