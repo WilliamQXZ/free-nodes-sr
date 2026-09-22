@@ -1,123 +1,121 @@
-# Mac hourly sync 2026-09-21 20:17:38 | alive 21
+# Mac hourly sync 2026-09-22 09:26:19 | alive 17
 proxies:
-- name: US - zhuhai.uk 02
+- name: US - zhuhai.uk
   type: http
-  server: 138.199.35.212
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: HK - zhuhai.uk 02
-  type: vless
-  server: 207.57.129.114
-  port: 14934
-  uuid: 630b700b-3c91-463a-9ef5-ee01f5848b45
-  flow: xtls-rprx-vision
-  tls: true
-  servername: dash.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: C9qIqeSCAkCLIqki3n21hyeILLltWcZJ6M0HgRTGmk4
-- name: US - zhuhai.uk 03
-  type: http
-  server: 138.199.35.210
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.210
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: 138.199.35.203
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: 138.199.35.207
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.207
-  skip-cert-verify: true
-- name: JP - zhuhai.uk
-  type: http
-  server: fan.571589.xyz
+  server: fan.596189.xyz
   port: 443
-  tls: true
-- name: HK - zhuhai.uk 04
-  type: vless
-  server: 68.64.183.164
-  port: 14163
-  uuid: 8871f4a9-cb90-4159-b3d0-84b90efdd3ca
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.paypal.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 40j_uKu51A06ECDlinwC6Q7h7ZPWs9Bkv24_EZdcvnQ
-- name: US - zhuhai.uk 08
-  type: http
-  server: 138.199.35.198
-  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: DE - zhuhai.uk 02
+- name: ES - zhuhai.uk
   type: vless
-  server: gesmankos.sadiepinki.com
+  server: 194.26.100.18
   port: 443
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  flow: xtls-rprx-vision
+  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
   tls: true
-  servername: gesmankos.sadiepinki.com
+  servername: es.cache-4d8a.com
   skip-cert-verify: true
   client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
   reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: 4fa44664f6a566d3
-- name: US - zhuhai.uk 09
+    public-key: S6t9-gOX2mxWKNGvGSJ8NxDdlJy78d4gN2-wv2d0hFw
+    short-id: 8319913f2e5f5711
+- name: US - zhuhai.uk 02
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.206
+  skip-cert-verify: true
+- name: DK - zhuhai.uk
+  type: vless
+  server: 193.180.208.169
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.24
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: TW - zhuhai.uk
   type: anytls
-  server: awefd2313fefarg23fr24.pnuqcnp.cn
+  server: 6ivh.pnuqcnp.cn
   port: 443
   password: 9sK2mP8xQ7vL3nZ6
   udp: true
   sni: images.ctfassets.net
   skip-cert-verify: true
-- name: BR - zhuhai.uk
-  type: vless
-  server: 34.39.174.220
-  port: 443
-  uuid: 5e517b94-e207-47ee-be3c-3020a57594e8
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs
-    short-id: b62a4da6cd1c4dd6
-- name: RO - zhuhai.uk
+- name: GB - zhuhai.uk
   type: http
-  server: 193.176.84.32
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: IN - zhuhai.uk
-  type: http
-  server: 35.197.129.84
+  server: 185.235.0.66
   port: 443
   tls: true
   skip-cert-verify: true
-- name: ID - zhuhai.uk
+- name: US - zhuhai.uk 05
   type: http
   server: goedkoopgeluid.icu
   port: 443
   tls: true
+  sni: goedkoopgeluid.icu
   skip-cert-verify: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: CZ - zhuhai.uk
+  type: http
+  server: 185.216.35.130
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08
+  type: http
+  server: voteshirleysew.club
+  port: 443
+  tls: true
+  sni: voteshirleysew.club
+  skip-cert-verify: true
+- name: US - zhuhai.uk 10
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: SG - zhuhai.uk
+  type: ss
+  server: 138.2.81.40
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: zW/c3X95+IAorBcNI+ds/Uz6qVSTTyij3abl+o/Xh2Y=
+- name: JP - zhuhai.uk
+  type: socks5
+  server: 101.36.104.46
+  port: 10808
 - name: JP - zhuhai.uk 02
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: JP - zhuhai.uk 01
   type: vless
-  server: 45.202.254.133
+  server: 161.33.29.51
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
@@ -130,93 +128,17 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-- name: NL - zhuhai.uk 02
+- name: FI - zhuhai.uk 01
   type: vless
-  server: 109.176.202.20
+  server: 202.166.187.132
   port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  uuid: 8be20011-59b1-4118-91ed-83e8e6b662cd
   udp: true
   network: ws
   tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
+  servername: f.yoptybla.ru
+  client-fingerprint: firefox
   ws-opts:
     path: /
     headers:
-      Host: shuma.ccwu.cc
-- name: SG - zhuhai.uk 01
-  type: vless
-  server: 103.195.188.206
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: SG - zhuhai.uk 02
-  type: vless
-  server: 103.195.188.192
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: SK - zhuhai.uk 01
-  type: vless
-  server: 89.46.42.92
-  port: 2053
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: MD - zhuhai.uk 01
-  type: vless
-  server: 185.153.198.86
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: PL - zhuhai.uk 01
-  type: vless
-  server: 46.8.194.76
-  port: 2053
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
+      Host: f.yoptybla.ru
