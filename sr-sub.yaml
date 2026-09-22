@@ -1,5 +1,25 @@
-# Mac hourly sync 2026-09-23 03:22:50 | alive 13
+# Mac hourly sync 2026-09-23 04:21:36 | alive 16
 proxies:
+- name: US - zhuhai.uk
+  type: http
+  server: 149.88.21.129
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
 - name: NL - zhuhai.uk
   type: vless
   server: 193.123.60.87
@@ -11,19 +31,12 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: SG - zhuhai.uk
-  type: vless
-  server: signodels.jumpernode.online
+- name: ID - zhuhai.uk
+  type: http
+  server: goedkoopgeluid.icu
   port: 443
-  uuid: 051fbf39-789a-4017-9022-eb32daeb5efd
-  flow: xtls-rprx-vision
   tls: true
-  servername: shop.business.amazon.com
   skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Q8vb7a7wHy2nB-9fVuVeeizz9efta09IHHmC-mRbgQw
-    short-id: 334b080fa37c42f4
 - name: US - zhuhai.uk 05
   type: http
   server: 138.199.35.215
@@ -32,6 +45,11 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
+- name: NL - zhuhai.uk 03
+  type: vless
+  server: 141.148.236.210
+  port: 62145
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - name: US - zhuhai.uk 06
   type: http
   server: mmgr.club
@@ -80,18 +98,3 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 09
-  type: vless
-  server: 3.234.249.2
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  network: ws
-  tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
