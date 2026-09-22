@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-23 05:27:17 | alive 19
+# Mac hourly sync 2026-09-23 06:26:50 | alive 20
 proxies:
 - name: RO - zhuhai.uk
   type: http
@@ -34,6 +34,14 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
+- name: NL - zhuhai.uk 02
+  type: http
+  server: 84.17.47.150
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.26
@@ -50,12 +58,6 @@ proxies:
   password: 'null'
   tls: true
   sni: 51.159.225.196
-  skip-cert-verify: true
-- name: DE - zhuhai.uk 02
-  type: http
-  server: 149.36.50.129
-  port: 443
-  tls: true
   skip-cert-verify: true
 - name: RO - zhuhai.uk 03
   type: http
@@ -136,9 +138,15 @@ proxies:
   port: 4433
   password: 19f72087-4591-4d72-930b-2697078ec2be
   skip-cert-verify: true
-- name: ID - zhuhai.uk
+- name: JP - zhuhai.uk
   type: http
-  server: kimberlymilano.icu
+  server: fan.571589.xyz
   port: 443
-  username: Ok5vbmU=
+  tls: true
+  skip-cert-verify: true
+- name: JP - zhuhai.uk 02
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: bnVsbDpudWxs
   tls: true
