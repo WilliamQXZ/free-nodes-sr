@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-23 20:17:46 | alive 25
+# Mac hourly sync 2026-09-23 21:17:36 | alive 21
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -49,35 +49,17 @@ proxies:
   tls: true
   sni: 138.199.35.214
   skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: voteshirleysew.club
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08
-  type: hysteria2
-  server: 24.233.8.109
-  port: 443
-  password: 8294f130408299df8cab08c80bf6f819
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
 - name: RO - zhuhai.uk 03
   type: http
   server: 193.176.84.16
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 10
+- name: US - zhuhai.uk 09
   type: http
-  server: 138.199.35.212
-  port: 9002
-  username: 'null'
-  password: None
+  server: fullmanfirm.icu
+  port: 443
+  username: Ok5vbmU=
   tls: true
   skip-cert-verify: true
 - name: RO - zhuhai.uk 04
@@ -125,15 +107,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 15
-  type: hysteria2
-  server: 107.172.76.105
-  port: 443
-  password: 975e9f98b4a1b01285ffdb8158ced798
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c8d95078e61be690c18e2fbbefe5e2ef
 - name: HK - zhuhai.uk
   type: anytls
   server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -142,12 +115,6 @@ proxies:
   udp: true
   sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
   skip-cert-verify: true
-- name: HK - zhuhai.uk 02
-  type: socks5
-  server: 47.243.173.50
-  port: 11211
-  username: '111'
-  password: '111'
 - name: KR - zhuhai.uk 02
   type: socks5
   server: 121.169.46.116
