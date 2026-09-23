@@ -1,17 +1,5 @@
-# Mac hourly sync 2026-09-24 01:17:14 | alive 19
+# Mac hourly sync 2026-09-24 02:17:35 | alive 14
 proxies:
-- name: US - zhuhai.uk
-  type: http
-  server: efr-marktplatz.club
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: 138.199.35.215
-  port: 9002
-  tls: true
-  skip-cert-verify: true
 - name: FR - zhuhai.uk
   type: socks5
   server: 109.123.251.109
@@ -20,6 +8,12 @@ proxies:
   type: http
   server: 87.98.174.157
   port: 6103
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.34
+  port: 9002
   tls: true
   skip-cert-verify: true
 - name: FI - zhuhai.uk
@@ -74,50 +68,23 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: purposebydesig.club
-  port: 443
-  tls: true
-- name: RO - zhuhai.uk 02
-  type: http
-  server: 193.176.84.38
-  port: 9002
-  tls: true
-  skip-cert-verify: true
 - name: FI - zhuhai.uk 02
   type: socks5
   server: 83.147.216.208
   port: 1080
   username: Ym5Wc2JEcHVkV3hzOg==
+- name: US - zhuhai.uk 09
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - name: RO - zhuhai.uk 03
   type: http
   server: 193.176.84.32
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 10
-  type: http
-  server: crosscards.site
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
-  sni: crosscards.site
-- name: US - zhuhai.uk 11
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.200
-  skip-cert-verify: true
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VDJjbE0wUWxNMFE2Og==
 - name: TH - zhuhai.uk 01
   type: vless
   server: 34.15.176.240
