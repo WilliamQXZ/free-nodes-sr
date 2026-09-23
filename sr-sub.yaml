@@ -1,117 +1,151 @@
-# Mac hourly sync 2026-09-23 09:17:28 | alive 17
+# Mac hourly sync 2026-09-23 19:18:18 | alive 18
 proxies:
-- name: PL - zhuhai.uk
-  type: http
-  server: 151.115.54.133
+- name: TW - zhuhai.uk
+  type: anytls
+  server: 6ivh.pnuqcnp.cn
   port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
+  password: 9sK2mP8xQ7vL3nZ6
+  udp: true
+  sni: images.ctfassets.net
   skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: fan.226278.xyz
+- name: TH - zhuhai.uk
+  type: vless
+  server: 34.15.176.240
   port: 443
+  uuid: 742dc674-a491-4a42-a551-b3ea6dd2f447
   tls: true
-  sni: fan.226278.xyz
-- name: HK - zhuhai.uk
-  type: socks5
-  server: 123.58.219.171
-  port: 10808
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U
+    short-id: 856c0a3cd1426a5c
 - name: US - zhuhai.uk 02
-  type: http
-  server: voteshirleysew.club
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-- name: RO - zhuhai.uk
-  type: http
-  server: 193.176.84.26
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 02
-  type: http
-  server: 193.176.84.24
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: FR - zhuhai.uk
-  type: http
-  server: fan.132031.xyz
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
-- name: IE - zhuhai.uk
-  type: http
-  server: 149.88.96.1
-  port: 443
-  tls: true
-  skip-cert-verify: true
+  type: socks5
+  server: 185.145.99.41
+  port: 1080
+  username: test123
+  password: test123
 - name: US - zhuhai.uk 03
   type: http
-  server: 138.199.35.216
-  port: 9002
+  server: fan.596189.xyz
+  port: 443
   username: 'null'
   password: 'null'
   tls: true
+- name: US - zhuhai.uk 04
+  type: vless
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  uuid: f1646667-a135-4246-9a9a-de0c53b0dc8d
+  tls: true
+  servername: grimness-backlogs.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+- name: NL - zhuhai.uk
+  type: ss
+  server: 158.101.211.78
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: REewqi3c7l3hyDUDzTpuhOPrWO6X9Vo6bXYhhE3tGw8=
+- name: SE - zhuhai.uk
+  type: http
+  server: 146.70.242.130
+  port: 443
+  tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 05
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: DK - zhuhai.uk
+  type: http
+  server: 185.245.84.50
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06
+  type: vless
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  uuid: 9d50fde6-7e89-4dee-9fee-17a77046604c
+  tls: true
+  servername: ghosts-spasm.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
 - name: RO - zhuhai.uk 03
   type: http
   server: 193.176.84.33
   port: 9002
-  username: 'null'
-  password: 'null'
   tls: true
-  sni: 193.176.84.33
   skip-cert-verify: true
-- name: RO - zhuhai.uk 04
+- name: HK - zhuhai.uk 02
   type: http
-  server: 193.176.84.32
-  port: 9002
-  username: 'null'
-  password: 'null'
+  server: fan.240104.xyz
+  port: 443
   tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 05
-  type: http
-  server: 193.176.84.24
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: 138.199.35.211
-  port: 9002
-  tls: true
-  skip-cert-verify: true
+  sni: fan.240104.xyz
 - name: JP - zhuhai.uk
   type: http
   server: fan.571589.xyz
   port: 443
   tls: true
   skip-cert-verify: true
-- name: JP - zhuhai.uk 02
-  type: http
-  server: fan.587475.xyz
-  port: 443
-  tls: true
-- name: SG - zhuhai.uk
-  type: http
-  server: 146.70.29.45
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: 92461d2d.acsnet.co
+- name: KR - zhuhai.uk 02
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: VDJjbE0wUWxNMFE2Og==
 - name: SG - zhuhai.uk 02
   type: http
-  server: 154.26.139.24
-  port: 443
+  server: 149.88.99.209
+  port: 9443
   tls: true
   skip-cert-verify: true
+- name: NL - zhuhai.uk 01
+  type: vless
+  server: 141.144.193.219
+  port: 62145
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  udp: true
+  network: tcp
+- name: NL - zhuhai.uk 04
+  type: vless
+  server: 34.147.59.126
+  port: 443
+  uuid: f76627ae-2626-4c53-ab57-da0e4d377a53
+  udp: true
+  network: tcp
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ODBW9YQs2TYvh_KBUQvbvAh61EULeZvqvwjc2RysKTs
+    short-id: 973452cd8674dbaf
+- name: FR - zhuhai.uk 01
+  type: vless
+  server: 77.110.104.125
+  port: 8443
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+  udp: true
+  network: grpc
+  tls: true
+  servername: maps.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  grpc-opts:
+    grpc-service-name: your-custom-path
