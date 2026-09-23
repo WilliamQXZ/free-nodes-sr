@@ -1,13 +1,19 @@
-# Mac hourly sync 2026-09-23 23:17:38 | alive 16
+# Mac hourly sync 2026-09-24 00:17:46 | alive 20
 proxies:
-- name: US - zhuhai.uk 02
+- name: GB - zhuhai.uk
   type: http
-  server: crosscards.site
+  server: 37.120.233.34
   port: 443
-  username: 'null'
-  password: 'null'
   tls: true
-  sni: crosscards.site
+  skip-cert-verify: true
+- name: US - zhuhai.uk
+  type: http
+  server: 147.182.216.4
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: 93b6d804.acsnet.co
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.20
@@ -15,6 +21,13 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04
+  type: http
+  server: 138.199.35.207
+  port: 9002
+  tls: true
+  sni: 138.199.35.207
   skip-cert-verify: true
 - name: ES - zhuhai.uk
   type: http
@@ -31,20 +44,20 @@ proxies:
   tls: true
   sni: 138.199.35.210
   skip-cert-verify: true
-- name: GB - zhuhai.uk 02
+- name: US - zhuhai.uk 06
   type: http
-  server: 185.235.0.98
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: 138.199.35.217
+  server: 138.199.35.208
   port: 9002
   username: 'null'
-  password: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
+- name: FR - zhuhai.uk
+  type: http
+  server: fan.132031.xyz
+  port: 443
+  username: Ok5vbmU=
+  tls: true
 - name: BD - zhuhai.uk
   type: http
   server: 34.124.244.22
@@ -52,18 +65,19 @@ proxies:
   tls: true
   sni: 34.124.244.22
   skip-cert-verify: true
+- name: RO - zhuhai.uk 02
+  type: http
+  server: 193.176.84.32
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: DE - zhuhai.uk
   type: ss
   server: 130.61.41.131
   port: 59924
   cipher: 2022-blake3-chacha20-poly1305
   password: BY2hkKs7dVlegrN/yLvjRk1do7baenO0Dr/ZHXYGVKQ=
-- name: LV - zhuhai.uk
-  type: http
-  server: 109.248.149.34
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: DE - zhuhai.uk 02
   type: vless
   server: dedicated.pivo.lol
@@ -74,6 +88,18 @@ proxies:
   servername: dedicated.pivo.lol
   skip-cert-verify: true
   client-fingerprint: firefox
+- name: DE - zhuhai.uk 03
+  type: vless
+  server: defrnode.jumpernode.online
+  port: 443
+  uuid: 8af93649-403b-46d8-9966-923d4c58402c
+  flow: xtls-rprx-vision
+  tls: true
+  servername: buckeye-retail-website.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
+    short-id: 5c6481cdd4
 - name: HK - zhuhai.uk
   type: socks5
   server: 47.239.116.165
@@ -92,6 +118,10 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
+- name: JP - zhuhai.uk 02
+  type: socks5
+  server: 101.36.104.239
+  port: 10808
 - name: TH - zhuhai.uk
   type: vless
   server: 34.15.176.240
