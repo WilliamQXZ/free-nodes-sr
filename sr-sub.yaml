@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-24 03:18:07 | alive 26
+# Mac hourly sync 2026-09-24 04:17:43 | alive 22
 proxies:
 - name: RO - zhuhai.uk
   type: http
@@ -8,28 +8,6 @@ proxies:
   password: 'null'
   tls: true
   sni: 193.176.84.35
-  skip-cert-verify: true
-- name: ES - zhuhai.uk
-  type: http
-  server: 130.195.250.34
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: 138.199.35.196
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: NL - zhuhai.uk
-  type: http
-  server: 84.17.47.149
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
   skip-cert-verify: true
 - name: TW - zhuhai.uk
   type: socks5
@@ -44,6 +22,13 @@ proxies:
   tls: true
   sni: 138.199.35.207
   skip-cert-verify: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: voteshirleysew.club
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.33
@@ -77,6 +62,14 @@ proxies:
   tls: true
   sni: 138.199.35.206
   skip-cert-verify: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: 138.199.35.202
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
 - name: RO - zhuhai.uk 03
   type: http
   server: 193.176.84.20
@@ -107,10 +100,6 @@ proxies:
   udp: true
   sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
   skip-cert-verify: true
-- name: NL - zhuhai.uk 02
-  type: socks5
-  server: 45.61.129.165
-  port: 9050
 - name: NL - zhuhai.uk 03
   type: ss
   server: 141.148.238.85
@@ -149,18 +138,6 @@ proxies:
   type: socks5
   server: 101.36.104.46
   port: 10808
-- name: JP - zhuhai.uk 02
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: SG - zhuhai.uk
-  type: http
-  server: 149.88.99.209
-  port: 9443
-  tls: true
-  skip-cert-verify: true
 - name: TH - zhuhai.uk
   type: vless
   server: 34.15.176.240
