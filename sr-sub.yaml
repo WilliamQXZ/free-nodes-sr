@@ -1,12 +1,17 @@
-# Mac hourly sync 2026-09-25 01:17:41 | alive 18
+# Mac hourly sync 2026-09-25 02:18:16 | alive 15
 proxies:
-- name: FR - zhuhai.uk
-  type: hysteria2
-  server: 62.210.7.139
-  port: 60111
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: whatsapp.com
+- name: US - zhuhai.uk
+  type: http
+  server: crosscards.site
+  port: 443
+  tls: true
+  sni: crosscards.site
   skip-cert-verify: true
+- name: FI - zhuhai.uk
+  type: socks5
+  server: 83.147.216.208
+  port: 1080
+  username: bnVsbDpudWxs
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.24
@@ -15,17 +20,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: PL - zhuhai.uk
-  type: vless
-  server: 2.26.173.70
-  port: 443
-  uuid: 974f2c7e-a292-4207-8315-ef4151bdca41
-  flow: xtls-rprx-vision
-  tls: true
-  servername: poland.travel
-  client-fingerprint: safari
-  reality-opts:
-    public-key: TIKEWdxQBblFGWMQmQWserNef8P1rqJCfCLLi-KB32s
 - name: NL - zhuhai.uk
   type: http
   server: 5.255.118.82
@@ -59,18 +53,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: FI - zhuhai.uk 02
-  type: socks5
-  server: 83.147.216.208
-  port: 1080
-  username: VmpGamQwMVdXWGxVV0d4VVlURmFjVlV3V21GamJGcHhWRzA1YkdGNmJIVlZSbEYzVG1wdlBUbz06
-- name: US - zhuhai.uk 05
-  type: http
-  server: zebpay.site
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
 - name: SG - zhuhai.uk
   type: ss
   server: mn.qwer-cn.org
@@ -102,11 +84,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: Vm10U1MyRnRTa1pOU0dSV1ZqTm9UMVJWV2taTmF6bHVUMnhhUlZOdGNHbFNWRUl6Vmxaa05GUnJNVWRTVkVwUVduYzlQVG89Og==
 - name: IN - zhuhai.uk
   type: http
   server: 35.197.129.84
