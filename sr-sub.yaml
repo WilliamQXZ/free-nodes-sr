@@ -1,5 +1,12 @@
-# Mac hourly sync 2026-09-25 03:17:14 | alive 19
+# Mac hourly sync 2026-09-25 04:17:15 | alive 18
 proxies:
+- name: US - zhuhai.uk
+  type: http
+  server: crosscards.site
+  port: 443
+  tls: true
+  sni: crosscards.site
+  skip-cert-verify: true
 - name: FR - zhuhai.uk
   type: hysteria2
   server: 62.210.7.139
@@ -41,17 +48,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: NL - zhuhai.uk 03
-  type: vless
-  server: 158.178.145.112
-  port: 62145
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: HK - zhuhai.uk
-  type: ss
-  server: mn.qwer-cn.org
-  port: 10920
-  cipher: aes-128-gcm
-  password: 3234f051-172a-4d96-9f8d-2aeec41cd6a5
 - name: US - zhuhai.uk 04
   type: http
   server: 138.199.35.216
@@ -69,12 +65,6 @@ proxies:
   server: 83.147.216.208
   port: 1080
   username: VmpGamQwMVdXWGxVV0d4VVlURmFjVlV3V21GamJGcHhWRzA1YkdGNmJIVlZSbEYzVG1wdlBUbz06
-- name: SG - zhuhai.uk
-  type: ss
-  server: mn.qwer-cn.org
-  port: 10934
-  cipher: aes-128-gcm
-  password: 3234f051-172a-4d96-9f8d-2aeec41cd6a5
 - name: GB - zhuhai.uk
   type: ss
   server: 129.151.87.182
@@ -106,6 +96,11 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
+- name: KR - zhuhai.uk 02
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: Vm10U1MyRnRTa1pOU0dSV1ZqTm9UMVJWV2taTmF6bHVUMnhhUlZOdGNHbFNWRUl6Vmxaa05GUnJNVWRTVkVwUVduYzlQVG89Og==
 - name: IN - zhuhai.uk
   type: http
   server: 35.197.129.84
