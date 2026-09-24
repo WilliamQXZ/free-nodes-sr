@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-25 06:17:42 | alive 15
+# Mac hourly sync 2026-09-25 07:17:21 | alive 20
 proxies:
 - name: NL - zhuhai.uk
   type: vless
@@ -12,10 +12,36 @@ proxies:
   reality-opts:
     public-key: IBzFSziv_xISB-Q6X90PocTBde6jb4X6swEvdZQhqzk
     short-id: d0aae44f
+- name: JP - zhuhai.uk
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk
+  type: http
+  server: mmgr.club
+  port: 443
+  username: Ok5vbmU=
+  tls: true
+- name: GB - zhuhai.uk
+  type: ss
+  server: 129.151.78.252
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: g726/IWhhF3bdXPIKc6vbtEUOpBVQU1EHNTFoJJtLsU=
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.37
   port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02
+  type: http
+  server: mmgr.club
+  port: 443
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 03
@@ -24,19 +50,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: DE - zhuhai.uk 02
-  type: vless
-  server: 132.243.242.97
-  port: 9543
-  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
-  flow: xtls-rprx-vision
-  tls: true
-  servername: storage.yandexcloud.net
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-    short-id: 123abcdf
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.24
@@ -80,6 +93,12 @@ proxies:
   - http/1.1
   skip-cert-verify: true
   client-fingerprint: chrome
+- name: NL - zhuhai.uk 03
+  type: ss
+  server: 92.5.200.64
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: KdOEa+dVRB5OxZvDlur6Cj0tndokRlxu/lDzjX3lZ7E=
 - name: TW - zhuhai.uk 02
   type: anytls
   server: 6ivh.pnuqcnp.cn
@@ -109,18 +128,25 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: GB - zhuhai.uk 02
+- name: US - zhuhai.uk 04
   type: http
-  server: 212.102.63.61
+  server: purecambogiasl.live
   port: 443
+  username: Ok5vbmU=
   tls: true
-  skip-cert-verify: true
 - name: HK - zhuhai.uk
   type: socks5
   server: 47.242.19.215
   port: 8899
   username: admin
   password: admin
+- name: RO - zhuhai.uk 04
+  type: http
+  server: 193.176.84.38
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: SG - zhuhai.uk
   type: http
   server: 146.70.29.45
