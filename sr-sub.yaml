@@ -1,28 +1,23 @@
-# Mac hourly sync 2026-09-24 23:17:48 | alive 11
+# Mac hourly sync 2026-09-25 00:17:52 | alive 7
 proxies:
-- name: GB - zhuhai.uk
+- name: US - zhuhai.uk
   type: ss
-  server: 129.151.75.79
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: tm8bY0wuvHz1U0YZCew7qibOUBDFw6GECUY8TzexltE=
-- name: TW - zhuhai.uk
-  type: anytls
-  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
+  server: 67.215.235.109
   port: 443
-  password: 9sK2mP8xQ7vL3nZ6
-  udp: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk
-  type: http
-  server: 193.176.84.22
-  port: 9002
+  cipher: 2022-blake3-aes-128-gcm
+  password: 7VOMWk6RwicM3IKLPijKrA==
+- name: US - zhuhai.uk 02
+  type: vless
+  server: 137.175.82.40
+  port: 30556
+  uuid: 949d278e-6d98-4014-84e9-59f1c6c93e0e
+  flow: xtls-rprx-vision
   tls: true
-  skip-cert-verify: true
-- name: JP - zhuhai.uk
-  type: socks5
-  server: 101.36.104.239
-  port: 10808
+  servername: www.lovelive-anime.jp
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: EcmNQqZxyW4GCEQF-7nH54w3qgBkLzsfqFSgafGjB0E
+    short-id: d082f567
 - name: TW - zhuhai.uk 02
   type: anytls
   server: 6ivh.pnuqcnp.cn
@@ -33,24 +28,6 @@ proxies:
   - http/1.1
   skip-cert-verify: true
   client-fingerprint: chrome
-- name: US - zhuhai.uk 06
-  type: http
-  server: purposebydesig.club
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: FI - zhuhai.uk
-  type: socks5
-  server: 83.147.216.208
-  port: 1080
-  username: bnVsbDpudWxs
 - name: US - zhuhai.uk 12
   type: http
   server: 138.199.35.214
@@ -59,17 +36,20 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: HK - zhuhai.uk 02
+- name: HK - zhuhai.uk
   type: anytls
   server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
   port: 443
   password: 9sK2mP8xQ7vL3nZ6
   udp: true
   sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-  alpn:
-  - http/1.1
   skip-cert-verify: true
-  client-fingerprint: chrome
+- name: KR - zhuhai.uk 02
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: Og%3D%3D
+  password: Og%3D%3D
 - name: SG - zhuhai.uk
   type: http
   server: 146.70.29.45
