@@ -1,5 +1,17 @@
-# Mac hourly sync 2026-09-24 20:18:53 | alive 11
+# Mac hourly sync 2026-09-24 21:17:19 | alive 12
 proxies:
+- name: US - zhuhai.uk
+  type: ss
+  server: 67.215.235.109
+  port: 443
+  cipher: 2022-blake3-aes-128-gcm
+  password: 7VOMWk6RwicM3IKLPijKrA==
+- name: GB - zhuhai.uk
+  type: ss
+  server: 129.151.75.79
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: tm8bY0wuvHz1U0YZCew7qibOUBDFw6GECUY8TzexltE=
 - name: US - zhuhai.uk 02
   type: vless
   server: 137.175.82.40
@@ -12,16 +24,19 @@ proxies:
   reality-opts:
     public-key: EcmNQqZxyW4GCEQF-7nH54w3qgBkLzsfqFSgafGjB0E
     short-id: d082f567
+- name: TW - zhuhai.uk
+  type: anytls
+  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
+  port: 443
+  password: 9sK2mP8xQ7vL3nZ6
+  udp: true
+  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.22
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: JP - zhuhai.uk
-  type: socks5
-  server: 101.36.104.239
-  port: 10808
 - name: TW - zhuhai.uk 02
   type: anytls
   server: 6ivh.pnuqcnp.cn
@@ -32,32 +47,15 @@ proxies:
   - http/1.1
   skip-cert-verify: true
   client-fingerprint: chrome
-- name: US - zhuhai.uk 06
-  type: http
-  server: purposebydesig.club
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
 - name: US - zhuhai.uk 07
   type: http
   server: 138.199.35.212
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 09
+- name: US - zhuhai.uk 10
   type: vless
-  server: openai.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-- name: US - zhuhai.uk 11
-  type: vless
-  server: www.csgo.net
+  server: www.shopify.com
   port: 2095
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   network: ws
@@ -73,17 +71,20 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: HK - zhuhai.uk 02
+- name: HK - zhuhai.uk
   type: anytls
   server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
   port: 443
   password: 9sK2mP8xQ7vL3nZ6
   udp: true
   sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-  alpn:
-  - http/1.1
   skip-cert-verify: true
-  client-fingerprint: chrome
+- name: KR - zhuhai.uk 02
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: Og%3D%3D
+  password: Og%3D%3D
 - name: SG - zhuhai.uk
   type: http
   server: 146.70.29.45
