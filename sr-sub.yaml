@@ -1,43 +1,104 @@
-# Mac hourly sync 2026-09-26 00:17:50 | alive 6
+# Mac hourly sync 2026-09-26 01:17:19 | alive 13
 proxies:
-- name: US - zhuhai.uk 02
+- name: NL - zhuhai.uk
   type: http
-  server: 138.199.35.206
+  server: 84.17.47.146
   port: 9002
   username: 'null'
   password: None
   tls: true
   skip-cert-verify: true
-- name: IN - zhuhai.uk
+- name: US - zhuhai.uk 02
   type: http
-  server: 35.197.129.84
+  server: crosscards.site
   port: 443
   tls: true
+  sni: crosscards.site
   skip-cert-verify: true
-- name: US - zhuhai.uk 09
+- name: US - zhuhai.uk 03
   type: http
-  server: 138.199.35.216
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk
-  type: http
-  server: 193.176.84.31
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: JP - zhuhai.uk 02
-  type: http
-  server: fan.587475.xyz
+  server: fan.596189.xyz
   port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: fan.596189.xyz
+- name: JP - zhuhai.uk
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: bnVsbDpudWxs
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 01
+- name: SG - zhuhai.uk
   type: vless
-  server: 38.244.20.25
+  server: 163.128.99.57
   port: 443
-  uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19
+  uuid: 1a049739-b873-4242-9a2b-239951eb2dd3
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  skip-cert-verify: true
+  client-fingerprint: safari
+  reality-opts:
+    public-key: 4S52pKhsJA4gK-_MLW8_R8TTeZsS4pH7ef6St-aKVBQ
+    short-id: ab1df8505f6e0072
+- name: US - zhuhai.uk 06
+  type: http
+  server: 138.199.35.198
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: TW - zhuhai.uk
+  type: anytls
+  server: 6ivh.pnuqcnp.cn
+  port: 443
+  password: 9sK2mP8xQ7vL3nZ6
+  udp: true
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: DE - zhuhai.uk 02
+  type: http
+  server: 167.172.172.190
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: a7acacbe.acsnet.co
+  skip-cert-verify: true
+- name: IT - zhuhai.uk
+  type: http
+  server: 93.42.177.250
+  port: 443
+  tls: true
+  sni: 93.42.177.250
+  skip-cert-verify: true
+- name: FI - zhuhai.uk
+  type: socks5
+  server: 83.147.216.208
+  port: 1080
+  username: V1cwMVYyTXlTa1ZqU0ZaclZqTm9lazluUFQwNjo=
+- name: HK - zhuhai.uk 02
+  type: http
+  server: fan.240104.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: ID - zhuhai.uk
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: SG - zhuhai.uk 02
+  type: vless
+  server: 163.128.99.14
+  port: 443
+  uuid: bda35755-c838-49c3-a19e-3712f2d54275
   udp: true
   network: tcp
   flow: xtls-rprx-vision
@@ -45,5 +106,5 @@ proxies:
   servername: www.apple.com
   client-fingerprint: safari
   reality-opts:
-    public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds
-    short-id: befa80d97af98b74
+    public-key: -LuhwN_cSgNr7nYIfCcu_XAjviKVSGwVGHxmB-s1AD0
+    short-id: e3a4bdfe3d6fd8ec
