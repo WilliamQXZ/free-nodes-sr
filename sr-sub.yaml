@@ -1,13 +1,10 @@
-# Mac hourly sync 2026-09-25 20:17:50 | alive 10
+# Mac hourly sync 2026-09-25 21:17:20 | alive 14
 proxies:
-- name: US - zhuhai.uk 02
+- name: US - zhuhai.uk
   type: http
-  server: 138.199.35.198
+  server: 138.199.35.215
   port: 9002
-  username: 'null'
-  password: 'null'
   tls: true
-  sni: 138.199.35.198
   skip-cert-verify: true
 - name: US - zhuhai.uk 05
   type: http
@@ -46,6 +43,16 @@ proxies:
   type: socks5
   server: 171.25.158.95
   port: 1080
+- name: NL - zhuhai.uk 03
+  type: http
+  server: 157.22.183.72
+  port: 443
+  tls: true
+- name: US - zhuhai.uk 08
+  type: http
+  server: purposebydesig.club
+  port: 443
+  tls: true
 - name: US - zhuhai.uk 09
   type: vless
   server: 108.186.180.148
@@ -58,11 +65,32 @@ proxies:
   reality-opts:
     public-key: GuS5do70boXjF2CVlS19J6pwNq1-BHDFYWc8ykj8gGw
     short-id: bdb8101a
-- name: US - zhuhai.uk 12
-  type: http
-  server: 138.199.35.199
-  port: 9002
+- name: FI - zhuhai.uk
+  type: vless
+  server: 138.124.121.233
+  port: 443
+  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
+  flow: xtls-rprx-vision
   tls: true
+  servername: amd.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: a696de84963656de
+- name: JP - zhuhai.uk
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: fan.571589.xyz
+- name: JP - zhuhai.uk 02
+  type: hysteria2
+  server: msjp1.mangshe.xyz
+  port: 20561
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  sni: www.microsoft.com
   skip-cert-verify: true
 - name: US - zhuhai.uk 01
   type: vless
