@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-25 10:17:20 | alive 21
+# Mac hourly sync 2026-09-25 11:17:35 | alive 17
 proxies:
 - name: NL - zhuhai.uk
   type: http
@@ -6,44 +6,21 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: NL - zhuhai.uk 02
-  type: vless
-  server: 141.148.236.91
-  port: 62145
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: TW - zhuhai.uk
-  type: anytls
-  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
-  port: 443
-  password: 9sK2mP8xQ7vL3nZ6
-  udp: true
-  sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
-  skip-cert-verify: true
 - name: NL - zhuhai.uk 03
   type: vless
   server: 158.101.195.112
   port: 62145
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: US - zhuhai.uk
+- name: RO - zhuhai.uk
   type: http
-  server: goedkoopgeluid.icu
-  port: 443
-  username: 'null'
-  password: 'null'
+  server: 193.176.84.40
+  port: 9002
   tls: true
   skip-cert-verify: true
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.39
   port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: mmgr.club
-  port: 443
   username: 'null'
   password: None
   tls: true
@@ -86,6 +63,14 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: 138.199.35.208
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
 - name: FR - zhuhai.uk
   type: http
   server: 141.94.16.4
@@ -99,16 +84,6 @@ proxies:
   tls: true
   sni: 193.176.84.27
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: vless
-  server: 172.67.207.26
-  port: 8880
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
 - name: TR - zhuhai.uk
   type: vless
   server: tr3.wba-pn.ru
@@ -146,15 +121,10 @@ proxies:
   udp: true
   sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
   skip-cert-verify: true
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: T2clM0QlM0Q6
-- name: MY - zhuhai.uk
-  type: hysteria2
-  server: 103.117.141.103
-  port: 2060
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  sni: mlxy.mangshe.xyz
-  skip-cert-verify: true
+- name: JP - zhuhai.uk
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
