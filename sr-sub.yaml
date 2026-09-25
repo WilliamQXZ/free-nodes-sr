@@ -1,11 +1,5 @@
-# Mac hourly sync 2026-09-25 17:17:16 | alive 16
+# Mac hourly sync 2026-09-25 18:17:16 | alive 14
 proxies:
-- name: DE - zhuhai.uk
-  type: http
-  server: 141.17.83.78
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: HK - zhuhai.uk
   type: http
   server: fan.240104.xyz
@@ -30,25 +24,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: KZ - zhuhai.uk
-  type: vless
-  server: kazartip.thewalkingded.life
-  port: 443
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-  flow: xtls-rprx-vision
-  tls: true
-  servername: kazartip.thewalkingded.life
-  skip-cert-verify: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 5JhqvTTHIhhA_2Jjc3_y6pwLmKfe4wtwq3vSt43P00I
-    short-id: 7cf408996c82639f
-- name: US - zhuhai.uk 02
-  type: http
-  server: purposebydesig.club
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
 - name: US - zhuhai.uk 03
   type: http
   server: 138.199.35.198
@@ -71,6 +46,12 @@ proxies:
   server: 121.169.46.116
   port: 1090
   username: VDJjbE0wUWxNMFE2Og==
+- name: GB - zhuhai.uk
+  type: http
+  server: 212.102.63.31
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: NL - zhuhai.uk 02
   type: http
   server: 84.17.47.149
@@ -82,13 +63,6 @@ proxies:
   server: 121.169.46.116
   port: 1090
   username: Vm0xMFUxTXlSbkpQVm1SU1lrWmFjRnBYY0VKTmF6bHVVRlF3TmpvPTo=
-- name: US - zhuhai.uk 04
-  type: http
-  server: purposebydesig.club
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
 - name: US - zhuhai.uk 05
   type: http
   server: 138.199.35.207
@@ -103,25 +77,44 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: ID - zhuhai.uk
-  type: http
-  server: jewelscollecti.icu
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: jewelscollecti.icu
-- name: KZ - zhuhai.uk 01
+- name: US - zhuhai.uk 06
   type: vless
-  server: kazartip.thewalkingded.life
+  server: grimness-backlogs.cdn-content.com
   port: 443
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  uuid: 5d76bd7c-d538-432f-a7d8-9be364427a19
+  tls: true
+  servername: grimness-backlogs.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+- name: PL - zhuhai.uk 01
+  type: vless
+  server: 194.93.63.246
+  port: 443
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
   udp: true
   network: tcp
   flow: xtls-rprx-vision
   tls: true
-  servername: kazartip.thewalkingded.life
-  client-fingerprint: firefox
+  servername: pl.bubahero.com
+  client-fingerprint: chrome
   reality-opts:
-    public-key: 5JhqvTTHIhhA_2Jjc3_y6pwLmKfe4wtwq3vSt43P00I
-    short-id: 7cf408996c82639f
+    public-key: GmZv3anSeAeHr_cMFKr-6MPLli-nyKNatnY6P3AFK00
+    short-id: 9c2378562188c3cb
+- name: PL - zhuhai.uk 02
+  type: vless
+  server: pl.bubahero.com
+  port: 443
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  servername: pl.bubahero.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: GmZv3anSeAeHr_cMFKr-6MPLli-nyKNatnY6P3AFK00
+    short-id: 9c2378562188c3cb
