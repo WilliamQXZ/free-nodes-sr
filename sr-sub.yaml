@@ -1,22 +1,11 @@
-# Mac hourly sync 2026-09-25 23:17:22 | alive 9
+# Mac hourly sync 2026-09-26 00:17:50 | alive 6
 proxies:
-- name: FR - zhuhai.uk
-  type: socks5
-  server: 109.123.251.109
-  port: 1080
-- name: US - zhuhai.uk 03
+- name: US - zhuhai.uk 02
   type: http
-  server: 138.199.35.201
+  server: 138.199.35.206
   port: 9002
   username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.201
-  skip-cert-verify: true
-- name: SG - zhuhai.uk
-  type: http
-  server: 149.88.99.209
-  port: 9443
+  password: None
   tls: true
   skip-cert-verify: true
 - name: IN - zhuhai.uk
@@ -25,11 +14,6 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: purecambogiasl.live
-  port: 443
-  tls: true
 - name: US - zhuhai.uk 09
   type: http
   server: 138.199.35.216
