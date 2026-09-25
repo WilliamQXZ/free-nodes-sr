@@ -1,5 +1,11 @@
-# Mac hourly sync 2026-09-25 18:17:16 | alive 14
+# Mac hourly sync 2026-09-25 19:17:50 | alive 17
 proxies:
+- name: LV - zhuhai.uk
+  type: http
+  server: 109.248.147.66
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: HK - zhuhai.uk
   type: http
   server: fan.240104.xyz
@@ -41,11 +47,12 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VDJjbE0wUWxNMFE2Og==
+- name: IT - zhuhai.uk
+  type: http
+  server: 185.183.105.130
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: GB - zhuhai.uk
   type: http
   server: 212.102.63.31
@@ -58,11 +65,20 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: KR - zhuhai.uk 03
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: Vm0xMFUxTXlSbkpQVm1SU1lrWmFjRnBYY0VKTmF6bHVVRlF3TmpvPTo=
+- name: FR - zhuhai.uk 02
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: google.com
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04
+  type: http
+  server: purposebydesig.club
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
 - name: US - zhuhai.uk 05
   type: http
   server: 138.199.35.207
@@ -77,19 +93,21 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06
-  type: vless
-  server: grimness-backlogs.cdn-content.com
+- name: FR - zhuhai.uk 03
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: vk.com
+  skip-cert-verify: true
+- name: ID - zhuhai.uk
+  type: http
+  server: jewelscollecti.icu
   port: 443
-  uuid: 5d76bd7c-d538-432f-a7d8-9be364427a19
+  username: 'null'
+  password: 'null'
   tls: true
-  servername: grimness-backlogs.cdn-content.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: grimness-backlogs.cdn-content.com
+  sni: jewelscollecti.icu
 - name: PL - zhuhai.uk 01
   type: vless
   server: 194.93.63.246
