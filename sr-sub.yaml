@@ -1,5 +1,18 @@
-# Mac hourly sync 2026-09-26 06:17:16 | alive 26
+# Mac hourly sync 2026-09-26 07:17:19 | alive 26
 proxies:
+- name: DE - zhuhai.uk
+  type: vless
+  server: 132.243.242.97
+  port: 9543
+  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
+  flow: xtls-rprx-vision
+  tls: true
+  servername: storage.yandexcloud.net
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
+    short-id: 123abcdf
 - name: US - zhuhai.uk
   type: http
   server: 138.199.35.220
@@ -8,18 +21,6 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 03
-  type: vless
-  server: 108.186.180.148
-  port: 47700
-  uuid: af24a0e4-f5a2-4b97-a678-992d45346147
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GuS5do70boXjF2CVlS19J6pwNq1-BHDFYWc8ykj8gGw
-    short-id: bdb8101a
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.24
