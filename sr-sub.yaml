@@ -1,11 +1,5 @@
-# Mac hourly sync 2026-09-25 16:17:47 | alive 18
+# Mac hourly sync 2026-09-25 17:17:16 | alive 16
 proxies:
-- name: LV - zhuhai.uk
-  type: http
-  server: 109.248.147.66
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: DE - zhuhai.uk
   type: http
   server: 141.17.83.78
@@ -36,12 +30,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: purecambogiasl.live
-  port: 443
-  tls: true
-  sni: purecambogiasl.live
 - name: KZ - zhuhai.uk
   type: vless
   server: kazartip.thewalkingded.life
@@ -55,6 +43,12 @@ proxies:
   reality-opts:
     public-key: 5JhqvTTHIhhA_2Jjc3_y6pwLmKfe4wtwq3vSt43P00I
     short-id: 7cf408996c82639f
+- name: US - zhuhai.uk 02
+  type: http
+  server: purposebydesig.club
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
 - name: US - zhuhai.uk 03
   type: http
   server: 138.199.35.198
@@ -72,31 +66,29 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: IT - zhuhai.uk
-  type: http
-  server: 185.183.105.130
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: GB - zhuhai.uk
-  type: http
-  server: 212.102.63.31
-  port: 443
-  tls: true
-  skip-cert-verify: true
+- name: KR - zhuhai.uk 02
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: VDJjbE0wUWxNMFE2Og==
 - name: NL - zhuhai.uk 02
   type: http
   server: 84.17.47.149
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: FR - zhuhai.uk 02
-  type: hysteria2
-  server: 62.210.7.139
-  port: 60111
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: google.com
-  skip-cert-verify: true
+- name: KR - zhuhai.uk 03
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: Vm0xMFUxTXlSbkpQVm1SU1lrWmFjRnBYY0VKTmF6bHVVRlF3TmpvPTo=
+- name: US - zhuhai.uk 04
+  type: http
+  server: purposebydesig.club
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
 - name: US - zhuhai.uk 05
   type: http
   server: 138.199.35.207
@@ -111,27 +103,14 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: FR - zhuhai.uk 03
-  type: hysteria2
-  server: 62.210.7.139
-  port: 60111
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: vk.com
-  skip-cert-verify: true
-- name: PL - zhuhai.uk 01
-  type: vless
-  server: 194.93.63.246
+- name: ID - zhuhai.uk
+  type: http
+  server: jewelscollecti.icu
   port: 443
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
+  username: 'null'
+  password: 'null'
   tls: true
-  servername: pl.bubahero.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GmZv3anSeAeHr_cMFKr-6MPLli-nyKNatnY6P3AFK00
-    short-id: 9c2378562188c3cb
+  sni: jewelscollecti.icu
 - name: KZ - zhuhai.uk 01
   type: vless
   server: kazartip.thewalkingded.life
