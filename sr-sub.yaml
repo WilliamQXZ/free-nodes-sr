@@ -1,17 +1,5 @@
-# Mac hourly sync 2026-09-26 03:17:47 | alive 21
+# Mac hourly sync 2026-09-26 04:17:43 | alive 15
 proxies:
-- name: JP - zhuhai.uk
-  type: vless
-  server: 47.245.59.217
-  port: 443
-  uuid: 7b7a7971-f2f7-4480-97a9-65725d0feb90
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.nvidia.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: OkBMcL2bNv4xGTny1GEMyrPPw0zA8HKsaq_F7Ws6ljw
-    short-id: 289970eb9a114bac
 - name: US - zhuhai.uk 03
   type: http
   server: 138.199.35.200
@@ -25,13 +13,6 @@ proxies:
   server: 138.199.35.198
   port: 9002
   tls: true
-  skip-cert-verify: true
-- name: JP - zhuhai.uk 02
-  type: hysteria2
-  server: open.2ml.bid
-  port: 5443
-  password: my_super_password_123
-  sni: open.2ml.bid
   skip-cert-verify: true
 - name: US - zhuhai.uk 06
   type: vless
@@ -62,12 +43,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 09
-  type: http
-  server: voteshirleysew.club
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 10
   type: http
   server: 138.199.35.208
@@ -75,24 +50,6 @@ proxies:
   tls: true
   sni: 138.199.35.208
   skip-cert-verify: true
-- name: ID - zhuhai.uk
-  type: http
-  server: voteshirleysew.club
-  port: 443
-  tls: true
-- name: JP - zhuhai.uk 03
-  type: vless
-  server: 47.245.59.217
-  port: 443
-  uuid: 7b7a7971-f2f7-4480-97a9-65725d0feb90
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: OkBMcL2bNv4xGTny1GEMyrPPw0zA8HKsaq_F7Ws6ljw
-    short-id: 289970eb9a114bac
 - name: NL - zhuhai.uk
   type: http
   server: 84.17.47.149
@@ -146,14 +103,13 @@ proxies:
   port: 1080
   username: admin
   password: admin
-- name: KR - zhuhai.uk 02
+- name: HK - zhuhai.uk 02
   type: anytls
   server: 7b-1m1.6c9bbdd6-6a9b-447f-a87b-10707457c3a2.abccba.top
-  port: 51023
+  port: 51003
   password: 1095c731-affa-4f85-a9c8-61e495e56aca
   udp: true
-  sni: gs-drcn.game.dbankcloud.cn
-  skip-cert-verify: true
+  sni: dl.hu-yunpan.top
 - name: SG - zhuhai.uk
   type: vless
   server: 163.128.99.57
@@ -166,12 +122,3 @@ proxies:
   reality-opts:
     public-key: 4S52pKhsJA4gK-_MLW8_R8TTeZsS4pH7ef6St-aKVBQ
     short-id: ab1df8505f6e0072
-- name: SG - zhuhai.uk 02
-  type: hysteria2
-  server: 138.2.89.249
-  port: 443
-  password: d042d150716709bb778cc73889cddb02
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
