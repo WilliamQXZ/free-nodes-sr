@@ -1,15 +1,9 @@
-# Mac hourly sync 2026-09-25 13:17:56 | alive 28
+# Mac hourly sync 2026-09-25 14:17:45 | alive 26
 proxies:
 - name: NL - zhuhai.uk
   type: http
   server: 84.17.47.150
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: BE - zhuhai.uk
-  type: http
-  server: 146.70.176.242
-  port: 443
   tls: true
   skip-cert-verify: true
 - name: SE - zhuhai.uk
@@ -145,10 +139,12 @@ proxies:
     path: /
     headers:
       Host: vp10.pages.dev
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
+- name: SG - zhuhai.uk
+  type: http
+  server: 154.26.139.24
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: ID - zhuhai.uk
   type: http
   server: webdrone.club
@@ -240,17 +236,3 @@ proxies:
   reality-opts:
     public-key: 5JhqvTTHIhhA_2Jjc3_y6pwLmKfe4wtwq3vSt43P00I
     short-id: 7cf408996c82639f
-- name: FI - zhuhai.uk 04
-  type: vless
-  server: 196.196.206.37
-  port: 443
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fintanil228.vvzzkontaktezzvv.garden
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: YBKHp6R7xp2Ss2kxbvDNMFPpRrf3oh1wQ2dVMukPHmA
-    short-id: d110331f200987ae
