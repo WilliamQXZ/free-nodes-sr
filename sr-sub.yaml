@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-26 18:17:18 | alive 23
+# Mac hourly sync 2026-09-26 19:17:44 | alive 21
 proxies:
 - name: PL - zhuhai.uk
   type: http
@@ -15,13 +15,6 @@ proxies:
   sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
   skip-cert-verify: true
   client-fingerprint: chrome
-- name: RO - zhuhai.uk
-  type: http
-  server: 193.176.84.27
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: DE - zhuhai.uk
   type: http
   server: fan.973511.xyz
@@ -35,22 +28,17 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: AT - zhuhai.uk
-  type: http
-  server: 146.70.244.18
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: FI - zhuhai.uk
   type: socks5
   server: 83.147.216.208
   port: 1080
   username: V1cwMVYyTXlTa1ZqU0ZaclZqTm9lazluUFQwNjo=
-- name: HR - zhuhai.uk
+- name: RO - zhuhai.uk 02
   type: http
-  server: 154.47.29.161
-  port: 443
+  server: 193.176.84.24
+  port: 9002
   tls: true
+  sni: www.bing.com
   skip-cert-verify: true
 - name: US - zhuhai.uk 02
   type: http
@@ -66,13 +54,6 @@ proxies:
   server: 193.176.84.16
   port: 9002
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03
-  type: http
-  server: 149.34.248.65
-  port: 443
-  tls: true
-  sni: 149.34.248.65
   skip-cert-verify: true
 - name: US - zhuhai.uk 04
   type: http
@@ -93,13 +74,6 @@ proxies:
   server: 83.147.216.208
   port: 1080
   username: T2c9PTo=
-- name: US - zhuhai.uk 05
-  type: http
-  server: crosscards.site
-  port: 443
-  tls: true
-  sni: crosscards.site
-  skip-cert-verify: true
 - name: US - zhuhai.uk 06
   type: http
   server: 138.199.35.206
@@ -137,14 +111,6 @@ proxies:
   tls: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: JP - zhuhai.uk
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: fan.571589.xyz
 - name: JP - zhuhai.uk 02
   type: vless
   server: jp-1.gsafevpnapi.com
@@ -157,9 +123,35 @@ proxies:
   reality-opts:
     public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
     short-id: 89fecfdaf45cd76d
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: Og%3D%3D
-  password: Og%3D%3D
+- name: SG - zhuhai.uk
+  type: http
+  server: 154.26.139.24
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: ID - zhuhai.uk
+  type: http
+  server: mmgr.club
+  port: 443
+  tls: true
+  sni: mmgr.club
+  skip-cert-verify: true
+- name: ID - zhuhai.uk 02
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: PL - zhuhai.uk 01
+  type: vless
+  server: 31.77.13.19
+  port: 2063
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  servername: rusbid.de
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
