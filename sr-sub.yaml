@@ -1,5 +1,24 @@
-# Mac hourly sync 2026-09-26 21:28:14 | alive 14
+# Mac hourly sync 2026-09-26 22:20:58 | alive 12
 proxies:
+- name: US - zhuhai.uk 02
+  type: vless
+  server: 23.95.222.127
+  port: 8443
+  uuid: 352ff568-f971-4613-bf48-92997a5d44ed
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ribQDOlZ69PzvZ1EDF0EcmMvbq_T5RQrVRBSGUU2riU
+    short-id: 35cd899f8de04801
+- name: US - zhuhai.uk 03
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+  username: Ok5vbmU=
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 04
   type: vless
   server: us-1.gsafevpnapi.com
@@ -19,13 +38,11 @@ proxies:
   password: 9sK2mP8xQ7vL3nZ6
   udp: true
   skip-cert-verify: true
-- name: TW - zhuhai.uk 02
-  type: anytls
-  server: 6ivh.pnuqcnp.cn
+- name: DE - zhuhai.uk
+  type: http
+  server: fan.973511.xyz
   port: 443
-  password: 9sK2mP8xQ7vL3nZ6
-  udp: true
-  sni: images.ctfassets.net
+  tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 08
   type: vless
@@ -47,70 +64,36 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 11
+- name: RO - zhuhai.uk
   type: http
-  server: crosscards.site
-  port: 443
-  username: Ok5vbmU=
-  tls: true
-- name: US - zhuhai.uk 12
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.200
-  skip-cert-verify: true
-- name: US - zhuhai.uk 13
-  type: http
-  server: crosscards.site
-  port: 443
-  tls: true
-- name: NL - zhuhai.uk
-  type: http
-  server: 84.17.47.146
+  server: 193.176.84.32
   port: 9002
   tls: true
+  sni: www.bing.com
   skip-cert-verify: true
-- name: TW - zhuhai.uk 03
+- name: US - zhuhai.uk 14
   type: anytls
-  server: 6ivh.pnuqcnp.cn
-  port: 443
-  password: 9sK2mP8xQ7vL3nZ6
+  server: anytls2.864106.xyz
+  port: 19000
+  password: github.com/Alvin9999-newpac/fanqiang
   udp: true
-  sni: 6ivh.pnuqcnp.cn
-  alpn:
-  - http/1.1
+  sni: anytls2.864106.xyz
   skip-cert-verify: true
-  client-fingerprint: chrome
+- name: JP - zhuhai.uk
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+  skip-cert-verify: true
 - name: KR - zhuhai.uk 02
   type: socks5
   server: 121.169.46.116
   port: 1090
   username: VkRKamJFMHdVV3hOTUZFMlZESmpiRTB3VVd4Tk1GRTlPZz09Og==
-- name: ID - zhuhai.uk
-  type: http
-  server: fullmanfirm.icu
-  port: 443
-  tls: true
-  sni: fullmanfirm.icu
 - name: IN - zhuhai.uk
   type: http
   server: 35.197.129.84
   port: 443
   tls: true
   skip-cert-verify: true
-- name: PL - zhuhai.uk 01
-  type: vless
-  server: 31.77.13.19
-  port: 2063
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: rusbid.de
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
