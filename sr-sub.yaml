@@ -1,17 +1,58 @@
-# Mac hourly sync 2026-09-26 20:27:53 | alive 7
+# Mac hourly sync 2026-09-26 21:28:14 | alive 14
 proxies:
-- name: US - zhuhai.uk 02
+- name: US - zhuhai.uk 04
   type: vless
-  server: 23.95.222.127
-  port: 8443
-  uuid: 352ff568-f971-4613-bf48-92997a5d44ed
+  server: us-1.gsafevpnapi.com
+  port: 20270
+  uuid: 537f8b38-8015-4431-84bb-63ada2d0bf89
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: eadapatOPUV75uDTLPqrRHD1vAAmu_Y-SyQCbp9wgwM
+    short-id: f7a0cd272f3f20a7
+- name: TW - zhuhai.uk
+  type: anytls
+  server: 6ivh.pnuqcnp.cn
+  port: 443
+  password: 9sK2mP8xQ7vL3nZ6
+  udp: true
+  skip-cert-verify: true
+- name: TW - zhuhai.uk 02
+  type: anytls
+  server: 6ivh.pnuqcnp.cn
+  port: 443
+  password: 9sK2mP8xQ7vL3nZ6
+  udp: true
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08
+  type: vless
+  server: 47.90.153.88
+  port: 443
+  uuid: 1e255ca5-93b1-4952-a838-0783dfc034d8
   flow: xtls-rprx-vision
   tls: true
   servername: www.apple.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: ribQDOlZ69PzvZ1EDF0EcmMvbq_T5RQrVRBSGUU2riU
-    short-id: 35cd899f8de04801
+    public-key: QtYyp41YbDij6nygTaPPpqXqEGzDD3wYFI3YlfTjfBo
+    short-id: 6b85179e
+- name: US - zhuhai.uk 09
+  type: http
+  server: 138.199.35.213
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 11
+  type: http
+  server: crosscards.site
+  port: 443
+  username: Ok5vbmU=
+  tls: true
 - name: US - zhuhai.uk 12
   type: http
   server: 138.199.35.200
@@ -21,13 +62,16 @@ proxies:
   tls: true
   sni: 138.199.35.200
   skip-cert-verify: true
-- name: US - zhuhai.uk 14
-  type: anytls
-  server: anytls2.864106.xyz
-  port: 19000
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  sni: anytls2.864106.xyz
+- name: US - zhuhai.uk 13
+  type: http
+  server: crosscards.site
+  port: 443
+  tls: true
+- name: NL - zhuhai.uk
+  type: http
+  server: 84.17.47.146
+  port: 9002
+  tls: true
   skip-cert-verify: true
 - name: TW - zhuhai.uk 03
   type: anytls
@@ -45,6 +89,12 @@ proxies:
   server: 121.169.46.116
   port: 1090
   username: VkRKamJFMHdVV3hOTUZFMlZESmpiRTB3VVd4Tk1GRTlPZz09Og==
+- name: ID - zhuhai.uk
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+  tls: true
+  sni: fullmanfirm.icu
 - name: IN - zhuhai.uk
   type: http
   server: 35.197.129.84
