@@ -1,5 +1,14 @@
-# Mac hourly sync 2026-09-26 10:17:19 | alive 19
+# Mac hourly sync 2026-09-26 11:17:51 | alive 20
 proxies:
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.35
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 193.176.84.35
+  skip-cert-verify: true
 - name: US - zhuhai.uk
   type: http
   server: 138.199.35.200
@@ -7,6 +16,13 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02
+  type: http
+  server: kimberlymilano.icu
+  port: 443
+  tls: true
+  sni: kimberlymilano.icu
   skip-cert-verify: true
 - name: NL - zhuhai.uk
   type: http
@@ -73,24 +89,12 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: socks5
-  server: 185.145.99.41
-  port: 1080
-  username: test123
-  password: test123
-- name: US - zhuhai.uk 08
-  type: vless
-  server: 107.149.159.190
-  port: 4433
-  uuid: 443d55c9-9b78-4ad4-ac34-5ada5b98e97e
-  flow: xtls-rprx-vision
+- name: GB - zhuhai.uk
+  type: http
+  server: 212.102.63.31
+  port: 443
   tls: true
-  servername: www.postgresql.org
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ptrxM_lwiuXte-ynRSfM7AyayGbWrfCzkV1gQ5EgeSw
-    short-id: 0fa5bc397af019a2
+  skip-cert-verify: true
 - name: FI - zhuhai.uk 02
   type: socks5
   server: 83.147.216.208
@@ -105,6 +109,14 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
+- name: JP - zhuhai.uk
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: fan.571589.xyz
 - name: HK - zhuhai.uk
   type: anytls
   server: 7b-1m1.6c9bbdd6-6a9b-447f-a87b-10707457c3a2.abccba.top
@@ -125,9 +137,3 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
-- name: ID - zhuhai.uk 02
-  type: http
-  server: purposebydesig.club
-  port: 443
-  tls: true
-  sni: purposebydesig.club
