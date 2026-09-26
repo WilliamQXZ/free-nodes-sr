@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-26 14:17:56 | alive 22
+# Mac hourly sync 2026-09-26 15:17:24 | alive 17
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -15,19 +15,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: HK - zhuhai.uk
-  type: vless
-  server: 172.67.77.34
-  port: 443
-  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
-  tls: true
-  servername: pmpmppm.pages.dev
-  client-fingerprint: randomized
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: pmpmppm.pages.dev
 - name: IT - zhuhai.uk
   type: http
   server: 93.42.177.250
@@ -77,64 +64,31 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: GB - zhuhai.uk
-  type: http
-  server: 185.235.0.66
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 06
   type: http
   server: 138.199.35.202
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: fan.365747.xyz
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: fan.365747.xyz
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08
+- name: SE - zhuhai.uk
   type: vless
-  server: 172.64.229.156
-  port: 443
-  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
+  server: 176.109.106.182
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   tls: true
-  servername: pmpmppm.pages.dev
-  client-fingerprint: randomized
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: pmpmppm.pages.dev
+  servername: dl.google.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
 - name: RO - zhuhai.uk 04
   type: http
   server: 193.176.84.21
   port: 9002
   tls: true
   sni: www.bing.com
-  skip-cert-verify: true
-- name: ES - zhuhai.uk
-  type: vless
-  server: 138.124.181.185
-  port: 443
-  uuid: 0a975d79-6930-4861-a105-dc50793456de
-  flow: xtls-rprx-vision
-  tls: true
-  servername: bags.yump.online
-  client-fingerprint: safari
-  reality-opts:
-    public-key: D2NOHlDThz1hjnJyALYmK_2You29nfyoZCwK9Vou9xU
-    short-id: 72ae7f89582e5c43
-- name: DE - zhuhai.uk
-  type: http
-  server: 87.249.132.97
-  port: 9443
-  tls: true
   skip-cert-verify: true
 - name: KR - zhuhai.uk 02
   type: socks5
@@ -154,20 +108,19 @@ proxies:
   reality-opts:
     public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
     short-id: 89fecfdaf45cd76d
-- name: SG - zhuhai.uk
+- name: ID - zhuhai.uk
   type: http
-  server: 146.70.29.45
+  server: kimberlymilano.icu
   port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
   tls: true
-  sni: 92461d2d.acsnet.co
-- name: SG - zhuhai.uk 02
+  sni: kimberlymilano.icu
+- name: ID - zhuhai.uk 02
   type: http
-  server: 149.88.99.209
-  port: 9443
+  server: jgwynphotoarts.pro
+  port: 443
+  username: 'null'
+  password: 'null'
   tls: true
-  skip-cert-verify: true
 - name: PL - zhuhai.uk 01
   type: vless
   server: 31.77.13.19
