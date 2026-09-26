@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-27 03:23:35 | alive 17
+# Mac hourly sync 2026-09-27 04:19:55 | alive 19
 proxies:
 - name: US - zhuhai.uk 02
   type: http
@@ -8,9 +8,22 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
+- name: NL - zhuhai.uk
+  type: http
+  server: 84.17.47.146
+  port: 9002
+  tls: true
+  sni: 84.17.47.146
+  skip-cert-verify: true
 - name: US - zhuhai.uk 03
   type: http
   server: 138.199.35.210
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk 02
+  type: http
+  server: 84.17.47.125
   port: 9002
   tls: true
   skip-cert-verify: true
@@ -25,6 +38,15 @@ proxies:
   server: 138.199.35.200
   port: 9002
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05
+  type: http
+  server: jewelscollecti.icu
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: jewelscollecti.icu
   skip-cert-verify: true
 - name: TW - zhuhai.uk
   type: socks5
@@ -54,12 +76,19 @@ proxies:
   udp: true
   sni: 6ivh.pnuqcnp.cn
   skip-cert-verify: true
-- name: ES - zhuhai.uk
-  type: http
-  server: 130.195.250.18
+- name: NL - zhuhai.uk 03
+  type: vless
+  server: 13.143.193.156
   port: 443
+  uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
+  flow: xtls-rprx-vision
   tls: true
+  servername: nl2.gursub.com
   skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ltHl15Wq549qC2JdAtesy-POs6Hwm_BbrlzuwDkWoUk
+    short-id: a1b2c3d4e5f6a1b2
 - name: US - zhuhai.uk 07
   type: http
   server: 138.199.35.212
@@ -94,12 +123,6 @@ proxies:
   password: 9sK2mP8xQ7vL3nZ6
   udp: true
   sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: US - zhuhai.uk 10
-  type: http
-  server: 38.95.111.226
-  port: 9443
-  tls: true
   skip-cert-verify: true
 - name: KR - zhuhai.uk 02
   type: socks5
