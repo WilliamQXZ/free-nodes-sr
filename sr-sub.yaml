@@ -1,147 +1,56 @@
-# Mac hourly sync 2026-09-26 19:17:44 | alive 21
+# Mac hourly sync 2026-09-26 20:27:53 | alive 7
 proxies:
-- name: PL - zhuhai.uk
-  type: http
-  server: 151.115.54.133
-  port: 443
+- name: US - zhuhai.uk 02
+  type: vless
+  server: 23.95.222.127
+  port: 8443
+  uuid: 352ff568-f971-4613-bf48-92997a5d44ed
+  flow: xtls-rprx-vision
   tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ribQDOlZ69PzvZ1EDF0EcmMvbq_T5RQrVRBSGUU2riU
+    short-id: 35cd899f8de04801
+- name: US - zhuhai.uk 12
+  type: http
+  server: 138.199.35.200
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.200
   skip-cert-verify: true
-- name: TW - zhuhai.uk
+- name: US - zhuhai.uk 14
   type: anytls
-  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
+  server: anytls2.864106.xyz
+  port: 19000
+  password: github.com/Alvin9999-newpac/fanqiang
+  udp: true
+  sni: anytls2.864106.xyz
+  skip-cert-verify: true
+- name: TW - zhuhai.uk 03
+  type: anytls
+  server: 6ivh.pnuqcnp.cn
   port: 443
   password: 9sK2mP8xQ7vL3nZ6
   udp: true
-  sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
+  sni: 6ivh.pnuqcnp.cn
+  alpn:
+  - http/1.1
   skip-cert-verify: true
   client-fingerprint: chrome
-- name: DE - zhuhai.uk
-  type: http
-  server: fan.973511.xyz
-  port: 443
-  tls: true
-  sni: fan.973511.xyz
-  skip-cert-verify: true
-- name: FR - zhuhai.uk
-  type: http
-  server: 149.102.245.65
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: FI - zhuhai.uk
+- name: KR - zhuhai.uk 02
   type: socks5
-  server: 83.147.216.208
-  port: 1080
-  username: V1cwMVYyTXlTa1ZqU0ZaclZqTm9lazluUFQwNjo=
-- name: RO - zhuhai.uk 02
+  server: 121.169.46.116
+  port: 1090
+  username: VkRKamJFMHdVV3hOTUZFMlZESmpiRTB3VVd4Tk1GRTlPZz09Og==
+- name: IN - zhuhai.uk
   type: http
-  server: 193.176.84.24
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: 138.199.35.197
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.197
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 03
-  type: http
-  server: 193.176.84.16
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 04
-  type: http
-  server: 193.176.84.30
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: FI - zhuhai.uk 02
-  type: socks5
-  server: 83.147.216.208
-  port: 1080
-  username: T2c9PTo=
-- name: US - zhuhai.uk 06
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.206
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 05
-  type: http
-  server: 193.176.84.21
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 06
-  type: http
-  server: 193.176.84.21
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: fan.596189.xyz
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: fan.596189.xyz
-- name: RO - zhuhai.uk 07
-  type: http
-  server: 193.176.84.32
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: JP - zhuhai.uk 02
-  type: vless
-  server: jp-1.gsafevpnapi.com
-  port: 20270
-  uuid: 537f8b38-8015-4431-84bb-63ada2d0bf89
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
-    short-id: 89fecfdaf45cd76d
-- name: SG - zhuhai.uk
-  type: http
-  server: 154.26.139.24
+  server: 35.197.129.84
   port: 443
   tls: true
   skip-cert-verify: true
-- name: ID - zhuhai.uk
-  type: http
-  server: mmgr.club
-  port: 443
-  tls: true
-  sni: mmgr.club
-  skip-cert-verify: true
-- name: ID - zhuhai.uk 02
-  type: http
-  server: efr-marktplatz.club
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
 - name: PL - zhuhai.uk 01
   type: vless
   server: 31.77.13.19
