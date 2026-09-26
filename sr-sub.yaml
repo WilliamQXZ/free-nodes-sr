@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-26 11:17:51 | alive 20
+# Mac hourly sync 2026-09-26 12:17:26 | alive 14
 proxies:
 - name: RO - zhuhai.uk
   type: http
@@ -16,13 +16,6 @@ proxies:
   username: 'null'
   password: 'null'
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: kimberlymilano.icu
-  port: 443
-  tls: true
-  sni: kimberlymilano.icu
   skip-cert-verify: true
 - name: NL - zhuhai.uk
   type: http
@@ -42,15 +35,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: 138.199.35.202
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.202
-  skip-cert-verify: true
 - name: RO - zhuhai.uk 03
   type: http
   server: 193.176.84.26
@@ -69,12 +53,6 @@ proxies:
   server: 83.147.216.208
   port: 1080
   username: V1cwMVYyTXlTa1ZqU0ZaclZqTm9lazluUFQwNjo=
-- name: US - zhuhai.uk 05
-  type: http
-  server: 138.199.35.215
-  port: 9002
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 06
   type: http
   server: 138.199.35.197
@@ -89,26 +67,12 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: GB - zhuhai.uk
-  type: http
-  server: 212.102.63.31
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: FI - zhuhai.uk 02
   type: socks5
   server: 83.147.216.208
   port: 1080
   username: 'null'
   password: 'null'
-- name: US - zhuhai.uk 09
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
 - name: JP - zhuhai.uk
   type: http
   server: fan.571589.xyz
@@ -117,13 +81,6 @@ proxies:
   password: 'null'
   tls: true
   sni: fan.571589.xyz
-- name: HK - zhuhai.uk
-  type: anytls
-  server: 7b-1m1.6c9bbdd6-6a9b-447f-a87b-10707457c3a2.abccba.top
-  port: 51003
-  password: 1095c731-affa-4f85-a9c8-61e495e56aca
-  udp: true
-  sni: dl.hu-yunpan.top
 - name: HK - zhuhai.uk 02
   type: socks5
   server: 47.242.19.215
