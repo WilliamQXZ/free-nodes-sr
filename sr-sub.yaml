@@ -1,18 +1,5 @@
-# Mac hourly sync 2026-09-26 07:17:19 | alive 26
+# Mac hourly sync 2026-09-26 08:17:20 | alive 24
 proxies:
-- name: DE - zhuhai.uk
-  type: vless
-  server: 132.243.242.97
-  port: 9543
-  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
-  flow: xtls-rprx-vision
-  tls: true
-  servername: storage.yandexcloud.net
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-    short-id: 123abcdf
 - name: US - zhuhai.uk
   type: http
   server: 138.199.35.220
@@ -156,13 +143,6 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: HK - zhuhai.uk
-  type: anytls
-  server: 7b-1m1.6c9bbdd6-6a9b-447f-a87b-10707457c3a2.abccba.top
-  port: 51003
-  password: 1095c731-affa-4f85-a9c8-61e495e56aca
-  udp: true
-  sni: dl.hu-yunpan.top
 - name: HK - zhuhai.uk 02
   type: http
   server: fan.240104.xyz
