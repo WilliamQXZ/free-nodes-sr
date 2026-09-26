@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-26 16:18:25 | alive 18
+# Mac hourly sync 2026-09-26 17:17:15 | alive 18
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -29,6 +29,13 @@ proxies:
   tls: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: 138.199.35.218
+  port: 9002
+  tls: true
+  sni: 138.199.35.218
+  skip-cert-verify: true
 - name: RO - zhuhai.uk 02
   type: http
   server: 193.176.84.27
@@ -43,24 +50,16 @@ proxies:
   password: 9sK2mP8xQ7vL3nZ6
   udp: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: 138.199.35.213
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
 - name: RO - zhuhai.uk 03
   type: http
   server: 193.176.84.27
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: GB - zhuhai.uk
+- name: US - zhuhai.uk 06
   type: http
-  server: 185.235.0.66
-  port: 443
+  server: 138.199.35.202
+  port: 9002
   tls: true
   skip-cert-verify: true
 - name: RO - zhuhai.uk 04
@@ -69,12 +68,6 @@ proxies:
   port: 9002
   tls: true
   sni: www.bing.com
-  skip-cert-verify: true
-- name: DE - zhuhai.uk
-  type: http
-  server: 87.249.132.97
-  port: 9443
-  tls: true
   skip-cert-verify: true
 - name: KR - zhuhai.uk 02
   type: socks5
@@ -108,6 +101,12 @@ proxies:
   password: e4b72b531a2d10900519
   tls: true
   sni: 92461d2d.acsnet.co
+- name: SG - zhuhai.uk 02
+  type: http
+  server: 149.88.99.209
+  port: 9443
+  tls: true
+  skip-cert-verify: true
 - name: ID - zhuhai.uk
   type: http
   server: kimberlymilano.icu
