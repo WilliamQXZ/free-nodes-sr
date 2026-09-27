@@ -1,65 +1,11 @@
-# Mac hourly sync 2026-09-27 14:26:26 | alive 18
+# Mac hourly sync 2026-09-27 15:35:08 | alive 10
 proxies:
-- name: US - zhuhai.uk
-  type: http
-  server: 147.182.216.4
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: 93b6d804.acsnet.co
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: 138.199.35.202
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: SE - zhuhai.uk
-  type: vless
-  server: freev2.cloudflare.182682.xyz
-  port: 443
-  uuid: 0ade2ba6-b275-4331-8f0d-d800665a8812
-  tls: true
-  servername: se-sto.862400.xyz
-  skip-cert-verify: true
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /announcement
-    headers:
-      Host: se-sto.862400.xyz
-- name: JP - zhuhai.uk
-  type: hysteria2
-  server: open.2ml.bid
-  port: 5443
-  password: my_super_password_123
-  sni: open.2ml.bid
-  skip-cert-verify: true
 - name: DE - zhuhai.uk
   type: ss
   server: 130.61.83.88
   port: 59924
   cipher: 2022-blake3-chacha20-poly1305
   password: bvHY/DNOgIpmarNB4MP65BYeGyXcXlZ1yF1k+2PnCGQ=
-- name: US - zhuhai.uk 05
-  type: http
-  server: 138.199.35.214
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.34
@@ -68,70 +14,38 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: PL - zhuhai.uk 02
+- name: NL - zhuhai.uk
   type: vless
-  server: 31.77.13.19
-  port: 2063
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  flow: xtls-rprx-vision
-  tls: true
-  servername: rusbid.de
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-- name: LT - zhuhai.uk
-  type: vless
-  server: 84.32.51.238
-  port: 45977
-  uuid: 25284368-40d5-4abe-9f56-54a07e88a7af
-  flow: xtls-rprx-vision
-  tls: true
-  servername: lt-1.dzvn.space
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 5JPUCm5vkIUyBfwcgnkWXJNIW4CaWgBzXgT61cvWVVA
-    short-id: f688ff32ece6b15f
-- name: US - zhuhai.uk 08
-  type: http
-  server: 138.199.35.213
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: FI - zhuhai.uk
-  type: vless
-  server: 31.76.245.63
+  server: nl2.gursub.com
   port: 443
-  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
+  uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
   flow: xtls-rprx-vision
   tls: true
-  servername: dzen.ru
-  skip-cert-verify: true
-  client-fingerprint: firefox
+  servername: nl2.gursub.com
+  client-fingerprint: chrome
   reality-opts:
-    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
-    short-id: a1b2c3d4e5f67890
-- name: RO - zhuhai.uk 02
-  type: http
-  server: 193.176.84.24
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
+    public-key: ltHl15Wq549qC2JdAtesy-POs6Hwm_BbrlzuwDkWoUk
+    short-id: a1b2c3d4e5f6a1b2
 - name: GB - zhuhai.uk 02
   type: ss
   server: 144.24.226.211
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: /TLj9z1xYcN3Anbx8FF98jsN+aw5n9lyuv7aoEosFDs=
-- name: SG - zhuhai.uk 02
-  type: ss
-  server: 161.118.198.208
-  port: 56927
-  cipher: 2022-blake3-chacha20-poly1305
-  password: hAdN3/HuF6xaTXsRYwC9AvisqG5dZVfOp/6NiJKnhKY=
+- name: KR - zhuhai.uk 02
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: VDJjbE0wUWxNMFE2Og==
+- name: SG - zhuhai.uk
+  type: hysteria2
+  server: 138.2.89.249
+  port: 443
+  password: d042d150716709bb778cc73889cddb02
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
 - name: IN - zhuhai.uk
   type: vless
   server: 151.241.138.44
@@ -143,6 +57,13 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
+- name: ID - zhuhai.uk
+  type: http
+  server: zebpay.site
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
 - name: LT - zhuhai.uk 01
   type: vless
   server: 84.32.51.238
