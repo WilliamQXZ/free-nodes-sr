@@ -1,152 +1,146 @@
-# Mac hourly sync 2026-09-28 05:17:42 | alive 21
+# Mac hourly sync 2026-09-28 06:17:17 | alive 29
 proxies:
-- name: HU - zhuhai.uk
-  type: http
-  server: 146.70.203.18
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk
-  type: http
-  server: 193.176.84.39
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: FI - zhuhai.uk
-  type: hysteria2
-  server: 222.167.212.160
-  port: 8443
-  password: kewr0929_M9ic23iqe_m9E2R93Js8034c_Rt10
-  sni: new-finland-september.bumbleshrimp.com
-- name: ID - zhuhai.uk
-  type: http
-  server: efr-marktplatz.club
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
 - name: US - zhuhai.uk 02
-  type: vless
-  server: cf.877774.xyz
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  tls: true
-  servername: edgetunnel-4uw.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: CH - zhuhai.uk
-  type: hysteria2
-  server: 82.38.64.239
-  port: 8443
-  password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
-  sni: hopp-swizland-new.mysynology.net
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03
   type: http
-  server: 138.199.35.196
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.196
-  skip-cert-verify: true
-- name: NL - zhuhai.uk
-  type: http
-  server: 84.17.47.147
+  server: 138.199.35.215
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
-  sni: 84.17.47.147
+  skip-cert-verify: true
+- name: BE - zhuhai.uk
+  type: vless
+  server: 34.79.178.1
+  port: 443
+  uuid: 51e493d4-b275-45e0-a714-e014f40b3c32
+  tls: true
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: nTLhc6e5HMgO-hpD8RUMp0cd2t6p2_RqHLHM0P39_xA
+    short-id: 95ae4a39d3933191
+- name: US - zhuhai.uk 03
+  type: http
+  server: 138.199.35.217
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 04
   type: http
-  server: 138.199.35.220
-  port: 9002
+  server: fullmanfirm.icu
+  port: 443
   username: 'null'
   password: None
   tls: true
   skip-cert-verify: true
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.30
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 05
   type: http
-  server: 138.199.35.217
+  server: 138.199.35.214
   port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
 - name: JP - zhuhai.uk
   type: http
   server: fan.571589.xyz
   port: 443
+  username: bnVsbDpudWxs
   tls: true
-- name: RO - zhuhai.uk 02
+  sni: fan.571589.xyz
+- name: FR - zhuhai.uk
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: t.me
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07
   type: http
-  server: 193.176.84.40
+  server: 138.199.35.216
   port: 9002
   tls: true
+  sni: 138.199.35.216
   skip-cert-verify: true
-- name: RO - zhuhai.uk 03
+- name: US - zhuhai.uk 08
   type: http
-  server: 193.176.84.17
+  server: 138.199.35.220
   port: 9002
   username: 'null'
   password: None
   tls: true
+  sni: 138.199.35.220
   skip-cert-verify: true
-- name: FR - zhuhai.uk
+- name: JP - zhuhai.uk 03
   type: http
-  server: fan.132031.xyz
+  server: fan.587475.xyz
   port: 443
-  username: Ok5vbmU=
   tls: true
-- name: TW - zhuhai.uk
-  type: anytls
-  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
-  port: 443
-  password: 9sK2mP8xQ7vL3nZ6
-  udp: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07
+- name: GB - zhuhai.uk
+  type: ss
+  server: 134.65.58.237
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: b1xORWt+0VVyPeU6Oz4TRU8QfWXzRnwH+mHE/wyVQ9g=
+- name: RS - zhuhai.uk
   type: http
-  server: 138.199.35.198
+  server: 146.70.221.18
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 02
+  type: http
+  server: 193.176.84.32
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: NL - zhuhai.uk 02
-  type: ss
-  server: 141.148.240.242
-  port: 45819
-  cipher: 2022-blake3-chacha20-poly1305
-  password: gXIOUrg3pob4ZG/vCr+fG4dgL5AytixAwBnF+gZ6Tc4=
-- name: DE - zhuhai.uk 02
-  type: vless
-  server: 8.211.15.144
+- name: TW - zhuhai.uk
+  type: anytls
+  server: 6ivh.pnuqcnp.cn
   port: 443
-  uuid: 808d44f6-faaf-48b6-93b2-47a1a2d497b5
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
+  password: 9sK2mP8xQ7vL3nZ6
+  udp: true
+  sni: 6ivh.pnuqcnp.cn
   skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 3w1RLb2hE9qftafimJKcoWTRbLcCvAj7-Ub4fY-lTS0
-    short-id: f3f6de03370d26d3
-- name: HK - zhuhai.uk
+- name: JP - zhuhai.uk 04
   type: http
-  server: fan.240104.xyz
+  server: fan.571589.xyz
   port: 443
+  username: bnVsbDpudWxs
   tls: true
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VkRKamJFMHdVV3hOTUZFMk9nPT06
+- name: US - zhuhai.uk 09
+  type: http
+  server: 138.199.35.200
+  port: 9002
+  tls: true
+  sni: 138.199.35.200
+  skip-cert-verify: true
+- name: HK - zhuhai.uk 02
+  type: anytls
+  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+  port: 443
+  password: 9sK2mP8xQ7vL3nZ6
+  udp: true
+  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
 - name: SG - zhuhai.uk
   type: http
   server: 146.70.29.45
@@ -155,3 +149,117 @@ proxies:
   password: e4b72b531a2d10900519
   tls: true
   sni: 92461d2d.acsnet.co
+- name: SG - zhuhai.uk 02
+  type: hysteria2
+  server: 138.2.89.249
+  port: 443
+  password: d042d150716709bb778cc73889cddb02
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+- name: NL - zhuhai.uk 01
+  type: vless
+  server: 51.170.176.145
+  port: 62145
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  udp: true
+  network: tcp
+- name: SG - zhuhai.uk 04
+  type: vless
+  server: 91.193.58.218
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  network: ws
+  tls: true
+  servername: free-server.techsonic.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: SG - zhuhai.uk 07
+  type: vless
+  server: 91.193.58.61
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  network: ws
+  tls: true
+  servername: free-server.techsonic.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: SG - zhuhai.uk 03
+  type: vless
+  server: 91.193.58.108
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  network: ws
+  tls: true
+  servername: free-server.techsonic.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: SG - zhuhai.uk 10
+  type: vless
+  server: 91.193.58.118
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  network: ws
+  tls: true
+  servername: free-server.techsonic.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: SG - zhuhai.uk 05
+  type: vless
+  server: 91.193.58.15
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  network: ws
+  tls: true
+  servername: free-server.techsonic.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: SG - zhuhai.uk 09
+  type: vless
+  server: 91.193.58.52
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  network: ws
+  tls: true
+  servername: free-server.techsonic.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: SG - zhuhai.uk 06
+  type: vless
+  server: 91.193.58.57
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  network: ws
+  tls: true
+  servername: free-server.techsonic.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
