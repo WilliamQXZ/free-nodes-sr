@@ -1,5 +1,11 @@
-# Mac hourly sync 2026-09-27 20:17:48 | alive 18
+# Mac hourly sync 2026-09-27 21:17:56 | alive 13
 proxies:
+- name: DE - zhuhai.uk 02
+  type: ss
+  server: 130.61.146.229
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: MKHwqx5R2L0MzLTo/BQ7xr5Ve6nfPBPfo0HERkDcG9s=
 - name: US - zhuhai.uk 02
   type: http
   server: 138.199.35.213
@@ -8,30 +14,24 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: DE - zhuhai.uk 03
-  type: ss
-  server: 130.61.144.26
-  port: 59924
-  cipher: 2022-blake3-chacha20-poly1305
-  password: idTf2jsv0LV7HfJMSVBJ2QwUmIijE36VGTS/o6IwCLI=
+- name: PL - zhuhai.uk
+  type: vless
+  server: pl-waw.dontblockmepls.com
+  port: 2063
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  flow: xtls-rprx-vision
+  tls: true
+  servername: rusbid.de
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
 - name: BD - zhuhai.uk
   type: http
   server: 34.124.244.22
   port: 443
   tls: true
   sni: 34.124.244.22
-  skip-cert-verify: true
-- name: DE - zhuhai.uk 04
-  type: ss
-  server: 130.61.83.104
-  port: 59924
-  cipher: 2022-blake3-chacha20-poly1305
-  password: BwnJVs4XI2fNeRUZX6Q78aToLbbRYpnkoQdvFMuo+cQ=
-- name: US - zhuhai.uk 03
-  type: http
-  server: 138.199.35.203
-  port: 9002
-  tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 05
   type: anytls
@@ -41,28 +41,10 @@ proxies:
   udp: true
   sni: anytls2.864106.xyz
   skip-cert-verify: true
-- name: RS - zhuhai.uk
-  type: http
-  server: 146.70.221.34
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: AT - zhuhai.uk
-  type: http
-  server: 146.70.244.18
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.38
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06
-  type: http
-  server: 149.88.21.129
-  port: 443
   tls: true
   skip-cert-verify: true
 - name: NL - zhuhai.uk
@@ -73,6 +55,19 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
+- name: RU - zhuhai.uk 02
+  type: vless
+  server: fbsv6.guardora.pro
+  port: 443
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  tls: true
+  servername: fbsv6.guardora.pro
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: fbsv6.guardora.pro
 - name: JP - zhuhai.uk
   type: hysteria2
   server: open.2ml.bid
@@ -80,19 +75,6 @@ proxies:
   password: my_super_password_123
   sni: open.2ml.bid
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: vless
-  server: cf.877774.xyz
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  tls: true
-  servername: edgetunnel-4uw.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edgetunnel-4uw.pages.dev
 - name: FR - zhuhai.uk
   type: hysteria2
   server: 62.210.7.139
@@ -106,23 +88,15 @@ proxies:
   port: 8899
   username: admin
   password: admin
-- name: HK - zhuhai.uk 02
-  type: http
-  server: fan.240104.xyz
-  port: 443
-  tls: true
-- name: SG - zhuhai.uk 02
+- name: KR - zhuhai.uk 02
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: Og==
+- name: SG - zhuhai.uk
   type: hysteria2
-  server: 138.2.89.249
-  port: 443
-  password: d042d150716709bb778cc73889cddb02
-  sni: www.bing.com
+  server: xjp1.mangshe.xyz
+  port: 2060
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  sni: xjp1.mangshe.xyz
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-- name: ID - zhuhai.uk
-  type: http
-  server: purecambogiasl.live
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
