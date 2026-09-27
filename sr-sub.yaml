@@ -1,24 +1,5 @@
-# Mac hourly sync 2026-09-27 13:33:38 | alive 23
+# Mac hourly sync 2026-09-27 14:26:26 | alive 18
 proxies:
-- name: GB - zhuhai.uk
-  type: ss
-  server: 144.24.230.96
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: RgGnJw5qr+hXyaf8BptQ/cVVsw6lI/4rHEJCsDjFJys=
-- name: PL - zhuhai.uk
-  type: vless
-  server: 45.140.204.199
-  port: 8443
-  uuid: 482514e8-2979-4628-acf3-d04f607c4f12
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ads.x5.ru
-  skip-cert-verify: true
-  client-fingerprint: safari
-  reality-opts:
-    public-key: FS94iBvy7Vx93IMVFkMmFgyHRD8YZ7hmj1yv7vpWwBQ
-    short-id: c8b62f04
 - name: US - zhuhai.uk
   type: http
   server: 147.182.216.4
@@ -50,31 +31,19 @@ proxies:
     path: /announcement
     headers:
       Host: se-sto.862400.xyz
-- name: HK - zhuhai.uk
-  type: vless
-  server: 47.83.143.75
-  port: 443
-  uuid: 1658f804-41bf-4b7c-a0be-ba01097e0f41
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Y9TEgB_8YVWzv8-wblXBjeX2t7IAtQhtQ3pE08gfNWw
-    short-id: 862266ae05b7a62f
+- name: JP - zhuhai.uk
+  type: hysteria2
+  server: open.2ml.bid
+  port: 5443
+  password: my_super_password_123
+  sni: open.2ml.bid
+  skip-cert-verify: true
 - name: DE - zhuhai.uk
   type: ss
   server: 130.61.83.88
   port: 59924
   cipher: 2022-blake3-chacha20-poly1305
   password: bvHY/DNOgIpmarNB4MP65BYeGyXcXlZ1yF1k+2PnCGQ=
-- name: US - zhuhai.uk 04
-  type: hysteria2
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.best
-  sni: xship.top
-  skip-cert-verify: true
 - name: US - zhuhai.uk 05
   type: http
   server: 138.199.35.214
@@ -99,16 +68,6 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: vless
-  server: 172.67.214.193
-  port: 2086
-  uuid: e5583623-53ef-4177-8070-8c553f70bcfa
-  network: ws
-  ws-opts:
-    path: /vl/NnAT20AqcYOuOLe1r?ed=2560
-    headers:
-      Host: fvfb8xac5j0nthxzqf.dr5945ov0z598kfft573isahdj3fmmv4.workers.dev
 - name: PL - zhuhai.uk 02
   type: vless
   server: 31.77.13.19
@@ -153,35 +112,20 @@ proxies:
   reality-opts:
     public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
     short-id: a1b2c3d4e5f67890
-- name: GR - zhuhai.uk
+- name: RO - zhuhai.uk 02
   type: http
-  server: 149.22.85.78
-  port: 443
+  server: 193.176.84.24
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: NL - zhuhai.uk
-  type: vless
-  server: nl2.gursub.com
-  port: 443
-  uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
-  flow: xtls-rprx-vision
-  tls: true
-  servername: nl2.gursub.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ltHl15Wq549qC2JdAtesy-POs6Hwm_BbrlzuwDkWoUk
-    short-id: a1b2c3d4e5f6a1b2
 - name: GB - zhuhai.uk 02
   type: ss
   server: 144.24.226.211
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: /TLj9z1xYcN3Anbx8FF98jsN+aw5n9lyuv7aoEosFDs=
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VDJjbE0wUWxNMFE2Og==
 - name: SG - zhuhai.uk 02
   type: ss
   server: 161.118.198.208
@@ -213,3 +157,16 @@ proxies:
   reality-opts:
     public-key: 5JPUCm5vkIUyBfwcgnkWXJNIW4CaWgBzXgT61cvWVVA
     short-id: f688ff32ece6b15f
+- name: DE - zhuhai.uk 02
+  type: vless
+  server: freeman.curtvip.ir
+  port: 20410
+  uuid: 442581ff-646e-4e99-af3e-a9d9a636a44b
+  udp: true
+  network: tcp
+  tls: true
+  servername: secureconnect-pa.mtls.clients6.google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: BErODvy5h6Cjw5zWfX_CZ5ODH9p1XbZwU-ZEHyVXEGI
+    short-id: e2ce3e050232978c
