@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-27 21:17:56 | alive 13
+# Mac hourly sync 2026-09-27 22:17:20 | alive 19
 proxies:
 - name: DE - zhuhai.uk 02
   type: ss
@@ -33,6 +33,18 @@ proxies:
   tls: true
   sni: 34.124.244.22
   skip-cert-verify: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: 138.199.35.203
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04
+  type: http
+  server: tzoa.fun
+  port: 443
+  tls: true
+  sni: tzoa.fun
 - name: US - zhuhai.uk 05
   type: anytls
   server: anytls2.864106.xyz
@@ -41,10 +53,29 @@ proxies:
   udp: true
   sni: anytls2.864106.xyz
   skip-cert-verify: true
+- name: RU - zhuhai.uk
+  type: vless
+  server: fbsv6.guardora.pro
+  port: 443
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  tls: true
+  servername: fbsv6.guardora.pro
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: fbsv6.guardora.pro
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.38
   port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: 149.88.21.129
+  port: 443
   tls: true
   skip-cert-verify: true
 - name: NL - zhuhai.uk
@@ -68,13 +99,19 @@ proxies:
     path: /ws
     headers:
       Host: fbsv6.guardora.pro
-- name: JP - zhuhai.uk
-  type: hysteria2
-  server: open.2ml.bid
-  port: 443
-  password: my_super_password_123
-  sni: open.2ml.bid
-  skip-cert-verify: true
+- name: US - zhuhai.uk 07
+  type: vless
+  server: cf.877774.xyz
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  tls: true
+  servername: edgetunnel-4uw.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: edgetunnel-4uw.pages.dev
 - name: FR - zhuhai.uk
   type: hysteria2
   server: 62.210.7.139
@@ -82,17 +119,30 @@ proxies:
   password: github.com/Alvin9999-newpac/fanqiang
   sni: google.com
   skip-cert-verify: true
+- name: JP - zhuhai.uk 02
+  type: vless
+  server: api.w2m.ink
+  port: 443
+  uuid: 8344360f-0349-4784-a19f-33fd92e89389
+  tls: true
+  servername: api.w2m.ink
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /v2
+    headers:
+      Host: api.w2m.ink
 - name: HK - zhuhai.uk
   type: socks5
   server: 47.242.19.215
   port: 8899
   username: admin
   password: admin
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: Og==
+- name: HK - zhuhai.uk 02
+  type: http
+  server: fan.240104.xyz
+  port: 443
+  tls: true
 - name: SG - zhuhai.uk
   type: hysteria2
   server: xjp1.mangshe.xyz
@@ -100,3 +150,9 @@ proxies:
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   sni: xjp1.mangshe.xyz
   skip-cert-verify: true
+- name: ID - zhuhai.uk
+  type: http
+  server: purecambogiasl.live
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
