@@ -1,113 +1,47 @@
-# Mac hourly sync 2026-09-27 23:17:49 | alive 13
+# Mac hourly sync 2026-09-28 00:18:00 | alive 7
 proxies:
-- name: US - zhuhai.uk 02
+- name: US - zhuhai.uk 04
   type: http
-  server: 138.199.35.213
+  server: jewelscollecti.icu
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: 138.199.35.207
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 02
+  type: http
+  server: 193.176.84.37
   port: 9002
   username: 'null'
-  password: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
-- name: PL - zhuhai.uk
-  type: vless
-  server: pl-waw.dontblockmepls.com
-  port: 2063
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  flow: xtls-rprx-vision
-  tls: true
-  servername: rusbid.de
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-- name: BD - zhuhai.uk
-  type: http
-  server: 34.124.244.22
+- name: FR - zhuhai.uk 03
+  type: hysteria2
+  server: 173.212.201.85
   port: 443
-  tls: true
-  sni: 34.124.244.22
+  password: gf1:gfhysteria2024
+  sni: 173.212.201.85
   skip-cert-verify: true
-- name: US - zhuhai.uk 03
+- name: GB - zhuhai.uk 02
   type: http
-  server: 138.199.35.203
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: anytls
-  server: anytls2.864106.xyz
-  port: 19000
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  sni: anytls2.864106.xyz
-  skip-cert-verify: true
-- name: RU - zhuhai.uk
-  type: vless
-  server: fbsv6.guardora.pro
-  port: 443
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
-  tls: true
-  servername: fbsv6.guardora.pro
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: fbsv6.guardora.pro
-- name: AT - zhuhai.uk
-  type: http
-  server: 146.70.244.18
+  server: 185.235.0.34
   port: 443
   tls: true
   skip-cert-verify: true
-- name: RO - zhuhai.uk
+- name: US - zhuhai.uk 10
   type: http
-  server: 193.176.84.38
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: NL - zhuhai.uk
-  type: http
-  server: 51.159.225.196
-  port: 23856
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: RU - zhuhai.uk 02
-  type: vless
-  server: fbsv6.guardora.pro
+  server: efr-marktplatz.club
   port: 443
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
   tls: true
-  servername: fbsv6.guardora.pro
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: fbsv6.guardora.pro
-- name: US - zhuhai.uk 07
-  type: vless
-  server: cf.877774.xyz
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  tls: true
-  servername: edgetunnel-4uw.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edgetunnel-4uw.pages.dev
+  sni: efr-marktplatz.club
 - name: HK - zhuhai.uk
   type: socks5
   server: 47.242.19.215
   port: 8899
   username: admin
   password: admin
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: Og==
