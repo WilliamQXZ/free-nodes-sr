@@ -1,5 +1,19 @@
-# Mac hourly sync 2026-09-28 04:17:44 | alive 17
+# Mac hourly sync 2026-09-28 05:17:42 | alive 21
 proxies:
+- name: HU - zhuhai.uk
+  type: http
+  server: 146.70.203.18
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.39
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
 - name: FI - zhuhai.uk
   type: hysteria2
   server: 222.167.212.160
@@ -32,6 +46,15 @@ proxies:
   password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
   sni: hopp-swizland-new.mysynology.net
   skip-cert-verify: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: 138.199.35.196
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  sni: 138.199.35.196
+  skip-cert-verify: true
 - name: NL - zhuhai.uk
   type: http
   server: 84.17.47.147
@@ -60,18 +83,25 @@ proxies:
   server: fan.571589.xyz
   port: 443
   tls: true
-- name: DE - zhuhai.uk
+- name: RO - zhuhai.uk 02
   type: http
-  server: 87.249.132.97
-  port: 9443
+  server: 193.176.84.40
+  port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06
+- name: RO - zhuhai.uk 03
   type: http
-  server: webdrone.club
-  port: 443
+  server: 193.176.84.17
+  port: 9002
   username: 'null'
-  password: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: FR - zhuhai.uk
+  type: http
+  server: fan.132031.xyz
+  port: 443
+  username: Ok5vbmU=
   tls: true
 - name: TW - zhuhai.uk
   type: anytls
@@ -88,6 +118,12 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
+- name: NL - zhuhai.uk 02
+  type: ss
+  server: 141.148.240.242
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: gXIOUrg3pob4ZG/vCr+fG4dgL5AytixAwBnF+gZ6Tc4=
 - name: DE - zhuhai.uk 02
   type: vless
   server: 8.211.15.144
@@ -106,13 +142,6 @@ proxies:
   server: fan.240104.xyz
   port: 443
   tls: true
-- name: HK - zhuhai.uk 02
-  type: hysteria2
-  server: xg1.mangshe.xyz
-  port: 2060
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  sni: xg1.mangshe.xyz
-  skip-cert-verify: true
 - name: KR - zhuhai.uk 02
   type: socks5
   server: 121.169.46.116
