@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-28 02:17:14 | alive 22
+# Mac hourly sync 2026-09-28 03:17:42 | alive 24
 proxies:
 - name: RO - zhuhai.uk
   type: http
@@ -86,6 +86,12 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: IT - zhuhai.uk
+  type: http
+  server: 185.183.105.146
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: RO - zhuhai.uk 07
   type: http
   server: 193.176.84.32
@@ -135,6 +141,17 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
+- name: GB - zhuhai.uk
+  type: http
+  server: 37.120.233.18
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: KR - zhuhai.uk 02
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: VDJjbE0wUWxNMFE2VDJjbE0wUWxNMFE9Og==
 - name: SG - zhuhai.uk
   type: http
   server: 146.70.29.45
@@ -143,15 +160,10 @@ proxies:
   password: e4b72b531a2d10900519
   tls: true
   sni: 92461d2d.acsnet.co
-- name: SG - zhuhai.uk 02
-  type: ss
-  server: 140.245.98.184
-  port: 56927
-  cipher: 2022-blake3-chacha20-poly1305
-  password: tci/7mDqDRns0tsnXCiXkphsz3k+zf8BdZL5uvWxrd4=
-- name: ID - zhuhai.uk
+- name: ID - zhuhai.uk 02
   type: http
-  server: fullmanfirm.icu
+  server: purposebydesig.club
   port: 443
+  username: 'null'
+  password: 'null'
   tls: true
-  sni: fullmanfirm.icu
