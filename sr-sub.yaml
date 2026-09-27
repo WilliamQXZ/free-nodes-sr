@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-27 17:51:24 | alive 21
+# Mac hourly sync 2026-09-27 18:26:17 | alive 20
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -17,18 +17,20 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: HK - zhuhai.uk
+- name: SE - zhuhai.uk
   type: vless
-  server: 47.83.143.75
+  server: freev2.cloudflare.182682.xyz
   port: 443
-  uuid: 1658f804-41bf-4b7c-a0be-ba01097e0f41
-  flow: xtls-rprx-vision
+  uuid: 0ade2ba6-b275-4331-8f0d-d800665a8812
   tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Y9TEgB_8YVWzv8-wblXBjeX2t7IAtQhtQ3pE08gfNWw
-    short-id: 862266ae05b7a62f
+  servername: se-sto.862400.xyz
+  skip-cert-verify: true
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /announcement
+    headers:
+      Host: se-sto.862400.xyz
 - name: JP - zhuhai.uk
   type: hysteria2
   server: open.2ml.bid
@@ -104,19 +106,6 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: FI - zhuhai.uk
-  type: vless
-  server: 31.76.245.63
-  port: 443
-  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
-  flow: xtls-rprx-vision
-  tls: true
-  servername: dzen.ru
-  skip-cert-verify: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
-    short-id: a1b2c3d4e5f67890
 - name: FI - zhuhai.uk 02
   type: socks5
   server: 83.147.216.208
@@ -127,12 +116,6 @@ proxies:
   port: 9002
   username: 'null'
   password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: GR - zhuhai.uk
-  type: http
-  server: 149.22.85.78
-  port: 443
   tls: true
   skip-cert-verify: true
 - name: NL - zhuhai.uk
@@ -153,17 +136,19 @@ proxies:
   port: 61312
   cipher: 2022-blake3-chacha20-poly1305
   password: /TLj9z1xYcN3Anbx8FF98jsN+aw5n9lyuv7aoEosFDs=
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VDJjbE0wUWxNMFE2Og==
 - name: SG - zhuhai.uk 02
   type: ss
   server: 161.118.198.208
   port: 56927
   cipher: 2022-blake3-chacha20-poly1305
   password: hAdN3/HuF6xaTXsRYwC9AvisqG5dZVfOp/6NiJKnhKY=
+- name: ID - zhuhai.uk
+  type: http
+  server: zebpay.site
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
 - name: LT - zhuhai.uk 01
   type: vless
   server: 84.32.51.238
@@ -178,3 +163,16 @@ proxies:
   reality-opts:
     public-key: 5JPUCm5vkIUyBfwcgnkWXJNIW4CaWgBzXgT61cvWVVA
     short-id: f688ff32ece6b15f
+- name: DE - zhuhai.uk 02
+  type: vless
+  server: freeman.curtvip.ir
+  port: 20410
+  uuid: 442581ff-646e-4e99-af3e-a9d9a636a44b
+  udp: true
+  network: tcp
+  tls: true
+  servername: secureconnect-pa.mtls.clients6.google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: BErODvy5h6Cjw5zWfX_CZ5ODH9p1XbZwU-ZEHyVXEGI
+    short-id: e2ce3e050232978c
