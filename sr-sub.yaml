@@ -1,17 +1,5 @@
-# Mac hourly sync 2026-09-28 19:33:25 | alive 29
+# Mac hourly sync 2026-09-28 20:17:21 | alive 26
 proxies:
-- name: HK - zhuhai.uk
-  type: vless
-  server: 45.207.157.8
-  port: 9443
-  uuid: 966990b5-5868-4af1-add6-011c72b4a443
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
 - name: GB - zhuhai.uk
   type: vless
   server: 178.79.149.80
@@ -73,13 +61,18 @@ proxies:
   password: github.com/Alvin9999-newpac/fanqiang
   sni: t.me
   skip-cert-verify: true
-- name: FR - zhuhai.uk 03
-  type: hysteria2
-  server: 173.212.201.85
-  port: 443
-  password: gf1:gfhysteria2024
-  sni: www.docker.com
+- name: PL - zhuhai.uk
+  type: vless
+  server: 31.77.13.19
+  port: 2063
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  flow: xtls-rprx-vision
+  tls: true
+  servername: rusbid.de
   skip-cert-verify: true
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
 - name: US - zhuhai.uk 02
   type: vless
   server: 38.180.243.154
@@ -98,13 +91,6 @@ proxies:
   port: 2060
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   sni: xg1.mangshe.xyz
-  skip-cert-verify: true
-- name: FR - zhuhai.uk 04
-  type: hysteria2
-  server: vpn-fr-002.fastervpn.world
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
   skip-cert-verify: true
 - name: HK - zhuhai.uk 04
   type: anytls
@@ -145,19 +131,6 @@ proxies:
   server: 121.169.46.116
   port: 1090
   username: Vm0xMFUxTXlSblJUYTFwT1UwZFNWMVpxVG05VU1WSldWMnRhVG1GNmJIVlVNbmhoVWxaT2RHTkhiRk5XUlVsNlZteGFhMDVHVW5KTlZXUlRWa1Z3VVZkdVl6bFFWRzg5T2c9PTo=
-- name: SG - zhuhai.uk
-  type: vless
-  server: 18.136.119.69
-  port: 20975
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
-    short-id: 2bb0dc48
 - name: SG - zhuhai.uk 02
   type: hysteria2
   server: s3.huhiuh.space
@@ -165,26 +138,6 @@ proxies:
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
   sni: www.bing.com
   skip-cert-verify: true
-- name: ID - zhuhai.uk
-  type: http
-  server: 178.248.73.58
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: DE - zhuhai.uk 02
-  type: vless
-  server: 172.104.237.173
-  port: 20855
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: c6Pu0_yAYxIrnYjbwIYLsKB_xhcLsk17BgojLeaIvE8
-    short-id: efe9
 - name: NL - zhuhai.uk 01
   type: vless
   server: 138.16.141.59
@@ -227,6 +180,20 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
+- name: SG - zhuhai.uk 06
+  type: vless
+  server: 91.193.58.52
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  network: ws
+  tls: true
+  servername: free-server.techsonic.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
 - name: SG - zhuhai.uk 03
   type: vless
   server: 91.193.58.218
@@ -255,31 +222,44 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: SG - zhuhai.uk 05
+- name: PL - zhuhai.uk 01
   type: vless
-  server: 91.193.58.45
-  port: 2096
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  udp: true
-  network: ws
-  tls: true
-  servername: free-server.techsonic.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-- name: JP - zhuhai.uk 06
-  type: vless
-  server: 13.158.67.183
-  port: 33561
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  server: 31.77.13.19
+  port: 2063
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
   udp: true
   network: tcp
   flow: xtls-rprx-vision
   tls: true
-  servername: www.cloudflare.com
+  servername: rusbid.de
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+- name: PL - zhuhai.uk 03
+  type: vless
+  server: 31.77.13.19
+  port: 2063
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  servername: rusbid.de
   client-fingerprint: chrome
   reality-opts:
-    public-key: 158SMilJQo8T-Fi8-T1354xZsVFCYxA8dXQstKbIdVs
-    short-id: 6b9e61372a82002c
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+- name: PL - zhuhai.uk 02
+  type: vless
+  server: pl-waw.dontblockmepls.com
+  port: 2063
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  servername: rusbid.de
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
