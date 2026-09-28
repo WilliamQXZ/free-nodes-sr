@@ -1,5 +1,13 @@
-# Mac hourly sync 2026-09-29 00:17:45 | alive 21
+# Mac hourly sync 2026-09-29 01:17:14 | alive 23
 proxies:
+- name: US - zhuhai.uk
+  type: http
+  server: 138.199.35.214
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
 - name: DE - zhuhai.uk
   type: vless
   server: 13.143.166.112
@@ -80,12 +88,6 @@ proxies:
   reality-opts:
     public-key: t3HU7p5iYjE9Lcq2-QHTXZFhpAvoXljTNDgmFkFN-Tc
     short-id: 99f8972e3dd5ed
-- name: JP - zhuhai.uk 02
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  tls: true
-  sni: fan.571589.xyz
 - name: FR - zhuhai.uk
   type: hysteria2
   server: 62.210.7.139
@@ -93,12 +95,6 @@ proxies:
   password: github.com/Alvin9999-newpac/fanqiang
   sni: bing.com
   skip-cert-verify: true
-- name: US - zhuhai.uk 03
-  type: hysteria2
-  server: ss.marmount.space
-  port: 8443
-  password: cloud:Wz8cE3yFhL9dXoSp
-  sni: ss.marmount.space
 - name: NL - zhuhai.uk
   type: vless
   server: 45.139.85.86
@@ -142,6 +138,26 @@ proxies:
   reality-opts:
     public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
     short-id: 69cc4c0d5e
+- name: US - zhuhai.uk 04
+  type: http
+  server: 138.199.35.219
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk 02
+  type: vless
+  server: nl1.miyazono-kaori.com
+  port: 443
+  uuid: a79c43ab-1b3d-4766-892f-e9d65a18c63e
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.philips.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: AFQAIB5u9Uu6nf9fkP1BdcSHivSuUv97l4FH-LoFYgw
+    short-id: 92dca6
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.35
@@ -150,6 +166,14 @@ proxies:
   password: 'null'
   tls: true
   sni: 193.176.84.35
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
   skip-cert-verify: true
 - name: FR - zhuhai.uk 02
   type: http
