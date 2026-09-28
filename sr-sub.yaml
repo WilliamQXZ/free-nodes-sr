@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-09-29 03:17:42 | alive 21
+# Mac hourly sync 2026-09-29 04:17:41 | alive 20
 proxies:
 - name: US - zhuhai.uk
   type: http
@@ -43,19 +43,6 @@ proxies:
   password: f87376e17da040ed04c9665ce8972930
   sni: www.bing.com
   skip-cert-verify: true
-- name: DE - zhuhai.uk 02
-  type: vless
-  server: 5.45.111.195
-  port: 443
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  tls: true
-  servername: shephe.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shephe.dpdns.org
 - name: US - zhuhai.uk 02
   type: http
   server: 138.199.35.215
