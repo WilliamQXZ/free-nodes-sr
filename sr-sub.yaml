@@ -1,13 +1,5 @@
-# Mac hourly sync 2026-09-29 01:17:14 | alive 23
+# Mac hourly sync 2026-09-29 02:17:41 | alive 21
 proxies:
-- name: US - zhuhai.uk
-  type: http
-  server: 138.199.35.214
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
 - name: DE - zhuhai.uk
   type: vless
   server: 13.143.166.112
@@ -68,26 +60,25 @@ proxies:
     path: /
     headers:
       Host: shephe.dpdns.org
-- name: US - zhuhai.uk 02
-  type: http
-  server: 138.199.35.215
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: MY - zhuhai.uk
+- name: SE - zhuhai.uk
   type: vless
-  server: my1.miyazono-kaori.com
-  port: 443
-  uuid: a79c43ab-1b3d-4766-892f-e9d65a18c63e
-  flow: xtls-rprx-vision
+  server: 176.109.106.182
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   tls: true
-  servername: www.setel.com
+  servername: dl.google.com
   client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
   reality-opts:
-    public-key: t3HU7p5iYjE9Lcq2-QHTXZFhpAvoXljTNDgmFkFN-Tc
-    short-id: 99f8972e3dd5ed
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+- name: JP - zhuhai.uk 02
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  tls: true
+  sni: fan.571589.xyz
 - name: FR - zhuhai.uk
   type: hysteria2
   server: 62.210.7.139
@@ -126,18 +117,6 @@ proxies:
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   sni: xg1.mangshe.xyz
   skip-cert-verify: true
-- name: DE - zhuhai.uk 03
-  type: vless
-  server: nl2.miyazono-kaori.com
-  port: 443
-  uuid: a79c43ab-1b3d-4766-892f-e9d65a18c63e
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.philips.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
-    short-id: 69cc4c0d5e
 - name: US - zhuhai.uk 04
   type: http
   server: 138.199.35.219
@@ -146,18 +125,15 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: NL - zhuhai.uk 02
-  type: vless
-  server: nl1.miyazono-kaori.com
-  port: 443
-  uuid: a79c43ab-1b3d-4766-892f-e9d65a18c63e
-  flow: xtls-rprx-vision
+- name: US - zhuhai.uk 05
+  type: http
+  server: 138.199.35.197
+  port: 9002
+  username: 'null'
+  password: None
   tls: true
-  servername: www.philips.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: AFQAIB5u9Uu6nf9fkP1BdcSHivSuUv97l4FH-LoFYgw
-    short-id: 92dca6
+  sni: 138.199.35.197
+  skip-cert-verify: true
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.35
