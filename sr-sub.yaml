@@ -1,33 +1,67 @@
-# Mac hourly sync 2026-09-30 01:20:37 | alive 2
+# Mac hourly sync 2026-09-30 02:18:37 | alive 9
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.4MB/s|348KB/s
-  network: ws
-  port: 443
-  server: maxfieldbox-nayab.org
-  servername: ewylr.smartorbitbox-bekhabdg.site
+- name: 🇺🇸US_1|1.0MB/s|1.1MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+- name: US - zhuhai.uk 04|970KB/s
+  type: http
+  server: 138.199.35.207
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
-  type: vless
+  sni: 138.199.35.207
+  skip-cert-verify: true
+- name: NL_speednode_0004|693KB/s
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-  uuid: bcf89786-1b01-47dc-9a36-a7db03626e53
-  ws-opts:
-    headers:
-      Host: ewylr.smartorbitbox-bekhabdg.site
-    path: /tigerjoon
-- name: 🇺🇸 美国 | USA 5|312KB/s
-  server: 85.149.211.28
-  port: 8443
-  type: vless
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+- name: RO_speednode_0041|657KB/s
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
   tls: true
-  servername: hk.152568.xyz
-  client-fingerprint: edge
-  network: ws
-  ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
-    headers:
-      Host: hk.152568.xyz
+  type: http
+  udp: true
+- name: 🇱🇻LV_3|3.2MB/s|538KB/s
+  port: 443
+  server: 185.219.159.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: RU - zhuhai.uk|519KB/s
+  type: hysteria2
+  server: 91.240.86.70
+  port: 22443
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  sni: hy.quattro-tech.ru
+- name: RO_speednode_0087|453KB/s
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HK - zhuhai.uk|293KB/s
+  type: hysteria2
+  server: 202.146.222.29
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: httpst.mewangcai2U0001F1E8U0001F1F3
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 7|127KB/s
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.top
+  auth: https://xship.top
+  sni: xship.top
+  skip-cert-verify: true
   udp: true
