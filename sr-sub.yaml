@@ -1,16 +1,5 @@
-# Mac hourly sync 2026-09-29 12:17:40 | alive 27
+# Mac hourly sync 2026-09-29 13:17:50 | alive 19
 proxies:
-- name: DE - zhuhai.uk
-  type: vless
-  server: media-se.compressor.work
-  port: 14443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  tls: true
-  servername: media-se.compressor.work
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
 - name: JP - zhuhai.uk
   type: hysteria2
   server: 138.3.208.26
@@ -47,23 +36,6 @@ proxies:
   tls: true
   sni: 192.236.151.43
   skip-cert-verify: true
-- name: FR - zhuhai.uk
-  type: http
-  server: 83.172.143.53
-  port: 4443
-  tls: true
-  skip-cert-verify: true
-- name: DE - zhuhai.uk 02
-  type: vless
-  server: 95.163.232.171
-  port: 14443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  tls: true
-  servername: media-se.compressor.work
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
 - name: IT - zhuhai.uk
   type: http
   server: 109.116.41.154
@@ -100,13 +72,6 @@ proxies:
   port: 50160
   password: 184cdec28da5a09450803c8debcd2cc9
   sni: www.bing.com
-  skip-cert-verify: true
-- name: JP - zhuhai.uk 06
-  type: hysteria2
-  server: 43.167.208.94
-  port: 443
-  password: RQBXe4kpsRant_2u1PzdneBOPuCSwUSI
-  sni: 43.167.208.94jpwxgqlfx97
   skip-cert-verify: true
 - name: FR - zhuhai.uk 02
   type: hysteria2
@@ -151,23 +116,18 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: Vm0xMFUxTXlSblJUYTFwT1UwZFNWMVpxVG05VU1WSldWMnRhVG1GNmJIVlVNbmhoVWxaT2RHTkhiRk5XUlVsNlZteGFhMDVHVW5KTlZXUlRWa1Z3VVZkdVl6bFFWRzg5T2c9PTo=
+- name: SE - zhuhai.uk
+  type: http
+  server: 146.70.242.130
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: SG - zhuhai.uk 02
   type: hysteria2
   server: s3.huhiuh.space
   port: 18642
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
   sni: www.bing.com
-  skip-cert-verify: true
-- name: ID - zhuhai.uk
-  type: http
-  server: 178.248.73.58
-  port: 443
-  tls: true
   skip-cert-verify: true
 - name: ID - zhuhai.uk 02
   type: http
@@ -203,43 +163,3 @@ proxies:
   reality-opts:
     public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
     short-id: db04ce8bdb8900f1
-- name: FI - zhuhai.uk 01
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: a819a5fb-6177-486b-c6fc-35adb29a2b0c
-  udp: true
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?TELEGRAM--KANAL--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray
-    headers:
-      Host: c12.com
-- name: PL - zhuhai.uk 01
-  type: vless
-  server: 31.77.13.19
-  port: 2063
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: rusbid.de
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-- name: IN - zhuhai.uk 01
-  type: vless
-  server: 139.84.177.239
-  port: 443
-  uuid: d90087c3-54f5-4283-a13f-615260c8b0c7
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: googleapis.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ
