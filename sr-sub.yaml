@@ -1,37 +1,6 @@
-# Mac hourly sync 2026-09-29 16:40:54 | alive 5
+# Mac hourly sync 2026-09-29 17:19:15 | alive 1
 proxies:
-- name: 🇫🇷FR_1|2.4MB/s|689KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: GB - zhuhai.uk 02|466KB/s
-  type: vless
-  server: 31.76.39.230
-  port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: nvidia.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: db04ce8bdb8900f1
-- name: 🇪🇸ES_1|3.1MB/s|443KB/s
-  port: 8443
-  server: 45.147.251.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇺RU_1|1.1MB/s|326KB/s
-  port: 443
-  server: 82.147.71.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: SE - zhuhai.uk|196KB/s
+- name: SE - zhuhai.uk|182KB/s
   type: http
   server: 77.221.136.60
   port: 8443
