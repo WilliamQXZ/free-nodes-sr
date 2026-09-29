@@ -1,5 +1,12 @@
-# Mac hourly sync 2026-09-29 07:17:43 | alive 34
+# Mac hourly sync 2026-09-29 08:17:20 | alive 30
 proxies:
+- name: JP - zhuhai.uk
+  type: hysteria2
+  server: 43.167.208.94
+  port: 443
+  password: RQBXe4kpsRant_2u1PzdneBOPuCSwUSI
+  sni: 43.167.208.94
+  skip-cert-verify: true
 - name: SG - zhuhai.uk
   type: hysteria2
   server: 138.2.73.238
@@ -69,37 +76,15 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: LT - zhuhai.uk
-  type: vless
-  server: 94.176.234.161
-  port: 443
-  uuid: d448490d-4ee6-442f-80e1-5e1c186c4ce1
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.intel.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: UpI0XKNUsMJ24XawPQ8g7br1faEsO7BOvmIIGg9Wrm8
-    short-id: dbb2ef1c7c
-- name: HK - zhuhai.uk 02
-  type: vless
-  server: hk3.569283.xyz
-  port: 443
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  flow: xtls-rprx-vision
-  tls: true
-  servername: gateway.icloud.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: zkPIO05A0_tpRCfRTRIHKUCUoi7kCaxt_RDg-f9zVns
-    short-id: 06ba
-- name: US - zhuhai.uk 05
+- name: US - zhuhai.uk 04
   type: http
-  server: purecambogiasl.live
+  server: fan.365747.xyz
   port: 443
-  username: Ok5vbmU=
+  username: 'null'
+  password: 'null'
   tls: true
+  sni: fan.365747.xyz
+  skip-cert-verify: true
 - name: NL - zhuhai.uk
   type: http
   server: 84.17.47.150
@@ -143,9 +128,9 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: httpst.mewangcai2
   skip-cert-verify: true
-- name: ID - zhuhai.uk 02
+- name: ID - zhuhai.uk
   type: http
-  server: kimberlymilano.icu
+  server: 178.248.73.58
   port: 443
   tls: true
   skip-cert-verify: true
@@ -242,19 +227,6 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-- name: HU - zhuhai.uk 01
-  type: vless
-  server: 45.9.168.211
-  port: 443
-  uuid: 7de5e70d-b95e-4019-affb-636151647b52
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: mzone.hu.3cloudhost.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8
 - name: LT - zhuhai.uk 01
   type: vless
   server: 94.176.234.161
@@ -282,20 +254,6 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ
-- name: KR - zhuhai.uk 01
-  type: vless
-  server: 61.111.247.80
-  port: 443
-  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: gateway.icloud.com
-  client-fingerprint: random
-  reality-opts:
-    public-key: Cn5_Bic3VFQ2ONvH5_npnbMYZ-oxkl4BxawPKxoRdCQ
-    short-id: f8f2875b3b4cb65b
 - name: PL - zhuhai.uk 02
   type: vless
   server: pl-waw.dontblockmepls.com
@@ -326,20 +284,6 @@ proxies:
 - name: SG - zhuhai.uk 07
   type: vless
   server: 91.193.58.118
-  port: 2096
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  udp: true
-  network: ws
-  tls: true
-  servername: free-server.techsonic.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-- name: SG - zhuhai.uk 09
-  type: vless
-  server: 91.193.58.218
   port: 2096
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
