@@ -1,20 +1,36 @@
-# Mac hourly sync 2026-09-29 19:20:34 | alive 3
+# Mac hourly sync 2026-09-29 20:22:14 | alive 4
 proxies:
-- name: 🇬🇧GB_2|2.1MB/s|381KB/s
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_1|3.4MB/s|697KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8i7j9_b2KyQC8iR-jEMGl-d2whPkeKt36mutUkZr9ng
+    short-id: 3477a74403cf4af9
+  server: 154.64.235.117
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
+- name: 🇨🇿CZ_1|2.9MB/s|428KB/s
   password: None
-  port: 9443
-  server: 37.120.233.34
+  port: 443
+  server: 185.216.35.66
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_3|1.8MB/s|373KB/s
+- name: 🇬🇧GB_1|2.1MB/s|400KB/s
+  password: None
   port: 443
-  server: 149.88.21.129
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: FI - zhuhai.uk 01|369KB/s
+  username: null
+- name: FI - zhuhai.uk 01|224KB/s
   type: vless
   server: fi.astrafic.ru
   port: 443
