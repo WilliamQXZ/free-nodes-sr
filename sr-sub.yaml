@@ -1,47 +1,28 @@
-# Mac hourly sync 2026-09-29 18:19:00 | alive 6
+# Mac hourly sync 2026-09-29 19:20:34 | alive 3
 proxies:
-- name: IN - zhuhai.uk|1.6MB/s
-  type: http
-  server: 35.197.129.84
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇨🇿CZ_1|2.9MB/s|745KB/s
+- name: 🇬🇧GB_2|2.1MB/s|381KB/s
   password: None
-  port: 443
-  server: 185.216.35.66
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇵🇱PL_1|3.9MB/s|631KB/s
-  password: None
+- name: 🇺🇸US_3|1.8MB/s|373KB/s
   port: 443
-  server: 37.120.156.18
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_3|2.3MB/s|451KB/s
-  password: None
+- name: FI - zhuhai.uk 01|369KB/s
+  type: vless
+  server: fi.astrafic.ru
   port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
+  uuid: 3d9daa27-6283-406d-a2d4-c6f22c635a14
+  udp: true
+  network: grpc
   tls: true
-  type: http
-  username: null
-- name: NL - zhuhai.uk|325KB/s
-  type: http
-  server: 51.159.225.196
-  port: 23856
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 51.159.225.196
-  skip-cert-verify: true
-- name: SE - zhuhai.uk|230KB/s
-  type: http
-  server: 77.221.136.60
-  port: 8443
-  tls: true
-  skip-cert-verify: true
+  servername: fi.astrafic.ru
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc
