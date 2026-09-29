@@ -1,6 +1,32 @@
-# Mac hourly sync 2026-09-29 21:21:07 | alive 2
+# Mac hourly sync 2026-09-29 22:19:42 | alive 4
 proxies:
-- name: US - zhuhai.uk 06|293KB/s
+- name: 🇺🇸 美国 | USA 14|417KB/s
+  server: 1.ppap.a1.zjs.ppt.998.kfc-520.com
+  port: 10002
+  type: vless
+  uuid: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 3CzFme1556AXsnF-1bVjlvxYtU_rG2i50piDBR_NBjw
+    short-id: f61f173b
+  servername: www.nvidia.com
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇦🇹AT_1|1.7MB/s|352KB/s
+  network: tcp
+  port: '52006'
+  server: 31.77.227.6
+  servername: bigdick.gamegrow.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc659d88-a1e0-076c-a49a-7b51b26a7a7f
+  xudp: true
+- name: US - zhuhai.uk 06|239KB/s
   type: http
   server: fan.596189.xyz
   port: 443
@@ -8,14 +34,9 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07|209KB/s
-  type: vless
-  server: 104.252.19.114
-  port: 8443
-  uuid: 40cba749-bca9-4089-9c02-84a357244ce0
-  flow: xtls-rprx-vision
-  tls: true
-  servername: omvpn.info
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: cD8mVX41lqyVGCuPz0-tQWcNqkMxiPZxU7JJsyyNAEI
+- name: SE-51.20.72.15-0102 | 0.0MB|220KB/s
+  server: 51.20.72.15
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
