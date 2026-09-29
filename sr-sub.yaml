@@ -1,11 +1,5 @@
-# Mac hourly sync 2026-09-29 14:17:20 | alive 13
+# Mac hourly sync 2026-09-29 15:17:46 | alive 19
 proxies:
-- name: SE - zhuhai.uk
-  type: ss
-  server: 51.20.72.15
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: RO - zhuhai.uk
   type: http
   server: 193.176.84.27
@@ -14,17 +8,90 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
+- name: SG - zhuhai.uk
+  type: hysteria2
+  server: xjp1.mangshe.xyz
+  port: 2060
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  sni: xjp1.mangshe.xyz
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk
+  type: http
+  server: 51.159.225.196
+  port: 23856
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 51.159.225.196
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: webdrone.club
+  port: 443
+  username: T2s1dmJtVT06
+  tls: true
+  sni: webdrone.club
+- name: US - zhuhai.uk 04
+  type: http
+  server: 138.199.35.207
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 02
+  type: http
+  server: 193.176.84.34
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
 - name: FR - zhuhai.uk
   type: http
   server: 141.94.16.4
   port: 443
   tls: true
   skip-cert-verify: true
-- name: SE - zhuhai.uk 02
+- name: US - zhuhai.uk 05
   type: http
-  server: 149.50.216.65
+  server: purposebydesig.club
+  port: 443
+  username: Ok5vbmU=
+  tls: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: 138.199.35.197
+  port: 9002
+  tls: true
+  sni: 138.199.35.197
+  skip-cert-verify: true
+- name: FR - zhuhai.uk 02
+  type: http
+  server: fan.132031.xyz
+  port: 443
+  username: Ok5vbmU=
+  tls: true
+- name: US - zhuhai.uk 08
+  type: http
+  server: purposebydesig.club
   port: 443
   tls: true
+  sni: purposebydesig.club
+- name: US - zhuhai.uk 09
+  type: http
+  server: 149.34.248.65
+  port: 443
+  tls: true
+  sni: 149.34.248.65
   skip-cert-verify: true
 - name: NL - zhuhai.uk 02
   type: http
@@ -64,40 +131,3 @@ proxies:
   server: fan.587475.xyz
   port: 443
   tls: true
-- name: GB - zhuhai.uk 02
-  type: vless
-  server: 172.67.214.193
-  port: 2086
-  uuid: e5583623-53ef-4177-8070-8c553f70bcfa
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vl/NnAT20AqcYOuOLe1r?ed=2560
-    headers:
-      Host: fvfb8xac5j0nthxzqf.dr5945ov0z598kfft573isahdj3fmmv4.workers.dev
-- name: OM - zhuhai.uk 01
-  type: vless
-  server: 146.70.37.253
-  port: 443
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  udp: true
-  network: ws
-  tls: true
-  servername: kkkk-xcd.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: kkkk-xcd.pages.dev
-- name: FI - zhuhai.uk 01
-  type: vless
-  server: fi.astrafic.ru
-  port: 443
-  uuid: 3d9daa27-6283-406d-a2d4-c6f22c635a14
-  udp: true
-  network: grpc
-  tls: true
-  servername: fi.astrafic.ru
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: vless-grpc
