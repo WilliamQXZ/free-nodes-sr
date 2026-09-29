@@ -1,18 +1,5 @@
-# Mac hourly sync 2026-09-29 11:17:17 | alive 27
+# Mac hourly sync 2026-09-29 12:17:40 | alive 27
 proxies:
-- name: US - zhuhai.uk
-  type: vless
-  server: 188.114.96.9
-  port: 443
-  uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
-  tls: true
-  servername: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrj
-    headers:
-      Host: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
 - name: DE - zhuhai.uk
   type: vless
   server: media-se.compressor.work
@@ -42,12 +29,6 @@ proxies:
   type: http
   server: 138.199.35.209
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: PL - zhuhai.uk
-  type: http
-  server: 31.186.220.204
-  port: 443
   tls: true
   skip-cert-verify: true
 - name: TW - zhuhai.uk
@@ -102,6 +83,17 @@ proxies:
     path: /v2
     headers:
       Host: api.w2m.ink
+- name: PL - zhuhai.uk 02
+  type: vless
+  server: pl-waw.dontblockmepls.com
+  port: 2063
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  flow: xtls-rprx-vision
+  tls: true
+  servername: rusbid.de
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
 - name: JP - zhuhai.uk 05
   type: hysteria2
   server: 138.3.208.26
@@ -147,6 +139,18 @@ proxies:
   tls: true
   sni: 193.176.84.27
   skip-cert-verify: true
+- name: PL - zhuhai.uk 03
+  type: vless
+  server: 31.77.13.19
+  port: 2063
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  flow: xtls-rprx-vision
+  tls: true
+  servername: rusbid.de
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
 - name: KR - zhuhai.uk 02
   type: socks5
   server: 121.169.46.116
@@ -158,6 +162,18 @@ proxies:
   port: 18642
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
   sni: www.bing.com
+  skip-cert-verify: true
+- name: ID - zhuhai.uk
+  type: http
+  server: 178.248.73.58
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: ID - zhuhai.uk 02
+  type: http
+  server: kimberlymilano.icu
+  port: 443
+  tls: true
   skip-cert-verify: true
 - name: DE - zhuhai.uk 04
   type: vless
@@ -201,18 +217,6 @@ proxies:
     path: /?TELEGRAM--KANAL--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray
     headers:
       Host: c12.com
-- name: FR - zhuhai.uk 04
-  type: vless
-  server: assets-fr4.pleiades.codes
-  port: 443
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  udp: true
-  network: grpc
-  tls: true
-  servername: assets-fr4.pleiades.codes
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
 - name: PL - zhuhai.uk 01
   type: vless
   server: 31.77.13.19
@@ -226,20 +230,6 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-- name: LT - zhuhai.uk 01
-  type: vless
-  server: 94.176.234.161
-  port: 443
-  uuid: d448490d-4ee6-442f-80e1-5e1c186c4ce1
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.intel.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: UpI0XKNUsMJ24XawPQ8g7br1faEsO7BOvmIIGg9Wrm8
-    short-id: dbb2ef1c7c
 - name: IN - zhuhai.uk 01
   type: vless
   server: 139.84.177.239
