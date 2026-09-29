@@ -1,89 +1,37 @@
-# Mac hourly sync 2026-09-29 16:19:30 | alive 68
+# Mac hourly sync 2026-09-29 16:24:44 | alive 25
 proxies:
-- name: RO - zhuhai.uk
-  type: http
-  server: 193.176.84.27
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: zebpay.site
+- name: HK - zhuhai.uk 02
+  type: socks5
+  server: 47.242.19.215
+  port: 8899
+  username: admin
+  password: admin
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
   port: 443
-  username: Ok5vbmU=
-  tls: true
-- name: SG - zhuhai.uk
-  type: hysteria2
-  server: xjp1.mangshe.xyz
-  port: 2060
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  sni: xjp1.mangshe.xyz
+  type: anytls
+  password: 9sK2mP8xQ7vL3nZ6
+  udp: true
+  sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
   skip-cert-verify: true
-- name: US - zhuhai.uk 02
+- name: JP - zhuhai.uk
   type: http
-  server: 138.199.35.211
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03
-  type: http
-  server: webdrone.club
-  port: 443
-  username: T2s1dmJtVT06
-  tls: true
-  sni: webdrone.club
-- name: US - zhuhai.uk 04
-  type: http
-  server: 138.199.35.207
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 02
-  type: http
-  server: 193.176.84.34
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: FR - zhuhai.uk
-  type: http
-  server: 141.94.16.4
+  server: fan.587475.xyz
   port: 443
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: 138.199.35.197
-  port: 9002
-  tls: true
-  sni: 138.199.35.197
-  skip-cert-verify: true
-- name: FR - zhuhai.uk 02
-  type: http
-  server: fan.132031.xyz
+- name: US_speednode_0134
   port: 443
-  username: Ok5vbmU=
+  server: voteshirleysew.club
   tls: true
-- name: NL - zhuhai.uk 02
   type: http
-  server: 84.17.47.147
+  udp: true
+- name: US_speednode_0143
   port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
   tls: true
-  skip-cert-verify: true
-- name: FR - zhuhai.uk 03
-  type: hysteria2
-  server: 62.210.7.139
-  port: 60111
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: speedtest.tinkoff.ru
-  skip-cert-verify: true
+  type: http
+  udp: true
 - name: US - zhuhai.uk 10
   type: http
   server: 138.199.35.202
@@ -93,48 +41,22 @@ proxies:
   tls: true
   sni: 138.199.35.202
   skip-cert-verify: true
-- name: HK - zhuhai.uk
-  type: hysteria2
-  server: 202.146.222.29
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: httpst.mewangcai2U0001F1E8U0001F1F3
+- name: US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
   skip-cert-verify: true
-- name: HK - zhuhai.uk 02
-  type: socks5
-  server: 47.242.19.215
-  port: 8899
-  username: admin
-  password: admin
-- name: JP - zhuhai.uk
+  tls: true
   type: http
-  server: fan.587475.xyz
-  port: 443
-  tls: true
-- name: IN - zhuhai.uk 02
-  type: vless
-  server: india.letsconnectpoint.com
-  port: 443
-  uuid: a368752a-32fc-42f3-980a-6b049218b23f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: india.letsconnectpoint.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: erUEmyU1QK8y2corQh9bOjk0oHl2Mo6Z9WgoyKg_rC0
-    short-id: c1e3d5d4
-- name: FI - zhuhai.uk 01
-  type: vless
-  server: fi.astrafic.ru
-  port: 443
-  uuid: 3d9daa27-6283-406d-a2d4-c6f22c635a14
   udp: true
-  network: grpc
+  username: 'null'
+- name: US - zhuhai.uk 07
+  type: http
+  server: 138.199.35.197
+  port: 9002
   tls: true
-  servername: fi.astrafic.ru
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: vless-grpc
+  sni: 138.199.35.197
+  skip-cert-verify: true
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: 🇺🇸US_1|3.4MB/s
@@ -149,111 +71,9 @@ proxies:
   type: vless
   udp: true
   uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
-- name: 🇫🇷FR_1|2.4MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: 🇳🇱NL_2|2.4MB/s
-  port: 14287
-  server: 51.158.202.56
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇮FI_1|3.3MB/s
-  port: 8443
-  server: 198.105.124.180
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇸ES_1|3.1MB/s
-  port: 8443
-  server: 45.147.251.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇺RU_1|1.1MB/s
+- name: 🇮🇪IE_1|3.4MB/s
   port: 443
-  server: 82.147.71.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: NL_speednode_0004
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL_speednode_0008
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL_speednode_0009
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0045
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0082
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0094
-  password: None
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0126
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_4|3.7MB/s
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_2|1.2MB/s
-  port: 443
-  server: 51.210.167.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_2|1.8MB/s
-  port: 443
-  server: 199.68.196.153
+  server: 54.194.223.138
   skip-cert-verify: true
   tls: true
   type: http
@@ -263,41 +83,23 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇳🇱NL_9|3.2MB/s
-  port: 9002
-  server: 84.17.47.123
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇴RO_5|1021KB/s
-  password: None
-  port: 9002
-  server: 193.176.84.22
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇨🇦CA_3|1.7MB/s
-  port: 443
-  server: 206.223.161.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇪IE_1|3.4MB/s
-  port: 443
-  server: 54.194.223.138
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇴RO_6|3.3MB/s
-  port: 9002
-  server: 193.176.84.18
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 🇳🇱NL_11|3.2MB/s
   port: 9002
   server: 84.17.47.124
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: NL_speednode_0008
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇫🇮FI_1|3.3MB/s
+  port: 8443
+  server: 198.105.124.180
   skip-cert-verify: true
   tls: true
   type: http
@@ -309,99 +111,12 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_6|3.1MB/s
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
+- name: FR - zhuhai.uk
   type: http
-- name: 🇺🇸US_10|3.0MB/s
-  port: 8443
-  server: 18.206.28.143
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|1007KB/s
-  port: 8090
-  server: 184.188.139.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇺RU_3|2.9MB/s
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇦CA_4|1.4MB/s
+  server: 141.94.16.4
   port: 443
-  server: 206.223.183.21
+  tls: true
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|4.3MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_3|3.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: zcA1E7_aUxhHP1B4po52NeviW16smzEqcyb2qiQYaTc
-    short-id: ''
-  server: 79.137.192.2
-  servername: cdn.cloudflare.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2412bd96-925b-43f2-81d1-0ed4f0793699
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇹🇷TR_1|1.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: db04ce8bdb8900f1
-  server: 85.192.48.142
-  servername: nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
-  xudp: true
-- name: 🇺🇸US_15|2.2MB/s
-  password: 'null'
-  port: '9002'
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇷🇴RO_10|3.2MB/s
-  port: 9002
-  server: 193.176.84.38
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: RO_speednode_0044
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
 - name: NL_speednode_0006
   port: 9002
   server: 84.17.47.150
@@ -409,68 +124,41 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: NL_speednode_0010
+- name: 🇷🇴RO_6|3.3MB/s
   port: 9002
-  server: 84.17.47.149
+  server: 193.176.84.18
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: RO_speednode_0041
+- name: 🇳🇱NL_9|3.2MB/s
   port: 9002
-  server: 193.176.84.33
+  server: 84.17.47.123
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: RO_speednode_0042
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 09
   type: http
-  udp: true
-- name: RO_speednode_0083
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0087
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0097
-  password: None
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0124
-  port: 9002
-  server: 193.176.84.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: US_speednode_0134
+  server: 149.34.248.65
   port: 443
-  server: voteshirleysew.club
+  tls: true
+  sni: 149.34.248.65
+  skip-cert-verify: true
+- name: 🇩🇪DE_4|3.7MB/s
+  port: 443
+  server: 79.76.126.155
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|3.1MB/s
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: RO_speednode_0045
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
@@ -481,35 +169,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇵🇱 波兰 | POL
-  server: polka-dot.failspace.top
-  port: 443
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- name: NL - zhuhai.uk 02
+  type: http
+  server: 84.17.47.147
+  port: 9002
   tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
-  port: 443
-  type: anytls
-  password: 9sK2mP8xQ7vL3nZ6
-  udp: true
-  sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
   skip-cert-verify: true
-- client-fingerprint: chrome
-  name: 🇫🇷FR_4|1.7MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.67.188.109
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /assignment
