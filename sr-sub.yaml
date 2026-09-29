@@ -1,23 +1,33 @@
-# Mac hourly sync 2026-09-30 00:20:43 | alive 3
+# Mac hourly sync 2026-09-30 01:20:37 | alive 2
 proxies:
-- name: HK - zhuhai.uk|197KB/s
-  type: hysteria2
-  server: 202.146.222.29
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_3|1.4MB/s|348KB/s
+  network: ws
   port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: httpst.mewangcai2U0001F1E8U0001F1F3
-  skip-cert-verify: true
-- name: CZ - zhuhai.uk|165KB/s
-  type: hysteria2
-  server: 162.249.127.136
+  server: maxfieldbox-nayab.org
+  servername: ewylr.smartorbitbox-bekhabdg.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcf89786-1b01-47dc-9a36-a7db03626e53
+  ws-opts:
+    headers:
+      Host: ewylr.smartorbitbox-bekhabdg.site
+    path: /tigerjoon
+- name: 🇺🇸 美国 | USA 5|312KB/s
+  server: 85.149.211.28
   port: 8443
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  sni: hop-germany-september.dynuddns.com
-  skip-cert-verify: true
-- name: 🇺🇸US_1|1.0MB/s|157KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
+  type: vless
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  tls: true
+  servername: hk.152568.xyz
+  client-fingerprint: edge
+  network: ws
+  ws-opts:
+    path: /cdn/packages/runtime-core.tar.gz
+    headers:
+      Host: hk.152568.xyz
+  udp: true
