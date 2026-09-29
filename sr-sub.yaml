@@ -1,44 +1,21 @@
-# Mac hourly sync 2026-09-29 20:22:14 | alive 4
+# Mac hourly sync 2026-09-29 21:21:07 | alive 2
 proxies:
-- client-fingerprint: random
+- name: US - zhuhai.uk 06|293KB/s
+  type: http
+  server: fan.596189.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|209KB/s
+  type: vless
+  server: 104.252.19.114
+  port: 8443
+  uuid: 40cba749-bca9-4089-9c02-84a357244ce0
   flow: xtls-rprx-vision
-  name: 🇺🇸US_1|3.4MB/s|697KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8i7j9_b2KyQC8iR-jEMGl-d2whPkeKt36mutUkZr9ng
-    short-id: 3477a74403cf4af9
-  server: 154.64.235.117
-  servername: gateway.icloud.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
-- name: 🇨🇿CZ_1|2.9MB/s|428KB/s
-  password: None
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_1|2.1MB/s|400KB/s
-  password: None
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: FI - zhuhai.uk 01|224KB/s
-  type: vless
-  server: fi.astrafic.ru
-  port: 443
-  uuid: 3d9daa27-6283-406d-a2d4-c6f22c635a14
-  udp: true
-  network: grpc
-  tls: true
-  servername: fi.astrafic.ru
+  servername: omvpn.info
   client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: vless-grpc
+  reality-opts:
+    public-key: cD8mVX41lqyVGCuPz0-tQWcNqkMxiPZxU7JJsyyNAEI
