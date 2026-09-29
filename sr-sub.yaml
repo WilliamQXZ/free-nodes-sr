@@ -1,63 +1,65 @@
-# Mac hourly sync 2026-09-30 05:19:10 | alive 8
+# Mac hourly sync 2026-09-30 06:18:37 | alive 8
 proxies:
-- name: US - zhuhai.uk 02|1.1MB/s
-  type: http
-  server: 138.199.35.214
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.4MB/s|906KB/s
-  network: ws
-  port: 443
-  server: maxfieldbox-nayab.org
-  servername: ewylr.smartorbitbox-bekhabdg.site
-  tls: true
+- name: JP - zhuhai.uk 01|2.8MB/s
   type: vless
+  server: jp-1.gsafevpnapi.com
+  port: 20270
+  uuid: 976bf067-9865-4184-938a-204463938c09
   udp: true
-  uuid: bcf89786-1b01-47dc-9a36-a7db03626e53
-  ws-opts:
-    headers:
-      Host: ewylr.smartorbitbox-bekhabdg.site
-    path: /tigerjoon
-- name: NL_speednode_0009|777KB/s
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
+  network: tcp
+  flow: xtls-rprx-vision
   tls: true
-  type: http
-  udp: true
-- name: NL - zhuhai.uk|685KB/s
-  type: http
-  server: 84.17.47.125
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk|653KB/s
-  type: http
-  server: 193.176.84.30
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇱🇻LV_2|1.2MB/s|573KB/s
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
+    short-id: 89fecfdaf45cd76d
+- name: 🇰🇷KR-49.254.204.134-0161 | 0.0MB|1.4MB/s
+  server: 49.254.204.134
+  port: 1774
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+- name: PL - zhuhai.uk|1024KB/s
+  type: hysteria2
+  server: 45.192.12.93
   port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  sni: admin.wwwinternetvideo.click
+- name: IT - zhuhai.uk|731KB/s
+  type: http
+  server: 94.177.163.156
+  port: 443
   tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk 02|706KB/s
   type: http
-- name: RO - zhuhai.uk 04|431KB/s
-  type: http
-  server: 193.176.84.38
+  server: 84.17.47.149
   port: 9002
   tls: true
-  sni: www.bing.com
+  sni: 84.17.47.149
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 14|279KB/s
+- name: NL - zhuhai.uk 01|572KB/s
+  type: vless
+  server: 177.3.208.65
+  port: 443
+  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  udp: true
+  network: ws
+  tls: true
+  servername: tgmansion.site
+  client-fingerprint: firefox
+  ws-opts:
+    path: /vless-il
+    headers:
+      Host: tgmansion.site
+- name: 🇱🇻LV_3|3.2MB/s|562KB/s
+  port: 443
+  server: 185.219.159.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 美国 | USA 14|231KB/s
   server: 1.ppap.a1.zjs.ppt.998.kfc-520.com
   port: 10002
   type: vless
