@@ -1,23 +1,42 @@
-# Mac hourly sync 2026-09-30 04:20:26 | alive 5
+# Mac hourly sync 2026-09-30 05:19:10 | alive 8
 proxies:
-- name: NL - zhuhai.uk|765KB/s
+- name: US - zhuhai.uk 02|1.1MB/s
+  type: http
+  server: 138.199.35.214
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_3|1.4MB/s|906KB/s
+  network: ws
+  port: 443
+  server: maxfieldbox-nayab.org
+  servername: ewylr.smartorbitbox-bekhabdg.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcf89786-1b01-47dc-9a36-a7db03626e53
+  ws-opts:
+    headers:
+      Host: ewylr.smartorbitbox-bekhabdg.site
+    path: /tigerjoon
+- name: NL_speednode_0009|777KB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL - zhuhai.uk|685KB/s
   type: http
   server: 84.17.47.125
   port: 9002
   tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_2|1.1MB/s|724KB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: RO - zhuhai.uk 04|717KB/s
-  type: http
-  server: 193.176.84.38
-  port: 9002
-  tls: true
-  sni: www.bing.com
   skip-cert-verify: true
 - name: RO - zhuhai.uk|653KB/s
   type: http
@@ -25,9 +44,30 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: ID - zhuhai.uk|475KB/s
-  type: http
-  server: 178.248.73.58
+- name: 🇱🇻LV_2|1.2MB/s|573KB/s
   port: 443
-  tls: true
+  server: 185.219.159.16
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: RO - zhuhai.uk 04|431KB/s
+  type: http
+  server: 193.176.84.38
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 14|279KB/s
+  server: 1.ppap.a1.zjs.ppt.998.kfc-520.com
+  port: 10002
+  type: vless
+  uuid: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 3CzFme1556AXsnF-1bVjlvxYtU_rG2i50piDBR_NBjw
+    short-id: f61f173b
+  servername: www.nvidia.com
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
