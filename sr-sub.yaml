@@ -1,177 +1,39 @@
-# Mac hourly sync 2026-09-29 16:24:44 | alive 25
+# Mac hourly sync 2026-09-29 16:40:54 | alive 5
 proxies:
-- name: HK - zhuhai.uk 02
-  type: socks5
-  server: 47.242.19.215
-  port: 8899
-  username: admin
-  password: admin
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
-  port: 443
+- name: 🇫🇷FR_1|2.4MB/s|689KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  sni: ip5.934618.xyz
   type: anytls
-  password: 9sK2mP8xQ7vL3nZ6
   udp: true
-  sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
-  skip-cert-verify: true
-- name: JP - zhuhai.uk
-  type: http
-  server: fan.587475.xyz
-  port: 443
-  tls: true
-- name: US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US - zhuhai.uk 10
-  type: http
-  server: 138.199.35.202
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.202
-  skip-cert-verify: true
-- name: US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: US - zhuhai.uk 07
-  type: http
-  server: 138.199.35.197
-  port: 9002
-  tls: true
-  sni: 138.199.35.197
-  skip-cert-verify: true
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|3.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8i7j9_b2KyQC8iR-jEMGl-d2whPkeKt36mutUkZr9ng
-    short-id: 3477a74403cf4af9
-  server: 154.64.235.117
-  servername: gateway.icloud.com
-  tls: true
+- name: GB - zhuhai.uk 02|466KB/s
   type: vless
-  udp: true
-  uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
-- name: 🇮🇪IE_1|3.4MB/s
+  server: 31.76.39.230
   port: 443
-  server: 54.194.223.138
-  skip-cert-verify: true
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  flow: xtls-rprx-vision
   tls: true
-  type: http
-- name: 🇩🇪DE_5|3.1MB/s
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_11|3.2MB/s
-  port: 9002
-  server: 84.17.47.124
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: NL_speednode_0008
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇫🇮FI_1|3.3MB/s
+  servername: nvidia.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: db04ce8bdb8900f1
+- name: 🇪🇸ES_1|3.1MB/s|443KB/s
   port: 8443
-  server: 198.105.124.180
+  server: 45.147.251.19
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇮🇹IT_1|1.4MB/s
-  password: None
+- name: 🇷🇺RU_1|1.1MB/s|326KB/s
   port: 443
-  server: 93.42.177.250
+  server: 82.147.71.46
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: FR - zhuhai.uk
+- name: SE - zhuhai.uk|196KB/s
   type: http
-  server: 141.94.16.4
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: NL_speednode_0006
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇴RO_6|3.3MB/s
-  port: 9002
-  server: 193.176.84.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_9|3.2MB/s
-  port: 9002
-  server: 84.17.47.123
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 09
-  type: http
-  server: 149.34.248.65
-  port: 443
-  tls: true
-  sni: 149.34.248.65
-  skip-cert-verify: true
-- name: 🇩🇪DE_4|3.7MB/s
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|3.1MB/s
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: RO_speednode_0045
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0141
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL - zhuhai.uk 02
-  type: http
-  server: 84.17.47.147
-  port: 9002
+  server: 77.221.136.60
+  port: 8443
   tls: true
   skip-cert-verify: true
