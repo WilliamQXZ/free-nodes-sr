@@ -1,19 +1,23 @@
-# Mac hourly sync 2026-09-29 23:19:43 | alive 1
+# Mac hourly sync 2026-09-30 00:20:43 | alive 3
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.4MB/s|350KB/s
-  network: ws
+- name: HK - zhuhai.uk|197KB/s
+  type: hysteria2
+  server: 202.146.222.29
   port: 443
-  server: maxfieldbox-nayab.org
-  servername: ewylr.smartorbitbox-bekhabdg.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcf89786-1b01-47dc-9a36-a7db03626e53
-  ws-opts:
-    headers:
-      Host: ewylr.smartorbitbox-bekhabdg.site
-    path: /tigerjoon
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: httpst.mewangcai2U0001F1E8U0001F1F3
+  skip-cert-verify: true
+- name: CZ - zhuhai.uk|165KB/s
+  type: hysteria2
+  server: 162.249.127.136
+  port: 8443
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  sni: hop-germany-september.dynuddns.com
+  skip-cert-verify: true
+- name: 🇺🇸US_1|1.0MB/s|157KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
