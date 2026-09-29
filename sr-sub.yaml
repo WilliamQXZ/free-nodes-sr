@@ -1,67 +1,61 @@
-# Mac hourly sync 2026-09-30 02:18:37 | alive 9
+# Mac hourly sync 2026-09-30 03:18:44 | alive 7
 proxies:
-- name: 🇺🇸US_1|1.0MB/s|1.1MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-- name: US - zhuhai.uk 04|970KB/s
+- name: US - zhuhai.uk 02|915KB/s
   type: http
-  server: 138.199.35.207
+  server: 138.199.35.209
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
-  sni: 138.199.35.207
   skip-cert-verify: true
-- name: NL_speednode_0004|693KB/s
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0041|657KB/s
-  port: 9002
-  server: 193.176.84.33
+- name: 🇬🇧GB_1|1.1MB/s|815KB/s
+  password: None
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 🇱🇻LV_3|3.2MB/s|538KB/s
+  username: null
+- name: 🇸🇪SE_2|2.5MB/s|654KB/s
+  password: None
   port: 443
-  server: 185.219.159.15
+  server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http
-- name: RU - zhuhai.uk|519KB/s
+  username: null
+- name: RU - zhuhai.uk|525KB/s
   type: hysteria2
   server: 91.240.86.70
   port: 22443
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   sni: hy.quattro-tech.ru
-- name: RO_speednode_0087|453KB/s
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  tls: true
+- name: ID - zhuhai.uk|440KB/s
   type: http
-  udp: true
-- name: HK - zhuhai.uk|293KB/s
-  type: hysteria2
-  server: 202.146.222.29
+  server: 178.248.73.58
   port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: httpst.mewangcai2U0001F1E8U0001F1F3
+  tls: true
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 7|127KB/s
-  server: starlink-ft.251313.xyz
-  port: 443
-  type: hysteria2
-  password: https://xship.top
-  auth: https://xship.top
-  sni: xship.top
-  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 14|419KB/s
+  server: 1.ppap.a1.zjs.ppt.998.kfc-520.com
+  port: 10002
+  type: vless
+  uuid: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 3CzFme1556AXsnF-1bVjlvxYtU_rG2i50piDBR_NBjw
+    short-id: f61f173b
+  servername: www.nvidia.com
+  client-fingerprint: firefox
+  network: tcp
   udp: true
+- name: US - zhuhai.uk 03|151KB/s
+  type: http
+  server: 138.199.35.198
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.198
+  skip-cert-verify: true
