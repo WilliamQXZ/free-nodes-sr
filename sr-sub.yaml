@@ -1,6 +1,45 @@
-# Mac hourly sync 2026-09-29 17:19:15 | alive 1
+# Mac hourly sync 2026-09-29 18:19:00 | alive 6
 proxies:
-- name: SE - zhuhai.uk|182KB/s
+- name: IN - zhuhai.uk|1.6MB/s
+  type: http
+  server: 35.197.129.84
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇨🇿CZ_1|2.9MB/s|745KB/s
+  password: None
+  port: 443
+  server: 185.216.35.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇵🇱PL_1|3.9MB/s|631KB/s
+  password: None
+  port: 443
+  server: 37.120.156.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_3|2.3MB/s|451KB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: NL - zhuhai.uk|325KB/s
+  type: http
+  server: 51.159.225.196
+  port: 23856
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 51.159.225.196
+  skip-cert-verify: true
+- name: SE - zhuhai.uk|230KB/s
   type: http
   server: 77.221.136.60
   port: 8443
