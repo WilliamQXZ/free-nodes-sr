@@ -1,20 +1,18 @@
-# Mac hourly sync 2026-10-01 02:19:06 | alive 2
+# Mac hourly sync 2026-10-01 03:18:44 | alive 6
 proxies:
-- name: 🇺🇸 美国 | USA|355KB/s
-  server: agroup.us2.ilovegairport.com
-  port: 443
-  type: vless
-  uuid: 129e26fe-cee2-4786-9261-b29668337829
+- name: US - zhuhai.uk 03|1.0MB/s
+  type: http
+  server: 138.199.35.199
+  port: 9002
   tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: zJmgsHKnfBjyqC1tZRrLb7J5CD6vDqq96uYRzAiPWRg
-    short-id: 17d299fb0790e7
-  servername: us-west-2.console.aws.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: US - zhuhai.uk 10|124KB/s
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1.0MB/s
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 10|1003KB/s
   type: http
   server: 138.199.35.201
   port: 9002
@@ -22,3 +20,31 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
+- name: FR - zhuhai.uk|749KB/s
+  type: http
+  server: fan.132031.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 4|718KB/s
+  server: us-vpnstore.rovilo.ir
+  port: 20018
+  type: vless
+  uuid: 452f869f-7720-47c3-a175-b6673e31d3e8
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - connectivitycheck.android.com
+  udp: true
+- name: NL_speednode_0010|219KB/s
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
