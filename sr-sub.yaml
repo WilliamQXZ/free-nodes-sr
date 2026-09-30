@@ -1,58 +1,21 @@
-# Mac hourly sync 2026-09-30 10:19:37 | alive 5
+# Mac hourly sync 2026-09-30 11:19:08 | alive 2
 proxies:
-- name: TW - zhuhai.uk|1.8MB/s
-  type: anytls
-  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
-  port: 443
-  password: 9sK2mP8xQ7vL3nZ6
-  udp: true
-  alpn:
-  - http/1.1
+- name: US - zhuhai.uk 04|241KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  tls: true
+  sni: 138.199.35.212
   skip-cert-verify: true
-  client-fingerprint: chrome
-- client-fingerprint: chrome
-  name: 🇫🇷FR_10|1.5MB/s|405KB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.185
+- down: ''
+  fingerprint: ''
+  name: 🇷🇺RU_1|3.1MB/s|218KB/s
+  obfs: ''
+  obfs-password: ''
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: '22443'
+  server: 91.240.86.70
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /assignment
-- name: CH - zhuhai.uk|402KB/s
+  sni: hy.quattro-tech.ru
   type: hysteria2
-  server: 152.67.75.161
-  port: 443
-  password: 3a702d4d1de4949005d8431220e040fb
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-- client-fingerprint: chrome
-  name: 🇫🇷FR_3|1.7MB/s|311KB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.36
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /assignment
-- name: 🇺🇸 美国 | USA 3|140KB/s
-  server: starlink-ft.251313.xyz
-  port: 443
-  type: hysteria2
-  password: https://xship.top
-  auth: https://xship.top
-  sni: xship.top
-  skip-cert-verify: true
-  udp: true
+  up: ''
