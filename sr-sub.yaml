@@ -1,40 +1,48 @@
-# Mac hourly sync 2026-10-01 06:18:42 | alive 8
+# Mac hourly sync 2026-10-01 07:18:35 | alive 7
 proxies:
-- name: US - zhuhai.uk 03|1016KB/s
-  type: ss
-  server: 129.146.56.197
-  port: 50356
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 7V16oHuTUxMQAfyrAro/m7NXdWktRoYZvIcoV7E0eHE=
-- name: NL_speednode_0007|799KB/s
-  port: 9002
-  server: 84.17.47.148
+- name: JP - zhuhai.uk 02|2.3MB/s
+  type: vless
+  server: jp-1.gsafevpnapi.com
+  port: 20270
+  uuid: d6fc32ed-05de-430b-99ca-3edc9185e79b
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
+    short-id: 89fecfdaf45cd76d
+- name: 🇺🇸US_3|3.2MB/s|769KB/s
+  password: ''
+  port: '8443'
+  server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: RO_speednode_0083|722KB/s
+  username: ''
+- name: FR - zhuhai.uk|735KB/s
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: t.me
+  skip-cert-verify: true
+- name: RO_speednode_0044|720KB/s
   port: 9002
-  server: 193.176.84.25
+  server: 193.176.84.35
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
   udp: true
-- name: RO - zhuhai.uk 02|712KB/s
-  type: http
-  server: 193.176.84.19
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|592KB/s
-  type: http
-  server: 71.43.26.234
+- name: 🇫🇷FR_23|2.0MB/s|689KB/s
   port: 443
-  tls: true
+  server: 103.82.101.44
   skip-cert-verify: true
-- name: US - zhuhai.uk|519KB/s
+  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  tls: true
+  type: http
+- name: US - zhuhai.uk|467KB/s
   type: vless
   server: 211.229.56.86
   port: 30021
@@ -47,22 +55,9 @@ proxies:
     path: /Ra-vl
     headers:
       Host: 123.714541.xyz
-- name: CZ - zhuhai.uk|354KB/s
-  type: hysteria2
-  server: 162.249.127.137
-  port: 8443
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  sni: hop-germany-september.dynuddns.com
+- name: ID - zhuhai.uk|270KB/s
+  type: http
+  server: 178.248.73.58
+  port: 443
+  tls: true
   skip-cert-verify: true
-- down: ''
-  fingerprint: ''
-  name: 🇹🇷TR_1|3.0MB/s|168KB/s
-  obfs: salamander
-  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  port: 7443
-  server: me17.msjia8844.site
-  skip-cert-verify: false
-  sni: me17.msjia8844.site
-  type: hysteria2
-  up: ''
