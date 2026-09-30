@@ -1,20 +1,10 @@
-# Mac hourly sync 2026-09-30 21:19:29 | alive 2
+# Mac hourly sync 2026-09-30 22:19:51 | alive 1
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇵🇱PL_3|4.7MB/s|416KB/s
-  obfs: ''
-  obfs-password: ''
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  port: '443'
-  server: admin.wwwinternetvideo.click
-  skip-cert-verify: false
-  sni: admin.wwwinternetvideo.click
-  type: hysteria2
-  up: ''
-- name: 🇬🇪GE_1|1.4MB/s|369KB/s
-  port: 443
-  server: 195.54.178.210
+- name: 🇺🇸US_3|3.2MB/s|599KB/s
+  password: ''
+  port: '8443'
+  server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
+  username: ''
