@@ -1,50 +1,78 @@
-# Mac hourly sync 2026-10-01 03:18:44 | alive 6
+# Mac hourly sync 2026-10-01 04:18:47 | alive 10
 proxies:
-- name: US - zhuhai.uk 03|1.0MB/s
-  type: http
-  server: 138.199.35.199
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1.0MB/s
-  type: http
-  server: 138.199.35.211
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 10|1003KB/s
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: FR - zhuhai.uk|749KB/s
-  type: http
-  server: fan.132031.xyz
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 4|718KB/s
-  server: us-vpnstore.rovilo.ir
-  port: 20018
-  type: vless
-  uuid: 452f869f-7720-47c3-a175-b6673e31d3e8
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - connectivitycheck.android.com
+- name: 🇫🇷FR_22|5.2MB/s|1.2MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  sni: ip5.934618.xyz
+  type: anytls
   udp: true
-- name: NL_speednode_0010|219KB/s
+- name: 🇺🇸US_4|2.5MB/s|967KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: NL_speednode_0010|787KB/s
   port: 9002
   server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: PH - zhuhai.uk|741KB/s
+  type: anytls
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  port: 27011
+  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+  udp: true
+  sni: flb01.pulsarcore.site
+  skip-cert-verify: true
+- name: RO_speednode_0045|733KB/s
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_6|3.7MB/s|682KB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: '2377'
+  server: 134.195.101.117
+  type: ss
+  udp: true
+- name: RO - zhuhai.uk|656KB/s
+  type: http
+  server: 193.176.84.24
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 2|582KB/s
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  port: 38302
+  type: anytls
+  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+  udp: true
+  sni: us71.pulsarcore.site
+  skip-cert-verify: true
+- name: RO_speednode_0097|517KB/s
+  password: None
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: FR - zhuhai.uk|438KB/s
+  type: http
+  server: fan.132031.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
