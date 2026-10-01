@@ -1,48 +1,62 @@
-# Mac hourly sync 2026-10-01 07:18:35 | alive 7
+# Mac hourly sync 2026-10-01 08:20:30 | alive 7
 proxies:
-- name: JP - zhuhai.uk 02|2.3MB/s
-  type: vless
-  server: jp-1.gsafevpnapi.com
-  port: 20270
-  uuid: d6fc32ed-05de-430b-99ca-3edc9185e79b
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
-    short-id: 89fecfdaf45cd76d
-- name: 🇺🇸US_3|3.2MB/s|769KB/s
-  password: ''
-  port: '8443'
-  server: 154.81.36.92
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: FR - zhuhai.uk|735KB/s
-  type: hysteria2
-  server: 62.210.7.139
-  port: 60111
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: t.me
-  skip-cert-verify: true
-- name: RO_speednode_0044|720KB/s
+- name: NL_speednode_0010|788KB/s
   port: 9002
-  server: 193.176.84.35
+  server: 84.17.47.149
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
-- name: 🇫🇷FR_23|2.0MB/s|689KB/s
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_6|3.7MB/s|734KB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: '2377'
+  server: 134.195.101.117
+  type: ss
+  udp: true
+- name: CH - zhuhai.uk|657KB/s
+  type: hysteria2
+  server: 152.67.75.161
   port: 443
-  server: 103.82.101.44
+  password: 3a702d4d1de4949005d8431220e040fb
+  sni: www.bing.com
   skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+- name: IT - zhuhai.uk 02|647KB/s
+  type: vless
+  server: 34.154.18.129
+  port: 443
+  uuid: fffe33b6-5735-4a71-adb1-1c154def9024
   tls: true
-  type: http
-- name: US - zhuhai.uk|467KB/s
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: -Tb9KKp870JxcZ3Ka7Rx5ez3QBYryX4e8_jdyNZu2wE
+    short-id: ed278463058a6dc9
+- name: ES - zhuhai.uk|585KB/s
+  type: hysteria2
+  server: xby.mangshe.xyz
+  port: 2060
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  sni: xby.mangshe.xyz
+  skip-cert-verify: true
+- name: QA - zhuhai.uk|497KB/s
+  type: vless
+  server: 34.18.222.19
+  port: 443
+  uuid: bd82d5e7-4395-40e1-b34e-2974eb0c8555
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ZRWl48Ahw4vlnPSTMkNs6xcCEDd9Qq4AsChUp-mg7A4
+    short-id: 9c8748aa3f7d4219
+- name: US - zhuhai.uk|397KB/s
   type: vless
   server: 211.229.56.86
   port: 30021
@@ -55,9 +69,3 @@ proxies:
     path: /Ra-vl
     headers:
       Host: 123.714541.xyz
-- name: ID - zhuhai.uk|270KB/s
-  type: http
-  server: 178.248.73.58
-  port: 443
-  tls: true
-  skip-cert-verify: true
