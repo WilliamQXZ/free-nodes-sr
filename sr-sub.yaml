@@ -1,71 +1,39 @@
-# Mac hourly sync 2026-10-01 08:20:30 | alive 7
+# Mac hourly sync 2026-10-01 09:19:52 | alive 5
 proxies:
-- name: NL_speednode_0010|788KB/s
-  port: 9002
-  server: 84.17.47.149
+- name: 🇳🇱NL_1|1.3MB/s|695KB/s
+  port: 443
+  server: 149.36.51.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_6|3.7MB/s|734KB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
-    mode: tls
-  port: '2377'
-  server: 134.195.101.117
-  type: ss
+- name: RO_speednode_0041|591KB/s
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- name: CH - zhuhai.uk|657KB/s
-  type: hysteria2
-  server: 152.67.75.161
+- name: ID - zhuhai.uk|283KB/s
+  type: http
+  server: 178.248.73.58
   port: 443
-  password: 3a702d4d1de4949005d8431220e040fb
-  sni: www.bing.com
+  tls: true
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-- name: IT - zhuhai.uk 02|647KB/s
-  type: vless
-  server: 34.154.18.129
-  port: 443
-  uuid: fffe33b6-5735-4a71-adb1-1c154def9024
+- name: NL - zhuhai.uk 02|143KB/s
+  type: http
+  server: 84.17.47.147
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: -Tb9KKp870JxcZ3Ka7Rx5ez3QBYryX4e8_jdyNZu2wE
-    short-id: ed278463058a6dc9
-- name: ES - zhuhai.uk|585KB/s
-  type: hysteria2
-  server: xby.mangshe.xyz
-  port: 2060
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  sni: xby.mangshe.xyz
+  sni: 84.17.47.147
   skip-cert-verify: true
-- name: QA - zhuhai.uk|497KB/s
-  type: vless
-  server: 34.18.222.19
-  port: 443
-  uuid: bd82d5e7-4395-40e1-b34e-2974eb0c8555
+- name: US - zhuhai.uk|142KB/s
+  type: http
+  server: 138.199.35.214
+  port: 9002
+  username: 'null'
+  password: None
   tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ZRWl48Ahw4vlnPSTMkNs6xcCEDd9Qq4AsChUp-mg7A4
-    short-id: 9c8748aa3f7d4219
-- name: US - zhuhai.uk|397KB/s
-  type: vless
-  server: 211.229.56.86
-  port: 30021
-  uuid: 88ee0e1e-a2a2-477e-88ce-4875c058aeba
-  tls: true
-  servername: 123.714541.xyz
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /Ra-vl
-    headers:
-      Host: 123.714541.xyz
+  skip-cert-verify: true
