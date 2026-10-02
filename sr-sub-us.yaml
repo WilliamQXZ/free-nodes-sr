@@ -1,31 +1,6 @@
-# Mac hourly sync 2026-10-03 05:59:17 | alive 7
+# Mac hourly sync 2026-10-03 06:01:39 | alive 7
 proxies:
-- name: US - zhuhai.uk 02|225KB/s
-  type: vless
-  server: 38.180.254.125
-  port: 9443
-  uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.amazon.com
-  client-fingerprint: random
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: cdn.v1.AssetService
-  name: 🇺🇸 美国 | USA 18|3KB/s
-  network: grpc
-  port: 443
-  server: 201.34.159.213
-  servername: us1.g4m1.biz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
-- name: US - zhuhai.uk 08|2KB/s
+- name: US - zhuhai.uk 08|3KB/s
   type: http
   server: 138.199.35.198
   port: 9002
@@ -34,10 +9,25 @@ proxies:
   tls: true
   sni: 138.199.35.198
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
+- auth: https://xship.2fa.cat
+  name: 🇺🇸 美国 | USA 13|2KB/s
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  udp: true
+- name: US - zhuhai.uk 03|2KB/s
   type: http
   server: 38.28.193.188
   port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 138.199.35.208
+  port: 9002
   tls: true
   skip-cert-verify: true
 - client-fingerprint: chrome
@@ -54,12 +44,18 @@ proxies:
     headers:
       Host: v2ray.aizgl.com
     path: /xray-ws
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.208
-  port: 9002
+- name: US - zhuhai.uk 02|0KB/s
+  type: vless
+  server: 38.180.254.125
+  port: 9443
+  uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
+  flow: xtls-rprx-vision
   tls: true
-  skip-cert-verify: true
+  servername: www.amazon.com
+  client-fingerprint: random
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
 - name: 🇺🇸_US_美国
   type: vmess
   server: guanwang.awsno.com
