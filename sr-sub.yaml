@@ -1,47 +1,55 @@
-# Mac hourly sync 2026-10-02 09:18:58 | alive 3
+# Mac hourly sync 2026-10-02 10:20:22 | alive 5
 proxies:
-- name: DE - zhuhai.uk 03|818KB/s
-  type: vless
-  server: 176.109.111.7
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- name: 🇯🇵 日本 | JPN 5|2.6MB/s
+  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+  port: 53274
+  server: jp-02-hdja-kido.younai-ytl.shop
+  skip-cert-verify: true
+  sni: jp33.swiftrelay.cc
+  type: anytls
   udp: true
-  network: grpc
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aa
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #2|710KB/s'
-  network: ws
-  port: 443
-  server: piracy-android.video-streams.org
-  servername: piracy-android.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: a97b4f58-0d47-416f-9ecd-dfdf20f31bf7
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-    path: /ws
 - alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #2|360KB/s'
-  network: ws
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 3|853KB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- name: 🇺🇸_US_美国|374KB/s
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  server: minimize-evenness.cdn-content.com
-  servername: minimize-evenness.cdn-content.com
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  type: vless
-  udp: true
-  uuid: 81a12262-81a7-45dc-8157-a6abc0c0cda3
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
   ws-opts:
+    path: /hls/cctv5phd.m3u8
     headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
+      Host: guanwang.awsno.com
+  udp: true
+- name: US - zhuhai.uk 07|320KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: HK - zhuhai.uk|158KB/s
+  type: http
+  server: fan.240104.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
