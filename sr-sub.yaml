@@ -1,42 +1,10 @@
-# Mac hourly sync 2026-10-02 11:19:33 | alive 3
+# Mac hourly sync 2026-10-02 12:19:09 | alive 1
 proxies:
-- name: 🇺🇸 美国 | USA 6|715KB/s
+- name: 🇺🇸 美国 | USA 6|685KB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
   skip-cert-verify: true
   sni: anytls2.864106.xyz
   type: anytls
-  udp: true
-- alpn:
-  - h2
-  client-fingerprint: safari
-  name: '🇷🇺 俄罗斯 | RUS #2|417KB/s'
-  network: xhttp
-  port: 2053
-  server: 78.159.246.179
-  servername: randomquaint.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2bbf90c-7f13-47dd-b68d-f0bd38b6b3c8
-  xhttp-opts:
-    host: randomquaint.net
-    mode: auto
-    path: /api/v1/upload
-- name: 🇺🇸_US_美国|397KB/s
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
   udp: true
