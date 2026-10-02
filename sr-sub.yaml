@@ -1,13 +1,8 @@
-# Mac hourly sync 2026-10-02 16:19:18 | alive 1
+# Mac hourly sync 2026-10-02 17:20:46 | alive 1
 proxies:
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #1|151KB/s'
-  network: grpc
+- name: FR - zhuhai.uk|206KB/s
+  type: http
+  server: fan.132031.xyz
   port: 443
-  server: 201.34.159.221
-  servername: us1.g4m1.biz
   tls: true
-  type: vless
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+  skip-cert-verify: true
