@@ -1,6 +1,33 @@
-# Mac hourly sync 2026-10-03 06:01:39 | alive 7
+# Mac hourly sync 2026-10-03 07:03:35 | alive 10
 proxies:
+- auth: https://xship.2fa.cat
+  name: 🇺🇸 美国 | USA 13|256KB/s
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  udp: true
+- name: US - zhuhai.uk 09|3KB/s
+  type: vless
+  server: tk1.high-speed-test-56424.me
+  port: 443
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+  flow: xtls-rprx-vision
+  tls: true
+  servername: aws.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: 21270a66
 - name: US - zhuhai.uk 08|3KB/s
+  type: http
+  server: 138.199.35.218
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|2KB/s
   type: http
   server: 138.199.35.198
   port: 9002
@@ -9,27 +36,31 @@ proxies:
   tls: true
   sni: 138.199.35.198
   skip-cert-verify: true
-- auth: https://xship.2fa.cat
-  name: 🇺🇸 美国 | USA 13|2KB/s
-  password: https://xship.2fa.cat
+- name: US - zhuhai.uk 05|2KB/s
+  type: http
+  server: 149.34.248.65
   port: 443
-  server: starlink-ft.251313.xyz
+  tls: true
   skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: cdn.v1.AssetService
+  name: 🇺🇸 美国 | USA 18|2KB/s
+  network: grpc
+  port: 443
+  server: 201.34.159.213
+  servername: us1.g4m1.biz
+  tls: true
+  type: vless
   udp: true
-- name: US - zhuhai.uk 03|2KB/s
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+- name: US - zhuhai.uk 04|1KB/s
   type: http
-  server: 38.28.193.188
+  server: fan.226278.xyz
   port: 443
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  tls: true
-  skip-cert-verify: true
+  sni: fan.226278.xyz
 - client-fingerprint: chrome
   name: '🇺🇸 美国 | USA #2|1KB/s'
   network: ws
@@ -44,18 +75,12 @@ proxies:
     headers:
       Host: v2ray.aizgl.com
     path: /xray-ws
-- name: US - zhuhai.uk 02|0KB/s
-  type: vless
-  server: 38.180.254.125
-  port: 9443
-  uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
-  flow: xtls-rprx-vision
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.217
+  port: 9002
   tls: true
-  servername: www.amazon.com
-  client-fingerprint: random
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
+  skip-cert-verify: true
 - name: 🇺🇸_US_美国
   type: vmess
   server: guanwang.awsno.com
