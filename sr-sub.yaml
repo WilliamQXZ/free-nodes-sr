@@ -1,10 +1,8 @@
-# Mac hourly sync 2026-10-02 21:20:57 | alive 1
+# Mac hourly sync 2026-10-02 23:21:36 | alive 1
 proxies:
-- name: US - zhuhai.uk 03|385KB/s
+- name: RU - zhuhai.uk|240KB/s
   type: http
-  server: 38.28.193.188
-  port: 443
-  username: 'null'
-  password: 'null'
+  server: 46.29.166.134
+  port: 1446
   tls: true
   skip-cert-verify: true
