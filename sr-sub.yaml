@@ -1,8 +1,28 @@
-# Mac hourly sync 2026-10-02 23:21:36 | alive 1
+# Mac hourly sync 2026-10-03 00:20:24 | alive 3
 proxies:
-- name: RU - zhuhai.uk|240KB/s
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #2|263KB/s'
+  network: ws
+  port: 443
+  server: v2ray.aizgl.com
+  servername: v2ray.aizgl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b21fbc7-00c2-4665-9788-02153832f9e5
+  ws-opts:
+    headers:
+      Host: v2ray.aizgl.com
+    path: /xray-ws
+- name: RU - zhuhai.uk|145KB/s
   type: http
   server: 46.29.166.134
   port: 1446
   tls: true
   skip-cert-verify: true
+- name: CZ - zhuhai.uk 02|133KB/s
+  type: hysteria2
+  server: 162.249.127.143
+  port: 8443
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  sni: hop-germany-september.dynuddns.com
