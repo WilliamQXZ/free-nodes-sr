@@ -1,41 +1,29 @@
-# Mac hourly sync 2026-10-03 05:59:14 | alive 4
+# Mac hourly sync 2026-10-03 06:01:36 | alive 4
 proxies:
-- name: NL_speednode_0006|783KB/s
+- name: NL_speednode_0009|729KB/s
   port: 9002
-  server: 84.17.47.150
+  server: 84.17.47.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: RU - zhuhai.uk 01|772KB/s
-  type: vless
-  server: 31.76.34.216
+- name: RO_speednode_0045|618KB/s
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO - zhuhai.uk 02|562KB/s
+  type: http
+  server: 193.176.84.31
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: DE - zhuhai.uk|245KB/s
+  type: http
+  server: fan.973511.xyz
   port: 443
-  uuid: 94def50e-5f3c-4e4c-9719-3325f42d2131
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
   tls: true
-  servername: ru-c-1.minzt.su
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: XrgbY2hKJQG8QOZO2J1pGmZsbvjSsSWoM9iULIMGK00
-- name: RO_speednode_0041|626KB/s
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US - zhuhai.uk 02|225KB/s
-  type: vless
-  server: 38.180.254.125
-  port: 9443
-  uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.amazon.com
-  client-fingerprint: random
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
