@@ -1,45 +1,47 @@
-# Mac hourly sync 2026-10-02 02:21:45 | alive 5
+# Mac hourly sync 2026-10-02 09:18:58 | alive 3
 proxies:
-- name: 🇹🇼 🇨🇳 台湾 | TWN 2|2.1MB/s
-  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
-  port: 443
-  server: tw04.cybergalaxy.me
-  skip-cert-verify: true
-  sni: tw04.cybergalaxy.me
-  type: anytls
+- name: DE - zhuhai.uk 03|818KB/s
+  type: vless
+  server: 176.109.111.7
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
-- name: TW - zhuhai.uk|1.8MB/s
-  type: anytls
-  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
-  port: 443
-  password: 9sK2mP8xQ7vL3nZ6
-  udp: true
-  sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: 🇰🇷 韩国 | KOR 2|760KB/s
-  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
-  port: 51178
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: hk09.alytest.cc
-  type: anytls
-  udp: true
-- alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: 55 Mbps
-  name: 'github.com/*********-******/**... #1|594KB/s'
-  port: 23556
-  protocol: udp
-  server: 62.210.70.191
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: BE - zhuhai.uk|506KB/s
-  type: http
-  server: 146.70.123.98
-  port: 443
+  network: grpc
   tls: true
-  skip-cert-verify: true
+  servername: dl.google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aa
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- client-fingerprint: chrome
+  name: '🇯🇵 日本 | JPN #2|710KB/s'
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: a97b4f58-0d47-416f-9ecd-dfdf20f31bf7
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #2|360KB/s'
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 81a12262-81a7-45dc-8157-a6abc0c0cda3
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
