@@ -1,13 +1,27 @@
-# Mac hourly sync 2026-10-04 00:05:15 | alive 1
+# Mac hourly sync 2026-10-04 01:02:30 | alive 2
 proxies:
-- name: KR - zhuhai.uk 02|223KB/s
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU|308KB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- name: '🇭🇰 香港 | HKG #3|164KB/s'
+  network: ws
+  port: 26506
+  server: 216.38.170.8
+  tls: false
   type: vless
-  server: 34.47.83.187
-  port: 443
-  uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
-    short-id: 8685f8b4d9f4f51e
+  udp: true
+  uuid: 593c2ff4-f051-4859-8449-b0130e2991df
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
