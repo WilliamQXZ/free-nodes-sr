@@ -1,6 +1,6 @@
-# Mac hourly sync 2026-10-03 14:02:06 | alive 3
+# Mac hourly sync 2026-10-03 15:02:06 | alive 3
 proxies:
-- name: JP - zhuhai.uk|1021KB/s
+- name: JP - zhuhai.uk|1.0MB/s
   type: vless
   server: 34.153.218.25
   port: 443
@@ -11,27 +11,22 @@ proxies:
   reality-opts:
     public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
     short-id: 780152c21e234b5a
-- name: RS - zhuhai.uk|384KB/s
+- auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  name: '🇪🇸 西班牙 | ESP #1|241KB/s'
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: xby.mangshe.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: BR - zhuhai.uk|161KB/s
   type: vless
-  server: 45.132.177.96
-  port: 9889
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: random
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-- name: AU - zhuhai.uk|262KB/s
-  type: vless
-  server: 34.40.217.165
+  server: 35.247.243.231
   port: 443
-  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  uuid: 5e517b94-e207-47ee-be3c-3020a57594e8
   tls: true
   servername: www.cloudflare.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
-    short-id: d725f0dd8cce210f
+    public-key: pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs
+    short-id: b62a4da6cd1c4dd6
