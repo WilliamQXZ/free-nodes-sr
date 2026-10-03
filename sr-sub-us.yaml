@@ -1,6 +1,6 @@
-# Mac hourly sync 2026-10-04 04:03:27 | alive 10
+# Mac hourly sync 2026-10-04 05:01:54 | alive 9
 proxies:
-- name: US - zhuhai.uk 02|731KB/s
+- name: US - zhuhai.uk 02|723KB/s
   type: vless
   server: 34.48.220.167
   port: 443
@@ -11,18 +11,19 @@ proxies:
   reality-opts:
     public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
     short-id: c08efcd72d7e8389
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #9|258KB/s'
-  network: grpc
+- name: US - zhuhai.uk|2KB/s
+  type: http
+  server: 52.15.98.63
   port: 443
-  server: 201.34.159.213
-  servername: us1.g4m1.biz
   tls: true
-  type: vless
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
-- name: US - zhuhai.uk 05|3KB/s
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 170.199.233.89
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05
   type: vless
   server: funagfr.alixxplay.com
   port: 30892
@@ -34,7 +35,7 @@ proxies:
   reality-opts:
     public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
     short-id: 3d31326f95
-- name: '🇺🇸 美国 | USA #3 #2|3KB/s'
+- name: '🇺🇸 美国 | USA #3 #2'
   password: UX82473651
   port: 443
   server: guided-ferret.rooster465.autos
@@ -42,7 +43,7 @@ proxies:
   sni: guided-ferret.rooster465.autos
   type: trojan
   udp: true
-- name: US - zhuhai.uk 03|2KB/s
+- name: US - zhuhai.uk 03
   type: vless
   server: funagfr.alixxplay.com
   port: 47672
@@ -54,19 +55,7 @@ proxies:
   reality-opts:
     public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
     short-id: 70ab6d813e
-- name: US - zhuhai.uk|2KB/s
-  type: http
-  server: 52.15.98.63
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|2KB/s
-  type: http
-  server: 170.199.233.89
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: '🇺🇸 美国 | USA #3|1KB/s'
+- name: '🇺🇸 美国 | USA #3'
   password: UX82473651
   port: 443
   server: happy-gibbon.rooster465.autos
@@ -74,19 +63,14 @@ proxies:
   sni: happy-gibbon.rooster465.autos
   type: trojan
   udp: true
-- name: 🇺🇸 美国 | USA 2
-  network: ws
-  password: b792ffa6-7007-43a9-ae9f-46f68da52a6a
-  port: 8443
-  server: x.com
+- name: 🇺🇸_US_美国_1
+  type: ss
+  server: 98.89.22.134
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
   skip-cert-verify: true
-  sni: avengers1.yang-1989.xyz
-  type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: avengers1.yang-1989.xyz
-    path: /hm4m
 - name: 🇺🇸_US_美国
   type: vmess
   server: guanwang.awsno.com
