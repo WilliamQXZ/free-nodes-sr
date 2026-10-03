@@ -1,16 +1,37 @@
-# Mac hourly sync 2026-10-03 15:02:12 | alive 5
+# Mac hourly sync 2026-10-03 16:02:21 | alive 6
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6|1KB/s'
-  network: grpc
-  port: 443
-  server: 201.34.159.213
-  servername: us1.g4m1.biz
+- name: US - zhuhai.uk 03|34KB/s
+  type: http
+  server: 138.199.35.210
+  port: 9002
   tls: true
-  type: vless
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|2KB/s
+  type: http
+  server: 104.233.178.179
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|2KB/s
+  type: http
+  server: 107.149.232.90
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|2KB/s
+  type: vmess
+  server: SLpqSpvouNsotGpx.v.3dns.vip
+  port: 443
+  uuid: 106a1eeb495c4deab54143491c3e0223
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: SLpqSpvouNsotGpx.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: SLpqSpvouNsotGpx.v.3dns.vip
 - name: 🇺🇸 美国 | USA 15|1KB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
@@ -19,32 +40,8 @@ proxies:
   sni: anytls2.864106.xyz
   type: anytls
   udp: true
-- name: 🇺🇸_US_美国_2|1KB/s
-  type: vless
-  server: v2ray.aizgl.com
-  port: 443
-  uuid: 4b21fbc7-00c2-4665-9788-02153832f9e5
-  network: ws
-  servername: v2ray.aizgl.com
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /xray-ws
-    headers:
-      Host: v2ray.aizgl.com
-  skip-cert-verify: true
-  udp: true
-- name: US - zhuhai.uk 08|1KB/s
-  type: http
-  server: 138.199.35.197
-  port: 9002
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 04
   type: http
-  server: 209.148.53.153
-  port: 8090
-  username: 'null'
-  password: None
+  server: berniesbodybla.fun
+  port: 443
   tls: true
-  skip-cert-verify: true
