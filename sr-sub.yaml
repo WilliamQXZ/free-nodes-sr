@@ -1,18 +1,27 @@
-# Mac hourly sync 2026-10-04 05:01:51 | alive 8
+# Mac hourly sync 2026-10-04 06:03:37 | alive 9
 proxies:
-- name: FR - zhuhai.uk|990KB/s
-  type: anytls
-  server: ip5.934618.xyz
-  port: 30099
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  sni: ip5.934618.xyz
+- name: HK - zhuhai.uk 03|1.2MB/s
+  type: trojan
+  server: ihk135.zxom.eu.org
+  port: 20016
+  password: 62ae18560ab740e0
+  tls: true
+  sni: ihk135.zxom.eu.org
+- name: US - zhuhai.uk|955KB/s
+  type: http
+  server: 138.199.35.207
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.207
+  skip-cert-verify: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 🇩🇪 德国 | DEU|917KB/s
+  name: 🇩🇪 德国 | DEU|952KB/s
   port: 54177
   protocol: udp
   server: 5.83.129.90
@@ -20,51 +29,50 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 500
-- name: DE - zhuhai.uk|887KB/s
-  type: vless
-  server: defrnode.jumpernode.site
-  port: 443
-  uuid: 8af93649-403b-46d8-9966-923d4c58402c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: p-nt-www-amazon-com-kalias.amazon.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
-    short-id: bc458609
-- name: NL_speednode_0004|766KB/s
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US - zhuhai.uk 02|723KB/s
-  type: vless
-  server: 34.48.220.167
-  port: 443
-  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
-    short-id: c08efcd72d7e8389
-- name: NL_speednode_0010|720KB/s
+- name: NL_speednode_0010|784KB/s
   port: 9002
   server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: RO_speednode_0045|699KB/s
+- name: NL_speednode_0006|738KB/s
   port: 9002
-  server: 193.176.84.17
+  server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '@ICV2RAY #1|332KB/s'
+- name: RO_speednode_0044|722KB/s
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO - zhuhai.uk|684KB/s
+  type: http
+  server: 193.176.84.37
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸_US_美国|557KB/s
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+- name: '@ICV2RAY #1|429KB/s'
   password: e19b5aa3-16c9-435a-8bc9-76f2f6ddff43
   port: 28015
   server: 64.188.119.177
