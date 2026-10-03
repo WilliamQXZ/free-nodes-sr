@@ -1,18 +1,6 @@
-# Mac hourly sync 2026-10-03 13:02:32 | alive 15
+# Mac hourly sync 2026-10-03 14:02:10 | alive 6
 proxies:
-- name: US - zhuhai.uk|44KB/s
-  type: http
-  server: 138.199.35.209
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|33KB/s
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 15|5KB/s
+- name: 🇺🇸 美国 | USA 15|1KB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -20,49 +8,36 @@ proxies:
   sni: anytls2.864106.xyz
   type: anytls
   udp: true
-- name: US - zhuhai.uk 06|3KB/s
-  type: http
-  server: 138.199.35.220
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 10|2KB/s
-  type: http
-  server: 138.199.35.218
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|2KB/s
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.212
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|2KB/s
-  type: http
-  server: 107.149.232.90
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 04|1KB/s
   type: http
-  server: 162.244.227.36
-  port: 443
+  server: 209.148.53.153
+  port: 8090
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 09|1KB/s
+- name: US - zhuhai.uk 08|1KB/s
   type: http
-  server: 170.199.233.89
-  port: 443
+  server: 138.199.35.197
+  port: 9002
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 03|0KB/s
+  type: http
+  server: 47.90.206.169
+  port: 7615
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk
+  type: http
+  server: zebpay.site
+  port: 443
+  tls: true
+  sni: zebpay.site
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6|1KB/s'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6'
   network: grpc
   port: 443
   server: 201.34.159.213
@@ -70,54 +45,3 @@ proxies:
   tls: true
   type: vless
   uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
-- name: 🇺🇸_US_美国_2|1KB/s
-  type: vless
-  server: v2ray.aizgl.com
-  port: 443
-  uuid: 4b21fbc7-00c2-4665-9788-02153832f9e5
-  network: ws
-  servername: v2ray.aizgl.com
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /xray-ws
-    headers:
-      Host: v2ray.aizgl.com
-  skip-cert-verify: true
-  udp: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.217
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国
-  type: ss
-  server: 98.89.22.134
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  skip-cert-verify: true
-  udp: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: 172.64.68.89
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国_1
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
