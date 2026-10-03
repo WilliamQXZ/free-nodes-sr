@@ -1,9 +1,42 @@
-# Mac hourly sync 2026-10-04 02:01:49 | alive 1
+# Mac hourly sync 2026-10-04 03:01:32 | alive 4
 proxies:
-- name: 🇩🇪[www.v2nodes.com] trojan-DE-...|179KB/s
-  password: UX82473651
-  port: 443
-  server: pleased-albacore.rooster465.autos
+- name: US - zhuhai.uk|1.1MB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.212
   skip-cert-verify: true
-  sni: pleased-albacore.rooster465.autos
-  type: trojan
+- name: US - zhuhai.uk 05|996KB/s
+  type: http
+  server: 45.145.72.122
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: EE - zhuhai.uk|571KB/s
+  type: vless
+  server: 89.125.13.202
+  port: 443
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  flow: xtls-rprx-vision
+  tls: true
+  servername: d3-ee1.cloud-cdn.xyz
+  client-fingerprint: edge
+  reality-opts:
+    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
+    short-id: ad6e08b22389abd2
+- encryption: mlkem768x25519plus.native.0rtt.oEfFlk7NfA_QAF1u_5EXbuXfD_8q-oPbaHXmxAjLAS0
+  name: 🇩🇪 德国 | DEU 5|324KB/s
+  network: ws
+  port: 80
+  server: Kashgsgsiajsh.apple.gymyoga.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: a55538b8-801e-4e45-80d6-d8a8eea31e4f
+  ws-opts:
+    headers:
+      Host: Kashgsgsiajsh.apple.gymyoga.ir
+    path: /
