@@ -1,14 +1,20 @@
-# Mac hourly sync 2026-10-03 17:05:01 | alive 8
+# Mac hourly sync 2026-10-03 18:01:48 | alive 6
 proxies:
-- name: US - zhuhai.uk 02|333KB/s
+- name: US - zhuhai.uk 03|513KB/s
   type: http
-  server: 107.149.232.90
+  server: 138.199.35.210
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|2KB/s
+  type: http
+  server: 104.233.178.179
   port: 443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
+- name: US - zhuhai.uk 02|1KB/s
   type: http
-  server: 104.233.178.179
+  server: 107.149.232.90
   port: 443
   tls: true
   skip-cert-verify: true
@@ -20,7 +26,7 @@ proxies:
   sni: anytls2.864106.xyz
   type: anytls
   udp: true
-- name: US - zhuhai.uk 07|1KB/s
+- name: US - zhuhai.uk 07
   type: vmess
   server: SLpqSpvouNsotGpx.v.3dns.vip
   port: 443
@@ -34,31 +40,19 @@ proxies:
     path: /ws-vmess
     headers:
       Host: SLpqSpvouNsotGpx.v.3dns.vip
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: berniesbodybla.fun
+- name: 🇺🇸_US_美国_1
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  tls: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.210
-  port: 9002
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-  tls: true
-  sni: goedkoopgeluid.icu
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  network: grpc
-  port: 443
-  server: 201.34.159.213
-  servername: us1.g4m1.biz
-  tls: true
-  type: vless
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
