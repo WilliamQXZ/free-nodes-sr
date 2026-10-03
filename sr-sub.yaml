@@ -1,9 +1,14 @@
-# Mac hourly sync 2026-10-03 11:03:55 | alive 1
+# Mac hourly sync 2026-10-03 12:02:13 | alive 1
 proxies:
-- name: 🇳🇱NL_1|1.3MB/s|477KB/s
-  port: 443
-  server: 149.36.51.129
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: 55 Mbps
+  name: 'github.com/*********-******/**... #1|329KB/s'
+  port: 23556
+  protocol: udp
+  server: 62.210.70.191
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
