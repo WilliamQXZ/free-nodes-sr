@@ -1,20 +1,19 @@
-# Mac hourly sync 2026-10-03 17:04:58 | alive 3
+# Mac hourly sync 2026-10-03 18:01:45 | alive 3
 proxies:
-- name: 🇫🇷 法国 | FRA|763KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: US - zhuhai.uk 02|333KB/s
+- name: KR - zhuhai.uk 02|528KB/s
   type: http
-  server: 107.149.232.90
-  port: 443
+  server: 783f6643-tcev40-th02zb-m0b9.kr.oshuawei.com
+  port: 31433
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  tls: true
+- name: US - zhuhai.uk 03|513KB/s
+  type: http
+  server: 138.199.35.210
+  port: 9002
   tls: true
   skip-cert-verify: true
-- name: RU - zhuhai.uk|266KB/s
+- name: RU - zhuhai.uk|273KB/s
   type: vless
   server: 45.131.212.231
   port: 443
