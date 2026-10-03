@@ -1,23 +1,26 @@
-# Mac hourly sync 2026-10-03 19:02:11 | alive 3
+# Mac hourly sync 2026-10-03 20:04:27 | alive 2
 proxies:
-- name: 🇫🇷 法国 | FRA|752KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: KR - zhuhai.uk 02|408KB/s
-  type: http
-  server: 783f6643-tcev40-th02zb-m0b9.kr.oshuawei.com
-  port: 31433
-  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-  tls: true
-- name: US - zhuhai.uk 02|390KB/s
-  type: http
-  server: 107.149.232.90
+- name: SG - zhuhai.uk 02|2.0MB/s
+  type: vless
+  server: sgip.harry.lv
   port: 443
+  uuid: 5d75a660-f04e-4301-a41b-d394bae03970
   tls: true
-  skip-cert-verify: true
+  servername: sgcf.harry.lv
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sg
+    headers:
+      Host: sgcf.harry.lv
+- name: TW - zhuhai.uk|1.9MB/s
+  type: vless
+  server: 34.80.248.240
+  port: 443
+  uuid: 31a40f42-4ad6-4a32-a760-71102b459584
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: qvekI7tKB1NDnZA6JcS_24aV4n8mlCbI3SFvkRr22wg
+    short-id: d74a6321deec9f31
