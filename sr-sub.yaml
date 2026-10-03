@@ -1,54 +1,55 @@
-# Mac hourly sync 2026-10-03 07:03:31 | alive 6
+# Mac hourly sync 2026-10-03 08:02:41 | alive 6
 proxies:
-- name: FR - zhuhai.uk 02|991KB/s
-  type: hysteria2
-  server: 62.210.7.139
-  port: 60111
-  password: github.com/Alvin9999-newpac/fanqiang
-  skip-cert-verify: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU 5|945KB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- name: SG - zhuhai.uk 02|771KB/s
-  type: hysteria2
-  server: 138.2.73.238
-  port: 50160
-  password: f87376e17da040ed04c9665ce8972930
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: SG - zhuhai.uk|441KB/s
+- name: DE - zhuhai.uk 01|743KB/s
   type: vless
-  server: 35.185.179.62
+  server: 177.1.186.44
   port: 443
-  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
+  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
   tls: true
-  servername: www.cloudflare.com
+  servername: mcde.67resserv67.info
   client-fingerprint: chrome
   reality-opts:
-    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
-    short-id: eb97ce837da2f6ad
-- name: FR - zhuhai.uk|437KB/s
+    public-key: 4hvjCaGIMlFeWxMYoAWTNHQOaZkGvGQREOjB3Unn7iE
+    short-id: 29455a3a790acbd0
+- name: NL_speednode_0006|697KB/s
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO_speednode_0041|656KB/s
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: FR - zhuhai.uk|544KB/s
   type: http
   server: 83.172.143.53
   port: 4443
   tls: true
   skip-cert-verify: true
-- auth: https://xship.2fa.cat
-  name: 🇺🇸 美国 | USA 13|256KB/s
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
+- client-fingerprint: firefox
+  name: '🇪🇪[www.v2nodes.com] vless-EE-1... #2|543KB/s'
+  network: ws
+  port: 8443
+  server: 194.26.141.148
+  servername: fdghyt.com
+  tls: true
+  type: vless
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
+  ws-opts:
+    headers:
+      Host: fdghyt.com
+    path: /vpn-wss/fluxor/59011/
+- name: US - zhuhai.uk 08|228KB/s
+  type: http
+  server: 138.199.35.218
+  port: 9002
+  tls: true
   skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
-  udp: true
