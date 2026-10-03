@@ -1,14 +1,29 @@
-# Mac hourly sync 2026-10-04 02:01:53 | alive 2
+# Mac hourly sync 2026-10-04 03:01:36 | alive 14
 proxies:
-- name: '🇺🇸 美国 | USA #6|2KB/s'
-  password: UX82473651
-  port: 443
-  server: happy-gibbon.rooster465.autos
+- name: US - zhuhai.uk|1.1MB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.212
   skip-cert-verify: true
-  sni: happy-gibbon.rooster465.autos
-  type: trojan
+- name: US - zhuhai.uk 05|996KB/s
+  type: http
+  server: 45.145.72.122
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸_US_美国_1|3KB/s
+  type: ss
+  server: 98.89.22.134
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  skip-cert-verify: true
   udp: true
-- name: '🇺🇸 美国 | USA #3|1KB/s'
+- name: '🇺🇸 美国 | USA #3 #2|3KB/s'
   password: UX82473651
   port: 443
   server: guided-ferret.rooster465.autos
@@ -16,3 +31,114 @@ proxies:
   sni: guided-ferret.rooster465.autos
   type: trojan
   udp: true
+- name: US - zhuhai.uk 08|2KB/s
+  type: vless
+  server: apinbxs.zalolink.com
+  port: 21263
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
+  tls: true
+  servername: us1p1.xn--ghq880n3na965a.com
+  client-fingerprint: safari
+  reality-opts:
+    public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+    short-id: 3d31326f95
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: 52.15.98.63
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|2KB/s
+  type: vless
+  server: 34.48.220.167
+  port: 443
+  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
+  tls: true
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
+    short-id: c08efcd72d7e8389
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #9|1KB/s'
+  network: grpc
+  port: 443
+  server: 201.34.159.213
+  servername: us1.g4m1.biz
+  tls: true
+  type: vless
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+- name: '🇺🇸 美国 | USA #3|1KB/s'
+  password: UX82473651
+  port: 443
+  server: happy-gibbon.rooster465.autos
+  skip-cert-verify: true
+  sni: happy-gibbon.rooster465.autos
+  type: trojan
+  udp: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: vless
+  server: 136.86.162.34
+  port: 443
+  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
+  tls: true
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
+    short-id: bd4aa541e5306ba2
+- name: US - zhuhai.uk 09|1KB/s
+  type: vless
+  server: funagfr.alixxplay.com
+  port: 47672
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
+  tls: true
+  servername: us1p1.xn--ghq880n3na965a.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
+    short-id: 70ab6d813e
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  sni: 138.199.35.215
+  skip-cert-verify: true
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+- name: 🇺🇸 美国 | USA 2
+  network: ws
+  password: b792ffa6-7007-43a9-ae9f-46f68da52a6a
+  port: 8443
+  server: x.com
+  skip-cert-verify: true
+  sni: avengers1.yang-1989.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: avengers1.yang-1989.xyz
+    path: /hm4m
