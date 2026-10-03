@@ -1,14 +1,187 @@
-# Mac hourly sync 2026-10-03 12:02:13 | alive 1
+# Mac hourly sync 2026-10-03 13:02:28 | alive 25
 proxies:
-- alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: 55 Mbps
-  name: 'github.com/*********-******/**... #1|329KB/s'
-  port: 23556
-  protocol: udp
-  server: 62.210.70.191
+- name: US - zhuhai.uk|44KB/s
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  tls: true
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
+- name: US - zhuhai.uk 08|33KB/s
+  type: http
+  server: 138.199.35.208
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: ID - zhuhai.uk|28KB/s
+  type: http
+  server: 178.248.73.58
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: NL_speednode_0007|20KB/s
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: JP - zhuhai.uk|6KB/s
+  type: socks5
+  server: 101.36.104.46
+  port: 10808
+- name: 🇺🇸 美国 | USA 15|5KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+  udp: true
+- name: US - zhuhai.uk 06|3KB/s
+  type: http
+  server: 138.199.35.220
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 10|2KB/s
+  type: http
+  server: 138.199.35.218
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇭🇰HK_2|2.7MB/s|2KB/s
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  skip-cert-verify: true
+  type: socks5
+  username: admin
+- name: US - zhuhai.uk 02|2KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.212
+  skip-cert-verify: true
+- name: RU - zhuhai.uk 01|2KB/s
+  type: vless
+  server: 31.76.34.216
+  port: 443
+  uuid: 94def50e-5f3c-4e4c-9719-3325f42d2131
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  servername: ru-c-1.minzt.su
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: XrgbY2hKJQG8QOZO2J1pGmZsbvjSsSWoM9iULIMGK00
+- name: 🇫🇷 法国 | FRA|2KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  skip-cert-verify: true
+  sni: ip5.934618.xyz
+  type: anytls
+  udp: true
+- name: US - zhuhai.uk 03|2KB/s
+  type: http
+  server: 107.149.232.90
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: DK - zhuhai.uk|1KB/s
+  type: vless
+  server: 176.109.111.7
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  tls: true
+  servername: dl.google.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aa
+- name: RO - zhuhai.uk 02|1KB/s
+  type: http
+  server: 193.176.84.34
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: FR - zhuhai.uk|1KB/s
+  type: http
+  server: 82.96.128.175
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 162.244.227.36
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 170.199.233.89
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6|1KB/s'
+  network: grpc
+  port: 443
+  server: 201.34.159.213
+  servername: us1.g4m1.biz
+  tls: true
+  type: vless
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+- name: NL_speednode_0009|1KB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DE - zhuhai.uk|1KB/s
+  type: http
+  server: 158.173.154.3
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: LT - zhuhai.uk|1KB/s
+  type: http
+  server: 89.124.11.9
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk|1KB/s
+  type: http
+  server: 193.176.84.38
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: SG - zhuhai.uk|1KB/s
+  type: vless
+  server: 35.185.179.62
+  port: 443
+  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
+    short-id: eb97ce837da2f6ad
+- name: NL_speednode_0006|1KB/s
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
