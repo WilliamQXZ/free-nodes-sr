@@ -1,8 +1,16 @@
-# Mac hourly sync 2026-10-03 21:04:06 | alive 1
+# Mac hourly sync 2026-10-03 22:06:31 | alive 1
 proxies:
-- name: BE - zhuhai.uk|397KB/s
-  type: http
-  server: 146.70.176.242
+- name: JP - zhuhai.uk|546KB/s
+  type: vmess
+  server: 9iiGm1pEjdOXQkDJ.v.3dns.vip
   port: 443
+  uuid: 106a1eeb495c4deab54143491c3e0223
+  alterId: 0
+  cipher: auto
   tls: true
-  skip-cert-verify: true
+  servername: 9iiGm1pEjdOXQkDJ.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 9iiGm1pEjdOXQkDJ.v.3dns.vip
