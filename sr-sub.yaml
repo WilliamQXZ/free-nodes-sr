@@ -1,13 +1,45 @@
-# Mac hourly sync 2026-10-04 04:03:24 | alive 6
+# Mac hourly sync 2026-10-04 05:01:51 | alive 8
 proxies:
-- name: FR - zhuhai.uk|994KB/s
+- name: FR - zhuhai.uk|990KB/s
   type: anytls
   server: ip5.934618.xyz
   port: 30099
   password: github.com/Alvin9999-newpac/fanqiang
   udp: true
   sni: ip5.934618.xyz
-- name: US - zhuhai.uk 02|731KB/s
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU|917KB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- name: DE - zhuhai.uk|887KB/s
+  type: vless
+  server: defrnode.jumpernode.site
+  port: 443
+  uuid: 8af93649-403b-46d8-9966-923d4c58402c
+  flow: xtls-rprx-vision
+  tls: true
+  servername: p-nt-www-amazon-com-kalias.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
+    short-id: bc458609
+- name: NL_speednode_0004|766KB/s
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 02|723KB/s
   type: vless
   server: 34.48.220.167
   port: 443
@@ -18,40 +50,25 @@ proxies:
   reality-opts:
     public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
     short-id: c08efcd72d7e8389
-- name: TR - zhuhai.uk|612KB/s
+- name: NL_speednode_0010|720KB/s
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
   type: http
-  server: 188.132.141.20
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: '🇭🇰 香港 | HKG #1|432KB/s'
-  password: UX82473651
-  port: 443
-  server: strong-haddock.rooster465.autos
-  skip-cert-verify: true
-  sni: strong-haddock.rooster465.autos
-  type: trojan
   udp: true
-- name: TW - zhuhai.uk 02|304KB/s
-  type: vless
-  server: argo6.5671234.xyz
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+- name: RO_speednode_0045|699KB/s
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
   tls: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #9|258KB/s'
-  network: grpc
-  port: 443
-  server: 201.34.159.213
-  servername: us1.g4m1.biz
-  tls: true
-  type: vless
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+  type: http
+  udp: true
+- name: '@ICV2RAY #1|332KB/s'
+  password: e19b5aa3-16c9-435a-8bc9-76f2f6ddff43
+  port: 28015
+  server: 64.188.119.177
+  skip-cert-verify: false
+  sni: api-test-udp-trf.kaneki.cfd
+  tls: false
+  type: hysteria2
