@@ -1,72 +1,52 @@
-# Mac hourly sync 2026-10-04 06:06:20 | alive 7
+# Mac hourly sync 2026-10-04 07:03:41 | alive 7
 proxies:
-- name: US - zhuhai.uk|955KB/s
+- name: 🇺🇸_US_美国_1|3KB/s
+  type: ss
+  server: 98.89.22.134
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  skip-cert-verify: true
+  udp: true
+- name: US - zhuhai.uk|1KB/s
   type: http
-  server: 138.199.35.207
+  server: voteshirleysew.club
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 138.199.35.208
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
-  sni: 138.199.35.207
   skip-cert-verify: true
-- name: 🇺🇸_US_美国|557KB/s
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- name: US - zhuhai.uk 08|1KB/s
-  type: vless
-  server: 34.48.220.167
-  port: 443
-  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
-    short-id: c08efcd72d7e8389
-- name: US - zhuhai.uk 03|1KB/s
-  type: vless
-  server: 136.86.162.34
-  port: 443
-  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
-    short-id: bd4aa541e5306ba2
-- name: US - zhuhai.uk 07|1KB/s
+- name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 138.199.35.205
   port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
+- name: US - zhuhai.uk 05|1KB/s
   type: http
-  server: 24.142.229.178
-  port: 8090
+  server: jgwynphotoarts.pro
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 138.199.35.215
+  port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: vless
-  server: 136.86.230.49
-  port: 443
-  uuid: dffab367-7769-4c6c-86f2-66fc6bd03003
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: LYnDDS0AkBwVeeTyIEE5MhrTV_PZO5f1qBAbMN6z4HM
-    short-id: f1955f72763eb2fb
