@@ -1,27 +1,9 @@
-# Mac hourly sync 2026-10-04 01:02:30 | alive 2
+# Mac hourly sync 2026-10-04 02:01:49 | alive 1
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU|308KB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
+- name: 🇩🇪[www.v2nodes.com] trojan-DE-...|179KB/s
+  password: UX82473651
+  port: 443
+  server: pleased-albacore.rooster465.autos
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- name: '🇭🇰 香港 | HKG #3|164KB/s'
-  network: ws
-  port: 26506
-  server: 216.38.170.8
-  tls: false
-  type: vless
-  udp: true
-  uuid: 593c2ff4-f051-4859-8449-b0130e2991df
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+  sni: pleased-albacore.rooster465.autos
+  type: trojan
