@@ -1,43 +1,12 @@
-# Mac hourly sync 2026-10-03 21:04:11 | alive 5
+# Mac hourly sync 2026-10-03 22:06:35 | alive 4
 proxies:
-- name: US - zhuhai.uk|53KB/s
-  type: http
-  server: 138.199.35.209
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 02|2KB/s
   type: http
   server: 45.145.72.122
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 15|1KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #1|1KB/s'
-  network: ws
-  port: 443
-  server: WIVnYXQlO7TuwFo9.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
-  ws-opts:
-    headers:
-      Host: WIVnYXQlO7TuwFo9.v.3dns.vip
-    path: /ws-vmess
-- name: US - zhuhai.uk 03|0KB/s
+- name: US - zhuhai.uk 03|1KB/s
   type: vless
   server: 136.86.230.49
   port: 443
@@ -48,3 +17,20 @@ proxies:
   reality-opts:
     public-key: LYnDDS0AkBwVeeTyIEE5MhrTV_PZO5f1qBAbMN6z4HM
     short-id: f1955f72763eb2fb
+- name: US - zhuhai.uk 04
+  type: http
+  server: purposebydesig.club
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #9'
+  network: grpc
+  port: 443
+  server: 201.34.159.213
+  servername: us1.g4m1.biz
+  tls: true
+  type: vless
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
