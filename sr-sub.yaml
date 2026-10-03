@@ -1,42 +1,57 @@
-# Mac hourly sync 2026-10-04 03:01:32 | alive 4
+# Mac hourly sync 2026-10-04 04:03:24 | alive 6
 proxies:
-- name: US - zhuhai.uk|1.1MB/s
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.212
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|996KB/s
-  type: http
-  server: 45.145.72.122
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: EE - zhuhai.uk|571KB/s
-  type: vless
-  server: 89.125.13.202
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  flow: xtls-rprx-vision
-  tls: true
-  servername: d3-ee1.cloud-cdn.xyz
-  client-fingerprint: edge
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: ad6e08b22389abd2
-- encryption: mlkem768x25519plus.native.0rtt.oEfFlk7NfA_QAF1u_5EXbuXfD_8q-oPbaHXmxAjLAS0
-  name: 🇩🇪 德国 | DEU 5|324KB/s
-  network: ws
-  port: 80
-  server: Kashgsgsiajsh.apple.gymyoga.ir
-  tls: false
-  type: vless
+- name: FR - zhuhai.uk|994KB/s
+  type: anytls
+  server: ip5.934618.xyz
+  port: 30099
+  password: github.com/Alvin9999-newpac/fanqiang
   udp: true
-  uuid: a55538b8-801e-4e45-80d6-d8a8eea31e4f
+  sni: ip5.934618.xyz
+- name: US - zhuhai.uk 02|731KB/s
+  type: vless
+  server: 34.48.220.167
+  port: 443
+  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
+    short-id: c08efcd72d7e8389
+- name: TR - zhuhai.uk|612KB/s
+  type: http
+  server: 188.132.141.20
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: '🇭🇰 香港 | HKG #1|432KB/s'
+  password: UX82473651
+  port: 443
+  server: strong-haddock.rooster465.autos
+  skip-cert-verify: true
+  sni: strong-haddock.rooster465.autos
+  type: trojan
+  udp: true
+- name: TW - zhuhai.uk 02|304KB/s
+  type: vless
+  server: argo6.5671234.xyz
+  port: 443
+  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  tls: true
+  servername: argo6.5671234.xyz
+  network: ws
   ws-opts:
+    path: /e8e2cecb6188f7fb
     headers:
-      Host: Kashgsgsiajsh.apple.gymyoga.ir
-    path: /
+      Host: argo6.5671234.xyz
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #9|258KB/s'
+  network: grpc
+  port: 443
+  server: 201.34.159.213
+  servername: us1.g4m1.biz
+  tls: true
+  type: vless
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
