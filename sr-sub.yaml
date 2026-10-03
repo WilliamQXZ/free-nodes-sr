@@ -1,10 +1,9 @@
-# Mac hourly sync 2026-10-03 10:01:48 | alive 1
+# Mac hourly sync 2026-10-03 11:03:55 | alive 1
 proxies:
-- name: 🇺🇸 美国 | USA 15|926KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
+- name: 🇳🇱NL_1|1.3MB/s|477KB/s
+  port: 443
+  server: 149.36.51.129
   skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
+  tls: true
+  type: http
   udp: true
