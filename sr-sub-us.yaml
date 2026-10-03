@@ -1,10 +1,30 @@
-# Mac hourly sync 2026-10-03 20:04:31 | alive 11
+# Mac hourly sync 2026-10-03 21:04:11 | alive 5
 proxies:
+- name: US - zhuhai.uk|53KB/s
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 45.145.72.122
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 15|1KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+  udp: true
 - alpn:
   - ''
   alterId: 0
   cipher: auto
-  name: '🇺🇸 美国 | USA #1|23KB/s'
+  name: '🇺🇸 美国 | USA #1|1KB/s'
   network: ws
   port: 443
   server: WIVnYXQlO7TuwFo9.v.3dns.vip
@@ -17,84 +37,14 @@ proxies:
     headers:
       Host: WIVnYXQlO7TuwFo9.v.3dns.vip
     path: /ws-vmess
-- name: US - zhuhai.uk 04|21KB/s
-  type: http
-  server: 44.239.226.15
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|2KB/s
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 15|1KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 71.43.26.234
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: '🇺🇸 美国 | USA #3 #2'
-  password: UX82473651
-  port: 443
-  server: happy-gibbon.rooster465.autos
-  skip-cert-verify: true
-  sni: happy-gibbon.rooster465.autos
-  type: trojan
-  udp: true
-- name: US - zhuhai.uk
-  type: http
-  server: 20.42.108.114
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国_1
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  network: grpc
-  port: 443
-  server: 201.34.159.213
-  servername: us1.g4m1.biz
-  tls: true
+- name: US - zhuhai.uk 03|0KB/s
   type: vless
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
-- name: US - zhuhai.uk 05
-  type: http
-  server: 24.142.229.178
-  port: 8090
+  server: 136.86.230.49
+  port: 443
+  uuid: dffab367-7769-4c6c-86f2-66fc6bd03003
   tls: true
-  skip-cert-verify: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: LYnDDS0AkBwVeeTyIEE5MhrTV_PZO5f1qBAbMN6z4HM
+    short-id: f1955f72763eb2fb
