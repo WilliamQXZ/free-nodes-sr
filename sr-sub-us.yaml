@@ -1,32 +1,23 @@
-# Mac hourly sync 2026-10-03 07:03:35 | alive 10
+# Mac hourly sync 2026-10-03 08:02:45 | alive 8
 proxies:
-- auth: https://xship.2fa.cat
-  name: 🇺🇸 美国 | USA 13|256KB/s
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
-  udp: true
-- name: US - zhuhai.uk 09|3KB/s
-  type: vless
-  server: tk1.high-speed-test-56424.me
-  port: 443
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-  flow: xtls-rprx-vision
-  tls: true
-  servername: aws.amazon.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: 21270a66
-- name: US - zhuhai.uk 08|3KB/s
+- name: US - zhuhai.uk 08|228KB/s
   type: http
   server: 138.199.35.218
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 06|2KB/s
+  type: http
+  server: 138.199.35.217
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: berniesbodybla.fun
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
 - name: US - zhuhai.uk 02|2KB/s
   type: http
   server: 138.199.35.198
@@ -36,24 +27,16 @@ proxies:
   tls: true
   sni: 138.199.35.198
   skip-cert-verify: true
-- name: US - zhuhai.uk 05|2KB/s
-  type: http
-  server: 149.34.248.65
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: cdn.v1.AssetService
-  name: 🇺🇸 美国 | USA 18|2KB/s
+  name: 🇺🇸[www.v2nodes.com] vless-US-1...|2KB/s
   network: grpc
   port: 443
-  server: 201.34.159.213
+  server: 201.34.159.221
   servername: us1.g4m1.biz
   tls: true
   type: vless
-  udp: true
   uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
 - name: US - zhuhai.uk 04|1KB/s
   type: http
@@ -61,26 +44,18 @@ proxies:
   port: 443
   tls: true
   sni: fan.226278.xyz
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #2|1KB/s'
+- name: '🇺🇸 美国 | USA #6'
   network: ws
-  port: 443
-  server: v2ray.aizgl.com
-  servername: v2ray.aizgl.com
-  tls: true
+  port: 8880
+  server: 172.67.179.98
+  tls: false
   type: vless
   udp: true
-  uuid: 4b21fbc7-00c2-4665-9788-02153832f9e5
+  uuid: 83744063-3ddc-4ed9-b6e5-d207ce6ed48e
   ws-opts:
     headers:
-      Host: v2ray.aizgl.com
-    path: /xray-ws
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 138.199.35.217
-  port: 9002
-  tls: true
-  skip-cert-verify: true
+      Host: still-pine-d15e.368-b2a.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
 - name: 🇺🇸_US_美国
   type: vmess
   server: guanwang.awsno.com
