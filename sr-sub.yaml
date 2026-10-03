@@ -1,55 +1,34 @@
-# Mac hourly sync 2026-10-03 08:02:41 | alive 6
+# Mac hourly sync 2026-10-03 09:03:50 | alive 4
 proxies:
-- name: DE - zhuhai.uk 01|743KB/s
-  type: vless
-  server: 177.1.186.44
-  port: 443
-  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+- name: 🇺🇸 美国 | USA 15|824KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
   udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: mcde.67resserv67.info
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 4hvjCaGIMlFeWxMYoAWTNHQOaZkGvGQREOjB3Unn7iE
-    short-id: 29455a3a790acbd0
-- name: NL_speednode_0006|697KB/s
+- name: NL_speednode_0006|526KB/s
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: RO_speednode_0041|656KB/s
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: FR - zhuhai.uk|544KB/s
-  type: http
-  server: 83.172.143.53
-  port: 4443
-  tls: true
-  skip-cert-verify: true
-- client-fingerprint: firefox
-  name: '🇪🇪[www.v2nodes.com] vless-EE-1... #2|543KB/s'
-  network: ws
-  port: 8443
-  server: 194.26.141.148
-  servername: fdghyt.com
-  tls: true
+- name: 🇺🇸_US_美国->🇳🇱_NL_荷兰|500KB/s
   type: vless
-  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
-  ws-opts:
-    headers:
-      Host: fdghyt.com
-    path: /vpn-wss/fluxor/59011/
-- name: US - zhuhai.uk 08|228KB/s
+  server: autorack.proxy.rlwy.net
+  port: 57185
+  uuid: 47cb66c7-8506-4953-8766-084959a58e64
+  network: ws
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: GB - zhuhai.uk|258KB/s
   type: http
-  server: 138.199.35.218
-  port: 9002
+  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  port: 443
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   tls: true
   skip-cert-verify: true
