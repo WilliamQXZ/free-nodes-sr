@@ -1,82 +1,55 @@
-# Mac hourly sync 2026-10-04 06:03:37 | alive 9
+# Mac hourly sync 2026-10-04 07:03:38 | alive 7
 proxies:
-- name: HK - zhuhai.uk 03|1.2MB/s
-  type: trojan
-  server: ihk135.zxom.eu.org
-  port: 20016
-  password: 62ae18560ab740e0
+- name: HK - zhuhai.uk|2.1MB/s
+  type: vless
+  server: jumpernode.site
+  port: 443
+  uuid: 23af32ca-bea1-4a5e-bebb-04d1b1b633bc
+  flow: xtls-rprx-vision
   tls: true
-  sni: ihk135.zxom.eu.org
-- name: US - zhuhai.uk|955KB/s
-  type: http
-  server: 138.199.35.207
+  servername: p-nt-www-amazon-com-kalias.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE
+    short-id: 6d962e8d8a0dce
+- name: '🇰🇷 韩国 | KOR #9|1.7MB/s'
+  password: UX82473651
+  port: 443
+  server: evolving-ewe.rooster465.autos
+  skip-cert-verify: true
+  sni: evolving-ewe.rooster465.autos
+  type: trojan
+  udp: true
+- name: NL_speednode_0004|776KB/s
   port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL - zhuhai.uk 02|765KB/s
+  type: http
+  server: 157.22.183.72
+  port: 443
   username: 'null'
   password: 'null'
   tls: true
-  sni: 138.199.35.207
-  skip-cert-verify: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU|952KB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- name: NL_speednode_0010|784KB/s
+- name: RO_speednode_0042|701KB/s
   port: 9002
-  server: 84.17.47.149
+  server: 193.176.84.30
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: NL_speednode_0006|738KB/s
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
+- name: RO - zhuhai.uk|626KB/s
   type: http
-  udp: true
-- name: RO_speednode_0044|722KB/s
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO - zhuhai.uk|684KB/s
-  type: http
-  server: 193.176.84.37
+  server: 193.176.84.22
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸_US_美国|557KB/s
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+- name: FR - zhuhai.uk|431KB/s
+  type: http
+  server: 83.172.143.53
+  port: 4443
   tls: true
   skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- name: '@ICV2RAY #1|429KB/s'
-  password: e19b5aa3-16c9-435a-8bc9-76f2f6ddff43
-  port: 28015
-  server: 64.188.119.177
-  skip-cert-verify: false
-  sni: api-test-udp-trf.kaneki.cfd
-  tls: false
-  type: hysteria2
