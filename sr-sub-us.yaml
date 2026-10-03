@@ -1,20 +1,17 @@
-# Mac hourly sync 2026-10-03 12:02:17 | alive 17
+# Mac hourly sync 2026-10-03 13:02:32 | alive 15
 proxies:
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇺🇸 美国 | USA 14|59KB/s
-  password: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
-  port: 8443
-  reduce-rtt: false
-  request-timeout: 0
-  server: us02.uzifan.monster
+- name: US - zhuhai.uk|44KB/s
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  tls: true
   skip-cert-verify: true
-  sni: www.bing.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
+- name: US - zhuhai.uk 08|33KB/s
+  type: http
+  server: 138.199.35.208
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 15|5KB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
@@ -23,64 +20,31 @@ proxies:
   sni: anytls2.864106.xyz
   type: anytls
   udp: true
-- name: US - zhuhai.uk|2KB/s
-  type: http
-  server: 138.199.35.209
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国|2KB/s
-  type: ss
-  server: 98.89.22.134
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  skip-cert-verify: true
-  udp: true
-- auth: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  name: 🇺🇸 美国 | USA 16|1KB/s
-  obfs: salamander
-  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  port: 7443
-  server: me17.msjia8844.site
-  skip-cert-verify: true
-  sni: me17.msjia8844.site
-  type: hysteria2
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 172.64.68.89
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 10|1KB/s
-  type: http
-  server: 138.199.35.218
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 107.149.232.90
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
+- name: US - zhuhai.uk 06|3KB/s
   type: http
   server: 138.199.35.220
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
+- name: US - zhuhai.uk 10|2KB/s
   type: http
-  server: 138.199.35.217
+  server: 138.199.35.218
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
+- name: US - zhuhai.uk 02|2KB/s
   type: http
-  server: 138.199.35.208
+  server: 138.199.35.212
   port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.212
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|2KB/s
+  type: http
+  server: 107.149.232.90
+  port: 443
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 04|1KB/s
@@ -89,6 +53,23 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 170.199.233.89
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6|1KB/s'
+  network: grpc
+  port: 443
+  server: 201.34.159.213
+  servername: us1.g4m1.biz
+  tls: true
+  type: vless
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
 - name: 🇺🇸_US_美国_2|1KB/s
   type: vless
   server: v2ray.aizgl.com
@@ -104,24 +85,23 @@ proxies:
       Host: v2ray.aizgl.com
   skip-cert-verify: true
   udp: true
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 05|1KB/s
   type: http
-  server: 138.199.35.212
+  server: 138.199.35.217
   port: 9002
-  username: 'null'
-  password: 'null'
   tls: true
-  sni: 138.199.35.212
   skip-cert-verify: true
-- name: US - zhuhai.uk 09|0KB/s
-  type: http
-  server: 170.199.233.89
+- name: 🇺🇸_US_美国
+  type: ss
+  server: 98.89.22.134
   port: 443
-  tls: true
+  cipher: aes-256-cfb
+  password: amazonskr05
   skip-cert-verify: true
-- name: US - zhuhai.uk 11
+  udp: true
+- name: US - zhuhai.uk 07
   type: http
-  server: tzoa.fun
+  server: 172.64.68.89
   port: 443
   tls: true
   skip-cert-verify: true
