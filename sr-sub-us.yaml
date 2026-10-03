@@ -1,6 +1,12 @@
-# Mac hourly sync 2026-10-03 22:06:35 | alive 4
+# Mac hourly sync 2026-10-03 23:03:19 | alive 3
 proxies:
-- name: US - zhuhai.uk 02|2KB/s
+- name: US - zhuhai.uk|7KB/s
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
   type: http
   server: 45.145.72.122
   port: 8443
@@ -17,20 +23,3 @@ proxies:
   reality-opts:
     public-key: LYnDDS0AkBwVeeTyIEE5MhrTV_PZO5f1qBAbMN6z4HM
     short-id: f1955f72763eb2fb
-- name: US - zhuhai.uk 04
-  type: http
-  server: purposebydesig.club
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #9'
-  network: grpc
-  port: 443
-  server: 201.34.159.213
-  servername: us1.g4m1.biz
-  tls: true
-  type: vless
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
