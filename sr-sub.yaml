@@ -1,6 +1,6 @@
-# Mac hourly sync 2026-10-04 08:01:41 | alive 6
+# Mac hourly sync 2026-10-04 09:03:43 | alive 4
 proxies:
-- name: '🇰🇷 韩国 | KOR #3|1.9MB/s'
+- name: '🇰🇷 韩国 | KOR #3|1.5MB/s'
   password: UX82473651
   port: 443
   server: optimum-snapper.rooster465.autos
@@ -8,36 +8,21 @@ proxies:
   sni: optimum-snapper.rooster465.autos
   type: trojan
   udp: true
-- name: TW - zhuhai.uk|1.7MB/s
-  type: anytls
-  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
-  port: 443
-  password: 9sK2mP8xQ7vL3nZ6
-  udp: true
-  sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
-  skip-cert-verify: true
-- name: '🇰🇷 韩国 | KOR #6|1.5MB/s'
-  password: UX82473651
-  port: 443
-  server: kind-stork.rooster465.autos
-  skip-cert-verify: true
-  sni: kind-stork.rooster465.autos
-  type: trojan
-  udp: true
-- name: US - zhuhai.uk 03|1.1MB/s
-  type: http
-  server: 138.199.35.215
+- name: NL_speednode_0007|764KB/s
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇳🇱NL_1|1.3MB/s|779KB/s
-  port: 443
-  server: 149.36.51.129
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: BR - zhuhai.uk|483KB/s
+- name: RO_speednode_0042|693KB/s
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: BR - zhuhai.uk|452KB/s
   type: vless
   server: 34.151.245.65
   port: 443
