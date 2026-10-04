@@ -1,27 +1,20 @@
-# Mac hourly sync 2026-10-05 06:03:22 | alive 9
+# Mac hourly sync 2026-10-05 07:01:38 | alive 10
 proxies:
-- name: US - zhuhai.uk 05|1.1MB/s
-  type: http
-  server: 138.199.35.199
-  port: 9002
-  tls: true
-  sni: 138.199.35.199
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|1.0MB/s
-  type: http
-  server: 138.199.35.207
-  port: 9002
-  tls: true
-  sni: 138.199.35.207
-  skip-cert-verify: true
-- auth: https://xship.best
-  name: 🇺🇸 美国 | USA 6|4KB/s
-  password: https://xship.best
+- name: 🇺🇸_US_美国|490KB/s
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  server: starlink-ft.251313.xyz
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 美国 | USA 2|4KB/s
@@ -34,14 +27,43 @@ proxies:
   server: 134.195.101.118
   type: ss
   udp: true
-- name: US - zhuhai.uk 08|2KB/s
+- name: US - zhuhai.uk 05|3KB/s
   type: http
-  server: 138.199.35.218
+  server: 138.199.35.199
+  port: 9002
+  tls: true
+  sni: 138.199.35.199
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: 138.199.35.198
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 03|2KB/s
+  type: http
+  server: 138.199.35.207
+  port: 9002
+  tls: true
+  sni: 138.199.35.207
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|2KB/s
+  type: http
+  server: 138.199.35.205
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- auth: https://xship.best
+  name: 🇺🇸 美国 | USA 6|2KB/s
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  udp: true
 - name: 🇺🇸 美国 | USA 13|2KB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
@@ -58,25 +80,11 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 08|1KB/s
   type: http
-  server: 138.199.35.205
+  server: 138.199.35.218
   port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
