@@ -1,41 +1,50 @@
-# Mac hourly sync 2026-10-04 10:03:50 | alive 4
+# Mac hourly sync 2026-10-04 11:03:04 | alive 7
 proxies:
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk 08|1.1MB/s
   type: http
-  server: 138.199.35.215
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: jgwynphotoarts.pro
+  server: jewelscollecti.icu
   port: 443
-  username: bnVsbDpudWxs
+  username: Ok5vbmU=
   tls: true
-- name: 🇺🇸_US_美国_2
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #11'
-  network: grpc
-  port: 443
-  server: 201.34.159.221
-  servername: us1.g4m1.biz
-  tls: true
+- name: US - zhuhai.uk 04|1KB/s
   type: vless
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+  server: 136.86.162.34
+  port: 443
+  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
+    short-id: bd4aa541e5306ba2
+- name: US - zhuhai.uk 03|1KB/s
+  type: socks5
+  server: 129.153.11.56
+  port: 1080
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 50.184.176.222
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 52.55.81.168
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 184.188.139.2
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk
+  type: http
+  server: goedkoopgeluid.icu
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
