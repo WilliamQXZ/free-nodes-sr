@@ -1,41 +1,21 @@
-# Mac hourly sync 2026-10-05 05:01:39 | alive 12
+# Mac hourly sync 2026-10-05 06:03:22 | alive 9
 proxies:
-- name: 🇺🇸 美国 | USA 13|1.0MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|3.1MB/s|3KB/s
-  password: amazonskr05
-  port: 443
-  server: 3.95.209.183
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '🇺🇸 美国 | USA #3|3KB/s'
-  password: amazonskr05
-  port: 443
-  server: 54.208.227.172
-  type: ss
-  udp: true
-- name: US - zhuhai.uk 03|2KB/s
+- name: US - zhuhai.uk 05|1.1MB/s
   type: http
-  server: 138.199.35.197
+  server: 138.199.35.199
   port: 9002
   tls: true
+  sni: 138.199.35.199
   skip-cert-verify: true
-- name: US - zhuhai.uk|2KB/s
+- name: US - zhuhai.uk 03|1.0MB/s
   type: http
-  server: 47.90.206.169
-  port: 7615
+  server: 138.199.35.207
+  port: 9002
   tls: true
+  sni: 138.199.35.207
   skip-cert-verify: true
 - auth: https://xship.best
-  name: 🇺🇸 美国 | USA 6|1KB/s
+  name: 🇺🇸 美国 | USA 6|4KB/s
   password: https://xship.best
   port: 443
   server: starlink-ft.251313.xyz
@@ -43,13 +23,8 @@ proxies:
   sni: xship.top
   type: hysteria2
   udp: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: fan.596189.xyz
-  port: 443
-  tls: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 | USA 2|1KB/s
+  name: 🇺🇸 美国 | USA 2|4KB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -59,27 +34,36 @@ proxies:
   server: 134.195.101.118
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_7|2.8MB/s|1KB/s
-  password: amazonskr05
-  port: 443
-  server: 3.84.97.225
-  type: ss
-  udp: true
-- name: 🇺🇸_US_美国->🇹🇼_TW_中国台湾|1KB/s
-  type: vless
-  server: argo6.5671234.xyz
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  network: ws
-  servername: argo6.5671234.xyz
+- name: US - zhuhai.uk 08|2KB/s
+  type: http
+  server: 138.199.35.218
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
   skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 13|2KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
   udp: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 38.28.193.188
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.205
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - name: 🇺🇸_US_美国
   type: vmess
   server: guanwang.awsno.com
@@ -95,19 +79,4 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-  udp: true
-- name: 🇺🇸_US_美国_2
-  type: vless
-  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  port: 443
-  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
-  network: ws
-  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /ws/0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
-    headers:
-      Host: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  skip-cert-verify: true
   udp: true
