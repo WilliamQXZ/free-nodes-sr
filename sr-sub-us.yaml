@@ -1,20 +1,30 @@
-# Mac hourly sync 2026-10-04 08:01:44 | alive 5
+# Mac hourly sync 2026-10-04 09:03:46 | alive 8
 proxies:
-- name: US - zhuhai.uk 03|1.1MB/s
+- name: US - zhuhai.uk 03|3KB/s
   type: http
   server: 138.199.35.215
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 09|3KB/s
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #9|2KB/s'
+  network: grpc
+  port: 443
+  server: 201.34.159.213
+  servername: us1.g4m1.biz
+  tls: true
+  type: vless
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+- name: US - zhuhai.uk|1KB/s
   type: http
-  server: 138.199.35.208
-  port: 9002
+  server: voteshirleysew.club
+  port: 443
   username: 'null'
   password: 'null'
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|2KB/s
+- name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 138.199.35.205
   port: 9002
@@ -22,17 +32,42 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|2KB/s
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 138.199.35.208
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04
   type: http
   server: purecambogiasl.live
   port: 443
   tls: true
   sni: purecambogiasl.live
   skip-cert-verify: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: carolinafreigh.fun
+- name: '🇺🇸 美国 | USA #3'
+  password: UX82473651
   port: 443
-  username: 'null'
-  password: 'null'
+  server: happy-gibbon.rooster465.autos
+  skip-cert-verify: true
+  sni: happy-gibbon.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
