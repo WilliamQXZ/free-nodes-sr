@@ -1,23 +1,5 @@
-# Mac hourly sync 2026-10-04 12:01:59 | alive 8
+# Mac hourly sync 2026-10-04 13:05:11 | alive 6
 proxies:
-- name: US - zhuhai.uk 02|89KB/s
-  type: http
-  server: 184.188.139.2
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|2KB/s
-  type: socks5
-  server: 129.153.11.56
-  port: 1080
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 52.55.81.168
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 04|1KB/s
   type: vless
   server: 136.86.162.34
@@ -29,29 +11,29 @@ proxies:
   reality-opts:
     public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
     short-id: bd4aa541e5306ba2
-- name: US - zhuhai.uk 09
+- name: US - zhuhai.uk 02|1KB/s
   type: http
-  server: zebpay.site
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: 50.184.176.222
+  server: 184.188.139.2
   port: 8090
   tls: true
   skip-cert-verify: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #11'
-  network: grpc
+- name: US - zhuhai.uk 03|1KB/s
+  type: socks5
+  server: 129.153.11.56
+  port: 1080
+- name: US - zhuhai.uk
+  type: http
+  server: goedkoopgeluid.icu
   port: 443
-  server: 201.34.159.221
-  servername: us1.g4m1.biz
+  username: 'null'
+  password: 'null'
   tls: true
-  type: vless
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+- name: US - zhuhai.uk 08
+  type: http
+  server: jewelscollecti.icu
+  port: 443
+  username: Ok5vbmU=
+  tls: true
 - name: US - zhuhai.uk 10
   type: anytls
   server: rnb8vc76.zf-mix.9999231.xyz
