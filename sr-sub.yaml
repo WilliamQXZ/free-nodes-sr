@@ -1,26 +1,10 @@
-# Mac hourly sync 2026-10-04 11:03:01 | alive 3
+# Mac hourly sync 2026-10-04 12:01:55 | alive 1
 proxies:
-- name: US - zhuhai.uk 08|1.1MB/s
+- name: RO - zhuhai.uk 04|133KB/s
   type: http
-  server: jewelscollecti.icu
-  port: 443
-  username: Ok5vbmU=
-  tls: true
-- name: RO - zhuhai.uk 03|466KB/s
-  type: http
-  server: 193.176.84.17
+  server: 193.176.84.34
   port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
-  sni: www.bing.com
   skip-cert-verify: true
-- name: TW - zhuhai.uk 02|390KB/s
-  type: vless
-  server: 35.201.197.4
-  port: 443
-  uuid: 22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0
-    short-id: 32f66f37df3f58d2
