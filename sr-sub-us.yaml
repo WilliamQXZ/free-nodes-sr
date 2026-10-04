@@ -1,21 +1,12 @@
-# Mac hourly sync 2026-10-04 07:03:41 | alive 7
+# Mac hourly sync 2026-10-04 08:01:44 | alive 5
 proxies:
-- name: 🇺🇸_US_美国_1|3KB/s
-  type: ss
-  server: 98.89.22.134
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  skip-cert-verify: true
-  udp: true
-- name: US - zhuhai.uk|1KB/s
+- name: US - zhuhai.uk 03|1.1MB/s
   type: http
-  server: voteshirleysew.club
-  port: 443
-  username: 'null'
-  password: 'null'
+  server: 138.199.35.215
+  port: 9002
   tls: true
-- name: US - zhuhai.uk 09|1KB/s
+  skip-cert-verify: true
+- name: US - zhuhai.uk 09|3KB/s
   type: http
   server: 138.199.35.208
   port: 9002
@@ -23,7 +14,7 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
+- name: US - zhuhai.uk 06|2KB/s
   type: http
   server: 138.199.35.205
   port: 9002
@@ -31,22 +22,17 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
+- name: US - zhuhai.uk 04|2KB/s
   type: http
-  server: jgwynphotoarts.pro
+  server: purecambogiasl.live
   port: 443
-  username: bnVsbDpudWxs
   tls: true
-- name: US - zhuhai.uk 02|1KB/s
+  sni: purecambogiasl.live
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02
   type: http
   server: carolinafreigh.fun
   port: 443
   username: 'null'
   password: 'null'
   tls: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.215
-  port: 9002
-  tls: true
-  skip-cert-verify: true
