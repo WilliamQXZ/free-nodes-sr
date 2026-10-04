@@ -1,6 +1,43 @@
-# Mac hourly sync 2026-10-05 01:01:40 | alive 1
+# Mac hourly sync 2026-10-05 02:01:37 | alive 4
 proxies:
-- name: HK - zhuhai.uk 04|207KB/s
-  type: socks5
-  server: 47.238.126.208
-  port: 1080
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: ajv
+  name: 🇩🇪 德国 | DEU|1KB/s
+  network: grpc
+  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+  port: 443
+  server: 31.77.168.21
+  skip-cert-verify: true
+  sni: d3-de2.cloud-cdn.xyz
+  type: trojan
+  udp: true
+- name: '🇰🇷 韩国 | KOR #1|1KB/s'
+  password: UX82473651
+  port: 443
+  server: amazing-peacock.rooster465.autos
+  skip-cert-verify: true
+  sni: amazing-peacock.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港|@ripaojiedian|1KB/s
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 | USA 2|0KB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612
+    mode: tls
+  port: 2377
+  server: 134.195.101.118
+  type: ss
+  udp: true
