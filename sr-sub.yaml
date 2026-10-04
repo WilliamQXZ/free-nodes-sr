@@ -1,39 +1,28 @@
-# Mac hourly sync 2026-10-05 05:01:36 | alive 6
+# Mac hourly sync 2026-10-05 06:03:19 | alive 3
 proxies:
-- name: 🇺🇸 美国 | USA 13|1.0MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
+- name: US - zhuhai.uk 05|1.1MB/s
+  type: http
+  server: 138.199.35.199
+  port: 9002
+  tls: true
+  sni: 138.199.35.199
   skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- name: 🇮🇪_IE_爱尔兰|827KB/s
-  type: trojan
-  server: sacred-anemone.rooster465.autos
+- name: US - zhuhai.uk 03|1.0MB/s
+  type: http
+  server: 138.199.35.207
+  port: 9002
+  tls: true
+  sni: 138.199.35.207
+  skip-cert-verify: true
+- name: EE - zhuhai.uk|613KB/s
+  type: vless
+  server: 163.245.52.91
   port: 443
-  password: UX82473651
-  sni: sacred-anemone.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: HK - zhuhai.uk|503KB/s
-  type: socks5
-  server: 103.56.115.5
-  port: 55555
-- name: IN - zhuhai.uk|429KB/s
-  type: socks5
-  server: 157.20.27.117
-  port: 1080
-- auth: cf83b611-6cba-4535-adcb-8da06c6a9146
-  name: '🇩🇪 德国 | DEU #5|406KB/s'
-  password: cf83b611-6cba-4535-adcb-8da06c6a9146
-  port: 443
-  server: 144.31.212.253
-  skip-cert-verify: true
-  sni: vps155-edge.kermemehori.ru
-  tls: false
-  type: hysteria2
-- name: IQ - zhuhai.uk|290KB/s
-  type: socks5
-  server: 130.255.95.177
-  port: 4080
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  flow: xtls-rprx-vision
+  tls: true
+  servername: d3-ee1.cloud-cdn.xyz
+  client-fingerprint: random
+  reality-opts:
+    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
+    short-id: ad6e08b22389abd2
