@@ -1,31 +1,7 @@
-# Mac hourly sync 2026-10-04 21:04:22 | alive 7
+# Mac hourly sync 2026-10-04 22:03:57 | alive 4
 proxies:
-- cipher: aes-256-cfb
-  name: '🇺🇸 美国 | USA #3|256KB/s'
-  password: amazonskr05
-  port: 443
-  server: 54.208.227.172
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '🇺🇸 美国 | USA #4 #2|2KB/s'
-  password: amazonskr05
-  port: 443
-  server: 54.173.150.39
-  type: ss
-  udp: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk|0KB/s
-  type: socks5
-  server: 185.191.229.11
-  port: 6080
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 | USA 2
+  name: 🇺🇸 美国 | USA 2|2KB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -35,30 +11,20 @@ proxies:
   server: 134.195.101.118
   type: ss
   udp: true
-- name: 🇺🇸_US_美国_2
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+- name: US - zhuhai.uk 05|2KB/s
+  type: http
+  server: 138.199.35.198
+  port: 9002
   tls: true
   skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #11'
-  network: grpc
+- cipher: aes-256-cfb
+  name: '🇺🇸 美国 | USA #3|1KB/s'
+  password: amazonskr05
   port: 443
-  server: 201.34.159.221
-  servername: us1.g4m1.biz
-  tls: true
-  type: vless
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+  server: 54.208.227.172
+  type: ss
+  udp: true
+- name: US - zhuhai.uk|0KB/s
+  type: socks5
+  server: 185.191.229.11
+  port: 6080
