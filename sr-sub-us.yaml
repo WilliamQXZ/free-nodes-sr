@@ -1,33 +1,54 @@
-# Mac hourly sync 2026-10-04 16:02:48 | alive 6
+# Mac hourly sync 2026-10-04 17:02:45 | alive 8
 proxies:
-- name: US - zhuhai.uk 03|375KB/s
+- name: US - zhuhai.uk|562KB/s
   type: http
-  server: fan.226278.xyz
+  server: jgwynphotoarts.pro
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+- name: US - zhuhai.uk 04|18KB/s
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: tzoa.fun
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 138.199.35.208
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.208
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 52.55.81.168
   port: 443
   tls: true
-  sni: fan.226278.xyz
-- name: US - zhuhai.uk|2KB/s
-  type: http
-  server: 44.248.167.117
-  port: 8443
-  tls: true
+  sni: 52.55.81.168
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 138.199.35.205
-  port: 9002
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #11|0KB/s'
+  network: grpc
+  port: 443
+  server: 201.34.159.221
+  servername: us1.g4m1.biz
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
+  type: vless
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+- name: US - zhuhai.uk 02
   type: http
-  server: 138.199.35.207
-  port: 9002
-  tls: true
-  sni: 138.199.35.207
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: carolinafreigh.fun
+  server: efr-marktplatz.club
   port: 443
   username: 'null'
   password: 'null'
