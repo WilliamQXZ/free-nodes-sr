@@ -1,55 +1,50 @@
-# Mac hourly sync 2026-10-04 07:03:38 | alive 7
+# Mac hourly sync 2026-10-04 08:01:41 | alive 6
 proxies:
-- name: HK - zhuhai.uk|2.1MB/s
-  type: vless
-  server: jumpernode.site
-  port: 443
-  uuid: 23af32ca-bea1-4a5e-bebb-04d1b1b633bc
-  flow: xtls-rprx-vision
-  tls: true
-  servername: p-nt-www-amazon-com-kalias.amazon.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE
-    short-id: 6d962e8d8a0dce
-- name: '🇰🇷 韩国 | KOR #9|1.7MB/s'
+- name: '🇰🇷 韩国 | KOR #3|1.9MB/s'
   password: UX82473651
   port: 443
-  server: evolving-ewe.rooster465.autos
+  server: optimum-snapper.rooster465.autos
   skip-cert-verify: true
-  sni: evolving-ewe.rooster465.autos
+  sni: optimum-snapper.rooster465.autos
   type: trojan
   udp: true
-- name: NL_speednode_0004|776KB/s
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL - zhuhai.uk 02|765KB/s
-  type: http
-  server: 157.22.183.72
+- name: TW - zhuhai.uk|1.7MB/s
+  type: anytls
+  server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
   port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-- name: RO_speednode_0042|701KB/s
+  password: 9sK2mP8xQ7vL3nZ6
+  udp: true
+  sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
+  skip-cert-verify: true
+- name: '🇰🇷 韩国 | KOR #6|1.5MB/s'
+  password: UX82473651
+  port: 443
+  server: kind-stork.rooster465.autos
+  skip-cert-verify: true
+  sni: kind-stork.rooster465.autos
+  type: trojan
+  udp: true
+- name: US - zhuhai.uk 03|1.1MB/s
+  type: http
+  server: 138.199.35.215
   port: 9002
-  server: 193.176.84.30
+  tls: true
+  skip-cert-verify: true
+- name: 🇳🇱NL_1|1.3MB/s|779KB/s
+  port: 443
+  server: 149.36.51.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: RO - zhuhai.uk|626KB/s
-  type: http
-  server: 193.176.84.22
-  port: 9002
+- name: BR - zhuhai.uk|483KB/s
+  type: vless
+  server: 34.151.245.65
+  port: 443
+  uuid: e9c2ed7f-79ab-40a8-8910-24468f5da712
   tls: true
-  skip-cert-verify: true
-- name: FR - zhuhai.uk|431KB/s
-  type: http
-  server: 83.172.143.53
-  port: 4443
-  tls: true
-  skip-cert-verify: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 0WXz3PJQnr-KprrwiO5BlKVRdqA4ZS6U5jGHc_aeJnw
+    short-id: 4b414f69a06e1e81
