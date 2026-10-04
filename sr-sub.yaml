@@ -1,15 +1,9 @@
-# Mac hourly sync 2026-10-04 16:02:42 | alive 2
+# Mac hourly sync 2026-10-04 17:02:41 | alive 1
 proxies:
-- name: GB - zhuhai.uk|425KB/s
+- name: US - zhuhai.uk|562KB/s
   type: http
-  server: 3d329aa8-t9zts0-tpaqgu-1smhu.uk.oshuawei.com
+  server: jgwynphotoarts.pro
   port: 443
-  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  username: 'null'
+  password: 'null'
   tls: true
-- name: US - zhuhai.uk 03|375KB/s
-  type: http
-  server: fan.226278.xyz
-  port: 443
-  tls: true
-  sni: fan.226278.xyz
