@@ -1,24 +1,6 @@
-# Mac hourly sync 2026-10-04 23:02:44 | alive 3
+# Mac hourly sync 2026-10-05 00:02:18 | alive 2
 proxies:
-- auth: 40e084d6-0316-11f0-90e2-f23c913c8d2b
-  name: '🇭🇰 香港 | HKG #9|590KB/s'
-  password: 40e084d6-0316-11f0-90e2-f23c913c8d2b
-  port: 443
-  server: 78bc7982-tmm5c0-u0aht1-1rz5s.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 78bc7982-tmm5c0-u0aht1-1rz5s.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- auth: fbf91120-50ba-11ef-a203-f23c91cfbbc9
-  name: '🇭🇰 香港 | HKG #16|355KB/s'
-  password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
-  port: 443
-  server: 6ab2b012-tmm5c0-tpmc23-1s3lb.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: 🇺🇸_US_美国|319KB/s
+- name: 🇺🇸_US_美国|349KB/s
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -33,4 +15,17 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+  udp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: ajv
+  name: 🇩🇪 德国 | DEU|271KB/s
+  network: grpc
+  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+  port: 443
+  server: 31.77.168.21
+  skip-cert-verify: true
+  sni: d3-de2.cloud-cdn.xyz
+  type: trojan
   udp: true
