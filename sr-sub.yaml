@@ -1,25 +1,26 @@
-# Mac hourly sync 2026-10-04 10:03:47 | alive 3
+# Mac hourly sync 2026-10-04 11:03:01 | alive 3
 proxies:
-- name: 🇰🇷_KR_韩国_3|968KB/s
-  type: trojan
-  server: evolving-ewe.rooster465.autos
-  port: 443
-  password: UX82473651
-  sni: evolving-ewe.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: GB - zhuhai.uk|760KB/s
+- name: US - zhuhai.uk 08|1.1MB/s
   type: http
-  server: 3d329aa8-t9zts0-tpaqgu-1smhu.uk.oshuawei.com
+  server: jewelscollecti.icu
   port: 443
-  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  username: Ok5vbmU=
   tls: true
-  skip-cert-verify: true
-- name: NL_speednode_0009|564KB/s
+- name: RO - zhuhai.uk 03|466KB/s
+  type: http
+  server: 193.176.84.17
   port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
   tls: true
-  type: http
-  udp: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: TW - zhuhai.uk 02|390KB/s
+  type: vless
+  server: 35.201.197.4
+  port: 443
+  uuid: 22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0
+    short-id: 32f66f37df3f58d2
