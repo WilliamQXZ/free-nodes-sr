@@ -1,18 +1,12 @@
-# Mac hourly sync 2026-10-04 14:02:00 | alive 5
+# Mac hourly sync 2026-10-04 15:04:07 | alive 4
 proxies:
-- name: US - zhuhai.uk 04|20KB/s
-  type: http
-  server: 138.199.35.205
-  port: 9002
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk|2KB/s
   type: http
   server: 44.248.167.117
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk 03|2KB/s
   type: http
   server: fan.226278.xyz
   port: 443
@@ -25,10 +19,9 @@ proxies:
   tls: true
   sni: 138.199.35.207
   skip-cert-verify: true
-- name: US - zhuhai.uk 05
+- name: US - zhuhai.uk 04|1KB/s
   type: http
-  server: carolinafreigh.fun
-  port: 443
-  username: 'null'
-  password: 'null'
+  server: 138.199.35.205
+  port: 9002
   tls: true
+  skip-cert-verify: true
