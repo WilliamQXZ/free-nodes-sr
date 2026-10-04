@@ -1,9 +1,21 @@
-# Mac hourly sync 2026-10-04 17:02:41 | alive 1
+# Mac hourly sync 2026-10-04 18:01:49 | alive 3
 proxies:
-- name: US - zhuhai.uk|562KB/s
+- name: US - zhuhai.uk 05|770KB/s
   type: http
-  server: jgwynphotoarts.pro
+  server: jewelscollecti.icu
+  port: 443
+  tls: true
+- name: US - zhuhai.uk 02|713KB/s
+  type: http
+  server: efr-marktplatz.club
   port: 443
   username: 'null'
   password: 'null'
   tls: true
+- name: RO_speednode_0082|117KB/s
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
