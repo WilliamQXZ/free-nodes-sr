@@ -1,9 +1,28 @@
-# Mac hourly sync 2026-10-04 21:04:12 | alive 1
+# Mac hourly sync 2026-10-04 22:03:52 | alive 3
 proxies:
-- cipher: aes-256-cfb
-  name: '🇺🇸 美国 | USA #3|256KB/s'
-  password: amazonskr05
-  port: 443
-  server: 54.208.227.172
+- name: 🇫🇷_FR_法国|543KB/s
   type: ss
+  server: 52.47.133.105
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  skip-cert-verify: true
   udp: true
+- auth: b42d90fa667942aebc734d60
+  name: 🇦🇺 澳大利亚 | AUS|285KB/s
+  obfs: salamander
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 20000
+  ports: 20000-30000
+  server: 137.23.3.238
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  type: hysteria2
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 🇫🇷 法国 | FRA|205KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  type: hysteria2
