@@ -1,28 +1,36 @@
-# Mac hourly sync 2026-10-04 22:03:52 | alive 3
+# Mac hourly sync 2026-10-04 23:02:44 | alive 3
 proxies:
-- name: 🇫🇷_FR_法国|543KB/s
-  type: ss
-  server: 52.47.133.105
+- auth: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+  name: '🇭🇰 香港 | HKG #9|590KB/s'
+  password: 40e084d6-0316-11f0-90e2-f23c913c8d2b
   port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  server: 78bc7982-tmm5c0-u0aht1-1rz5s.hk3.hyhuawei.com
   skip-cert-verify: true
+  sni: 78bc7982-tmm5c0-u0aht1-1rz5s.hk3.hyhuawei.com
+  tls: false
+  type: hysteria2
+- auth: fbf91120-50ba-11ef-a203-f23c91cfbbc9
+  name: '🇭🇰 香港 | HKG #16|355KB/s'
+  password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
+  port: 443
+  server: 6ab2b012-tmm5c0-tpmc23-1s3lb.hk3.hyhuawei.com
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: 🇺🇸_US_美国|319KB/s
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
   udp: true
-- auth: b42d90fa667942aebc734d60
-  name: 🇦🇺 澳大利亚 | AUS|285KB/s
-  obfs: salamander
-  obfs-password: b42d90fa667942aebc734d60
-  password: b42d90fa667942aebc734d60
-  port: 20000
-  ports: 20000-30000
-  server: 137.23.3.238
-  skip-cert-verify: true
-  sni: rmgyvpn.rest
-  type: hysteria2
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: 🇫🇷 法国 | FRA|205KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  type: hysteria2
