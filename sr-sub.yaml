@@ -1,35 +1,25 @@
-# Mac hourly sync 2026-10-04 09:03:43 | alive 4
+# Mac hourly sync 2026-10-04 10:03:47 | alive 3
 proxies:
-- name: '🇰🇷 韩国 | KOR #3|1.5MB/s'
-  password: UX82473651
-  port: 443
-  server: optimum-snapper.rooster465.autos
-  skip-cert-verify: true
-  sni: optimum-snapper.rooster465.autos
+- name: 🇰🇷_KR_韩国_3|968KB/s
   type: trojan
-  udp: true
-- name: NL_speednode_0007|764KB/s
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0042|693KB/s
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: BR - zhuhai.uk|452KB/s
-  type: vless
-  server: 34.151.245.65
+  server: evolving-ewe.rooster465.autos
   port: 443
-  uuid: e9c2ed7f-79ab-40a8-8910-24468f5da712
+  password: UX82473651
+  sni: evolving-ewe.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: GB - zhuhai.uk|760KB/s
+  type: http
+  server: 3d329aa8-t9zts0-tpaqgu-1smhu.uk.oshuawei.com
+  port: 443
+  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
   tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0WXz3PJQnr-KprrwiO5BlKVRdqA4ZS6U5jGHc_aeJnw
-    short-id: 4b414f69a06e1e81
+  skip-cert-verify: true
+- name: NL_speednode_0009|564KB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
