@@ -1,8 +1,15 @@
-# Mac hourly sync 2026-10-04 14:01:56 | alive 1
+# Mac hourly sync 2026-10-04 15:04:01 | alive 2
 proxies:
-- name: CA - zhuhai.uk|488KB/s
+- name: 🇳🇱NL_1|1.3MB/s|315KB/s
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
   type: http
-  server: 23.169.224.34
+  udp: true
+- name: GE - zhuhai.uk|198KB/s
+  type: http
+  server: 195.54.178.210
   port: 443
   tls: true
   skip-cert-verify: true
