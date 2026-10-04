@@ -1,10 +1,9 @@
-# Mac hourly sync 2026-10-04 12:01:55 | alive 1
+# Mac hourly sync 2026-10-04 13:05:08 | alive 1
 proxies:
-- name: RO - zhuhai.uk 04|133KB/s
-  type: http
-  server: 193.176.84.34
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
+- name: FR - zhuhai.uk 02|1021KB/s
+  type: anytls
+  server: ip5.934618.xyz
+  port: 30099
+  password: github.com/Alvin9999-newpac/fanqiang
+  udp: true
+  sni: ip5.934618.xyz
