@@ -1,18 +1,6 @@
-# Mac hourly sync 2026-10-04 18:01:53 | alive 6
+# Mac hourly sync 2026-10-04 19:04:08 | alive 4
 proxies:
-- name: US - zhuhai.uk 05|770KB/s
-  type: http
-  server: jewelscollecti.icu
-  port: 443
-  tls: true
-- name: US - zhuhai.uk 02|713KB/s
-  type: http
-  server: efr-marktplatz.club
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-- name: US - zhuhai.uk 09|60KB/s
+- name: US - zhuhai.uk 09|20KB/s
   type: http
   server: 138.199.35.208
   port: 9002
@@ -21,22 +9,21 @@ proxies:
   tls: true
   sni: 138.199.35.208
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|2KB/s
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: tzoa.fun
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: US - zhuhai.uk 04|0KB/s
   type: http
   server: 138.199.35.211
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07|1KB/s
+- name: US - zhuhai.uk 06|0KB/s
   type: http
-  server: 52.55.81.168
+  server: 172.64.68.89
   port: 443
-  tls: true
-  sni: 52.55.81.168
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 47.90.206.169
-  port: 7615
   tls: true
   skip-cert-verify: true
