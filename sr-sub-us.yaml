@@ -1,23 +1,16 @@
-# Mac hourly sync 2026-10-04 15:04:07 | alive 4
+# Mac hourly sync 2026-10-04 16:02:48 | alive 6
 proxies:
-- name: US - zhuhai.uk|2KB/s
-  type: http
-  server: 44.248.167.117
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|2KB/s
+- name: US - zhuhai.uk 03|375KB/s
   type: http
   server: fan.226278.xyz
   port: 443
   tls: true
   sni: fan.226278.xyz
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk|2KB/s
   type: http
-  server: 138.199.35.207
-  port: 9002
+  server: 44.248.167.117
+  port: 8443
   tls: true
-  sni: 138.199.35.207
   skip-cert-verify: true
 - name: US - zhuhai.uk 04|1KB/s
   type: http
@@ -25,3 +18,33 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.207
+  port: 9002
+  tls: true
+  sni: 138.199.35.207
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+- name: 🇺🇸_US_美国_2
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
