@@ -1,11 +1,23 @@
-# Mac hourly sync 2026-10-04 11:03:04 | alive 7
+# Mac hourly sync 2026-10-04 12:01:59 | alive 8
 proxies:
-- name: US - zhuhai.uk 08|1.1MB/s
+- name: US - zhuhai.uk 02|89KB/s
   type: http
-  server: jewelscollecti.icu
-  port: 443
-  username: Ok5vbmU=
+  server: 184.188.139.2
+  port: 8090
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|2KB/s
+  type: socks5
+  server: 129.153.11.56
+  port: 1080
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 52.55.81.168
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 04|1KB/s
   type: vless
   server: 136.86.162.34
@@ -17,34 +29,35 @@ proxies:
   reality-opts:
     public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
     short-id: bd4aa541e5306ba2
-- name: US - zhuhai.uk 03|1KB/s
-  type: socks5
-  server: 129.153.11.56
-  port: 1080
-- name: US - zhuhai.uk 05|1KB/s
+- name: US - zhuhai.uk 09
+  type: http
+  server: zebpay.site
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05
   type: http
   server: 50.184.176.222
   port: 8090
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 52.55.81.168
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #11'
+  network: grpc
   port: 443
-  username: 'null'
-  password: 'null'
+  server: 201.34.159.221
+  servername: us1.g4m1.biz
   tls: true
+  type: vless
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+- name: US - zhuhai.uk 10
+  type: anytls
+  server: rnb8vc76.zf-mix.9999231.xyz
+  port: 1002
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  udp: true
+  sni: iosapps.itunes.apple.com
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 184.188.139.2
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
+  client-fingerprint: chrome
