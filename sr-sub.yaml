@@ -1,8 +1,8 @@
-# Mac hourly sync 2026-10-05 22:02:24 | alive 1
+# Mac hourly sync 2026-10-05 23:02:29 | alive 1
 proxies:
-- name: 🇷🇺RU_2|1.3MB/s|366KB/s
-  port: 443
-  server: 82.147.71.46
-  skip-cert-verify: true
-  tls: true
+- name: GB - zhuhai.uk|423KB/s
   type: http
+  server: 212.102.63.31
+  port: 443
+  tls: true
+  skip-cert-verify: true
