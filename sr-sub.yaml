@@ -1,14 +1,8 @@
-# Mac hourly sync 2026-10-05 14:04:15 | alive 2
+# Mac hourly sync 2026-10-05 15:02:45 | alive 1
 proxies:
-- name: 🇺🇸US_17|3.1MB/s|541KB/s
+- name: 🇺🇸US_17|3.1MB/s|154KB/s
   port: 443
   server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_21|2.7MB/s|319KB/s
-  port: 443
-  server: 68.235.56.59
   skip-cert-verify: true
   tls: true
   type: http
