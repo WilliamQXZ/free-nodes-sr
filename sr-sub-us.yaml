@@ -1,63 +1,39 @@
-# Mac hourly sync 2026-10-05 13:03:38 | alive 19
+# Mac hourly sync 2026-10-05 14:04:20 | alive 18
 proxies:
-- name: US - zhuhai.uk|2KB/s
-  type: http
-  server: 138.199.35.217
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- cipher: none
-  name: 🇺🇸 美国 | USA 9|2KB/s
-  password: ODI4ZjAwZGMtNDQz
-  plugin: obfs
-  plugin-opts:
-    host: upay.10010.com
-    mode: http
-  port: 80
-  server: 103.11.76.248
-  type: ss
-  udp: true
-- name: 🇺🇸US_18|2.5MB/s|2KB/s
+- name: 🇺🇸US_17|3.1MB/s|541KB/s
   port: 443
-  server: 167.88.60.242
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_22|3.5MB/s|2KB/s
+- name: 🇺🇸US_21|2.7MB/s|319KB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_22|3.5MB/s|3KB/s
   password: None
   port: 9002
   server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 04|2KB/s
+- name: US - zhuhai.uk 02|2KB/s
   type: http
-  server: 52.15.98.63
-  port: 443
+  server: 138.199.35.208
+  port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: anytls
-  server: awefd2313fefarg23fr24.pnuqcnp.cn
-  port: 443
-  password: 9sK2mP8xQ7vL3nZ6
-  udp: true
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 138.199.35.205
+- name: 🇺🇸US_8|4.5MB/s|2KB/s
   port: 9002
-  username: 'null'
-  password: None
+  server: 138.199.35.203
+  skip-cert-verify: true
   tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_9|1.4MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.198
+  type: http
+- name: 🇺🇸US_19|1.3MB/s|2KB/s
+  port: 443
+  server: 12.221.146.147
   skip-cert-verify: true
   tls: true
   type: http
@@ -75,48 +51,45 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_16|2.3MB/s|1KB/s
-  password: 'null'
+- name: 🇺🇸US_20|1.2MB/s|1KB/s
   port: 443
-  server: tzoa.fun
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_8|4.5MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.203
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|3.6MB/s|1KB/s
+- cipher: none
+  name: 🇺🇸 美国 | USA 9|1KB/s
+  password: ODI4ZjAwZGMtNDQz
+  plugin: obfs
+  plugin-opts:
+    host: upay.10010.com
+    mode: http
+  port: 80
+  server: 103.11.76.248
+  type: ss
+  udp: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: socks5
+  server: 83.147.217.103
+  port: 1080
+- name: 🇺🇸US_9|1.4MB/s|1KB/s
   password: None
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  tls: true
-  type: http
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.201
   port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_17|3.1MB/s|1KB/s
-  port: 443
-  server: 148.135.10.80
+  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_12|4.2MB/s|1KB/s
-  password: 'null'
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
+- name: 🇺🇸US_6|2.0MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+- name: US - zhuhai.uk
+  type: http
+  server: jewelscollecti.icu
+  port: 443
+  tls: true
 - name: 🇺🇸US_10|3.1MB/s
   port: 443
   server: kimberlymilano.icu
@@ -146,3 +119,10 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
+- name: 🇺🇸US_16|2.3MB/s
+  password: 'null'
+  port: 443
+  server: tzoa.fun
+  tls: true
+  type: http
+  username: 'null'
