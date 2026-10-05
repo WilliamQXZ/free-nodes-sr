@@ -1,51 +1,45 @@
-# Mac hourly sync 2026-10-05 18:04:25 | alive 15
+# Mac hourly sync 2026-10-05 19:02:27 | alive 17
 proxies:
-- name: 🇺🇸US_19|1.3MB/s|471KB/s
+- name: 🇺🇸_US_美国|389KB/s
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  type: http
-- name: 🇺🇸US_20|1.2MB/s|467KB/s
-  port: 443
-  server: 68.235.56.51
   skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: none
-  name: 🇺🇸 美国 | USA 9|65KB/s
-  password: ODI4ZjAwZGMtNDQz
-  plugin: obfs
-  plugin-opts:
-    host: upay.10010.com
-    mode: http
-  port: 80
-  server: 103.11.76.248
-  type: ss
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
   udp: true
-- name: US - zhuhai.uk|56KB/s
+- name: US - zhuhai.uk|25KB/s
   type: http
   server: 138.199.35.209
   port: 9002
   tls: true
   sni: 138.199.35.209
   skip-cert-verify: true
-- name: 🇺🇸US_8|4.5MB/s|2KB/s
+- name: 🇺🇸US_22|3.5MB/s|2KB/s
+  password: None
   port: 9002
-  server: 138.199.35.203
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_3|1.4MB/s|2KB/s
+- name: 🇺🇸US_4|3.6MB/s|2KB/s
   password: None
   port: 443
-  server: jgwynphotoarts.pro
+  server: efr-marktplatz.club
   skip-cert-verify: false
   tls: true
   type: http
-- name: 🇺🇸US_14|2.7MB/s|1KB/s
-  port: 8443
-  server: 45.145.72.122
+- name: 🇺🇸US_18|2.5MB/s|2KB/s
+  port: 443
+  server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
@@ -64,22 +58,50 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_22|3.5MB/s|1KB/s
-  password: None
+- name: 🇺🇸US_8|4.5MB/s|1KB/s
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.203
   skip-cert-verify: true
   tls: true
   type: http
+- cipher: none
+  name: 🇺🇸 美国 | USA 9|1KB/s
+  password: ODI4ZjAwZGMtNDQz
+  plugin: obfs
+  plugin-opts:
+    host: upay.10010.com
+    mode: http
+  port: 80
+  server: 103.11.76.248
+  type: ss
+  udp: true
 - name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 138.199.35.195
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: 🇺🇸US_11|1.9MB/s|1KB/s
+  port: 443
+  server: carolinafreigh.fun
+  sni: carolinafreigh.fun
+  tls: true
+  type: http
+- name: 🇺🇸US_14|2.7MB/s|1KB/s
+  port: 8443
+  server: 45.145.72.122
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇺🇸US_6|2.0MB/s|1KB/s
   port: 9002
   server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_17|3.1MB/s|1KB/s
+  port: 443
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
@@ -98,19 +120,10 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
+- name: 🇺🇸US_5|3.1MB/s
+  password: None
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+  server: berniesbodybla.fun
+  skip-cert-verify: false
   tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
+  type: http
