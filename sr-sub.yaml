@@ -1,15 +1,21 @@
-# Mac hourly sync 2026-10-06 00:05:08 | alive 2
+# Mac hourly sync 2026-10-06 01:03:14 | alive 2
 proxies:
-- name: 🇦🇹AT_1|2.9MB/s|288KB/s
+- client-fingerprint: chrome
+  name: '🇹🇷[www.v2nodes.com] vless-TR-1... #4|500KB/s'
+  network: ws
+  port: 8443
+  server: shop.neexbyte.ir
+  tls: true
+  type: vless
+  uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
+  ws-opts:
+    headers:
+      Host: shop.neexbyte.ir
+    path: /
+- name: 🇩🇰DK_1|1.7MB/s|360KB/s
   password: None
   port: 443
-  server: 146.70.244.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇾CY_1|2.5MB/s|140KB/s
-  port: 443
-  server: 213.207.130.34
+  server: 185.245.84.50
   skip-cert-verify: true
   tls: true
   type: http
