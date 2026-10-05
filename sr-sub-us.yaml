@@ -1,27 +1,62 @@
-# Mac hourly sync 2026-10-06 00:05:13 | alive 10
+# Mac hourly sync 2026-10-06 01:03:20 | alive 11
 proxies:
-- name: 🇺🇸US_10|5.0MB/s|7KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: US - zhuhai.uk 03|45KB/s
+  type: socks5
+  server: 23.95.222.32
+  port: 9080
 - name: 🇺🇸US_5|3.4MB/s|1KB/s
   port: 8443
   server: 45.145.72.122
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_7|2.1MB/s|1KB/s
+- name: 🇺🇸US_6|2.2MB/s|1KB/s
   port: 443
-  server: 167.88.60.242
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
+- name: US - zhuhai.uk|1KB/s
+  type: socks5
+  server: 43.108.46.4
+  port: 9050
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 129.212.181.253
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_19|1.3MB/s
+  password: None
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_3|2.2MB/s
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: false
+  tls: true
+  type: http
+- name: 🇺🇸US_4|2.2MB/s
+  password: 'null'
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+  username: 'null'
 - alpn:
   - http/1.1
-  name: 🇺🇸[www.v2nodes.com] trojan-US-...|1KB/s
+  name: 🇺🇸[www.v2nodes.com] trojan-US-...
   network: ws
   password: mitivpn
   port: 443
@@ -33,36 +68,12 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
     path: '%2F---%40VPNine1---%40VPNine1%2F---%40VPNine1---%40VPNine1%2F---%40VPNine1---%40VPNine1%2Fdes---%40VPNine1---%40VPNine1%2F---%40VPNine1---%40VPNine1%2F---%40VPNine1---%40VPNine1'
-- name: US - zhuhai.uk|1KB/s
-  type: socks5
-  server: 43.108.46.4
-  port: 9050
-- name: 🇺🇸US_8|1.1MB/s|1KB/s
-  port: 443
-  server: 68.235.56.51
+- client-fingerprint: chrome
+  name: 🇺🇸US_20|1.2MB/s
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1002
+  server: qm5tw9xz.zf-mix.9999231.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|4.2MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 03|0KB/s
-  type: socks5
-  server: 23.95.222.32
-  port: 9080
-- name: US - zhuhai.uk 04|0KB/s
-  type: http
-  server: 129.212.181.253
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_12|2.6MB/s
-  port: 443
-  server: tzoa.fun
-  sni: tzoa.fun
-  tls: true
-  type: http
+  sni: iosapps.itunes.apple.com
+  type: anytls
+  udp: true
