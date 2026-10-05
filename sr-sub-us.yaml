@@ -1,59 +1,20 @@
-# Mac hourly sync 2026-10-05 16:02:36 | alive 15
+# Mac hourly sync 2026-10-05 17:03:56 | alive 19
 proxies:
-- name: 🇺🇸US_19|1.3MB/s|259KB/s
-  port: 443
-  server: 12.221.146.147
+- name: 🇺🇸US_6|2.0MB/s|109KB/s
+  port: 9002
+  server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk|36KB/s
+- name: US - zhuhai.uk|59KB/s
   type: http
   server: 138.199.35.209
   port: 9002
   tls: true
   sni: 138.199.35.209
   skip-cert-verify: true
-- name: 🇺🇸US_17|3.1MB/s|2KB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|2.1MB/s|2KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_14|2.7MB/s|2KB/s
-  port: 8443
-  server: 45.145.72.122
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_22|3.5MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|4.5MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_20|1.2MB/s|1KB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
 - cipher: none
-  name: 🇺🇸 美国 | USA 9|1KB/s
+  name: 🇺🇸 美国 | USA 9|3KB/s
   password: ODI4ZjAwZGMtNDQz
   plugin: obfs
   plugin-opts:
@@ -63,6 +24,52 @@ proxies:
   server: 103.11.76.248
   type: ss
   udp: true
+- name: 🇺🇸US_18|2.5MB/s|2KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 06|2KB/s
+  type: http
+  server: 138.199.35.195
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_22|3.5MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|3.6MB/s|2KB/s
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: false
+  tls: true
+  type: http
+- name: 🇺🇸US_14|2.7MB/s|2KB/s
+  port: 8443
+  server: 45.145.72.122
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|3.1MB/s|1KB/s
+  port: 443
+  server: kimberlymilano.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_15|2.1MB/s|1KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - name: 🇺🇸US_9|1.4MB/s|1KB/s
   password: None
   port: 9002
@@ -70,18 +77,18 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_6|2.0MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.217
+- name: 🇺🇸US_17|3.1MB/s|1KB/s
+  port: 443
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 138.199.35.195
+- name: 🇺🇸US_8|4.5MB/s|1KB/s
   port: 9002
-  tls: true
+  server: 138.199.35.203
   skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇺🇸US_21|2.7MB/s|1KB/s
   port: 443
   server: 68.235.56.59
@@ -95,15 +102,40 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: http
-- name: US - zhuhai.uk 03
-  type: vless
-  server: tk1.high-speed-test-56424.me
+- name: 🇺🇸US_3|1.4MB/s
+  password: None
   port: 443
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-  flow: xtls-rprx-vision
+  server: jgwynphotoarts.pro
+  skip-cert-verify: false
   tls: true
-  servername: aws.amazon.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: 21270a66
+  type: http
+- name: 🇺🇸US_16|2.3MB/s
+  password: 'null'
+  port: 443
+  server: tzoa.fun
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+- name: US - zhuhai.uk 09
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.2fa.cat
+  sni: www.cloudflare.com
+  skip-cert-verify: true
