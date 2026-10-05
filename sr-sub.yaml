@@ -1,21 +1,75 @@
-# Mac hourly sync 2026-10-06 01:03:14 | alive 2
+# Mac hourly sync 2026-10-06 03:02:11 | alive 11
 proxies:
-- client-fingerprint: chrome
-  name: '🇹🇷[www.v2nodes.com] vless-TR-1... #4|500KB/s'
-  network: ws
-  port: 8443
-  server: shop.neexbyte.ir
-  tls: true
-  type: vless
-  uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
-  ws-opts:
-    headers:
-      Host: shop.neexbyte.ir
-    path: /
-- name: 🇩🇰DK_1|1.7MB/s|360KB/s
-  password: None
+- name: 🇺🇸US_7|2.1MB/s|1.1MB/s
   port: 443
-  server: 185.245.84.50
+  server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US_10|5.0MB/s|852KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇭CH_1|3.5MB/s|757KB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇳🇱NL_5|1.2MB/s|752KB/s
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇧🇪BE_1|1.4MB/s|725KB/s
+  port: 443
+  server: 146.70.176.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: PL - zhuhai.uk|669KB/s
+  type: http
+  server: 151.115.54.133
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: SE - zhuhai.uk|658KB/s
+  type: http
+  server: 146.70.242.146
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇮🇸IS_1|1.7MB/s|598KB/s
+  port: 9443
+  server: 185.165.170.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: RO - zhuhai.uk|569KB/s
+  type: http
+  server: 193.176.84.26
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 02|418KB/s
+  type: http
+  server: 193.176.84.30
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 7|189KB/s
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: awefd2313fefarg23fr24.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
