@@ -1,23 +1,17 @@
-# Mac hourly sync 2026-10-05 11:02:53 | alive 3
+# Mac hourly sync 2026-10-05 12:03:50 | alive 2
 proxies:
-- name: 🇺🇸US_4|3.6MB/s|875KB/s
+- name: 🇬🇧GB_2|2.5MB/s|740KB/s
   password: None
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 05|188KB/s
-  type: http
-  server: 138.199.35.201
+- name: 🇺🇸US_15|2.1MB/s|524KB/s
+  password: 'null'
   port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
   username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_8|4.5MB/s|172KB/s
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
