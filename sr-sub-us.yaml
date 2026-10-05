@@ -1,44 +1,20 @@
-# Mac hourly sync 2026-10-05 11:02:56 | alive 20
+# Mac hourly sync 2026-10-05 12:03:53 | alive 20
 proxies:
-- name: 🇺🇸US_4|3.6MB/s|875KB/s
+- name: 🇺🇸US_15|2.1MB/s|524KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_3|1.4MB/s|113KB/s
   password: None
   port: 443
-  server: efr-marktplatz.club
+  server: jgwynphotoarts.pro
   skip-cert-verify: false
   tls: true
   type: http
-- name: US - zhuhai.uk 05|188KB/s
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_8|4.5MB/s|172KB/s
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_16|2.3MB/s|47KB/s
-  password: 'null'
-  port: 443
-  server: tzoa.fun
-  tls: true
-  type: http
-  username: 'null'
-- cipher: none
-  name: 🇺🇸 美国 | USA 9|3KB/s
-  password: ODI4ZjAwZGMtNDQz
-  plugin: obfs
-  plugin-opts:
-    host: upay.10010.com
-    mode: http
-  port: 80
-  server: 103.11.76.248
-  type: ss
-  udp: true
 - name: US - zhuhai.uk 06|3KB/s
   type: http
   server: 138.199.35.205
@@ -54,40 +30,24 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_18|2.5MB/s|2KB/s
+- name: 🇺🇸US_21|2.7MB/s|2KB/s
   port: 443
-  server: 167.88.60.242
+  server: 68.235.56.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk|2KB/s
-  type: http
-  server: 138.199.35.217
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
+- name: 🇺🇸US_19|1.3MB/s|1KB/s
+  port: 443
+  server: 12.221.146.147
   skip-cert-verify: true
-- name: 🇺🇸US_14|2.7MB/s|2KB/s
+  tls: true
+  type: http
+- name: 🇺🇸US_14|2.7MB/s|1KB/s
   port: 8443
   server: 45.145.72.122
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 04|2KB/s
-  type: http
-  server: 52.15.98.63
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_15|2.1MB/s|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - name: 🇺🇸US_9|1.4MB/s|1KB/s
   password: None
   port: 9002
@@ -95,37 +55,75 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_21|2.7MB/s|1KB/s
+- name: US - zhuhai.uk|1KB/s
+  type: http
+  server: 138.199.35.217
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- cipher: none
+  name: 🇺🇸 美国 | USA 9|1KB/s
+  password: ODI4ZjAwZGMtNDQz
+  plugin: obfs
+  plugin-opts:
+    host: upay.10010.com
+    mode: http
+  port: 80
+  server: 103.11.76.248
+  type: ss
+  udp: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 52.15.98.63
   port: 443
-  server: 68.235.56.59
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_20|1.2MB/s|1KB/s
+  port: 443
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #2'
-  network: ws
-  port: 443
-  server: 43.174.193.1
-  servername: ccc.010304.xyz
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  username: 'null'
+  password: None
   tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
+  skip-cert-verify: true
+- name: 🇺🇸US_17|3.1MB/s|1KB/s
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|4.5MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇺🇸US_10|3.1MB/s
   port: 443
   server: kimberlymilano.icu
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_5|3.1MB/s
-  password: None
+- name: 🇺🇸US_12|4.2MB/s
+  password: 'null'
   port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: false
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_11|1.9MB/s
+  port: 443
+  server: carolinafreigh.fun
+  sni: carolinafreigh.fun
   tls: true
   type: http
 - name: US - zhuhai.uk 03
@@ -136,13 +134,6 @@ proxies:
   udp: true
   sni: images.ctfassets.net
   skip-cert-verify: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.95.209.183
-  type: ss
-  udp: true
 - name: 🇺🇸_US_美国
   type: vmess
   server: guanwang.awsno.com
