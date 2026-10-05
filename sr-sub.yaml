@@ -1,28 +1,27 @@
-# Mac hourly sync 2026-10-05 20:04:06 | alive 4
+# Mac hourly sync 2026-10-05 21:02:42 | alive 3
 proxies:
-- name: 🇺🇸US_17|3.1MB/s|604KB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇦🇹AT_3|1.6MB/s|466KB/s
+- name: 🇦🇹AT_2|2.2MB/s|242KB/s
   password: None
   port: 443
-  server: 146.70.244.18
+  server: 146.70.244.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_21|2.7MB/s|335KB/s
+- name: DE - zhuhai.uk 02|239KB/s
+  type: vless
+  server: 31.77.109.35
   port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  flow: xtls-rprx-vision
   tls: true
-  type: http
-- name: 🇬🇧GB_2|2.5MB/s|298KB/s
-  password: None
-  port: 9443
-  server: 37.120.233.34
+  servername: d3-de1.cloud-cdn.xyz
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
+    short-id: 494afdc75f8c2fa8
+- name: 🇬🇧GB_5|1.6MB/s|238KB/s
+  port: 443
+  server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
