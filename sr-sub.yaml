@@ -1,24 +1,16 @@
-# Mac hourly sync 2026-10-05 16:02:33 | alive 2
+# Mac hourly sync 2026-10-05 17:03:53 | alive 2
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_6|1.8MB/s|454KB/s
-  network: xhttp
+- name: 🇧🇬BG_1|2.4MB/s|422KB/s
+  password: None
   port: 443
-  server: 50.7.29.181
-  servername: id-24f9d11d.ferrin.uk
+  server: 185.94.192.210
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 24f9d11d-ceca-4f75-93ca-ad143ca18b28
-  xhttp-opts:
-    host: de.vmagnum.win
-    reuse-settings:
-      max-connections: '1'
-  xudp: true
-- name: 🇺🇸US_19|1.3MB/s|259KB/s
+  type: http
+- name: 🇸🇪SE_2|1.1MB/s|416KB/s
+  password: None
   port: 443
-  server: 12.221.146.147
+  server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
