@@ -1,39 +1,25 @@
-# Mac hourly sync 2026-10-06 03:02:11 | alive 11
+# Mac hourly sync 2026-10-06 04:03:40 | alive 5
 proxies:
-- name: 🇺🇸US_7|2.1MB/s|1.1MB/s
+- name: 🇺🇸US_6|2.2MB/s|930KB/s
   port: 443
-  server: 167.88.60.242
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_10|5.0MB/s|852KB/s
-  password: None
+- name: NL_speednode_0007|798KB/s
   port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_1|3.5MB/s|757KB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_5|1.2MB/s|752KB/s
-  port: 443
-  server: 149.36.51.129
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇧🇪BE_1|1.4MB/s|725KB/s
+- name: 🇺🇸US_8|1.1MB/s|674KB/s
   port: 443
-  server: 146.70.176.242
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: PL - zhuhai.uk|669KB/s
+- name: PL - zhuhai.uk|593KB/s
   type: http
   server: 151.115.54.133
   port: 443
@@ -41,35 +27,9 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: SE - zhuhai.uk|658KB/s
-  type: http
-  server: 146.70.242.146
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇮🇸IS_1|1.7MB/s|598KB/s
-  port: 9443
-  server: 185.165.170.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: RO - zhuhai.uk|569KB/s
+- name: RO - zhuhai.uk|468KB/s
   type: http
   server: 193.176.84.26
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: RO - zhuhai.uk 02|418KB/s
-  type: http
-  server: 193.176.84.30
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 7|189KB/s
-  password: 9sK2mP8xQ7vL3nZ6
-  port: 443
-  server: awefd2313fefarg23fr24.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
