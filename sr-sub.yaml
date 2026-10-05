@@ -1,61 +1,23 @@
-# Mac hourly sync 2026-10-05 10:04:05 | alive 7
+# Mac hourly sync 2026-10-05 11:02:53 | alive 3
 proxies:
-- name: 🇫🇷FR_1|4.3MB/s|986KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: ajv
-  name: 🇩🇪DE_4|1.9MB/s|840KB/s
-  network: grpc
-  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
-  port: 443
-  server: 31.77.168.21
-  skip-cert-verify: true
-  sni: d3-de2.cloud-cdn.xyz
-  type: trojan
-  udp: true
-- name: 🇸🇪SE_2|1.1MB/s|754KB/s
+- name: 🇺🇸US_4|3.6MB/s|875KB/s
   password: None
   port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
+  server: efr-marktplatz.club
+  skip-cert-verify: false
   tls: true
   type: http
-- name: RS - zhuhai.uk|687KB/s
+- name: US - zhuhai.uk 05|188KB/s
   type: http
-  server: 146.70.221.18
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇦🇹AT_3|1.6MB/s|681KB/s
+  server: 138.199.35.201
+  port: 9002
+  username: 'null'
   password: None
-  port: 443
-  server: 146.70.244.18
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_8|4.5MB/s|172KB/s
+  port: 9002
+  server: 138.199.35.203
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇭CH_1|1.3MB/s|629KB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: none
-  name: 🇺🇸 美国 | USA 9|374KB/s
-  password: ODI4ZjAwZGMtNDQz
-  plugin: obfs
-  plugin-opts:
-    host: upay.10010.com
-    mode: http
-  port: 80
-  server: 103.11.76.248
-  type: ss
-  udp: true
