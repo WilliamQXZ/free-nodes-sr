@@ -1,68 +1,53 @@
-# Mac hourly sync 2026-10-06 06:03:37 | alive 9
+# Mac hourly sync 2026-10-06 07:03:10 | alive 7
 proxies:
-- name: 🇺🇸US_18|3.2MB/s|1.1MB/s
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  sni: purecambogiasl.live
-  tls: true
-  type: http
-- name: 🇺🇸US_16|3.6MB/s|1.1MB/s
+- name: 🇺🇸US_17|4.2MB/s|1.1MB/s
   password: None
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_1|1.4MB/s|879KB/s
+- name: 🇫🇷FR_1|1.4MB/s|680KB/s
   port: 443
   server: 51.210.167.149
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|3.2MB/s|727KB/s
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: RO_speednode_0126|681KB/s
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇮🇹IT_2|3.2MB/s|674KB/s
-  port: 443
-  server: 94.177.163.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: PL - zhuhai.uk|640KB/s
-  type: http
-  server: 151.115.54.133
-  port: 443
-  username: 'null'
+- name: 🇷🇴RO_2|2.4MB/s|639KB/s
   password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: EE - zhuhai.uk|551KB/s
-  type: vless
-  server: 163.245.52.91
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  flow: xtls-rprx-vision
-  tls: true
-  servername: d3-ee1.cloud-cdn.xyz
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: ad6e08b22389abd2
-- name: RO - zhuhai.uk 03|529KB/s
-  type: http
-  server: 193.176.84.38
   port: 9002
-  tls: true
-  sni: www.bing.com
+  server: 193.176.84.26
   skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇵🇱PL_1|1.4MB/s|635KB/s
+  port: 443
+  server: 151.115.54.133
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇷🇴RO_3|1.2MB/s|622KB/s
+  password: None
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇷🇺RU_4|1.2MB/s|611KB/s
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: grpcbeast
+  name: 🇨🇿[www.v2nodes.com] trojan-CZ-...|179KB/s
+  network: grpc
+  password: f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km
+  port: 443
+  server: cz-musicc.moritech.net
+  skip-cert-verify: true
+  type: trojan
