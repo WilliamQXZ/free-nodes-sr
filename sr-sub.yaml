@@ -1,19 +1,38 @@
-# Mac hourly sync 2026-10-05 07:01:34 | alive 5
+# Mac hourly sync 2026-10-05 08:02:04 | alive 6
 proxies:
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: ajv
-  name: 🇩🇪 德国 | DEU|750KB/s
-  network: grpc
-  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
-  port: 443
-  server: 31.77.168.21
+- name: US - zhuhai.uk 08|1.1MB/s
+  type: http
+  server: 138.199.35.218
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
   skip-cert-verify: true
-  sni: d3-de2.cloud-cdn.xyz
-  type: trojan
+- name: 🇺🇸 美国 | USA 13|1.0MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
   udp: true
-- name: EE - zhuhai.uk|628KB/s
+- name: 🇰🇷_KR_韩国|1.0MB/s
+  type: trojan
+  server: ikr100b.zxom.eu.org
+  port: 20007
+  password: 178c178666bb4ae5
+  sni: ikr100b.zxom.eu.org
+  skip-cert-verify: true
+  udp: true
+- name: RO - zhuhai.uk 03|614KB/s
+  type: http
+  server: 193.176.84.25
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: EE - zhuhai.uk|553KB/s
   type: vless
   server: 163.245.52.91
   port: 443
@@ -25,31 +44,7 @@ proxies:
   reality-opts:
     public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
     short-id: ad6e08b22389abd2
-- name: 🇺🇸_US_美国|490KB/s
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- name: IN - zhuhai.uk|433KB/s
+- name: IN - zhuhai.uk|444KB/s
   type: socks5
   server: 157.20.27.117
   port: 1080
-- name: 🇰🇷 韩国 | KOR 2|132KB/s
-  password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
-  port: 1892
-  server: icn-a-01.auuas.com
-  skip-cert-verify: true
-  sni: images.apple.com
-  type: anytls
-  udp: true
