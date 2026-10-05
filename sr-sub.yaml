@@ -1,62 +1,45 @@
-# Mac hourly sync 2026-10-06 05:04:09 | alive 12
+# Mac hourly sync 2026-10-06 06:03:37 | alive 9
 proxies:
-- name: 🇺🇸US_7|2.1MB/s|1.1MB/s
+- name: 🇺🇸US_18|3.2MB/s|1.1MB/s
   port: 443
-  server: 167.88.60.242
+  server: purecambogiasl.live
   skip-cert-verify: true
+  sni: purecambogiasl.live
   tls: true
   type: http
-- name: 🇺🇸US_17|4.2MB/s|1007KB/s
+- name: 🇺🇸US_16|3.6MB/s|1.1MB/s
   password: None
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_5|3.4MB/s|1006KB/s
-  port: 8443
-  server: 45.145.72.122
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 02|943KB/s
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇫🇷FR_1|1.4MB/s|863KB/s
+- name: 🇫🇷FR_1|1.4MB/s|879KB/s
   port: 443
   server: 51.210.167.149
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|3.2MB/s|715KB/s
+- name: 🇩🇪DE_6|3.2MB/s|727KB/s
   port: 443
   server: 87.106.223.158
   skip-cert-verify: true
   tls: true
   type: http
-- name: NL_speednode_0007|705KB/s
+- name: RO_speednode_0126|681KB/s
   port: 9002
-  server: 84.17.47.148
+  server: 193.176.84.39
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇺RU_2|1.3MB/s|688KB/s
+- name: 🇮🇹IT_2|3.2MB/s|674KB/s
   port: 443
-  server: 82.147.71.46
+  server: 94.177.163.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_21|3.1MB/s|674KB/s
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: PL - zhuhai.uk|669KB/s
+- name: PL - zhuhai.uk|640KB/s
   type: http
   server: 151.115.54.133
   port: 443
@@ -64,13 +47,22 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: RO - zhuhai.uk|624KB/s
+- name: EE - zhuhai.uk|551KB/s
+  type: vless
+  server: 163.245.52.91
+  port: 443
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  flow: xtls-rprx-vision
+  tls: true
+  servername: d3-ee1.cloud-cdn.xyz
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
+    short-id: ad6e08b22389abd2
+- name: RO - zhuhai.uk 03|529KB/s
   type: http
-  server: 193.176.84.26
+  server: 193.176.84.38
   port: 9002
   tls: true
+  sni: www.bing.com
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|190KB/s
-  type: socks5
-  server: 23.95.222.32
-  port: 9080
