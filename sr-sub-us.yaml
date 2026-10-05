@@ -1,28 +1,39 @@
-# Mac hourly sync 2026-10-05 19:02:27 | alive 17
+# Mac hourly sync 2026-10-05 20:04:10 | alive 20
 proxies:
-- name: 🇺🇸_US_美国|389KB/s
-  type: vmess
-  server: guanwang.awsno.com
+- name: 🇺🇸US_17|3.1MB/s|604KB/s
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
+  server: 148.135.10.80
   skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- name: US - zhuhai.uk|25KB/s
+  tls: true
+  type: http
+- name: 🇺🇸US_21|2.7MB/s|335KB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk|21KB/s
   type: http
   server: 138.199.35.209
   port: 9002
   tls: true
   sni: 138.199.35.209
   skip-cert-verify: true
+- name: 🇺🇸US_9|1.4MB/s|21KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|4.2MB/s|2KB/s
+  password: 'null'
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+  username: 'null'
 - name: 🇺🇸US_22|3.5MB/s|2KB/s
   password: None
   port: 9002
@@ -30,37 +41,15 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|3.6MB/s|2KB/s
-  password: None
+- name: 🇺🇸US_14|2.7MB/s|2KB/s
+  port: 8443
+  server: 45.145.72.122
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|3.1MB/s|1KB/s
   port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  tls: true
-  type: http
-- name: 🇺🇸US_18|2.5MB/s|2KB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|1.4MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|2.1MB/s|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_8|4.5MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.203
+  server: kimberlymilano.icu
   skip-cert-verify: true
   tls: true
   type: http
@@ -75,21 +64,23 @@ proxies:
   server: 103.11.76.248
   type: ss
   udp: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 138.199.35.195
+- name: 🇺🇸US_15|2.1MB/s|1KB/s
+  password: 'null'
   port: 9002
-  tls: true
+  server: 138.199.35.207
   skip-cert-verify: true
-- name: 🇺🇸US_11|1.9MB/s|1KB/s
-  port: 443
-  server: carolinafreigh.fun
-  sni: carolinafreigh.fun
   tls: true
   type: http
-- name: 🇺🇸US_14|2.7MB/s|1KB/s
-  port: 8443
-  server: 45.145.72.122
+  username: 'null'
+- name: 🇺🇸US_20|1.2MB/s|1KB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_19|1.3MB/s|1KB/s
+  port: 443
+  server: 12.221.146.147
   skip-cert-verify: true
   tls: true
   type: http
@@ -99,10 +90,42 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_17|3.1MB/s|1KB/s
-  port: 443
-  server: 148.135.10.80
+- client-fingerprint: chrome
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #1|1KB/s'
+  network: ws
+  port: 8443
+  server: www.5199dy.com
+  servername: aaa.abcai.online
+  tls: true
+  type: vless
+  uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
+  ws-opts:
+    headers:
+      Host: aaa.abcai.online
+    path: /vless-argo
+- name: 🇺🇸US_8|4.5MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.203
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.195
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_5|3.1MB/s
+  password: None
+  port: 443
+  server: berniesbodybla.fun
+  skip-cert-verify: false
+  tls: true
+  type: http
+- name: 🇺🇸US_11|1.9MB/s
+  port: 443
+  server: carolinafreigh.fun
+  sni: carolinafreigh.fun
   tls: true
   type: http
 - name: 🇺🇸US_16|2.3MB/s
@@ -112,18 +135,10 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_12|4.2MB/s
-  password: 'null'
+- name: US - zhuhai.uk 09
+  type: hysteria2
+  server: starlink-ft.251313.xyz
   port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_5|3.1MB/s
-  password: None
-  port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
+  password: https://xship.2fa.cat
+  sni: www.cloudflare.com
+  skip-cert-verify: true
