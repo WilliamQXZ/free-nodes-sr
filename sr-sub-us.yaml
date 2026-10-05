@@ -1,32 +1,55 @@
-# Mac hourly sync 2026-10-05 15:02:52 | alive 16
+# Mac hourly sync 2026-10-05 16:02:36 | alive 15
 proxies:
-- name: 🇺🇸US_17|3.1MB/s|154KB/s
+- name: 🇺🇸US_19|1.3MB/s|259KB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk|36KB/s
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  tls: true
+  sni: 138.199.35.209
+  skip-cert-verify: true
+- name: 🇺🇸US_17|3.1MB/s|2KB/s
   port: 443
   server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 02|79KB/s
-  type: http
-  server: 138.199.35.208
+- name: 🇺🇸US_15|2.1MB/s|2KB/s
+  password: 'null'
   port: 9002
-  tls: true
+  server: 138.199.35.207
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|2KB/s
-  type: socks5
-  server: 83.147.217.103
-  port: 1080
-- name: 🇺🇸US_14|2.7MB/s|1KB/s
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_14|2.7MB/s|2KB/s
   port: 8443
   server: 45.145.72.122
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_3|1.4MB/s|1KB/s
+- name: 🇺🇸US_22|3.5MB/s|1KB/s
   password: None
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|4.5MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_20|1.2MB/s|1KB/s
   port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
+  server: 68.235.56.51
+  skip-cert-verify: true
   tls: true
   type: http
 - cipher: none
@@ -40,71 +63,47 @@ proxies:
   server: 103.11.76.248
   type: ss
   udp: true
-- name: 🇺🇸US_6|2.0MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|2.1MB/s|0KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_18|2.5MB/s|0KB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|1.4MB/s|0KB/s
+- name: 🇺🇸US_9|1.4MB/s|1KB/s
   password: None
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_8|4.5MB/s|0KB/s
+- name: 🇺🇸US_6|2.0MB/s|1KB/s
   port: 9002
-  server: 138.199.35.203
+  server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_22|3.5MB/s|0KB/s
-  password: None
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.195
   port: 9002
-  server: 138.199.35.212
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_21|2.7MB/s|1KB/s
+  port: 443
+  server: 68.235.56.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|3.6MB/s
+- name: 🇺🇸US_5|3.1MB/s
   password: None
   port: 443
-  server: efr-marktplatz.club
+  server: berniesbodybla.fun
   skip-cert-verify: false
   tls: true
   type: http
-- name: US - zhuhai.uk
-  type: http
-  server: jewelscollecti.icu
+- name: US - zhuhai.uk 03
+  type: vless
+  server: tk1.high-speed-test-56424.me
   port: 443
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+  flow: xtls-rprx-vision
   tls: true
-- name: 🇺🇸US_12|4.2MB/s
-  password: 'null'
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-  username: 'null'
-- name: US - zhuhai.uk 05
-  type: anytls
-  server: qm5tw9xz.zf-mix.9999231.xyz
-  port: 1002
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  udp: true
-  sni: iosapps.itunes.apple.com
-  skip-cert-verify: true
+  servername: aws.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: 21270a66
