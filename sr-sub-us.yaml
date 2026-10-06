@@ -1,40 +1,23 @@
-# Mac hourly sync 2026-10-06 18:02:34 | alive 19
+# Mac hourly sync 2026-10-06 19:04:55 | alive 17
 proxies:
-- name: 🇺🇸US_8|4.2MB/s|32KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.200
+- name: 🇺🇸US_5|4.5MB/s|667KB/s
+  port: 443
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 09|3KB/s
+- name: 🇺🇸US_6|3.1MB/s|3KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 09|2KB/s
   type: http
   server: 138.199.35.206
   port: 9002
   username: 'null'
   password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|2KB/s
-  type: http
-  server: 104.233.178.179
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 10|2KB/s
-  type: http
-  server: 38.28.193.188
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|2KB/s
-  type: http
-  server: 138.199.35.204
-  port: 9002
-  username: 'null'
-  password: 'null'
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk|1KB/s
@@ -43,15 +26,21 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_4|3.3MB/s|1KB/s
-  port: 8443
-  server: 45.145.72.122
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 07|1KB/s
   type: http
+  server: 104.233.178.179
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: 🇺🇸US_18|2.3MB/s|1KB/s
   port: 8443
   server: 45.150.164.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|3.3MB/s|1KB/s
+  port: 8443
+  server: 45.145.72.122
   skip-cert-verify: true
   tls: true
   type: http
@@ -68,39 +57,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_5|4.5MB/s|1KB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.220
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_10|4.0MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.9MB/s|1KB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|4.1MB/s|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - name: US - zhuhai.uk 04|1KB/s
   type: http
   server: 138.199.35.210
@@ -109,23 +65,53 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|0KB/s
+- name: US - zhuhai.uk 02|0KB/s
   type: http
-  server: 50.76.211.251
-  port: 8090
+  server: 138.199.35.220
+  port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: jgwynphotoarts.pro
-  port: 443
-  username: bnVsbDpudWxs
+- name: 🇺🇸US_8|4.2MB/s|0KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
   tls: true
+  type: http
+- name: 🇺🇸US_17|4.1MB/s|0KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_12|2.0MB/s|0KB/s
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|4.0MB/s|0KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇺🇸US_3|2.1MB/s
   password: 'null'
   port: 443
   server: crosscards.site
   sni: crosscards.site
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_19|4.1MB/s
+  password: 'null'
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
