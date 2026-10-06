@@ -1,68 +1,57 @@
-# Mac hourly sync 2026-10-07 05:01:41 | alive 10
+# Mac hourly sync 2026-10-07 06:01:49 | alive 7
 proxies:
-- name: 🇺🇸US_12|2.5MB/s|1.2MB/s
-  password: 'null'
-  port: 443
-  server: carolinafreigh.fun
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_24|3.6MB/s|1.0MB/s
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US - zhuhai.uk 05|1015KB/s
-  type: http
-  server: 138.199.35.197
-  port: 9002
-  username: 'null'
+- name: 🇨🇭CH_1|1.2MB/s|764KB/s
   password: None
-  tls: true
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
-- name: US - zhuhai.uk 09|818KB/s
+  tls: true
   type: http
-  server: 64.98.50.100
+- name: 🇸🇪SE_1|1.3MB/s|746KB/s
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪SE_2|1.4MB/s|698KB/s
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 03|621KB/s
+  type: http
+  server: 162.244.227.36
   port: 443
   tls: true
   skip-cert-verify: true
-- name: NL_speednode_0004|758KB/s
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
+- name: 🇺🇸_US_美国|539KB/s
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  type: http
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
   udp: true
-- name: 🇺🇸US_33|2.5MB/s|744KB/s
+- name: BR - zhuhai.uk|492KB/s
+  type: http
+  server: 134.65.17.77
   port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
   tls: true
-  type: http
-- name: 🇷🇺RU_2|2.3MB/s|729KB/s
-  port: 443
-  server: 82.147.71.46
   skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 06|219KB/s
   type: http
-- name: RO - zhuhai.uk|623KB/s
-  type: http
-  server: 193.176.84.31
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇺🇸US_1|3.1MB/s|349KB/s
-  port: 8443
-  server: 45.145.72.122
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: SG - zhuhai.uk 02|235KB/s
-  type: http
-  server: 43.160.239.37
-  port: 443
+  server: 50.184.176.222
+  port: 8090
   tls: true
   skip-cert-verify: true
