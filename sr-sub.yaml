@@ -1,66 +1,64 @@
-# Mac hourly sync 2026-10-07 03:01:42 | alive 9
+# Mac hourly sync 2026-10-07 04:01:34 | alive 9
 proxies:
-- client-fingerprint: chrome
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  name: 🇺🇸US_7|1.2MB/s|1.2MB/s
-  password: 776b4834-caaf-4006-ab21-409e958867af
-  port: 33091
-  server: 45.202.240.4
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: anytls
-  udp: true
-- name: 🇫🇷FR_1|3.1MB/s|1.1MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: 🇧🇪BE_1|2.1MB/s|751KB/s
-  port: 443
-  server: 146.70.176.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇿CZ_1|1.9MB/s|741KB/s
+- name: 🇺🇸US_4|1.7MB/s|1.0MB/s
   password: None
-  port: 443
-  server: 185.216.35.66
+  port: 9002
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_33|2.5MB/s|723KB/s
-  port: 443
-  server: 68.235.56.59
+- name: 🇺🇸US_17|4.3MB/s|1.0MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|2.7MB/s|700KB/s
+  username: 'null'
+- name: 🇺🇸US_21|2.1MB/s|1.0MB/s
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
+- name: US - zhuhai.uk 05|982KB/s
+  type: http
+  server: 138.199.35.197
+  port: 9002
+  username: 'null'
   password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|900KB/s
+  type: http
+  server: 44.228.137.206
   port: 443
-  server: 37.120.233.34
+  tls: true
+  skip-cert-verify: true
+- name: NL_speednode_0009|775KB/s
+  port: 9002
+  server: 84.17.47.146
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR-13.36.167.227-2711 | 18.04MB|674KB/s
-  server: 13.36.167.227
+  udp: true
+- name: 🇷🇺RU_2|2.3MB/s|732KB/s
   port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇷🇺RU_1|1.3MB/s|577KB/s
-  port: 1446
-  server: 46.29.166.134
+  server: 82.147.71.46
   skip-cert-verify: true
   tls: true
   type: http
-- name: RO - zhuhai.uk|213KB/s
+- name: RO - zhuhai.uk|559KB/s
   type: http
   server: 193.176.84.31
   port: 9002
   tls: true
   sni: www.bing.com
+  skip-cert-verify: true
+- name: US - zhuhai.uk 12|486KB/s
+  type: http
+  server: 173.42.49.102
+  port: 8090
+  tls: true
   skip-cert-verify: true
