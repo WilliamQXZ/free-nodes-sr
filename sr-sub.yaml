@@ -1,14 +1,30 @@
-# Mac hourly sync 2026-10-06 20:03:55 | alive 2
+# Mac hourly sync 2026-10-06 21:03:17 | alive 3
 proxies:
-- name: US - zhuhai.uk 07|345KB/s
-  type: http
-  server: 104.233.178.179
+- name: 🇷🇺RU_2|2.3MB/s|364KB/s
   port: 443
+  server: 82.147.71.46
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸_US_美国|305KB/s
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_5|4.5MB/s|250KB/s
-  port: 443
-  server: 148.135.10.80
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+- name: 🇳🇱NL_5|1.1MB/s|182KB/s
+  port: 9443
+  server: 149.36.51.161
   skip-cert-verify: true
   tls: true
   type: http
