@@ -1,28 +1,20 @@
-# Mac hourly sync 2026-10-07 04:01:34 | alive 9
+# Mac hourly sync 2026-10-07 05:01:41 | alive 10
 proxies:
-- name: 🇺🇸US_4|1.7MB/s|1.0MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|4.3MB/s|1.0MB/s
+- name: 🇺🇸US_12|2.5MB/s|1.2MB/s
   password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
+  port: 443
+  server: carolinafreigh.fun
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_21|2.1MB/s|1.0MB/s
-  port: 443
-  server: fullmanfirm.icu
+- name: 🇺🇸US_24|3.6MB/s|1.0MB/s
+  port: 9002
+  server: 138.199.35.215
   skip-cert-verify: true
-  sni: fullmanfirm.icu
   tls: true
   type: http
-- name: US - zhuhai.uk 05|982KB/s
+  udp: true
+- name: US - zhuhai.uk 05|1015KB/s
   type: http
   server: 138.199.35.197
   port: 9002
@@ -30,35 +22,47 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07|900KB/s
+- name: US - zhuhai.uk 09|818KB/s
   type: http
-  server: 44.228.137.206
+  server: 64.98.50.100
   port: 443
   tls: true
   skip-cert-verify: true
-- name: NL_speednode_0009|775KB/s
+- name: NL_speednode_0004|758KB/s
   port: 9002
-  server: 84.17.47.146
+  server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇷🇺RU_2|2.3MB/s|732KB/s
+- name: 🇺🇸US_33|2.5MB/s|744KB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇷🇺RU_2|2.3MB/s|729KB/s
   port: 443
   server: 82.147.71.46
   skip-cert-verify: true
   tls: true
   type: http
-- name: RO - zhuhai.uk|559KB/s
+- name: RO - zhuhai.uk|623KB/s
   type: http
   server: 193.176.84.31
   port: 9002
   tls: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: US - zhuhai.uk 12|486KB/s
+- name: 🇺🇸US_1|3.1MB/s|349KB/s
+  port: 8443
+  server: 45.145.72.122
+  skip-cert-verify: true
+  tls: true
   type: http
-  server: 173.42.49.102
-  port: 8090
+- name: SG - zhuhai.uk 02|235KB/s
+  type: http
+  server: 43.160.239.37
+  port: 443
   tls: true
   skip-cert-verify: true
