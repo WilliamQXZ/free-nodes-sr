@@ -1,37 +1,6 @@
-# Mac hourly sync 2026-10-06 23:02:43 | alive 18
+# Mac hourly sync 2026-10-07 00:04:35 | alive 21
 proxies:
-- name: 🇺🇸US_2|1.7MB/s|392KB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  name: 🇺🇸US_7|1.2MB/s|6KB/s
-  password: 776b4834-caaf-4006-ab21-409e958867af
-  port: 33091
-  server: 45.202.240.4
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: anytls
-  udp: true
-- name: 🇺🇸US_28|3.2MB/s|2KB/s
-  port: 443
-  server: 23.133.176.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 10|2KB/s
-  type: http
-  server: 38.28.193.188
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_36|3.2MB/s|2KB/s
+- name: 🇺🇸US_36|3.2MB/s|672KB/s
   password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
   port: 443
   server: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
@@ -40,10 +9,91 @@ proxies:
   tls: true
   type: http
   username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+- name: 🇺🇸US_28|3.2MB/s|11KB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  name: 🇺🇸US_7|1.2MB/s|5KB/s
+  password: 776b4834-caaf-4006-ab21-409e958867af
+  port: 33091
+  server: 45.202.240.4
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
+- name: US - zhuhai.uk 09|2KB/s
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_17|4.3MB/s|1KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - name: US - zhuhai.uk 07|1KB/s
   type: http
   server: 104.233.178.179
   port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 10|1KB/s
+  type: http
+  server: 38.28.193.188
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_31|2.7MB/s|1KB/s
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk|1KB/s
+  type: http
+  server: 107.149.232.90
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_32|1.0MB/s|K001-260618|1KB/s
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 138.199.35.204
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_9|1.4MB/s|1KB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 50.76.211.251
+  port: 8090
   tls: true
   skip-cert-verify: true
 - name: 🇺🇸US_26|1.2MB/s|1KB/s
@@ -54,90 +104,50 @@ proxies:
   tls: true
   type: http
   username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 107.149.232.90
+- name: 🇺🇸US_3|1.0MB/s|0KB/s
   port: 443
-  tls: true
+  server: 68.235.56.51
   skip-cert-verify: true
-- name: 🇺🇸US_19|2.6MB/s|1KB/s
-  password: None
-  port: 443
-  server: webdrone.club
-  skip-cert-verify: false
   tls: true
   type: http
-- name: US - zhuhai.uk 02|0KB/s
+- name: US - zhuhai.uk 04|0KB/s
   type: http
-  server: 138.199.35.220
+  server: 138.199.35.210
   port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|0KB/s
-  type: http
-  server: 50.76.211.251
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_32|1.0MB/s|K001-260618|0KB/s
+- name: 🇺🇸US_2|1.7MB/s|0KB/s
   port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_31|2.7MB/s|0KB/s
-  port: 9443
-  server: 149.88.21.140
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_21|2.1MB/s
+- name: 🇺🇸US_33|2.5MB/s|0KB/s
   port: 443
-  server: fullmanfirm.icu
+  server: 68.235.56.59
   skip-cert-verify: true
-  sni: fullmanfirm.icu
   tls: true
   type: http
-- name: 🇺🇸US_16|3.0MB/s
+- name: 🇺🇸US_20|1.2MB/s
   password: None
   port: 443
-  server: crosscards.site
+  server: tzoa.fun
   skip-cert-verify: false
   tls: true
   type: http
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_34|2.2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
-    mode: tls
-  port: 2377
-  server: 134.195.101.119
-  type: ss
-  udp: true
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
+- name: US - zhuhai.uk 05
+  type: http
+  server: jgwynphotoarts.pro
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+  username: bnVsbDpudWxs
   tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- name: 🇺🇸US_18|2.5MB/s
-  password: None
+- name: 🇺🇸US_15|1.2MB/s
   port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: false
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  sni: goedkoopgeluid.icu
   tls: true
   type: http
+  udp: true
