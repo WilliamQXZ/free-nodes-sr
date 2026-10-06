@@ -1,67 +1,61 @@
-# Mac hourly sync 2026-10-06 08:48:24 | alive 15
+# Mac hourly sync 2026-10-06 09:03:47 | alive 12
 proxies:
-- name: 🇺🇸US_17|4.2MB/s|1.0MB/s
+- name: 🇺🇸US_17|4.1MB/s|102KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_11|3.5MB/s|2KB/s
   password: None
   port: 9002
   server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_12|2.6MB/s|1.0MB/s
-  port: 443
-  server: tzoa.fun
-  sni: tzoa.fun
-  tls: true
-  type: http
-- name: 🇺🇸US_19|1.3MB/s|2KB/s
-  password: None
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_21|3.1MB/s|2KB/s
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|3.4MB/s|1KB/s
-  port: 8443
-  server: 45.145.72.122
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_16|3.6MB/s|1KB/s
+- name: 🇺🇸US_10|4.0MB/s|2KB/s
   password: None
   port: 9002
   server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_18|3.2MB/s|1KB/s
-  port: 443
-  server: purecambogiasl.live
+- name: 🇺🇸US_16|4.4MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.204
   skip-cert-verify: true
-  sni: purecambogiasl.live
   tls: true
   type: http
-- name: 🇺🇸US_6|2.2MB/s|1KB/s
+- name: 🇺🇸US_20|3.8MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|3.3MB/s|2KB/s
+  port: 8443
+  server: 45.145.72.122
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|4.5MB/s|2KB/s
   port: 443
   server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_10|5.0MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.200
+- name: 🇺🇸US_18|2.3MB/s|2KB/s
+  port: 8443
+  server: 45.150.164.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_7|2.1MB/s|1KB/s
-  port: 443
-  server: 167.88.60.242
+- name: 🇺🇸US_8|4.2MB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
@@ -71,34 +65,23 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸_US_美国_1|0KB/s
-  type: vless
-  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
-  network: ws
-  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  client-fingerprint: chrome
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
   ws-opts:
-    path: /ws/0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+    path: /hls/cctv5phd.m3u8
     headers:
-      Host: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  skip-cert-verify: true
+      Host: guanwang.awsno.com
   udp: true
-- name: US - zhuhai.uk
-  type: anytls
-  server: 134.195.101.162
-  port: 21333
-  password: d7340868-b74c-455a-8ce0-17a52afa43b7
-  udp: true
-  sni: apple.com
-  skip-cert-verify: true
 - name: US - zhuhai.uk 04
   type: socks5
   server: 45.61.188.134
   port: 44499
-- name: US - zhuhai.uk 02
-  type: socks5
-  server: 49.12.188.170
-  port: 3001
