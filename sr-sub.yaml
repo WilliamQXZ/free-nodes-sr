@@ -1,65 +1,59 @@
-# Mac hourly sync 2026-10-06 08:02:12 | alive 9
+# Mac hourly sync 2026-10-06 08:48:20 | alive 9
 proxies:
-- name: 🇺🇸US_16|3.6MB/s|1.1MB/s
+- name: 🇺🇸US_17|4.2MB/s|1.0MB/s
   password: None
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_5|3.4MB/s|1.0MB/s
-  port: 8443
-  server: 45.145.72.122
-  skip-cert-verify: true
+- name: 🇺🇸US_12|2.6MB/s|1.0MB/s
+  port: 443
+  server: tzoa.fun
+  sni: tzoa.fun
   tls: true
   type: http
-- name: US - zhuhai.uk|962KB/s
+- name: VN - zhuhai.uk|881KB/s
+  type: socks5
+  server: 160.187.0.89
+  port: 1080
+- name: NL - zhuhai.uk 04|757KB/s
   type: http
-  server: 138.199.35.213
+  server: 84.17.47.147
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 84.17.47.147
+  skip-cert-verify: true
+- name: RO - zhuhai.uk|700KB/s
+  type: http
+  server: 193.176.84.29
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 12|949KB/s
-  type: anytls
-  server: anytls2.864106.xyz
-  port: 19000
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  sni: anytls2.864106.xyz
-  skip-cert-verify: true
-- name: 🇺🇸US_8|1.1MB/s|731KB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: GB - zhuhai.uk|704KB/s
-  type: http
-  server: 84.17.50.193
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: LV - zhuhai.uk|639KB/s
-  type: socks5
-  server: 195.13.182.212
-  port: 8888
-- name: EE - zhuhai.uk|367KB/s
-  type: vless
-  server: 163.245.52.91
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  flow: xtls-rprx-vision
-  tls: true
-  servername: d3-ee1.cloud-cdn.xyz
-  skip-cert-verify: true
-  client-fingerprint: edge
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: ad6e08b22389abd2
-- name: NL_speednode_0007|269KB/s
+- name: NL_speednode_0007|697KB/s
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: RU - zhuhai.uk|592KB/s
+  type: http
+  server: 87.242.85.187
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: IL - zhuhai.uk|487KB/s
+  type: http
+  server: 62.90.77.30
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 03|262KB/s
+  type: http
+  server: 193.176.84.37
+  port: 9002
+  tls: true
+  skip-cert-verify: true
