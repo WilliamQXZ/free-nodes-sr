@@ -1,24 +1,48 @@
-# Mac hourly sync 2026-10-06 14:04:39 | alive 18
+# Mac hourly sync 2026-10-06 15:04:23 | alive 12
 proxies:
-- name: 🇺🇸US_5|4.5MB/s|585KB/s
+- name: 🇺🇸US_18|2.3MB/s|289KB/s
+  port: 8443
+  server: 45.150.164.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 06|19KB/s
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  tls: true
+  sni: 138.199.35.215
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|2KB/s
+  type: http
+  server: 138.199.35.204
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_4|3.3MB/s|1KB/s
+  port: 8443
+  server: 45.145.72.122
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 138.199.35.200
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 38.28.193.1
   port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
   tls: true
-  type: http
-- name: 🇺🇸US_7|2.9MB/s|353KB/s
-  port: 443
-  server: 68.235.56.51
+  sni: 38.28.193.1
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_12|2.0MB/s|208KB/s
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|4.1MB/s|28KB/s
+- name: 🇺🇸US_17|4.1MB/s|1KB/s
   password: 'null'
   port: 9002
   server: 138.199.35.197
@@ -26,90 +50,37 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: US - zhuhai.uk 04|3KB/s
+- name: US - zhuhai.uk 04|1KB/s
   type: http
-  server: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
-  port: 443
-  username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-  password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-  tls: true
-  sni: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
-- name: US - zhuhai.uk 05|2KB/s
-  type: http
-  server: 138.199.35.210
+  server: 138.199.35.195
   port: 9002
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_20|3.8MB/s|2KB/s
+- name: 🇺🇸US_20|3.8MB/s|0KB/s
   port: 9002
   server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_11|3.5MB/s|2KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_18|2.3MB/s|1KB/s
-  port: 8443
-  server: 45.150.164.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|3.3MB/s|1KB/s
-  port: 8443
-  server: 45.145.72.122
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_16|4.4MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 08|1KB/s
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  tls: true
-  sni: 138.199.35.200
-  skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_6|3.1MB/s|1KB/s
+- name: 🇺🇸US_5|4.5MB/s|0KB/s
   port: 443
-  server: 167.88.60.242
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.211
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_10|4.0MB/s|0KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 09
-  type: http
-  server: jgwynphotoarts.pro
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_34|2.2MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
+  type: ss
+  udp: true
 - fingerprint: ''
   name: 🇺🇸US_2|3.1MB/s
   password: 9sK2mP8xQ7vL3nZ6
