@@ -1,53 +1,65 @@
-# Mac hourly sync 2026-10-06 07:03:10 | alive 7
+# Mac hourly sync 2026-10-06 08:02:12 | alive 9
 proxies:
-- name: 🇺🇸US_17|4.2MB/s|1.1MB/s
+- name: 🇺🇸US_16|3.6MB/s|1.1MB/s
   password: None
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_1|1.4MB/s|680KB/s
-  port: 443
-  server: 51.210.167.149
+- name: 🇺🇸US_5|3.4MB/s|1.0MB/s
+  port: 8443
+  server: 45.145.72.122
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇷🇴RO_2|2.4MB/s|639KB/s
-  password: 'null'
+- name: US - zhuhai.uk|962KB/s
+  type: http
+  server: 138.199.35.213
   port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
   tls: true
-  type: http
-  username: 'null'
-- name: 🇵🇱PL_1|1.4MB/s|635KB/s
+  skip-cert-verify: true
+- name: US - zhuhai.uk 12|949KB/s
+  type: anytls
+  server: anytls2.864106.xyz
+  port: 19000
+  password: github.com/Alvin9999-newpac/fanqiang
+  udp: true
+  sni: anytls2.864106.xyz
+  skip-cert-verify: true
+- name: 🇺🇸US_8|1.1MB/s|731KB/s
   port: 443
-  server: 151.115.54.133
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇷🇴RO_3|1.2MB/s|622KB/s
-  password: None
+- name: GB - zhuhai.uk|704KB/s
+  type: http
+  server: 84.17.50.193
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: LV - zhuhai.uk|639KB/s
+  type: socks5
+  server: 195.13.182.212
+  port: 8888
+- name: EE - zhuhai.uk|367KB/s
+  type: vless
+  server: 163.245.52.91
+  port: 443
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  flow: xtls-rprx-vision
+  tls: true
+  servername: d3-ee1.cloud-cdn.xyz
+  skip-cert-verify: true
+  client-fingerprint: edge
+  reality-opts:
+    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
+    short-id: ad6e08b22389abd2
+- name: NL_speednode_0007|269KB/s
   port: 9002
-  server: 193.176.84.36
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇷🇺RU_4|1.2MB/s|611KB/s
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: grpcbeast
-  name: 🇨🇿[www.v2nodes.com] trojan-CZ-...|179KB/s
-  network: grpc
-  password: f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km
-  port: 443
-  server: cz-musicc.moritech.net
-  skip-cert-verify: true
-  type: trojan
+  udp: true
