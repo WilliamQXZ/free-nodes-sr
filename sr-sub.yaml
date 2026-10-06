@@ -1,24 +1,178 @@
-# Mac hourly sync 2026-10-07 00:04:31 | alive 3
+# Mac hourly sync 2026-10-07 01:02:50 | alive 25
 proxies:
-- name: 🇺🇸US_36|3.2MB/s|672KB/s
-  password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+- name: 🇺🇸US_2|1.7MB/s|100KB/s
   port: 443
-  server: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
-  skip-cert-verify: true
-  sni: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
-  tls: true
-  type: http
-  username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-- name: 🇧🇪BE_1|2.1MB/s|475KB/s
-  port: 443
-  server: 146.70.176.242
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇭CH_1|1.2MB/s|438KB/s
+- name: US - zhuhai.uk 12|46KB/s
+  type: http
+  server: 52.55.81.168
+  port: 443
+  username: 'null'
   password: None
-  port: 9443
-  server: 37.120.213.210
+  tls: true
+  skip-cert-verify: true
+- name: 🇫🇷FR_6|2.3MB/s|39KB/s
+  port: 443
+  server: 103.82.101.43
+  skip-cert-verify: true
+  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
+  tls: true
+  type: http
+- name: US - zhuhai.uk 05|17KB/s
+  type: socks5
+  server: 166.159.225.66
+  port: 1080
+- name: US - zhuhai.uk 09|2KB/s
+  type: http
+  server: 138.199.35.200
+  port: 9002
+  tls: true
+  sni: 138.199.35.200
+  skip-cert-verify: true
+- name: DE - zhuhai.uk 02|2KB/s
+  type: trojan
+  server: 199.232.78.160
+  port: 443
+  password: mitivpn
+  tls: true
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP
+    headers:
+      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
+- name: 🇺🇸US_4|1.7MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: chrome
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  name: 🇺🇸US_7|1.2MB/s|1KB/s
+  password: 776b4834-caaf-4006-ab21-409e958867af
+  port: 33091
+  server: 45.202.240.4
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
+- cipher: aes-256-cfb
+  name: '🇺🇸 美国 | USA #1|1KB/s'
+  password: amazonskr05
+  port: 443
+  server: 100.48.94.91
+  type: ss
+  udp: true
+- name: 🇺🇸US_26|1.2MB/s|1KB/s
+  password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+  port: 443
+  server: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
+  sni: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
+  tls: true
+  type: http
+  username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+- name: 🇳🇱NL_4|2.6MB/s|1KB/s
+  port: 21384
+  server: 51.158.204.46
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇳🇱NL_6|3.2MB/s|1KB/s
+  password: None
+  port: 443
+  server: 51.158.243.91
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_7|2.2MB/s|1KB/s
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 10|1KB/s
+  type: http
+  server: 138.199.35.217
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: IE - zhuhai.uk|1KB/s
+  type: http
+  server: 149.88.96.1
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇫🇷FR_5|4.3MB/s|1KB/s
+  port: 443
+  server: 82.66.235.221
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US_speednode_0140|1KB/s
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+- name: 🇫🇷FR_4|2.2MB/s|1KB/s
+  port: 443
+  server: 13.37.228.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: GB - zhuhai.uk|1KB/s
+  type: http
+  server: 212.102.63.31
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_28|3.2MB/s|1KB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇱🇻LV_1|2.4MB/s|1KB/s
+  port: 443
+  server: 185.219.159.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: NL_speednode_0009|1KB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO - zhuhai.uk|1KB/s
+  type: http
+  server: 193.176.84.38
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 193.176.84.38
+  skip-cert-verify: true
+- name: NL_speednode_0004|1KB/s
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
