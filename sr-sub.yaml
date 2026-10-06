@@ -1,57 +1,88 @@
-# Mac hourly sync 2026-10-07 06:01:49 | alive 7
+# Mac hourly sync 2026-10-07 07:03:46 | alive 12
 proxies:
-- name: 🇨🇭CH_1|1.2MB/s|764KB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 07|1.1MB/s
   type: http
-- name: 🇸🇪SE_1|1.3MB/s|746KB/s
-  password: None
+  server: kimberlymilano.icu
   port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
+  username: 'null'
+  password: 'null'
   tls: true
-  type: http
-- name: 🇸🇪SE_2|1.4MB/s|698KB/s
+- name: 🇺🇸US_4|1.7MB/s|1.1MB/s
   password: None
-  port: 443
-  server: 146.70.242.130
+  port: 9002
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 03|621KB/s
+- name: 🇺🇸US_23|2.6MB/s|1.1MB/s
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_17|4.3MB/s|1.0MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_12|2.5MB/s|1.0MB/s
+  password: 'null'
+  port: 443
+  server: carolinafreigh.fun
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_15|1.2MB/s|980KB/s
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  sni: goedkoopgeluid.icu
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_27|2.3MB/s|864KB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: NL_speednode_0009|774KB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL - zhuhai.uk 03|743KB/s
+  type: vless
+  server: 2.27.39.233
+  port: 443
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  flow: xtls-rprx-vision
+  tls: true
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 5tMM2VdgddmxOKhdNa3b7i_aXno1g-_61SzkppS2UXQ
+    short-id: f3c023cc
+- name: 🇷🇺RU_1|1.3MB/s|636KB/s
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 03|632KB/s
   type: http
   server: 162.244.227.36
   port: 443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸_US_美国|539KB/s
-  type: vmess
-  server: guanwang.awsno.com
+- name: 🇺🇸US_29|1.8MB/s|301KB/s
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
+  server: 12.202.180.10
   skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- name: BR - zhuhai.uk|492KB/s
+  tls: true
   type: http
-  server: 134.65.17.77
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|219KB/s
-  type: http
-  server: 50.184.176.222
-  port: 8090
-  tls: true
-  skip-cert-verify: true
