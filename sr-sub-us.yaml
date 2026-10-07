@@ -1,61 +1,5 @@
-# Mac hourly sync 2026-10-07 08:03:49 | alive 17
+# Mac hourly sync 2026-10-07 09:03:48 | alive 16
 proxies:
-- name: 🇺🇸US_17|4.3MB/s|1.1MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_24|3.6MB/s|1.1MB/s
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_23|2.6MB/s|1.1MB/s
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|1.7MB/s|780KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 03|763KB/s
-  type: http
-  server: 162.244.227.36
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|676KB/s
-  type: http
-  server: 24.142.229.178
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国|577KB/s
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
 - name: US - zhuhai.uk 02|5KB/s
   type: anytls
   server: anytls2.864106.xyz
@@ -63,62 +7,111 @@ proxies:
   password: github.com/Alvin9999-newpac/fanqiang
   udp: true
   skip-cert-verify: true
-- name: 🇺🇸US_2|1.7MB/s|2KB/s
+- name: 🇺🇸US-18.208.223.39-0666 | 25.136MB|3KB/s
+  server: 18.208.223.39
   port: 443
-  server: 148.135.10.80
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸US_10|2.2MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_6|2.8MB/s|1KB/s
-  port: 8443
-  server: 45.150.164.18
+  udp: true
+- name: 🇺🇸US_4|3.7MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_28|3.2MB/s|1KB/s
-  port: 443
-  server: 23.133.176.14
+- name: 🇺🇸US_7|2.8MB/s|2KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_1|3.1MB/s|1KB/s
-  port: 8443
-  server: 45.145.72.122
+  username: 'null'
+- name: 🇺🇸US_20|1.0MB/s|2KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 06|1KB/s
+  username: 'null'
+- name: 🇺🇸US_17|1.7MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
   type: http
-  server: 50.184.176.222
+- name: 🇺🇸US_15|3.4MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_9|2.4MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_22|1.4MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 24.142.229.178
   port: 8090
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_8|1.2MB/s
+- name: 🇺🇸US_14|1.7MB/s|1KB/s
   password: None
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_16|3.0MB/s
-  password: None
-  port: 443
-  server: crosscards.site
-  skip-cert-verify: false
-  tls: true
-  type: http
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_34|2.2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- cipher: none
+  name: 🇺🇸 美国 | USA 3|1KB/s
+  password: ODI4ZjAwZGMtNDQz
   plugin: obfs
   plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
-    mode: tls
-  port: 2377
-  server: 134.195.101.119
+    host: upay.10010.com
+    mode: http
+  port: 80
+  server: 103.11.76.248
   type: ss
   udp: true
-- name: US - zhuhai.uk
-  type: socks5
-  server: 83.147.217.103
-  port: 1080
+- name: 🇺🇸US_13|1.1MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_5|3.6MB/s
+  password: 'null'
+  port: 443
+  server: carolinafreigh.fun
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_19|4.0MB/s
+  password: None
+  port: 443
+  server: berniesbodybla.fun
+  skip-cert-verify: false
+  tls: true
+  type: http
