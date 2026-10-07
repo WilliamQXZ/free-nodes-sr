@@ -1,6 +1,6 @@
-# Mac hourly sync 2026-10-07 13:04:13 | alive 3
+# Mac hourly sync 2026-10-07 14:04:33 | alive 1
 proxies:
-- name: 🇺🇸_US_美国|259KB/s
+- name: 🇺🇸_US_美国|342KB/s
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -16,15 +16,3 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
-- name: 🇨🇭CH_2|2.6MB/s|248KB/s
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇭🇺HU_1|2.7MB/s|244KB/s
-  port: 443
-  server: 146.70.203.18
-  skip-cert-verify: true
-  tls: true
-  type: http
