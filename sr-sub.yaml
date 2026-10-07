@@ -1,18 +1,21 @@
-# Mac hourly sync 2026-10-07 14:04:33 | alive 1
+# Mac hourly sync 2026-10-07 15:02:26 | alive 2
 proxies:
-- name: 🇺🇸_US_美国|342KB/s
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
+- name: 🇳🇱NL_3|3.0MB/s|416KB/s
+  port: 9443
+  server: 149.36.51.161
   skip-cert-verify: true
-  servername: guanwang.awsno.com
+  tls: true
+  type: http
+- name: FR - zhuhai.uk|183KB/s
+  type: vless
+  server: fr2.vip-get.ru
+  port: 443
+  uuid: db4fb2a7-a31d-46d8-b6d2-76eafe8cfe2a
+  tls: true
+  servername: fr2.vip-get.ru
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /hls/cctv5phd.m3u8
+    path: /api/download
     headers:
-      Host: guanwang.awsno.com
-  udp: true
+      Host: fr2.vip-get.ru
