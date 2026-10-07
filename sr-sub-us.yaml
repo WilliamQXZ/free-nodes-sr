@@ -1,90 +1,7 @@
-# Mac hourly sync 2026-10-07 09:03:48 | alive 16
+# Mac hourly sync 2026-10-07 10:02:23 | alive 14
 proxies:
-- name: US - zhuhai.uk 02|5KB/s
-  type: anytls
-  server: anytls2.864106.xyz
-  port: 19000
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  skip-cert-verify: true
-- name: 🇺🇸US-18.208.223.39-0666 | 25.136MB|3KB/s
-  server: 18.208.223.39
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸US_10|2.2MB/s|2KB/s
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_4|3.7MB/s|2KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.8MB/s|2KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_20|1.0MB/s|2KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_17|1.7MB/s|2KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|3.4MB/s|2KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|2.4MB/s|2KB/s
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_22|1.4MB/s|2KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 24.142.229.178
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_14|1.7MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
 - cipher: none
-  name: 🇺🇸 美国 | USA 3|1KB/s
+  name: 🇺🇸 美国 | USA 3|953KB/s
   password: ODI4ZjAwZGMtNDQz
   plugin: obfs
   plugin-opts:
@@ -94,6 +11,35 @@ proxies:
   server: 103.11.76.248
   type: ss
   udp: true
+- name: 🇺🇸US_4|3.7MB/s|117KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_17|1.7MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 02|2KB/s
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_15|3.4MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇺🇸US_13|1.1MB/s|1KB/s
   port: 9002
   server: 138.199.35.212
@@ -101,17 +47,61 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_5|3.6MB/s
-  password: 'null'
-  port: 443
-  server: carolinafreigh.fun
+- name: 🇺🇸US_9|2.4MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 🇺🇸US_19|4.0MB/s
+- name: 🇺🇸US_19|4.0MB/s|1KB/s
   password: None
   port: 443
   server: berniesbodybla.fun
   skip-cert-verify: false
   tls: true
   type: http
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 45.145.72.122
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_7|2.8MB/s|1KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_14|1.7MB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 03
+  type: http
+  server: zebpay.site
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_11|1.5MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
+  type: ss
+  udp: true
