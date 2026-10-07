@@ -1,22 +1,24 @@
-# Mac hourly sync 2026-10-07 21:03:13 | alive 3
+# Mac hourly sync 2026-10-07 22:03:40 | alive 2
 proxies:
-- name: 🇩🇪DE_2|1.8MB/s|420KB/s
-  password: None
+- name: 🇫🇷FR_3|2.2MB/s|482KB/s
   port: 443
-  server: 149.36.50.1
+  server: 13.37.226.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇷🇸RS_2|1003KB/s|323KB/s
-  password: None
+- alpn:
+  - h2
+  - http/
+  client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #1|312KB/s'
+  network: ws
   port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
+  server: 170.114.52.22
   tls: true
-  type: http
-- name: 🇳🇱NL_1|2.2MB/s|209KB/s
-  port: 9443
-  server: 161.129.60.66
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: dd2e8c8c-abf4-48bf-9798-c8a9af94d99f
+  ws-opts:
+    headers:
+      Host: asia.csmaster.site
+    path: /
