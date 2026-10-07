@@ -1,5 +1,40 @@
-# Mac hourly sync 2026-10-07 22:03:46 | alive 6
+# Mac hourly sync 2026-10-07 23:04:04 | alive 7
 proxies:
+- name: US - zhuhai.uk|520KB/s
+  type: http
+  server: 172.64.68.89
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|2KB/s
+  type: http
+  server: 138.199.35.219
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 | USA 2|1KB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
+  type: ss
+  udp: true
+- name: 🇺🇸US_3|1023KB/s|1KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.199
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - name: 🇺🇸_US_美国_2
   type: vmess
   server: guanwang.awsno.com
@@ -24,26 +59,3 @@ proxies:
   sni: iosapps.itunes.apple.com
   type: anytls
   udp: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 64.98.50.100
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 10|1KB/s
-  type: socks5
-  server: 83.147.217.103
-  port: 1080
-- name: 🇺🇸US_2|1.0MB/s|1KB/s
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  sni: fullmanfirm.icu
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1023KB/s|1KB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
