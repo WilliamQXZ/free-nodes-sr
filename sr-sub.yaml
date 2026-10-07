@@ -1,8 +1,204 @@
-# Mac hourly sync 2026-10-08 00:03:16 | alive 1
+# Mac hourly sync 2026-10-08 01:02:41 | alive 25
 proxies:
-- name: 🇫🇷FR_3|2.2MB/s|439KB/s
+- client-fingerprint: chrome
+  name: '🇫🇷 法国 | FRA #1|97KB/s'
+  network: ws
+  port: 443
+  server: 217.19.4.61
+  servername: bab-6.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  ws-opts:
+    headers:
+      Host: bab-6.site
+    path: /vws/
+- name: US - zhuhai.uk 08|39KB/s
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  sni: 138.199.35.206
+  skip-cert-verify: true
+- name: NL_speednode_0004|19KB/s
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HK - zhuhai.uk|2KB/s
+  type: socks5
+  server: 123.58.219.171
+  port: 10808
+- name: 🇫🇷FR_1|1004KB/s|2KB/s
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: RO - zhuhai.uk|1KB/s
+  type: http
+  server: 193.176.84.25
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇫🇷FR_2|1.4MB/s|1KB/s
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: NL_speednode_0006|1KB/s
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇸RS_1|1.8MB/s|1KB/s
+  port: 443
+  server: 146.70.221.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: NL_speednode_0007|1KB/s
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: JP - zhuhai.uk|1KB/s
+  type: http
+  server: fan.587475.xyz
+  port: 443
+  tls: true
+  sni: fan.587475.xyz
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 | USA 2|1KB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
+  type: ss
+  udp: true
+- name: NL_speednode_0010|1KB/s
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RU - zhuhai.uk 02|1KB/s
+  type: socks5
+  server: 176.195.18.41
+  port: 1080
+- name: 🇫🇷FR_3|2.2MB/s|1KB/s
   port: 443
   server: 13.37.226.59
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇪🇪EE_1|1.7MB/s|1KB/s
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_3|1023KB/s|1KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: RO - zhuhai.uk 02|1KB/s
+  type: http
+  server: 193.176.84.39
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: NL_speednode_0009|0KB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_1|3.0MB/s
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
+  xudp: true
+- encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG #5'
+  network: ws
+  port: 2082
+  server: 172.64.150.28
+  tls: false
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp
+- client-fingerprint: chrome
+  name: 🇸🇬[www.v2nodes.com] vless-SG
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- name: US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk
+  type: http
+  server: 172.64.68.89
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 11
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
