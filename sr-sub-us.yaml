@@ -1,49 +1,21 @@
-# Mac hourly sync 2026-10-07 16:04:06 | alive 16
+# Mac hourly sync 2026-10-07 17:02:07 | alive 21
 proxies:
-- name: 🇺🇸US_22|1.4MB/s|42KB/s
+- name: US - zhuhai.uk 09|3KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_17|1.7MB/s|3KB/s
   password: None
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.219
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 04|11KB/s
-  type: http
-  server: 138.199.35.214
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_10|2.2MB/s|3KB/s
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_20|1.0MB/s|2KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_9|2.4MB/s|2KB/s
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|1.1MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_7|2.8MB/s|1KB/s
+- name: 🇺🇸US_7|2.8MB/s|2KB/s
   password: 'null'
   port: 9002
   server: 138.199.35.200
@@ -51,17 +23,70 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: US - zhuhai.uk 03|1KB/s
+- name: 🇺🇸US_10|2.2MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 03|2KB/s
   type: http
   server: 138.199.35.206
   port: 9002
   tls: true
   sni: 138.199.35.206
   skip-cert-verify: true
-- name: 🇺🇸US_17|1.7MB/s|1KB/s
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: berniesbodybla.fun
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+- name: US - zhuhai.uk|2KB/s
+  type: http
+  server: 138.199.35.196
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|2KB/s
+  type: http
+  server: 138.199.35.220
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_9|2.4MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 04|2KB/s
+  type: http
+  server: 138.199.35.214
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 10|2KB/s
+  type: socks5
+  server: 83.147.217.103
+  port: 1080
+- name: 🇺🇸US_4|3.7MB/s|1KB/s
   password: None
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_22|1.4MB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
@@ -72,18 +97,18 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 09|1KB/s
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  username: 'null'
+- name: 🇺🇸US_14|1.7MB/s|1KB/s
   password: None
-  tls: true
+  port: 9002
+  server: 138.199.35.211
   skip-cert-verify: true
-- name: 🇺🇸US_5|3.6MB/s|1KB/s
+  tls: true
+  type: http
+- name: 🇺🇸US_20|1.0MB/s|1KB/s
   password: 'null'
-  port: 443
-  server: carolinafreigh.fun
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
@@ -98,24 +123,34 @@ proxies:
   server: 103.11.76.248
   type: ss
   udp: true
-- name: 🇺🇸US_14|1.7MB/s|1KB/s
-  password: None
+- name: 🇺🇸US_13|1.1MB/s|1KB/s
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|3.7MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
+  udp: true
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-- name: 🇺🇸US_6|4.1MB/s
-  password: None
+  server: 64.98.50.100
   port: 443
-  server: crosscards.site
-  skip-cert-verify: false
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_5|3.6MB/s
+  password: 'null'
+  port: 443
+  server: carolinafreigh.fun
   tls: true
   type: http
+  username: 'null'
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_11|1.5MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
+  type: ss
+  udp: true
