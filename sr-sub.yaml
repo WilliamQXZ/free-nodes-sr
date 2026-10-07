@@ -1,24 +1,20 @@
-# Mac hourly sync 2026-10-07 22:03:40 | alive 2
+# Mac hourly sync 2026-10-07 23:03:59 | alive 3
 proxies:
-- name: 🇫🇷FR_3|2.2MB/s|482KB/s
+- name: US - zhuhai.uk|520KB/s
+  type: http
+  server: 172.64.68.89
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇫🇷FR_3|2.2MB/s|450KB/s
   port: 443
   server: 13.37.226.59
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h2
-  - http/
-  client-fingerprint: chrome
-  name: '🇸🇬 新加坡 | SGP #1|312KB/s'
-  network: ws
+- name: GE - zhuhai.uk|226KB/s
+  type: http
+  server: 195.54.178.210
   port: 443
-  server: 170.114.52.22
   tls: true
-  type: vless
-  udp: true
-  uuid: dd2e8c8c-abf4-48bf-9798-c8a9af94d99f
-  ws-opts:
-    headers:
-      Host: asia.csmaster.site
-    path: /
+  skip-cert-verify: true
