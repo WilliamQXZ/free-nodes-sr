@@ -1,57 +1,7 @@
-# Mac hourly sync 2026-10-08 05:01:37 | alive 13
+# Mac hourly sync 2026-10-08 06:02:35 | alive 13
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 | USA 2|431KB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
-    mode: tls
-  port: 2377
-  server: 134.195.101.119
-  type: ss
-  udp: true
-- name: US - zhuhai.uk 06|351KB/s
-  type: http
-  server: fan.596189.xyz
-  port: 443
-  tls: true
-  sni: fan.596189.xyz
-  skip-cert-verify: true
-- name: 🇺🇸US-107.21.80.138-0793 | 89.381MB|3KB/s
-  server: 107.21.80.138
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸US-54.221.120.243-2669 | 71.055MB|3KB/s
-  server: 54.221.120.243
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸US-34.228.79.192-2668 | 87.821MB|3KB/s
-  server: 34.228.79.192
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: US - zhuhai.uk 07|2KB/s
-  type: http
-  server: 129.153.93.183
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|2KB/s
-  type: http
-  server: 138.199.35.220
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_5|2.5MB/s|1KB/s
+  name: 🇺🇸US_5|2.5MB/s|1.1MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -61,7 +11,42 @@ proxies:
   server: 88.210.36.106
   type: ss
   udp: true
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk 05|1.1MB/s
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1.0MB/s
+  type: http
+  server: 138.199.35.220
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06|2KB/s
+  type: http
+  server: fan.596189.xyz
+  port: 443
+  tls: true
+  sni: fan.596189.xyz
+  skip-cert-verify: true
+- name: 🇺🇸US_3|1023KB/s|2KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: 129.153.93.183
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|2KB/s
   type: http
   server: 104.233.178.179
   port: 443
@@ -75,14 +60,25 @@ proxies:
   password: e4b72b531a2d10900519
   tls: true
   sni: 93b6d804.acsnet.co
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
+- name: 🇺🇸US-54.221.120.243-2669 | 71.055MB|1KB/s
+  server: 54.221.120.243
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸US-34.228.79.192-2668 | 87.821MB|0KB/s
+  server: 34.228.79.192
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸US_2|1.0MB/s
+  port: 443
+  server: fullmanfirm.icu
   skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
 - name: 🇺🇸 美国 | USA 5
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   port: 1002
@@ -91,19 +87,14 @@ proxies:
   sni: iosapps.itunes.apple.com
   type: anytls
   udp: true
-- name: 🇺🇸_US_美国_2
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 | USA 2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
+  type: ss
   udp: true
