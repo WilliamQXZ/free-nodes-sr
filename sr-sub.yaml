@@ -1,20 +1,8 @@
-# Mac hourly sync 2026-10-07 23:03:59 | alive 3
+# Mac hourly sync 2026-10-08 00:03:16 | alive 1
 proxies:
-- name: US - zhuhai.uk|520KB/s
-  type: http
-  server: 172.64.68.89
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇫🇷FR_3|2.2MB/s|450KB/s
+- name: 🇫🇷FR_3|2.2MB/s|439KB/s
   port: 443
   server: 13.37.226.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: GE - zhuhai.uk|226KB/s
-  type: http
-  server: 195.54.178.210
-  port: 443
-  tls: true
-  skip-cert-verify: true
