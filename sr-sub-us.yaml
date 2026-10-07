@@ -1,31 +1,33 @@
-# Mac hourly sync 2026-10-07 20:04:52 | alive 4
+# Mac hourly sync 2026-10-07 21:03:18 | alive 5
 proxies:
-- name: 🇺🇸US_14|1.7MB/s|6KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 09|1KB/s
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: 138.199.35.220
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06
+- name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 64.98.50.100
   port: 443
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 10|1KB/s
+  type: socks5
+  server: 83.147.217.103
+  port: 1080
+- name: 🇺🇸US_2|1.0MB/s|1KB/s
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
+- name: 🇺🇸US_3|1023KB/s|1KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 美国 | USA 5
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1002
+  server: vltl28mf.zf-mix.9999231.xyz
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: anytls
+  udp: true
