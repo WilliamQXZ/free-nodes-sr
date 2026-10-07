@@ -1,20 +1,9 @@
-# Mac hourly sync 2026-10-07 19:04:34 | alive 3
+# Mac hourly sync 2026-10-07 20:04:47 | alive 1
 proxies:
-- name: 🇨🇦CA_1|2.7MB/s|608KB/s
+- name: '🇰🇷 韩国 | KOR #3|123KB/s'
+  password: Trojan@82164024
   port: 443
-  server: 206.223.183.16
+  server: kr.tronsg.com
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_1|2.8MB/s|476KB/s
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_3|3.0MB/s|326KB/s
-  port: 9443
-  server: 149.36.51.161
-  skip-cert-verify: true
-  tls: true
-  type: http
+  sni: kr.tronsg.com
+  type: trojan
