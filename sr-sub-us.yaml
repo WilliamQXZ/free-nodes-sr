@@ -1,21 +1,7 @@
-# Mac hourly sync 2026-10-08 03:01:51 | alive 4
+# Mac hourly sync 2026-10-08 04:03:52 | alive 9
 proxies:
-- name: US - zhuhai.uk 06|2KB/s
-  type: http
-  server: 138.199.35.199
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 | USA 2
+  name: 🇺🇸 美国 | USA 2|41KB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -25,9 +11,54 @@ proxies:
   server: 134.195.101.119
   type: ss
   udp: true
+- name: US - zhuhai.uk 06|2KB/s
+  type: http
+  server: 138.199.35.199
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_3|1023KB/s|2KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 05|2KB/s
+  type: http
+  server: 138.199.35.219
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US-107.21.80.138-0793 | 89.381MB|1KB/s
+  server: 107.21.80.138
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 138.199.35.198
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.213
+  port: 9002
+  tls: true
+  sni: 138.199.35.213
+  skip-cert-verify: true
 - name: US - zhuhai.uk
   type: http
   server: 172.64.68.89
   port: 443
   tls: true
   skip-cert-verify: true
+- name: 🇺🇸US-54.221.120.243-2669 | 71.055MB
+  server: 54.221.120.243
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
