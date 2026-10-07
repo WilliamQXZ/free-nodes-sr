@@ -1,40 +1,34 @@
-# Mac hourly sync 2026-10-08 03:01:47 | alive 6
+# Mac hourly sync 2026-10-08 04:03:49 | alive 4
 proxies:
-- name: 🇩🇪DE_2|1.8MB/s|814KB/s
-  password: None
+- name: 🇬🇧GB_1|3.1MB/s|786KB/s
   port: 443
-  server: 149.36.50.1
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇦🇱AL_1|1.1MB/s|759KB/s
+- name: 🇦🇱AL_2|1.1MB/s|699KB/s
   port: 443
-  server: 87.120.103.226
+  server: 31.171.154.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇷🇸RS_2|1003KB/s|731KB/s
-  password: None
+- name: SG - zhuhai.uk|412KB/s
+  type: vless
+  server: 170.114.52.22
   port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
+  uuid: a853e120-3570-462b-aec1-e8f3d4f92d24
   tls: true
-  type: http
-- name: GE - zhuhai.uk|650KB/s
-  type: http
-  server: 195.54.178.210
+  servername: asia.csmaster.site
+  client-fingerprint: android
+  network: ws
+  ws-opts:
+    headers:
+      Host: asia.csmaster.site
+- name: 🇩🇪_DE_德国|409KB/s
+  type: trojan
+  server: de.zhabulik.ru
   port: 443
-  tls: true
+  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
+  sni: de.zhabulik.ru
   skip-cert-verify: true
-- name: 🇳🇱NL_1|2.2MB/s|641KB/s
-  port: 9443
-  server: 161.129.60.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: ID - zhuhai.uk|225KB/s
-  type: http
-  server: 178.248.73.58
-  port: 443
-  tls: true
-  skip-cert-verify: true
+  udp: true
