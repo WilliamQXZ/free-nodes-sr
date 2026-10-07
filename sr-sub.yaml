@@ -1,26 +1,6 @@
-# Mac hourly sync 2026-10-07 07:03:46 | alive 12
+# Mac hourly sync 2026-10-07 08:03:45 | alive 11
 proxies:
-- name: US - zhuhai.uk 07|1.1MB/s
-  type: http
-  server: kimberlymilano.icu
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-- name: 🇺🇸US_4|1.7MB/s|1.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_23|2.6MB/s|1.1MB/s
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|4.3MB/s|1.0MB/s
+- name: 🇺🇸US_17|4.3MB/s|1.1MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.200
@@ -28,61 +8,86 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_12|2.5MB/s|1.0MB/s
-  password: 'null'
-  port: 443
-  server: carolinafreigh.fun
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_15|1.2MB/s|980KB/s
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_27|2.3MB/s|864KB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: NL_speednode_0009|774KB/s
+- name: 🇺🇸US_24|3.6MB/s|1.1MB/s
   port: 9002
-  server: 84.17.47.146
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: NL - zhuhai.uk 03|743KB/s
-  type: vless
-  server: 2.27.39.233
-  port: 443
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-  flow: xtls-rprx-vision
-  tls: true
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 5tMM2VdgddmxOKhdNa3b7i_aXno1g-_61SzkppS2UXQ
-    short-id: f3c023cc
-- name: 🇷🇺RU_1|1.3MB/s|636KB/s
-  port: 1446
-  server: 46.29.166.134
+- name: 🇺🇸US_23|2.6MB/s|1.1MB/s
+  port: 9002
+  server: 138.199.35.203
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 03|632KB/s
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 🇫🇷FR_2|4.7MB/s|976KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true
+- name: 🇺🇸US_4|1.7MB/s|780KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: NL_speednode_0004|773KB/s
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 03|763KB/s
   type: http
   server: 162.244.227.36
   port: 443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_29|1.8MB/s|301KB/s
-  port: 443
-  server: 12.202.180.10
+- name: 🇳🇱NL_4|2.6MB/s|697KB/s
+  port: 21384
+  server: 51.158.204.46
   skip-cert-verify: true
   tls: true
   type: http
+- name: US - zhuhai.uk 05|676KB/s
+  type: http
+  server: 24.142.229.178
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸_US_美国|577KB/s
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+- name: DE - zhuhai.uk 02|493KB/s
+  type: vless
+  server: de2.srv.vbuste.ru
+  port: 443
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+  flow: xtls-rprx-vision
+  tls: true
+  servername: de2.srv.vbuste.ru
+  skip-cert-verify: true
+  client-fingerprint: randomized
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: 4be4110078ebed4a
