@@ -1,5 +1,29 @@
-# Mac hourly sync 2026-10-07 21:03:18 | alive 5
+# Mac hourly sync 2026-10-07 22:03:46 | alive 6
 proxies:
+- name: 🇺🇸_US_美国_2
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+- name: 🇺🇸 美国 | USA 5
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1002
+  server: vltl28mf.zf-mix.9999231.xyz
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: anytls
+  udp: true
 - name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 64.98.50.100
@@ -23,11 +47,3 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 美国 | USA 5
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1002
-  server: vltl28mf.zf-mix.9999231.xyz
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: anytls
-  udp: true
