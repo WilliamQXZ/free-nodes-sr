@@ -1,9 +1,26 @@
-# Mac hourly sync 2026-10-07 09:03:44 | alive 1
+# Mac hourly sync 2026-10-07 10:02:19 | alive 3
 proxies:
-- name: NL_speednode_0010|590KB/s
+- cipher: none
+  name: 🇺🇸 美国 | USA 3|953KB/s
+  password: ODI4ZjAwZGMtNDQz
+  plugin: obfs
+  plugin-opts:
+    host: upay.10010.com
+    mode: http
+  port: 80
+  server: 103.11.76.248
+  type: ss
+  udp: true
+- name: RO - zhuhai.uk|142KB/s
+  type: http
+  server: 193.176.84.32
   port: 9002
-  server: 84.17.47.149
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_4|3.7MB/s|117KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
