@@ -1,13 +1,64 @@
-# Mac hourly sync 2026-10-08 09:17:33 | alive 1
+# Mac hourly sync 2026-10-08 10:02:04 | alive 9
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 | USA 3|906KB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
-    mode: tls
-  port: 2377
-  server: 134.195.101.119
-  type: ss
+- name: 🇩🇪DE_4|2.4MB/s|809KB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: CZ - zhuhai.uk|800KB/s
+  type: http
+  server: 185.216.35.130
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk|692KB/s
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  tls: true
+  sni: 138.199.35.209
+  skip-cert-verify: true
+- name: NL_speednode_0007|674KB/s
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+- name: 🇺🇸US_11|1.3MB/s|667KB/s
+  port: 443
+  server: 129.153.93.183
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇪🇪EE_1|1.9MB/s|662KB/s
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_1|4.9MB/s|633KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  skip-cert-verify: true
+  sni: ip5.934618.xyz
+  type: anytls
+  udp: true
+- name: RO - zhuhai.uk|614KB/s
+  type: http
+  server: 193.176.84.40
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: 🇪🇸ES_2|2.5MB/s|472KB/s
+  password: None
+  port: 443
+  server: 82.102.17.178
+  skip-cert-verify: true
+  tls: true
+  type: http
