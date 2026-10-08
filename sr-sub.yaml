@@ -1,48 +1,13 @@
-# Mac hourly sync 2026-10-08 06:02:32 | alive 6
+# Mac hourly sync 2026-10-08 09:17:33 | alive 1
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_5|2.5MB/s|1.1MB/s
+  name: 🇺🇸 美国 | USA 3|906KB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
     mode: tls
   port: 2377
-  server: 88.210.36.106
+  server: 134.195.101.119
   type: ss
   udp: true
-- name: US - zhuhai.uk 05|1.1MB/s
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|1.0MB/s
-  type: http
-  server: 138.199.35.220
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇫🇷FR_3|2.2MB/s|871KB/s
-  port: 443
-  server: 13.37.226.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: BE - zhuhai.uk|772KB/s
-  type: http
-  server: 146.70.123.98
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: DE - zhuhai.uk 05|730KB/s
-  type: hysteria2
-  server: 77.74.123.107
-  port: 8443
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  sni: grape-test-italy.dynuddns.net
-  skip-cert-verify: true
