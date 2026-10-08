@@ -1,28 +1,15 @@
-# Mac hourly sync 2026-10-08 23:03:26 | alive 6
+# Mac hourly sync 2026-10-09 00:04:45 | alive 6
 proxies:
-- name: 🇺🇸 美国 | USA 9|3KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
+- name: US - zhuhai.uk 03|7KB/s
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  tls: true
   skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- cipher: none
-  name: 🇺🇸 美国 | USA|1KB/s
-  password: ODI4ZjAwZGMtNDQz
-  plugin: obfs
-  plugin-opts:
-    host: upay.10010.com
-    mode: http
-  port: 80
-  server: 103.11.76.248
-  type: ss
-  udp: true
 - alpn:
   - h2
   client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #3|1KB/s'
+  name: '🇺🇸 美国 | USA #3|3KB/s'
   network: xhttp
   port: 443
   server: 199.232.239.239
@@ -35,7 +22,32 @@ proxies:
     host: cloudnet2026.global.ssl.fastly.net
     mode: auto
     path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel
-- name: US - zhuhai.uk 04|1KB/s
+- cipher: none
+  name: 🇺🇸 美国 | USA|2KB/s
+  password: ODI4ZjAwZGMtNDQz
+  plugin: obfs
+  plugin-opts:
+    host: upay.10010.com
+    mode: http
+  port: 80
+  server: 103.11.76.248
+  type: ss
+  udp: true
+- name: 🇺🇸 美国 | USA 9|1KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+  udp: true
+- name: 🇺🇸US_2|1.9MB/s|0KB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 04|0KB/s
   type: http
   server: 162.243.146.243
   port: 443
@@ -43,17 +55,3 @@ proxies:
   password: e4b72b531a2d10900519
   tls: true
   sni: a2f392f3.acsnet.co
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 138.199.35.199
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
