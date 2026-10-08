@@ -1,20 +1,8 @@
-# Mac hourly sync 2026-10-08 18:04:19 | alive 3
+# Mac hourly sync 2026-10-08 19:03:39 | alive 1
 proxies:
-- name: 🇪🇪EE_1|1.9MB/s|522KB/s
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_1|2.6MB/s|382KB/s
+- name: 🇫🇷FR_4|2.4MB/s|419KB/s
   port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|1.4MB/s|123KB/s
-  port: 9002
-  server: 158.173.154.4
+  server: 13.37.226.59
   skip-cert-verify: true
   tls: true
   type: http
