@@ -1,9 +1,50 @@
-# Mac hourly sync 2026-10-08 21:02:37 | alive 7
+# Mac hourly sync 2026-10-08 22:04:32 | alive 6
 proxies:
+- name: 🇺🇸_US_美国_1|239KB/s
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+- name: 🇺🇸 美国 | USA 9|82KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+  udp: true
+- name: US - zhuhai.uk 02|15KB/s
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- cipher: none
+  name: 🇺🇸 美国 | USA|2KB/s
+  password: ODI4ZjAwZGMtNDQz
+  plugin: obfs
+  plugin-opts:
+    host: upay.10010.com
+    mode: http
+  port: 80
+  server: 103.11.76.248
+  type: ss
+  udp: true
 - alpn:
   - h2
   client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #3|41KB/s'
+  name: '🇺🇸 美国 | USA #3|0KB/s'
   network: xhttp
   port: 443
   server: 199.232.239.239
@@ -16,46 +57,9 @@ proxies:
     host: cloudnet2026.global.ssl.fastly.net
     mode: auto
     path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel
-- name: 🇺🇸 美国 | USA 9|6KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 138.199.35.214
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- cipher: none
-  name: 🇺🇸 美国 | USA|1KB/s
-  password: ODI4ZjAwZGMtNDQz
-  plugin: obfs
-  plugin-opts:
-    host: upay.10010.com
-    mode: http
-  port: 80
-  server: 103.11.76.248
-  type: ss
-  udp: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: socks5
-  server: 83.147.217.103
-  port: 1080
-- name: US - zhuhai.uk 07|0KB/s
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_2|1.9MB/s
+- name: 🇺🇸US-18.208.223.39-2673 | 107.274MB
+  server: 18.208.223.39
   port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
