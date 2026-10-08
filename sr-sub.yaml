@@ -1,8 +1,9 @@
-# Mac hourly sync 2026-10-08 23:03:23 | alive 1
+# Mac hourly sync 2026-10-09 00:04:42 | alive 1
 proxies:
-- name: 🇫🇷FR_2|1.0MB/s|145KB/s
+- name: 🇬🇧GB_2|2.1MB/s|213KB/s
+  password: None
   port: 443
-  server: 13.37.226.59
+  server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
