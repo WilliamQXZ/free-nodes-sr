@@ -1,25 +1,20 @@
-# Mac hourly sync 2026-10-08 09:17:37 | alive 4
+# Mac hourly sync 2026-10-08 10:02:07 | alive 16
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 | USA 3|906KB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
-    mode: tls
-  port: 2377
-  server: 134.195.101.119
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '🇺🇸 美国 | USA #2|1KB/s'
-  password: amazonskr05
+- name: US - zhuhai.uk|692KB/s
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  tls: true
+  sni: 138.199.35.209
+  skip-cert-verify: true
+- name: 🇺🇸US_11|1.3MB/s|667KB/s
   port: 443
-  server: 34.228.79.192
-  type: ss
-  udp: true
+  server: 129.153.93.183
+  skip-cert-verify: true
+  tls: true
+  type: http
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 | USA 4|1KB/s
+  name: 🇺🇸 美国 | USA 4|3KB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -29,10 +24,104 @@ proxies:
   server: 88.210.36.106
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|3.3MB/s|0KB/s
-  password: amazonskr05
+- name: US - zhuhai.uk 05|2KB/s
+  type: http
+  server: 138.199.35.196
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_9|2.8MB/s|2KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_13|1.6MB/s|1KB/s
   port: 443
-  server: 107.21.80.138
+  server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 138.199.35.202
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_7|3.3MB/s|K001-260618|1KB/s
+  port: 443
+  server: berniesbodybla.fun
+  skip-cert-verify: true
+  sni: berniesbodybla.fun
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_10|2.8MB/s|1KB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.198
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_14|1.5MB/s|1KB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 | USA 3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
   type: ss
+  udp: true
+- name: 🇺🇸US_20|2.6MB/s
+  password: None
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 03
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: tzoa.fun
+  port: 443
+  tls: true
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
   udp: true
