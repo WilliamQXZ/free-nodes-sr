@@ -1,12 +1,30 @@
-# Mac hourly sync 2026-10-08 20:05:37 | alive 14
+# Mac hourly sync 2026-10-08 21:02:37 | alive 7
 proxies:
-- name: 🇺🇸US_16|1.3MB/s|14KB/s
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #3|41KB/s'
+  network: xhttp
   port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
+  server: 199.232.239.239
+  servername: ssl.fastly.com
   tls: true
-  type: http
-- name: US - zhuhai.uk|12KB/s
+  type: vless
+  udp: true
+  uuid: 71a195c5-df47-47ad-81be-f4d3a3a21be3
+  xhttp-opts:
+    host: cloudnet2026.global.ssl.fastly.net
+    mode: auto
+    path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel
+- name: 🇺🇸 美国 | USA 9|6KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+  udp: true
+- name: US - zhuhai.uk|1KB/s
   type: http
   server: 138.199.35.214
   port: 9002
@@ -14,82 +32,30 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_12|3.7MB/s|1KB/s
-  port: 443
-  server: 44.239.226.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|1.3MB/s|1KB/s
-  password: None
-  port: 443
-  server: 52.55.81.168
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|3.3MB/s|1KB/s
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-- name: 🇺🇸US_10|2.8MB/s|1KB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: none
+  name: 🇺🇸 美国 | USA|1KB/s
+  password: ODI4ZjAwZGMtNDQz
+  plugin: obfs
+  plugin-opts:
+    host: upay.10010.com
+    mode: http
+  port: 80
+  server: 103.11.76.248
+  type: ss
   udp: true
 - name: US - zhuhai.uk 05|1KB/s
   type: socks5
   server: 83.147.217.103
   port: 1080
-- name: 🇺🇸US_9|2.8MB/s|0KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_11|1.3MB/s|0KB/s
-  port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_21|1.8MB/s|0KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_19|2.0MB/s|0KB/s
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
 - name: US - zhuhai.uk 07|0KB/s
   type: http
   server: 138.199.35.212
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_13|1.6MB/s|0KB/s
+- name: 🇺🇸US_2|1.9MB/s
   port: 443
-  server: 38.247.141.135
+  server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 03|0KB/s
-  type: http
-  server: 138.199.35.204
-  port: 9002
-  tls: true
-  skip-cert-verify: true
