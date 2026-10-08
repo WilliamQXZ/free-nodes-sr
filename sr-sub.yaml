@@ -1,74 +1,19 @@
-# Mac hourly sync 2026-10-08 11:08:04 | alive 11
+# Mac hourly sync 2026-10-08 13:17:16 | alive 2
 proxies:
-- name: 🇩🇪DE_6|1.4MB/s|844KB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_21|1.8MB/s|791KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_14|1.5MB/s|772KB/s
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 | USA 4|480KB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- name: 🇩🇪DE_3|1.8MB/s|391KB/s
   port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_6|3.4MB/s|741KB/s
-  password: None
-  port: 443
-  server: 149.36.51.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_9|2.3MB/s|702KB/s
-  port: 9002
-  server: 84.17.47.123
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇸RS_1|1.5MB/s|674KB/s
-  password: None
-  port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_4|2.4MB/s|663KB/s
-  port: 443
-  server: 13.37.226.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_3|1.5MB/s|561KB/s
-  port: 9443
-  server: 161.129.60.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_4|1.9MB/s|557KB/s
-  password: None
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|1.1MB/s|376KB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_16|1.3MB/s|351KB/s
-  port: 443
-  server: 64.98.50.100
+  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
