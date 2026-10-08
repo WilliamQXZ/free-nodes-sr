@@ -1,19 +1,10 @@
-# Mac hourly sync 2026-10-08 13:17:16 | alive 2
+# Mac hourly sync 2026-10-08 14:03:08 | alive 1
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 | USA 4|480KB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- name: 🇩🇪DE_3|1.8MB/s|391KB/s
-  port: 443
-  server: 172.64.68.89
+- name: 🇫🇷FR_1|4.9MB/s|754KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: ip5.934618.xyz
+  type: anytls
+  udp: true
