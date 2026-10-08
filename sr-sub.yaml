@@ -1,24 +1,8 @@
-# Mac hourly sync 2026-10-08 16:04:48 | alive 2
+# Mac hourly sync 2026-10-08 17:01:58 | alive 1
 proxies:
-- name: 🇫🇷FR_4|2.4MB/s|582KB/s
+- name: 🇺🇸US_14|1.5MB/s|371KB/s
   port: 443
-  server: 13.37.226.59
+  server: 12.221.146.147
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸_US_美国|359KB/s
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
