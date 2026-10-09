@@ -1,5 +1,12 @@
-# Mac hourly sync 2026-10-10 00:45:56 | alive 3
+# Mac hourly sync 2026-10-10 02:01:23 | alive 4
 proxies:
+- name: US - zhuhai.uk
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  tls: true
+  sni: efr-marktplatz.club
+  skip-cert-verify: true
 - name: US - zhuhai.uk 06|5KB/s
   type: http
   server: 138.199.35.212
