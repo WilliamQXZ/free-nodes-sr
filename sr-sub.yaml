@@ -1,14 +1,114 @@
-# Mac hourly sync 2026-10-09 20:22:33 | alive 1
+# Mac hourly sync 2026-10-09 22:45:07 | alive 13
 proxies:
-- name: DE - zhuhai.uk|384KB/s
-  type: vless
-  server: ge-s-1.pythonmakemigreat.wiki
-  port: 443
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  flow: xtls-rprx-vision
+- name: US - zhuhai.uk 04|2KB/s
+  type: http
+  server: 45.145.73.240
+  port: 8443
   tls: true
-  servername: ge-s-1.pythonmakemigreat.wiki
+  skip-cert-verify: true
+- name: US - zhuhai.uk|2KB/s
+  type: http
+  server: 138.199.35.219
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk 03|2KB/s
+  type: vless
+  server: 31.59.210.26
+  port: 2088
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  tls: true
+  servername: www.yandex.ru
+  client-fingerprint: safari
+  network: grpc
+  grpc-opts:
+    grpc-service-name: astracat
+  reality-opts:
+    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+    short-id: b1ad165f903c62fe
+- name: DE - zhuhai.uk 02|1KB/s
+  type: http
+  server: 149.36.50.1
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: SG - zhuhai.uk 03|1KB/s
+  type: vless
+  server: 34.87.113.18
+  port: 443
+  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
+  tls: true
+  servername: www.cloudflare.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
-    short-id: 2c9a2790ad5900b2
+    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
+    short-id: eb97ce837da2f6ad
+- name: AU - zhuhai.uk|1KB/s
+  type: vless
+  server: 2610sgdodo.volkvpn.com
+  port: 35715
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: 54cca3c1c1c7
+- name: PL - zhuhai.uk|1KB/s
+  type: vless
+  server: pl-waw.dontblockmepls.com
+  port: 2063
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  flow: xtls-rprx-vision
+  tls: true
+  servername: rusbid.de
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+- name: HK - zhuhai.uk 02
+  type: vless
+  server: 20.205.14.234
+  port: 26480
+  uuid: 01de63ee-d2d6-4842-b2f0-d54c7eca267a
+  flow: xtls-rprx-vision
+  tls: true
+  servername: addons.mozilla.org
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: thefrz26hPQjCrKszJ6m_41nLmThPGkTEKBjYVDGM0E
+- name: SE - zhuhai.uk
+  type: http
+  server: 217.210.129.243
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.35
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: TH - zhuhai.uk
+  type: vless
+  server: 2610sgdodo.volkvpn.com
+  port: 25102
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.kaidee.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+    short-id: cbd39bea0805e2
+- name: RU - zhuhai.uk
+  type: socks5
+  server: 90.150.21.88
+  port: 1080
+- name: US - zhuhai.uk 05
+  type: http
+  server: 66.64.100.66
+  port: 443
+  tls: true
+  skip-cert-verify: true
