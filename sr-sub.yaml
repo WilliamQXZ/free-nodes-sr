@@ -1,53 +1,22 @@
-# Mac hourly sync 2026-10-10 04:02:21 | alive 7
+# Mac hourly sync 2026-10-10 05:23:01 | alive 3
 proxies:
-- name: 🇬🇧GB_1|2.5MB/s|817KB/s
+- name: '🇸🇬 新加坡 | SGP #1 #2|2.4MB/s'
+  password: UX82473651
   port: 443
-  server: 84.17.50.193
+  server: fond-mammoth.rooster465.autos
+  skip-cert-verify: true
+  sni: fond-mammoth.rooster465.autos
+  type: trojan
+  udp: true
+- name: JP - zhuhai.uk|1.9MB/s
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 40021
+  cipher: aes-256-gcm
+  password: 85590bd2-807b-49b9-af20-1101c18b9eda
+- name: 🇺🇸US_3|3.1MB/s|829KB/s
+  port: 443
+  server: 192.227.176.234
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇭🇷HR_1|1.1MB/s|810KB/s
-  port: 443
-  server: 154.47.29.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇦🇹AT_1|1.7MB/s|805KB/s
-  password: None
-  port: 443
-  server: 146.70.244.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇧🇪BE_2|1.1MB/s|727KB/s
-  password: None
-  port: 443
-  server: 146.70.123.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_1|2.0MB/s|699KB/s
-  port: 9443
-  server: 149.36.51.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇵🇱PL_2|1.9MB/s|697KB/s
-  port: 443
-  server: 37.120.156.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: DE - zhuhai.uk|444KB/s
-  type: vless
-  server: de2.srv.vbuste.ru
-  port: 443
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-  flow: xtls-rprx-vision
-  tls: true
-  servername: de2.srv.vbuste.ru
-  skip-cert-verify: true
-  client-fingerprint: randomized
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: 4be4110078ebed4a
