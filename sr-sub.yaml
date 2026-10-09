@@ -1,31 +1,14 @@
-# Mac hourly sync 2026-10-09 19:13:56 | alive 3
+# Mac hourly sync 2026-10-09 20:22:33 | alive 1
 proxies:
-- name: US - zhuhai.uk 04|936KB/s
-  type: http
-  server: 45.145.73.240
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: HK - zhuhai.uk 02|640KB/s
+- name: DE - zhuhai.uk|384KB/s
   type: vless
-  server: 20.205.14.234
-  port: 26480
-  uuid: 01de63ee-d2d6-4842-b2f0-d54c7eca267a
+  server: ge-s-1.pythonmakemigreat.wiki
+  port: 443
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
   flow: xtls-rprx-vision
   tls: true
-  servername: addons.mozilla.org
-  client-fingerprint: firefox
+  servername: ge-s-1.pythonmakemigreat.wiki
+  client-fingerprint: chrome
   reality-opts:
-    public-key: thefrz26hPQjCrKszJ6m_41nLmThPGkTEKBjYVDGM0E
-- alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: 55 Mbps
-  name: 'github.com/*********-******/**... #1|159KB/s'
-  port: 23556
-  protocol: udp
-  server: 62.210.70.191
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
+    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
+    short-id: 2c9a2790ad5900b2
