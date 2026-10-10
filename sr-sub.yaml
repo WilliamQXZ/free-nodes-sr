@@ -1,31 +1,9 @@
-# Mac hourly sync 2026-10-10 06:29:47 | alive 4
+# Mac hourly sync 2026-10-10 12:45:30 | alive 1
 proxies:
-- name: 🇭🇺HU_1|2.3MB/s|804KB/s
-  port: 443
-  server: 146.70.203.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇿CZ_1|1.2MB/s|801KB/s
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: IE - zhuhai.uk|653KB/s
-  type: http
-  server: 18.200.158.139
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: HK - zhuhai.uk 02|153KB/s
-  type: vless
-  server: 34.92.19.135
-  port: 443
-  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
-    short-id: 56d4e7ae4f86fa39
+- cipher: aes-128-gcm
+  name: '🇹🇷 土耳其 | TUR #1|12KB/s'
+  password: l2NidZbckMu4PnIHsJTYJg
+  port: 1468
+  server: www.asamping.ir
+  type: ss
+  udp: true
