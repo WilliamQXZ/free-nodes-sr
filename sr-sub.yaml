@@ -1,20 +1,27 @@
-# Mac hourly sync 2026-10-10 23:29:56 | alive 3
+# Mac hourly sync 2026-10-11 03:58:16 | alive 4
 proxies:
-- name: 🇳🇱NL-193.29.139.235-0090 | 46.485MB|325KB/s
-  server: 193.29.139.235
+- name: 🇺🇸US-16.144.66.136-0540 | 133.197MB|817KB/s
+  server: alert-titmouse.rooster465.autos
+  port: 443
+  type: trojan
+  password: UX82473651
+  sni: alert-titmouse.rooster465.autos
+  skip-cert-verify: false
+- name: 🇬🇧GB-82.38.31.181-5584 | 53.254MB|738KB/s
+  server: 82.38.31.181
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.159-0103 | 53.205MB|689KB/s
+  server: 82.38.31.159
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱NL-193.29.139.204-0096 | 55.013MB|678KB/s
+  server: 193.29.139.204
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇺🇸US-64.74.163.69-0095 | 45.056MB|222KB/s
-  server: 64.74.163.69
-  port: 18766
-  type: ss
-  cipher: aes-128-gcm
-  password: 4efe1af272e7292139b889f6a63ee071
-- name: NL - zhuhai.uk 02|205KB/s
-  type: http
-  server: 51.158.194.16
-  port: 14287
-  tls: true
-  skip-cert-verify: true
