@@ -1,55 +1,62 @@
-# Mac hourly sync 2026-10-12 01:02:31 | alive 8
+# Mac hourly sync 2026-10-12 04:02:05 | alive 10
 proxies:
-- name: 🇺🇸US-37.19.198.160-0158 | 55.0MB|477KB/s
+- name: 🇺🇸US-140.82.63.79-0126 | 29.108MB|628KB/s
+  server: 140.82.63.79
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ZoZtfPOyVvmKARUN
+- name: 🇺🇸US-156.146.38.170-0083 | 306.619MB|616KB/s
+  server: 156.146.38.170
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-37.19.198.160-0117 | 3.257MB|573KB/s
   server: 37.19.198.160
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-156.146.38.168-0207 | 90.676MB|430KB/s
-  server: 156.146.38.168
+- name: 🇺🇸US-173.244.56.6-0080 | 65.561MB|564KB/s
+  server: 173.244.56.6
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-138.199.42.68-0080 | 0.0MB|426KB/s
-  server: 138.199.42.68
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: US - zhuhai.uk|406KB/s
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.201
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|393KB/s
-  type: http
-  server: jgwynphotoarts.pro
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
-- name: US - zhuhai.uk 10|367KB/s
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇬🇧GB-82.38.31.202-0107 | 47.72MB|310KB/s
-  server: 82.38.31.202
+- name: 🇬🇧GB-82.38.31.191-0099 | 68.067MB|554KB/s
+  server: 82.38.31.191
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.159-0093 | 57.975MB|211KB/s
-  server: 82.38.31.159
+- name: NL - zhuhai.uk|411KB/s
+  type: http
+  server: 84.17.47.150
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|327KB/s
+  type: http
+  server: 107.149.232.90
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇬🇧GB-82.38.31.203-0098 | 62.702MB|317KB/s
+  server: 82.38.31.203
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.170-0110 | 61.323MB|270KB/s
+  server: 82.38.31.170
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇬🇧GB-82.38.31.205-0094 | 54.831MB|253KB/s
+  server: 82.38.31.205
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
