@@ -1,56 +1,46 @@
-# Mac hourly sync 2026-10-12 06:01:58 | alive 9
+# Mac hourly sync 2026-10-12 06:42:31 | alive 7
 proxies:
-- name: 🇺🇸US-156.146.38.167-0081 | 317.991MB|623KB/s
-  server: 156.146.38.167
+- name: 🇺🇸US-37.19.198.243-0115 | 3.602MB|621KB/s
+  server: 37.19.198.243
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-173.244.56.6-0080 | 65.561MB|601KB/s
-  server: 173.244.56.6
-  port: 443
+- name: 🇬🇧GB-82.38.31.208-0096 | 64.52MB|582KB/s
+  server: 82.38.31.208
+  port: 8080
   type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-82.38.31.170-0110 | 61.323MB|600KB/s
-  server: 82.38.31.170
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.192-0090 | 66.18MB|576KB/s
+  server: 82.38.31.192
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.174-0112 | 68.167MB|543KB/s
+  server: 82.38.31.174
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇬🇧GB-82.38.31.193-0089 | 62.889MB|593KB/s
-  server: 82.38.31.193
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US-37.19.198.236-0119 | 3.455MB|581KB/s
-  server: 37.19.198.236
-  port: 443
+- name: 🇺🇸US-64.74.163.69-0087 | 62.097MB|541KB/s
+  server: 64.74.163.69
+  port: 18766
   type: ss
   cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-82.38.31.180-0091 | 62.448MB|578KB/s
-  server: 82.38.31.180
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.191-0099 | 68.067MB|503KB/s
-  server: 82.38.31.191
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: NL - zhuhai.uk 05|461KB/s
+  password: 4efe1af272e7292139b889f6a63ee071
+- name: PL - zhuhai.uk|427KB/s
   type: http
-  server: 84.17.47.148
-  port: 9002
+  server: 37.120.156.18
+  port: 443
   tls: true
   skip-cert-verify: true
-- name: SG - zhuhai.uk|437KB/s
+- name: JP - zhuhai.uk 02|300KB/s
   type: http
-  server: 149.88.99.209
-  port: 9443
+  server: fan.571589.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
   tls: true
-  skip-cert-verify: true
+  sni: fan.571589.xyz
