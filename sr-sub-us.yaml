@@ -1,12 +1,24 @@
-# Mac hourly sync 2026-10-12 00:02:35 | alive 10
+# Mac hourly sync 2026-10-12 01:02:39 | alive 23
 proxies:
-- name: 🇺🇸US-138.199.42.68-0080 | 0.0MB|369KB/s
+- name: 🇺🇸US-37.19.198.160-0158 | 55.0MB|477KB/s
+  server: 37.19.198.160
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-156.146.38.168-0207 | 90.676MB|430KB/s
+  server: 156.146.38.168
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-138.199.42.68-0080 | 0.0MB|426KB/s
   server: 138.199.42.68
   port: 8080
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: US - zhuhai.uk|301KB/s
+- name: US - zhuhai.uk|406KB/s
   type: http
   server: 138.199.35.201
   port: 9002
@@ -15,6 +27,57 @@ proxies:
   tls: true
   sni: 138.199.35.201
   skip-cert-verify: true
+- name: US - zhuhai.uk 06|393KB/s
+  type: http
+  server: jgwynphotoarts.pro
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: US - zhuhai.uk 10|367KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US-140.82.63.79-0213 | 46.457MB|1KB/s
+  server: 140.82.63.79
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ZoZtfPOyVvmKARUN
+- name: 🇺🇸US-173.244.56.6-0108 | 124.394MB|1KB/s
+  server: 173.244.56.6
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-64.74.163.69-0104 | 62.314MB|1KB/s
+  server: 64.74.163.69
+  port: 18766
+  type: ss
+  cipher: aes-128-gcm
+  password: 4efe1af272e7292139b889f6a63ee071
+- name: US - zhuhai.uk 11|1KB/s
+  type: http
+  server: 148.135.10.80
+  port: 443
+  tls: true
+  sni: 148.135.10.80
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 138.199.35.200
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US-156.146.38.170-0209 | 109.61MB|1KB/s
+  server: 156.146.38.170
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
 - name: US - zhuhai.uk 07|1KB/s
   type: http
   server: 138.199.35.196
@@ -29,8 +92,8 @@ proxies:
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-37.19.198.236-0159 | 54.598MB|1KB/s
-  server: 37.19.198.236
+- name: 🇺🇸US-156.146.38.169-0210 | 115.922MB|1KB/s
+  server: 156.146.38.169
   port: 443
   type: ss
   cipher: aes-128-gcm
@@ -41,24 +104,24 @@ proxies:
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-156.146.38.170-0209 | 109.61MB|1KB/s
-  server: 156.146.38.170
+- name: 🇺🇸US-37.19.198.236-0159 | 54.598MB|1KB/s
+  server: 37.19.198.236
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-140.82.63.79-0213 | 46.457MB|0KB/s
-  server: 140.82.63.79
-  port: 8388
+- name: US - zhuhai.uk 02|0KB/s
+  type: http
+  server: 138.199.35.213
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US-15.204.247.206-0249 | 9.145MB|0KB/s
+  server: 15.204.247.206
+  port: 4444
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ZoZtfPOyVvmKARUN
-- name: 🇺🇸US-156.146.38.167-0208 | 118.96MB|0KB/s
-  server: 156.146.38.167
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
 - name: 🇺🇸 美国 | USA 5|0KB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
@@ -67,3 +130,23 @@ proxies:
   sni: anytls2.864106.xyz
   type: anytls
   udp: true
+- name: US - zhuhai.uk 08|0KB/s
+  type: http
+  server: 68.235.56.59
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|0KB/s
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|0KB/s
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  tls: true
+  skip-cert-verify: true
