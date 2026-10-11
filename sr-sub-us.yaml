@@ -1,48 +1,6 @@
-# Mac hourly sync 2026-10-11 16:03:34 | alive 19
+# Mac hourly sync 2026-10-11 17:02:05 | alive 16
 proxies:
-- name: 🇺🇸US_2|3.0MB/s|433KB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk|2KB/s
-  type: http
-  server: 138.199.35.209
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_9|1.8MB/s|2KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 07|2KB/s
-  type: http
-  server: 138.199.35.216
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_13|3.1MB/s|2KB/s
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.213
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_12|1.2MB/s|1KB/s
+- name: 🇺🇸US_12|1.2MB/s|27KB/s
   password: 'null'
   port: 9002
   server: 138.199.35.202
@@ -51,7 +9,35 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: US - zhuhai.uk 05|1KB/s
+- name: 🇺🇸US_6|4.4MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|3.8MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_9|1.8MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 03|2KB/s
+  type: http
+  server: 138.199.35.213
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|2KB/s
   type: http
   server: 138.199.35.206
   port: 9002
@@ -60,19 +46,50 @@ proxies:
   tls: true
   sni: 138.199.35.206
   skip-cert-verify: true
-- name: 🇺🇸US_6|4.4MB/s|1KB/s
-  password: None
+- name: 🇺🇸US_3|2.1MB/s|1KB/s
+  port: 1080
+  server: 52.128.241.107
+  skip-cert-verify: true
+  type: socks5
+- name: US - zhuhai.uk|1KB/s
+  type: http
+  server: 138.199.35.209
   port: 9002
-  server: 138.199.35.195
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_13|3.1MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.205
   skip-cert-verify: true
   tls: true
   type: http
+  udp: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.219
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 02|1KB/s
   type: socks5
   server: 104.168.249.36
   port: 1080
   username: test123
   password: test123
+- name: 🇺🇸US_10|2.0MB/s|1KB/s
+  port: 443
+  server: 129.153.93.183
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇺🇸US_11|2.7MB/s|1KB/s
   password: None
   port: 9002
@@ -80,49 +97,25 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_10|2.0MB/s|1KB/s
-  port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 68.235.56.59
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: 🇺🇸US_15|3.1MB/s|1KB/s
   port: 8443
   server: 129.212.181.253
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_7|3.8MB/s|0KB/s
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|3.5MB/s|0KB/s
-  port: 1080
-  server: 52.128.241.109
-  skip-cert-verify: true
-  type: socks5
-- name: US - zhuhai.uk 06|0KB/s
-  type: http
-  server: 138.199.35.219
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_1|2.7MB/s|0KB/s
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  type: http
-- name: 🇺🇸US_3|2.1MB/s
-  port: 1080
-  server: 52.128.241.107
   skip-cert-verify: true
-  type: socks5
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
