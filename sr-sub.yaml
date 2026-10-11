@@ -1,26 +1,10 @@
-# Mac hourly sync 2026-10-11 16:03:29 | alive 4
+# Mac hourly sync 2026-10-11 17:02:02 | alive 1
 proxies:
-- name: 🇬🇧GB_1|2.7MB/s|478KB/s
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
+- name: SG - zhuhai.uk 02|291KB/s
   type: http
-- name: 🇺🇸US_2|3.0MB/s|433KB/s
+  server: 146.70.29.45
   port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
+  username: testuser1
+  password: e4b72b531a2d10900519
   tls: true
-  type: http
-- name: 🇬🇧GB_3|3.5MB/s|344KB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_3|1.8MB/s|313KB/s
-  port: 443
-  server: 161.129.60.66
-  skip-cert-verify: true
-  tls: true
-  type: http
+  sni: 92461d2d.acsnet.co
