@@ -1,22 +1,56 @@
-# Mac hourly sync 2026-10-11 20:04:19 | alive 3
+# Mac hourly sync 2026-10-11 21:02:33 | alive 9
 proxies:
-- name: SG - zhuhai.uk 02|236KB/s
-  type: http
-  server: 146.70.29.45
+- name: 🇯🇵JP-149.22.87.241-0234 | 28.915MB|391KB/s
+  server: 149.22.87.241
   port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: 92461d2d.acsnet.co
-- name: 🇵🇱PL_2|1.8MB/s|221KB/s
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-37.19.198.243-0160 | 55.236MB|331KB/s
+  server: 37.19.198.243
   port: 443
-  server: 37.120.156.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇳IN_1|2.1MB/s|196KB/s
-  port: 9443
-  server: 165.231.253.58
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-138.199.42.68-0080 | 0.0MB|328KB/s
+  server: 138.199.42.68
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧GB-149.102.132.184-0204 | 3.897MB|314KB/s
+  server: 149.102.132.184
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
+- name: 🇳🇱NL-193.29.139.147-0079 | 61.552MB|305KB/s
+  server: 193.29.139.147
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇨🇦CA-51.222.136.236-0191 | 8.334MB|296KB/s
+  server: 51.222.136.236
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 🇺🇸US-173.244.56.9-0109 | 155.055MB|292KB/s
+  server: 173.244.56.9
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇸🇬SG-68.183.227.4-0253 | 17.322MB|251KB/s
+  server: 68.183.227.4
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧GB-82.38.31.214-0089 | 57.529MB|251KB/s
+  server: 82.38.31.214
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
