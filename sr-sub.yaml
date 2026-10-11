@@ -1,56 +1,41 @@
-# Mac hourly sync 2026-10-11 21:02:33 | alive 9
+# Mac hourly sync 2026-10-11 22:02:34 | alive 6
 proxies:
-- name: 🇯🇵JP-149.22.87.241-0234 | 28.915MB|391KB/s
-  server: 149.22.87.241
+- name: 🇺🇸US-140.82.63.79-0213 | 46.457MB|197KB/s
+  server: 140.82.63.79
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ZoZtfPOyVvmKARUN
+- name: 🇬🇧GB-82.38.31.159-0093 | 57.975MB|179KB/s
+  server: 82.38.31.159
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇨🇦CA-149.22.95.183-0110 | 74.991MB|177KB/s
+  server: 149.22.95.183
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-37.19.198.243-0160 | 55.236MB|331KB/s
-  server: 37.19.198.243
+- name: 🇺🇸US-37.19.198.244-0174 | 55.461MB|173KB/s
+  server: 37.19.198.244
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-138.199.42.68-0080 | 0.0MB|328KB/s
-  server: 138.199.42.68
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧GB-149.102.132.184-0204 | 3.897MB|314KB/s
-  server: 149.102.132.184
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-- name: 🇳🇱NL-193.29.139.147-0079 | 61.552MB|305KB/s
-  server: 193.29.139.147
+- name: 🇬🇧GB-82.38.31.179-0094 | 59.206MB|160KB/s
+  server: 82.38.31.179
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇨🇦CA-51.222.136.236-0191 | 8.334MB|296KB/s
-  server: 51.222.136.236
-  port: 8882
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: 🇺🇸US-173.244.56.9-0109 | 155.055MB|292KB/s
-  server: 173.244.56.9
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇸🇬SG-68.183.227.4-0253 | 17.322MB|251KB/s
-  server: 68.183.227.4
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧GB-82.38.31.214-0089 | 57.529MB|251KB/s
-  server: 82.38.31.214
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: US - zhuhai.uk|147KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.201
+  skip-cert-verify: true
