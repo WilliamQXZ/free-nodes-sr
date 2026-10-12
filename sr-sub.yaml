@@ -1,46 +1,119 @@
-# Mac hourly sync 2026-10-12 06:42:31 | alive 7
+# Mac hourly sync 2026-10-13 01:46:44 | alive 16
 proxies:
-- name: 🇺🇸US-37.19.198.243-0115 | 3.602MB|621KB/s
-  server: 37.19.198.243
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #9|2KB/s'
+  network: tcp
   port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-82.38.31.208-0096 | 64.52MB|582KB/s
-  server: 82.38.31.208
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.192-0090 | 66.18MB|576KB/s
-  server: 82.38.31.192
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.174-0112 | 68.167MB|543KB/s
-  server: 82.38.31.174
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇺🇸US-64.74.163.69-0087 | 62.097MB|541KB/s
-  server: 64.74.163.69
-  port: 18766
-  type: ss
-  cipher: aes-128-gcm
-  password: 4efe1af272e7292139b889f6a63ee071
-- name: PL - zhuhai.uk|427KB/s
-  type: http
-  server: 37.120.156.18
-  port: 443
-  tls: true
+  server: 186.190.211.188
+  servername: 186.190.211.188
   skip-cert-verify: true
-- name: JP - zhuhai.uk 02|300KB/s
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  username: 'null'
-  password: 'null'
   tls: true
-  sni: fan.571589.xyz
+  type: vless
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+- encryption: none
+  name: '🇮🇹[www.v2nodes.com] vless-IT-1... #1|1KB/s'
+  network: tcp
+  port: 10086
+  server: 204.216.216.23
+  tls: false
+  type: vless
+  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
+- cipher: aes-256-gcm
+  name: 🇬🇧[www.v2nodes.com] ss-GB-1289...|1KB/s
+  password: LXchLsIwtCeUAUgu
+  port: 80
+  server: 149.102.149.207
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇳🇱[www.v2nodes.com] ss-NL-1592... #1|0KB/s'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.171
+  type: ss
+- name: 🇺🇸US_3|3.2MB/s|0KB/s
+  port: 443
+  server: 149.22.88.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: chacha20-ietf-poly1305
+  name: 🇿🇦[www.v2nodes.com] ss-ZA-1333...|0KB/s
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  port: 16233
+  server: 102.133.165.160
+  type: ss
+- name: 🇨🇦CA_2|2.5MB/s
+  port: 443
+  server: 206.223.183.13
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇦CA_1|1.5MB/s
+  port: 9443
+  server: 198.44.157.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '🇺🇸 美国 | USA #19'
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: uwu.femboy67.cc.cd
+    path: /
+- cipher: aes-256-gcm
+  name: 🇮🇹[www.v2nodes.com] ss-IT-1549...
+  password: itzvpn@321
+  port: 8388
+  server: 57.131.48.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇩[www.v2nodes.com] ss-ID-1553...
+  password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
+  port: 31348
+  server: 103.160.63.199
+  type: ss
+- name: 🇫🇷FR_1|1.2MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  skip-cert-verify: true
+  sni: ip5.934618.xyz
+  type: anytls
+  udp: true
+- cipher: aes-256-cfb
+  name: '🇨🇦 加拿大 | CAN #1'
+  password: amazonskr05
+  port: 443
+  server: 3.97.11.240
+  type: ss
+  udp: true
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #11'
+  password: UX82473651
+  port: 443
+  server: real-werewolf.rooster465.autos
+  skip-cert-verify: true
+  sni: real-werewolf.rooster465.autos
+  type: trojan
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #10'
+  password: UX82473651
+  port: 443
+  server: present-ram.rooster465.autos
+  skip-cert-verify: true
+  sni: present-ram.rooster465.autos
+  type: trojan
+- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #7'
+  password: UX82473651
+  port: 443
+  server: full-egret.rooster465.autos
+  skip-cert-verify: true
+  sni: full-egret.rooster465.autos
+  type: trojan
