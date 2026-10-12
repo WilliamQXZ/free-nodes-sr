@@ -1,5 +1,23 @@
-# Mac hourly sync 2026-10-12 06:42:36 | alive 27
+# Mac hourly sync 2026-10-13 01:46:51 | alive 29
 proxies:
+- name: 🇺🇸US_3|3.2MB/s|0KB/s
+  port: 443
+  server: 149.22.88.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '🇺🇸 美国 | USA #19'
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: uwu.femboy67.cc.cd
+    path: /
 - name: 🇺🇸US-37.19.198.243-0115 | 3.602MB|621KB/s
   server: 37.19.198.243
   port: 443
