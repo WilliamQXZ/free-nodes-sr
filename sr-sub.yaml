@@ -1,66 +1,67 @@
-# Mac hourly sync 2026-10-14 05:01:34 | alive 7
+# Mac hourly sync 2026-10-14 06:01:47 | alive 7
 proxies:
-- name: 🇰🇷_KR_韩国|2.7MB/s
-  type: vmess
-  server: 43.108.103.167
-  port: 123
-  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: NL_speednode_0007|637KB/s
+  port: 9002
+  server: 84.17.47.148
   skip-cert-verify: true
-  network: http
+  tls: true
+  type: http
   udp: true
+- name: 🇺🇸US-172.96.160.250-2067 | 4.497MB|634KB/s
+  server: ruot.ayucloudservices.nl
+  port: 35016
+  type: ss
+  cipher: aes-128-gcm
+  password: 9c51ca33-a332-4de5-8677-5624e940097c
+- name: US - zhuhai.uk 07|581KB/s
+  type: http
+  server: 138.199.35.220
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|553KB/s
+  type: http
+  server: 138.199.35.218
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: https://github.com/*********-*...|976KB/s
-  port: 24667
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 4|450KB/s
+  port: 54177
   protocol: udp
-  server: 62.210.70.191
+  server: 5.83.129.90
   skip-cert-verify: true
-  sni: bing.com
+  sni: apple.com
   type: hysteria
-  up: 11 Mbps
-- name: SG - zhuhai.uk|675KB/s
+  up: 500
+- name: Public Welfare - zhuhai.uk|305KB/s
   type: vless
-  server: tongue-expects-begins-old.trycloudflare.com
+  server: v.toe.dpdns.org
   port: 443
-  uuid: c01391fa-7bd3-4b9d-b2db-4829b75e30da
+  uuid: e3d9cbf2-890e-46bb-a40e-f36923e5be9a
   tls: true
-  servername: tongue-expects-begins-old.trycloudflare.com
+  servername: pw.gams.dpdns.org
   network: ws
   ws-opts:
-    path: /
-- name: RO_speednode_0045|631KB/s
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
+    path: /vplaetshs
+    headers:
+      Host: pw.gams.dpdns.org
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: VideoRenderer
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2|234KB/s'
+  network: grpc
+  port: 443
+  server: renderer-bridge-2-114.mirra.now
+  servername: renderer-bridge-2-114.mirra.now
   tls: true
-  type: http
-  udp: true
-- name: DE - zhuhai.uk|623KB/s
-  type: http
-  server: 158.173.154.3
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: NL_speednode_0009|613KB/s
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- auth: b42d90fa667942aebc734d60
-  name: 🇦🇺 澳大利亚 | AUS|458KB/s
-  obfs: salamander
-  obfs-password: b42d90fa667942aebc734d60
-  password: b42d90fa667942aebc734d60
-  port: 20000
-  ports: 20000-30000
-  server: 137.23.2.56
-  skip-cert-verify: true
-  sni: rmgyvpn.rest
-  type: hysteria2
+  type: vless
+  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
