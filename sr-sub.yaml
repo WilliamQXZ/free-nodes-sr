@@ -1,20 +1,40 @@
-# Mac hourly sync 2026-10-13 23:03:28 | alive 2
+# Mac hourly sync 2026-10-14 00:04:31 | alive 6
 proxies:
-- name: VN - zhuhai.uk|415KB/s
-  type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 55688
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
+- name: US - zhuhai.uk 04|377KB/s
+  type: http
+  server: 38.28.193.188
+  port: 443
+  username: 'null'
+  password: 'null'
   tls: true
-  servername: bilibili-vn.biliimg.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
-    short-id: a46bb5972cf50671
-- name: ES - zhuhai.uk|283KB/s
+  skip-cert-verify: true
+- name: 🇬🇧GB_4|1.3MB/s|342KB/s
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|1.4MB/s|335KB/s
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_1|2.2MB/s|274KB/s
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: ES - zhuhai.uk|214KB/s
   type: http
   server: 130.195.250.34
   port: 443
+  tls: true
+  skip-cert-verify: true
+- name: HK - zhuhai.uk 02|150KB/s
+  type: http
+  server: 119.28.24.235
+  port: 3128
   tls: true
   skip-cert-verify: true
