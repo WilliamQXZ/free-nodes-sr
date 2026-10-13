@@ -1,12 +1,14 @@
-# Mac hourly sync 2026-10-13 23:03:34 | alive 7
+# Mac hourly sync 2026-10-14 00:04:35 | alive 7
 proxies:
-- name: US - zhuhai.uk 05|22KB/s
+- name: US - zhuhai.uk 04|377KB/s
   type: http
-  server: 45.145.73.240
-  port: 8443
+  server: 38.28.193.188
+  port: 443
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk 03|2KB/s
   type: http
   server: 138.199.35.202
   port: 9002
@@ -14,45 +16,36 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|0KB/s
-  type: http
-  server: 138.199.35.216
-  port: 9002
-  tls: true
-  sni: 138.199.35.216
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  tls: true
-  sni: 138.199.35.198
-  skip-cert-verify: true
-- name: 🇺🇸US_1|2.6MB/s|1KB/s
+- name: 🇺🇸US_1|2.6MB/s|2KB/s
   port: 443
   server: 68.235.56.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk
+- name: US - zhuhai.uk 05|1KB/s
   type: http
-  server: 138.199.35.210
+  server: 45.145.73.240
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk|1KB/s
+  type: http
+  server: 138.199.35.200
   port: 9002
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
+- name: US - zhuhai.uk 02
+  type: http
+  server: purposebydesig.club
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+  username: bnVsbDpudWxs
   tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
