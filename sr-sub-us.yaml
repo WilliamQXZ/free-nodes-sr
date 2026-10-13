@@ -1,51 +1,47 @@
-# Mac hourly sync 2026-10-14 00:04:35 | alive 7
+# Mac hourly sync 2026-10-14 01:03:53 | alive 3
 proxies:
-- name: US - zhuhai.uk 04|377KB/s
-  type: http
-  server: 38.28.193.188
+- name: US - zhuhai.uk|148KB/s
+  type: vmess
+  server: iAhxTdkU1K5bBhJA.v.3dns.vip
   port: 443
-  username: 'null'
-  password: 'null'
+  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
+  alterId: 0
+  cipher: auto
   tls: true
-  skip-cert-verify: true
+  servername: iAhxTdkU1K5bBhJA.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: iAhxTdkU1K5bBhJA.v.3dns.vip
 - name: US - zhuhai.uk 03|2KB/s
-  type: http
-  server: 138.199.35.202
-  port: 9002
-  username: 'null'
-  password: 'null'
+  type: vless
+  server: us1-r.link-t7.com
+  port: 10238
+  uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
   tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_1|2.6MB/s|2KB/s
+  servername: s0.awsstatic.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: movie
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+- alpn:
+  - h3
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #2|1KB/s'
+  network: ws
   port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
+  server: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
+  servername: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
   tls: true
-  type: http
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 45.145.73.240
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: purposebydesig.club
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: carolinafreigh.fun
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
+  type: vless
+  udp: true
+  uuid: b8e59255-d392-c427-535d-bc1f8f444c4e
+  ws-opts:
+    headers:
+      Host: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
+    path: /ws/b8e59255-d392-c427-535d-bc1f8f444c4e
