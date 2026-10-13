@@ -1,16 +1,23 @@
-# Mac hourly sync 2026-10-13 12:02:04 | alive 2
+# Mac hourly sync 2026-10-13 13:02:41 | alive 3
 proxies:
-- name: SG - zhuhai.uk 02|308KB/s
-  type: http
-  server: 146.70.29.45
+- name: 🇺🇸US_23|1.5MB/s|535KB/s
   port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: 92461d2d.acsnet.co
-- name: CZ - zhuhai.uk|296KB/s
-  type: http
-  server: 185.216.35.130
-  port: 443
-  tls: true
+  server: 45.63.38.134
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|2.1MB/s|R002-260618|392KB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_16|2.9MB/s|345KB/s
+  port: 443
+  server: 193.239.236.134
+  skip-cert-verify: true
+  tls: true
+  type: http
