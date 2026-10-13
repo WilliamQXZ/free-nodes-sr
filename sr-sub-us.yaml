@@ -1,50 +1,54 @@
-# Mac hourly sync 2026-10-13 16:03:03 | alive 18
+# Mac hourly sync 2026-10-13 17:02:32 | alive 21
 proxies:
-- name: 🇺🇸US_23|1.5MB/s|515KB/s
-  port: 443
-  server: 45.63.38.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk|19KB/s
-  type: http
-  server: 138.199.35.195
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.195
-  skip-cert-verify: true
-- name: 🇺🇸US_7|3.3MB/s|9KB/s
+- name: 🇺🇸US_7|3.3MB/s|18KB/s
   port: 9002
   server: 138.199.35.220
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: US - zhuhai.uk 02|16KB/s
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  tls: true
+  sni: 138.199.35.216
+  skip-cert-verify: true
 - name: 🇺🇸US_6|4.5MB/s|2KB/s
   port: 443
   server: 44.239.226.15
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_3|4.1MB/s|2KB/s
-  port: 443
-  server: 148.135.10.80
+- name: 🇺🇸US_14|2.2MB/s|2KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 04|2KB/s
-  type: anytls
-  server: anytls2.864106.xyz
-  port: 19000
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  sni: anytls2.864106.xyz
+  username: 'null'
+- name: 🇺🇸US_23|1.5MB/s|2KB/s
+  port: 443
+  server: 45.63.38.134
   skip-cert-verify: true
-- name: 🇺🇸US_22|1.2MB/s|2KB/s
+  tls: true
+  type: http
+- name: 🇺🇸US_2|1.5MB/s|1KB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|3.4MB/s|1KB/s
   port: 8443
-  server: 44.217.145.28
+  server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_21|3.0MB/s|1KB/s
+  port: 443
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
@@ -54,56 +58,64 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_11|3.2MB/s|1KB/s
-  port: 9002
+- name: US - zhuhai.uk|1KB/s
+  type: http
   server: 138.199.35.210
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_12|2.8MB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-  server: 38.28.193.1
+  server: 198.44.135.27
   port: 443
   tls: true
-  sni: 38.28.193.1
   skip-cert-verify: true
-- name: 🇺🇸US_13|3.4MB/s|1KB/s
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 11|1KB/s
-  type: http
-  server: 138.199.35.199
+- name: 🇺🇸US_10|3.1MB/s|1KB/s
   port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.199
+  server: 138.199.35.200
   skip-cert-verify: true
-- name: 🇺🇸US_14|2.2MB/s|1KB/s
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_9|2.0MB/s|1KB/s
   password: 'null'
   port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: US - zhuhai.uk 10|1KB/s
-  type: http
   server: 138.199.35.205
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_15|1.5MB/s|0KB/s
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_19|1.6MB/s|1KB/s
+  port: 443
+  server: 64.98.50.100
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_22|1.2MB/s|1KB/s
+  port: 8443
+  server: 44.217.145.28
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_15|1.5MB/s|1KB/s
   port: 9002
   server: 138.199.35.203
   skip-cert-verify: true
   tls: true
   type: http
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 138.199.35.214
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - name: 🇺🇸US_8|3.8MB/s|0KB/s
   password: None
   port: 9002
@@ -111,11 +123,12 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 09
+- name: US - zhuhai.uk 05|0KB/s
   type: http
-  server: tzoa.fun
-  port: 443
+  server: 138.199.35.207
+  port: 9002
   tls: true
+  skip-cert-verify: true
 - name: 🇺🇸_US_美国
   type: vmess
   server: guanwang.awsno.com
