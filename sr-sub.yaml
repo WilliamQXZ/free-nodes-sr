@@ -1,15 +1,20 @@
-# Mac hourly sync 2026-10-13 18:04:23 | alive 2
+# Mac hourly sync 2026-10-13 19:03:29 | alive 2
 proxies:
-- name: HU - zhuhai.uk|596KB/s
-  type: http
-  server: 146.70.203.18
+- name: 🇺🇸US_23|1.5MB/s|559KB/s
   port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇩🇪DE_1|1.1MB/s|473KB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
+  server: 45.63.38.134
   skip-cert-verify: true
   tls: true
   type: http
+- name: Public Welfare - zhuhai.uk|287KB/s
+  type: vless
+  server: v.toe.dpdns.org
+  port: 443
+  uuid: 715eb586-1d27-413c-b144-cab6be5d8af1
+  tls: true
+  servername: pw.gams.dpdns.org
+  network: ws
+  ws-opts:
+    path: /vplaetshs
+    headers:
+      Host: pw.gams.dpdns.org
