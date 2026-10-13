@@ -1,40 +1,22 @@
-# Mac hourly sync 2026-10-14 00:04:31 | alive 6
+# Mac hourly sync 2026-10-14 01:03:49 | alive 2
 proxies:
-- name: US - zhuhai.uk 04|377KB/s
+- name: RO - zhuhai.uk|239KB/s
   type: http
-  server: 38.28.193.188
+  server: 193.176.84.32
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk|148KB/s
+  type: vmess
+  server: iAhxTdkU1K5bBhJA.v.3dns.vip
   port: 443
-  username: 'null'
-  password: 'null'
+  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
+  alterId: 0
+  cipher: auto
   tls: true
-  skip-cert-verify: true
-- name: 🇬🇧GB_4|1.3MB/s|342KB/s
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1.4MB/s|335KB/s
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_1|2.2MB/s|274KB/s
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: ES - zhuhai.uk|214KB/s
-  type: http
-  server: 130.195.250.34
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: HK - zhuhai.uk 02|150KB/s
-  type: http
-  server: 119.28.24.235
-  port: 3128
-  tls: true
-  skip-cert-verify: true
+  servername: iAhxTdkU1K5bBhJA.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: iAhxTdkU1K5bBhJA.v.3dns.vip
