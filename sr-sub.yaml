@@ -1,102 +1,20 @@
-# Mac hourly sync 2026-10-13 09:02:06 | alive 16
+# Mac hourly sync 2026-10-13 10:04:13 | alive 3
 proxies:
-- name: 🇺🇸US-140.82.63.79-0119 | 62.03MB|635KB/s
-  server: 140.82.63.79
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ZoZtfPOyVvmKARUN
-- name: 🇺🇸US-37.19.198.236-0196 | 46.625MB|572KB/s
-  server: 37.19.198.236
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-82.38.31.174-0084 | 55.688MB|561KB/s
-  server: 82.38.31.174
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇺🇸US-16.144.66.136-0111 | 5.036MB|557KB/s
-  server: alert-titmouse.rooster465.autos
-  port: 443
-  type: trojan
-  password: UX82473651
-  sni: alert-titmouse.rooster465.autos
-  skip-cert-verify: false
-- name: 🇬🇧GB-82.38.31.207-0086 | 56.642MB|551KB/s
-  server: 82.38.31.207
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: US - zhuhai.uk|544KB/s
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  tls: true
-  sni: 138.199.35.208
-  skip-cert-verify: true
-- name: 🇺🇸US_12|2.8MB/s|535KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB-82.38.31.205-0106 | 55.079MB|530KB/s
-  server: 82.38.31.205
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US_3|4.1MB/s|529KB/s
+- name: 🇺🇸US_3|4.1MB/s|541KB/s
   port: 443
   server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_21|3.0MB/s|514KB/s
+- name: 🇬🇧GB_2|1.2MB/s|514KB/s
   port: 443
-  server: 12.202.180.10
+  server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_8|3.8MB/s|458KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
+- name: CZ - zhuhai.uk|378KB/s
   type: http
-- name: 🇺🇸US_16|2.9MB/s|432KB/s
-  port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: NL - zhuhai.uk 02|427KB/s
-  type: http
-  server: 84.17.47.148
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: ID - zhuhai.uk|406KB/s
-  type: http
-  server: 178.248.73.58
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: SG - zhuhai.uk|398KB/s
-  type: http
-  server: 154.26.139.24
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: IE - zhuhai.uk|377KB/s
-  type: http
-  server: 149.88.96.12
+  server: 185.216.35.130
   port: 443
   tls: true
   skip-cert-verify: true
