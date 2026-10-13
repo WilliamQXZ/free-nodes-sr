@@ -1,26 +1,6 @@
-# Mac hourly sync 2026-10-13 13:02:46 | alive 24
+# Mac hourly sync 2026-10-13 14:03:03 | alive 22
 proxies:
-- name: 🇺🇸US_23|1.5MB/s|535KB/s
-  port: 443
-  server: 45.63.38.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_16|2.9MB/s|345KB/s
-  port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 10|15KB/s
-  type: http
-  server: 138.199.35.205
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk|15KB/s
+- name: US - zhuhai.uk|21KB/s
   type: http
   server: 138.199.35.195
   port: 9002
@@ -29,27 +9,43 @@ proxies:
   tls: true
   sni: 138.199.35.195
   skip-cert-verify: true
-- name: 🇺🇸US_15|1.5MB/s|2KB/s
+- name: US - zhuhai.uk 10|13KB/s
+  type: http
+  server: 138.199.35.205
   port: 9002
-  server: 138.199.35.203
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_14|2.2MB/s|6KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_6|4.5MB/s|2KB/s
+  username: 'null'
+- name: 🇺🇸US_23|1.5MB/s|2KB/s
   port: 443
-  server: 44.239.226.15
+  server: 45.63.38.134
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_3|4.1MB/s|2KB/s
+- name: US - zhuhai.uk 08|2KB/s
+  type: http
+  server: jewelscollecti.icu
   port: 443
-  server: 148.135.10.80
+  username: bnVsbDpudWxs
+  tls: true
+- name: 🇺🇸US_19|1.6MB/s|2KB/s
+  port: 443
+  server: 64.98.50.100
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_13|3.4MB/s|2KB/s
-  port: 8443
-  server: 44.248.167.117
+- name: 🇺🇸US_18|2.3MB/s|1KB/s
+  port: 9443
+  server: 149.88.21.140
   skip-cert-verify: true
   tls: true
   type: http
@@ -60,21 +56,22 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_19|1.6MB/s|1KB/s
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|3.2MB/s|1KB/s
+- name: 🇺🇸US_7|3.3MB/s|1KB/s
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.220
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_22|1.2MB/s|1KB/s
-  port: 8443
-  server: 44.217.145.28
+  udp: true
+- name: 🇺🇸US_6|4.5MB/s|1KB/s
+  port: 443
+  server: 44.239.226.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_15|1.5MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.203
   skip-cert-verify: true
   tls: true
   type: http
@@ -91,24 +88,21 @@ proxies:
   tls: true
   sni: 38.28.193.1
   skip-cert-verify: true
-- name: 🇺🇸US_7|3.3MB/s|1KB/s
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 138.199.35.200
   port: 9002
-  server: 138.199.35.220
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_22|1.2MB/s|1KB/s
+  port: 8443
+  server: 44.217.145.28
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: anytls
-  server: anytls2.864106.xyz
-  port: 19000
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  sni: anytls2.864106.xyz
-  skip-cert-verify: true
-- name: 🇺🇸US_17|1.7MB/s|1KB/s
-  port: 9443
-  server: 198.44.135.19
+- name: 🇺🇸US_3|4.1MB/s|1KB/s
+  port: 443
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
@@ -118,7 +112,13 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 11|1KB/s
+- name: 🇺🇸US_13|3.4MB/s|1KB/s
+  port: 8443
+  server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 11|0KB/s
   type: http
   server: 138.199.35.199
   port: 9002
@@ -127,35 +127,22 @@ proxies:
   tls: true
   sni: 138.199.35.199
   skip-cert-verify: true
-- name: 🇺🇸US_14|2.2MB/s|1KB/s
-  password: 'null'
+- name: US - zhuhai.uk 09|0KB/s
+  type: http
+  server: tzoa.fun
+  port: 443
+  tls: true
+- name: 🇺🇸US_11|3.2MB/s|0KB/s
   port: 9002
-  server: 138.199.35.196
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 🇺🇸US_18|2.3MB/s|1KB/s
-  port: 9443
-  server: 149.88.21.140
+- name: US - zhuhai.uk 04
+  type: anytls
+  server: anytls2.864106.xyz
+  port: 19000
+  password: github.com/Alvin9999-newpac/fanqiang
+  udp: true
+  sni: anytls2.864106.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|1.5MB/s|1KB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_21|3.0MB/s|0KB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 08
-  type: http
-  server: jewelscollecti.icu
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
