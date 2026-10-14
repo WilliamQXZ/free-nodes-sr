@@ -1,8 +1,59 @@
-# Mac hourly sync 2026-10-15 03:35:37 | alive 1
+# Mac hourly sync 2026-10-15 04:30:08 | alive 4
 proxies:
-- name: ID - zhuhai.uk|118KB/s
-  type: http
-  server: 178.248.73.58
+- name: KR - zhuhai.uk 03|1.5MB/s
+  type: vmess
+  server: B1vL20htOxCqu0nR.v.3dns.vip
   port: 443
+  uuid: ad8685f2-5d17-411e-855c-1cc2ed5144a9
+  alterId: 0
+  cipher: auto
   tls: true
-  skip-cert-verify: true
+  servername: B1vL20htOxCqu0nR.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: B1vL20htOxCqu0nR.v.3dns.vip
+- encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
+  http-opts:
+    headers:
+      Host:
+      - b--g.bntabriz.ir
+    path:
+    - /
+  name: 🇳🇱NL_1|2.0MB/s|737KB/s
+  network: http
+  port: 25566
+  server: g--p.soreanapanel.com
+  type: vless
+  udp: true
+  uuid: 938bee33-7319-4c39-99bf-1128fab04c7d
+  xudp: true
+- name: SG - zhuhai.uk 06|727KB/s
+  type: vmess
+  server: 5FPTMOqdtsxQRFmA.v.3dns.vip
+  port: 443
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: 5FPTMOqdtsxQRFmA.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 5FPTMOqdtsxQRFmA.v.3dns.vip
+- name: SG - zhuhai.uk 02|696KB/s
+  type: vmess
+  server: kzgzszit6eOtPvfc.v.3dns.vip
+  port: 443
+  uuid: 10d6665f-10c9-4f03-9b83-ba45968f748d
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: kzgzszit6eOtPvfc.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: kzgzszit6eOtPvfc.v.3dns.vip
