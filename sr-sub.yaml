@@ -1,59 +1,20 @@
-# Mac hourly sync 2026-10-15 04:30:08 | alive 4
+# Mac hourly sync 2026-10-15 06:05:11 | alive 2
 proxies:
-- name: KR - zhuhai.uk 03|1.5MB/s
-  type: vmess
-  server: B1vL20htOxCqu0nR.v.3dns.vip
-  port: 443
-  uuid: ad8685f2-5d17-411e-855c-1cc2ed5144a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: B1vL20htOxCqu0nR.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: B1vL20htOxCqu0nR.v.3dns.vip
-- encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
-  http-opts:
-    headers:
-      Host:
-      - b--g.bntabriz.ir
-    path:
-    - /
-  name: 🇳🇱NL_1|2.0MB/s|737KB/s
-  network: http
-  port: 25566
-  server: g--p.soreanapanel.com
-  type: vless
+- alpn:
+  - http/1.1
+  name: 🇩🇪 德国 | DEU 9|829KB/s
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
+  type: trojan
   udp: true
-  uuid: 938bee33-7319-4c39-99bf-1128fab04c7d
-  xudp: true
-- name: SG - zhuhai.uk 06|727KB/s
-  type: vmess
-  server: 5FPTMOqdtsxQRFmA.v.3dns.vip
-  port: 443
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: 5FPTMOqdtsxQRFmA.v.3dns.vip
+- name: SG - zhuhai.uk 04|519KB/s
+  type: vless
+  server: 178.94.25.73
+  port: 14430
+  uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
   network: ws
   ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 5FPTMOqdtsxQRFmA.v.3dns.vip
-- name: SG - zhuhai.uk 02|696KB/s
-  type: vmess
-  server: kzgzszit6eOtPvfc.v.3dns.vip
-  port: 443
-  uuid: 10d6665f-10c9-4f03-9b83-ba45968f748d
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: kzgzszit6eOtPvfc.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: kzgzszit6eOtPvfc.v.3dns.vip
+    path: /vless
