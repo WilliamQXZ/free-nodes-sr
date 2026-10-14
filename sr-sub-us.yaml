@@ -1,68 +1,76 @@
-# Mac hourly sync 2026-10-15 03:35:42 | alive 9
+# Mac hourly sync 2026-10-15 04:30:44 | alive 8
 proxies:
-- name: US - zhuhai.uk 10
+- name: US - zhuhai.uk 03|1KB/s
   type: http
-  server: jewelscollecti.icu
-  port: 443
-  tls: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: webdrone.club
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: 149.88.21.129
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: 138.199.35.205
+  server: 138.199.35.206
   port: 9002
   username: 'null'
-  password: None
+  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-  server: 38.95.111.226
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: 138.199.35.211
+  server: 138.199.35.218
   port: 9002
   tls: true
-  sni: 138.199.35.211
   skip-cert-verify: true
-- name: US - zhuhai.uk 09
+- name: US - zhuhai.uk 05|1KB/s
   type: vmess
-  server: Dv9bYFLawYZl3oU9.v.3dns.vip
+  server: 0FN8ne0VXwJLjT6E.v.3dns.vip
   port: 443
-  uuid: a263bd66-828f-45ee-9197-ffc801ab019c
+  uuid: 1d84e480-8fd2-4fae-96de-e46fe36ffe86
   alterId: 0
   cipher: auto
   tls: true
-  servername: Dv9bYFLawYZl3oU9.v.3dns.vip
+  servername: 0FN8ne0VXwJLjT6E.v.3dns.vip
   network: ws
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: Dv9bYFLawYZl3oU9.v.3dns.vip
-- name: US - zhuhai.uk 03
+      Host: 0FN8ne0VXwJLjT6E.v.3dns.vip
+- name: '🇺🇸 美国 | USA #8 #2|1KB/s'
+  password: ae7eb4dwyaz25pxwgq59
+  port: 59689
+  server: 66.23.203.21
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US - zhuhai.uk 02|1KB/s
   type: http
-  server: 138.199.35.207
+  server: 138.199.35.204
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: 🇺🇸_US_美国_1
+  type: vless
+  server: s880.gogocs.xyz
+  port: 443
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  udp: true
 - name: US - zhuhai.uk 04
   type: http
-  server: 148.135.10.80
-  port: 443
+  server: 138.199.35.210
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
-  sni: 148.135.10.80
   skip-cert-verify: true
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
