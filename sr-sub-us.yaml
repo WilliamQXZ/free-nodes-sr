@@ -1,59 +1,68 @@
-# Mac hourly sync 2026-10-15 01:12:38 | alive 8
+# Mac hourly sync 2026-10-15 03:35:42 | alive 9
 proxies:
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk 10
   type: http
-  server: 138.199.35.206
-  port: 9002
+  server: jewelscollecti.icu
+  port: 443
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
+- name: US - zhuhai.uk 02
   type: http
-  server: 45.145.73.240
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: '🇺🇸 美国 | USA #9|1KB/s'
-  password: ae7eb4dwyaz25pxwgq59
-  port: 59689
-  server: 66.23.203.21
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.201
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 138.199.35.212
-  port: 9002
+  server: webdrone.club
+  port: 443
   username: 'null'
   password: None
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
-  type: http
-  server: 138.199.35.218
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.218
-  skip-cert-verify: true
 - name: US - zhuhai.uk 07
   type: http
-  server: carolinafreigh.fun
+  server: 149.88.21.129
   port: 443
-  username: bnVsbDpudWxs
   tls: true
-- name: US - zhuhai.uk 04
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05
+  type: http
+  server: 138.199.35.205
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: 38.95.111.226
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  tls: true
+  sni: 138.199.35.211
+  skip-cert-verify: true
+- name: US - zhuhai.uk 09
+  type: vmess
+  server: Dv9bYFLawYZl3oU9.v.3dns.vip
+  port: 443
+  uuid: a263bd66-828f-45ee-9197-ffc801ab019c
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: Dv9bYFLawYZl3oU9.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: Dv9bYFLawYZl3oU9.v.3dns.vip
+- name: US - zhuhai.uk 03
   type: http
   server: 138.199.35.207
   port: 9002
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04
+  type: http
+  server: 148.135.10.80
+  port: 443
+  tls: true
+  sni: 148.135.10.80
   skip-cert-verify: true
