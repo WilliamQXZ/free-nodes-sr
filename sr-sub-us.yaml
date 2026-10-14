@@ -1,35 +1,59 @@
-# Mac hourly sync 2026-10-14 23:18:46 | alive 4
+# Mac hourly sync 2026-10-15 01:12:38 | alive 8
 proxies:
-- name: US - zhuhai.uk|8KB/s
-  type: socks5
-  server: 104.168.249.36
-  port: 1080
-  username: test123
-  password: test123
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 45.145.73.240
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: '🇺🇸 美国 | USA #9|1KB/s'
+  password: ae7eb4dwyaz25pxwgq59
+  port: 59689
+  server: 66.23.203.21
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: US - zhuhai.uk 02|1KB/s
   type: http
-  server: jewelscollecti.icu
-  port: 443
+  server: 138.199.35.201
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
-- name: US - zhuhai.uk 03
+  sni: 138.199.35.201
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-  server: 38.247.141.135
-  port: 443
+  server: 138.199.35.212
+  port: 9002
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 138.199.35.218
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  sni: 138.199.35.218
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: carolinafreigh.fun
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+  username: bnVsbDpudWxs
+  tls: true
+- name: US - zhuhai.uk 04
+  type: http
+  server: 138.199.35.207
+  port: 9002
   tls: true
   skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
