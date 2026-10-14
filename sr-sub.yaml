@@ -1,53 +1,34 @@
-# Mac hourly sync 2026-10-14 17:17:04 | alive 7
+# Mac hourly sync 2026-10-14 18:15:10 | alive 5
 proxies:
-- name: SG - zhuhai.uk|1.6MB/s
-  type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 46105
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.lamer.com.sg
-  client-fingerprint: safari
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-- name: 🇺🇸US_2|2.4MB/s|751KB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
+- name: LU - zhuhai.uk|702KB/s
   type: http
-  udp: true
-- name: 🇺🇸US_5|3.1MB/s|654KB/s
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇷🇸RS_1|2.0MB/s|607KB/s
+  server: 185.221.132.242
   port: 443
-  server: 146.70.221.18
+  tls: true
+  skip-cert-verify: true
+- name: 🇩🇪DE_10|3.4MB/s|541KB/s
+  port: 8443
+  server: 188.120.225.125
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|2.5MB/s|545KB/s
+- name: 🇫🇷FR_2|3.3MB/s|481KB/s
   port: 443
-  server: 37.120.233.18
+  server: 82.65.162.76
   skip-cert-verify: true
   tls: true
   type: http
-- name: RO - zhuhai.uk 02|442KB/s
+- name: SE - zhuhai.uk|209KB/s
   type: http
-  server: 193.176.84.26
-  port: 9002
+  server: 217.210.129.243
+  port: 443
   tls: true
-  sni: www.bing.com
   skip-cert-verify: true
-- name: 🇺🇸US_10|1.1MB/s|380KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
+- name: 🇰🇷KR_1|2.2MB/s|168KB/s
+  password: Trojan@82164024
+  port: 443
+  server: kr.tronsg.com
+  skip-cert-verify: true
+  sni: kr.tronsg.com
+  type: trojan
+  udp: true
