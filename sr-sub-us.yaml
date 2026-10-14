@@ -1,20 +1,45 @@
-# Mac hourly sync 2026-10-15 04:30:44 | alive 8
+# Mac hourly sync 2026-10-15 06:20:41 | alive 9
 proxies:
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
+- name: '🇺🇸 美国 | USA #8 #2|2KB/s'
+  password: ae7eb4dwyaz25pxwgq59
+  port: 59689
+  server: 66.23.203.21
   skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 138.199.35.218
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
+- name: US - zhuhai.uk
+  type: http
+  server: 35.84.133.236
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04
+  type: http
+  server: 138.199.35.210
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_1|1.2MB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 02
+  type: http
+  server: 138.199.35.204
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05
   type: vmess
   server: 0FN8ne0VXwJLjT6E.v.3dns.vip
   port: 443
@@ -28,36 +53,6 @@ proxies:
     path: /ws-vmess
     headers:
       Host: 0FN8ne0VXwJLjT6E.v.3dns.vip
-- name: '🇺🇸 美国 | USA #8 #2|1KB/s'
-  password: ae7eb4dwyaz25pxwgq59
-  port: 59689
-  server: 66.23.203.21
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.204
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国_1
-  type: vless
-  server: s880.gogocs.xyz
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  tls: true
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  udp: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: 138.199.35.210
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
 - name: 🇺🇸_US_美国
   type: vmess
   server: guanwang.awsno.com
@@ -74,3 +69,11 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
