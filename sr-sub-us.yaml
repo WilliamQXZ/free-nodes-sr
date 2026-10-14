@@ -1,5 +1,12 @@
-# Mac hourly sync 2026-10-14 18:15:14 | alive 4
+# Mac hourly sync 2026-10-14 20:32:57 | alive 5
 proxies:
+- name: '🇺🇸 美国 | USA #9|1KB/s'
+  password: ae7eb4dwyaz25pxwgq59
+  port: 59689
+  server: 66.23.203.21
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 🇺🇸US_7|3.2MB/s|1KB/s
   port: 443
   server: 192.227.176.234
