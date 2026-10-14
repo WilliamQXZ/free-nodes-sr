@@ -1,67 +1,53 @@
-# Mac hourly sync 2026-10-14 06:01:47 | alive 7
+# Mac hourly sync 2026-10-14 17:17:04 | alive 7
 proxies:
-- name: NL_speednode_0007|637KB/s
-  port: 9002
-  server: 84.17.47.148
+- name: SG - zhuhai.uk|1.6MB/s
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 46105
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.lamer.com.sg
+  client-fingerprint: safari
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: 28f5c1f8f98a
+- name: 🇺🇸US_2|2.4MB/s|751KB/s
+  port: 9443
+  server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US-172.96.160.250-2067 | 4.497MB|634KB/s
-  server: ruot.ayucloudservices.nl
-  port: 35016
-  type: ss
-  cipher: aes-128-gcm
-  password: 9c51ca33-a332-4de5-8677-5624e940097c
-- name: US - zhuhai.uk 07|581KB/s
-  type: http
-  server: 138.199.35.220
+- name: 🇺🇸US_5|3.1MB/s|654KB/s
   port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|553KB/s
-  type: http
   server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇸RS_1|2.0MB/s|607KB/s
+  port: 443
+  server: 146.70.221.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|2.5MB/s|545KB/s
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: RO - zhuhai.uk 02|442KB/s
+  type: http
+  server: 193.176.84.26
   port: 9002
   tls: true
+  sni: www.bing.com
   skip-cert-verify: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU 4|450KB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- name: Public Welfare - zhuhai.uk|305KB/s
-  type: vless
-  server: v.toe.dpdns.org
-  port: 443
-  uuid: e3d9cbf2-890e-46bb-a40e-f36923e5be9a
-  tls: true
-  servername: pw.gams.dpdns.org
-  network: ws
-  ws-opts:
-    path: /vplaetshs
-    headers:
-      Host: pw.gams.dpdns.org
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: VideoRenderer
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2|234KB/s'
-  network: grpc
-  port: 443
-  server: renderer-bridge-2-114.mirra.now
-  servername: renderer-bridge-2-114.mirra.now
-  tls: true
-  type: vless
-  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
+- name: 🇺🇸US_10|1.1MB/s|380KB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
