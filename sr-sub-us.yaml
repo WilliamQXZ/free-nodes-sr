@@ -1,43 +1,81 @@
-# Mac hourly sync 2026-10-15 19:02:11 | alive 25
+# Mac hourly sync 2026-10-15 20:02:49 | alive 15
 proxies:
-- name: 🇺🇸US-156.146.38.168-0108 | 60.16MB|765KB/s
-  server: 156.146.38.168
+- name: 🇺🇸US-156.146.38.167-0109 | 60.427MB|347KB/s
+  server: 156.146.38.167
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-156.146.38.169-0174 | 52.458MB|763KB/s
+- name: US - zhuhai.uk 02|199KB/s
+  type: http
+  server: jewelscollecti.icu
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US-156.146.38.169-0174 | 52.458MB|1KB/s
   server: 156.146.38.169
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: US - zhuhai.uk 07|726KB/s
-  type: http
-  server: 138.199.35.218
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US-173.244.56.6-0106 | 60.665MB|726KB/s
-  server: 173.244.56.6
+- name: 🇺🇸US-156.146.38.170-0107 | 61.699MB|1KB/s
+  server: 156.146.38.170
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-37.19.198.243-0190 | 45.923MB|640KB/s
+- name: 🇺🇸US-156.146.38.168-0108 | 60.16MB|1KB/s
+  server: 156.146.38.168
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-37.19.198.243-0190 | 45.923MB|1KB/s
   server: 37.19.198.243
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: US - zhuhai.uk|605KB/s
-  type: http
-  server: 38.247.141.135
+- name: 🇺🇸US_7|3.0MB/s|1KB/s
   port: 443
-  tls: true
-  sni: 38.247.141.135
+  server: 64.98.50.100
   skip-cert-verify: true
-- name: 🇺🇸_US_美国_1|352KB/s
+  tls: true
+  type: http
+- name: 🇺🇸US-173.244.56.9-0167 | 71.893MB|1KB/s
+  server: 173.244.56.9
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-37.19.198.244-0197 | 42.57MB|1KB/s
+  server: 37.19.198.244
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: US - zhuhai.uk 04|0KB/s
+  type: http
+  server: 138.199.35.197
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US-15.204.247.206-0254 | 3.809MB|0KB/s
+  server: 15.204.247.206
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: '🇺🇸 美国 | USA #8|0KB/s'
+  password: ae7eb4dwyaz25pxwgq59
+  port: 59689
+  server: 66.23.203.21
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 🇺🇸_US_美国_1
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -53,121 +91,14 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
-- name: 🇺🇸US_9|2.5MB/s|192KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: 🇺🇸_US_美国->🇫🇷_FR_法国|4KB/s
+- name: 🇺🇸_US_美国_2
   type: vless
-  server: nat3.outsidemyheart.space
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  network: ws
-  servername: nat3.outsidemyheart.space
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /ew4p98tu34wtghe39?ed=2560
-    headers:
-      Host: nat3.outsidemyheart.space
+  server: 193.233.130.119
+  port: 10443
+  uuid: 16f78e38-8df9-4658-93e8-e49feababf5b
+  tls: false
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US-37.19.198.160-0198 | 45.135MB|1KB/s
-  server: 37.19.198.160
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.215
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US-37.19.198.244-0197 | 42.57MB|1KB/s
-  server: 37.19.198.244
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-173.244.56.9-0167 | 71.893MB|1KB/s
-  server: 173.244.56.9
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.167-0109 | 60.427MB|1KB/s
-  server: 156.146.38.167
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.170-0107 | 61.699MB|1KB/s
-  server: 156.146.38.170
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-37.19.198.236-0195 | 42.854MB|1KB/s
-  server: 37.19.198.236
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US_6|2.5MB/s|1KB/s
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 🇺🇸US_8|1.1MB/s|0KB/s
-  port: 8443
-  server: 129.212.181.253
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 06|0KB/s
-  type: http
-  server: mmgr.club
-  port: 443
-  tls: true
-  sni: mmgr.club
-  skip-cert-verify: true
-- name: '🇺🇸 美国 | USA #8|0KB/s'
-  password: ae7eb4dwyaz25pxwgq59
-  port: 59689
-  server: 66.23.203.21
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇺🇸US_7|3.0MB/s|0KB/s
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|1.7MB/s|0KB/s
-  port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US-138.199.42.68-0113 | 0.0MB|0KB/s
-  server: 138.199.42.68
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇺🇸US-15.204.247.206-0254 | 3.809MB
-  server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
 - name: 🇺🇸US-16.144.66.136-0242 | 0.0MB
   server: alert-titmouse.rooster465.autos
   port: 443
