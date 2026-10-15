@@ -1,38 +1,70 @@
-# Mac hourly sync 2026-10-15 20:02:37 | alive 6
+# Mac hourly sync 2026-10-15 21:01:55 | alive 11
 proxies:
-- name: 🇬🇧GB-82.38.31.205-0149 | 55.422MB|370KB/s
-  server: 82.38.31.205
+- name: 🇬🇧GB-82.38.31.194-0132 | 55.329MB|738KB/s
+  server: 82.38.31.194
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.186-0126 | 57.089MB|359KB/s
-  server: 82.38.31.186
+- name: 🇬🇧GB-82.38.31.191-0121 | 56.67MB|676KB/s
+  server: 82.38.31.191
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇯🇵JP-149.22.87.240-0155 | 32.536MB|355KB/s
-  server: 149.22.87.240
+- name: 🇺🇸US_5|2.9MB/s|668KB/s
   port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.167-0109 | 60.427MB|347KB/s
-  server: 156.146.38.167
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇳🇱NL-193.29.139.223-0138 | 53.649MB|268KB/s
-  server: 193.29.139.223
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: US - zhuhai.uk 02|199KB/s
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
   type: http
-  server: jewelscollecti.icu
+- name: 🇺🇸US_3|1.2MB/s|664KB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇬🇧GB-82.38.31.192-0141 | 54.637MB|657KB/s
+  server: 82.38.31.192
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: US - zhuhai.uk 05|629KB/s
+  type: http
+  server: purposebydesig.club
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+- name: UA-185.164.175.81-0123 | 52.01MB|623KB/s
+  server: 185.164.175.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US_9|1.1MB/s|582KB/s
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US-15.204.247.206-0254 | 3.809MB|540KB/s
+  server: 15.204.247.206
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 🇳🇱NL-193.29.139.147-0112 | 57.529MB|456KB/s
+  server: 193.29.139.147
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: US - zhuhai.uk 02|353KB/s
+  type: http
+  server: 170.199.233.89
   port: 443
   tls: true
   skip-cert-verify: true
