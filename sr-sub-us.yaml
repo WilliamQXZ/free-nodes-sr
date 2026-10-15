@@ -1,30 +1,6 @@
-# Mac hourly sync 2026-10-15 13:02:41 | alive 14
+# Mac hourly sync 2026-10-15 14:03:30 | alive 16
 proxies:
-- name: US - zhuhai.uk 10|2KB/s
-  type: http
-  server: fan.226278.xyz
-  port: 443
-  tls: true
-  sni: fan.226278.xyz
-- name: 🇺🇸US-172.96.160.250-0294 | 0.253MB|2KB/s
-  server: ruot.ayucloudservices.nl
-  port: 40040
-  type: ss
-  cipher: aes-128-gcm
-  password: edad69d9-ea99-4ce9-bae8-8fedc2afcbf4
-- name: US - zhuhai.uk 07|2KB/s
-  type: http
-  server: 138.199.35.219
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_7|3.0MB/s|1KB/s
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 04|1KB/s
+- name: US - zhuhai.uk 04|88KB/s
   type: http
   server: 138.199.35.209
   port: 9002
@@ -32,48 +8,37 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: '🇺🇸 美国 | USA #8|1KB/s'
-  password: ae7eb4dwyaz25pxwgq59
-  port: 59689
-  server: 66.23.203.21
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇺🇸US_2|1.7MB/s|1KB/s
+- name: 🇺🇸US-156.146.38.167-0109 | 60.427MB|45KB/s
+  server: 156.146.38.167
   port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|2.5MB/s|1KB/s
-  password: e4b72b531a2d10900519
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-138.199.42.68-0113 | 0.0MB|28KB/s
+  server: 138.199.42.68
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇺🇸US-37.19.198.243-0190 | 45.923MB|15KB/s
+  server: 37.19.198.243
   port: 443
-  server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 🇺🇸US_8|1.1MB/s|1KB/s
-  port: 8443
-  server: 129.212.181.253
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|2.5MB/s|0KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: US - zhuhai.uk|0KB/s
-  type: http
-  server: 138.199.35.213
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|0KB/s
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-156.146.38.168-0108 | 60.16MB|1KB/s
+  server: 156.146.38.168
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-156.146.38.170-0107 | 61.699MB|1KB/s
+  server: 156.146.38.170
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 138.199.35.201
   port: 9002
@@ -81,25 +46,59 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: 45.63.38.134
+- name: 🇺🇸US-173.244.56.9-0167 | 71.893MB|0KB/s
+  server: 173.244.56.9
   port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国_1
-  type: vmess
-  server: guanwang.awsno.com
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-173.244.56.6-0106 | 60.665MB|0KB/s
+  server: 173.244.56.6
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-3.144.84.214-0781 | 42.546MB|0KB/s
+  server: 3.144.84.214
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸US-156.146.38.169-0174 | 52.458MB|0KB/s
+  server: 156.146.38.169
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-198.98.53.130-0228 | 0.477MB|0KB/s
+  server: 198.98.53.130
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
+- name: 🇺🇸US-140.82.63.79-0110 | 39.545MB|0KB/s
+  server: 140.82.63.79
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ZoZtfPOyVvmKARUN
+- name: 🇺🇸US-172.96.160.250-0294 | 0.253MB
+  server: ruot.ayucloudservices.nl
+  port: 40040
+  type: ss
+  cipher: aes-128-gcm
+  password: edad69d9-ea99-4ce9-bae8-8fedc2afcbf4
+- name: 🇺🇸_US_美国_2
+  type: vless
+  server: 193.233.130.119
+  port: 10443
+  uuid: 16f78e38-8df9-4658-93e8-e49feababf5b
+  tls: false
   skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
   udp: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: 138.199.35.219
+  port: 9002
+  tls: true
+  skip-cert-verify: true
