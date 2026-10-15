@@ -1,70 +1,38 @@
-# Mac hourly sync 2026-10-15 21:01:55 | alive 11
+# Mac hourly sync 2026-10-15 22:02:51 | alive 6
 proxies:
-- name: 🇬🇧GB-82.38.31.194-0132 | 55.329MB|738KB/s
-  server: 82.38.31.194
+- name: 🇬🇧GB-82.38.31.48-0165 | 17.788MB|431KB/s
+  server: 82.38.31.48
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.191-0121 | 56.67MB|676KB/s
-  server: 82.38.31.191
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇬🇧GB-82.38.31.61-0162 | 16.458MB|337KB/s
+  server: 82.38.31.61
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US_5|2.9MB/s|668KB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇺🇸US-173.244.56.9-0167 | 71.893MB|191KB/s
+  server: 173.244.56.9
   port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1.2MB/s|664KB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇬🇧GB-82.38.31.192-0141 | 54.637MB|657KB/s
-  server: 82.38.31.192
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-82.38.31.174-0117 | 16.072MB|183KB/s
+  server: 82.38.31.174
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: US - zhuhai.uk 05|629KB/s
-  type: http
-  server: purposebydesig.club
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-- name: UA-185.164.175.81-0123 | 52.01MB|623KB/s
-  server: 185.164.175.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_9|1.1MB/s|582KB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US-15.204.247.206-0254 | 3.809MB|540KB/s
-  server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: 🇳🇱NL-193.29.139.147-0112 | 57.529MB|456KB/s
-  server: 193.29.139.147
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇸🇬SG-68.183.227.4-0159 | 23.789MB|180KB/s
+  server: 68.183.227.4
   port: 8080
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: US - zhuhai.uk 02|353KB/s
-  type: http
-  server: 170.199.233.89
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇯🇵JP-149.22.87.240-0155 | 32.536MB|126KB/s
+  server: 149.22.87.240
   port: 443
-  tls: true
-  skip-cert-verify: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
