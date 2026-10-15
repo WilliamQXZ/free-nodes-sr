@@ -1,50 +1,50 @@
-# Mac hourly sync 2026-10-15 16:02:24 | alive 8
+# Mac hourly sync 2026-10-15 17:02:18 | alive 8
 proxies:
-- name: 🇯🇵JP-149.22.87.241-0156 | 31.738MB|517KB/s
-  server: 149.22.87.241
-  port: 443
+- name: 🇬🇧GB-82.38.31.47-0166 | 13.785MB|387KB/s
+  server: 82.38.31.47
+  port: 8080
   type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇨🇦CA-149.22.95.183-0125 | 253.835MB|516KB/s
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇨🇦CA-149.22.95.183-0125 | 253.835MB|386KB/s
   server: 149.22.95.183
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇳🇱NL-158.173.20.171-0158 | 21.668MB|412KB/s
-  server: 158.173.20.171
+- name: 🇬🇧GB-149.102.132.184-0186 | 3.978MB|341KB/s
+  server: 149.102.132.184
   port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-82.38.31.203-0118 | 55.329MB|386KB/s
-  server: 82.38.31.203
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.206-0147 | 54.316MB|314KB/s
-  server: 82.38.31.206
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US-156.146.38.167-0109 | 60.427MB|245KB/s
-  server: 156.146.38.167
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-37.19.198.244-0197 | 42.57MB|221KB/s
-  server: 37.19.198.244
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: UA-185.164.175.81-0123 | 52.01MB|144KB/s
-  server: 185.164.175.81
-  port: 19999
   type: ss
   cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  password: g5h5jleTRSyO3Rk4
+- name: 🇬🇧GB-82.38.31.218-0184 | 19.181MB|341KB/s
+  server: 82.38.31.218
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.42-0160 | 15.69MB|340KB/s
+  server: 82.38.31.42
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇬🇧GB-82.38.31.170-0154 | 16.339MB|250KB/s
+  server: 82.38.31.170
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇯🇵JP-149.22.87.240-0155 | 32.536MB|235KB/s
+  server: 149.22.87.240
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-82.38.31.49-0175 | 14.908MB|200KB/s
+  server: 82.38.31.49
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
