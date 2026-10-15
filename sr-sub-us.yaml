@@ -1,65 +1,11 @@
-# Mac hourly sync 2026-10-15 16:02:31 | alive 17
+# Mac hourly sync 2026-10-15 17:02:26 | alive 4
 proxies:
-- name: 🇺🇸US-156.146.38.167-0109 | 60.427MB|245KB/s
-  server: 156.146.38.167
+- name: 🇺🇸US-37.19.198.236-0195 | 42.854MB|1KB/s
+  server: 37.19.198.236
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-37.19.198.244-0197 | 42.57MB|221KB/s
-  server: 37.19.198.244
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.169-0174 | 52.458MB|1KB/s
-  server: 156.146.38.169
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.168-0108 | 60.16MB|1KB/s
-  server: 156.146.38.168
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-173.244.56.9-0167 | 71.893MB|1KB/s
-  server: 173.244.56.9
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-173.244.56.6-0106 | 60.665MB|1KB/s
-  server: 173.244.56.6
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-37.19.198.160-0198 | 45.135MB|1KB/s
-  server: 37.19.198.160
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US_2|1.7MB/s|1KB/s
-  port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US-140.82.63.79-0110 | 39.545MB|1KB/s
-  server: 140.82.63.79
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ZoZtfPOyVvmKARUN
-- name: 🇺🇸US-138.199.42.68-0113 | 0.0MB|1KB/s
-  server: 138.199.42.68
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
 - name: 🇺🇸US-37.19.198.243-0190 | 45.923MB|1KB/s
   server: 37.19.198.243
   port: 443
@@ -72,30 +18,6 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: eDfN7SODQceIOmIAbtJJtK
-- name: 🇺🇸US-37.19.198.236-0195 | 42.854MB|0KB/s
-  server: 37.19.198.236
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.170-0107 | 61.699MB|0KB/s
-  server: 156.146.38.170
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-3.144.84.214-0781 | 42.546MB|0KB/s
-  server: 3.144.84.214
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇸US-172.96.160.250-0294 | 0.253MB
-  server: ruot.ayucloudservices.nl
-  port: 40040
-  type: ss
-  cipher: aes-128-gcm
-  password: edad69d9-ea99-4ce9-bae8-8fedc2afcbf4
 - name: 🇺🇸US-16.144.66.136-0242 | 0.0MB
   server: alert-titmouse.rooster465.autos
   port: 443
