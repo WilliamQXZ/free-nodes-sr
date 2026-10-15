@@ -1,20 +1,73 @@
-# Mac hourly sync 2026-10-15 06:05:11 | alive 2
+# Mac hourly sync 2026-10-15 10:16:12 | alive 8
 proxies:
+- name: 🇦🇹AT_2|2.7MB/s|784KB/s
+  password: None
+  port: 443
+  server: 146.70.244.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: ID - zhuhai.uk 06|644KB/s
+  type: http
+  server: 178.248.73.58
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk|634KB/s
+  type: http
+  server: 84.17.47.125
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: https://github.com/*********-*...|614KB/s
+  port: 24667
+  protocol: udp
+  server: 62.210.70.191
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
 - alpn:
   - http/1.1
-  name: 🇩🇪 德国 | DEU 9|829KB/s
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  sni: t.me/FuckTheWall
-  type: trojan
-  udp: true
-- name: SG - zhuhai.uk 04|519KB/s
-  type: vless
-  server: 178.94.25.73
-  port: 14430
-  uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇳🇱NL_1|3.1MB/s|609KB/s
   network: ws
+  port: 8443
+  server: nl5.hap-plus.ru
+  servername: nl5.hap-plus.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05d7a479-a099-40cf-aecf-41aa934767b0
   ws-opts:
-    path: /vless
+    headers:
+      Host: nl5.hap-plus.ru
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /api/v1/events
+  xudp: true
+- name: RO_speednode_0083|550KB/s
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_6|2.5MB/s|515KB/s
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
+  sni: 93b6d804.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 🇩🇪DE_4|2.4MB/s|515KB/s
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
