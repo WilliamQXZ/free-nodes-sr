@@ -1,68 +1,61 @@
-# Mac hourly sync 2026-10-16 06:01:47 | alive 11
+# Mac hourly sync 2026-10-16 07:01:37 | alive 9
 proxies:
-- name: 🇺🇸US-156.146.38.168-0114 | 38.025MB|758KB/s
-  server: 156.146.38.168
+- name: SG - zhuhai.uk 02|945KB/s
+  type: vless
+  server: sg2-8sb.6121999.dpdns.org
+  port: 19825
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  flow: xtls-rprx-vision
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+- name: 🇺🇸US-156.146.38.167-0113 | 66.926MB|792KB/s
+  server: 156.146.38.167
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: ID - zhuhai.uk 02|748KB/s
-  type: http
-  server: kimberlymilano.icu
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US-156.146.38.170-0111 | 74.341MB|747KB/s
-  server: 156.146.38.170
+- name: 🇬🇧GB-82.38.31.184-0139 | 68.228MB|770KB/s
+  server: 82.38.31.184
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.194-0130 | 71.23MB|752KB/s
+  server: 82.38.31.194
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-146.70.61.37-0121 | 58.755MB|732KB/s
+  server: 146.70.61.37
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇺🇸US-64.74.163.69-0138 | 0.0MB|683KB/s
+  server: 64.74.163.69
+  port: 18766
+  type: ss
+  cipher: aes-128-gcm
+  password: 4efe1af272e7292139b889f6a63ee071
+- name: 🇺🇸US-37.19.198.243-0145 | 14.37MB|678KB/s
+  server: 37.19.198.243
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇬🇧GB-82.38.31.214-0128 | 66.965MB|743KB/s
-  server: 82.38.31.214
+- name: 🇨🇦CA-137.184.174.93-0149 | 64.538MB|652KB/s
+  server: 137.184.174.93
   port: 8080
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.180-0133 | 62.398MB|728KB/s
-  server: 82.38.31.180
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇺🇸US-138.199.42.68-0261 | 88.358MB|651KB/s
+  server: 138.199.42.68
   port: 8080
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.212-0122 | 68.007MB|703KB/s
-  server: 82.38.31.212
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.205-0129 | 70.708MB|700KB/s
-  server: 82.38.31.205
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US-37.19.198.244-0150 | 8.673MB|687KB/s
-  server: 37.19.198.244
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-82.38.31.216-0132 | 66.906MB|681KB/s
-  server: 82.38.31.216
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US_9|1.1MB/s|569KB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 07|276KB/s
-  type: http
-  server: 38.28.185.152
-  port: 443
-  tls: true
-  skip-cert-verify: true
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
