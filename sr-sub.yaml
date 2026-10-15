@@ -1,38 +1,8 @@
-# Mac hourly sync 2026-10-15 22:02:51 | alive 6
+# Mac hourly sync 2026-10-15 23:04:21 | alive 1
 proxies:
-- name: 🇬🇧GB-82.38.31.48-0165 | 17.788MB|431KB/s
-  server: 82.38.31.48
-  port: 8080
+- cipher: aes-256-gcm
+  name: 🇨🇦[www.v2nodes.com] ss-CA-1546...|364KB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇬🇧GB-82.38.31.61-0162 | 16.458MB|337KB/s
-  server: 82.38.31.61
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇺🇸US-173.244.56.9-0167 | 71.893MB|191KB/s
-  server: 173.244.56.9
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-82.38.31.174-0117 | 16.072MB|183KB/s
-  server: 82.38.31.174
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇸🇬SG-68.183.227.4-0159 | 23.789MB|180KB/s
-  server: 68.183.227.4
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇯🇵JP-149.22.87.240-0155 | 32.536MB|126KB/s
-  server: 149.22.87.240
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
