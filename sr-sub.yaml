@@ -1,91 +1,38 @@
-# Mac hourly sync 2026-10-15 19:02:03 | alive 13
+# Mac hourly sync 2026-10-15 20:02:37 | alive 6
 proxies:
-- name: 🇺🇸US-156.146.38.168-0108 | 60.16MB|765KB/s
-  server: 156.146.38.168
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.169-0174 | 52.458MB|763KB/s
-  server: 156.146.38.169
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇨🇦CA-149.22.95.183-0125 | 253.835MB|751KB/s
-  server: 149.22.95.183
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: US - zhuhai.uk 07|726KB/s
-  type: http
-  server: 138.199.35.218
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US-173.244.56.6-0106 | 60.665MB|726KB/s
-  server: 173.244.56.6
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧GB-82.38.31.189-0127 | 57.903MB|684KB/s
-  server: 82.38.31.189
+- name: 🇬🇧GB-82.38.31.205-0149 | 55.422MB|370KB/s
+  server: 82.38.31.205
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.210-0133 | 55.769MB|664KB/s
-  server: 82.38.31.210
+- name: 🇬🇧GB-82.38.31.186-0126 | 57.089MB|359KB/s
+  server: 82.38.31.186
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US-37.19.198.243-0190 | 45.923MB|640KB/s
-  server: 37.19.198.243
+- name: 🇯🇵JP-149.22.87.240-0155 | 32.536MB|355KB/s
+  server: 149.22.87.240
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇬🇧GB-82.110.60.9-0136 | 54.304MB|610KB/s
-  server: 82.110.60.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk|605KB/s
-  type: http
-  server: 38.247.141.135
+- name: 🇺🇸US-156.146.38.167-0109 | 60.427MB|347KB/s
+  server: 156.146.38.167
   port: 443
-  tls: true
-  sni: 38.247.141.135
-  skip-cert-verify: true
-- name: 🇨🇦CA-137.184.174.93-0151 | 42.798MB|487KB/s
-  server: 137.184.174.93
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇳🇱NL-193.29.139.223-0138 | 53.649MB|268KB/s
+  server: 193.29.139.223
   port: 8080
   type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇺🇸_US_美国_1|352KB/s
-  type: vmess
-  server: guanwang.awsno.com
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: US - zhuhai.uk 02|199KB/s
+  type: http
+  server: jewelscollecti.icu
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- name: 🇺🇸US_9|2.5MB/s|192KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
