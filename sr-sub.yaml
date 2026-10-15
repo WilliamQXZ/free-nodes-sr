@@ -1,46 +1,91 @@
-# Mac hourly sync 2026-10-15 18:02:28 | alive 7
+# Mac hourly sync 2026-10-15 19:02:03 | alive 13
 proxies:
-- name: 🇺🇸US-156.146.38.168-0108 | 60.16MB|627KB/s
+- name: 🇺🇸US-156.146.38.168-0108 | 60.16MB|765KB/s
   server: 156.146.38.168
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-37.19.198.236-0195 | 42.854MB|518KB/s
-  server: 37.19.198.236
+- name: 🇺🇸US-156.146.38.169-0174 | 52.458MB|763KB/s
+  server: 156.146.38.169
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: US - zhuhai.uk|473KB/s
+- name: 🇨🇦CA-149.22.95.183-0125 | 253.835MB|751KB/s
+  server: 149.22.95.183
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: US - zhuhai.uk 07|726KB/s
+  type: http
+  server: 138.199.35.218
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US-173.244.56.6-0106 | 60.665MB|726KB/s
+  server: 173.244.56.6
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-82.38.31.189-0127 | 57.903MB|684KB/s
+  server: 82.38.31.189
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.210-0133 | 55.769MB|664KB/s
+  server: 82.38.31.210
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇺🇸US-37.19.198.243-0190 | 45.923MB|640KB/s
+  server: 37.19.198.243
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧GB-82.110.60.9-0136 | 54.304MB|610KB/s
+  server: 82.110.60.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk|605KB/s
   type: http
   server: 38.247.141.135
   port: 443
   tls: true
   sni: 38.247.141.135
   skip-cert-verify: true
-- name: 🇳🇱NL-193.29.139.168-0140 | 50.303MB|389KB/s
-  server: 193.29.139.168
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: US - zhuhai.uk 06|257KB/s
-  type: http
-  server: mmgr.club
-  port: 443
-  tls: true
-  sni: mmgr.club
-  skip-cert-verify: true
-- name: 🇬🇧GB-82.38.31.194-0132 | 55.329MB|253KB/s
-  server: 82.38.31.194
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US-138.199.42.68-0113 | 0.0MB|225KB/s
-  server: 138.199.42.68
+- name: 🇨🇦CA-137.184.174.93-0151 | 42.798MB|487KB/s
+  server: 137.184.174.93
   port: 8080
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
+- name: 🇺🇸_US_美国_1|352KB/s
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+- name: 🇺🇸US_9|2.5MB/s|192KB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
