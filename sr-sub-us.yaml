@@ -1,46 +1,13 @@
-# Mac hourly sync 2026-10-16 23:05:28 | alive 12
+# Mac hourly sync 2026-10-17 00:05:56 | alive 11
 proxies:
-- name: 🇺🇸US_2|1.3MB/s|515KB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|2.3MB/s|277KB/s
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸 美国 | USA 12|120KB/s
-  password: 0324fbc29561
-  port: 443
-  server: 98416548.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: US - zhuhai.uk 02|29KB/s
+- name: US - zhuhai.uk 02|10KB/s
   type: http
   server: 138.199.35.210
   port: 9002
   tls: true
   sni: 138.199.35.210
   skip-cert-verify: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 138.199.35.220
-  port: 9002
-  tls: true
-  sni: 138.199.35.220
-  skip-cert-verify: true
-- name: US - zhuhai.uk 09|1KB/s
-  type: socks5
-  server: 104.168.249.36
-  port: 1080
-  username: test123
-  password: test123
-- name: US - zhuhai.uk 01|1KB/s
+- name: US - zhuhai.uk 01|2KB/s
   type: vless
   server: www.epicgames.com
   port: 2095
@@ -51,7 +18,37 @@ proxies:
     path: /
     headers:
       Host: openapi.next-ai.us.ci
-- name: '🇺🇸 美国 | USA #8|1KB/s'
+- name: 🇺🇸US_5|1009KB/s|2KB/s
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 12|1KB/s
+  type: http
+  server: 38.28.185.207
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 11|1KB/s
+  type: http
+  server: fan.596189.xyz
+  port: 443
+  tls: true
+- name: 🇺🇸US_3|1.8MB/s|1KB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 138.199.35.220
+  port: 9002
+  tls: true
+  sni: 138.199.35.220
+  skip-cert-verify: true
+- name: '🇺🇸 美国 | USA #8|0KB/s'
   network: ws
   port: 2095
   server: www.csgo.net
@@ -63,27 +60,30 @@ proxies:
     headers:
       Host: openapi.next-ai.us.ci
     path: /
-- name: 🇺🇸US_1|2.8MB/s|1KB/s
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 09|0KB/s
+  type: socks5
+  server: 104.168.249.36
+  port: 1080
+  username: test123
+  password: test123
+- name: US - zhuhai.uk 10
   type: http
-- name: 🇺🇸US_5|1009KB/s|1KB/s
+  server: jgwynphotoarts.pro
   port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
   tls: true
-  type: http
-- name: 🇺🇸US_3|1.8MB/s|0KB/s
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  type: http
-- name: 🇺🇸[www.v2nodes.com] trojan-US-...|0KB/s
-  password: ae7eb4dwyaz25pxwgq59
-  port: 59689
-  server: 66.23.203.21
   skip-cert-verify: true
-  type: trojan
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
