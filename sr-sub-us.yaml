@@ -1,32 +1,42 @@
-# Mac hourly sync 2026-10-16 18:02:48 | alive 26
+# Mac hourly sync 2026-10-16 19:02:27 | alive 16
 proxies:
-- name: 🇺🇸US-37.19.198.160-0146 | 27.341MB|424KB/s
+- name: 🇺🇸US-156.146.38.169-0142 | 238.411MB|462KB/s
+  server: 156.146.38.169
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸 美国 | USA #16|415KB/s'
+  password: '123456'
+  port: 46005
+  server: 95.169.3.45
+  type: ss
+  udp: true
+- name: 🇺🇸US_18|1.1MB/s|317KB/s
+  port: 443
+  server: 64.98.50.100
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US-37.19.198.243-0145 | 27.493MB|311KB/s
+  server: 37.19.198.243
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-173.244.56.6-0112 | 74.484MB|206KB/s
+  server: 173.244.56.6
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-37.19.198.160-0146 | 27.341MB|1KB/s
   server: 37.19.198.160
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: '🇺🇸 美国 | USA #11|344KB/s'
-  password: ae7eb4dwyaz25pxwgq59
-  port: 59689
-  server: 66.23.203.21
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇺🇸US_20|1.4MB/s|303KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US-138.199.42.68-0261 | 279.925MB|248KB/s
-  server: 138.199.42.68
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
 - cipher: chacha20-ietf-poly1305
   name: '🇺🇸 美国 | USA #8|1KB/s'
   password: '123456'
@@ -34,30 +44,6 @@ proxies:
   server: 95.169.3.45
   type: ss
   udp: true
-- name: 🇺🇸US-156.146.38.168-0114 | 72.981MB|1KB/s
-  server: 156.146.38.168
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-173.244.56.6-0112 | 74.484MB|1KB/s
-  server: 173.244.56.6
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-37.19.198.244-0150 | 23.129MB|1KB/s
-  server: 37.19.198.244
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-173.244.56.9-0110 | 77.501MB|1KB/s
-  server: 173.244.56.9
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
 - cipher: chacha20-ietf-poly1305
   name: '🇺🇸 美国 | USA #3|1KB/s'
   password: '123456'
@@ -65,89 +51,40 @@ proxies:
   server: 95.169.3.45
   type: ss
   udp: true
-- name: 🇺🇸US-156.146.38.169-0142 | 238.411MB|1KB/s
-  server: 156.146.38.169
+- name: 🇺🇸US-140.82.63.79-0154 | 1.187MB|1KB/s
+  server: 140.82.63.79
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ZoZtfPOyVvmKARUN
+- name: 🇺🇸US-156.146.38.170-0111 | 158.235MB|1KB/s
+  server: 156.146.38.170
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 35.84.133.236
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #12|1KB/s'
-  network: ws
-  port: 8443
-  server: 172.67.155.65
-  servername: lucasjow.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  ws-opts:
-    headers:
-      Host: lucasjow.us.ci
-    path: /cart/docs/www/proxyip=108.160.132.132
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 138.199.35.210
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.202
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_4|2.5MB/s|1KB/s
+- name: 🇺🇸US_20|1.4MB/s|1KB/s
   password: 'null'
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US-156.146.38.167-0113 | 85.676MB|1KB/s
+- name: 🇺🇸US-156.146.38.167-0113 | 85.676MB|0KB/s
   server: 156.146.38.167
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-37.19.198.236-0148 | 27.05MB|1KB/s
-  server: 37.19.198.236
+- name: 🇺🇸US_16|2.8MB/s|0KB/s
   port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-37.19.198.243-0145 | 27.493MB|1KB/s
-  server: 37.19.198.243
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: '🇺🇸 美国 | USA #7|1KB/s'
-  network: tcp
-  port: 10443
-  server: 45.138.100.248
-  servername: 45.138.100.248
-  tls: false
-  type: vless
-  udp: true
-  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
-  ws-opts:
-    path: /
-- name: 🇺🇸US_11|1.8MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.201
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US-156.146.38.170-0111 | 158.235MB|1KB/s
-  server: 156.146.38.170
+- name: 🇺🇸US-37.19.198.236-0148 | 27.05MB|0KB/s
+  server: 37.19.198.236
   port: 443
   type: ss
   cipher: aes-128-gcm
@@ -159,21 +96,19 @@ proxies:
   server: 95.169.3.45
   type: ss
   udp: true
-- name: 🇺🇸US-64.74.163.69-0138 | 0.49MB|0KB/s
-  server: 64.74.163.69
-  port: 18766
-  type: ss
-  cipher: aes-128-gcm
-  password: 4efe1af272e7292139b889f6a63ee071
-- name: 🇺🇸US_7|1.6MB/s|0KB/s
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_18|1.1MB/s|0KB/s
+- name: 🇺🇸_US_美国_1
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  type: http
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
