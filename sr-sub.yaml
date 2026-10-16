@@ -1,29 +1,218 @@
-# Mac hourly sync 2026-10-16 21:06:12 | alive 3
+# Mac hourly sync 2026-10-16 22:03:52 | alive 25
 proxies:
-- name: 🇦🇱AL_1|1.1MB/s|K001-260618|362KB/s
-  port: 9443
-  server: 31.171.155.210
+- auth: 633bc3be486b646190661ac2387c150a
+  name: 🇦🇺 澳大利亚 | AUS|105KB/s
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+  password: 633bc3be486b646190661ac2387c150a
+  port: 443
+  server: 152.67.115.203
   skip-cert-verify: true
-  sub_tag: K001-260618
+  sni: www.bing.com
+  type: hysteria2
+- name: NL_speednode_0006|18KB/s
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_3|1.1MB/s|344KB/s
-  password: None
+- name: US - zhuhai.uk 02|16KB/s
+  type: http
+  server: 138.199.35.200
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: Public Welfare - zhuhai.uk|5KB/s
+  type: vless
+  server: v.toe.dpdns.org
   port: 443
-  server: 149.36.50.1
+  uuid: ef1cdd29-0612-4d55-9f6a-d1d2f48702b1
+  tls: true
+  servername: pw.toc.dpdns.org
+  network: ws
+  ws-opts:
+    path: /vplaetshs
+    headers:
+      Host: pw.toc.dpdns.org
+- name: BG - zhuhai.uk|2KB/s
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 35000
+  cipher: aes-128-gcm
+  password: 499eb131-f2b8-46b5-8fd0-108c375ed525
+- name: IS - zhuhai.uk|2KB/s
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 35196
+  cipher: aes-128-gcm
+  password: 499eb131-f2b8-46b5-8fd0-108c375ed525
+- name: 🇰🇷 韩国 | KOR 2|2KB/s
+  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+  port: 24318
+  server: svip.skycon808.com
+  skip-cert-verify: true
+  sni: hk08.jdddyy01.cc
+  type: anytls
+  udp: true
+- name: RO_speednode_0044|2KB/s
+  port: 9002
+  server: 193.176.84.35
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: https://github.com/*********-*...|244KB/s
-  port: 24667
-  protocol: udp
-  server: 62.210.70.191
+  udp: true
+- name: MK - zhuhai.uk|1KB/s
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 35200
+  cipher: aes-128-gcm
+  password: 499eb131-f2b8-46b5-8fd0-108c375ed525
+- name: NL_speednode_0009|1KB/s
+  port: 9002
+  server: 84.17.47.146
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
+  tls: true
+  type: http
+  udp: true
+- name: SG - zhuhai.uk|1KB/s
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 22051
+  cipher: aes-256-gcm
+  password: 499eb131-f2b8-46b5-8fd0-108c375ed525
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇰🇷 韩国 | KOR #1|1KB/s'
+  network: ws
+  port: 443
+  server: seoul02.zgjok.com
+  servername: seoul02.zgjok.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1a1e5196-eab4-4772-9012-65c27f19a524
+  ws-opts:
+    headers:
+      Host: seoul02.zgjok.com
+    path: /
+- name: NL_speednode_0010|1KB/s
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇺RU_1|2.3MB/s|1KB/s
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: CH - zhuhai.uk|1KB/s
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 35037
+  cipher: aes-128-gcm
+  password: 30e9c7aa-d86d-4f0d-a0d6-9d0ddf3f5e42
+- name: 🇱🇻LV_1|1.3MB/s|1KB/s
+  port: 443
+  server: 185.219.159.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: NL_speednode_0007|1KB/s
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 01|1KB/s
+  type: vless
+  server: www.epicgames.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: openapi.next-ai.us.ci
+- name: RO - zhuhai.uk 02|1KB/s
+  type: http
+  server: 193.176.84.23
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: NL_speednode_0004|1KB/s
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '🇧🇷 巴西 | BRA #2|1KB/s'
+  network: ws
+  port: 80
+  server: platform117.golnamakcert.top
+  tls: false
+  type: vless
+  udp: true
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  ws-opts:
+    headers:
+      Host: platform117.halalkhor.info
+    path: /platform117
+- name: TW - zhuhai.uk|1KB/s
+  type: http
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  port: 1443
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  password: exaxgqkKkd0TAMrCxeonWg==
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 12|0KB/s
+  password: 0324fbc29561
+  port: 443
+  server: 98416548.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- name: '🇧🇷 巴西 | BRA #3|0KB/s'
+  network: ws
+  port: 80
+  server: platform108.golnamakcert.top
+  servername: platform108.halalkhor.info
+  tls: false
+  type: vless
+  udp: true
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  ws-opts:
+    headers:
+      Host: platform108.halalkhor.info
+    path: /platform108
+- alpn:
+  - /--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/NLSus--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/NLSus--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/NLSus--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/--@VPNine1--@VPNine1/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #5|0KB/s'
+  network: ws
+  port: 443
+  server: cdn.topingr.ir
+  servername: cdn.topingr.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
+  ws-opts:
+    headers:
+      Host: cdn.topingr.ir
+    path: /gropcdn
