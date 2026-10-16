@@ -1,65 +1,8 @@
-# Mac hourly sync 2026-10-16 20:02:42 | alive 23
+# Mac hourly sync 2026-10-16 21:06:18 | alive 10
 proxies:
-- name: 🇺🇸US-156.146.38.168-0114 | 72.981MB|385KB/s
-  server: 156.146.38.168
+- name: 🇺🇸US_5|1009KB/s|1KB/s
   port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US_2|1.5MB/s|303KB/s
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US-138.199.42.68-0261 | 279.925MB|134KB/s
-  server: 138.199.42.68
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇺🇸US_11|1.8MB/s|94KB/s
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US-156.146.38.169-0142 | 238.411MB|1KB/s
-  server: 156.146.38.169
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-64.74.163.69-0138 | 0.49MB|1KB/s
-  server: 64.74.163.69
-  port: 18766
-  type: ss
-  cipher: aes-128-gcm
-  password: 4efe1af272e7292139b889f6a63ee071
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #12|1KB/s'
-  network: ws
-  port: 8443
-  server: 172.67.155.65
-  servername: lucasjow.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  ws-opts:
-    headers:
-      Host: lucasjow.us.ci
-    path: /cart/docs/www/proxyip=108.160.132.132
-- name: 🇺🇸US_7|1.6MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|1.6MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.210
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
@@ -74,82 +17,46 @@ proxies:
     path: /
     headers:
       Host: openapi.next-ai.us.ci
-- name: 🇺🇸US-173.244.56.6-0112 | 74.484MB|1KB/s
-  server: 173.244.56.6
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-173.244.56.9-0110 | 77.501MB|1KB/s
-  server: 173.244.56.9
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-15.204.247.206-0209 | 0.0MB|1KB/s
-  server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: 🇺🇸US-37.19.198.236-0148 | 27.05MB|0KB/s
-  server: 37.19.198.236
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: '🇺🇸 美国 | USA #11|0KB/s'
-  password: ae7eb4dwyaz25pxwgq59
-  port: 59689
-  server: 66.23.203.21
+- name: 🇺🇸US_4|2.3MB/s|1KB/s
+  port: 9443
+  server: 198.44.135.19
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US - zhuhai.uk|0KB/s
+  tls: true
+  type: http
+- name: 🇺🇸US_2|1.3MB/s|1KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk|1KB/s
   type: http
   server: 138.199.35.197
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US-140.82.63.79-0154 | 1.187MB|0KB/s
-  server: 140.82.63.79
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ZoZtfPOyVvmKARUN
-- name: 🇺🇸US-37.19.198.243-0145 | 27.493MB|0KB/s
-  server: 37.19.198.243
+- name: 🇺🇸 美国 | USA 12|1KB/s
+  password: 0324fbc29561
   port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: '🇺🇸 美国 | USA #7|0KB/s'
-  network: tcp
-  port: 10443
-  server: 45.138.100.248
-  servername: 45.138.100.248
-  tls: false
+  server: 98416548.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- client-fingerprint: random
+  name: '🇺🇸 美国 | USA #10|0KB/s'
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: us-lax.862400.xyz
+  tls: true
   type: vless
   udp: true
-  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  uuid: efb58f99-af9e-48da-ac0d-cbac9c1f9200
   ws-opts:
-    path: /
-- name: 🇺🇸US_4|2.5MB/s|0KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_20|1.4MB/s|0KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+    headers:
+      Host: us-lax.862400.xyz
+    path: /announcement?ed=2048
 - name: US - zhuhai.uk 02|0KB/s
   type: http
   server: 138.199.35.200
@@ -158,9 +65,25 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_10|2.5MB/s|0KB/s
-  port: 9002
-  server: 138.199.35.216
+- name: 🇺🇸US_1|2.8MB/s|0KB/s
+  port: 443
+  server: 121.127.34.82
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
