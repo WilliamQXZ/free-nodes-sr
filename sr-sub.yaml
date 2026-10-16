@@ -1,57 +1,27 @@
-# Mac hourly sync 2026-10-17 04:04:12 | alive 9
+# Mac hourly sync 2026-10-17 05:02:08 | alive 8
 proxies:
-- name: 🇺🇸US_5|1009KB/s|872KB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇹IT_1|1.8MB/s|709KB/s
-  port: 443
-  server: 185.183.105.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇭🇺HU_2|1.4MB/s|700KB/s
-  password: None
-  port: 443
-  server: 146.70.203.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇦CA_1|1.2MB/s|676KB/s
-  port: 443
-  server: 206.223.161.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: NL - zhuhai.uk 03|647KB/s
-  type: http
-  server: 84.17.47.148
+- name: NL_speednode_0009|748KB/s
   port: 9002
-  tls: true
+  server: 84.17.47.146
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|635KB/s
+  tls: true
   type: http
-  server: 138.199.35.208
-  port: 9002
+  udp: true
+- name: NL - zhuhai.uk 02|711KB/s
+  type: http
+  server: 185.140.209.235
+  port: 443
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇱🇻LV_1|1.3MB/s|569KB/s
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
+- name: RO - zhuhai.uk|636KB/s
   type: http
-- name: 🇨🇿CZ_1|1.1MB/s|541KB/s
-  port: 443
-  server: 185.216.35.130
-  skip-cert-verify: true
+  server: 193.176.84.18
+  port: 9002
   tls: true
-  type: http
-- name: RU - zhuhai.uk|503KB/s
+  skip-cert-verify: true
+- name: RU - zhuhai.uk|613KB/s
   type: http
   server: chalo-ru.nexorcdn.com
   port: 20416
@@ -59,3 +29,39 @@ proxies:
   password: 9jkvAVV-9ufV6IGd
   tls: true
   skip-cert-verify: true
+- name: RO_speednode_0045|613KB/s
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 07|606KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇱🇻LV_1|1.3MB/s|565KB/s
+  port: 443
+  server: 185.219.159.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇷🇺 俄罗斯 | RUS #1|384KB/s'
+  network: xhttp
+  port: 2053
+  server: 78.159.246.179
+  servername: randomquaint.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  xhttp-opts:
+    host: randomquaint.net
+    mode: auto
+    path: /api/v1/upload
