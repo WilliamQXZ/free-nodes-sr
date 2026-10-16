@@ -1,61 +1,58 @@
-# Mac hourly sync 2026-10-17 05:02:08 | alive 8
+# Mac hourly sync 2026-10-17 06:02:10 | alive 7
 proxies:
-- name: NL_speednode_0009|748KB/s
+- name: 🇺🇸US_5|1009KB/s|736KB/s
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_1|1007KB/s|693KB/s
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: HK - zhuhai.uk|668KB/s
+  type: vless
+  server: 152.233.71.81
+  port: 443
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+  flow: xtls-rprx-vision
+  tls: true
+  servername: brointelengence.com
+  client-fingerprint: random
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+- name: SG - zhuhai.uk 01|629KB/s
+  type: vless
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  network: ws
+  tls: true
+  servername: u.srilankangrill.online
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: RO_speednode_0041|614KB/s
   port: 9002
-  server: 84.17.47.146
+  server: 193.176.84.33
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: NL - zhuhai.uk 02|711KB/s
-  type: http
-  server: 185.140.209.235
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk|636KB/s
-  type: http
-  server: 193.176.84.18
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: RU - zhuhai.uk|613KB/s
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 20416
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  skip-cert-verify: true
-- name: RO_speednode_0045|613KB/s
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US - zhuhai.uk 07|606KB/s
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇱🇻LV_1|1.3MB/s|565KB/s
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
-  type: http
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #1|384KB/s'
+  name: '🇷🇺 俄罗斯 | RUS #2|390KB/s'
   network: xhttp
   port: 2053
-  server: 78.159.246.179
+  server: randomquaint.net
   servername: randomquaint.net
   tls: true
   type: vless
@@ -65,3 +62,10 @@ proxies:
     host: randomquaint.net
     mode: auto
     path: /api/v1/upload
+- name: RU - zhuhai.uk|278KB/s
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 20416
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
