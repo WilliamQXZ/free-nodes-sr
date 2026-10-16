@@ -1,22 +1,24 @@
-# Mac hourly sync 2026-10-16 10:05:57 | alive 3
+# Mac hourly sync 2026-10-16 11:05:10 | alive 3
 proxies:
-- name: 🇺🇸US_14|1.1MB/s|494KB/s
-  port: 443
-  server: 45.63.38.134
-  skip-cert-verify: true
-  tls: true
+- name: RO - zhuhai.uk 02|162KB/s
   type: http
-- name: 🇸🇪SE_1|2.5MB/s|355KB/s
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk|121KB/s
-  type: http
-  server: 138.199.35.210
+  server: 193.176.84.26
   port: 9002
-  username: 'null'
-  password: 'null'
   tls: true
+  sni: www.bing.com
   skip-cert-verify: true
+- name: 🇭🇰 香港 | HKG|138KB/s
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- name: 🇺🇸US_5|1.8MB/s|127KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
