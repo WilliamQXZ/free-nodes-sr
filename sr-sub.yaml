@@ -1,14 +1,25 @@
-# Mac hourly sync 2026-10-17 00:05:51 | alive 2
+# Mac hourly sync 2026-10-17 01:03:03 | alive 2
 proxies:
-- name: 🇬🇧GB_3|1.3MB/s|362KB/s
-  port: 9443
-  server: 84.17.50.129
+- name: 🇺🇸US_5|1009KB/s|352KB/s
+  port: 443
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_1|1007KB/s|139KB/s
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇷🇺 俄罗斯 | RUS #2|130KB/s'
+  network: xhttp
+  port: 2053
+  server: randomquaint.net
+  servername: randomquaint.net
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  xhttp-opts:
+    host: randomquaint.net
+    mode: auto
+    path: /api/v1/upload
