@@ -1,51 +1,29 @@
-# Mac hourly sync 2026-10-16 20:02:37 | alive 8
+# Mac hourly sync 2026-10-16 21:06:12 | alive 3
 proxies:
-- name: JP - zhuhai.uk|443KB/s
-  type: ss
-  server: ruot.ayucloudservices.nl
-  port: 40020
-  cipher: aes-256-gcm
-  password: 499eb131-f2b8-46b5-8fd0-108c375ed525
-- name: HK - zhuhai.uk 03|415KB/s
-  type: ss
-  server: ruot.ayucloudservices.nl
-  port: 35010
-  cipher: aes-128-gcm
-  password: 499eb131-f2b8-46b5-8fd0-108c375ed525
-- name: 🇺🇸US-156.146.38.168-0114 | 72.981MB|385KB/s
-  server: 156.146.38.168
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US_2|1.5MB/s|303KB/s
-  port: 9002
-  server: 138.199.35.211
+- name: 🇦🇱AL_1|1.1MB/s|K001-260618|362KB/s
+  port: 9443
+  server: 31.171.155.210
   skip-cert-verify: true
+  sub_tag: K001-260618
   tls: true
   type: http
   udp: true
-- name: 🇬🇧GB-82.38.31.181-0126 | 89.278MB|236KB/s
-  server: 82.38.31.181
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱NL-193.29.139.147-0119 | 82.354MB|202KB/s
-  server: 193.29.139.147
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇬🇧GB-82.38.31.174-0194 | 66.236MB|159KB/s
-  server: 82.38.31.174
+- name: 🇩🇪DE_3|1.1MB/s|344KB/s
+  password: None
   port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇺🇸US-138.199.42.68-0261 | 279.925MB|134KB/s
-  server: 138.199.42.68
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: https://github.com/*********-*...|244KB/s
+  port: 24667
+  protocol: udp
+  server: 62.210.70.191
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
