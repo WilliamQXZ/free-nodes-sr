@@ -1,17 +1,21 @@
-# Mac hourly sync 2026-10-17 15:05:02 | alive 1
+# Mac hourly sync 2026-10-17 16:05:59 | alive 3
 proxies:
-- encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
-  http-opts:
-    headers:
-      Host:
-      - mitivpn-s5.b-cdn.net
-    path:
-    - /
-  name: 🇳🇱NL_2|1.7MB/s|133KB/s
-  network: http
-  port: 25566
-  server: rrr.soreanapanel.com
-  type: vless
-  udp: true
-  uuid: 3c1dbb51-4160-4f9f-839e-218272142eaf
-  xudp: true
+- name: 🇬🇧GB_2|2.9MB/s|378KB/s
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇪🇸ES_2|2.8MB/s|270KB/s
+  port: 443
+  server: 82.102.17.178
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇪🇸ES_1|2.9MB/s|144KB/s
+  password: None
+  port: 443
+  server: 130.195.250.34
+  skip-cert-verify: true
+  tls: true
+  type: http
