@@ -1,27 +1,183 @@
-# Mac hourly sync 2026-10-17 09:05:06 | alive 4
+# Mac hourly sync 2026-10-17 10:04:18 | alive 25
 proxies:
-- name: 🇺🇸US_1|2.0MB/s|669KB/s
+- name: 🇫🇷FR_2|3.6MB/s|117KB/s
   port: 443
-  server: 167.88.60.242
+  server: 82.66.235.221
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_19|1.6MB/s|529KB/s
-  port: 443
-  server: 12.221.146.147
+- name: RO - zhuhai.uk|33KB/s
+  type: http
+  server: 193.176.84.21
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 10|23KB/s
+  type: http
+  server: 138.199.35.217
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇩🇪DE_4|3.5MB/s|12KB/s
+  port: 9002
+  server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_14|2.4MB/s|501KB/s
-  port: 9443
-  server: 38.95.111.226
+- name: NL_speednode_0008|2KB/s
+  password: None
+  port: 9002
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇫🇷FR_1|2.4MB/s|426KB/s
+- encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
+  http-opts:
+    headers:
+      Host:
+      - mitivpn-s5.b-cdn.net
+    path:
+    - /
+  name: 🇳🇱NL_2|1.7MB/s|2KB/s
+  network: http
+  port: 25566
+  server: rrr.soreanapanel.com
+  type: vless
+  udp: true
+  uuid: 3c1dbb51-4160-4f9f-839e-218272142eaf
+  xudp: true
+- name: 🇳🇱NL_9|2.9MB/s|2KB/s
+  port: 443
+  server: 152.53.107.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|2.8MB/s|2KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_16|3.6MB/s|2KB/s
+  port: 8443
+  server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇳🇱NL_8|2.4MB/s|1KB/s
+  password: 'null'
+  port: 443
+  server: 185.140.209.235
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: CA - zhuhai.uk|1KB/s
+  type: http
+  server: 198.44.157.27
   port: 9443
-  server: 138.199.47.247
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_6|2.2MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO_speednode_0097|1KB/s
+  password: None
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HK - zhuhai.uk|1KB/s
+  type: vless
+  server: 152.233.71.81
+  port: 443
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+  flow: xtls-rprx-vision
+  tls: true
+  servername: brointelengence.com
+  client-fingerprint: random
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+- name: NL_speednode_0009|1KB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk|1KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: 🇳🇱NL_6|4.6MB/s|1KB/s
+  port: 19362
+  server: 51.159.225.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|3.5MB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_17|3.4MB/s|1KB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|2.3MB/s|1KB/s
+  port: 443
+  server: 129.153.93.183
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇳🇱NL_5|1.0MB/s|1KB/s
+  password: None
+  port: 443
+  server: 157.22.183.72
+  skip-cert-verify: false
+  tls: true
+  type: http
+- name: 🇺🇸US_18|2.7MB/s|1KB/s
+  port: 8443
+  server: 44.229.69.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: DE - zhuhai.uk 04|1KB/s
+  type: http
+  server: 185.44.107.166
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_3|3.5MB/s|1KB/s
+  port: 443
+  server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
