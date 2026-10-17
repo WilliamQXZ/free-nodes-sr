@@ -1,5 +1,30 @@
-# Mac hourly sync 2026-10-17 23:03:40 | alive 21
+# Mac hourly sync 2026-10-18 00:03:38 | alive 25
 proxies:
+- name: FR - zhuhai.uk|15KB/s
+  type: http
+  server: 84.235.228.156
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: NL_speednode_0004|10KB/s
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: MX - zhuhai.uk|6KB/s
+  type: vless
+  server: 8dwou5alze.chhbuv.cn
+  port: 48981
+  uuid: d9109567-3fc3-4e08-9cac-4d9162ef5a9f
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.tue.nl
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: AavBPGGJUpyGWiriV_Fbx-SrAvR5t-9mHeQY8uIltyo
+    short-id: 41b9cb10b696
 - encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
   http-opts:
     headers:
@@ -8,7 +33,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '🇳🇱 荷兰 | NLD #1|96KB/s'
+  name: '🇳🇱 荷兰 | NLD #1|2KB/s'
   network: http
   port: 25566
   server: rrr.soreanapanel.com
@@ -16,13 +41,20 @@ proxies:
   type: vless
   udp: true
   uuid: 3c1dbb51-4160-4f9f-839e-218272142eaf
-- name: FR - zhuhai.uk|9KB/s
-  type: http
-  server: 217.181.201.254
-  port: 8090
-  tls: true
+- name: RO_speednode_0042|1KB/s
+  port: 9002
+  server: 193.176.84.30
   skip-cert-verify: true
-- name: HK - zhuhai.uk|2KB/s
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: HK - zhuhai.uk|1KB/s
   type: vless
   server: 152.233.71.81
   port: 443
@@ -30,24 +62,28 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: brointelengence.com
-  skip-cert-verify: true
   client-fingerprint: chrome
   reality-opts:
     public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
     short-id: 1c3e8241a8743df9
+- name: 🇩🇪DE_1|1.2MB/s|1KB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇭🇰HK_2|1.2MB/s|1KB/s
   port: 3128
   server: 119.28.24.235
   skip-cert-verify: true
   tls: true
   type: http
-- name: NL_speednode_0009|1KB/s
-  port: 9002
-  server: 84.17.47.146
+- name: 🇪🇪EE_1|1023KB/s|1KB/s
+  port: 443
+  server: 95.153.32.2
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
 - name: NL_speednode_0010|1KB/s
   port: 9002
   server: 84.17.47.149
@@ -55,14 +91,78 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: CA - zhuhai.uk|1KB/s
+  type: http
+  server: 149.88.98.81
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 02|1KB/s
+  type: http
+  server: 193.176.84.17
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk 04|1KB/s
+  type: http
+  server: 84.17.47.150
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 84.17.47.150
+  skip-cert-verify: true
+- name: NL - zhuhai.uk 03|0KB/s
+  type: http
+  server: 185.238.170.10
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: RU - zhuhai.uk|0KB/s
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 36774
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+- name: RO - zhuhai.uk|0KB/s
+  type: http
+  server: 193.176.84.24
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: RO_speednode_0044|0KB/s
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO - zhuhai.uk 03|0KB/s
+  type: http
+  server: 193.176.84.31
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: IT - zhuhai.uk|0KB/s
+  type: http
+  server: 185.183.105.146
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #3|1KB/s'
+  name: '🇷🇺 俄罗斯 | RUS #2|0KB/s'
   network: xhttp
   port: 2053
-  server: randomquaint.net
+  server: 78.159.246.179
   servername: randomquaint.net
   tls: true
   type: vless
@@ -72,104 +172,31 @@ proxies:
     host: randomquaint.net
     mode: auto
     path: /api/v1/upload
-- name: FR - zhuhai.uk 02|1KB/s
-  type: http
-  server: fan.132031.xyz
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
+- name: RO_speednode_0041|0KB/s
+  port: 9002
+  server: 193.176.84.33
   skip-cert-verify: true
-- name: NL - zhuhai.uk|1KB/s
-  type: http
-  server: 185.238.170.10
-  port: 443
   tls: true
+  type: http
+  udp: true
+- name: 🇱🇺LU_1|1.1MB/s|0KB/s
+  port: 443
+  server: 185.221.132.242
   skip-cert-verify: true
-- name: NL_speednode_0007|1KB/s
+  tls: true
+  type: http
+- name: NL_speednode_0007|0KB/s
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: LT - zhuhai.uk|1KB/s
+- name: NL - zhuhai.uk|0KB/s
   type: http
-  server: 89.124.11.9
+  server: 103.97.88.154
   port: 443
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: CA - zhuhai.uk|0KB/s
-  type: http
-  server: 142.44.210.129
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: TW - zhuhai.uk
-  type: anytls
-  server: 684616s4.df6h451rh.xin
-  port: 443
-  password: ec74bb6a86c2
-  udp: true
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: 54.190.176.228
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: webdrone.club
-  port: 443
-  username: Ok5vbmU=
-  tls: true
-- name: RO - zhuhai.uk
-  type: http
-  server: 193.176.84.34
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇸🇬SG_1|4.2MB/s
-  password: '1234'
-  port: 2080
-  server: 47.129.235.22
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- cipher: aes-256-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
-  password: BeaUf9c0AEWH40Pu
-  port: 8388
-  server: 154.36.158.197
-  type: ss
-- name: 🇭🇰 香港 | HKG
-  password: ec74bb6a86c2
-  port: 443
-  server: 56481.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: ES - zhuhai.uk
-  type: vless
-  server: 8dwou5alze.chhbuv.cn
-  port: 12331
-  uuid: d9109567-3fc3-4e08-9cac-4d9162ef5a9f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.tue.nl
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: AavBPGGJUpyGWiriV_Fbx-SrAvR5t-9mHeQY8uIltyo
-    short-id: 41b9cb10b696
-- name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  password: ec74bb6a86c2
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
