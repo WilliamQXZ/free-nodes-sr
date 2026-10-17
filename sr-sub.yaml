@@ -1,75 +1,23 @@
-# Mac hourly sync 2026-10-18 04:02:44 | alive 8
+# Mac hourly sync 2026-10-18 05:02:44 | alive 3
 proxies:
-- name: NL_speednode_0006|742KB/s
-  port: 9002
-  server: 84.17.47.150
+- name: 🇭🇰HK_2|1.2MB/s|1.2MB/s
+  port: 3128
+  server: 119.28.24.235
   skip-cert-verify: true
   tls: true
   type: http
+- name: DE - zhuhai.uk|705KB/s
+  type: http
+  server: 149.36.50.157
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- auth: https://xship.best
+  name: 🇺🇸 美国 | USA 3|128KB/s
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
   udp: true
-- name: GB - zhuhai.uk|730KB/s
-  type: http
-  server: 185.164.138.156
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- client-fingerprint: random
-  name: '🇷🇺[www.v2nodes.com] vless-RU-1... #1|713KB/s'
-  network: ws
-  port: 8443
-  server: 194.87.143.165
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
-  ws-opts:
-    path: /
-- name: HK - zhuhai.uk 02|685KB/s
-  type: vless
-  server: 152.233.71.81
-  port: 443
-  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
-  flow: xtls-rprx-vision
-  tls: true
-  servername: brointelengence.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-    short-id: 1c3e8241a8743df9
-- name: US - zhuhai.uk 02|567KB/s
-  type: http
-  server: 138.199.35.219
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国|531KB/s
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- name: RO - zhuhai.uk 02|456KB/s
-  type: http
-  server: 193.176.84.24
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|447KB/s
-  type: http
-  server: 138.199.35.211
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
