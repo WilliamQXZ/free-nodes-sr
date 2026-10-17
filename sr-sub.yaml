@@ -1,44 +1,49 @@
-# Mac hourly sync 2026-10-18 03:02:53 | alive 9
+# Mac hourly sync 2026-10-18 04:02:44 | alive 8
 proxies:
-- name: 🇸🇬SG_3|4.2MB/s|1.8MB/s
-  password: '1234'
-  port: 2080
-  server: 13.212.14.88
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇭🇰HK_2|1.2MB/s|1.7MB/s
-  port: 3128
-  server: 119.28.24.235
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: NL_speednode_0006|654KB/s
+- name: NL_speednode_0006|742KB/s
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: CA - zhuhai.uk|634KB/s
+- name: GB - zhuhai.uk|730KB/s
   type: http
-  server: 206.223.183.16
+  server: 185.164.138.156
   port: 443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07|591KB/s
+- client-fingerprint: random
+  name: '🇷🇺[www.v2nodes.com] vless-RU-1... #1|713KB/s'
+  network: ws
+  port: 8443
+  server: 194.87.143.165
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
+  ws-opts:
+    path: /
+- name: HK - zhuhai.uk 02|685KB/s
+  type: vless
+  server: 152.233.71.81
+  port: 443
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+  flow: xtls-rprx-vision
+  tls: true
+  servername: brointelengence.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+- name: US - zhuhai.uk 02|567KB/s
   type: http
-  server: 138.199.35.214
+  server: 138.199.35.219
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk|571KB/s
-  type: http
-  server: 138.199.35.213
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国|546KB/s
+- name: 🇺🇸_US_美国|531KB/s
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -54,26 +59,17 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
-- name: MY - zhuhai.uk|459KB/s
+- name: RO - zhuhai.uk 02|456KB/s
   type: http
-  server: 152.233.3.14
-  port: 9443
+  server: 193.176.84.24
+  port: 9002
   tls: true
   skip-cert-verify: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #3|318KB/s'
-  network: xhttp
-  port: 2053
-  server: randomquaint.net
-  servername: randomquaint.net
+- name: US - zhuhai.uk 06|447KB/s
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  username: 'null'
+  password: None
   tls: true
-  type: vless
-  udp: true
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  xhttp-opts:
-    host: randomquaint.net
-    mode: auto
-    path: /api/v1/upload
+  skip-cert-verify: true
