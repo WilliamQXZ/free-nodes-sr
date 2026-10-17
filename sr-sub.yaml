@@ -1,23 +1,49 @@
-# Mac hourly sync 2026-10-18 05:02:44 | alive 3
+# Mac hourly sync 2026-10-18 06:02:46 | alive 6
 proxies:
-- name: 🇭🇰HK_2|1.2MB/s|1.2MB/s
-  port: 3128
-  server: 119.28.24.235
-  skip-cert-verify: true
+- name: NL - zhuhai.uk 02|635KB/s
+  type: http
+  server: 5.255.118.82
+  port: 443
+  username: 'null'
+  password: 'null'
   tls: true
+  skip-cert-verify: true
+- name: PL - zhuhai.uk|573KB/s
   type: http
-- name: DE - zhuhai.uk|705KB/s
-  type: http
-  server: 149.36.50.157
+  server: 151.115.54.133
   port: 443
   tls: true
   skip-cert-verify: true
-- auth: https://xship.best
-  name: 🇺🇸 美国 | USA 3|128KB/s
-  password: https://xship.best
+- name: HK - zhuhai.uk 02|551KB/s
+  type: vless
+  server: 152.233.71.81
   port: 443
-  server: starlink-ft.251313.xyz
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+  flow: xtls-rprx-vision
+  tls: true
+  servername: brointelengence.com
+  client-fingerprint: random
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+- name: 🇵🇱_PL_波兰|543KB/s
+  type: trojan
+  server: 78.17.171.62
+  port: 443
+  password: u93yPGuY2zgIsisJZKS2QzJzg
+  sni: FREETOPLAY-2.TETRIS-GAME.WORLD
   skip-cert-verify: true
-  sni: xship.top
-  type: hysteria2
   udp: true
+- name: SE - zhuhai.uk|359KB/s
+  type: http
+  server: 77.221.136.60
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: 🛩️40@oneclickvpnkeys|206KB/s
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  port: 54183
+  server: 189.74.106.162
+  sni: outh.yandex-cloud.org
+  tls: false
+  type: hysteria2
