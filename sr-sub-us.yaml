@@ -1,19 +1,18 @@
-# Mac hourly sync 2026-10-18 00:03:45 | alive 3
+# Mac hourly sync 2026-10-18 03:02:57 | alive 9
 proxies:
-- name: US - zhuhai.uk 05|1KB/s
+- name: US - zhuhai.uk 07|591KB/s
   type: http
-  server: fullmanfirm.icu
-  port: 443
-  username: bnVsbDpudWxs
+  server: 138.199.35.214
+  port: 9002
   tls: true
-- name: US - zhuhai.uk
+  skip-cert-verify: true
+- name: US - zhuhai.uk|571KB/s
   type: http
-  server: carolinafreigh.fun
-  port: 443
-  username: 'null'
-  password: 'null'
+  server: 138.199.35.213
+  port: 9002
   tls: true
-- name: 🇺🇸_US_美国
+  skip-cert-verify: true
+- name: 🇺🇸_US_美国|546KB/s
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -28,4 +27,44 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+  udp: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.195
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 138.199.35.217
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  tls: true
+  sni: 138.199.35.201
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 64.98.50.100
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 45.145.73.240
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- auth: https://xship.best
+  name: 🇺🇸 美国 | USA 3|1KB/s
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
   udp: true
