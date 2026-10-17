@@ -1,10 +1,65 @@
-# Mac hourly sync 2026-10-17 22:04:19 | alive 25
+# Mac hourly sync 2026-10-17 23:03:40 | alive 21
 proxies:
+- encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
+  http-opts:
+    headers:
+      Host:
+      - mitivpn-s5.b-cdn.net
+    method: GET
+    path:
+    - /
+  name: '🇳🇱 荷兰 | NLD #1|96KB/s'
+  network: http
+  port: 25566
+  server: rrr.soreanapanel.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3c1dbb51-4160-4f9f-839e-218272142eaf
+- name: FR - zhuhai.uk|9KB/s
+  type: http
+  server: 217.181.201.254
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: HK - zhuhai.uk|2KB/s
+  type: vless
+  server: 152.233.71.81
+  port: 443
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+  flow: xtls-rprx-vision
+  tls: true
+  servername: brointelengence.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+- name: 🇭🇰HK_2|1.2MB/s|1KB/s
+  port: 3128
+  server: 119.28.24.235
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: NL_speednode_0009|1KB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL_speednode_0010|1KB/s
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #3|82KB/s'
+  name: '🇷🇺 俄罗斯 | RUS #3|1KB/s'
   network: xhttp
   port: 2053
   server: randomquaint.net
@@ -17,65 +72,12 @@ proxies:
     host: randomquaint.net
     mode: auto
     path: /api/v1/upload
-- name: FR - zhuhai.uk|35KB/s
+- name: FR - zhuhai.uk 02|1KB/s
   type: http
-  server: 217.181.201.254
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: RO_speednode_0045|9KB/s
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0041|2KB/s
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL_speednode_0007|1KB/s
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL_speednode_0010|1KB/s
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO_speednode_0042|1KB/s
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL_speednode_0006|1KB/s
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: RO - zhuhai.uk|1KB/s
-  type: http
-  server: 193.176.84.34
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: LT - zhuhai.uk|1KB/s
-  type: http
-  server: 89.124.11.9
+  server: fan.132031.xyz
   port: 443
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
 - name: NL - zhuhai.uk|1KB/s
@@ -84,121 +86,90 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
-  http-opts:
-    headers:
-      Host:
-      - mitivpn-s5.b-cdn.net
-    method: GET
-    path:
-    - /
-  name: '🇳🇱 荷兰 | NLD #1|1KB/s'
-  network: http
-  port: 25566
-  server: rrr.soreanapanel.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3c1dbb51-4160-4f9f-839e-218272142eaf
-- name: NL_speednode_0004|1KB/s
+- name: NL_speednode_0007|1KB/s
   port: 9002
-  server: 84.17.47.125
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇭🇰HK_2|1.2MB/s|1KB/s
-  port: 3128
-  server: 119.28.24.235
-  skip-cert-verify: true
-  tls: true
+- name: LT - zhuhai.uk|1KB/s
   type: http
-- name: IL - zhuhai.uk|1KB/s
-  type: http
-  server: 169.150.248.17
+  server: 89.124.11.9
   port: 443
   tls: true
   skip-cert-verify: true
-- name: FR - zhuhai.uk 02|0KB/s
+- name: CA - zhuhai.uk|0KB/s
   type: http
-  server: fan.132031.xyz
+  server: 142.44.210.129
   port: 443
-  username: 'null'
-  password: None
   tls: true
   skip-cert-verify: true
-- name: NL_speednode_0009|0KB/s
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇮🇱[www.v2nodes.com] vless-IL-1...|0KB/s
-  network: ws
+- name: TW - zhuhai.uk
+  type: anytls
+  server: 684616s4.df6h451rh.xin
   port: 443
-  server: 185.253.75.119
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
-- name: RO_speednode_0044|0KB/s
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  tls: true
-  type: http
+  password: ec74bb6a86c2
   udp: true
-- name: 🇸🇬SG_3|4.2MB/s
-  password: '1234'
-  port: 2080
-  server: 13.212.14.88
+  sni: px.ads.linkedin.com
   skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇸🇬SG_4|1.3MB/s
-  password: '1234'
-  port: 2080
-  server: 13.214.213.66
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: ❓Other_1|3.2MB/s
-  password: '1234'
-  port: 2080
-  server: 13.212.207.226
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: KR - zhuhai.uk 02
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VkRKak9WQlViejA2Og==
 - name: US - zhuhai.uk 02
   type: http
   server: 54.190.176.228
   port: 8443
   tls: true
   skip-cert-verify: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #2'
-  network: xhttp
-  port: 2053
-  server: 78.159.246.179
-  servername: randomquaint.net
+- name: US - zhuhai.uk 07
+  type: http
+  server: webdrone.club
+  port: 443
+  username: Ok5vbmU=
   tls: true
-  type: vless
+- name: RO - zhuhai.uk
+  type: http
+  server: 193.176.84.34
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇸🇬SG_1|4.2MB/s
+  password: '1234'
+  port: 2080
+  server: 47.129.235.22
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- cipher: aes-256-gcm
+  name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
+  password: BeaUf9c0AEWH40Pu
+  port: 8388
+  server: 154.36.158.197
+  type: ss
+- name: 🇭🇰 香港 | HKG
+  password: ec74bb6a86c2
+  port: 443
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
   udp: true
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  xhttp-opts:
-    host: randomquaint.net
-    mode: auto
-    path: /api/v1/upload
+- name: ES - zhuhai.uk
+  type: vless
+  server: 8dwou5alze.chhbuv.cn
+  port: 12331
+  uuid: d9109567-3fc3-4e08-9cac-4d9162ef5a9f
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.tue.nl
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: AavBPGGJUpyGWiriV_Fbx-SrAvR5t-9mHeQY8uIltyo
+    short-id: 41b9cb10b696
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  password: ec74bb6a86c2
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
