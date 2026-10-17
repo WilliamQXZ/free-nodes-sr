@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-10-17 22:04:28 | alive 5
+# Mac hourly sync 2026-10-17 23:03:44 | alive 6
 proxies:
 - name: US - zhuhai.uk 02
   type: http
@@ -6,6 +6,12 @@ proxies:
   port: 8443
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: webdrone.club
+  port: 443
+  username: Ok5vbmU=
+  tls: true
 - name: US - zhuhai.uk 05|1KB/s
   type: http
   server: 138.199.35.215
