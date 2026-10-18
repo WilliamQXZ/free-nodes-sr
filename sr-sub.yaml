@@ -1,26 +1,38 @@
-# Mac hourly sync 2026-10-18 07:04:42 | alive 4
+# Mac hourly sync 2026-10-18 08:04:12 | alive 3
 proxies:
-- name: 🇳🇴NO_1|1001KB/s|626KB/s
-  port: 9443
-  server: 146.70.170.210
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: https://github.com/*********-*...|704KB/s
+  port: 24667
+  protocol: udp
+  server: 62.210.70.191
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇷🇺 俄罗斯 | RUS #3|595KB/s'
+  network: xhttp
+  port: 2053
+  server: randomquaint.net
+  servername: randomquaint.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  xhttp-opts:
+    host: randomquaint.net
+    mode: auto
+    path: /api/v1/upload
+- name: NL_speednode_0006|407KB/s
+  port: 9002
+  server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
-- name: SE - zhuhai.uk 02|585KB/s
-  type: http
-  server: 138.16.163.249
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: SE - zhuhai.uk 03|537KB/s
-  type: http
-  server: 185.209.31.2
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: SE - zhuhai.uk|301KB/s
-  type: http
-  server: 77.221.136.60
-  port: 8443
-  tls: true
-  skip-cert-verify: true
+  udp: true
