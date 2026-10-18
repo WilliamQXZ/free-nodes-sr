@@ -1,5 +1,13 @@
-# Mac hourly sync 2026-10-19 01:04:20 | alive 8
+# Mac hourly sync 2026-10-19 02:01:58 | alive 9
 proxies:
+- name: '🇺🇸 美国 | USA #7|1KB/s'
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  port: 443
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: true
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  type: trojan
+  udp: true
 - name: US - zhuhai.uk|1KB/s
   type: http
   server: 138.199.35.197
