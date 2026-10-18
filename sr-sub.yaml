@@ -1,38 +1,50 @@
-# Mac hourly sync 2026-10-18 08:04:12 | alive 3
+# Mac hourly sync 2026-10-18 09:03:26 | alive 7
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: https://github.com/*********-*...|704KB/s
-  port: 24667
-  protocol: udp
-  server: 62.210.70.191
+- auth: 082f5694-9019-4110-b67b-8125dbb9bab8
+  name: '🇷🇺 俄罗斯 | RUS #2|750KB/s'
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  port: 54183
+  server: 189.74.106.162
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #3|595KB/s'
-  network: xhttp
-  port: 2053
-  server: randomquaint.net
-  servername: randomquaint.net
+  sni: outh.yandex-cloud.org
+  tls: false
+  type: hysteria2
+- name: 🇦🇹AT_2|2.8MB/s|739KB/s
+  password: None
+  port: 443
+  server: 146.70.244.18
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  xhttp-opts:
-    host: randomquaint.net
-    mode: auto
-    path: /api/v1/upload
-- name: NL_speednode_0006|407KB/s
+  type: http
+- name: 🇩🇪DE_1|3.5MB/s|690KB/s
   port: 9002
-  server: 84.17.47.150
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇷🇺RU_1|1.7MB/s|504KB/s
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: NL_speednode_0009|477KB/s
+  port: 9002
+  server: 84.17.47.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: 🇺🇸US_18|3.4MB/s|473KB/s
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|3.1MB/s|336KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
