@@ -1,13 +1,8 @@
-# Mac hourly sync 2026-10-18 22:02:58 | alive 2
+# Mac hourly sync 2026-10-18 23:03:59 | alive 1
 proxies:
-- name: 🇰🇷KR_1|2.1MB/s|489KB/s
-  port: 1080
-  server: 14.36.232.55
-  skip-cert-verify: true
-  type: socks5
-- name: CH - zhuhai.uk|345KB/s
-  type: http
-  server: 37.120.213.210
+- name: 🇨🇭CH_1|2.4MB/s|377KB/s
   port: 9443
-  tls: true
+  server: 149.88.27.46
   skip-cert-verify: true
+  tls: true
+  type: http
