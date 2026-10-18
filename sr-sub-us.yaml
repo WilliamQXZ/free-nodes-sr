@@ -1,25 +1,22 @@
-# Mac hourly sync 2026-10-19 04:03:56 | alive 7
+# Mac hourly sync 2026-10-19 05:04:08 | alive 10
 proxies:
-- name: US - zhuhai.uk 01|996KB/s
-  type: vless
-  server: www.epicgames.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- name: '🇺🇸 美国 | USA #7 #2|966KB/s'
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  port: 443
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: true
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  type: trojan
   udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: openapi.pure-ai.us.ci
-- name: US - zhuhai.uk|581KB/s
+- name: US - zhuhai.uk|616KB/s
   type: http
-  server: 138.199.35.217
+  server: 138.199.35.202
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸_US_美国|538KB/s
+- name: 🇺🇸_US_美国|504KB/s
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -35,31 +32,54 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 02|2KB/s
   type: http
-  server: 138.199.35.195
+  server: crosscards.site
+  port: 443
+  tls: true
+  sni: crosscards.site
+- name: US - zhuhai.uk 08|2KB/s
+  type: http
+  server: 44.248.167.117
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|2KB/s
+  type: http
+  server: 138.199.35.210
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-  server: 50.184.176.222
-  port: 8090
+  server: 138.199.35.219
+  port: 9002
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 05|1KB/s
   type: http
-  server: 35.84.133.236
-  port: 8443
+  server: 38.28.193.188
+  port: 443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
+- name: US - zhuhai.uk 03|1KB/s
   type: http
-  server: 138.199.35.212
+  server: 138.199.35.195
   port: 9002
-  username: 'null'
-  password: 'null'
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 01
+  type: vless
+  server: www.epicgames.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: openapi.pure-ai.us.ci
