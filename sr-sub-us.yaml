@@ -1,24 +1,44 @@
-# Mac hourly sync 2026-10-18 21:03:11 | alive 3
+# Mac hourly sync 2026-10-18 22:03:02 | alive 5
 proxies:
-- name: US - zhuhai.uk 03|0KB/s
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-  server: 138.199.35.201
+  server: 173.42.49.102
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 64.98.50.100
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.197
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: jgwynphotoarts.pro
-  port: 443
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06
+- name: US - zhuhai.uk 04|0KB/s
   type: http
-  server: jewelscollecti.icu
+  server: 66.64.100.66
   port: 443
-  username: 'null'
-  password: 'null'
   tls: true
   skip-cert-verify: true
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
