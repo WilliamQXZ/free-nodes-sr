@@ -1,22 +1,22 @@
-# Mac hourly sync 2026-10-18 16:05:08 | alive 9
+# Mac hourly sync 2026-10-18 17:05:34 | alive 14
 proxies:
-- name: 🇺🇸US_6|2.4MB/s|20KB/s
+- name: 🇺🇸US_10|3.1MB/s|17KB/s
+  password: None
   port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 🇺🇸US_11|3.4MB/s|16KB/s
+- name: 🇺🇸US_11|3.4MB/s|2KB/s
   port: 9002
   server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_16|1.3MB/s|2KB/s
-  port: 443
-  server: 148.135.10.80
+- name: 🇺🇸US_5|3.2MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.203
   skip-cert-verify: true
   tls: true
   type: http
@@ -28,19 +28,22 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_10|3.1MB/s|1KB/s
-  password: None
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 138.199.35.206
   port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
+  username: 'null'
+  password: 'null'
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
   type: http
-- name: 🇺🇸US_17|2.9MB/s|1KB/s
+  server: jewelscollecti.icu
   port: 443
-  server: 66.64.100.66
-  skip-cert-verify: true
+  username: 'null'
+  password: 'null'
   tls: true
-  type: http
+  skip-cert-verify: true
 - name: 🇺🇸US_8|2.4MB/s|1KB/s
   password: 'null'
   port: 9002
@@ -49,15 +52,48 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_12|2.3MB/s|1KB/s
+- name: 🇺🇸US_17|2.9MB/s|1KB/s
   port: 443
-  server: 149.88.21.140
+  server: 66.64.100.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_5|3.2MB/s|0KB/s
-  port: 9002
-  server: 138.199.35.203
+- name: 🇺🇸US_15|2.4MB/s|1KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_18|3.4MB/s|1KB/s
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|1.8MB/s|K001-260618|1KB/s
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_9|2.6MB/s|0KB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_16|1.3MB/s|0KB/s
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|2.9MB/s|0KB/s
+  port: 443
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
