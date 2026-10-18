@@ -1,8 +1,197 @@
-# Mac hourly sync 2026-10-18 23:03:59 | alive 1
+# Mac hourly sync 2026-10-19 00:02:55 | alive 25
 proxies:
-- name: 🇨🇭CH_1|2.4MB/s|377KB/s
-  port: 9443
-  server: 149.88.27.46
+- name: GB - zhuhai.uk|13KB/s
+  type: http
+  server: 212.102.63.1
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: TW - zhuhai.uk|7KB/s
+  type: anytls
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: DE - zhuhai.uk|6KB/s
+  type: http
+  server: 176.94.74.21
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: ❓Other_1|4.3MB/s|4KB/s
+  password: '1234'
+  port: 2080
+  server: 13.214.213.66
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: US - zhuhai.uk|4KB/s
+  type: http
+  server: 138.199.35.217
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: JP - zhuhai.uk 02|3KB/s
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  tls: true
+  sni: fan.571589.xyz
+- name: HK - zhuhai.uk 02|1KB/s
+  type: vless
+  server: 152.233.71.81
+  port: 443
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+  flow: xtls-rprx-vision
+  tls: true
+  servername: brointelengence.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+- name: US - zhuhai.uk 01|1KB/s
+  type: vless
+  server: www.epicgames.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: openapi.pure-ai.us.ci
+- name: NL - zhuhai.uk 02|1KB/s
+  type: http
+  server: 185.238.168.20
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: HK - zhuhai.uk|1KB/s
+  type: socks5
+  server: 47.242.19.215
+  port: 8899
+  username: admin
+  password: admin
+- name: RO - zhuhai.uk|1KB/s
+  type: http
+  server: 193.176.84.36
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: https://github.com/*********-*...|1KB/s
+  port: 24667
+  protocol: udp
+  server: 62.210.70.191
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
+- name: RO_speednode_0042|1KB/s
+  port: 9002
+  server: 193.176.84.30
   skip-cert-verify: true
   tls: true
   type: http
+  udp: true
+- auth: 633bc3be486b646190661ac2387c150a
+  name: 🇦🇺 澳大利亚 | AUS|1KB/s
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+  password: 633bc3be486b646190661ac2387c150a
+  port: 443
+  server: 152.67.115.203
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: NL - zhuhai.uk 03|1KB/s
+  type: http
+  server: 84.17.47.149
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 138.199.35.198
+  port: 9002
+  tls: true
+  sni: 138.199.35.198
+  skip-cert-verify: true
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: '🇰🇷 韩国 | KOR #1|1KB/s'
+  network: http
+  port: 443
+  server: 43.202.48.94
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- name: RO_speednode_0045|1KB/s
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇭🇰 香港 | HKG 2|0KB/s
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- name: SG - zhuhai.uk|0KB/s
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: '8888'
+  password: '8888'
+- name: NL_speednode_0007|0KB/s
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 02|0KB/s
+  type: http
+  server: 107.151.238.27
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: 6b97ee1b.acsnet.co
+- name: 🇸🇬SG_2|4.3MB/s|0KB/s
+  password: '1234'
+  port: 2080
+  server: 54.251.149.207
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: NL - zhuhai.uk|0KB/s
+  type: http
+  server: 185.93.106.214
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: IT - zhuhai.uk|0KB/s
+  type: http
+  server: 93.42.177.250
+  port: 443
+  tls: true
+  skip-cert-verify: true
