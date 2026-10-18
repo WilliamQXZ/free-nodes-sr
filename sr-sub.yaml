@@ -1,6 +1,21 @@
-# Mac hourly sync 2026-10-19 03:01:59 | alive 8
+# Mac hourly sync 2026-10-19 04:03:53 | alive 8
 proxies:
-- name: US - zhuhai.uk 01|988KB/s
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: '🇰🇷 韩国 | KOR #1|1.5MB/s'
+  network: http
+  port: 443
+  server: 43.202.48.94
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- name: US - zhuhai.uk 01|996KB/s
   type: vless
   server: www.epicgames.com
   port: 2095
@@ -11,54 +26,58 @@ proxies:
     path: /
     headers:
       Host: openapi.pure-ai.us.ci
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: https://github.com/*********-*...|853KB/s
-  port: 24667
-  protocol: udp
-  server: 62.210.70.191
+- name: 🇫🇷FR_1|1.7MB/s|694KB/s
+  password: None
+  port: 443
+  server: 149.102.245.65
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: NL_speednode_0006|715KB/s
+  tls: true
+  type: http
+- name: NL_speednode_0007|684KB/s
   port: 9002
-  server: 84.17.47.150
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇦🇱AL_2|1.0MB/s|700KB/s
-  password: None
-  port: 443
-  server: 87.120.103.242
+- name: 🇦🇱AL_1|2.1MB/s|K001-260618|646KB/s
+  port: 9443
+  server: 31.171.155.210
   skip-cert-verify: true
+  sub_tag: K001-260618
   tls: true
   type: http
-- name: 🇨🇿CZ_1|1.6MB/s|689KB/s
-  password: None
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
+  udp: true
+- name: US - zhuhai.uk|581KB/s
   type: http
-- name: US - zhuhai.uk|612KB/s
-  type: http
-  server: 138.199.35.197
+  server: 138.199.35.217
   port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|579KB/s
-  type: http
-  server: 138.199.35.196
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|374KB/s
-  type: http
-  server: 38.28.193.188
+- name: 🇺🇸_US_美国|538KB/s
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+- name: DE - zhuhai.uk|334KB/s
+  type: http
+  server: 167.172.172.190
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: a7acacbe.acsnet.co
   skip-cert-verify: true
