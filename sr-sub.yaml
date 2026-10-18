@@ -1,53 +1,32 @@
-# Mac hourly sync 2026-10-19 05:04:04 | alive 6
+# Mac hourly sync 2026-10-19 06:02:41 | alive 5
 proxies:
-- name: '🇺🇸 美国 | USA #7 #2|966KB/s'
-  password: f0eb8c92ce8946aaba856569cff1a16b
+- name: JP - zhuhai.uk 02|676KB/s
+  type: socks5
+  server: 217.142.236.180
+  port: 1080
+- name: NL_speednode_0009|619KB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 03|600KB/s
+  type: http
+  server: 38.95.111.226
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: CA - zhuhai.uk|528KB/s
+  type: http
+  server: 206.223.183.16
   port: 443
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  type: trojan
-  udp: true
-- name: US - zhuhai.uk|616KB/s
-  type: http
-  server: 138.199.35.202
-  port: 9002
-  username: 'null'
-  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: RO_speednode_0041|614KB/s
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  tls: true
+- name: FR - zhuhai.uk|221KB/s
   type: http
-  udp: true
-- name: RO - zhuhai.uk|590KB/s
-  type: http
-  server: 193.176.84.37
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国|504KB/s
-  type: vmess
-  server: guanwang.awsno.com
+  server: fan.132031.xyz
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
   tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- name: IT - zhuhai.uk|295KB/s
-  type: http
-  server: 93.71.245.84
-  port: 8090
-  tls: true
+  sni: fan.132031.xyz
   skip-cert-verify: true
