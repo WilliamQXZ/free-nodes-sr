@@ -1,56 +1,17 @@
-# Mac hourly sync 2026-10-18 14:04:52 | alive 9
+# Mac hourly sync 2026-10-18 15:04:38 | alive 14
 proxies:
-- name: 🇺🇸US_4|3.2MB/s|10KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_17|2.9MB/s|1KB/s
+- name: 🇺🇸US_17|2.9MB/s|24KB/s
   port: 443
   server: 66.64.100.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_12|2.3MB/s|1KB/s
-  port: 443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 45.145.73.240
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: vless
-  server: usandvipnewpnlsz.mamadhpbot.ir
-  port: 8080
-  uuid: 732ec777-bf4a-4fee-835a-25d6a8b58563
-  network: ws
-  ws-opts:
-    path: /real
-    headers:
-      Host: www.goo.gl
-- name: 🇺🇸US_11|3.4MB/s|1KB/s
+- name: 🇺🇸US_5|3.2MB/s|12KB/s
   port: 9002
-  server: 138.199.35.199
+  server: 138.199.35.203
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
 - name: 🇺🇸US_6|2.4MB/s|1KB/s
   port: 9002
   server: 138.199.35.215
@@ -58,6 +19,67 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.202
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_15|2.4MB/s|1KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_18|3.4MB/s|1KB/s
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|3.2MB/s|1KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 45.145.73.240
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_11|3.4MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_8|2.4MB/s|0KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: US - zhuhai.uk 04|0KB/s
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_13|2.9MB/s|0KB/s
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇺🇸US_10|3.1MB/s|0KB/s
   password: None
   port: 9002
@@ -65,3 +87,11 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: US - zhuhai.uk 05
+  type: http
+  server: jewelscollecti.icu
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
