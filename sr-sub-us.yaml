@@ -1,6 +1,6 @@
-# Mac hourly sync 2026-10-19 03:02:03 | alive 8
+# Mac hourly sync 2026-10-19 04:03:56 | alive 7
 proxies:
-- name: US - zhuhai.uk 01|988KB/s
+- name: US - zhuhai.uk 01|996KB/s
   type: vless
   server: www.epicgames.com
   port: 2095
@@ -11,45 +11,15 @@ proxies:
     path: /
     headers:
       Host: openapi.pure-ai.us.ci
-- name: US - zhuhai.uk|612KB/s
+- name: US - zhuhai.uk|581KB/s
   type: http
-  server: 138.199.35.197
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|579KB/s
-  type: http
-  server: 138.199.35.196
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|374KB/s
-  type: http
-  server: 38.28.193.188
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 154.47.25.78
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.209
+  server: 138.199.35.217
   port: 9002
   username: 'null'
-  password: None
+  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.215
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国
+- name: 🇺🇸_US_美国|538KB/s
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -65,3 +35,31 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.195
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 50.184.176.222
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 35.84.133.236
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
