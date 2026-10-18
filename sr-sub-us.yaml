@@ -1,18 +1,20 @@
-# Mac hourly sync 2026-10-18 20:03:14 | alive 10
+# Mac hourly sync 2026-10-18 21:03:11 | alive 3
 proxies:
-- name: US - zhuhai.uk 03|21KB/s
+- name: US - zhuhai.uk 03|0KB/s
   type: http
   server: 138.199.35.201
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_5|3.2MB/s|21KB/s
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 07
   type: http
-- name: US - zhuhai.uk 06|2KB/s
+  server: jgwynphotoarts.pro
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06
   type: http
   server: jewelscollecti.icu
   port: 443
@@ -20,60 +22,3 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_17|2.9MB/s|1KB/s
-  port: 443
-  server: 66.64.100.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.1MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|2.4MB/s|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_10|3.1MB/s|0KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|3.4MB/s|0KB/s
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_12|2.3MB/s|0KB/s
-  port: 443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
