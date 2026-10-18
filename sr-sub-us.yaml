@@ -1,20 +1,29 @@
-# Mac hourly sync 2026-10-19 02:01:58 | alive 9
+# Mac hourly sync 2026-10-19 03:02:03 | alive 8
 proxies:
-- name: '🇺🇸 美国 | USA #7|1KB/s'
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  port: 443
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  type: trojan
+- name: US - zhuhai.uk 01|988KB/s
+  type: vless
+  server: www.epicgames.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   udp: true
-- name: US - zhuhai.uk|1KB/s
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: openapi.pure-ai.us.ci
+- name: US - zhuhai.uk|612KB/s
   type: http
   server: 138.199.35.197
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk 06|579KB/s
+  type: http
+  server: 138.199.35.196
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|374KB/s
   type: http
   server: 38.28.193.188
   port: 443
@@ -26,18 +35,6 @@ proxies:
   port: 9443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 138.199.35.196
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.215
-  port: 9002
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 05|1KB/s
   type: http
   server: 138.199.35.209
@@ -46,14 +43,12 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: '🇺🇸 美国 | USA #7 #2'
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  port: 443
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  tls: true
   skip-cert-verify: true
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  type: trojan
-  udp: true
 - name: 🇺🇸_US_美国
   type: vmess
   server: guanwang.awsno.com
