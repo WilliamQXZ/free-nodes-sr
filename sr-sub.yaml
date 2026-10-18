@@ -1,50 +1,14 @@
-# Mac hourly sync 2026-10-18 09:03:26 | alive 7
+# Mac hourly sync 2026-10-18 10:02:59 | alive 2
 proxies:
-- auth: 082f5694-9019-4110-b67b-8125dbb9bab8
-  name: '🇷🇺 俄罗斯 | RUS #2|750KB/s'
-  password: 082f5694-9019-4110-b67b-8125dbb9bab8
-  port: 54183
-  server: 189.74.106.162
-  skip-cert-verify: true
-  sni: outh.yandex-cloud.org
-  tls: false
-  type: hysteria2
-- name: 🇦🇹AT_2|2.8MB/s|739KB/s
-  password: None
-  port: 443
-  server: 146.70.244.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_1|3.5MB/s|690KB/s
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇺RU_1|1.7MB/s|504KB/s
+- name: 🇷🇺RU_1|1.7MB/s|376KB/s
   port: 1446
   server: 46.29.166.134
   skip-cert-verify: true
   tls: true
   type: http
-- name: NL_speednode_0009|477KB/s
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_18|3.4MB/s|473KB/s
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|3.1MB/s|336KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
+- name: 🇭🇰HK_1|2.8MB/s|233KB/s
+  port: 3128
+  server: 119.28.24.235
   skip-cert-verify: true
   tls: true
   type: http
