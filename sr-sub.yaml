@@ -1,20 +1,28 @@
-# Mac hourly sync 2026-10-18 14:04:48 | alive 25
+# Mac hourly sync 2026-10-18 15:04:33 | alive 25
 proxies:
-- name: 🇭🇰HK_1|2.8MB/s|75KB/s
-  port: 3128
-  server: 119.28.24.235
+- name: 🇺🇸US_17|2.9MB/s|24KB/s
+  port: 443
+  server: 66.64.100.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: RO - zhuhai.uk|19KB/s
-  type: http
-  server: 193.176.84.24
+- name: NL_speednode_0007|23KB/s
   port: 9002
-  tls: true
+  server: 84.17.47.148
   skip-cert-verify: true
-- name: 🇩🇪DE_9|2.1MB/s|17KB/s
+  tls: true
+  type: http
+  udp: true
+- name: RU - zhuhai.uk 02|15KB/s
+  type: http
+  server: chalo-ru.nexorcdn.com
+  port: 44008
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
+  tls: true
+- name: 🇺🇸US_5|3.2MB/s|12KB/s
   port: 9002
-  server: 158.173.154.1
+  server: 138.199.35.203
   skip-cert-verify: true
   tls: true
   type: http
@@ -24,26 +32,45 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|3.2MB/s|10KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
+- name: CA - zhuhai.uk|8KB/s
   type: http
-  username: 'null'
-- name: 🇦🇱AL_2|2.6MB/s|2KB/s
-  port: 9443
-  server: 31.171.154.66
-  skip-cert-verify: true
+  server: 142.44.210.129
+  port: 443
   tls: true
-  type: http
+  skip-cert-verify: true
 - name: 🇩🇪DE_1|3.5MB/s|2KB/s
   port: 9002
   server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
+- name: DK - zhuhai.uk|1KB/s
+  type: http
+  server: 185.245.84.50
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: NL_speednode_0010|1KB/s
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴RO_4|2.4MB/s|1KB/s
+  password: None
+  port: 9002
+  server: 193.176.84.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: NL_speednode_0009|1KB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 🇷🇴RO_2|2.8MB/s|1KB/s
   password: 'null'
   port: 9002
@@ -52,76 +79,31 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_17|2.9MB/s|1KB/s
-  port: 443
-  server: 66.64.100.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇮FI_4|2.7MB/s|1KB/s
-  port: 8443
-  server: 198.105.124.180
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇦CA_3|1.4MB/s|1KB/s
-  port: 443
-  server: 35.183.131.26
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 🇷🇺RU_1|1.7MB/s|1KB/s
   port: 1446
   server: 46.29.166.134
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇦🇿AZ_1|2.0MB/s|1KB/s
-  port: 9443
-  server: 185.10.240.95
-  skip-cert-verify: true
-  tls: true
+- name: RU - zhuhai.uk|1KB/s
   type: http
-- name: 🇩🇪DE_5|3.2MB/s|1KB/s
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
+  server: 178.219.43.226
+  port: 443
   tls: true
-  type: http
-- name: 🇷🇴RO_3|1.7MB/s|1KB/s
+  skip-cert-verify: true
+- name: 🇺🇸US_6|2.4MB/s|1KB/s
   port: 9002
-  server: 193.176.84.38
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇸🇪SE_2|1.4MB/s|1KB/s
-  port: 443
-  server: 217.210.129.243
-  skip-cert-verify: true
-  tls: true
+- name: RO - zhuhai.uk 02|1KB/s
   type: http
-- name: NL_speednode_0010|1KB/s
+  server: 193.176.84.20
   port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
   tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_12|2.3MB/s|1KB/s
-  port: 443
-  server: 149.88.21.140
   skip-cert-verify: true
-  tls: true
-  type: http
 - name: RO_speednode_0097|1KB/s
   password: None
   port: 9002
@@ -130,39 +112,56 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: NL_speednode_0007|1KB/s
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇫🇷FR_3|2.8MB/s|1KB/s
+- name: 🇳🇱NL_6|1.6MB/s|1KB/s
+  password: 'null'
   port: 443
-  server: 82.66.235.221
+  server: 185.140.209.235
   skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
+- name: RO - zhuhai.uk|1KB/s
+  type: http
+  server: 193.176.84.24
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.202
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_15|2.4MB/s|1KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_18|3.4MB/s|1KB/s
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|3.2MB/s|1KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - name: US - zhuhai.uk 07|1KB/s
   type: http
   server: 45.145.73.240
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: vless
-  server: usandvipnewpnlsz.mamadhpbot.ir
-  port: 8080
-  uuid: 732ec777-bf4a-4fee-835a-25d6a8b58563
-  network: ws
-  ws-opts:
-    path: /real
-    headers:
-      Host: www.goo.gl
-- name: 🇸🇬SG_2|1.7MB/s|1KB/s
-  password: '8888'
-  port: 1080
-  server: 47.236.168.243
+- name: 🇺🇸US_11|3.4MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.199
   skip-cert-verify: true
-  type: socks5
-  username: '8888'
+  tls: true
+  type: http
+  udp: true
