@@ -1,32 +1,45 @@
-# Mac hourly sync 2026-10-18 23:04:04 | alive 5
+# Mac hourly sync 2026-10-19 00:03:04 | alive 7
 proxies:
-- name: US - zhuhai.uk 05|1KB/s
+- name: US - zhuhai.uk|4KB/s
   type: http
-  server: 38.28.193.188
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 64.98.50.100
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|0KB/s
-  type: http
-  server: 138.199.35.197
+  server: 138.199.35.217
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|0KB/s
+- name: US - zhuhai.uk 01|1KB/s
+  type: vless
+  server: www.epicgames.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: openapi.pure-ai.us.ci
+- name: US - zhuhai.uk 08|1KB/s
   type: http
-  server: 66.64.100.66
-  port: 443
+  server: 138.199.35.198
+  port: 9002
   tls: true
+  sni: 138.199.35.198
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|0KB/s
+  type: http
+  server: 107.151.238.27
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: 6b97ee1b.acsnet.co
+- name: US - zhuhai.uk 03|0KB/s
+  type: http
+  server: 138.199.35.196
+  port: 9002
+  tls: true
+  sni: 138.199.35.196
   skip-cert-verify: true
 - name: 🇺🇸_US_美国
   type: vmess
@@ -44,3 +57,11 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: 209.148.53.153
+  port: 8090
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
