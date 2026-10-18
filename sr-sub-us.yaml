@@ -1,9 +1,11 @@
-# Mac hourly sync 2026-10-18 22:03:02 | alive 5
+# Mac hourly sync 2026-10-18 23:04:04 | alive 5
 proxies:
-- name: US - zhuhai.uk 06|1KB/s
+- name: US - zhuhai.uk 05|1KB/s
   type: http
-  server: 173.42.49.102
-  port: 8090
+  server: 38.28.193.188
+  port: 443
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 07|1KB/s
@@ -12,7 +14,7 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 02|0KB/s
   type: http
   server: 138.199.35.197
   port: 9002
