@@ -1,37 +1,23 @@
-# Mac hourly sync 2026-10-19 20:02:38 | alive 5
+# Mac hourly sync 2026-10-19 22:42:06 | alive 3
 proxies:
-- name: US - zhuhai.uk 04|7KB/s
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
   type: http
   server: 138.199.35.195
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 09
   type: http
-  server: 138.199.35.214
-  port: 9002
-  username: 'null'
-  password: 'null'
+  server: jewelscollecti.icu
+  port: 443
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 138.199.35.210
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 138.199.35.207
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|0KB/s
-  type: http
-  server: 138.199.35.215
-  port: 9002
-  tls: true
-  sni: 138.199.35.215
+  sni: jewelscollecti.icu
   skip-cert-verify: true
