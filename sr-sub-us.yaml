@@ -1,78 +1,6 @@
-# Mac hourly sync 2026-10-20 05:39:42 | alive 14
+# Mac hourly sync 2026-10-20 06:47:24 | alive 11
 proxies:
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇺🇸 美国 | USA #2|3KB/s'
-  network: http
-  port: 443
-  server: 100.54.27.217
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #1|1KB/s'
-  network: xhttp
-  port: 443
-  server: vless-colo.whuiy.xyz
-  servername: vless-colo.whuiy.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c64992bd-54aa-4d3d-8527-42da7d7e520a
-  xhttp-opts:
-    host: vless-colo.whuiy.xyz
-    mode: auto
-    path: /xhttp-us
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.197
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 138.199.35.207
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇺🇸 美国 | USA #8|1KB/s'
-  network: http
-  port: 443
-  server: 44.251.76.224
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-  tls: true
-  sni: goedkoopgeluid.icu
-- name: 🇺🇸US_4|1.1MB/s|1KB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 02|0KB/s
+- name: US - zhuhai.uk 02|612KB/s
   type: http
   server: 138.199.35.195
   port: 9002
@@ -80,39 +8,7 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 09
-  type: http
-  server: voteshirleysew.club
-  port: 443
-  tls: true
-  sni: voteshirleysew.club
-  skip-cert-verify: true
-- name: 🇺🇸US_2|1.2MB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_1|1.4MB/s
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 04
-  type: http
-  server: 38.95.111.226
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- cipher: rc4-md5
-  name: '🇺🇸 美国 | USA #5 #2'
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 98.98.79.198
-  type: ss
-  udp: true
-- name: 🇺🇸_US_美国
+- name: 🇺🇸_US_美国|547KB/s
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -128,3 +24,96 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: '🇺🇸 美国 | USA #2|3KB/s'
+  network: http
+  port: 443
+  server: 100.54.27.217
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- name: 🇺🇸US_2|1.2MB/s|2KB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: 138.199.35.207
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 138.199.35.197
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_1|1.4MB/s|1KB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: '🇺🇸 美国 | USA #8'
+  network: http
+  port: 443
+  server: 44.251.76.224
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: '🇺🇸 美国 | USA #3'
+  network: http
+  port: 443
+  server: 98.92.171.189
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- name: US - zhuhai.uk 04
+  type: http
+  server: 38.95.111.226
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #1'
+  network: xhttp
+  port: 443
+  server: vless-colo.whuiy.xyz
+  servername: vless-colo.whuiy.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: c64992bd-54aa-4d3d-8527-42da7d7e520a
+  xhttp-opts:
+    host: vless-colo.whuiy.xyz
+    mode: auto
+    path: /xhttp-us
