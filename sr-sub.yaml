@@ -1,32 +1,32 @@
-# Mac hourly sync 2026-10-19 06:02:41 | alive 5
+# Mac hourly sync 2026-10-19 09:22:22 | alive 5
 proxies:
-- name: JP - zhuhai.uk 02|676KB/s
-  type: socks5
-  server: 217.142.236.180
-  port: 1080
-- name: NL_speednode_0009|619KB/s
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: TW - zhuhai.uk|1.2MB/s
+  type: anytls
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
   udp: true
-- name: US - zhuhai.uk 03|600KB/s
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: GB - zhuhai.uk|533KB/s
   type: http
-  server: 38.95.111.226
+  server: 84.17.50.214
   port: 9443
   tls: true
   skip-cert-verify: true
-- name: CA - zhuhai.uk|528KB/s
+- name: IT - zhuhai.uk|525KB/s
   type: http
-  server: 206.223.183.16
+  server: 95.229.15.89
   port: 443
   tls: true
   skip-cert-verify: true
-- name: FR - zhuhai.uk|221KB/s
+- name: JP - zhuhai.uk 02|464KB/s
+  type: socks5
+  server: 217.142.236.180
+  port: 1080
+- name: FR - zhuhai.uk 02|453KB/s
   type: http
-  server: fan.132031.xyz
+  server: 141.94.16.4
   port: 443
   tls: true
-  sni: fan.132031.xyz
   skip-cert-verify: true
