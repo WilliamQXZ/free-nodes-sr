@@ -1,34 +1,45 @@
-# Mac hourly sync 2026-10-19 15:49:18 | alive 5
+# Mac hourly sync 2026-10-19 16:13:34 | alive 7
 proxies:
-- name: 🇩🇪DE_4|1.4MB/s|740KB/s
-  port: 443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_10|2.6MB/s|726KB/s
+- name: 🇩🇪DE_3|2.5MB/s|683KB/s
   password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_5|3.4MB/s|657KB/s
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇳🇱NL_4|1.6MB/s|568KB/s
   port: 443
-  server: 185.140.209.235
+  server: 149.36.50.1
   skip-cert-verify: true
-  sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
   tls: true
   type: http
-- name: 🇺🇸US_17|3.5MB/s|461KB/s
-  port: 8443
-  server: 18.206.28.143
+- name: RO - zhuhai.uk 03|628KB/s
+  type: http
+  server: 193.176.84.29
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|621KB/s
+  type: http
+  server: 138.199.35.195
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: FR - zhuhai.uk|579KB/s
+  type: http
+  server: 80.124.109.22
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: GB - zhuhai.uk|564KB/s
+  type: http
+  server: 37.120.233.34
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: GB - zhuhai.uk 02|555KB/s
+  type: http
+  server: 212.102.63.61
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇳🇱NL_3|3.0MB/s|537KB/s
+  port: 9443
+  server: 149.36.51.161
   skip-cert-verify: true
   tls: true
   type: http
