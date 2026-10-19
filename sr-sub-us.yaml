@@ -1,18 +1,51 @@
-# Mac hourly sync 2026-10-19 16:59:18 | alive 15
+# Mac hourly sync 2026-10-19 17:03:40 | alive 17
 proxies:
-- name: US - zhuhai.uk 04|621KB/s
+- name: 🇺🇸US_13|2.0MB/s|642KB/s
+  port: 443
+  server: 193.239.236.134
+  skip-cert-verify: true
+  tls: true
   type: http
-  server: 138.199.35.195
+- name: 🇺🇸US_20|1.3MB/s|546KB/s
+  port: 8090
+  server: 24.142.229.178
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk|2KB/s
+  type: http
+  server: 138.199.35.207
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_12|1.2MB/s|54KB/s
-  port: 443
-  server: 38.247.141.135
+- name: US - zhuhai.uk 06|2KB/s
+  type: http
+  server: 138.199.35.210
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_17|3.5MB/s|1KB/s
+  port: 8443
+  server: 18.206.28.143
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 07|2KB/s
+- name: 🇺🇸US_19|3.0MB/s|1KB/s
+  port: 443
+  server: 66.64.100.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  tls: true
+  sni: 138.199.35.215
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
   type: vless
   server: funagfrdfs.alixxplay.com
   port: 34379
@@ -24,7 +57,19 @@ proxies:
   reality-opts:
     public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
     short-id: e51285e3
-- name: US - zhuhai.uk 02|2KB/s
+- name: 🇺🇸US_10|1.8MB/s|1KB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 138.199.35.195
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
   type: http
   server: 138.199.35.214
   port: 9002
@@ -32,49 +77,36 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_6|1.2MB/s|1KB/s
+- name: 🇺🇸US_14|2.1MB/s|0KB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_3|1000KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|2.7MB/s
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|1.2MB/s
   port: 9002
   server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 45.145.73.240
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_17|3.5MB/s|1KB/s
-  port: 8443
-  server: 18.206.28.143
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_20|1.3MB/s|1KB/s
-  port: 8090
-  server: 24.142.229.178
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 138.199.35.210
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_11|2.7MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸US_1|3.4MB/s|1KB/s
+  name: 🇺🇸US_1|3.4MB/s
   network: ws
   port: 443
   server: 104.19.45.195
@@ -89,29 +121,9 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /?TELEGRAM-TOOTFFARANGI
   xudp: true
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 138.199.35.207
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.215
-  port: 9002
-  tls: true
-  sni: 138.199.35.215
-  skip-cert-verify: true
-- name: 🇺🇸US_19|3.0MB/s|1KB/s
+- name: 🇺🇸US_12|1.2MB/s
   port: 443
-  server: 66.64.100.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1000KB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.218
+  server: 38.247.141.135
   skip-cert-verify: true
   tls: true
   type: http
