@@ -1,20 +1,40 @@
-# Mac hourly sync 2026-10-19 17:03:36 | alive 5
+# Mac hourly sync 2026-10-19 20:02:34 | alive 21
 proxies:
-- name: NL_speednode_0005|728KB/s
-  password: None
+- name: US - zhuhai.uk 04|7KB/s
+  type: http
+  server: 138.199.35.195
   port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
   tls: true
+  skip-cert-verify: true
+- name: LT - zhuhai.uk|2KB/s
   type: http
-  udp: true
-- name: 🇺🇸US_13|2.0MB/s|642KB/s
+  server: 89.124.11.9
   port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
   type: http
-- name: RO - zhuhai.uk|629KB/s
+  server: 138.199.35.214
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: DE - zhuhai.uk 02|1KB/s
+  type: http
+  server: 158.173.154.3
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: TW - zhuhai.uk|1KB/s
+  type: anytls
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: RO - zhuhai.uk|1KB/s
   type: http
   server: 193.176.84.40
   port: 9002
@@ -22,15 +42,91 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_20|1.3MB/s|546KB/s
-  port: 8090
-  server: 24.142.229.178
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-- name: FR - zhuhai.uk|472KB/s
+  server: 138.199.35.210
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 04|1KB/s
+  type: http
+  server: 193.176.84.19
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: SG - zhuhai.uk|1KB/s
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: '8888'
+  password: '8888'
+- name: RO - zhuhai.uk 03|1KB/s
+  type: http
+  server: 193.176.84.29
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk|1KB/s
+  type: http
+  server: 138.199.35.207
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk|1KB/s
+  type: http
+  server: 84.17.47.124
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|0KB/s
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  tls: true
+  sni: 138.199.35.215
+  skip-cert-verify: true
+- name: JP - zhuhai.uk 02|0KB/s
+  type: socks5
+  server: 217.142.236.180
+  port: 1080
+- name: JP - zhuhai.uk|0KB/s
+  type: socks5
+  server: 101.36.104.239
+  port: 10808
+- name: HK - zhuhai.uk
+  type: socks5
+  server: 47.242.19.215
+  port: 8899
+  username: admin
+  password: admin
+- name: GB - zhuhai.uk 02
+  type: http
+  server: 212.102.63.61
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: FR - zhuhai.uk
   type: http
   server: 80.124.109.22
   port: 8090
   tls: true
   skip-cert-verify: true
+- name: GB - zhuhai.uk
+  type: http
+  server: 37.120.233.34
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk 02
+  type: http
+  server: 51.158.243.91
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: TH - zhuhai.uk
+  type: socks5
+  server: 47.87.97.94
+  port: 1080
