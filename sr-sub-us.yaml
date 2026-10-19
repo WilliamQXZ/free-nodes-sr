@@ -1,12 +1,6 @@
-# Mac hourly sync 2026-10-19 06:02:45 | alive 6
+# Mac hourly sync 2026-10-19 09:22:28 | alive 9
 proxies:
-- name: US - zhuhai.uk 03|600KB/s
-  type: http
-  server: 38.95.111.226
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: '🇺🇸 美国 | USA #7 #2|2KB/s'
+- name: '🇺🇸 美国 | USA #7|2KB/s'
   password: f0eb8c92ce8946aaba856569cff1a16b
   port: 443
   server: resources.findlocaljobnetworkandbuildcommunityconnections.com
@@ -14,37 +8,67 @@ proxies:
   sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
   type: trojan
   udp: true
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  tls: true
+  sni: 138.199.35.201
+  skip-cert-verify: true
 - name: US - zhuhai.uk 05|1KB/s
   type: http
-  server: 138.199.35.205
+  server: fullmanfirm.icu
+  port: 443
+  username: Ok5vbmU=
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 138.199.35.209
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 08|1KB/s
   type: http
-  server: 96.5.129.85
-  port: 443
+  server: 138.199.35.211
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 11|1KB/s
+  type: http
+  server: 38.95.111.226
+  port: 9443
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk|1KB/s
   type: http
-  server: 138.199.35.208
+  server: 138.199.35.219
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+- name: US - zhuhai.uk 10
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 47691
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
   tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
+  servername: m.media-amazon.com
+  client-fingerprint: safari
+  reality-opts:
+    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
+    short-id: 2905326a
+- name: US - zhuhai.uk 04
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 47672
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
+  tls: true
+  servername: us1p1.xn--ghq880n3na965a.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
+    short-id: 70ab6d813e
