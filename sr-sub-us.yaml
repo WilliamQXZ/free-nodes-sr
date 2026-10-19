@@ -1,54 +1,25 @@
-# Mac hourly sync 2026-10-19 09:22:28 | alive 9
+# Mac hourly sync 2026-10-19 10:50:54 | alive 21
 proxies:
-- name: '🇺🇸 美国 | USA #7|2KB/s'
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  port: 443
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+- name: 🇺🇸US_6|1.2MB/s|754KB/s
+  port: 9002
+  server: 138.199.35.217
   skip-cert-verify: true
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  type: trojan
+  tls: true
+  type: http
   udp: true
-- name: US - zhuhai.uk 07|2KB/s
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  tls: true
-  sni: 138.199.35.201
+- name: 🇺🇸US_20|1.3MB/s|441KB/s
+  port: 8090
+  server: 24.142.229.178
   skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
+  tls: true
   type: http
-  server: fullmanfirm.icu
+- name: 🇺🇸US_12|1.2MB/s|397KB/s
   port: 443
-  username: Ok5vbmU=
-  tls: true
+  server: 38.247.141.135
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
+  tls: true
   type: http
-  server: 138.199.35.209
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
-  type: http
-  server: 138.199.35.211
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 11|1KB/s
-  type: http
-  server: 38.95.111.226
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 138.199.35.219
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 10
+- name: US - zhuhai.uk 10|378KB/s
   type: vless
   server: funagfrdfs.alixxplay.com
   port: 47691
@@ -60,7 +31,46 @@ proxies:
   reality-opts:
     public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
     short-id: 2905326a
-- name: US - zhuhai.uk 04
+- name: 🇺🇸US_8|2.6MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  tls: true
+  sni: 138.199.35.201
+  skip-cert-verify: true
+- name: 🇺🇸US_7|2.9MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|2.7MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|3.3MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk|2KB/s
+  type: http
+  server: 138.199.35.219
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|2KB/s
   type: vless
   server: funagfrdfs.alixxplay.com
   port: 47672
@@ -72,3 +82,67 @@ proxies:
   reality-opts:
     public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
     short-id: 70ab6d813e
+- name: 🇺🇸US_15|1.3MB/s|1KB/s
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|2.1MB/s|1KB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_17|3.5MB/s|1KB/s
+  port: 8443
+  server: 18.206.28.143
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_18|2.4MB/s|K001-260618|1KB/s
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sni: 149.34.248.65
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_3|1000KB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_19|3.0MB/s|1KB/s
+  port: 443
+  server: 66.64.100.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|1.8MB/s|1KB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|2.0MB/s|1KB/s
+  port: 443
+  server: 193.239.236.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 11
+  type: http
+  server: 38.95.111.226
+  port: 9443
+  tls: true
+  skip-cert-verify: true
