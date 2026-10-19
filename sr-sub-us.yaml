@@ -1,19 +1,11 @@
-# Mac hourly sync 2026-10-20 02:01:18 | alive 13
+# Mac hourly sync 2026-10-20 04:00:23 | alive 5
 proxies:
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #1|780KB/s'
-  network: xhttp
+- name: 🇺🇸US_4|1.1MB/s|961KB/s
   port: 443
-  server: vless-colo.whuiy.xyz
-  servername: vless-colo.whuiy.xyz
+  server: 148.135.10.80
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: c64992bd-54aa-4d3d-8527-42da7d7e520a
-  xhttp-opts:
-    host: vless-colo.whuiy.xyz
-    mode: auto
-    path: /xhttp-us
+  type: http
 - http-opts:
     headers:
       Host:
@@ -36,10 +28,10 @@ proxies:
     method: GET
     path:
     - /
-  name: '🇺🇸 美国 | USA #3|3KB/s'
+  name: '🇺🇸 美国 | USA #2|3KB/s'
   network: http
   port: 443
-  server: 98.92.171.189
+  server: 100.54.27.217
   tls: false
   type: vless
   udp: true
@@ -51,79 +43,25 @@ proxies:
     method: GET
     path:
     - /
-  name: '🇺🇸 美国 | USA #2|3KB/s'
+  name: '🇺🇸 美国 | USA #3|2KB/s'
   network: http
   port: 443
-  server: 100.54.27.217
+  server: 98.92.171.189
   tls: false
   type: vless
   udp: true
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: US - zhuhai.uk 07|2KB/s
-  type: http
-  server: 44.248.167.117
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_4|1.1MB/s|2KB/s
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #1|1KB/s'
+  network: xhttp
   port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
+  server: vless-colo.whuiy.xyz
+  servername: vless-colo.whuiy.xyz
   tls: true
-  type: http
-- name: US - zhuhai.uk 03|2KB/s
-  type: http
-  server: 38.28.193.188
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|2KB/s
-  type: http
-  server: 38.247.141.135
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.195
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 09|1KB/s
-  type: http
-  server: 138.199.35.217
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 138.199.35.207
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06
-  type: http
-  server: 129.212.181.253
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
+  type: vless
   udp: true
+  uuid: c64992bd-54aa-4d3d-8527-42da7d7e520a
+  xhttp-opts:
+    host: vless-colo.whuiy.xyz
+    mode: auto
+    path: /xhttp-us
