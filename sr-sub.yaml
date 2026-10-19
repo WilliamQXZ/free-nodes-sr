@@ -1,34 +1,27 @@
-# Mac hourly sync 2026-10-20 01:58:03 | alive 3
+# Mac hourly sync 2026-10-20 04:00:20 | alive 4
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: https://github.com/*********-*...|851KB/s
-  port: 24667
-  protocol: udp
-  server: 62.210.70.191
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #1|780KB/s'
-  network: xhttp
+- name: 🇺🇸US_4|1.1MB/s|961KB/s
   port: 443
-  server: vless-colo.whuiy.xyz
-  servername: vless-colo.whuiy.xyz
+  server: 148.135.10.80
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: c64992bd-54aa-4d3d-8527-42da7d7e520a
-  xhttp-opts:
-    host: vless-colo.whuiy.xyz
-    mode: auto
-    path: /xhttp-us
-- name: FR - zhuhai.uk 02|775KB/s
   type: http
-  server: 141.94.16.4
+- name: 🇷🇸RS_1|1.7MB/s|851KB/s
+  password: None
   port: 443
-  tls: true
+  server: 146.70.221.34
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|1.1MB/s|651KB/s
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_1|1.6MB/s|420KB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
