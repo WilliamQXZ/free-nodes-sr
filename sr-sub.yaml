@@ -1,197 +1,21 @@
-# Mac hourly sync 2026-10-20 05:39:37 | alive 25
+# Mac hourly sync 2026-10-20 06:47:20 | alive 4
 proxies:
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|2.5MB/s|100KB/s
-  network: tcp
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 45.32.52.173
+- name: 🇱🇺LU_1|1.4MB/s|K001-260618|901KB/s
+  port: 443
+  server: 185.221.132.226
   skip-cert-verify: true
-  sni: 45.32.52.173
-  type: trojan
-  udp: true
-- name: RO - zhuhai.uk|26KB/s
+  sub_tag: K001-260618
+  tls: true
   type: http
-  server: 193.176.84.40
-  port: 9002
-  username: 'null'
+  udp: true
+- name: 🇨🇿CZ_1|1.2MB/s|784KB/s
   password: None
-  tls: true
-  skip-cert-verify: true
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇺🇸 美国 | USA #2|3KB/s'
-  network: http
   port: 443
-  server: 100.54.27.217
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: JP - zhuhai.uk|2KB/s
-  type: socks5
-  server: 101.36.104.239
-  port: 10808
-- name: NL - zhuhai.uk 02|2KB/s
-  type: http
-  server: 84.17.47.124
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #1|1KB/s'
-  network: xhttp
-  port: 443
-  server: vless-colo.whuiy.xyz
-  servername: vless-colo.whuiy.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c64992bd-54aa-4d3d-8527-42da7d7e520a
-  xhttp-opts:
-    host: vless-colo.whuiy.xyz
-    mode: auto
-    path: /xhttp-us
-- name: IT - zhuhai.uk|1KB/s
-  type: http
-  server: 94.177.163.156
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇳🇱NL_2|1.4MB/s|1KB/s
-  network: xhttp
-  port: 443
-  server: reg.gosru.com
-  servername: reg.gosru.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5de6a0ad-7d73-410b-ad50-a2bb5d47b93c
-  xhttp-opts:
-    host: reg.gosru.com
-    mode: packet-up
-    path: /assets/c8d953ad90f3a3efe3816c6557c1e596/
-    reuse-settings:
-      max-concurrency: '0'
-      max-connections: '2'
-    x-padding-bytes: 128-768
-    x-padding-header: X-Request-Context
-    x-padding-key: request_context
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: header
-  xudp: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.197
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 138.199.35.207
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇸🇬SG_4|1.2MB/s|1KB/s
-  password: '1234'
-  port: 2080
-  server: 13.250.6.200
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: '1234'
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇺🇸 美国 | USA #8|1KB/s'
-  network: http
-  port: 443
-  server: 44.251.76.224
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: NL - zhuhai.uk|1KB/s
-  type: http
-  server: 51.158.243.91
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: DE - zhuhai.uk 02|1KB/s
-  type: http
-  server: 158.173.154.5
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-  tls: true
-  sni: goedkoopgeluid.icu
-- name: SE - zhuhai.uk|1KB/s
-  type: http
-  server: 217.210.129.243
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 03|1KB/s
-  type: http
-  server: 193.176.84.37
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- client-fingerprint: unsafe
-  encryption: none
-  name: 🇸🇬SG_2|5.3MB/s|1KB/s
-  network: ws
-  port: 443
-  server: 172.64.150.43
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇺🇸US_4|1.1MB/s|1KB/s
-  port: 443
-  server: 148.135.10.80
+  server: 185.216.35.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: RO - zhuhai.uk 02|1KB/s
-  type: http
-  server: 193.176.84.31
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|0KB/s
+- name: US - zhuhai.uk 02|612KB/s
   type: http
   server: 138.199.35.195
   port: 9002
@@ -199,32 +23,19 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: HK - zhuhai.uk
-  type: socks5
-  server: 47.242.19.215
-  port: 8899
-  username: admin
-  password: admin
-- name: 🇭🇰 香港 | HKG 3
-  password: 0324fbc29561
+- name: 🇺🇸_US_美国|547KB/s
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  server: 654968169.df6h451rh.xin
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
   udp: true
-- name: TW - zhuhai.uk
-  type: anytls
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  udp: true
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: 🇸🇬SG_3|3.2MB/s
-  password: '1234'
-  port: 2080
-  server: 47.129.235.22
-  skip-cert-verify: true
-  type: http
-  username: '1234'
