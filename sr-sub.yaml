@@ -1,57 +1,54 @@
-# Mac hourly sync 2026-10-21 04:03:32 | alive 8
+# Mac hourly sync 2026-10-21 05:03:37 | alive 6
 proxies:
-- name: 🇭🇷HR_1|1.8MB/s|791KB/s
-  port: 443
-  server: 154.47.29.174
-  skip-cert-verify: true
+- name: JP - zhuhai.uk 02|853KB/s
+  type: vless
+  server: 103.180.20.100
+  port: 20004
+  uuid: 5e6cd021-d3ac-48fc-b2fd-203862ed9712
+  flow: xtls-rprx-vision
   tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+  reality-opts:
+    public-key: zVIESiLSczwOhE1qKC6yX-bIGMp5WrGGcKxE7X7_8TA
+    short-id: 686a51fda2f48e40
+- cipher: aes-256-gcm
+  name: '🇺🇸 美国 | USA #9|731KB/s'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.160.18
+  type: ss
+  udp: true
+- name: EE - zhuhai.uk|610KB/s
   type: http
-- name: 🇨🇿CZ_1|1.2MB/s|788KB/s
-  password: None
-  port: 443
-  server: 185.216.35.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: CA - zhuhai.uk|708KB/s
-  type: http
-  server: 198.44.157.27
+  server: 95.153.32.2
   port: 9443
   tls: true
   skip-cert-verify: true
-- name: RO_speednode_0015|636KB/s
+- name: NL_speednode_0008|452KB/s
   port: 9002
-  server: 193.176.84.35
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: US - zhuhai.uk 02|632KB/s
+- name: ID - zhuhai.uk|446KB/s
+  type: vmess
+  server: YV0UtumY21lQdrmq.v.3dns.vip
+  port: 443
+  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: YV0UtumY21lQdrmq.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: YV0UtumY21lQdrmq.v.3dns.vip
+- name: US - zhuhai.uk 05|334KB/s
   type: http
-  server: 121.127.34.82
+  server: 68.235.56.51
   port: 443
   tls: true
   skip-cert-verify: true
-- name: NL_speednode_0006|608KB/s
-  port: 443
-  server: 185.238.168.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0025|581KB/s
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DE_speednode_0001|351KB/s
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 167.172.172.190
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: testuser1
