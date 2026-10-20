@@ -1,74 +1,52 @@
-# Mac hourly sync 2026-10-20 09:12:24 | alive 8
+# Mac hourly sync 2026-10-20 10:04:26 | alive 5
 proxies:
-- name: 🇺🇸US_4|2.6MB/s|742KB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇬SG_1|1.8MB/s|706KB/s
-  password: '1234'
-  port: 2080
-  server: 13.212.55.110
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇳🇱NL_1|3.9MB/s|638KB/s
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #4|766KB/s'
   network: xhttp
   port: 443
-  server: reg.gosru.com
-  servername: reg.gosru.com
+  server: vless-colo.whuiy.xyz
+  servername: vless-colo.whuiy.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 5de6a0ad-7d73-410b-ad50-a2bb5d47b93c
+  uuid: c64992bd-54aa-4d3d-8527-42da7d7e520a
   xhttp-opts:
-    host: reg.gosru.com
-    mode: packet-up
-    path: /assets/c8d953ad90f3a3efe3816c6557c1e596/
-    reuse-settings:
-      max-concurrency: '0'
-      max-connections: '2'
-    x-padding-bytes: 128-768
-    x-padding-header: X-Request-Context
-    x-padding-key: request_context
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: header
-  xudp: true
-- name: 🇬🇧GB_2|2.4MB/s|622KB/s
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
+    host: vless-colo.whuiy.xyz
+    mode: auto
+    path: /xhttp-us
+- name: US - zhuhai.uk 07|732KB/s
   type: http
-- name: 🇷🇴RO_1|1.2MB/s|602KB/s
+  server: 138.199.35.197
   port: 9002
-  server: 193.176.84.17
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: NL_speednode_0007|723KB/s
+  password: None
+  port: 9002
+  server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇦🇹AT_1|2.7MB/s|578KB/s
-  password: None
-  port: 443
-  server: 146.70.244.18
-  skip-cert-verify: true
-  tls: true
+- name: RO - zhuhai.uk 03|585KB/s
   type: http
-- name: 🇨🇭CH_3|2.8MB/s|557KB/s
-  port: 9443
-  server: 149.88.27.33
-  skip-cert-verify: true
+  server: 193.176.84.25
+  port: 9002
   tls: true
-  type: http
-- name: 🇺🇸US_11|2.9MB/s|408KB/s
-  port: 443
-  server: 12.202.180.10
+  sni: www.bing.com
   skip-cert-verify: true
+- name: SG - zhuhai.uk|413KB/s
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 46105
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
   tls: true
-  type: http
+  servername: www.lamer.com.sg
+  skip-cert-verify: true
+  client-fingerprint: safari
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: 28f5c1f8f98a
