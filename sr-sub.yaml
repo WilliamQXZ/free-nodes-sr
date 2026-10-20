@@ -1,8 +1,20 @@
-# Mac hourly sync 2026-10-20 22:04:56 | alive 1
+# Mac hourly sync 2026-10-20 23:04:59 | alive 1
 proxies:
-- name: GB - zhuhai.uk 02|330KB/s
-  type: http
-  server: 212.102.63.61
-  port: 443
-  tls: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - gvt1.com
+    method: GET
+    path:
+    - /
+  name: '🇩🇪 德国 | DEU #9|241KB/s'
+  network: http
+  port: 80
+  server: turknew.net-flowa.com
   skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd96479e-9c39-4a7f-ba0c-806a83af19ca
