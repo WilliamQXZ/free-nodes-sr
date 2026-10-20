@@ -1,52 +1,73 @@
-# Mac hourly sync 2026-10-20 10:04:26 | alive 5
+# Mac hourly sync 2026-10-20 19:02:07 | alive 11
 proxies:
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #4|766KB/s'
-  network: xhttp
-  port: 443
-  server: vless-colo.whuiy.xyz
-  servername: vless-colo.whuiy.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c64992bd-54aa-4d3d-8527-42da7d7e520a
-  xhttp-opts:
-    host: vless-colo.whuiy.xyz
-    mode: auto
-    path: /xhttp-us
-- name: US - zhuhai.uk 07|732KB/s
+- name: DE - zhuhai.uk 02|2KB/s
   type: http
-  server: 138.199.35.197
+  server: 158.173.154.1
   port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk|1KB/s
+  type: http
+  server: 84.17.47.147
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 84.17.47.147
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 04|1KB/s
+  type: http
+  server: 193.176.84.19
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 02|0KB/s
+  type: http
+  server: 193.176.84.32
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: ID - zhuhai.uk|0KB/s
+  type: http
+  server: 178.248.73.58
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: TH - zhuhai.uk|0KB/s
+  type: socks5
+  server: 47.87.97.94
+  port: 1080
+- name: HK - zhuhai.uk
+  type: socks5
+  server: 47.242.19.215
+  port: 8899
+  username: admin
+  password: admin
+- name: JP - zhuhai.uk
+  type: socks5
+  server: 101.36.104.239
+  port: 10808
+- name: NL - zhuhai.uk 05
+  type: http
+  server: 51.159.225.196
+  port: 23856
   username: 'null'
   password: None
   tls: true
   skip-cert-verify: true
-- name: NL_speednode_0007|723KB/s
-  password: None
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
+- name: RO - zhuhai.uk
   type: http
-  udp: true
-- name: RO - zhuhai.uk 03|585KB/s
-  type: http
-  server: 193.176.84.25
+  server: 193.176.84.16
   port: 9002
   tls: true
-  sni: www.bing.com
   skip-cert-verify: true
-- name: SG - zhuhai.uk|413KB/s
-  type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 46105
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
+- name: RO - zhuhai.uk 03
+  type: http
+  server: 193.176.84.31
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
-  servername: www.lamer.com.sg
   skip-cert-verify: true
-  client-fingerprint: safari
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
