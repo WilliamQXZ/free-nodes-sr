@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-10-20 20:46:44 | alive 9
+# Mac hourly sync 2026-10-20 21:04:38 | alive 6
 proxies:
 - name: US - zhuhai.uk 03|1KB/s
   type: http
@@ -8,31 +8,13 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 38.247.141.135
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.197
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
-  type: http
-  server: 173.42.49.102
-  port: 8090
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 07|1KB/s
   type: http
   server: 44.248.167.117
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
+- name: US - zhuhai.uk 04|0KB/s
   type: http
   server: 138.199.35.211
   port: 9002
@@ -40,12 +22,16 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|0KB/s
+- name: US - zhuhai.uk|0KB/s
   type: http
-  server: 138.199.35.208
-  port: 9002
-  username: 'null'
-  password: None
+  server: 38.247.141.135
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08|0KB/s
+  type: http
+  server: 173.42.49.102
+  port: 8090
   tls: true
   skip-cert-verify: true
 - name: 🇺🇸_US_美国
@@ -64,9 +50,3 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
-- name: US - zhuhai.uk 06
-  type: http
-  server: kimberlymilano.icu
-  port: 443
-  tls: true
-  skip-cert-verify: true
