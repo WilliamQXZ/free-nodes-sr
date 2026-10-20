@@ -1,25 +1,21 @@
-# Mac hourly sync 2026-10-21 02:02:35 | alive 4
+# Mac hourly sync 2026-10-21 03:01:49 | alive 3
 proxies:
-- cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.215.132.9
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #15'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.151.163.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #14'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 45.86.51.18
-  type: ss
+- name: US - zhuhai.uk|1KB/s
+  type: http
+  server: 138.199.35.202
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.202
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA
+  password: 0324fbc29561
+  port: 443
+  server: 98416548.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
   udp: true
 - cipher: aes-256-gcm
   name: '🇺🇸 美国 | USA #9'
