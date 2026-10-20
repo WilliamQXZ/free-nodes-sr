@@ -1,54 +1,52 @@
-# Mac hourly sync 2026-10-21 05:03:37 | alive 6
+# Mac hourly sync 2026-10-21 06:01:31 | alive 6
 proxies:
-- name: JP - zhuhai.uk 02|853KB/s
+- name: 🇩🇪 德国 | DEU 7|867KB/s
+  server: 188.114.98.0
+  port: 2087
   type: vless
-  server: 103.180.20.100
-  port: 20004
-  uuid: 5e6cd021-d3ac-48fc-b2fd-203862ed9712
-  flow: xtls-rprx-vision
+  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
   tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: zVIESiLSczwOhE1qKC6yX-bIGMp5WrGGcKxE7X7_8TA
-    short-id: 686a51fda2f48e40
-- cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #9|731KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.151.160.18
-  type: ss
+  alpn:
+  - h2
+  - http/1.1
+  servername: ssmeall.javanrooo.ir
+  client-fingerprint: unsafe
+  network: xhttp
+  xhttp-opts:
+    path: /Reset.You1
   udp: true
-- name: EE - zhuhai.uk|610KB/s
-  type: http
-  server: 95.153.32.2
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: NL_speednode_0008|452KB/s
+- name: NL_speednode_0013|730KB/s
   port: 9002
-  server: 84.17.47.148
+  server: 84.17.47.147
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: ID - zhuhai.uk|446KB/s
-  type: vmess
-  server: YV0UtumY21lQdrmq.v.3dns.vip
+- name: 🇷🇸RS_1|1.9MB/s|667KB/s
+  password: None
   port: 443
-  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
-  alterId: 0
-  cipher: auto
+  server: 146.70.221.34
+  skip-cert-verify: true
   tls: true
-  servername: YV0UtumY21lQdrmq.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: YV0UtumY21lQdrmq.v.3dns.vip
-- name: US - zhuhai.uk 05|334KB/s
   type: http
-  server: 68.235.56.51
+- name: RO_speednode_0018|612KB/s
+  password: None
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DK_speednode_0004|589KB/s
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: CZ - zhuhai.uk|352KB/s
+  type: http
+  server: 193.35.104.196
   port: 443
   tls: true
   skip-cert-verify: true
