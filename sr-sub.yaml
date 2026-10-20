@@ -1,14 +1,57 @@
-# Mac hourly sync 2026-10-21 02:02:31 | alive 1
+# Mac hourly sync 2026-10-21 03:01:45 | alive 5
 proxies:
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #6|174KB/s'
-  network: ws
-  password: humanity
+- name: TW - zhuhai.uk|855KB/s
+  type: anytls
+  server: er8u54dh.df6h451rh.xin
   port: 443
-  server: 185.220.100.168
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+  password: 0324fbc29561
+  udp: true
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 | FRA|740KB/s
+  server: redrocketnode-bidarbash.sbs
+  port: 443
+  type: vless
+  uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
+  tls: true
+  alpn:
+  - http/1.1
+  servername: redrocketnode-bidarbash.sbs
+  client-fingerprint: chrome
+  network: ws
   ws-opts:
+    path: /zoodi
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
+      Host: redrocketnode-bidarbash.sbs
+  udp: true
+- name: NL_speednode_0007|623KB/s
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO_speednode_0015|546KB/s
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: ID - zhuhai.uk 03|310KB/s
+  type: vmess
+  server: TnmXPIFVwfvyFZvf.v.3dns.vip
+  port: 443
+  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: TnmXPIFVwfvyFZvf.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: TnmXPIFVwfvyFZvf.v.3dns.vip
