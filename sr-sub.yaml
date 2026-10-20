@@ -1,41 +1,74 @@
-# Mac hourly sync 2026-10-20 06:47:20 | alive 4
+# Mac hourly sync 2026-10-20 09:12:24 | alive 8
 proxies:
-- name: 🇱🇺LU_1|1.4MB/s|K001-260618|901KB/s
+- name: 🇺🇸US_4|2.6MB/s|742KB/s
   port: 443
-  server: 185.221.132.226
+  server: 148.135.10.80
   skip-cert-verify: true
-  sub_tag: K001-260618
+  tls: true
+  type: http
+- name: 🇸🇬SG_1|1.8MB/s|706KB/s
+  password: '1234'
+  port: 2080
+  server: 13.212.55.110
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇳🇱NL_1|3.9MB/s|638KB/s
+  network: xhttp
+  port: 443
+  server: reg.gosru.com
+  servername: reg.gosru.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5de6a0ad-7d73-410b-ad50-a2bb5d47b93c
+  xhttp-opts:
+    host: reg.gosru.com
+    mode: packet-up
+    path: /assets/c8d953ad90f3a3efe3816c6557c1e596/
+    reuse-settings:
+      max-concurrency: '0'
+      max-connections: '2'
+    x-padding-bytes: 128-768
+    x-padding-header: X-Request-Context
+    x-padding-key: request_context
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: header
+  xudp: true
+- name: 🇬🇧GB_2|2.4MB/s|622KB/s
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇷🇴RO_1|1.2MB/s|602KB/s
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇨🇿CZ_1|1.2MB/s|784KB/s
+- name: 🇦🇹AT_1|2.7MB/s|578KB/s
   password: None
   port: 443
-  server: 185.216.35.66
+  server: 146.70.244.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 02|612KB/s
-  type: http
-  server: 138.199.35.195
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
+- name: 🇨🇭CH_3|2.8MB/s|557KB/s
+  port: 9443
+  server: 149.88.27.33
   skip-cert-verify: true
-- name: 🇺🇸_US_美国|547KB/s
-  type: vmess
-  server: guanwang.awsno.com
+  tls: true
+  type: http
+- name: 🇺🇸US_11|2.9MB/s|408KB/s
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
+  server: 12.202.180.10
   skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
+  tls: true
+  type: http
