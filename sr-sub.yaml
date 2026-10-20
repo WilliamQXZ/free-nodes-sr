@@ -1,13 +1,67 @@
-# Mac hourly sync 2026-10-21 00:02:34 | alive 25
+# Mac hourly sync 2026-10-21 01:02:32 | alive 25
 proxies:
-- name: FR_speednode_0005|15KB/s
-  port: 443
-  server: 82.65.162.76
+- name: RO_speednode_0017|94KB/s
+  port: 9002
+  server: 193.176.84.29
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: RO_speednode_0018|8KB/s
+- name: US - zhuhai.uk 05|46KB/s
+  type: http
+  server: 138.199.35.197
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬[www.v2nodes.com] trojan-SG-...|41KB/s
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 139.180.146.200
+  skip-cert-verify: true
+  type: trojan
+- name: DK_speednode_0002|31KB/s
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL_speednode_0014|2KB/s
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL_speednode_0008|2KB/s
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO_speednode_0015|1KB/s
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL_speednode_0010|1KB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇨🇿CZ_1|1.2MB/s|1KB/s
+  password: None
+  port: 443
+  server: 185.216.35.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: RO_speednode_0018|1KB/s
   password: None
   port: 9002
   server: 193.176.84.26
@@ -15,12 +69,42 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: US - zhuhai.uk 07|2KB/s
+- name: NL_speednode_0009|1KB/s
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
   type: http
-  server: 44.248.167.117
-  port: 8443
+  udp: true
+- name: DK_speednode_0004|1KB/s
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL - zhuhai.uk 02|1KB/s
+  type: http
+  server: 185.93.106.214
+  port: 443
   tls: true
   skip-cert-verify: true
+- name: DE_speednode_0001|1KB/s
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: testuser1
+- name: DK_speednode_0003|1KB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: RO_speednode_0019|1KB/s
   port: 9002
   server: 193.176.84.38
@@ -28,20 +112,12 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: NL_speednode_0013|1KB/s
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  tls: true
+- name: NL - zhuhai.uk|1KB/s
   type: http
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #15|1KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.151.163.18
-  type: ss
-  udp: true
+  server: 84.17.47.123
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - name: NL_speednode_0006|1KB/s
   port: 443
   server: 185.238.168.20
@@ -56,126 +132,42 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: FR - zhuhai.uk|1KB/s
+- name: US - zhuhai.uk 07|1KB/s
   type: http
-  server: 31.32.19.111
-  port: 8081
+  server: 44.248.167.117
+  port: 8443
   tls: true
   skip-cert-verify: true
-- name: RO - zhuhai.uk|1KB/s
-  type: http
-  server: 193.176.84.31
+- name: NL_speednode_0013|1KB/s
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇫🇷 法国 | FRA|1KB/s
-  server: redrocketnode-bidarbash.sbs
-  port: 443
-  type: vless
-  uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
-  tls: true
-  alpn:
-  - http/1.1
-  servername: redrocketnode-bidarbash.sbs
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /zoodi
-    headers:
-      Host: redrocketnode-bidarbash.sbs
-  udp: true
-- name: AL - zhuhai.uk|1KB/s
-  type: http
-  server: 91.92.250.33
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: NL - zhuhai.uk|1KB/s
-  type: http
-  server: 84.17.47.123
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 38.247.141.135
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: NL_speednode_0008|1KB/s
-  port: 9002
-  server: 84.17.47.148
+  server: 84.17.47.147
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: NL_speednode_0010|1KB/s
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DK_speednode_0002|1KB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL - zhuhai.uk 02|0KB/s
-  type: http
-  server: 185.93.106.214
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: DK_speednode_0004|0KB/s
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇸🇬[www.v2nodes.com] trojan-SG-...|0KB/s
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 139.180.146.200
-  skip-cert-verify: true
-  type: trojan
-- name: NL_speednode_0014|0KB/s
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US - zhuhai.uk 08|0KB/s
+- name: US - zhuhai.uk 08|1KB/s
   type: http
   server: 173.42.49.102
   port: 8090
   tls: true
   skip-cert-verify: true
-- name: DE_speednode_0001|0KB/s
-  password: e4b72b531a2d10900519
+- name: 🇭🇷HR_1|1.8MB/s|1KB/s
   port: 443
-  server: 167.172.172.190
+  server: 154.47.29.174
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  username: testuser1
-- cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #9|0KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.151.160.18
-  type: ss
+- name: BG - zhuhai.uk|1KB/s
+  type: http
+  server: 185.94.192.210
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: NL_speednode_0007|1KB/s
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
