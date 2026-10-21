@@ -1,14 +1,70 @@
-# Mac hourly sync 2026-10-21 14:49:32 | alive 2
+# Mac hourly sync 2026-10-21 17:26:36 | alive 9
 proxies:
+- name: 🇩🇪DE_3|1.4MB/s|799KB/s
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|2.9MB/s|744KB/s
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 03|717KB/s
+  type: http
+  server: 138.199.35.199
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇨🇭CH_1|4.1MB/s|685KB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇬SG_2|1.4MB/s|685KB/s
+  password: '8888'
+  port: 1080
+  server: 47.236.168.243
+  skip-cert-verify: true
+  type: socks5
+  username: '8888'
+- name: 🇮🇹IT_1|2.9MB/s|491KB/s
+  port: 443
+  server: 185.183.105.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: RO - zhuhai.uk|453KB/s
+  type: http
+  server: 193.176.84.23
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: JP - zhuhai.uk|438KB/s
+  type: vless
+  server: pyygg0769.sys-metric-report.com
+  port: 52804
+  uuid: 2c8c4c3b-4616-400c-a2d4-f3669ea18fe9
+  flow: xtls-rprx-vision
+  tls: true
+  servername: japp.cfastcdn.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: cCwvNI8D-LX-kLH1IDuBZwnKkkyMPJm_0sJXsxz-_mA
+    short-id: 68c4f6b0
 - cipher: aes-256-gcm
-  name: 🇮🇹[www.v2nodes.com] ss-IT-1602...|768KB/s
+  name: '🇮🇹 意大利 | ITA #1|269KB/s'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.90
+  server: 202.50.253.27
   type: ss
-- name: 🇸🇬[www.v2nodes.com] trojan-SG-...|555KB/s
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 139.180.146.200
-  skip-cert-verify: true
-  type: trojan
+  udp: true
