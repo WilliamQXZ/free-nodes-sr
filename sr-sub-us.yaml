@@ -1,39 +1,6 @@
-# Mac hourly sync 2026-10-22 02:01:23 | alive 13
+# Mac hourly sync 2026-10-22 03:40:48 | alive 6
 proxies:
-- name: US - zhuhai.uk|56KB/s
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-  tls: true
-- name: US - zhuhai.uk 04|2KB/s
-  type: http
-  server: fan.596189.xyz
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 147.182.216.4
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: 93b6d804.acsnet.co
-  skip-cert-verify: true
-- name: '🇺🇸 美国 | USA #4'
-  network: ws
-  port: 2082
-  server: 104.18.35.86
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: false
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
-- name: 🇺🇸 美国 | USA 11
+- name: 🇺🇸 美国 | USA 11|1.1MB/s
   server: 156.229.164.4
   port: 9443
   type: vless
@@ -47,12 +14,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: US - zhuhai.uk 08
-  type: http
-  server: kimberlymilano.icu
-  port: 443
-  tls: true
-  sni: kimberlymilano.icu
 - http-opts:
     headers:
       Host:
@@ -60,7 +21,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '🇺🇸 美国 | USA #9'
+  name: '🇺🇸 美国 | USA #9|1.0MB/s'
   network: http
   port: 443
   server: 54.191.98.142
@@ -68,53 +29,19 @@ proxies:
   type: vless
   udp: true
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: 🇺🇸US_2|1021KB/s
+- name: 🇺🇸US_2|1021KB/s|656KB/s
   port: 443
   server: 68.235.56.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_1|1.8MB/s
+- name: 🇺🇸US_1|1.8MB/s|43KB/s
   port: 9443
   server: 198.44.135.19
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 03
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 2
-  network: ws
-  password: mitivpn
-  port: 443
-  server: b2n.ir
-  skip-cert-verify: true
-  sni: de.mitivpn.in.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: de.mitivpn.in.net
-    path: ''
-- name: 🇺🇸 美国 | USA 14
-  network: ws
-  password: 31794262-b429-4f35-8ffe-c1fa8a43b8d7
-  port: 2087
-  server: x.com
-  skip-cert-verify: true
-  sni: au3.yang-1989.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: au3.yang-1989.xyz
-    path: /9f81
-- name: 🇺🇸_US_美国
+- name: 🇺🇸_US_美国|0KB/s
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -130,3 +57,16 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
+- name: 🇺🇸 美国 | USA 14
+  network: ws
+  password: 31794262-b429-4f35-8ffe-c1fa8a43b8d7
+  port: 2087
+  server: x.com
+  skip-cert-verify: true
+  sni: au3.yang-1989.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: au3.yang-1989.xyz
+    path: /9f81
