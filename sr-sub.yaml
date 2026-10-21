@@ -1,46 +1,22 @@
-# Mac hourly sync 2026-10-22 05:32:12 | alive 5
+# Mac hourly sync 2026-10-22 06:51:46 | alive 2
 proxies:
-- name: 🇸🇬SG_2|1.5MB/s|2.2MB/s
-  password: '1234'
-  port: 2080
-  server: 47.129.235.22
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: TW - zhuhai.uk|2.1MB/s
-  type: anytls
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  udp: true
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇩🇪 德国 | DEU #5|1.1MB/s'
-  network: http
-  port: 443
-  server: 3.77.199.28
-  tls: false
+- name: 🇺🇸 美国 | USA 11|951KB/s
+  server: 156.229.164.4
+  port: 9443
   type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: DK_speednode_0007|862KB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
   tls: true
-  type: http
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
-- name: IT-202.50.253.72-2359 | 23.707MB|542KB/s
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: ID - zhuhai.uk|777KB/s
+  type: http
+  server: 103.86.117.202
+  port: 443
+  tls: true
+  skip-cert-verify: true
