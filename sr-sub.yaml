@@ -1,14 +1,64 @@
-# Mac hourly sync 2026-10-22 02:00:26 | alive 2
+# Mac hourly sync 2026-10-22 03:40:19 | alive 7
 proxies:
-- name: IE - zhuhai.uk|825KB/s
-  type: http
-  server: 34.249.214.108
+- name: 🇺🇸 美国 | USA 11|1.1MB/s
+  server: 156.229.164.4
+  port: 9443
+  type: vless
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: '🇺🇸 美国 | USA #9|1.0MB/s'
+  network: http
   port: 443
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 03|674KB/s
-  type: http
-  server: 193.176.84.19
+  server: 54.191.98.142
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- name: DK_speednode_0007|717KB/s
   port: 9002
-  tls: true
+  server: 158.173.154.4
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DE_speednode_0002|715KB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇱🇻LV_1|1.3MB/s|695KB/s
+  port: 443
+  server: 85.203.39.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_1|1.1MB/s|691KB/s
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_2|1021KB/s|656KB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
