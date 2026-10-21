@@ -1,19 +1,12 @@
-# Mac hourly sync 2026-10-22 04:47:58 | alive 11
+# Mac hourly sync 2026-10-22 05:32:16 | alive 10
 proxies:
-- name: US - zhuhai.uk 08|629KB/s
+- name: US - zhuhai.uk 03|48KB/s
   type: http
-  server: 129.212.181.253
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|617KB/s
-  type: http
-  server: 138.199.35.220
+  server: 138.199.35.209
   port: 9002
   tls: true
-  sni: 138.199.35.220
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 11|1KB/s
+- name: 🇺🇸 美国 | USA 11|3KB/s
   server: 156.229.164.4
   port: 9443
   type: vless
@@ -27,6 +20,12 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: 129.153.93.183
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - http-opts:
     headers:
       Host:
@@ -42,10 +41,10 @@ proxies:
   type: vless
   udp: true
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: US - zhuhai.uk 07|1KB/s
+- name: US - zhuhai.uk 08|1KB/s
   type: http
-  server: 129.153.93.183
-  port: 443
+  server: 129.212.181.253
+  port: 8443
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 04|1KB/s
@@ -64,18 +63,13 @@ proxies:
   password: e4b72b531a2d10900519
   tls: true
   sni: a2f392f3.acsnet.co
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-  server: 138.199.35.209
+  server: 138.199.35.220
   port: 9002
   tls: true
+  sni: 138.199.35.220
   skip-cert-verify: true
-- name: 🇺🇸[www.v2nodes.com] trojan-US-...
-  password: 600421cf-11d7-429f-a65b-c30397f1bc03
-  port: 443
-  server: 23.106.44.14
-  sni: sj6.freeguard.org
-  type: trojan
 - name: 🇺🇸 美国 | USA 14
   network: ws
   password: 31794262-b429-4f35-8ffe-c1fa8a43b8d7
