@@ -1,8 +1,14 @@
-# Mac hourly sync 2026-10-21 23:52:44 | alive 1
+# Mac hourly sync 2026-10-22 02:00:26 | alive 2
 proxies:
-- name: IT - zhuhai.uk|449KB/s
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IE - zhuhai.uk|825KB/s
+  type: http
+  server: 34.249.214.108
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 03|674KB/s
+  type: http
+  server: 193.176.84.19
+  port: 9002
+  tls: true
+  skip-cert-verify: true
