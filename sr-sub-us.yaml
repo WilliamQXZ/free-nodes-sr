@@ -1,35 +1,75 @@
-# Mac hourly sync 2026-10-23 04:55:52 | alive 4
+# Mac hourly sync 2026-10-23 05:34:55 | alive 10
 proxies:
-- name: 🇺🇸 美国 | USA 10
-  network: ws
-  password: 040870be-ae04-43d7-b265-bbe7b64b60db
-  port: 2053
-  server: www.visa.com.sg
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  tls: true
   skip-cert-verify: true
-  sni: au1.yang-1989.xyz
-  type: trojan
+- name: US - zhuhai.uk 03|2KB/s
+  type: http
+  server: 138.199.35.209
+  port: 9002
+  tls: true
+  sni: 138.199.35.209
+  skip-cert-verify: true
+- name: US - zhuhai.uk|1KB/s
+  type: http
+  server: 138.199.35.196
+  port: 9002
+  tls: true
+  sni: 138.199.35.196
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 44.217.145.28
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 10|1KB/s
+  type: http
+  server: 138.199.35.200
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 138.199.35.198
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|0KB/s
+  type: http
+  server: 138.199.35.214
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 12
+  type: http
+  server: 54.190.176.228
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 14
+  type: anytls
+  server: 98416548.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
   udp: true
+  skip-cert-verify: true
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
   ws-opts:
+    path: /hls/cctv5phd.m3u8
     headers:
-      Host: au1.yang-1989.xyz
-    path: /872y
-- name: 🇺🇸US_1|2.3MB/s|2KB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|1.3MB/s|1KB/s
-  password: None
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1014KB/s
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
+      Host: guanwang.awsno.com
+  udp: true
