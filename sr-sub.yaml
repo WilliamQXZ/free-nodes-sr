@@ -1,16 +1,9 @@
-# Mac hourly sync 2026-10-22 21:05:57 | alive 25
+# Mac hourly sync 2026-10-22 23:28:14 | alive 18
 proxies:
-- name: US - zhuhai.uk 07|95KB/s
-  type: anytls
-  server: 98416548.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  udp: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|18KB/s
+- name: NL - zhuhai.uk 02|9KB/s
   type: http
-  server: 23.133.176.14
-  port: 443
+  server: 84.17.47.148
+  port: 9002
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 02|6KB/s
@@ -19,94 +12,7 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #4|2KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #5|2KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #1|2KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-- cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #4|1KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-- name: TW - zhuhai.uk|1KB/s
-  type: anytls
-  server: 684616s4.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  udp: true
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 05|1KB/s
-  type: http
-  server: 193.176.84.37
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- cipher: aes-256-gcm
-  name: 🇮🇹[www.v2nodes.com] ss-IT-1602...|1KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-- name: JP - zhuhai.uk|1KB/s
-  type: http
-  server: fan.587475.xyz
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: NL - zhuhai.uk 02|1KB/s
-  type: http
-  server: 84.17.47.148
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 02|1KB/s
-  type: http
-  server: 193.176.84.17
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #5|1KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-- name: PT - zhuhai.uk|1KB/s
-  type: http
-  server: 149.22.86.1
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #2|1KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-- name: SG - zhuhai.uk|1KB/s
-  type: socks5
-  server: 47.236.168.243
-  port: 1080
-  username: '8888'
-  password: '8888'
-- name: JP - zhuhai.uk 02|1KB/s
+- name: JP - zhuhai.uk 02|3KB/s
   type: http
   server: fan.571589.xyz
   port: 443
@@ -115,23 +21,79 @@ proxies:
   tls: true
   sni: fan.571589.xyz
   skip-cert-verify: true
+- name: PT - zhuhai.uk|1KB/s
+  type: http
+  server: 149.22.86.1
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: JP - zhuhai.uk|1KB/s
+  type: http
+  server: fan.587475.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 44.229.69.166
   port: 8443
   tls: true
   skip-cert-verify: true
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #3|0KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
+- name: RO - zhuhai.uk 02|1KB/s
+  type: http
+  server: 193.176.84.17
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 04|1KB/s
+  type: http
+  server: 193.176.84.34
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 03|1KB/s
+  type: http
+  server: 193.176.84.23
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 23.133.176.14
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: GB - zhuhai.uk|1KB/s
+  type: http
+  server: 84.17.50.193
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: SG - zhuhai.uk|1KB/s
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: '8888'
+  password: '8888'
+- name: US - zhuhai.uk 04|0KB/s
+  type: http
+  server: 138.199.35.213
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - name: RO - zhuhai.uk|0KB/s
   type: http
   server: 193.176.84.26
   port: 9002
   tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 05|0KB/s
+  type: http
+  server: 193.176.84.37
+  port: 9002
+  tls: true
+  sni: www.bing.com
   skip-cert-verify: true
 - name: NL - zhuhai.uk 03|0KB/s
   type: http
@@ -139,19 +101,13 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: '🇰🇷 韩国 | KOR #1|0KB/s'
-  password: 28c4a59d-c2a0-4d6c-ba7d-db6a354990de
-  port: 24999
-  server: tjhg.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
+- name: TW - zhuhai.uk|0KB/s
+  type: anytls
+  server: 684616s4.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
   udp: true
-- name: US - zhuhai.uk 04|0KB/s
-  type: http
-  server: 138.199.35.213
-  port: 9002
-  tls: true
+  sni: px.ads.linkedin.com
   skip-cert-verify: true
 - name: NL - zhuhai.uk|0KB/s
   type: http
