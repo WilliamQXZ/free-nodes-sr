@@ -1,15 +1,28 @@
-# Mac hourly sync 2026-10-22 09:40:49 | alive 2
+# Mac hourly sync 2026-10-22 20:52:14 | alive 4
 proxies:
-- cipher: aes-256-gcm
-  name: 🇮🇹[www.v2nodes.com] ss-IT-1602...|716KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #2|621KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
+- name: CA_speednode_0001|363KB/s
+  port: 443
+  server: 35.183.131.26
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+- name: 🇵🇱PL_1|1.0MB/s|247KB/s
+  password: None
+  port: 443
+  server: 37.120.156.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇮🇹IT_1|2.2MB/s|209KB/s
+  port: 443
+  server: 185.183.105.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: IT-202.50.253.18-0389 | 57.005MB|123KB/s
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
