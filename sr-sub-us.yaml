@@ -1,5 +1,18 @@
-# Mac hourly sync 2026-10-23 03:59:41 | alive 4
+# Mac hourly sync 2026-10-23 04:55:52 | alive 4
 proxies:
+- name: 🇺🇸 美国 | USA 10
+  network: ws
+  password: 040870be-ae04-43d7-b265-bbe7b64b60db
+  port: 2053
+  server: www.visa.com.sg
+  skip-cert-verify: true
+  sni: au1.yang-1989.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: au1.yang-1989.xyz
+    path: /872y
 - name: 🇺🇸US_1|2.3MB/s|2KB/s
   port: 443
   server: 167.88.60.242
@@ -20,16 +33,3 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸 美国 | USA 10
-  network: ws
-  password: 040870be-ae04-43d7-b265-bbe7b64b60db
-  port: 2053
-  server: www.visa.com.sg
-  skip-cert-verify: true
-  sni: au1.yang-1989.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: au1.yang-1989.xyz
-    path: /872y
