@@ -1,18 +1,5 @@
-# Mac hourly sync 2026-10-22 21:06:03 | alive 6
+# Mac hourly sync 2026-10-23 00:05:00 | alive 4
 proxies:
-- name: US - zhuhai.uk 07|95KB/s
-  type: anytls
-  server: 98416548.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  udp: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|18KB/s
-  type: http
-  server: 23.133.176.14
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 02|6KB/s
   type: http
   server: 138.199.35.198
@@ -25,22 +12,15 @@ proxies:
   port: 8443
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 23.133.176.14
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 04|0KB/s
   type: http
   server: 138.199.35.213
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 10
-  network: ws
-  password: 040870be-ae04-43d7-b265-bbe7b64b60db
-  port: 2053
-  server: www.visa.com.sg
-  skip-cert-verify: true
-  sni: au1.yang-1989.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: au1.yang-1989.xyz
-    path: /872y
