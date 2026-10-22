@@ -1,22 +1,36 @@
-# Mac hourly sync 2026-10-23 04:55:49 | alive 1
+# Mac hourly sync 2026-10-23 05:34:26 | alive 5
 proxies:
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_1|4.1MB/s|2.1MB/s
-  network: ws
-  port: 443
-  server: 172.64.154.211
-  servername: snip.edgeoneai.cc.cd
+- name: 🇸🇬SG_4|1.5MB/s|655KB/s
+  password: '1234'
+  port: 2080
+  server: 54.255.129.221
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: RO - zhuhai.uk 02|641KB/s
+  type: http
+  server: 193.176.84.29
+  port: 9002
   tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /
-  xudp: true
+  skip-cert-verify: true
+- name: SG - zhuhai.uk|634KB/s
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: '8888'
+  password: '8888'
+- name: NL - zhuhai.uk 02|605KB/s
+  type: http
+  server: 185.93.106.214
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: DE - zhuhai.uk|367KB/s
+  type: http
+  server: 167.172.172.190
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: a7acacbe.acsnet.co
+  skip-cert-verify: true
