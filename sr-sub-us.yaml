@@ -1,55 +1,35 @@
-# Mac hourly sync 2026-10-23 02:18:17 | alive 7
+# Mac hourly sync 2026-10-23 03:59:41 | alive 4
 proxies:
-- name: US - zhuhai.uk 02|4KB/s
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 138.199.35.213
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: 23.133.176.14
+- name: 🇺🇸US_1|2.3MB/s|2KB/s
   port: 443
-  tls: true
+  server: 167.88.60.242
   skip-cert-verify: true
-- name: US - zhuhai.uk 06
+  tls: true
   type: http
-  server: 44.229.69.166
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
+- name: 🇺🇸US_2|1.3MB/s|1KB/s
+  password: None
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
+  server: 149.34.248.65
   skip-cert-verify: true
-  servername: guanwang.awsno.com
+  tls: true
+  type: http
+- name: 🇺🇸US_3|1014KB/s
+  password: None
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 美国 | USA 10
   network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- name: 🇺🇸[www.v2nodes.com] trojan-US-...
-  password: 600421cf-11d7-429f-a65b-c30397f1bc03
-  port: 443
-  server: 23.106.44.14
-  sni: sj6.freeguard.org
-  type: trojan
-- name: US - zhuhai.uk 07
-  type: anytls
-  server: 98416548.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  udp: true
+  password: 040870be-ae04-43d7-b265-bbe7b64b60db
+  port: 2053
+  server: www.visa.com.sg
   skip-cert-verify: true
+  sni: au1.yang-1989.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: au1.yang-1989.xyz
+    path: /872y
