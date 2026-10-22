@@ -1,36 +1,9 @@
-# Mac hourly sync 2026-10-23 05:34:26 | alive 5
+# Mac hourly sync 2026-10-23 06:14:25 | alive 1
 proxies:
-- name: 🇸🇬SG_4|1.5MB/s|655KB/s
-  password: '1234'
-  port: 2080
-  server: 54.255.129.221
-  skip-cert-verify: true
+- name: RU - zhuhai.uk|649KB/s
   type: http
-  username: '1234'
-- name: RO - zhuhai.uk 02|641KB/s
-  type: http
-  server: 193.176.84.29
-  port: 9002
+  server: chalo-ru.nexorcdn.com
+  port: 44008
+  username: ef37886e2aacd6fa622e3de3810299c2
+  password: 9jkvAVV-9ufV6IGd
   tls: true
-  skip-cert-verify: true
-- name: SG - zhuhai.uk|634KB/s
-  type: socks5
-  server: 47.236.168.243
-  port: 1080
-  username: '8888'
-  password: '8888'
-- name: NL - zhuhai.uk 02|605KB/s
-  type: http
-  server: 185.93.106.214
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: DE - zhuhai.uk|367KB/s
-  type: http
-  server: 167.172.172.190
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: a7acacbe.acsnet.co
-  skip-cert-verify: true
