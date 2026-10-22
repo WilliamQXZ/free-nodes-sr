@@ -1,197 +1,39 @@
-# Mac hourly sync 2026-10-23 02:17:09 | alive 25
+# Mac hourly sync 2026-10-23 03:59:37 | alive 5
 proxies:
-- name: US - zhuhai.uk 02|4KB/s
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  tls: true
+- auth: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  name: 🇹🇷 土耳其 | TUR|1.6MB/s
+  obfs: salamander
+  obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
+  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  port: 34121
+  server: 153.56.210.134
   skip-cert-verify: true
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵JP_1|4.7MB/s|1KB/s
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-  xudp: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 138.199.35.213
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 03|1KB/s
-  type: http
-  server: 193.176.84.23
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 02|1KB/s
-  type: http
-  server: 193.176.84.17
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: JP - zhuhai.uk 02|1KB/s
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: fan.571589.xyz
-  skip-cert-verify: true
-- name: RO - zhuhai.uk|1KB/s
-  type: http
-  server: 193.176.84.26
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: JP - zhuhai.uk|1KB/s
-  type: http
-  server: fan.587475.xyz
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: SG - zhuhai.uk|1KB/s
-  type: socks5
-  server: 47.236.168.243
-  port: 1080
-  username: '8888'
-  password: '8888'
-- name: NL - zhuhai.uk|0KB/s
-  type: http
-  server: 51.159.225.197
-  port: 19362
-  tls: true
-  skip-cert-verify: true
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_1|4.1MB/s
-  network: ws
-  port: 443
-  server: 172.64.154.211
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /
-  xudp: true
-- name: TW - zhuhai.uk
-  type: anytls
-  server: 684616s4.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  udp: true
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: 🇯🇵JP-154.36.158.197-0398 | 0.003MB
-  server: 154.36.158.197
-  port: 8388
-  type: ss
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-- name: US - zhuhai.uk 05
-  type: http
-  server: 23.133.176.14
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: GB - zhuhai.uk
-  type: http
-  server: 84.17.50.193
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06
-  type: http
-  server: 44.229.69.166
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: https://github.com/*********-*...
-  port: 24667
-  protocol: udp
-  server: 62.210.70.191
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: 🇬🇧GB_2|3.2MB/s
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇪IE_1|1.4MB/s
+  sni: www.bing.com
+  type: hysteria2
+- name: 🇪🇸ES_1|1.4MB/s|726KB/s
   password: None
   port: 443
-  server: 149.88.96.12
+  server: 130.195.250.18
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_2|1.8MB/s
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇨🇿CZ_1|2.3MB/s
+- name: 🇦🇱AL_2|1.5MB/s|689KB/s
   password: None
   port: 443
-  server: 185.216.35.130
+  server: 87.120.103.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇳🇱NL_1|1.1MB/s
-  port: 9443
-  server: 149.36.51.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇸🇬SG_6|1.4MB/s
-  password: '1234'
-  port: 2080
-  server: 13.212.207.226
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇱🇺LU_1|1.6MB/s
+- name: 🇩🇪DE_1|1.6MB/s|683KB/s
   port: 443
-  server: 185.221.132.242
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇵🇱PL_2|3.7MB/s
-  password: None
+- name: '🇮🇳 印度 | IND #1|523KB/s'
+  password: Trojan@82164024
   port: 443
-  server: 37.120.156.18
+  server: in.tronsg.com
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: in.tronsg.com
+  type: trojan
