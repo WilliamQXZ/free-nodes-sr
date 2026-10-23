@@ -1,5 +1,19 @@
-# Mac hourly sync 2026-10-23 09:04:05 | alive 18
+# Mac hourly sync 2026-10-23 11:22:04 | alive 20
 proxies:
+- cipher: aes-256-gcm
+  name: '🇺🇸 美国 | USA #6|2KB/s'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇺🇸 美国 | USA #2|1KB/s'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+  udp: true
 - name: 🇺🇸US_8|2.9MB/s|813KB/s
   port: 443
   server: 121.127.34.82
