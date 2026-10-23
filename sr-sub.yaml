@@ -1,95 +1,19 @@
-# Mac hourly sync 2026-10-23 23:16:31 | alive 16
+# Mac hourly sync 2026-10-24 01:24:30 | alive 1
 proxies:
-- name: IT-202.50.253.36-0145 | 84.15MB|1KB/s
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: FR - zhuhai.uk 02|1KB/s
-  type: http
-  server: fan.132031.xyz
+- client-fingerprint: unsafe
+  encryption: none
+  name: 🇸🇬SG_1|2.8MB/s|176KB/s
+  network: ws
   port: 443
+  server: 172.64.150.43
+  servername: snip.edgeoneai.cc.cd
   tls: true
-  sni: fan.132031.xyz
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: purposebydesig.club
-  port: 443
-  tls: true
-- name: JP - zhuhai.uk 02|1KB/s
-  type: socks5
-  server: 101.36.104.239
-  port: 10808
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 54.190.176.228
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
-  type: http
-  server: 138.199.35.201
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: HK - zhuhai.uk|0KB/s
-  type: socks5
-  server: 123.58.219.171
-  port: 10808
-- name: IT-202.50.253.18-0122 | 86.186MB|0KB/s
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇯🇵JP-154.36.158.197-0237 | 0.009MB
-  server: 154.36.158.197
-  port: 8388
-  type: ss
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-- name: RS - zhuhai.uk
-  type: http
-  server: 146.70.221.34
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 11
-  type: http
-  server: 138.199.35.216
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: FR - zhuhai.uk 03
-  type: http
-  server: 82.96.128.175
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.45-0125 | 68.898MB
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.99-0126 | 83.332MB
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.90-0141 | 84.303MB
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
