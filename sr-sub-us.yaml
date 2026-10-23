@@ -1,20 +1,33 @@
-# Mac hourly sync 2026-10-23 23:16:35 | alive 5
+# Mac hourly sync 2026-10-24 01:41:30 | alive 8
 proxies:
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk|10KB/s
   type: http
-  server: purposebydesig.club
-  port: 443
+  server: 173.42.49.102
+  port: 8090
   tls: true
-- name: US - zhuhai.uk 04|1KB/s
+  skip-cert-verify: true
+- name: 🇺🇸US_2|1.1MB/s|2KB/s
+  port: 443
+  server: 45.63.38.134
+  skip-cert-verify: true
+  tls: true
   type: http
-  server: 54.190.176.228
-  port: 8443
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.200
+  port: 9002
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 08|1KB/s
   type: http
   server: 138.199.35.201
   port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04
+  type: http
+  server: 54.190.176.228
+  port: 8443
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 11
@@ -25,9 +38,16 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  tls: true
+- name: 🇺🇸US_3|1.1MB/s
+  password: None
+  port: 443
+  server: 193.239.236.134
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 12
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+  username: Ok5vbmU=
+  tls: true
