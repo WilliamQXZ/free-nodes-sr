@@ -1,80 +1,45 @@
-# Mac hourly sync 2026-10-24 05:54:12 | alive 12
+# Mac hourly sync 2026-10-24 07:29:50 | alive 7
 proxies:
-- name: US - zhuhai.uk 12|375KB/s
-  type: http
-  server: 38.28.193.188
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|2KB/s
-  type: http
-  server: 66.153.187.90
-  port: 8090
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 04|1KB/s
   type: http
-  server: 138.199.35.219
-  port: 9002
+  server: fan.226278.xyz
+  port: 443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 13|1KB/s
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-  server: 138.199.35.205
+  server: 138.199.35.206
   port: 9002
   username: 'null'
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.210
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
-  type: http
-  server: 138.199.35.197
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 11
-  type: http
-  server: 148.135.10.80
+- name: 🇺🇸US_1|3.0MB/s
   port: 443
-  tls: true
+  server: 167.88.60.242
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
+  tls: true
   type: http
-  server: 23.133.176.14
+- name: US - zhuhai.uk 05
+  type: http
+  server: jewelscollecti.icu
   port: 443
+  username: bnVsbDpudWxs
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 09
+- name: US - zhuhai.uk
+  type: socks5
+  server: 67.207.92.87
+  port: 1088
+- name: US - zhuhai.uk 03
   type: http
-  server: 44.229.69.166
-  port: 8443
+  server: 38.95.111.226
+  port: 9443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_2|1.1MB/s
+- name: 🇺🇸US_3|1.1MB/s
+  password: None
   port: 443
-  server: 45.63.38.134
+  server: 193.239.236.134
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 10
-  type: http
-  server: 138.199.35.202
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  tls: true
-  skip-cert-verify: true
