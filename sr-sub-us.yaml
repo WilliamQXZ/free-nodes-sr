@@ -1,45 +1,65 @@
-# Mac hourly sync 2026-10-24 07:29:50 | alive 7
+# Mac hourly sync 2026-10-24 08:54:20 | alive 8
 proxies:
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: fan.226278.xyz
+- name: US - zhuhai.uk 04|4KB/s
+  type: anytls
+  server: 98416548.df6h451rh.xin
   port: 443
-  tls: true
+  password: 0324fbc29561
+  udp: true
+  sni: images.ctfassets.net
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
+- name: US - zhuhai.uk 07|1KB/s
   type: http
-  server: 138.199.35.206
+  server: 162.243.146.243
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: a2f392f3.acsnet.co
+  skip-cert-verify: true
+- name: US - zhuhai.uk 10|1KB/s
+  type: http
+  server: 147.182.216.4
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: 93b6d804.acsnet.co
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.209
   port: 9002
-  username: 'null'
-  password: None
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_1|3.0MB/s
+- name: 🇺🇸US_2|1.1MB/s
   port: 443
-  server: 167.88.60.242
+  server: 45.63.38.134
   skip-cert-verify: true
   tls: true
   type: http
 - name: US - zhuhai.uk 05
   type: http
-  server: jewelscollecti.icu
-  port: 443
-  username: bnVsbDpudWxs
+  server: 138.199.35.206
+  port: 9002
   tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk
   type: socks5
   server: 67.207.92.87
   port: 1088
-- name: US - zhuhai.uk 03
-  type: http
-  server: 38.95.111.226
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_3|1.1MB/s
-  password: None
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  type: http
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
