@@ -1,21 +1,10 @@
-# Mac hourly sync 2026-10-24 08:53:51 | alive 5
+# Mac hourly sync 2026-10-24 10:36:58 | alive 5
 proxies:
-- name: ❓Other_1|1.2MB/s|2.2MB/s
-  password: '1234'
-  port: 2080
-  server: 13.212.90.38
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_2|3.0MB/s|1.8MB/s
+- client-fingerprint: chrome
+  name: 🇺🇸US_18|2.2MB/s|1.1MB/s
   network: ws
   port: 443
-  server: 172.64.154.211
+  server: 104.16.65.1
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -24,27 +13,41 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
     path: /
   xudp: true
-- name: 🇮🇹_IT_意大利|709KB/s
-  type: ss
+- name: 🇺🇸US_23|3.4MB/s|555KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: SE - zhuhai.uk|505KB/s
+  type: anytls
+  server: svip.skycon808.com
+  port: 60005
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  udp: true
+  skip-cert-verify: true
+- name: IT-202.50.253.81-0084 | 68.45MB|482KB/s
   server: 202.50.253.81
   port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  skip-cert-verify: true
-  udp: true
-- name: RO - zhuhai.uk|702KB/s
-  type: http
-  server: 193.176.84.23
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: IT - zhuhai.uk 02|539KB/s
   type: ss
-  server: 202.50.253.63
-  port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- alpn:
+  - http/1.1
+  name: 🇳🇱[www.v2nodes.com] trojan-NL-...|392KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.40.99
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.trusteeforward.com
+    path: '%2Fassignment'
