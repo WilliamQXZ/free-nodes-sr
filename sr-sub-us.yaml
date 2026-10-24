@@ -1,49 +1,44 @@
-# Mac hourly sync 2026-10-25 03:39:54 | alive 4
+# Mac hourly sync 2026-10-25 06:04:26 | alive 7
 proxies:
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇺🇸 美国 | USA #4|2KB/s'
-  network: http
-  port: 443
-  server: 3.147.42.150
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #8 #2|2KB/s'
-  network: ws
-  port: 8080
-  server: 23.254.194.215
-  servername: www.bing.com
+- name: US - zhuhai.uk 05|2KB/s
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  tls: true
   skip-cert-verify: true
-  tls: false
-  type: vmess
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_3|1.7MB/s|1KB/s
+  port: 1080
+  server: 209.50.255.91
+  skip-cert-verify: true
+  type: socks5
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 147.182.216.4
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: 93b6d804.acsnet.co
+- name: '🇺🇸 美国 | USA #7'
+  password: va3E77I9fZCnCVcGKkxBCfz5
+  port: 443
+  server: vpn.liumr.top
+  skip-cert-verify: true
+  sni: vpn.liumr.top
+  type: trojan
   udp: true
-  uuid: 3c75a551-81d6-46d0-876d-79519719bb22
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 3c75a551-81d6-46d0-876d-79519719bb22-vm
-- name: '🇺🇸 美国 | USA #13'
-  network: ws
-  port: 8080
-  server: 104.18.35.86
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: false
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /sg-melbi
+- name: 🇺🇸US_1|2.6MB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇺🇸_US_美国_2
   type: vmess
   server: guanwang.awsno.com
