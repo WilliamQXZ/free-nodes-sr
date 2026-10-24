@@ -1,11 +1,21 @@
-# Mac hourly sync 2026-10-24 07:29:14 | alive 3
+# Mac hourly sync 2026-10-24 08:53:51 | alive 5
 proxies:
-- client-fingerprint: unsafe
+- name: ❓Other_1|1.2MB/s|2.2MB/s
+  password: '1234'
+  port: 2080
+  server: 13.212.90.38
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
   encryption: none
-  name: 🇸🇬SG_1|2.8MB/s|1.5MB/s
+  name: 🇸🇬SG_2|3.0MB/s|1.8MB/s
   network: ws
   port: 443
-  server: 172.64.150.43
+  server: 172.64.154.211
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -14,19 +24,27 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /
   xudp: true
-- name: NL - zhuhai.uk|791KB/s
-  type: http
-  server: 5.255.118.82
-  port: 443
-  tls: true
+- name: 🇮🇹_IT_意大利|709KB/s
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   skip-cert-verify: true
-- name: RO - zhuhai.uk 04|616KB/s
+  udp: true
+- name: RO - zhuhai.uk|702KB/s
   type: http
-  server: 193.176.84.25
+  server: 193.176.84.23
   port: 9002
   tls: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: IT - zhuhai.uk 02|539KB/s
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
