@@ -1,11 +1,17 @@
-# Mac hourly sync 2026-10-24 21:22:58 | alive 3
+# Mac hourly sync 2026-10-24 23:58:32 | alive 5
 proxies:
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.211
-  port: 9002
-  tls: true
+- name: 🇺🇸US_3|1.7MB/s|1KB/s
+  port: 1080
+  server: 209.50.255.91
   skip-cert-verify: true
+  type: socks5
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: jgwynphotoarts.pro
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
 - http-opts:
     headers:
       Host:
@@ -21,9 +27,17 @@ proxies:
   type: vless
   udp: true
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: 🇺🇸US_1|2.6MB/s
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 04
   type: http
+  server: 138.199.35.210
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  tls: true
+  skip-cert-verify: true
