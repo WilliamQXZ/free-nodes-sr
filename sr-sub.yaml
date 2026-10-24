@@ -1,49 +1,23 @@
-# Mac hourly sync 2026-10-25 03:39:51 | alive 6
+# Mac hourly sync 2026-10-25 06:04:22 | alive 3
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: https://github.com/*********-*...|1012KB/s
-  port: 24667
-  protocol: udp
-  server: 62.210.70.191
+- name: 🇸🇬SG_5|3.1MB/s|1.6MB/s
+  password: '1234'
+  port: 2080
+  server: 13.212.55.110
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: 🇨🇭CH_1|1.9MB/s|901KB/s
-  password: None
-  port: 9443
-  server: 149.88.27.33
-  skip-cert-verify: true
-  tls: true
   type: http
-- name: NL_speednode_0016|767KB/s
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0024|687KB/s
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: FR_speednode_0008|649KB/s
-  port: 443
-  server: 82.65.162.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: IT-202.50.253.36-0180 | 0.0MB|602KB/s
-  server: 202.50.253.36
+  username: '1234'
+- name: IT-202.50.253.27-0107 | 28.326MB|744KB/s
+  server: 202.50.253.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹_IT_意大利_2|711KB/s
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  skip-cert-verify: true
+  udp: true
