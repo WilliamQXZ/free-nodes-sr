@@ -1,20 +1,11 @@
-# Mac hourly sync 2026-10-24 14:19:29 | alive 14
+# Mac hourly sync 2026-10-24 17:56:13 | alive 6
 proxies:
-- name: 🇺🇸US_9|3.7MB/s|1KB/s
-  password: None
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-- name: 🇺🇸US_10|1.2MB/s|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
+  server: zebpay.site
+  port: 443
+  username: bnVsbDpudWxs
   tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: chrome
   encryption: none
   name: 🇺🇸US_5|2.2MB/s|1KB/s
@@ -32,92 +23,31 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
   xudp: true
-- name: 🇺🇸US_12|2.8MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|3.1MB/s|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sni: 138.199.35.198
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_6|1.0MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 138.199.35.209
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_13|3.3MB/s|0KB/s
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_1|1.6MB/s|0KB/s
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-  xudp: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: 167.88.60.242
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_11|3.3MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_8|2.3MB/s
+- name: 🇺🇸US_8|2.3MB/s|0KB/s
   password: None
   port: 9002
   server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 05
+- name: US - zhuhai.uk 08
+  type: anytls
+  server: 98416548.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07
   type: http
-  server: efr-marktplatz.club
-  port: 443
-  username: 'null'
-  password: None
+  server: 138.199.35.209
+  port: 9002
   tls: true
-- name: 🇺🇸[www.v2nodes.com] trojan-US-...
-  password: 600421cf-11d7-429f-a65b-c30397f1bc03
-  port: 443
-  server: 23.106.44.14
-  sni: sj6.freeguard.org
-  type: trojan
+  skip-cert-verify: true
+- name: 🇺🇸US_10|1.2MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
