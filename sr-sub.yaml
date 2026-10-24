@@ -1,49 +1,49 @@
-# Mac hourly sync 2026-10-25 02:38:30 | alive 5
+# Mac hourly sync 2026-10-25 03:39:51 | alive 6
 proxies:
 - alpn:
   - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_2|3.1MB/s|2.2MB/s
-  network: ws
-  port: 443
-  server: 172.64.154.211
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: 🇸🇬SG_5|3.1MB/s|1.9MB/s
-  password: '1234'
-  port: 2080
-  server: 13.212.55.110
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: https://github.com/*********-*...|1012KB/s
+  port: 24667
+  protocol: udp
+  server: 62.210.70.191
   skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: 🇨🇿CZ_1|2.0MB/s|843KB/s
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇳🇴NO_1|1.2MB/s|710KB/s
-  port: 9443
-  server: 146.70.170.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1.8MB/s|682KB/s
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
+- name: 🇨🇭CH_1|1.9MB/s|901KB/s
   password: None
   port: 9443
-  server: 37.120.233.34
+  server: 149.88.27.33
   skip-cert-verify: true
   tls: true
   type: http
+- name: NL_speednode_0016|767KB/s
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0024|687KB/s
+  port: 8443
+  server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: FR_speednode_0008|649KB/s
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: IT-202.50.253.36-0180 | 0.0MB|602KB/s
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
