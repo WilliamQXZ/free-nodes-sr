@@ -1,17 +1,11 @@
-# Mac hourly sync 2026-10-24 23:58:32 | alive 5
+# Mac hourly sync 2026-10-25 01:14:14 | alive 10
 proxies:
-- name: 🇺🇸US_3|1.7MB/s|1KB/s
-  port: 1080
-  server: 209.50.255.91
-  skip-cert-verify: true
-  type: socks5
-- name: US - zhuhai.uk 09|1KB/s
+- name: US - zhuhai.uk 04|6KB/s
   type: http
-  server: jgwynphotoarts.pro
-  port: 443
-  username: 'null'
-  password: 'null'
+  server: 138.199.35.195
+  port: 9002
   tls: true
+  skip-cert-verify: true
 - http-opts:
     headers:
       Host:
@@ -19,7 +13,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '🇺🇸 美国 | USA #4'
+  name: '🇺🇸 美国 | USA #4|3KB/s'
   network: http
   port: 443
   server: 3.147.42.150
@@ -27,17 +21,54 @@ proxies:
   type: vless
   udp: true
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: US - zhuhai.uk 04
+- name: US - zhuhai.uk 02|1KB/s
   type: http
-  server: 138.199.35.210
+  server: 138.199.35.209
   port: 9002
-  username: 'null'
-  password: 'null'
+  tls: true
+  sni: 138.199.35.209
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  tls: true
+  sni: 138.199.35.201
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  tls: true
+  sni: efr-marktplatz.club
+  skip-cert-verify: true
+- name: US - zhuhai.uk|0KB/s
+  type: http
+  server: 138.199.35.196
+  port: 9002
+  tls: true
+  sni: 138.199.35.196
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08
+  type: http
+  server: 138.199.35.218
+  port: 9002
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 06
   type: http
-  server: 138.199.35.206
+  server: 149.88.21.140
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: 138.199.35.214
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: 🇺🇸US_3|1.7MB/s
+  port: 1080
+  server: 209.50.255.91
+  skip-cert-verify: true
+  type: socks5
