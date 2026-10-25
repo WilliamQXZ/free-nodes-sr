@@ -1,72 +1,25 @@
-# Mac hourly sync 2026-10-25 19:02:16 | alive 11
+# Mac hourly sync 2026-10-25 20:02:59 | alive 3
 proxies:
-- name: 🇬🇧GB-82.38.31.186-0079 | 79.799MB|541KB/s
-  server: 82.38.31.186
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: UA-185.164.175.81-0069 | 77.14MB|426KB/s
-  server: 185.164.175.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇬🇧GB-82.38.31.210-0170 | 79.443MB|399KB/s
-  server: 82.38.31.210
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US_13|3.4MB/s|387KB/s
+- name: 🇬🇧GB_6|2.9MB/s|452KB/s
   password: None
-  port: 9002
-  server: 138.199.35.213
+  port: 443
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US-37.19.198.236-0087 | 104.797MB|361KB/s
-  server: 37.19.198.236
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: RO - zhuhai.uk|328KB/s
-  type: http
-  server: 193.176.84.37
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US-216.106.186.33-0091 | 52.268MB|315KB/s
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  port: 443
-  type: trojan
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: false
-- name: 🇺🇸US-193.151.160.9-0056 | 174.847MB|302KB/s
-  server: 193.151.160.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_6|3.1MB/s|272KB/s
+- name: 🇩🇪DE_2|1.2MB/s|R002-260618|384KB/s
   password: None
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB-82.38.31.181-0067 | 73.702MB|260KB/s
-  server: 82.38.31.181
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: JP - zhuhai.uk|204KB/s
-  type: http
-  server: fan.571589.xyz
   port: 443
-  username: bnVsbDpudWxs
-  tls: true
+  server: 87.249.132.97
   skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_18|3.1MB/s|186KB/s
+  password: None
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
