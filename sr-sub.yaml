@@ -1,22 +1,53 @@
-# Mac hourly sync 2026-10-25 18:35:23 | alive 3
+# Mac hourly sync 2026-10-25 18:48:44 | alive 8
 proxies:
-- name: 🇩🇪DE_1|2.9MB/s|511KB/s
-  password: None
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
+- name: 🇬🇧GB-146.70.61.37-5253 | 83.302MB|396KB/s
+  server: 146.70.61.37
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧GB-82.38.31.207-0062 | 71.826MB|394KB/s
+  server: 82.38.31.207
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: TW - zhuhai.uk|358KB/s
   type: http
-- name: 🇺🇸US_17|1.8MB/s|440KB/s
-  password: None
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  port: 1443
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  password: exaxgqkKkd0TAMrCxeonWg==
+  tls: true
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+- name: IT-202.50.253.63-0085 | 71.649MB|295KB/s
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇬🇧GB-82.38.31.192-0090 | 77.217MB|285KB/s
+  server: 82.38.31.192
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.184-0083 | 77.866MB|282KB/s
+  server: 82.38.31.184
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇺🇸US-216.106.186.32-0092 | 52.913MB|273KB/s
+  server: blog.findlocaljobnetworkandbuildcommunityconnections.com
   port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇪IE_2|1.1MB/s|325KB/s
+  type: trojan
+  password: dba20dcb635e430fa4d3bfc303a149d2
+  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: false
+- name: 🇺🇸US-156.146.38.168-0051 | 125.541MB|202KB/s
+  server: 156.146.38.168
   port: 443
-  server: 149.88.96.1
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
