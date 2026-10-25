@@ -1,57 +1,48 @@
-# Mac hourly sync 2026-10-26 03:01:46 | alive 7
+# Mac hourly sync 2026-10-26 04:01:50 | alive 6
 proxies:
-- name: 🇮🇹IT_1|1.2MB/s|749KB/s
-  password: None
+- name: 🇱🇺LU_1|1005KB/s|668KB/s
   port: 443
-  server: 185.183.105.130
+  server: 185.221.132.226
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 06|719KB/s
-  type: http
-  server: 198.44.135.19
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: 🇸🇪SE_1|1.4MB/s|715KB/s
-  password: None
-  port: 443
-  server: 149.50.216.65
+- name: FR_speednode_0012|668KB/s
+  password: 'null'
+  port: 23856
+  server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk|655KB/s
+  udp: true
+  username: 'null'
+- name: RO - zhuhai.uk 04|633KB/s
   type: http
-  server: 66.153.187.90
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: RO - zhuhai.uk 02|546KB/s
-  type: http
-  server: 193.176.84.23
+  server: 193.176.84.37
   port: 9002
   tls: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: MY - zhuhai.uk|482KB/s
+- name: US - zhuhai.uk 04|625KB/s
   type: http
-  server: 152.233.3.14
-  port: 9443
+  server: 138.199.35.206
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸_US_美国|159KB/s
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
+- name: '🇹🇼 🇨🇳 台湾 | TWN #1|529KB/s'
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  port: 24999
+  server: tjtw.m2k699.com
   skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
+  sni: www.itunes.com
+  type: trojan
+  udp: true
+- name: '🇭🇰 香港 | HKG #1|376KB/s'
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  port: 24999
+  server: tjflb.m2k699.com
+  skip-cert-verify: true
+  sni: www.itunes.com
+  type: trojan
   udp: true
