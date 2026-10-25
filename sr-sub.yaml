@@ -1,23 +1,22 @@
-# Mac hourly sync 2026-10-25 06:04:22 | alive 3
+# Mac hourly sync 2026-10-25 18:35:23 | alive 3
 proxies:
-- name: 🇸🇬SG_5|3.1MB/s|1.6MB/s
-  password: '1234'
-  port: 2080
-  server: 13.212.55.110
+- name: 🇩🇪DE_1|2.9MB/s|511KB/s
+  password: None
+  port: 9443
+  server: 79.127.156.177
   skip-cert-verify: true
+  tls: true
   type: http
-  username: '1234'
-- name: IT-202.50.253.27-0107 | 28.326MB|744KB/s
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹_IT_意大利_2|711KB/s
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US_17|1.8MB/s|440KB/s
+  password: None
+  port: 443
+  server: 12.202.180.10
   skip-cert-verify: true
-  udp: true
+  tls: true
+  type: http
+- name: 🇮🇪IE_2|1.1MB/s|325KB/s
+  port: 443
+  server: 149.88.96.1
+  skip-cert-verify: true
+  tls: true
+  type: http
