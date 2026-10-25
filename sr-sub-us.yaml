@@ -1,12 +1,29 @@
-# Mac hourly sync 2026-10-25 23:02:52 | alive 4
+# Mac hourly sync 2026-10-26 00:03:50 | alive 9
 proxies:
-- name: 🇺🇸US_1|2.2MB/s|1KB/s
-  password: None
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 11|13KB/s
   type: http
+  server: 138.199.35.205
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 38.28.193.188
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+  tls: true
+  sni: carolinafreigh.fun
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 129.153.93.183
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - http-opts:
     headers:
       Host:
@@ -22,15 +39,30 @@ proxies:
   type: vless
   udp: true
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: US - zhuhai.uk 11|1KB/s
+- name: US - zhuhai.uk 03|1KB/s
   type: http
-  server: 138.199.35.205
+  server: 138.199.35.206
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 09|0KB/s
+- name: US - zhuhai.uk 04|1KB/s
   type: http
-  server: 129.153.93.183
+  server: 138.199.35.214
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk
+  type: http
+  server: voteshirleysew.club
   port: 443
   tls: true
+- name: US - zhuhai.uk 07
+  type: anytls
+  server: 98416548.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
+  sni: images.ctfassets.net
   skip-cert-verify: true
