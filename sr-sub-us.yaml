@@ -1,167 +1,38 @@
-# Mac hourly sync 2026-10-25 19:02:23 | alive 30
+# Mac hourly sync 2026-10-25 20:03:03 | alive 15
 proxies:
-- name: 🇺🇸US_13|3.4MB/s|387KB/s
+- name: 🇺🇸US_18|3.1MB/s|186KB/s
+  password: None
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|2.1MB/s|5KB/s
   password: None
   port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US-37.19.198.236-0087 | 104.797MB|361KB/s
-  server: 37.19.198.236
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-216.106.186.33-0091 | 52.268MB|315KB/s
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  port: 443
-  type: trojan
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: false
-- name: 🇺🇸US-193.151.160.9-0056 | 174.847MB|302KB/s
-  server: 193.151.160.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_6|3.1MB/s|272KB/s
-  password: None
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US-156.146.38.169-0055 | 125.337MB|1KB/s
-  server: 156.146.38.169
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-95.215.201.18-0093 | 46.966MB|1KB/s
-  server: 95.215.201.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-156.146.38.170-0058 | 117.036MB|1KB/s
-  server: 156.146.38.170
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-185.230.230.18-0050 | 238.166MB|1KB/s
-  server: 185.230.230.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-193.151.160.18-0049 | 163.487MB|1KB/s
-  server: 193.151.160.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-216.106.186.32-0092 | 52.913MB|1KB/s
-  server: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  port: 443
-  type: trojan
-  password: dba20dcb635e430fa4d3bfc303a149d2
-  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: false
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
   server: 138.199.35.214
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US-37.19.198.243-0084 | 118.292MB|1KB/s
-  server: 37.19.198.243
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US_9|1.3MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 🇺🇸US_7|2.2MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.217
+- name: 🇺🇸US_19|2.5MB/s|2KB/s
+  port: 11080
+  server: 172.245.108.219
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 02|1KB/s
-  type: vless
-  server: saas.sin.fan
-  port: 2083
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  tls: true
-  servername: vp7.1145678.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /events/class
-    headers:
-      Host: vp7.1145678.xyz
-- name: 🇺🇸US_15|3.1MB/s|1KB/s
+  type: socks5
+- name: 🇺🇸US_15|3.1MB/s|2KB/s
   port: 443
   server: 23.133.176.14
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US-156.146.38.168-0051 | 125.541MB|1KB/s
-  server: 156.146.38.168
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-45.86.51.18-0047 | 279.587MB|1KB/s
-  server: 45.86.51.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-193.151.163.18-0074 | 179.734MB|1KB/s
-  server: 193.151.163.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-173.244.56.9-0054 | 60.004MB|1KB/s
-  server: 173.244.56.9
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.167-0053 | 108.328MB|1KB/s
-  server: 156.146.38.167
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: US - zhuhai.uk 08|0KB/s
-  type: http
-  server: efr-marktplatz.club
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
-- name: 🇺🇸US_16|3.4MB/s|0KB/s
+- name: 🇺🇸US_17|1.8MB/s|1KB/s
   password: None
   port: 443
-  server: 45.63.38.134
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_8|2.4MB/s|0KB/s
+- name: 🇺🇸US_8|2.4MB/s|1KB/s
   password: 'null'
   port: 9002
   server: 138.199.35.202
@@ -170,30 +41,51 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_11|2.2MB/s|0KB/s
+- name: 🇺🇸US_16|3.4MB/s|1KB/s
   password: None
-  port: 9002
-  server: 138.199.35.212
+  port: 443
+  server: 45.63.38.134
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_5|2.7MB/s|0KB/s
+- name: 🇺🇸US_6|3.1MB/s|1KB/s
+  password: None
+  port: 8443
+  server: 44.229.69.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|2.2MB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 04|0KB/s
+  type: http
+  server: 38.95.111.226
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_12|1.3MB/s|0KB/s
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_5|2.7MB/s
   password: None
   port: 9002
   server: 138.199.35.201
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US-173.244.56.6-0052 | 57.529MB|0KB/s
-  server: 173.244.56.6
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US_3|2.0MB/s
+- name: 🇺🇸US_11|2.2MB/s
   password: None
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
@@ -213,3 +105,10 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  tls: true
+  sni: efr-marktplatz.club
+  skip-cert-verify: true
