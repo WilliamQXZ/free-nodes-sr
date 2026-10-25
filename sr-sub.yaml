@@ -1,10 +1,57 @@
-# Mac hourly sync 2026-10-26 01:02:23 | alive 1
+# Mac hourly sync 2026-10-26 03:01:46 | alive 7
 proxies:
-- name: PL_speednode_0040|267KB/s
+- name: 🇮🇹IT_1|1.2MB/s|749KB/s
   password: None
   port: 443
-  server: 37.120.156.34
+  server: 185.183.105.130
   skip-cert-verify: true
   tls: true
   type: http
+- name: US - zhuhai.uk 06|719KB/s
+  type: http
+  server: 198.44.135.19
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇪SE_1|1.4MB/s|715KB/s
+  password: None
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk|655KB/s
+  type: http
+  server: 66.153.187.90
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: RO - zhuhai.uk 02|546KB/s
+  type: http
+  server: 193.176.84.23
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: MY - zhuhai.uk|482KB/s
+  type: http
+  server: 152.233.3.14
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸_US_美国|159KB/s
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
   udp: true
