@@ -1,66 +1,24 @@
-# Mac hourly sync 2026-10-26 03:01:50 | alive 9
+# Mac hourly sync 2026-10-26 04:01:54 | alive 6
 proxies:
-- name: US - zhuhai.uk 06|719KB/s
-  type: http
-  server: 198.44.135.19
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk|655KB/s
-  type: http
-  server: 66.153.187.90
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国|159KB/s
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇺🇸 美国 | USA #1|3KB/s'
-  network: http
-  port: 443
-  server: 34.220.149.187
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.211
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 138.199.35.217
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
+- name: US - zhuhai.uk 04|625KB/s
   type: http
   server: 138.199.35.206
   port: 9002
   username: 'null'
   password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_1|2.2MB/s|2KB/s
+  password: None
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 138.199.35.217
+  port: 9002
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 02|1KB/s
@@ -70,10 +28,15 @@ proxies:
   tls: true
   sni: 138.199.35.215
   skip-cert-verify: true
-- name: US - zhuhai.uk 03
+- name: US - zhuhai.uk 05|1KB/s
   type: http
-  server: jgwynphotoarts.pro
-  port: 443
-  username: 'null'
-  password: 'null'
+  server: 138.199.35.211
+  port: 9002
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk
+  type: http
+  server: 66.153.187.90
+  port: 8090
+  tls: true
+  skip-cert-verify: true
