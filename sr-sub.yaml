@@ -1,25 +1,45 @@
-# Mac hourly sync 2026-10-25 20:02:59 | alive 3
+# Mac hourly sync 2026-10-25 21:02:14 | alive 4
 proxies:
-- name: 🇬🇧GB_6|2.9MB/s|452KB/s
-  password: None
+- name: 🇦🇹AT_1|2.0MB/s|472KB/s
   port: 443
-  server: 212.102.63.61
+  server: 146.70.244.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|1.2MB/s|R002-260618|384KB/s
-  password: None
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: v1.segment.mNoQuDdqMKJm1Jo7.ts
+  name: 🇭🇺 匈牙利 | HUN|283KB/s
+  network: grpc
   port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  sub_tag: R002-260618
+  server: 13.143.191.7
+  servername: edv6f206j8ujw.hat.onl
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 🇺🇸US_18|3.1MB/s|186KB/s
+  uuid: 7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc
+  xudp: true
+- name: 🇬🇧GB_1|1.2MB/s|220KB/s
   password: None
-  port: 443
-  server: 68.235.56.59
+  port: 9443
+  server: 84.17.50.214
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇷🇺_RU_俄罗斯|190KB/s
+  type: vless
+  server: santehdv.site
+  port: 443
+  uuid: 9ba53795-4356-40ab-8067-76ec2ae2a3d8
+  network: ws
+  servername: santehdv.site
+  tls: true
+  client-fingerprint: firefox
+  ws-opts:
+    path: /media/stream/qUWu2oaFgxAw
+    headers:
+      Host: santehdv.site
+  skip-cert-verify: true
+  udp: true
