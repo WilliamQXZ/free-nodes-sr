@@ -1,23 +1,113 @@
-# Mac hourly sync 2026-10-25 06:04:26 | alive 7
+# Mac hourly sync 2026-10-25 18:35:29 | alive 21
 proxies:
-- name: US - zhuhai.uk 05|2KB/s
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  tls: true
+- name: 🇺🇸US_17|1.8MB/s|440KB/s
+  password: None
+  port: 443
+  server: 12.202.180.10
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
+  tls: true
+  type: http
+- name: US - zhuhai.uk 07|112KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  sni: 138.199.35.201
+  skip-cert-verify: true
+- name: 🇺🇸US_6|3.1MB/s|31KB/s
+  password: None
+  port: 8443
+  server: 44.229.69.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk|21KB/s
   type: http
   server: 138.199.35.212
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_3|1.7MB/s|1KB/s
-  port: 1080
-  server: 209.50.255.91
+- name: 🇺🇸US_15|3.1MB/s|2KB/s
+  port: 443
+  server: 23.133.176.14
   skip-cert-verify: true
-  type: socks5
+  tls: true
+  type: http
+- name: 🇺🇸US_13|3.4MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|1.5MB/s|1KB/s
+  password: None
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|1.3MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_9|1.3MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_8|2.4MB/s|1KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sni: 138.199.35.202
+  tls: true
+  type: http
+  username: 'null'
 - name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 162.243.146.243
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: a2f392f3.acsnet.co
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: fan.226278.xyz
+  port: 443
+  tls: true
+  sni: fan.226278.xyz
+- name: 🇺🇸US_4|2.1MB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_18|3.1MB/s|1KB/s
+  password: None
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_16|3.4MB/s|1KB/s
+  password: None
+  port: 443
+  server: 45.63.38.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 03|1KB/s
   type: http
   server: 147.182.216.4
   port: 443
@@ -25,21 +115,34 @@ proxies:
   password: e4b72b531a2d10900519
   tls: true
   sni: 93b6d804.acsnet.co
-- name: '🇺🇸 美国 | USA #7'
-  password: va3E77I9fZCnCVcGKkxBCfz5
-  port: 443
-  server: vpn.liumr.top
   skip-cert-verify: true
-  sni: vpn.liumr.top
-  type: trojan
-  udp: true
-- name: 🇺🇸US_1|2.6MB/s
-  port: 443
-  server: 121.127.34.82
+- name: 🇺🇸US_7|2.2MB/s|0KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸_US_美国_2
+- name: 🇺🇸US_3|2.0MB/s|0KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|3.1MB/s|0KB/s
+  port: 38182
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
+- name: US - zhuhai.uk 09
+  type: http
+  server: voteshirleysew.club
+  port: 443
+  tls: true
+  sni: voteshirleysew.club
+  skip-cert-verify: true
+- name: 🇺🇸_US_美国_1
   type: vmess
   server: guanwang.awsno.com
   port: 443
