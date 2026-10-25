@@ -1,5 +1,12 @@
-# Mac hourly sync 2026-10-25 21:02:19 | alive 3
+# Mac hourly sync 2026-10-25 23:02:52 | alive 4
 proxies:
+- name: 🇺🇸US_1|2.2MB/s|1KB/s
+  password: None
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
 - http-opts:
     headers:
       Host:
@@ -7,7 +14,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '🇺🇸 美国 | USA #1|2KB/s'
+  name: '🇺🇸 美国 | USA #1|1KB/s'
   network: http
   port: 443
   server: 34.220.149.187
@@ -15,17 +22,15 @@ proxies:
   type: vless
   udp: true
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: 🇺🇸US_1|2.2MB/s|0KB/s
-  password: None
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
+- name: US - zhuhai.uk 11|1KB/s
+  type: http
+  server: 138.199.35.205
+  port: 9002
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 09|0KB/s
   type: http
-- name: US - zhuhai.uk 03
-  type: http
-  server: efr-marktplatz.club
+  server: 129.153.93.183
   port: 443
   tls: true
-  sni: efr-marktplatz.club
   skip-cert-verify: true
