@@ -1,84 +1,18 @@
-# Mac hourly sync 2026-10-26 01:02:27 | alive 11
+# Mac hourly sync 2026-10-26 03:01:50 | alive 9
 proxies:
-- name: US - zhuhai.uk 12|60KB/s
+- name: US - zhuhai.uk 06|719KB/s
   type: http
-  server: 138.199.35.203
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|18KB/s
-  type: http
-  server: 162.243.146.243
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: a2f392f3.acsnet.co
-- name: US - zhuhai.uk 09|1KB/s
-  type: http
-  server: 138.199.35.195
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇺🇸 美国 | USA #1|1KB/s'
-  network: http
-  port: 443
-  server: 34.220.149.187
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: 🇺🇸US_1|2.2MB/s|1KB/s
-  password: None
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 38.95.111.226
+  server: 198.44.135.19
   port: 9443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
+- name: US - zhuhai.uk|655KB/s
   type: http
-  server: 138.199.35.219
-  port: 9002
-  username: 'null'
-  password: None
+  server: 66.153.187.90
+  port: 8090
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|0KB/s
-  type: http
-  server: 138.199.35.217
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|0KB/s
-  type: http
-  server: 138.199.35.196
-  port: 9002
-  tls: true
-  sni: 138.199.35.196
-  skip-cert-verify: true
-- name: US - zhuhai.uk 10
-  type: http
-  server: zebpay.site
-  port: 443
-  tls: true
-- name: 🇺🇸_US_美国
+- name: 🇺🇸_US_美国|159KB/s
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -94,3 +28,52 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: '🇺🇸 美国 | USA #1|3KB/s'
+  network: http
+  port: 443
+  server: 34.220.149.187
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 138.199.35.217
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  tls: true
+  sni: 138.199.35.215
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: jgwynphotoarts.pro
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
