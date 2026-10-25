@@ -1,42 +1,41 @@
-# Mac hourly sync 2026-10-26 04:01:54 | alive 6
+# Mac hourly sync 2026-10-26 05:01:45 | alive 6
 proxies:
-- name: US - zhuhai.uk 04|625KB/s
+- name: US - zhuhai.uk 08|32KB/s
   type: http
-  server: 138.199.35.206
+  server: 138.199.35.209
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|2KB/s
+  type: http
+  server: 138.199.35.199
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_1|2.2MB/s|2KB/s
-  password: None
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 07|2KB/s
   type: http
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 138.199.35.217
+  server: 138.199.35.213
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-  server: 138.199.35.215
-  port: 9002
+  server: fan.226278.xyz
+  port: 443
   tls: true
-  sni: 138.199.35.215
+- name: US - zhuhai.uk 10
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  tls: true
+  sni: efr-marktplatz.club
   skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.211
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: 66.153.187.90
-  port: 8090
-  tls: true
+- name: US - zhuhai.uk 11
+  type: anytls
+  server: 98416548.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
   skip-cert-verify: true
