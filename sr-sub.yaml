@@ -1,15 +1,10 @@
-# Mac hourly sync 2026-10-26 00:03:44 | alive 2
+# Mac hourly sync 2026-10-26 01:02:23 | alive 1
 proxies:
-- name: BG_speednode_0002|222KB/s
+- name: PL_speednode_0040|267KB/s
+  password: None
   port: 443
-  server: 185.94.192.210
+  server: 37.120.156.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇦🇺AU_1|1.4MB/s|158KB/s
-  port: 443
-  server: 103.62.50.130
-  skip-cert-verify: true
-  tls: true
-  type: http
