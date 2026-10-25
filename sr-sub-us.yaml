@@ -1,14 +1,40 @@
-# Mac hourly sync 2026-10-25 18:48:51 | alive 17
+# Mac hourly sync 2026-10-25 19:02:23 | alive 30
 proxies:
-- name: 🇺🇸US-216.106.186.32-0092 | 52.913MB|273KB/s
-  server: blog.findlocaljobnetworkandbuildcommunityconnections.com
+- name: 🇺🇸US_13|3.4MB/s|387KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US-37.19.198.236-0087 | 104.797MB|361KB/s
+  server: 37.19.198.236
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-216.106.186.33-0091 | 52.268MB|315KB/s
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
   port: 443
   type: trojan
-  password: dba20dcb635e430fa4d3bfc303a149d2
-  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
   skip-cert-verify: false
-- name: 🇺🇸US-156.146.38.168-0051 | 125.541MB|202KB/s
-  server: 156.146.38.168
+- name: 🇺🇸US-193.151.160.9-0056 | 174.847MB|302KB/s
+  server: 193.151.160.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US_6|3.1MB/s|272KB/s
+  password: None
+  port: 8443
+  server: 44.229.69.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US-156.146.38.169-0055 | 125.337MB|1KB/s
+  server: 156.146.38.169
   port: 443
   type: ss
   cipher: aes-128-gcm
@@ -19,73 +45,131 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-156.146.38.167-0053 | 108.328MB|1KB/s
-  server: 156.146.38.167
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-193.151.160.18-0049 | 163.487MB|1KB/s
-  server: 193.151.160.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-173.244.56.6-0052 | 57.529MB|1KB/s
-  server: 173.244.56.6
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-37.19.198.236-0087 | 104.797MB|1KB/s
-  server: 37.19.198.236
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-37.19.198.244-0088 | 110.764MB|1KB/s
-  server: 37.19.198.244
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
 - name: 🇺🇸US-156.146.38.170-0058 | 117.036MB|1KB/s
   server: 156.146.38.170
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US_13|3.4MB/s|1KB/s
-  password: None
+- name: 🇺🇸US-185.230.230.18-0050 | 238.166MB|1KB/s
+  server: 185.230.230.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-193.151.160.18-0049 | 163.487MB|1KB/s
+  server: 193.151.160.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-216.106.186.32-0092 | 52.913MB|1KB/s
+  server: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  type: trojan
+  password: dba20dcb635e430fa4d3bfc303a149d2
+  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: false
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 138.199.35.214
   port: 9002
-  server: 138.199.35.213
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US-37.19.198.243-0084 | 118.292MB|1KB/s
+  server: 37.19.198.243
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US_9|1.3MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US-45.86.51.18-0047 | 279.587MB|0KB/s
+  udp: true
+- name: 🇺🇸US_7|2.2MB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 02|1KB/s
+  type: vless
+  server: saas.sin.fan
+  port: 2083
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  servername: vp7.1145678.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /events/class
+    headers:
+      Host: vp7.1145678.xyz
+- name: 🇺🇸US_15|3.1MB/s|1KB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US-156.146.38.168-0051 | 125.541MB|1KB/s
+  server: 156.146.38.168
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-45.86.51.18-0047 | 279.587MB|1KB/s
   server: 45.86.51.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-138.199.42.68-0171 | 76.427MB|0KB/s
-  server: 138.199.42.68
-  port: 8080
+- name: 🇺🇸US-193.151.163.18-0074 | 179.734MB|1KB/s
+  server: 193.151.163.18
+  port: 19999
   type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇺🇸US-173.244.56.9-0054 | 60.004MB|0KB/s
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-173.244.56.9-0054 | 60.004MB|1KB/s
   server: 173.244.56.9
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-37.19.198.160-0086 | 112.268MB|0KB/s
-  server: 37.19.198.160
+- name: 🇺🇸US-156.146.38.167-0053 | 108.328MB|1KB/s
+  server: 156.146.38.167
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
+- name: US - zhuhai.uk 08|0KB/s
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
+- name: 🇺🇸US_16|3.4MB/s|0KB/s
+  password: None
+  port: 443
+  server: 45.63.38.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|2.4MB/s|0KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sni: 138.199.35.202
+  tls: true
+  type: http
+  username: 'null'
 - name: 🇺🇸US_11|2.2MB/s|0KB/s
   password: None
   port: 9002
@@ -93,16 +177,39 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US-216.105.168.18-0153 | 13.889MB
-  server: 216.105.168.18
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: hCCWOcIsK5wrFz4OX70rWf
-- name: 🇺🇸US_14|1.5MB/s
+- name: 🇺🇸US_5|2.7MB/s|0KB/s
   password: None
-  port: 9443
-  server: 149.88.21.140
+  port: 9002
+  server: 138.199.35.201
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US-173.244.56.6-0052 | 57.529MB|0KB/s
+  server: 173.244.56.6
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US_3|2.0MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸_US_美国_1
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
