@@ -1,27 +1,25 @@
-# Mac hourly sync 2026-10-26 00:03:50 | alive 9
+# Mac hourly sync 2026-10-26 01:02:27 | alive 11
 proxies:
-- name: US - zhuhai.uk 11|13KB/s
+- name: US - zhuhai.uk 12|60KB/s
   type: http
-  server: 138.199.35.205
+  server: 138.199.35.203
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
+- name: US - zhuhai.uk 02|18KB/s
   type: http
-  server: 38.28.193.188
+  server: 162.243.146.243
   port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: carolinafreigh.fun
-  port: 443
-  tls: true
-  sni: carolinafreigh.fun
+  sni: a2f392f3.acsnet.co
 - name: US - zhuhai.uk 09|1KB/s
   type: http
-  server: 129.153.93.183
-  port: 443
+  server: 138.199.35.195
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
 - http-opts:
@@ -39,30 +37,60 @@ proxies:
   type: vless
   udp: true
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  tls: true
+- name: 🇺🇸US_1|2.2MB/s|1KB/s
+  password: None
+  port: 9443
+  server: 154.47.25.78
   skip-cert-verify: true
+  tls: true
+  type: http
 - name: US - zhuhai.uk 04|1KB/s
   type: http
-  server: 138.199.35.214
+  server: 38.95.111.226
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 138.199.35.219
   port: 9002
   username: 'null'
   password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk
+- name: US - zhuhai.uk 06|0KB/s
   type: http
-  server: voteshirleysew.club
+  server: 138.199.35.217
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|0KB/s
+  type: http
+  server: 138.199.35.196
+  port: 9002
+  tls: true
+  sni: 138.199.35.196
+  skip-cert-verify: true
+- name: US - zhuhai.uk 10
+  type: http
+  server: zebpay.site
   port: 443
   tls: true
-- name: US - zhuhai.uk 07
-  type: anytls
-  server: 98416548.df6h451rh.xin
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  password: 0324fbc29561
-  udp: true
-  sni: images.ctfassets.net
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
