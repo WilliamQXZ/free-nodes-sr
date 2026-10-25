@@ -1,10 +1,15 @@
-# Mac hourly sync 2026-10-25 23:02:46 | alive 1
+# Mac hourly sync 2026-10-26 00:03:44 | alive 2
 proxies:
-- name: '🇯🇵 日本 | JPN #1|283KB/s'
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjrb.m2k699.com
+- name: BG_speednode_0002|222KB/s
+  port: 443
+  server: 185.94.192.210
   skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
+  tls: true
+  type: http
   udp: true
+- name: 🇦🇺AU_1|1.4MB/s|158KB/s
+  port: 443
+  server: 103.62.50.130
+  skip-cert-verify: true
+  tls: true
+  type: http
