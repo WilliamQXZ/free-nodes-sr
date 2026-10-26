@@ -1,35 +1,14 @@
-# Mac hourly sync 2026-10-27 04:16:04 | alive 3
+# Mac hourly sync 2026-10-27 05:50:13 | alive 2
 proxies:
-- name: NL_speednode_0022|769KB/s
-  password: 'null'
-  port: 443
-  server: 103.97.88.154
-  skip-cert-verify: true
-  tls: true
+- name: LV - zhuhai.uk|611KB/s
   type: http
-  udp: true
-  username: 'null'
-- name: FR_speednode_0010|742KB/s
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇺🇸 美国 | USA #2|712KB/s'
-  network: http
+  server: 185.219.159.15
   port: 443
-  server: 44.201.37.147
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.81-0111 | 24.472MB|420KB/s
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
