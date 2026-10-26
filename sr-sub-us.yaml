@@ -1,5 +1,17 @@
-# Mac hourly sync 2026-10-27 04:16:08 | alive 3
+# Mac hourly sync 2026-10-27 05:50:17 | alive 4
 proxies:
+- name: US - zhuhai.uk|58KB/s
+  type: http
+  server: 184.188.139.2
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_2|2.2MB/s|1KB/s
+  port: 8443
+  server: 154.81.36.92
+  skip-cert-verify: true
+  tls: true
+  type: http
 - http-opts:
     headers:
       Host:
@@ -7,7 +19,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '🇺🇸 美国 | USA #2|712KB/s'
+  name: '🇺🇸 美国 | USA #2'
   network: http
   port: 443
   server: 44.201.37.147
@@ -15,12 +27,6 @@ proxies:
   type: vless
   udp: true
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: 🇺🇸US_2|2.2MB/s|1KB/s
-  port: 8443
-  server: 154.81.36.92
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 🇺🇸US_1|1.8MB/s
   password: None
   port: 9443
