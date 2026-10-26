@@ -1,5 +1,17 @@
-# Mac hourly sync 2026-10-27 00:55:12 | alive 5
+# Mac hourly sync 2026-10-27 02:36:18 | alive 7
 proxies:
+- name: US - zhuhai.uk 03
+  type: http
+  server: kimberlymilano.icu
+  port: 443
+  tls: true
+  sni: kimberlymilano.icu
+- name: US - zhuhai.uk 07
+  type: http
+  server: 12.221.146.147
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - http-opts:
     headers:
       Host:
