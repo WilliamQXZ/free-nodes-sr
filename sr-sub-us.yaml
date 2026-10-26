@@ -1,34 +1,62 @@
-# Mac hourly sync 2026-10-26 12:25:57 | alive 5
+# Mac hourly sync 2026-10-27 00:55:12 | alive 5
 proxies:
-- cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #7|1KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: '🇺🇸 美国 | USA #2|12KB/s'
+  network: http
+  port: 443
+  server: 44.201.37.147
+  tls: false
+  type: vless
   udp: true
-- name: US - zhuhai.uk 08|55KB/s
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- name: US - zhuhai.uk 08|2KB/s
   type: http
-  server: 138.199.35.209
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|2KB/s
-  type: http
-  server: fan.226278.xyz
+  server: voteshirleysew.club
   port: 443
   tls: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 138.199.35.213
-  port: 9002
+  sni: voteshirleysew.club
+  skip-cert-verify: true
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: '🇺🇸 美国 | USA #7'
+  network: http
+  port: 443
+  server: 18.213.218.149
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- name: US - zhuhai.uk 11
+  type: anytls
+  server: 98416548.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
+  skip-cert-verify: true
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.199
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
