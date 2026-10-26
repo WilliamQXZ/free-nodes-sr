@@ -1,14 +1,14 @@
-# Mac hourly sync 2026-10-26 06:03:37 | alive 2
+# Mac hourly sync 2026-10-26 12:25:53 | alive 2
 proxies:
-- name: DE - zhuhai.uk|752KB/s
-  type: http
-  server: 158.173.154.4
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: PL - zhuhai.uk|522KB/s
-  type: http
-  server: 151.115.54.133
-  port: 443
-  tls: true
-  skip-cert-verify: true
+- cipher: aes-256-gcm
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #9|448KB/s'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹[www.v2nodes.com] ss-IT-1602...|412KB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
