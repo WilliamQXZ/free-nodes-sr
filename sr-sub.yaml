@@ -1,34 +1,16 @@
-# Mac hourly sync 2026-10-27 20:03:24 | alive 5
+# Mac hourly sync 2026-10-27 21:03:27 | alive 2
 proxies:
-- name: IT-202.50.253.36-0156 | 60.744MB|372KB/s
-  server: 202.50.253.36
+- name: 🇺🇸 美国 | USA 11|522KB/s
+  server: 66.163.114.114
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+  skip-cert-verify: true
+  udp: true
+- name: IT-202.50.253.81-0141 | 68.308MB|374KB/s
+  server: 202.50.253.81
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇩🇪DE_3|1.7MB/s|359KB/s
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: IT-202.50.253.72-0184 | 72.661MB|305KB/s
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_4|2.3MB/s|233KB/s
-  password: None
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_14|2.9MB/s|160KB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
