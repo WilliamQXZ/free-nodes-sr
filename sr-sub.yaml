@@ -1,14 +1,8 @@
-# Mac hourly sync 2026-10-28 01:02:36 | alive 2
+# Mac hourly sync 2026-10-28 02:01:36 | alive 1
 proxies:
-- name: 🇦🇱AL_2|1.2MB/s|483KB/s
-  port: 443
-  server: 87.120.103.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇷GR_1|1.1MB/s|426KB/s
-  port: 443
-  server: 149.22.85.78
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-gcm
+  name: '🏳[www.v2nodes.com] ss- #2|308KB/s'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
