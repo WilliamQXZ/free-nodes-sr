@@ -1,40 +1,14 @@
-# Mac hourly sync 2026-10-27 16:06:31 | alive 6
+# Mac hourly sync 2026-10-27 18:05:47 | alive 1
 proxies:
-- name: IT-202.50.253.45-0206 | 55.93MB|467KB/s
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_11|3.8MB/s|452KB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: https://github.com/*********-*...|416KB/s
+  port: 24667
+  protocol: udp
+  server: 62.210.70.191
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: GB - zhuhai.uk|448KB/s
-  type: http
-  server: 37.120.233.34
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_4|2.3MB/s|348KB/s
-  password: None
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_14|2.9MB/s|329KB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: GR - zhuhai.uk|323KB/s
-  type: http
-  server: 149.22.85.65
-  port: 443
-  tls: true
-  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
