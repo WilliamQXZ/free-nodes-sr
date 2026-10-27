@@ -1,41 +1,40 @@
-# Mac hourly sync 2026-10-27 13:04:32 | alive 6
+# Mac hourly sync 2026-10-27 16:06:31 | alive 6
 proxies:
-- name: SG - zhuhai.uk|1.1MB/s
-  type: socks5
-  server: 47.236.168.243
-  port: 1080
-  username: '8888'
-  password: '8888'
-- name: 🇳🇱NL_5|1.8MB/s|735KB/s
+- name: IT-202.50.253.45-0206 | 55.93MB|467KB/s
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US_11|3.8MB/s|452KB/s
+  password: None
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: GB - zhuhai.uk|448KB/s
+  type: http
+  server: 37.120.233.34
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_4|2.3MB/s|348KB/s
   password: None
   port: 9443
-  server: 149.36.51.157
+  server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇦🇹AT_3|2.4MB/s|640KB/s
-  password: None
+- name: 🇺🇸US_14|2.9MB/s|329KB/s
   port: 443
-  server: 146.70.244.18
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|2.4MB/s|570KB/s
-  password: None
+- name: GR - zhuhai.uk|323KB/s
+  type: http
+  server: 149.22.85.65
   port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
   tls: true
-  type: http
-- name: 🇬🇪GE_1|2.9MB/s|407KB/s
-  port: 443
-  server: 195.54.178.210
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|3.8MB/s|304KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
