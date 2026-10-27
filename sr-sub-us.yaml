@@ -1,6 +1,54 @@
-# Mac hourly sync 2026-10-27 19:04:30 | alive 4
+# Mac hourly sync 2026-10-27 20:03:27 | alive 9
 proxies:
-- name: '🇺🇸 美国 | USA #1|2KB/s'
+- name: 🇺🇸US_4|2.3MB/s|233KB/s
+  password: None
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|2.9MB/s|160KB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|3.1MB/s|1KB/s
+  password: None
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|2.4MB/s|1KB/s
+  password: None
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|3.8MB/s|1KB/s
+  password: None
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|1.5MB/s|1KB/s
+  password: None
+  port: 443
+  server: 64.98.50.100
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|2.6MB/s|0KB/s
+  password: None
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '🇺🇸 美国 | USA #1 #2|0KB/s'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.156.65
@@ -8,22 +56,10 @@ proxies:
   sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   type: trojan
   udp: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 35.84.133.236
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: zebpay.site
+- name: 🇺🇸US_9|3.6MB/s|0KB/s
+  password: None
   port: 443
-  tls: true
-- name: '🇺🇸 美国 | USA #9'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.155.23
+  server: 12.202.180.118
   skip-cert-verify: true
-  sni: courses.nextjobopportunityandclaimyouridealrole.com
-  type: trojan
-  udp: true
+  tls: true
+  type: http
