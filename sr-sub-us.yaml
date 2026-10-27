@@ -1,6 +1,60 @@
-# Mac hourly sync 2026-10-27 21:03:31 | alive 7
+# Mac hourly sync 2026-10-27 22:02:53 | alive 15
 proxies:
-- name: 🇺🇸 美国 | USA 11|522KB/s
+- name: US - zhuhai.uk|281KB/s
+  type: http
+  server: 138.199.35.199
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US-95.215.201.18-0132 | 43.662MB|183KB/s
+  server: 95.215.201.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-156.146.38.169-0105 | 112.214MB|1KB/s
+  server: 156.146.38.169
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-15.204.247.206-0279 | 7.769MB|1KB/s
+  server: 15.204.247.206
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 🇺🇸US-37.19.198.243-0129 | 102.705MB|1KB/s
+  server: 37.19.198.243
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-45.86.51.18-0100 | 170.469MB|1KB/s
+  server: 45.86.51.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸 美国 | USA 17|1KB/s
+  server: 108.165.15.109
+  port: 443
+  type: vless
+  uuid: ef328563-cda1-4530-9b0a-988cc5a74d78
+  tls: true
+  flow: xtls-rprx-vision
+  servername: stunglacier.net
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 🇺🇸US-216.106.186.33-0227 | 59.085MB|0KB/s
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  type: trojan
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: false
+- name: 🇺🇸 美国 | USA 11|0KB/s
   server: 66.163.114.114
   port: 443
   type: trojan
@@ -8,49 +62,41 @@ proxies:
   sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
   skip-cert-verify: true
   udp: true
-- name: US - zhuhai.uk 03|12KB/s
-  type: http
-  server: 23.133.176.14
+- name: 🇺🇸US-193.151.160.9-0102 | 72.981MB|0KB/s
+  server: 193.151.160.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-37.19.198.236-0169 | 107.974MB|0KB/s
+  server: 37.19.198.236
   port: 443
-  tls: true
-  skip-cert-verify: true
-- name: '🇺🇸 美国 | USA #1|2KB/s'
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-193.151.163.18-0104 | 142.372MB|0KB/s
+  server: 193.151.163.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '🇺🇸 美国 | USA #9|0KB/s'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 216.152.156.65
+  server: 216.152.155.23
   skip-cert-verify: true
-  sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  sni: courses.nextjobopportunityandclaimyouridealrole.com
   type: trojan
   udp: true
-- name: 🇺🇸 美国 | USA 8|2KB/s
-  server: 216.152.156.42
+- name: 🇺🇸 美国 | USA 12|0KB/s
+  server: 66.163.122.81
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  sni: courses.searchnationwidecareerchangehelperandguidancetoday.com
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA|1KB/s
-  server: www.visa.com.hk
-  port: 443
-  type: vless
-  uuid: 3901ac33-eefc-4c7f-8ea8-313d264eeaea
-  tls: true
-  servername: nl-ams.862400.xyz
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /announcement?ed=2048
-    headers:
-      Host: nl-ams.862400.xyz
-  udp: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 184.188.139.2
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 4|1KB/s
+- name: 🇺🇸 美国 | USA 4|0KB/s
   server: 66.163.122.7
   port: 443
   type: trojan
