@@ -1,15 +1,16 @@
-# Mac hourly sync 2026-10-27 23:05:37 | alive 2
+# Mac hourly sync 2026-10-28 00:05:48 | alive 2
 proxies:
-- name: 🇱🇺LU_1|1.6MB/s|488KB/s
-  port: 443
-  server: 185.221.132.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 02|297KB/s
+- name: US - zhuhai.uk 02|355KB/s
   type: http
   server: fan.226278.xyz
   port: 443
   tls: true
   sni: fan.226278.xyz
   skip-cert-verify: true
+- name: 🇬🇧GB_2|1.3MB/s|310KB/s
+  password: None
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
