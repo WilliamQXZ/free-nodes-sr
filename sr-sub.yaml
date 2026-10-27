@@ -1,33 +1,19 @@
-# Mac hourly sync 2026-10-28 05:02:33 | alive 8
+# Mac hourly sync 2026-10-28 06:02:18 | alive 7
 proxies:
-- name: DE_speednode_0004|932KB/s
+- name: US - zhuhai.uk 02|1015KB/s
+  type: http
+  server: 129.153.93.183
   port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
   tls: true
-  type: http
-  udp: true
-- name: IE_speednode_0013|770KB/s
+  skip-cert-verify: true
+- name: 🇺🇸US-66.163.122.7-0565 | 71.295MB|782KB/s
+  server: 66.163.122.7
   port: 443
-  server: 34.249.214.108
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: FR_speednode_0008|765KB/s
-  port: 19362
-  server: 51.159.225.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US - zhuhai.uk 10|755KB/s
-  type: http
-  server: 44.217.145.28
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: NL_speednode_0027|746KB/s
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
+  skip-cert-verify: false
+- name: NL_speednode_0027|758KB/s
   password: None
   port: 9002
   server: 84.17.47.123
@@ -35,24 +21,29 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: IT-202.50.253.72-0124 | 50.129MB|702KB/s
-  server: 202.50.253.72
+- name: IT-202.50.253.63-0145 | 6.056MB|755KB/s
+  server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: NL_speednode_0022|673KB/s
-  password: 'null'
-  port: 443
-  server: 103.97.88.154
-  skip-cert-verify: true
-  tls: true
+- name: FR - zhuhai.uk|605KB/s
   type: http
+  server: 83.206.1.225
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.81-0129 | 36.786MB|593KB/s
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇭🇰 香港 | HKG 3|120KB/s
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
   udp: true
-  username: 'null'
-- name: CA - zhuhai.uk|542KB/s
-  type: http
-  server: 142.44.210.129
-  port: 443
-  tls: true
-  skip-cert-verify: true
