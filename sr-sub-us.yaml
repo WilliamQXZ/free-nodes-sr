@@ -1,31 +1,27 @@
-# Mac hourly sync 2026-10-28 05:02:37 | alive 5
+# Mac hourly sync 2026-10-28 06:02:22 | alive 4
 proxies:
-- name: US - zhuhai.uk 10|755KB/s
-  type: http
-  server: 44.217.145.28
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 02|1015KB/s
   type: http
   server: 129.153.93.183
   port: 443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_1|1.7MB/s|1KB/s
+- name: 🇺🇸US-66.163.122.7-0565 | 71.295MB|782KB/s
+  server: 66.163.122.7
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
+  skip-cert-verify: false
+- name: 🇺🇸US_1|1.7MB/s|2KB/s
   port: 8443
   server: 154.81.36.92
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk
-  type: socks5
-  server: 104.168.249.36
-  port: 1080
-  username: test123
-  password: test123
-- name: US - zhuhai.uk 07
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-  server: voteshirleysew.club
+  server: 38.28.193.188
   port: 443
   tls: true
+  skip-cert-verify: true
