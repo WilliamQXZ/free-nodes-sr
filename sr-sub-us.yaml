@@ -1,24 +1,34 @@
-# Mac hourly sync 2026-10-27 13:04:35 | alive 7
+# Mac hourly sync 2026-10-27 16:06:36 | alive 14
 proxies:
-- name: 🇺🇸US_13|3.8MB/s|304KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 129.153.93.183
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_12|2.4MB/s|1KB/s
+- name: 🇺🇸US_11|3.8MB/s|452KB/s
   password: None
   port: 443
-  server: 68.235.56.59
+  server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US_4|2.3MB/s|348KB/s
+  password: None
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|2.9MB/s|329KB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- auth: https://xship.top
+  name: 🇺🇸 美国 | USA 6|1KB/s
+  password: https://xship.top
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  udp: true
 - name: 🇺🇸US_8|1.5MB/s|1KB/s
   password: None
   port: 443
@@ -26,25 +36,71 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_9|3.6MB/s|1KB/s
+- name: 🇺🇸US_10|1.4MB/s|1KB/s
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sni: 149.34.248.65
+  tls: true
+  type: http
+- name: 🇺🇸US_6|1.6MB/s|1KB/s
+  password: None
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|3.1MB/s|1KB/s
+  password: None
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|2.6MB/s|1KB/s
+  password: None
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|3.8MB/s|1KB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 🇺🇸US_9|3.6MB/s
   password: None
   port: 443
   server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 09
-  type: http
-  server: 162.243.146.243
+- name: 🇺🇸US_12|2.4MB/s
+  password: None
   port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: a2f392f3.acsnet.co
+  server: 68.235.56.59
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
+  tls: true
   type: http
-  server: fan.226278.xyz
+- name: 🇺🇸 美国 | USA 2
+  network: ws
+  password: 9d033eb1-22c7-4ae9-9d59-783e40c8eec3
+  port: 8443
+  server: www.visa.com.sg
+  skip-cert-verify: true
+  sni: au5.yang-1989.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: au5.yang-1989.xyz
+    path: /iw8i
+- name: US - zhuhai.uk 08
+  type: http
+  server: voteshirleysew.club
   port: 443
   tls: true
-  sni: fan.226278.xyz
+  sni: voteshirleysew.club
+  skip-cert-verify: true
