@@ -1,15 +1,45 @@
-# Mac hourly sync 2026-10-27 21:03:27 | alive 2
+# Mac hourly sync 2026-10-27 22:02:35 | alive 6
 proxies:
-- name: 🇺🇸 美国 | USA 11|522KB/s
-  server: 66.163.114.114
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+- name: 🇬🇧GB-185.176.206.9-0109 | 80.83MB|308KB/s
+  server: 185.176.206.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk|281KB/s
+  type: http
+  server: 138.199.35.199
+  port: 9002
+  tls: true
   skip-cert-verify: true
+- name: 🇬🇧GB-82.38.31.42-0238 | 19.128MB|274KB/s
+  server: 82.38.31.42
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇩🇪 德国 | DEU 6|191KB/s
+  server: 144.31.166.55
+  port: 443
+  type: vless
+  uuid: 2bb5176f-cc45-41b5-908c-441581dccf8a
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: kBVqBeTLp4F9KLA2qfqRLgiwd1oTxK3PM3GnrRzMYCA
+    short-id: e9c407d1
+  servername: deport.ptlux.pro
+  client-fingerprint: firefox
+  network: tcp
   udp: true
-- name: IT-202.50.253.81-0141 | 68.308MB|374KB/s
-  server: 202.50.253.81
+- name: 🇺🇸US-95.215.201.18-0132 | 43.662MB|183KB/s
+  server: 95.215.201.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇬🇧GB-82.110.60.9-0136 | 67.649MB|165KB/s
+  server: 82.110.60.9
   port: 19999
   type: ss
   cipher: aes-256-gcm
