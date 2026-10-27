@@ -1,41 +1,56 @@
-# Mac hourly sync 2026-10-28 04:03:43 | alive 6
+# Mac hourly sync 2026-10-28 05:02:33 | alive 8
 proxies:
-- name: 🇺🇸US_1|1.7MB/s|1002KB/s
-  port: 8443
-  server: 154.81.36.92
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: FR_speednode_0010|758KB/s
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
+- name: DE_speednode_0004|932KB/s
+  port: 443
+  server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: 'null'
-- name: 🇦🇱AL_1|1.3MB/s|751KB/s
-  password: None
-  port: 9443
-  server: 31.171.155.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1.3MB/s|750KB/s
-  password: None
+- name: IE_speednode_0013|770KB/s
   port: 443
-  server: 185.164.138.156
+  server: 34.249.214.108
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 10|687KB/s
+  udp: true
+- name: FR_speednode_0008|765KB/s
+  port: 19362
+  server: 51.159.225.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 10|755KB/s
   type: http
   server: 44.217.145.28
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: CA - zhuhai.uk|581KB/s
+- name: NL_speednode_0027|746KB/s
+  password: None
+  port: 9002
+  server: 84.17.47.123
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: IT-202.50.253.72-0124 | 50.129MB|702KB/s
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: NL_speednode_0022|673KB/s
+  password: 'null'
+  port: 443
+  server: 103.97.88.154
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: CA - zhuhai.uk|542KB/s
   type: http
   server: 142.44.210.129
   port: 443
