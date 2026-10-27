@@ -1,57 +1,6 @@
-# Mac hourly sync 2026-10-28 00:05:52 | alive 9
+# Mac hourly sync 2026-10-28 01:02:41 | alive 8
 proxies:
-- name: US - zhuhai.uk 02|355KB/s
-  type: http
-  server: fan.226278.xyz
-  port: 443
-  tls: true
-  sni: fan.226278.xyz
-  skip-cert-verify: true
-- name: '🇺🇸 美国 | USA #15|104KB/s'
-  password: pftneFPgqpHQSUcCDhJqXuqrcHjptQhT
-  port: 7801
-  server: 64.23.151.246
-  skip-cert-verify: true
-  sni: hotspot-unlimited.com
-  type: trojan
-  udp: true
-- name: '🇺🇸 美国 | USA #14|2KB/s'
-  password: hRtaKtsQkpklmssQDbbWRCNawDGdJePw
-  port: 9998
-  server: 24.199.106.240
-  skip-cert-verify: true
-  sni: hotspot-unlimited.com
-  type: trojan
-  udp: true
-- name: '🇺🇸 美国 | USA #8 #2|2KB/s'
-  password: WCwRcLxlKIeyXKHkppTmQIGXeRfIYYmE
-  port: 9213
-  server: 45.32.135.70
-  skip-cert-verify: true
-  sni: hotspot-unlimited.com
-  type: trojan
-  udp: true
-- name: '🇺🇸 美国 | USA #20|2KB/s'
-  password: pCgkPBgBBpKdPLeRyFSgXXjeiQeNiCLm
-  port: 8911
-  server: 144.126.223.93
-  skip-cert-verify: true
-  sni: hotspot-unlimited.com
-  type: trojan
-  udp: true
-- name: 🇺🇸US_1|1.7MB/s|2KB/s
-  port: 8443
-  server: 154.81.36.92
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 184.188.139.2
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 4|1KB/s
+- name: 🇺🇸 美国 | USA 4|2KB/s
   server: 66.163.122.7
   port: 443
   type: trojan
@@ -59,11 +8,53 @@ proxies:
   sni: www.searchnationwidecareerchangehelperandguidancetoday.com
   skip-cert-verify: true
   udp: true
-- name: '🇺🇸 美国 | USA #18|0KB/s'
-  password: mMIywuxBtHHOAwAkkpwiCmBXIlKOysGv
-  port: 6105
-  server: 209.38.66.47
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 129.212.181.253
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: '🇺🇸 美国 | USA #8 #2|1KB/s'
+  password: WCwRcLxlKIeyXKHkppTmQIGXeRfIYYmE
+  port: 9213
+  server: 45.32.135.70
   skip-cert-verify: true
   sni: hotspot-unlimited.com
   type: trojan
   udp: true
+- name: 🇺🇸US_1|1.7MB/s|1KB/s
+  port: 8443
+  server: 154.81.36.92
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '🇺🇸 美国 | USA #15|1KB/s'
+  password: pftneFPgqpHQSUcCDhJqXuqrcHjptQhT
+  port: 7801
+  server: 64.23.151.246
+  skip-cert-verify: true
+  sni: hotspot-unlimited.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #20|1KB/s'
+  password: pCgkPBgBBpKdPLeRyFSgXXjeiQeNiCLm
+  port: 8911
+  server: 144.126.223.93
+  skip-cert-verify: true
+  sni: hotspot-unlimited.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #14'
+  password: hRtaKtsQkpklmssQDbbWRCNawDGdJePw
+  port: 9998
+  server: 24.199.106.240
+  skip-cert-verify: true
+  sni: hotspot-unlimited.com
+  type: trojan
+  udp: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: 54.190.176.228
+  port: 8443
+  tls: true
+  skip-cert-verify: true
