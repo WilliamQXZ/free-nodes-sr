@@ -1,8 +1,43 @@
-# Mac hourly sync 2026-10-28 02:01:36 | alive 1
+# Mac hourly sync 2026-10-28 04:03:43 | alive 6
 proxies:
-- cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #2|308KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
+- name: 🇺🇸US_1|1.7MB/s|1002KB/s
+  port: 8443
+  server: 154.81.36.92
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: FR_speednode_0010|758KB/s
+  password: 'null'
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 🇦🇱AL_1|1.3MB/s|751KB/s
+  password: None
+  port: 9443
+  server: 31.171.155.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_2|1.3MB/s|750KB/s
+  password: None
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 10|687KB/s
+  type: http
+  server: 44.217.145.28
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: CA - zhuhai.uk|581KB/s
+  type: http
+  server: 142.44.210.129
+  port: 443
+  tls: true
+  skip-cert-verify: true
