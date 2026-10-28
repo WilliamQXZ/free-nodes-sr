@@ -1,47 +1,133 @@
-# Mac hourly sync 2026-10-28 22:45:28 | alive 6
+# Mac hourly sync 2026-10-29 00:44:47 | alive 18
 proxies:
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #4|1KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #2|1KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #5|0KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-- name: 🇺🇸 美国 | USA 3
-  network: ws
-  password: 3aa78b49-5530-45a2-93cb-b093745824f1
-  port: 2096
-  server: www.visa.com.sg
+- name: IT - zhuhai.uk|9KB/s
+  type: http
+  server: 93.42.177.250
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
   skip-cert-verify: true
-  sni: au4.yang-1989.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: au4.yang-1989.xyz
-    path: /ya87
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #5'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: FR - zhuhai.uk 02|2KB/s
+  type: vless
+  server: 213.152.180.104
+  port: 2092
+  uuid: 4d8cc1c2-2605-43c4-8e17-dcafa86d9757
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: 716b7eba38125f3a
+- name: DE - zhuhai.uk|2KB/s
+  type: http
+  server: 185.44.107.166
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: FR - zhuhai.uk|1KB/s
+  type: http
+  server: 83.206.1.225
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 44.229.69.166
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.81-0129 | 61.848MB|1KB/s
+  server: 202.50.253.81
   port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.45-0147 | 60.082MB|1KB/s
   server: 202.50.253.45
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #4'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.99
   type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: HK - zhuhai.uk
+  type: vmess
+  server: rhHiErkwRf6fHs2H.v.3dns.vip
+  port: 443
+  uuid: 78b3f149-f037-465d-b2fb-11adb6f73ff8
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: rhHiErkwRf6fHs2H.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: rhHiErkwRf6fHs2H.v.3dns.vip
+- name: HK - zhuhai.uk 02
+  type: socks5
+  server: 47.242.19.215
+  port: 8899
+  username: admin
+  password: admin
+- name: JP - zhuhai.uk
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: fan.571589.xyz
+- name: TW - zhuhai.uk
+  type: anytls
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
   udp: true
+  sni: px.ads.linkedin.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  client-fingerprint: chrome
+- name: US - zhuhai.uk 02
+  type: http
+  server: tzoa.fun
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: zebpay.site
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk
+  type: socks5
+  server: 45.61.188.134
+  port: 44499
+- name: LV - zhuhai.uk
+  type: http
+  server: 185.219.159.16
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.54-0133 | 60.474MB
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.63-0145 | 60.824MB
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.90-0131 | 64.79MB
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
