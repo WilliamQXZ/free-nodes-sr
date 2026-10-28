@@ -1,5 +1,18 @@
-# Mac hourly sync 2026-10-28 21:26:46 | alive 7
+# Mac hourly sync 2026-10-28 22:45:33 | alive 8
 proxies:
+- name: 🇺🇸 美国 | USA 3
+  network: ws
+  password: 3aa78b49-5530-45a2-93cb-b093745824f1
+  port: 2096
+  server: www.visa.com.sg
+  skip-cert-verify: true
+  sni: au4.yang-1989.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: au4.yang-1989.xyz
+    path: /ya87
 - name: US - zhuhai.uk|365KB/s
   type: http
   server: 198.44.135.19
