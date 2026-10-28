@@ -1,58 +1,25 @@
-# Mac hourly sync 2026-10-28 22:45:33 | alive 8
+# Mac hourly sync 2026-10-29 00:44:51 | alive 4
 proxies:
-- name: 🇺🇸 美国 | USA 3
-  network: ws
-  password: 3aa78b49-5530-45a2-93cb-b093745824f1
-  port: 2096
-  server: www.visa.com.sg
-  skip-cert-verify: true
-  sni: au4.yang-1989.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: au4.yang-1989.xyz
-    path: /ya87
-- name: US - zhuhai.uk|365KB/s
+- name: US - zhuhai.uk 07|1KB/s
   type: http
-  server: 198.44.135.19
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_14|4.8MB/s
-  port: 9480
-  server: 104.129.203.85
-  skip-cert-verify: true
-  type: http
-- name: 🇺🇸US_13|2.9MB/s
-  password: None
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 02|1015KB/s
-  type: http
-  server: 129.153.93.183
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US-66.163.122.7-0565 | 71.295MB|782KB/s
-  server: 66.163.122.7
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
-  skip-cert-verify: false
-- name: 🇺🇸US_1|1.7MB/s|2KB/s
+  server: 44.229.69.166
   port: 8443
-  server: 154.81.36.92
-  skip-cert-verify: true
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02
   type: http
-- name: US - zhuhai.uk 06|1KB/s
+  server: tzoa.fun
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
+- name: US - zhuhai.uk 03
   type: http
-  server: 38.28.193.188
+  server: zebpay.site
   port: 443
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk
+  type: socks5
+  server: 45.61.188.134
+  port: 44499
