@@ -1,8 +1,40 @@
-# Mac hourly sync 2026-10-30 01:31:52 | alive 1
+# Mac hourly sync 2026-10-30 03:59:52 | alive 5
 proxies:
-- name: NL - zhuhai.uk|150KB/s
-  type: http
-  server: 84.17.47.148
-  port: 9002
-  tls: true
+- grpc-opts:
+    grpc-service-name: grpc-video-call
+  name: '🏳[www.v2nodes.com] trojan- #6|922KB/s'
+  network: grpc
+  password: Pass-Client-1
+  port: 8446
+  server: 171.22.119.74
   skip-cert-verify: true
+  type: trojan
+- name: DK_speednode_0006|821KB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: IE_speednode_0013|800KB/s
+  port: 443
+  server: 34.249.214.108
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL_speednode_0023|743KB/s
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- type: ss
+  name: 🇮🇹_IT_意大利 (2)|401KB/s
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
