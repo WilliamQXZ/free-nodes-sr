@@ -1,42 +1,48 @@
-# Mac hourly sync 2026-10-29 22:59:17 | alive 5
+# Mac hourly sync 2026-10-30 01:31:57 | alive 7
 proxies:
-- name: 🇺🇸 美国 | USA 14|1KB/s
-  server: 54.91.51.67
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 🇺🇸 美国 | USA 7
-  server: 54.237.60.0
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 🇺🇸 美国 | USA
-  server: 54.83.84.17
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 🇺🇸 美国 | USA 10
-  server: 130.94.16.109
-  port: 443
-  type: hysteria2
-  password: dQPT5I2ojYNjBeT2KPvk3Lr
-  auth: dQPT5I2ojYNjBeT2KPvk3Lr
-  sni: www.microsoft.com
-  up: 100
-  down: 200
-  skip-cert-verify: true
-  alpn:
-  - h3
-  udp: true
-- name: US - zhuhai.uk 09
+- name: US - zhuhai.uk 03|2KB/s
   type: http
-  server: 38.95.111.226
+  server: 129.153.93.183
+  port: 443
+  tls: true
+  sni: 129.153.93.183
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|2KB/s
+  type: http
+  server: 162.217.114.50
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|0KB/s
+  type: http
+  server: 45.145.72.122
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- auth: JDGu0PjxlEWSFJN
+  name: '🇺🇸 美国 | USA #7'
+  password: JDGu0PjxlEWSFJN
+  port: 443
+  server: 129.153.97.46
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: US - zhuhai.uk 08
+  type: http
+  server: 198.44.138.27
   port: 9443
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: fan.226278.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk
+  type: http
+  server: voteshirleysew.club
+  port: 443
+  tls: true
+  sni: voteshirleysew.club
