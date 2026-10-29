@@ -1,44 +1,42 @@
-# Mac hourly sync 2026-10-29 14:29:28 | alive 6
+# Mac hourly sync 2026-10-29 22:59:17 | alive 5
 proxies:
-- name: 🇺🇸US_2|1.8MB/s|1KB/s
-  password: None
+- name: 🇺🇸 美国 | USA 14|1KB/s
+  server: 54.91.51.67
   port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|1.4MB/s|1KB/s
-  password: None
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_1|1.6MB/s|1KB/s
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|1.3MB/s|K001-260618|1KB/s
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
-- name: 🇺🇸US_3|1.0MB/s|1KB/s
-  password: None
+- name: 🇺🇸 美国 | USA 7
+  server: 54.237.60.0
   port: 443
-  server: 149.22.88.65
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇺🇸 美国 | USA
+  server: 54.83.84.17
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇺🇸 美国 | USA 10
+  server: 130.94.16.109
+  port: 443
+  type: hysteria2
+  password: dQPT5I2ojYNjBeT2KPvk3Lr
+  auth: dQPT5I2ojYNjBeT2KPvk3Lr
+  sni: www.microsoft.com
+  up: 100
+  down: 200
   skip-cert-verify: true
-  tls: true
+  alpn:
+  - h3
+  udp: true
+- name: US - zhuhai.uk 09
   type: http
-- name: US - zhuhai.uk 03|0KB/s
-  type: http
-  server: 45.145.73.240
-  port: 8443
+  server: 38.95.111.226
+  port: 9443
   tls: true
   skip-cert-verify: true
