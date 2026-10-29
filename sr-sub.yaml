@@ -1,50 +1,37 @@
-# Mac hourly sync 2026-10-29 14:29:25 | alive 6
+# Mac hourly sync 2026-10-29 15:07:20 | alive 5
 proxies:
-- name: IE_speednode_0013|774KB/s
+- name: 🇹🇼 🇨🇳 台湾 | TWN|1.5MB/s
+  password: 0324fbc29561
   port: 443
-  server: 34.249.214.108
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
+- name: DK_speednode_0006|719KB/s
+  port: 9002
+  server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_4|1.6MB/s|743KB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_3|1.3MB/s|714KB/s
-  password: None
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_2|1.5MB/s|430KB/s
+- name: LV_speednode_0020|704KB/s
   port: 443
-  server: 149.50.216.65
+  server: 185.219.159.15
   skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇹🇭TH_1|2.2MB/s|389KB/s
-  network: tcp
-  port: 22222
-  server: th001.zestapp778.com
-  servername: th001.zestapp778.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  xudp: true
-- name: 🇬🇧GB_3|1.9MB/s|R002-260618|334KB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
+- name: NL_speednode_0026|642KB/s
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: LV - zhuhai.uk|530KB/s
+  type: http
+  server: 85.203.39.130
+  port: 443
+  tls: true
+  skip-cert-verify: true
