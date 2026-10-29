@@ -1,16 +1,50 @@
-# Mac hourly sync 2026-10-29 13:54:00 | alive 2
+# Mac hourly sync 2026-10-29 14:29:25 | alive 6
 proxies:
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #5|538KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
+- name: IE_speednode_0013|774KB/s
+  port: 443
+  server: 34.249.214.108
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #1|451KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
+- name: 🇩🇪DE_4|1.6MB/s|743KB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_3|1.3MB/s|714KB/s
+  password: None
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪SE_2|1.5MB/s|430KB/s
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇹🇭TH_1|2.2MB/s|389KB/s
+  network: tcp
+  port: 22222
+  server: th001.zestapp778.com
+  servername: th001.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  xudp: true
+- name: 🇬🇧GB_3|1.9MB/s|R002-260618|334KB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
   udp: true
