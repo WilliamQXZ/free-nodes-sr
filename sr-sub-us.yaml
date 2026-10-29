@@ -1,5 +1,14 @@
-# Mac hourly sync 2026-10-30 03:59:55 | alive 8
+# Mac hourly sync 2026-10-30 06:02:04 | alive 9
 proxies:
+- auth: JDGu0PjxlEWSFJN
+  name: '🇺🇸 美国 | USA #7|4KB/s'
+  password: JDGu0PjxlEWSFJN
+  port: 443
+  server: 129.153.97.46
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - auth: JDGu0PjxlEWSFJN
   name: '🇺🇸 美国 | USA #7'
   password: JDGu0PjxlEWSFJN
