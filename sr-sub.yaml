@@ -1,68 +1,214 @@
-# Mac hourly sync 2026-10-29 20:17:16 | alive 10
+# Mac hourly sync 2026-10-29 22:35:35 | alive 25
 proxies:
-- name: IT-202.50.253.27-0304 | 82.442MB|30KB/s
+- type: ss
+  name: 🇮🇹_IT_意大利 (5)|26KB/s
+  server: 202.50.253.18
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: FR_speednode_0009|10KB/s
+  port: 8090
+  server: 83.206.1.225
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: HK - zhuhai.uk 02|4KB/s
+  type: http
+  server: fan.240104.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US_speednode_0040|3KB/s
+  port: 443
+  server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: ID - zhuhai.uk|2KB/s
+  type: http
+  server: 178.248.73.58
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇭🇰 香港 | HKG 5|2KB/s
+  server: 38.76.180.144
+  port: 1443
+  type: vless
+  uuid: d98b67d4-024a-4bba-91e2-e6ebece6df11
+  tls: false
+  servername: 38.76.180.144
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vless-ws
+    headers:
+      Host: 38.76.180.144
+  udp: true
+- type: ss
+  name: 🇮🇹_IT_意大利|1KB/s
   server: 202.50.253.27
   port: 19999
-  type: ss
-  cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.99-0164 | 89.346MB|11KB/s
-  server: 202.50.253.99
-  port: 19999
-  type: ss
   cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.81-0193 | 78.155MB|1KB/s
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.72-0206 | 46.842MB|1KB/s
+  tls: false
+  skip-cert-verify: false
+- name: 🇩🇪 德国 | DEU|1KB/s
+  server: 213.152.180.104
+  port: 2094
+  type: vless
+  uuid: 0d125c97-d1dc-48c1-bf44-656e0f2fe68c
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: 55986a94e2228791
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: NL_speednode_0027|1KB/s
+  password: None
+  port: 9002
+  server: 84.17.47.123
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- type: ss
+  name: 🇮🇹_IT_意大利 (10)|1KB/s
   server: 202.50.253.72
   port: 19999
-  type: ss
-  cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.54-0176 | 81.599MB|1KB/s
-  server: 202.50.253.54
-  port: 19999
-  type: ss
   cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.36-0309 | 77.893MB|1KB/s
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.45-0305 | 83.302MB|1KB/s
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
+  tls: false
   skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+- name: 🇮🇪 爱尔兰 | IRL|1KB/s
+  server: 52.51.176.50
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: HK - zhuhai.uk|1KB/s
+  type: http
+  server: 119.28.24.235
+  port: 3128
+  tls: true
+  skip-cert-verify: true
+- name: DE - zhuhai.uk|1KB/s
+  type: http
+  server: 158.173.154.2
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 14|1KB/s
+  server: 54.91.51.67
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: US_speednode_0039|1KB/s
+  port: 8443
+  server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 7|1KB/s
+  server: 172.64.151.94
+  port: 443
+  type: vless
+  uuid: cf92529d-9c4a-4d71-ab87-ae784a2da6bb
+  tls: true
+  servername: gy-cffc6-node-project-lb5p6r204ts3xuoz.pages.dev
+  client-fingerprint: chrome
+  network: ws
   ws-opts:
+    path: /documents/download/readme/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
     headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: IT-202.50.253.90-0251 | 84.488MB
-  server: 202.50.253.90
+      Host: gy-cffc6-node-project-lb5p6r204ts3xuoz.pages.dev
+  udp: true
+- name: JP - zhuhai.uk|1KB/s
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: fan.571589.xyz
+- name: FR_speednode_0012|1KB/s
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: JP - zhuhai.uk 02|1KB/s
+  type: vless
+  server: ga1data.xyy123.bid
+  port: 443
+  uuid: 81f686e2-0700-4e7d-b3aa-2f7fc544bcc3
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.amzn.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Z7B8VKvjAiBH93XEkHFWCVBfK8Mu5HTLtAwfr5LuYlk
+    short-id: 00b0389a
+- name: NL_speednode_0025|1KB/s
+  password: None
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL_speednode_0026|1KB/s
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇬🇧 英国 | GBR|1KB/s
+  server: 144.31.213.229
+  port: 443
+  type: vless
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  tls: true
+  servername: 6d160a52.con.fernarchive.online
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  udp: true
+- type: ss
+  name: 🇮🇹_IT_意大利 (8)|1KB/s
+  server: 202.50.253.99
   port: 19999
-  type: ss
-  cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.63-0301 | 85.835MB
-  server: 202.50.253.63
-  port: 19999
-  type: ss
   cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  tls: false
+  skip-cert-verify: false
+- name: PL_speednode_0028|0KB/s
+  port: 443
+  server: 31.186.220.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇭🇰 香港 | HKG 9|0KB/s
+  server: 56481.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  udp: true
+  sni: images.ctfassets.net
+  skip-cert-verify: true
