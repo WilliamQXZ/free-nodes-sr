@@ -1,5 +1,20 @@
-# Mac hourly sync 2026-10-30 01:31:57 | alive 7
+# Mac hourly sync 2026-10-30 03:59:55 | alive 8
 proxies:
+- auth: JDGu0PjxlEWSFJN
+  name: '🇺🇸 美国 | USA #7'
+  password: JDGu0PjxlEWSFJN
+  port: 443
+  server: 129.153.97.46
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 🇺🇸US_2|1.4MB/s
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: US - zhuhai.uk 03|2KB/s
   type: http
   server: 129.153.93.183
@@ -19,15 +34,6 @@ proxies:
   port: 8443
   tls: true
   skip-cert-verify: true
-- auth: JDGu0PjxlEWSFJN
-  name: '🇺🇸 美国 | USA #7'
-  password: JDGu0PjxlEWSFJN
-  port: 443
-  server: 129.153.97.46
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: US - zhuhai.uk 08
   type: http
   server: 198.44.138.27
