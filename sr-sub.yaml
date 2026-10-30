@@ -1,13 +1,61 @@
-# Mac hourly sync 2026-10-31 05:03:31 | alive 4
+# Mac hourly sync 2026-10-31 06:03:19 | alive 9
 proxies:
-- name: DK_speednode_0005|736KB/s
-  port: 9002
-  server: 158.173.154.5
+- name: TW - zhuhai.uk|2.5MB/s
+  type: anytls
+  server: 684616s4.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
+  skip-cert-verify: true
+- name: 🇨🇭CH_1|2.0MB/s|953KB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇵🇱PL_1|1000KB/s|938KB/s
+  password: None
+  port: 443
+  server: 37.120.156.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #1|841KB/s'
+  network: xhttp
+  port: 443
+  server: 177.3.214.133
+  servername: planktonmanager.xyz
+  tls: true
+  type: vless
   udp: true
-- name: LV - zhuhai.uk|594KB/s
+  uuid: 4023b626-ce42-4a8f-a1c4-93e263118e7c
+  xhttp-opts:
+    host: planktonmanager.xyz
+    mode: auto
+    path: /assets/e4e35f44b368/3eaeda2dcb5e/index.html
+- name: 🇬🇧GB_1|1017KB/s|809KB/s
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: NL - zhuhai.uk 03|720KB/s
+  type: http
+  server: 185.93.106.214
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.18-0170 | 31.716MB|709KB/s
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: LV - zhuhai.uk|492KB/s
   type: http
   server: 185.219.159.15
   port: 443
@@ -15,16 +63,10 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: IT-202.50.253.36-0181 | 52.174MB|573KB/s
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk 06|539KB/s
+- name: JP - zhuhai.uk|373KB/s
   type: http
-  server: 129.153.93.183
+  server: fan.571589.xyz
   port: 443
   tls: true
-  sni: 129.153.93.183
+  sni: fan.571589.xyz
   skip-cert-verify: true
