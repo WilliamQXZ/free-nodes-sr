@@ -1,72 +1,49 @@
-# Mac hourly sync 2026-10-30 06:01:58 | alive 8
+# Mac hourly sync 2026-10-30 09:03:57 | alive 5
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: https://github.com/*********-*...|1023KB/s
-  port: 24667
-  protocol: udp
-  server: 62.210.70.191
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: FR_speednode_0012|844KB/s
-  port: 443
-  server: 82.65.162.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL_speednode_0023|773KB/s
-  port: 9002
-  server: 84.17.47.124
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  name: '🇬🇧 英国 | GBR #2|770KB/s'
-  network: ws
-  port: 443
-  server: 92.113.107.120
-  servername: indigostar.click
-  tls: true
+- name: 🇺🇸 美国 | USA 4|708KB/s
+  server: 31.172.69.31
+  port: 8443
   type: vless
-  udp: true
-  uuid: dbda40e2-25b5-416c-8d35-56d07e8dcdbc
-  ws-opts:
-    path: /ws
-- name: NL_speednode_0027|763KB/s
-  password: None
-  port: 9002
-  server: 84.17.47.123
-  skip-cert-verify: true
+  uuid: 9c6e83fc-b755-4ad4-9b0a-14b610153d8f
   tls: true
-  type: http
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: H43_itYl9CE0AJiCktUfriENFmixY_MTHgX8slCrN2Q
+    short-id: a4e32c324d86cfdf
+  servername: www.samsung.com
+  client-fingerprint: qq
+  network: tcp
   udp: true
-- name: IT-202.50.253.63-0301 | 19.407MB|666KB/s
-  server: 202.50.253.63
+- name: 🇺🇸 美国 | USA 10|574KB/s
+  server: 187.52.44.20
+  port: 47443
+  type: vless
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: g5am2VhZkx_xH2TSKfUU8OYLxAzFrmcszNQg8AbOenE
+    short-id: ae97223a8f799872
+  servername: nl4.waspnest.space
+  client-fingerprint: firefox
+  network: tcp
+- name: LT - zhuhai.uk|473KB/s
+  type: http
+  server: 89.124.11.9
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: DE - zhuhai.uk|373KB/s
+  type: http
+  server: 167.172.172.190
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.27-0304 | 47.331MB|322KB/s
+  server: 202.50.253.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.72-0206 | 67.967MB|642KB/s
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- client-fingerprint: chrome
-  name: '🇪🇪 爱沙尼亚 | EST #1|458KB/s'
-  network: xhttp
-  port: 443
-  server: 31.76.70.90
-  servername: 597dad6b.con.fernarchive.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
