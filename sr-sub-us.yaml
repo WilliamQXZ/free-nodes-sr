@@ -1,18 +1,31 @@
-# Mac hourly sync 2026-10-30 10:04:03 | alive 4
+# Mac hourly sync 2026-10-30 11:04:34 | alive 5
 proxies:
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 162.244.227.36
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk 07|1KB/s
   type: http
   server: 45.150.164.18
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
+- name: 🇺🇸 美国 | USA 10|1KB/s
+  server: 187.52.44.20
+  port: 47443
+  type: vless
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: g5am2VhZkx_xH2TSKfUU8OYLxAzFrmcszNQg8AbOenE
+    short-id: ae97223a8f799872
+  servername: nl4.waspnest.space
+  client-fingerprint: firefox
+  network: tcp
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 162.244.227.36
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08|0KB/s
   type: http
   server: 38.28.185.222
   port: 443
