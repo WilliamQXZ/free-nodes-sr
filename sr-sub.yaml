@@ -1,15 +1,30 @@
-# Mac hourly sync 2026-10-31 04:02:52 | alive 2
+# Mac hourly sync 2026-10-31 05:03:31 | alive 4
 proxies:
-- name: 🇵🇱PL_1|1000KB/s|886KB/s
-  password: None
-  port: 443
-  server: 37.120.156.34
+- name: DK_speednode_0005|736KB/s
+  port: 9002
+  server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
-- name: LV - zhuhai.uk|789KB/s
+  udp: true
+- name: LV - zhuhai.uk|594KB/s
   type: http
-  server: 109.248.149.34
+  server: 185.219.159.15
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.36-0181 | 52.174MB|573KB/s
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk 06|539KB/s
+  type: http
+  server: 129.153.93.183
   port: 443
   tls: true
+  sni: 129.153.93.183
   skip-cert-verify: true
