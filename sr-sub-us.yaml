@@ -1,39 +1,29 @@
-# Mac hourly sync 2026-10-30 11:04:34 | alive 5
+# Mac hourly sync 2026-10-30 18:03:43 | alive 4
 proxies:
-- name: US - zhuhai.uk 07|1KB/s
+- name: US - zhuhai.uk 08|924KB/s
   type: http
   server: 45.150.164.18
   port: 8443
   tls: true
+  sni: 45.150.164.18
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 10|1KB/s
-  server: 187.52.44.20
-  port: 47443
-  type: vless
-  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: g5am2VhZkx_xH2TSKfUU8OYLxAzFrmcszNQg8AbOenE
-    short-id: ae97223a8f799872
-  servername: nl4.waspnest.space
-  client-fingerprint: firefox
-  network: tcp
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk|380KB/s
   type: http
-  server: 162.244.227.36
+  server: 38.28.193.188
   port: 443
+  username: 'null'
+  password: 'null'
   tls: true
+  sni: 38.28.193.188
   skip-cert-verify: true
-- name: US - zhuhai.uk 08|0KB/s
+- name: US - zhuhai.uk 04|1KB/s
+  type: socks5
+  server: 45.61.188.134
+  port: 44499
+- name: US - zhuhai.uk 05|1KB/s
   type: http
-  server: 38.28.185.222
+  server: jgwynphotoarts.pro
   port: 443
+  username: 'null'
+  password: None
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: berniesbodybla.fun
-  port: 443
-  tls: true
-  skip-cert-verify: true
