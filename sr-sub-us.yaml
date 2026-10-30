@@ -1,5 +1,12 @@
-# Mac hourly sync 2026-10-30 19:04:44 | alive 4
+# Mac hourly sync 2026-10-30 20:04:55 | alive 5
 proxies:
+- name: US - zhuhai.uk 08|934KB/s
+  type: http
+  server: 45.150.164.18
+  port: 8443
+  tls: true
+  sni: 45.150.164.18
+  skip-cert-verify: true
 - name: US - zhuhai.uk|374KB/s
   type: http
   server: 38.28.193.188
@@ -9,14 +16,17 @@ proxies:
   tls: true
   sni: 38.28.193.188
   skip-cert-verify: true
-- name: US - zhuhai.uk 08|2KB/s
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-  server: 45.150.164.18
-  port: 8443
+  server: webdrone.club
+  port: 443
   tls: true
-  sni: 45.150.164.18
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
+  sni: webdrone.club
+- name: US - zhuhai.uk 04|1KB/s
+  type: socks5
+  server: 45.61.188.134
+  port: 44499
+- name: US - zhuhai.uk 02
   type: http
   server: 54.190.176.228
   port: 8443
@@ -24,19 +34,3 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
