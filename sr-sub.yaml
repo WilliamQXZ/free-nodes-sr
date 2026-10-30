@@ -1,25 +1,23 @@
-# Mac hourly sync 2026-10-30 11:04:30 | alive 3
+# Mac hourly sync 2026-10-30 17:33:20 | alive 2
 proxies:
-- name: LV_speednode_0021|647KB/s
-  password: None
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #2|489KB/s'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
   udp: true
-- name: RU - zhuhai.uk|579KB/s
-  type: http
-  server: 178.219.43.226
+- alpn:
+  - http/1.1
+  name: '🏳[www.v2nodes.com] trojan- #1|367KB/s'
+  network: ws
+  password: humanity
   port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: DK_speednode_0006|462KB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  server: 172.66.40.99
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.trusteeforward.com
+    path: '%2Fassignment'
