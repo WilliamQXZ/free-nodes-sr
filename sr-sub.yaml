@@ -1,13 +1,20 @@
-# Mac hourly sync 2026-10-30 18:03:39 | alive 2
+# Mac hourly sync 2026-10-30 19:04:41 | alive 2
 proxies:
-- name: US - zhuhai.uk 08|924KB/s
-  type: http
-  server: 45.150.164.18
-  port: 8443
-  tls: true
-  sni: 45.150.164.18
-  skip-cert-verify: true
-- name: US - zhuhai.uk|380KB/s
+- alpn:
+  - http/1.1
+  name: '🏳[www.v2nodes.com] trojan- #3|539KB/s'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.40.99
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.trusteeforward.com
+    path: /assignment
+- name: US - zhuhai.uk|374KB/s
   type: http
   server: 38.28.193.188
   port: 443
