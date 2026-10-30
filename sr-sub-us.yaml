@@ -1,6 +1,6 @@
-# Mac hourly sync 2026-10-30 23:04:31 | alive 3
+# Mac hourly sync 2026-10-31 00:03:48 | alive 6
 proxies:
-- name: 🇺🇸_US_美国|117KB/s
+- name: 🇺🇸_US_美国|365KB/s
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -16,17 +16,35 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
-- name: US - zhuhai.uk|2KB/s
+- name: US - zhuhai.uk 03|2KB/s
   type: http
-  server: jewelscollecti.icu
-  port: 443
+  server: 44.248.167.117
+  port: 8443
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 04|1KB/s
   type: http
-  server: 149.88.21.129
-  port: 443
+  server: 45.145.72.122
+  port: 8443
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 173.42.49.102
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
+- name: US - zhuhai.uk
+  type: http
+  server: crosscards.site
+  port: 443
+  tls: true
