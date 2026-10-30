@@ -1,9 +1,17 @@
-# Mac hourly sync 2026-10-31 01:04:20 | alive 5
+# Mac hourly sync 2026-10-31 04:02:55 | alive 5
 proxies:
-- name: US - zhuhai.uk 05|1KB/s
+- name: US - zhuhai.uk 04|2KB/s
   type: http
-  server: 68.235.56.51
-  port: 443
+  server: 45.145.72.122
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|2KB/s
+  type: http
+  server: 44.248.167.117
+  port: 8443
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 07|1KB/s
@@ -12,33 +20,15 @@ proxies:
   port: 8090
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
+- name: US - zhuhai.uk 06
   type: http
-  server: 45.145.72.122
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 44.248.167.117
-  port: 8443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
+  server: efr-marktplatz.club
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+  username: 'null'
+  password: None
   tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
+- name: US - zhuhai.uk
+  type: http
+  server: crosscards.site
+  port: 443
+  tls: true
