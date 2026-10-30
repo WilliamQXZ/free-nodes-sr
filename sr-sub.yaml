@@ -1,35 +1,25 @@
-# Mac hourly sync 2026-10-30 10:04:00 | alive 4
+# Mac hourly sync 2026-10-30 11:04:30 | alive 3
 proxies:
-- name: FR - zhuhai.uk|580KB/s
-  type: http
-  server: 83.206.1.225
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: NO - zhuhai.uk|454KB/s
-  type: http
-  server: 146.70.170.210
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- alpn:
-  - http/1.1
-  name: 🇳🇱 荷兰 | NLD|449KB/s
-  network: ws
-  password: humanity
+- name: LV_speednode_0021|647KB/s
+  password: None
   port: 443
-  server: 172.67.203.46
+  server: 185.219.159.16
   skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
+  tls: true
+  type: http
   udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: GB - zhuhai.uk|357KB/s
+- name: RU - zhuhai.uk|579KB/s
   type: http
-  server: 37.120.233.34
+  server: 178.219.43.226
   port: 443
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
+- name: DK_speednode_0006|462KB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
