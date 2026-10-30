@@ -1,72 +1,41 @@
-# Mac hourly sync 2026-10-31 06:03:19 | alive 9
+# Mac hourly sync 2026-10-31 07:03:21 | alive 6
 proxies:
-- name: TW - zhuhai.uk|2.5MB/s
-  type: anytls
-  server: 684616s4.df6h451rh.xin
+- name: DE - zhuhai.uk|874KB/s
+  type: http
+  server: 116.202.172.99
   port: 443
-  password: 0324fbc29561
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|839KB/s
+  type: http
+  server: 121.127.34.82
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: IE - zhuhai.uk|779KB/s
+  type: http
+  server: 34.249.214.108
+  port: 443
+  tls: true
+  sni: 34.249.214.108
+  skip-cert-verify: true
+- name: NL_speednode_0023|772KB/s
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-  skip-cert-verify: true
-- name: 🇨🇭CH_1|2.0MB/s|953KB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
+- name: FR_speednode_0008|735KB/s
+  port: 19362
+  server: 51.159.225.197
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇵🇱PL_1|1000KB/s|938KB/s
-  password: None
-  port: 443
-  server: 37.120.156.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #1|841KB/s'
-  network: xhttp
-  port: 443
-  server: 177.3.214.133
-  servername: planktonmanager.xyz
-  tls: true
-  type: vless
   udp: true
-  uuid: 4023b626-ce42-4a8f-a1c4-93e263118e7c
-  xhttp-opts:
-    host: planktonmanager.xyz
-    mode: auto
-    path: /assets/e4e35f44b368/3eaeda2dcb5e/index.html
-- name: 🇬🇧GB_1|1017KB/s|809KB/s
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 09|448KB/s
   type: http
-- name: NL - zhuhai.uk 03|720KB/s
-  type: http
-  server: 185.93.106.214
-  port: 443
-  username: 'null'
-  password: 'null'
+  server: 173.42.49.102
+  port: 8090
   tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.18-0170 | 31.716MB|709KB/s
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: LV - zhuhai.uk|492KB/s
-  type: http
-  server: 185.219.159.15
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: JP - zhuhai.uk|373KB/s
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  tls: true
-  sni: fan.571589.xyz
   skip-cert-verify: true
