@@ -1,12 +1,16 @@
-# Mac hourly sync 2026-10-30 21:05:42 | alive 1
+# Mac hourly sync 2026-10-30 22:05:23 | alive 2
 proxies:
-- client-fingerprint: chrome
-  name: ❓Other_1|2.4MB/s|182KB/s
-  network: tcp
-  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+- name: 🇨🇿CZ_1|1.0MB/s|249KB/s
+  password: None
   port: 443
-  server: 176.114.95.242
-  skip-cert-verify: false
-  sni: us-1.1984.love
-  type: trojan
-  udp: true
+  server: 185.216.35.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇭CH_1|2.0MB/s|235KB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
