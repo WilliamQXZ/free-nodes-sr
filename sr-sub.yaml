@@ -1,18 +1,12 @@
-# Mac hourly sync 2026-10-30 20:04:50 | alive 2
+# Mac hourly sync 2026-10-30 21:05:42 | alive 1
 proxies:
-- name: US - zhuhai.uk 08|934KB/s
-  type: http
-  server: 45.150.164.18
-  port: 8443
-  tls: true
-  sni: 45.150.164.18
-  skip-cert-verify: true
-- name: US - zhuhai.uk|374KB/s
-  type: http
-  server: 38.28.193.188
+- client-fingerprint: chrome
+  name: ❓Other_1|2.4MB/s|182KB/s
+  network: tcp
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
   port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 38.28.193.188
-  skip-cert-verify: true
+  server: 176.114.95.242
+  skip-cert-verify: false
+  sni: us-1.1984.love
+  type: trojan
+  udp: true
