@@ -1,22 +1,26 @@
-# Mac hourly sync 2026-10-31 01:04:15 | alive 1
+# Mac hourly sync 2026-10-31 02:01:53 | alive 3
 proxies:
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - aesafdfaesfv.asopardaz.ir
-    method: GET
-    path:
-    - /f9bGbG7ZNy5L0tdQpUbLXHHIAlGv
-  name: '🇩🇪 德国 | DEU #5|414KB/s'
-  network: http
-  port: 80
-  server: aesafdfaesfv.asopardaz.ir
+- grpc-opts:
+    grpc-service-name: grpc-video-call
+  name: 🇷🇺 俄罗斯 | RUS 3|858KB/s
+  network: grpc
+  password: Pass-Client-1
+  port: 8446
+  server: 171.22.119.74
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: ce71b8c2-54a4-4dd0-b780-a4521b16f2fd
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #1|572KB/s'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #7|480KB/s'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
