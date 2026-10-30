@@ -1,15 +1,8 @@
-# Mac hourly sync 2026-10-31 05:03:34 | alive 7
+# Mac hourly sync 2026-10-31 06:03:23 | alive 5
 proxies:
-- name: US - zhuhai.uk 06|539KB/s
+- name: US - zhuhai.uk|1KB/s
   type: http
-  server: 129.153.93.183
-  port: 443
-  tls: true
-  sni: 129.153.93.183
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|2KB/s
-  type: http
-  server: 149.22.88.65
+  server: fan.596189.xyz
   port: 443
   tls: true
   skip-cert-verify: true
@@ -17,12 +10,6 @@ proxies:
   type: http
   server: 138.199.35.218
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: fan.596189.xyz
-  port: 443
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 08|1KB/s
