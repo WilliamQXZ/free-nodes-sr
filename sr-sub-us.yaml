@@ -1,63 +1,60 @@
-# Mac hourly sync 2026-10-30 06:02:04 | alive 9
+# Mac hourly sync 2026-10-30 09:04:01 | alive 7
 proxies:
-- auth: JDGu0PjxlEWSFJN
-  name: '🇺🇸 美国 | USA #7|4KB/s'
-  password: JDGu0PjxlEWSFJN
-  port: 443
-  server: 129.153.97.46
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- auth: JDGu0PjxlEWSFJN
-  name: '🇺🇸 美国 | USA #7'
-  password: JDGu0PjxlEWSFJN
-  port: 443
-  server: 129.153.97.46
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 🇺🇸US_2|1.4MB/s
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 03|2KB/s
-  type: http
-  server: 129.153.93.183
-  port: 443
-  tls: true
-  sni: 129.153.93.183
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|2KB/s
-  type: http
-  server: 162.217.114.50
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|0KB/s
-  type: http
-  server: 45.145.72.122
+- name: 🇺🇸 美国 | USA 4|708KB/s
+  server: 31.172.69.31
   port: 8443
+  type: vless
+  uuid: 9c6e83fc-b755-4ad4-9b0a-14b610153d8f
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08
-  type: http
-  server: 198.44.138.27
-  port: 9443
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: H43_itYl9CE0AJiCktUfriENFmixY_MTHgX8slCrN2Q
+    short-id: a4e32c324d86cfdf
+  servername: www.samsung.com
+  client-fingerprint: qq
+  network: tcp
+  udp: true
+- name: 🇺🇸 美国 | USA 10|574KB/s
+  server: 187.52.44.20
+  port: 47443
+  type: vless
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: g5am2VhZkx_xH2TSKfUU8OYLxAzFrmcszNQg8AbOenE
+    short-id: ae97223a8f799872
+  servername: nl4.waspnest.space
+  client-fingerprint: firefox
+  network: tcp
+- name: US - zhuhai.uk 08|2KB/s
   type: http
   server: fan.226278.xyz
+  port: 443
+  tls: true
+  sni: fan.226278.xyz
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: fan.596189.xyz
+  port: 443
+  tls: true
+  sni: fan.596189.xyz
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 38.247.141.135
   port: 443
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk
   type: http
-  server: voteshirleysew.club
+  server: fullmanfirm.icu
   port: 443
+  username: 'null'
+  password: 'null'
   tls: true
-  sni: voteshirleysew.club
+- name: US - zhuhai.uk 02
+  type: http
+  server: 54.190.176.228
+  port: 8443
+  tls: true
+  skip-cert-verify: true
