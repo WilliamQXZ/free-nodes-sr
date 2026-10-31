@@ -1,23 +1,15 @@
-# Mac hourly sync 2026-10-31 17:03:18 | alive 2
+# Mac hourly sync 2026-10-31 18:03:58 | alive 2
 proxies:
-- name: 🇨🇭CH_1|2.2MB/s|479KB/s
-  port: 9443
-  server: 149.88.27.46
+- name: 🇺🇸US_9|1.8MB/s|457KB/s
+  port: 443
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 🇳🇱NL_4|2.7MB/s|471KB/s
-  network: ws
-  password: humanity
+- name: 🇸🇪SE_2|2.0MB/s|450KB/s
+  password: None
   port: 443
-  server: 172.66.0.172
-  servername: www.cordweave.com
+  server: 146.70.242.130
   skip-cert-verify: true
-  sni: www.cordweave.com
   tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
+  type: http
