@@ -1,29 +1,28 @@
-# Mac hourly sync 2026-10-31 13:05:07 | alive 3
+# Mac hourly sync 2026-10-31 14:04:37 | alive 3
 proxies:
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 3e99d50d5740985d
-  name: 🇳🇱 荷兰 | NLD 7|430KB/s
-  network: grpc
+- name: IT-202.50.253.45-0424 | 76.175MB|490KB/s
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇵🇱PL_1|1.5MB/s|314KB/s
+  password: None
   port: 443
-  server: 189.74.114.119
-  servername: api.mediaklenov.cc
+  server: 37.120.156.34
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
+- name: 🇺🇸 美国 | USA 11|270KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.65.1
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
   udp: true
-  uuid: abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5
-- name: 🇱🇻LV_2|3.2MB/s|329KB/s
-  port: 443
-  server: 109.248.149.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: NL - zhuhai.uk 03|286KB/s
-  type: http
-  server: 5.255.118.82
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
