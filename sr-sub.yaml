@@ -1,10 +1,58 @@
-# Mac hourly sync 2026-10-31 22:03:39 | alive 2
+# Mac hourly sync 2026-10-31 23:05:56 | alive 5
 proxies:
-- name: 🇺🇸 美国 | USA 5|323KB/s
+- name: 🇭🇷HR_1|2.4MB/s|336KB/s
+  port: 443
+  server: 154.47.29.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: IT-202.50.253.72-0131 | 0.418MB|336KB/s
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #2|296KB/s'
+  network: xhttp
+  port: 443
+  server: yan10.aliboba.shop
+  servername: yan10.aliboba.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: bdebb0d0-1ac7-4d3a-8f18-99171d74affd
+  xhttp-opts:
+    host: yan10.aliboba.shop
+    mode: packet-up
+    path: /api/api_v2/mediaupload_process
+    seq-key: segment
+    seq-placement: query
+    session-key: media_session
+    session-placement: query
+    uplink-data-key: data
+    uplink-data-placement: header
+    uplink-http-method: GET
+    x-padding-bytes: 64-320
+    x-padding-header: Referer
+    x-padding-key: cacheVersion
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+- name: IT-202.50.253.63-0176 | 76.604MB|255KB/s
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸 美国 | USA 12|151KB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.16.65.1
+  server: 104.26.3.162
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -13,9 +61,3 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: IT-202.50.253.72-0131 | 0.418MB|250KB/s
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
