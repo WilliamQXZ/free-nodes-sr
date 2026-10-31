@@ -1,28 +1,40 @@
-# Mac hourly sync 2026-10-31 17:03:22 | alive 11
+# Mac hourly sync 2026-10-31 18:04:02 | alive 11
 proxies:
-- name: US - zhuhai.uk|26KB/s
-  type: http
-  server: crosscards.site
+- name: 🇺🇸US_9|1.8MB/s|457KB/s
   port: 443
-  username: 'null'
-  password: None
+  server: 12.202.180.10
+  skip-cert-verify: true
   tls: true
-- name: 🇺🇸US_7|1.8MB/s|18KB/s
+  type: http
+- name: 🇺🇸US_6|1.1MB/s|1KB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_15|1.5MB/s|1KB/s
+  password: None
+  port: 8090
+  server: 184.188.139.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|1022KB/s|1KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|1.8MB/s|1KB/s
   port: 443
   server: 23.133.176.14
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_3|2.6MB/s|1KB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|1.4MB/s|1KB/s
+- name: 🇺🇸US_5|2.6MB/s|1KB/s
   password: None
   port: 443
-  server: 162.244.227.36
+  server: 121.127.34.82
   skip-cert-verify: true
   tls: true
   type: http
@@ -32,41 +44,32 @@ proxies:
   port: 8090
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_12|1.5MB/s|K001-260618|1KB/s
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_10|3.0MB/s|0KB/s
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_14|3.0MB/s|0KB/s
+- name: 🇺🇸US_14|3.0MB/s|1KB/s
   password: test123
   port: 1080
   server: 104.168.249.36
   type: socks5
   username: test123
-- name: US - zhuhai.uk 04
-  type: http
-  server: carolinafreigh.fun
-  port: 443
-  tls: true
-- name: US - zhuhai.uk 03
-  type: http
-  server: kimberlymilano.icu
-  port: 443
-  username: Ok5vbmU=
-  tls: true
-- name: 🇺🇸US_15|1.5MB/s
+- name: 🇺🇸US_13|1.4MB/s|0KB/s
   password: None
-  port: 8090
-  server: 184.188.139.2
+  port: 443
+  server: 162.244.227.36
   skip-cert-verify: true
   tls: true
   type: http
+- name: US - zhuhai.uk 06
+  type: http
+  server: 54.190.176.228
+  port: 8443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02
+  type: http
+  server: goedkoopgeluid.icu
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
