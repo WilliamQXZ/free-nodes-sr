@@ -1,22 +1,35 @@
-# Mac hourly sync 2026-10-31 11:05:13 | alive 3
+# Mac hourly sync 2026-10-31 12:04:49 | alive 4
 proxies:
-- name: 🇺🇸US_8|1022KB/s|759KB/s
+- name: 🇧🇪BE_1|2.4MB/s|453KB/s
+  password: None
   port: 443
-  server: 167.88.60.242
+  server: 146.70.123.98
   skip-cert-verify: true
   tls: true
   type: http
-- name: IT-202.50.253.99-0168 | 76.705MB|422KB/s
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_12|1.5MB/s|K001-260618|138KB/s
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 3e99d50d5740985d
+  name: 🇳🇱 荷兰 | NLD 7|418KB/s
+  network: grpc
   port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sub_tag: K001-260618
+  server: 189.74.114.119
+  servername: api.mediaklenov.cc
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5
+- name: 🇸🇪SE_1|1.7MB/s|384KB/s
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: SG - zhuhai.uk|321KB/s
+  type: http
+  server: 149.88.99.209
+  port: 9443
+  tls: true
+  skip-cert-verify: true
