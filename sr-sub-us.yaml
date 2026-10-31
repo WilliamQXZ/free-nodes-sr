@@ -1,27 +1,6 @@
-# Mac hourly sync 2026-10-31 22:03:46 | alive 8
+# Mac hourly sync 2026-10-31 23:06:02 | alive 6
 proxies:
-- name: 🇺🇸 美国 | USA 5|323KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.65.1
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 138.199.35.213
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 12|1KB/s
+- name: 🇺🇸 美国 | USA 12|151KB/s
   network: ws
   password: humanity
   port: 443
@@ -34,11 +13,19 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 10|1KB/s
+- name: US - zhuhai.uk|0KB/s
+  type: http
+  server: 138.199.35.213
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 2|0KB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.16.251.219
+  server: 162.159.128.253
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -47,13 +34,13 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: US - zhuhai.uk 03|0KB/s
+- name: US - zhuhai.uk 04
   type: http
-  server: 12.221.146.147
-  port: 443
+  server: 24.142.229.178
+  port: 8090
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|0KB/s
+- name: US - zhuhai.uk 02
   type: http
   server: 138.199.35.212
   port: 9002
@@ -61,19 +48,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 4|0KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.28.254
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
 - name: 🇺🇸_US_美国
   type: vmess
   server: guanwang.awsno.com
