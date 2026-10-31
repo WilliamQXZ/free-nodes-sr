@@ -1,6 +1,64 @@
-# Mac hourly sync 2026-10-31 19:04:03 | alive 8
+# Mac hourly sync 2026-10-31 20:06:49 | alive 12
 proxies:
-- name: 🇺🇸US_12|1.5MB/s|K001-260618|142KB/s
+- name: 🇺🇸US_10|3.0MB/s|376KB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|1.8MB/s|2KB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_9|1.8MB/s|1KB/s
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 12.221.146.147
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 44.248.167.117
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_5|2.6MB/s|1KB/s
+  password: None
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|1.4MB/s|0KB/s
+  password: None
+  port: 443
+  server: 162.244.227.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|1.1MB/s|0KB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|1.5MB/s|K001-260618|0KB/s
   port: 443
   server: 149.34.248.65
   skip-cert-verify: true
@@ -8,46 +66,18 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_10|3.0MB/s|1KB/s
-  port: 443
-  server: 68.235.56.59
+- name: US - zhuhai.uk|0KB/s
+  type: http
+  server: 138.199.35.213
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|1.8MB/s|1KB/s
-  port: 443
-  server: 23.133.176.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|1.4MB/s|1KB/s
-  password: None
-  port: 443
-  server: 162.244.227.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: carolinafreigh.fun
-  port: 443
-  tls: true
-- name: 🇺🇸US_14|3.0MB/s|1KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
 - name: 🇺🇸US_15|1.5MB/s|0KB/s
   password: None
   port: 8090
   server: 184.188.139.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|2.6MB/s|0KB/s
-  port: 9443
-  server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
