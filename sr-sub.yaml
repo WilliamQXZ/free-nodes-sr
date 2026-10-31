@@ -1,48 +1,61 @@
-# Mac hourly sync 2026-11-01 01:03:10 | alive 2
+# Mac hourly sync 2026-11-01 04:01:47 | alive 7
 proxies:
-- name: 🇺🇸_US_美国|292KB/s
-  type: vmess
-  server: guanwang.awsno.com
+- down: ''
+  fingerprint: ''
+  name: 🇳🇱NL_3|1.4MB/s|1.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+  server: 9.247.54.69
+  skip-cert-verify: true
+  sni: nl1.obxodvpn.us
+  tls: false
+  type: hysteria2
+  up: ''
+- name: 🇸🇪SE_1|1.5MB/s|758KB/s
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: AU - zhuhai.uk|533KB/s
+  type: http
+  server: 159.13.44.228
+  port: 443
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #2|239KB/s'
-  network: xhttp
+- name: IT-202.50.253.27-0225 | 20.013MB|432KB/s
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk 06|404KB/s
+  type: http
+  server: 23.133.176.14
   port: 443
-  server: yan10.aliboba.shop
-  servername: yan10.aliboba.shop
   tls: true
-  type: vless
+  skip-cert-verify: true
+- name: IT-202.50.253.54-0121 | 56.216MB|347KB/s
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱NL_1|1.2MB/s|218KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.149.78
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
   udp: true
-  uuid: bdebb0d0-1ac7-4d3a-8f18-99171d74affd
-  xhttp-opts:
-    host: yan10.aliboba.shop
-    mode: packet-up
-    path: /api/api_v2/mediaupload_process
-    seq-key: segment
-    seq-placement: query
-    session-key: media_session
-    session-placement: query
-    uplink-data-key: data
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 64-320
-    x-padding-header: Referer
-    x-padding-key: cacheVersion
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
+  ws-opts:
+    path: /assignment
