@@ -1,10 +1,10 @@
-# Mac hourly sync 2026-10-31 21:04:36 | alive 6
+# Mac hourly sync 2026-10-31 22:03:46 | alive 8
 proxies:
-- name: 🇺🇸 美国 | USA 11|177KB/s
+- name: 🇺🇸 美国 | USA 5|323KB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.16.144.215
+  server: 104.16.65.1
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -13,26 +13,6 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: US - zhuhai.uk 02|12KB/s
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 44.248.167.117
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 24.142.229.178
-  port: 8090
-  tls: true
-  skip-cert-verify: true
 - name: US - zhuhai.uk|1KB/s
   type: http
   server: 138.199.35.213
@@ -41,7 +21,20 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 10|0KB/s
+- name: 🇺🇸 美国 | USA 12|1KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.3.162
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 10|1KB/s
   network: ws
   password: humanity
   port: 443
@@ -54,3 +47,46 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
+- name: US - zhuhai.uk 03|0KB/s
+  type: http
+  server: 12.221.146.147
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|0KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 4|0KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.28.254
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
