@@ -1,15 +1,23 @@
-# Mac hourly sync 2026-10-31 18:03:58 | alive 2
+# Mac hourly sync 2026-10-31 19:03:57 | alive 3
 proxies:
-- name: 🇺🇸US_9|1.8MB/s|457KB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_2|2.0MB/s|450KB/s
+- name: 🇦🇹AT_1|1.7MB/s|405KB/s
   password: None
   port: 443
-  server: 146.70.242.130
+  server: 146.70.244.2
   skip-cert-verify: true
   tls: true
   type: http
+- name: IT-202.50.253.45-0424 | 76.175MB|311KB/s
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US_12|1.5MB/s|K001-260618|142KB/s
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
