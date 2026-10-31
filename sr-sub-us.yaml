@@ -1,10 +1,22 @@
-# Mac hourly sync 2026-11-01 06:03:55 | alive 11
+# Mac hourly sync 2026-11-01 07:02:01 | alive 16
 proxies:
-- name: 🇺🇸 美国 | USA 11|761KB/s
+- name: US - zhuhai.uk|2KB/s
+  type: http
+  server: 38.28.193.188
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|2KB/s
+  type: http
+  server: fan.226278.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 12|1KB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.16.144.215
+  server: 104.26.3.162
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -13,40 +25,11 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 4|746KB/s
+- name: 🇺🇸 美国 | USA 4|1KB/s
   network: ws
   password: humanity
   port: 443
   server: 104.17.28.254
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 🇺🇸_US_美国|582KB/s
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- name: 🇺🇸 美国 | USA 7|1KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.17.238
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -68,11 +51,11 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: 🇺🇸 美国 | USA 3|1KB/s
+- name: 🇺🇸 美国 | USA 7|1KB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.17.159.71
+  server: 104.17.17.238
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -81,45 +64,26 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: '🇺🇸 美国 | USA 5 #2|1KB/s'
-  network: ws
-  password: humanity
-  port: 443
-  server: 179.255.136.143
+- name: US - zhuhai.uk 02|1KB/s
+  type: socks5
+  server: 104.168.249.36
+  port: 1080
+  username: test123
+  password: test123
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 24.142.229.178
+  port: 8090
+  tls: true
   skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 12|0KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.3.162
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
   skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 8|0KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.145.43
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
 - name: 🇺🇸 美国 | USA 5|0KB/s
   network: ws
   password: humanity
@@ -146,3 +110,71 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
+- name: 🇺🇸 美国 | USA 11|0KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.144.215
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 8|0KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.145.43
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 3|0KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.159.71
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: '🇺🇸 美国 | USA 5 #2|0KB/s'
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.136.143
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
