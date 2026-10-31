@@ -1,17 +1,10 @@
-# Mac hourly sync 2026-10-31 12:04:49 | alive 4
+# Mac hourly sync 2026-10-31 13:05:07 | alive 3
 proxies:
-- name: 🇧🇪BE_1|2.4MB/s|453KB/s
-  password: None
-  port: 443
-  server: 146.70.123.98
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: safari
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 3e99d50d5740985d
-  name: 🇳🇱 荷兰 | NLD 7|418KB/s
+  name: 🇳🇱 荷兰 | NLD 7|430KB/s
   network: grpc
   port: 443
   server: 189.74.114.119
@@ -20,16 +13,17 @@ proxies:
   type: vless
   udp: true
   uuid: abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5
-- name: 🇸🇪SE_1|1.7MB/s|384KB/s
-  password: None
+- name: 🇱🇻LV_2|3.2MB/s|329KB/s
   port: 443
-  server: 146.70.242.146
+  server: 109.248.149.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: SG - zhuhai.uk|321KB/s
+- name: NL - zhuhai.uk 03|286KB/s
   type: http
-  server: 149.88.99.209
-  port: 9443
+  server: 5.255.118.82
+  port: 443
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
