@@ -1,28 +1,10 @@
-# Mac hourly sync 2026-10-31 21:04:33 | alive 3
+# Mac hourly sync 2026-10-31 22:03:39 | alive 2
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: https://github.com/*********-*...|453KB/s
-  port: 24667
-  protocol: udp
-  server: 62.210.28.175
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: IT-202.50.253.36-0453 | 77.191MB|354KB/s
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸 美国 | USA 11|177KB/s
+- name: 🇺🇸 美国 | USA 5|323KB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.16.144.215
+  server: 104.16.65.1
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -31,3 +13,9 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
+- name: IT-202.50.253.72-0131 | 0.418MB|250KB/s
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
