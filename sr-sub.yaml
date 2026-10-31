@@ -1,61 +1,92 @@
-# Mac hourly sync 2026-11-01 04:01:47 | alive 7
+# Mac hourly sync 2026-11-01 05:01:54 | alive 8
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇳🇱NL_3|1.4MB/s|1.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-  port: 443
-  server: 9.247.54.69
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: https://github.com/*********-*...|1019KB/s
+  port: 24667
+  protocol: udp
+  server: 62.210.28.175
   skip-cert-verify: true
-  sni: nl1.obxodvpn.us
-  tls: false
-  type: hysteria2
-  up: ''
-- name: 🇸🇪SE_1|1.5MB/s|758KB/s
-  password: None
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
+- name: 🇺🇸 美国 | USA 7|618KB/s
+  network: ws
+  password: humanity
   port: 443
-  server: 146.70.242.130
+  server: 104.17.17.238
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: AU - zhuhai.uk|533KB/s
-  type: http
-  server: 159.13.44.228
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.27-0225 | 20.013MB|432KB/s
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: IT-202.50.253.27-0225 | 20.013MB|594KB/s
   server: 202.50.253.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk 06|404KB/s
-  type: http
-  server: 23.133.176.14
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.54-0121 | 56.216MB|347KB/s
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱NL_1|1.2MB/s|218KB/s
+- name: 🇳🇱 荷兰 | NLD 8|574KB/s
   network: ws
   password: humanity
-  port: 443
-  server: 172.64.149.78
-  servername: www.cordweave.com
+  port: 2053
+  server: 38.180.225.247
   skip-cert-verify: true
   sni: www.cordweave.com
-  tls: true
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇳🇱[www.v2nodes.com] trojan-NL-...|518KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.40.99
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.trusteeforward.com
+    path: '%2Fassignment'
+- name: '🇺🇸 美国 | USA 5 #2|496KB/s'
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.136.143
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: JP - zhuhai.uk 02|449KB/s
+  type: http
+  server: fan.587475.xyz
+  port: 443
+  tls: true
+  sni: fan.587475.xyz
+- name: 🇰🇿 哈萨克斯坦 | KAZ|397KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.234.114.165
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
     path: /assignment
