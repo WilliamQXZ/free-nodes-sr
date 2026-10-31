@@ -1,8 +1,9 @@
-# Mac hourly sync 2026-10-31 12:04:53 | alive 7
+# Mac hourly sync 2026-10-31 13:05:12 | alive 12
 proxies:
-- name: 🇺🇸US_7|1.8MB/s|29KB/s
+- name: 🇺🇸US_13|1.4MB/s|21KB/s
+  password: None
   port: 443
-  server: 23.133.176.14
+  server: 162.244.227.36
   skip-cert-verify: true
   tls: true
   type: http
@@ -12,13 +13,6 @@ proxies:
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_13|1.4MB/s|1KB/s
-  password: None
-  port: 443
-  server: 162.244.227.36
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: US - zhuhai.uk 02|1KB/s
   type: http
   server: 44.248.167.117
@@ -27,22 +21,71 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_14|3.0MB/s|1KB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 12.202.180.118
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_15|1.5MB/s
+- name: 🇺🇸US_15|1.5MB/s|1KB/s
   password: None
   port: 8090
   server: 184.188.139.2
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US_10|3.0MB/s|1KB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|1022KB/s|1KB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|1.5MB/s|K001-260618|1KB/s
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_14|3.0MB/s|0KB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 🇺🇸US_3|2.6MB/s|0KB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|1.8MB/s|0KB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: tzoa.fun
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
