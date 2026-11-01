@@ -1,20 +1,27 @@
-# Mac hourly sync 2026-11-01 16:04:23 | alive 2
+# Mac hourly sync 2026-11-01 17:05:32 | alive 3
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: https://github.com/*********-*...|360KB/s
-  port: 24667
-  protocol: udp
-  server: 62.210.28.175
+- name: 🇺🇸US_7|2.5MB/s|454KB/s
+  password: None
+  port: 9443
+  server: 198.44.138.27
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: IT-202.50.253.63-0128 | 82.442MB|268KB/s
-  server: 202.50.253.63
+  tls: true
+  type: http
+- name: IT-202.50.253.45-0130 | 81.628MB|418KB/s
+  server: 202.50.253.45
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk|256KB/s
+  type: vless
+  server: 43.153.121.144
+  port: 443
+  uuid: df63ee5d-9530-464d-bb1c-ca1fa00e8b98
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: -6_eN_0VKwqVaYN_jU9WdQ9yEpiLGvJQffhGThYLqGQ
+    short-id: c2f1c482d8d339a5
