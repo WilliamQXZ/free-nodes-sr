@@ -1,65 +1,30 @@
-# Mac hourly sync 2026-11-01 23:05:05 | alive 8
+# Mac hourly sync 2026-11-02 00:05:22 | alive 3
 proxies:
-- name: 🇺🇸US_6|1.3MB/s|12KB/s
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 138.199.35.200
   port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_3|1.1MB/s|2KB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|1.1MB/s|1KB/s
-  password: None
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|2.4MB/s|1KB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|1.6MB/s|1KB/s
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|1.1MB/s|0KB/s
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 02
-  type: http
-  server: mmgr.club
-  port: 443
-  username: 'null'
-  password: None
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #12|1KB/s'
   network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
   udp: true
+  uuid: c9ff358e-20c4-4979-bc14-acc3daaf1297
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- name: 🇺🇸US_5|2.0MB/s|1KB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
