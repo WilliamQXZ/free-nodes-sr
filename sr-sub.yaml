@@ -1,27 +1,21 @@
-# Mac hourly sync 2026-11-01 17:05:32 | alive 3
+# Mac hourly sync 2026-11-01 18:03:44 | alive 2
 proxies:
-- name: 🇺🇸US_7|2.5MB/s|454KB/s
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: IT-202.50.253.45-0130 | 81.628MB|418KB/s
-  server: 202.50.253.45
+- alpn:
+  - http/1.1
+  name: 🇳🇱[www.v2nodes.com] trojan-NL-...|616KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.40.99
+  sni: www.trusteeforward.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.trusteeforward.com
+    path: '%2Fassignment'
+- name: IT-202.50.253.99-0138 | 82.004MB|372KB/s
+  server: 202.50.253.99
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk|256KB/s
-  type: vless
-  server: 43.153.121.144
-  port: 443
-  uuid: df63ee5d-9530-464d-bb1c-ca1fa00e8b98
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: -6_eN_0VKwqVaYN_jU9WdQ9yEpiLGvJQffhGThYLqGQ
-    short-id: c2f1c482d8d339a5
