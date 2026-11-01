@@ -1,48 +1,21 @@
-# Mac hourly sync 2026-11-02 04:03:52 | alive 10
+# Mac hourly sync 2026-11-02 05:02:15 | alive 8
 proxies:
-- name: US - zhuhai.uk 07|1.0MB/s
-  type: http
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+- name: 🇺🇸US_5|2.0MB/s|642KB/s
   port: 443
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_7|1.1MB/s|751KB/s
-  password: None
-  port: 443
-  server: 121.127.34.82
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 03|619KB/s
+- name: US - zhuhai.uk 03|620KB/s
   type: http
   server: 138.199.35.200
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_9|2.4MB/s|2KB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|1.6MB/s|2KB/s
+- name: 🇺🇸US_4|2.7MB/s|2KB/s
   password: None
   port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1.1MB/s|2KB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|1.1MB/s|1KB/s
-  port: 443
-  server: 68.235.56.59
+  server: 198.44.135.19
   skip-cert-verify: true
   tls: true
   type: http
@@ -53,6 +26,14 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  port: 443
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk|0KB/s
   type: vless
   server: minimize-evenness.cdn-content.com
@@ -66,9 +47,32 @@ proxies:
     path: /ws
     headers:
       Host: minimize-evenness.cdn-content.com
-- name: US - zhuhai.uk 06
-  type: http
-  server: voteshirleysew.club
+- name: US - zhuhai.uk 04|0KB/s
+  type: vless
+  server: piracy-android.video-streams.org
   port: 443
-  username: bnVsbDpudWxs
+  uuid: 909259b0-0a30-4ef5-bfd8-5ffe5d99cb56
   tls: true
+  servername: piracy-android.video-streams.org
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: piracy-android.video-streams.org
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
