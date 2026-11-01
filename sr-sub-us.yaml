@@ -1,21 +1,40 @@
-# Mac hourly sync 2026-11-02 05:02:15 | alive 8
+# Mac hourly sync 2026-11-02 06:02:09 | alive 12
 proxies:
-- name: 🇺🇸US_5|2.0MB/s|642KB/s
+- name: US - zhuhai.uk 06|1.1MB/s
+  type: http
+  server: voteshirleysew.club
   port: 443
-  server: 149.88.21.129
+  username: bnVsbDpudWxs
+  tls: true
+- name: 🇺🇸US_9|2.4MB/s|1.1MB/s
+  port: 443
+  server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 03|620KB/s
+- name: US - zhuhai.uk 03|672KB/s
   type: http
   server: 138.199.35.200
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_4|2.7MB/s|2KB/s
+- name: 🇺🇸US_3|1.1MB/s|2KB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|1.1MB/s|2KB/s
+  password: None
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|1.6MB/s|2KB/s
   password: None
   port: 9443
-  server: 198.44.135.19
+  server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
@@ -34,19 +53,12 @@ proxies:
   password: 16955d72-1794-11f0-a035-f23c95b6f51d
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk|0KB/s
-  type: vless
-  server: minimize-evenness.cdn-content.com
+- name: 🇺🇸US_10|1.1MB/s|1KB/s
   port: 443
-  uuid: 3c8a0eb8-37a3-4e69-8c5b-7ef465095710
+  server: 68.235.56.59
+  skip-cert-verify: true
   tls: true
-  servername: minimize-evenness.cdn-content.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: minimize-evenness.cdn-content.com
+  type: http
 - name: US - zhuhai.uk 04|0KB/s
   type: vless
   server: piracy-android.video-streams.org
@@ -60,6 +72,12 @@ proxies:
     path: /ws
     headers:
       Host: piracy-android.video-streams.org
+- name: US - zhuhai.uk 02
+  type: http
+  server: mmgr.club
+  port: 443
+  tls: true
+  sni: mmgr.club
 - name: 🇺🇸_US_美国
   type: vmess
   server: guanwang.awsno.com
