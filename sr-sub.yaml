@@ -1,40 +1,14 @@
-# Mac hourly sync 2026-11-01 08:03:57 | alive 8
+# Mac hourly sync 2026-11-01 09:02:31 | alive 2
 proxies:
-- name: IE - zhuhai.uk|793KB/s
-  type: http
-  server: 34.249.214.108
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇸🇪SE_1|1.5MB/s|791KB/s
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇮🇹IT_1|1.1MB/s|788KB/s
-  password: None
-  port: 443
-  server: 185.183.105.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: AL - zhuhai.uk|717KB/s
-  type: http
-  server: 87.120.103.226
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.18-0120 | 19.031MB|717KB/s
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: RU - zhuhai.uk|685KB/s
+- name: KR - zhuhai.uk 02|2.9MB/s
+  type: vless
+  server: 8.220.218.246
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  network: ws
+  ws-opts:
+    path: /
+- name: RU - zhuhai.uk|682KB/s
   type: http
   server: 87.242.85.187
   port: 8443
@@ -42,23 +16,3 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- alpn:
-  - http/1.1
-  name: 🇳🇱[www.v2nodes.com] trojan-NL-...|663KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.40.99
-  skip-cert-verify: false
-  sni: www.trusteeforward.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.trusteeforward.com
-    path: '%2Fassignment'
-- name: IT-202.50.253.36-0453 | 55.302MB|626KB/s
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
