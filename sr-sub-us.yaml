@@ -1,36 +1,79 @@
-# Mac hourly sync 2026-11-01 09:02:35 | alive 4
+# Mac hourly sync 2026-11-01 11:04:51 | alive 10
 proxies:
-- name: US - zhuhai.uk 04
-  type: http
-  server: zebpay.site
+- name: 🇺🇸US_6|1.1MB/s|584KB/s
   port: 443
-  tls: true
+  server: 12.202.180.118
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|2KB/s
+  tls: true
   type: http
-  server: zebpay.site
-  port: 443
-  tls: true
+- name: 🇺🇸US_12|2.8MB/s|36KB/s
+  password: None
+  port: 8443
+  server: 44.217.145.28
   skip-cert-verify: true
-- name: US - zhuhai.uk
+  tls: true
   type: http
-  server: fullmanfirm.icu
+- name: 🇺🇸US_10|1.4MB/s|2KB/s
   port: 443
-  username: bnVsbDpudWxs
-  tls: true
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
+  server: 149.88.21.129
   skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
+  tls: true
+  type: http
+- name: 🇺🇸US_3|3.7MB/s|1KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_11|1.5MB/s|1KB/s
+  password: None
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|1.9MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+- name: 🇺🇸US_2|2.8MB/s|1KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #5|1KB/s'
+  network: ws
+  port: 2053
+  server: fast.145779.xyz
+  servername: fast.145779.xyz
+  tls: true
+  type: vless
+  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
+  ws-opts:
+    headers:
+      Host: fast.145779.xyz
+    path: /ws-tesla
+- name: 🇺🇸US_4|2.0MB/s|1KB/s
+  password: None
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_9|2.6MB/s|0KB/s
+  password: None
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  tls: true
+  type: http
