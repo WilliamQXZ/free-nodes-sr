@@ -1,7 +1,19 @@
-# Mac hourly sync 2026-11-01 15:03:11 | alive 1
+# Mac hourly sync 2026-11-01 16:04:23 | alive 2
 proxies:
-- name: IT-202.50.253.36-0125 | 78.076MB|359KB/s
-  server: 202.50.253.36
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: https://github.com/*********-*...|360KB/s
+  port: 24667
+  protocol: udp
+  server: 62.210.28.175
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
+- name: IT-202.50.253.63-0128 | 82.442MB|268KB/s
+  server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
