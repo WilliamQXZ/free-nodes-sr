@@ -1,39 +1,8 @@
-# Mac hourly sync 2026-11-01 19:04:33 | alive 5
+# Mac hourly sync 2026-11-01 20:04:28 | alive 1
 proxies:
-- name: FR - zhuhai.uk 02|495KB/s
-  type: http
-  server: 149.102.245.65
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.90-0122 | 50.064MB|342KB/s
-  server: 202.50.253.90
+- name: IT-202.50.253.54-0124 | 83.845MB|250KB/s
+  server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_4|2.0MB/s|265KB/s
-  password: None
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk|249KB/s
-  type: vless
-  server: 43.153.121.144
-  port: 443
-  uuid: df63ee5d-9530-464d-bb1c-ca1fa00e8b98
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: -6_eN_0VKwqVaYN_jU9WdQ9yEpiLGvJQffhGThYLqGQ
-    short-id: c2f1c482d8d339a5
-- name: 🇵🇹PT_1|1.7MB/s|131KB/s
-  port: 443
-  server: 149.22.86.1
-  skip-cert-verify: true
-  tls: true
-  type: http
