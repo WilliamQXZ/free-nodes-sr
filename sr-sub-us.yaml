@@ -1,13 +1,13 @@
-# Mac hourly sync 2026-11-01 17:05:37 | alive 11
+# Mac hourly sync 2026-11-01 18:03:48 | alive 8
 proxies:
-- name: 🇺🇸US_7|2.5MB/s|454KB/s
+- name: 🇺🇸US_12|2.8MB/s|42KB/s
   password: None
-  port: 9443
-  server: 198.44.138.27
+  port: 8443
+  server: 44.217.145.28
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk|256KB/s
+- name: US - zhuhai.uk|23KB/s
   type: vless
   server: 43.153.121.144
   port: 443
@@ -25,26 +25,13 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_5|1.9MB/s|1KB/s
+- name: 🇺🇸US_5|1.9MB/s|2KB/s
   port: 9002
   server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_6|1.1MB/s|1KB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_12|2.8MB/s|1KB/s
-  password: None
-  port: 8443
-  server: 44.217.145.28
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 🇺🇸US_2|2.8MB/s|1KB/s
   password: 'null'
   port: 9002
@@ -53,14 +40,14 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_13|3.5MB/s|1KB/s
-  password: None
-  port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 05|1KB/s
   type: http
-- name: 🇺🇸US_3|3.7MB/s|1KB/s
+  server: 149.34.248.65
+  port: 443
+  tls: true
+  sni: 149.34.248.65
+  skip-cert-verify: true
+- name: 🇺🇸US_3|3.7MB/s|0KB/s
   password: 'null'
   port: 9002
   server: 138.199.35.211
@@ -68,17 +55,19 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_4|2.0MB/s|1KB/s
-  password: None
+- name: 🇺🇸_US_美国
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  type: http
-- name: 🇺🇸US_8|3.0MB/s|0KB/s
-  password: None
-  port: 9443
-  server: 198.44.135.19
   skip-cert-verify: true
-  tls: true
-  type: http
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
