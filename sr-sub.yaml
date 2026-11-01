@@ -1,18 +1,14 @@
-# Mac hourly sync 2026-11-01 09:02:31 | alive 2
+# Mac hourly sync 2026-11-01 11:04:47 | alive 2
 proxies:
-- name: KR - zhuhai.uk 02|2.9MB/s
-  type: vless
-  server: 8.220.218.246
-  port: 25555
-  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
-  network: ws
-  ws-opts:
-    path: /
-- name: RU - zhuhai.uk|682KB/s
-  type: http
-  server: 87.242.85.187
-  port: 8443
-  username: 'null'
-  password: 'null'
-  tls: true
+- name: 🇺🇸US_6|1.1MB/s|584KB/s
+  port: 443
+  server: 12.202.180.118
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇵🇹PT_1|1.7MB/s|498KB/s
+  port: 443
+  server: 149.22.86.1
+  skip-cert-verify: true
+  tls: true
+  type: http
