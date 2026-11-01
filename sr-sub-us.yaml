@@ -1,5 +1,11 @@
-# Mac hourly sync 2026-11-01 08:04:01 | alive 3
+# Mac hourly sync 2026-11-01 09:02:35 | alive 4
 proxies:
+- name: US - zhuhai.uk 04
+  type: http
+  server: zebpay.site
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 04|2KB/s
   type: http
   server: zebpay.site
