@@ -1,96 +1,48 @@
-# Mac hourly sync 2026-11-02 06:02:09 | alive 12
+# Mac hourly sync 2026-11-02 23:14:41 | alive 6
 proxies:
-- name: US - zhuhai.uk 06|1.1MB/s
+- name: US - zhuhai.uk 04|1KB/s
   type: http
-  server: voteshirleysew.club
-  port: 443
-  username: bnVsbDpudWxs
+  server: 44.229.69.166
+  port: 8443
+  username: 'null'
+  password: 'null'
   tls: true
-- name: 🇺🇸US_9|2.4MB/s|1.1MB/s
-  port: 443
-  server: 167.88.60.242
   skip-cert-verify: true
+- name: US - zhuhai.uk 03|0KB/s
+  type: http
+  server: 24.142.229.178
+  port: 8090
+  username: 'null'
+  password: 'null'
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07
   type: http
-- name: US - zhuhai.uk 03|672KB/s
+  server: 209.148.53.153
+  port: 8090
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk
   type: http
-  server: 138.199.35.200
+  server: 138.199.35.218
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_3|1.1MB/s|2KB/s
-  port: 443
-  server: 12.202.180.118
+- name: 🇺🇸 美国 | USA 7
+  password: 92a1538c-7801-4cca-ab98-6a9062aa507c
+  port: 31540
+  server: rrrrrr101010r.luoyun2.com
   skip-cert-verify: true
-  tls: true
+  sni: cdn-edge-sgp-m825.luoyun2.com
+  type: anytls
+  udp: true
+- name: US - zhuhai.uk 09
   type: http
-- name: 🇺🇸US_7|1.1MB/s|2KB/s
-  password: None
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|1.6MB/s|2KB/s
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|1.3MB/s|1KB/s
+  server: 138.199.35.206
   port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  port: 443
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_10|1.1MB/s|1KB/s
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 04|0KB/s
-  type: vless
-  server: piracy-android.video-streams.org
-  port: 443
-  uuid: 909259b0-0a30-4ef5-bfd8-5ffe5d99cb56
-  tls: true
-  servername: piracy-android.video-streams.org
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: piracy-android.video-streams.org
-- name: US - zhuhai.uk 02
-  type: http
-  server: mmgr.club
-  port: 443
-  tls: true
-  sni: mmgr.club
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
