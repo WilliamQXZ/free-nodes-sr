@@ -1,23 +1,48 @@
-# Mac hourly sync 2026-11-03 04:52:45 | alive 3
+# Mac hourly sync 2026-11-03 06:28:54 | alive 5
 proxies:
-- name: RO - zhuhai.uk 02|633KB/s
+- name: US - zhuhai.uk 07|1023KB/s
   type: http
-  server: 193.176.84.24
-  port: 9002
+  server: goedkoopgeluid.icu
+  port: 443
+  tls: true
+  sni: goedkoopgeluid.icu
+  skip-cert-verify: true
+- type: vless
+  name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4|855KB/s
+  server: 163.245.42.132
+  port: 443
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  tls: true
+  servername: mother-earth.fyi
+  sni: mother-earth.fyi
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: US - zhuhai.uk 08|849KB/s
+  type: http
+  server: 44.229.69.166
+  port: 8443
   tls: true
   skip-cert-verify: true
-- name: IT-202.50.253.90-0228 | 77.527MB|591KB/s
-  server: 202.50.253.90
+- type: hysteria
+  name: 🇩🇪_DE_德国_IPV4|752KB/s
+  server: 5.83.129.90
+  port: 54177
+  password: dongtaiwang.com
+  tls: true
+  servername: apple.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: IT-202.50.253.63-0456 | 107.075MB|420KB/s
+  server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- type: hysteria2
-  name: 🇦🇪_AE_阿拉伯联合酋长国->🇫🇮_FI_芬兰_IPV4 (2)|438KB/s
-  server: 217.60.73.56
-  port: 443
-  password: 69e41e64-a832-471a-b740-94577ca85520
-  tls: true
-  servername: forshynewh.duckdns.org
-  sni: forshynewh.duckdns.org
-  skip-cert-verify: true
