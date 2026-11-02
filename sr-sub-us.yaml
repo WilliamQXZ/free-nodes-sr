@@ -1,48 +1,32 @@
-# Mac hourly sync 2026-11-02 23:14:41 | alive 6
+# Mac hourly sync 2026-11-03 01:24:57 | alive 5
 proxies:
-- name: US - zhuhai.uk 04|1KB/s
+- name: US - zhuhai.uk 04|2KB/s
   type: http
-  server: 44.229.69.166
-  port: 8443
-  username: 'null'
-  password: 'null'
+  server: berniesbodybla.fun
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+- name: US - zhuhai.uk 06|2KB/s
+  type: http
+  server: 129.153.93.183
+  port: 443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|0KB/s
+- name: US - zhuhai.uk 03|1KB/s
   type: http
-  server: 24.142.229.178
+  server: 50.76.211.251
   port: 8090
-  username: 'null'
-  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: 209.148.53.153
-  port: 8090
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: 138.199.35.218
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 7
-  password: 92a1538c-7801-4cca-ab98-6a9062aa507c
-  port: 31540
-  server: rrrrrr101010r.luoyun2.com
-  skip-cert-verify: true
-  sni: cdn-edge-sgp-m825.luoyun2.com
-  type: anytls
-  udp: true
 - name: US - zhuhai.uk 09
   type: http
-  server: 138.199.35.206
-  port: 9002
-  username: 'null'
-  password: None
+  server: jewelscollecti.icu
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08
+  type: http
+  server: 68.235.56.59
+  port: 443
   tls: true
   skip-cert-verify: true
