@@ -1,48 +1,43 @@
-# Mac hourly sync 2026-11-03 06:28:54 | alive 5
+# Mac hourly sync 2026-11-03 07:03:23 | alive 6
 proxies:
-- name: US - zhuhai.uk 07|1023KB/s
+- name: IE - zhuhai.uk|792KB/s
   type: http
-  server: goedkoopgeluid.icu
+  server: 18.200.158.139
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇱🇺LU_1|2.5MB/s|747KB/s
+  password: None
+  port: 443
+  server: 185.221.132.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇷🇴RO_1|2.6MB/s|653KB/s
+  password: None
+  port: 443
+  server: 185.163.110.194
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇪🇸ES_3|3.0MB/s|627KB/s
+  password: None
+  port: 443
+  server: 130.195.250.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: RO - zhuhai.uk 02|548KB/s
+  type: http
+  server: 193.176.84.24
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: DE - zhuhai.uk 03|421KB/s
+  type: http
+  server: 176.94.74.21
   port: 443
   tls: true
-  sni: goedkoopgeluid.icu
   skip-cert-verify: true
-- type: vless
-  name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4|855KB/s
-  server: 163.245.42.132
-  port: 443
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: mother-earth.fyi
-  sni: mother-earth.fyi
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: US - zhuhai.uk 08|849KB/s
-  type: http
-  server: 44.229.69.166
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- type: hysteria
-  name: 🇩🇪_DE_德国_IPV4|752KB/s
-  server: 5.83.129.90
-  port: 54177
-  password: dongtaiwang.com
-  tls: true
-  servername: apple.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: IT-202.50.253.63-0456 | 107.075MB|420KB/s
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
