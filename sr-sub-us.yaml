@@ -1,24 +1,31 @@
-# Mac hourly sync 2026-11-03 04:52:48 | alive 16
+# Mac hourly sync 2026-11-03 06:29:24 | alive 19
 proxies:
-- name: US - zhuhai.uk 10|3KB/s
+- name: US - zhuhai.uk 07|1023KB/s
   type: http
-  server: jgwynphotoarts.pro
+  server: goedkoopgeluid.icu
   port: 443
-  username: 'null'
-  password: 'null'
   tls: true
-- name: US - zhuhai.uk 03|2KB/s
+  sni: goedkoopgeluid.icu
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08|849KB/s
   type: http
-  server: 162.217.114.50
-  port: 443
+  server: 44.229.69.166
+  port: 8443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|2KB/s
-  type: http
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4 (3)|12KB/s
+  server: starlink-ft.251313.xyz
   port: 443
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  password: https://xship.best
+  tls: true
+  servername: xship.top
+  sni: xship.top
+  skip-cert-verify: true
+- name: US - zhuhai.uk 09|4KB/s
+  type: http
+  server: 45.145.72.122
+  port: 8443
   tls: true
   skip-cert-verify: true
 - name: '🇺🇸 美国 | USA #18|1KB/s'
@@ -29,25 +36,56 @@ proxies:
   sni: courses.browseseniorrolesandenhanceyourcareertoday.com
   type: trojan
   udp: true
-- name: US - zhuhai.uk 08|1KB/s
+- name: US - zhuhai.uk 03|1KB/s
   type: http
-  server: 44.229.69.166
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 09|1KB/s
-  type: http
-  server: 45.145.72.122
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: carolinafreigh.fun
+  server: 162.217.114.50
   port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+  port: 443
+  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  tls: true
+  skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
   username: 'null'
   password: 'null'
   tls: true
+  skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4|1KB/s
+  server: 137.175.82.44
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
 - name: 🇺🇸US_4|2.0MB/s
   port: 443
   server: 167.88.60.242
@@ -60,25 +98,20 @@ proxies:
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
+- name: US - zhuhai.uk 10
   type: http
-  server: goedkoopgeluid.icu
+  server: jgwynphotoarts.pro
   port: 443
+  username: 'null'
+  password: 'null'
   tls: true
-  sni: goedkoopgeluid.icu
-  skip-cert-verify: true
-- name: 🇺🇸US_5|1.5MB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 05
   type: http
-- name: 🇺🇸US_2|1.1MB/s
+  server: carolinafreigh.fun
   port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
+  username: 'null'
+  password: 'null'
   tls: true
-  type: http
 - name: 🇺🇸US_3|1.4MB/s
   port: 443
   server: 12.202.180.118
@@ -91,17 +124,31 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
+- name: 🇺🇸US_2|1.1MB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇺🇸US_1|2.7MB/s
   port: 443
   server: 12.221.146.147
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 04
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  username: 'null'
-  password: 'null'
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 10_IPV4
+  server: www.shopify.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
   tls: true
-  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
