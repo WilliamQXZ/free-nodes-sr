@@ -1,34 +1,9 @@
-# Mac hourly sync 2026-11-02 06:02:06 | alive 5
+# Mac hourly sync 2026-11-02 23:14:36 | alive 1
 proxies:
-- name: US - zhuhai.uk 06|1.1MB/s
-  type: http
-  server: voteshirleysew.club
+- name: 🇫🇷FR_1|1021KB/s|384KB/s
+  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443
-  username: bnVsbDpudWxs
-  tls: true
-- name: 🇺🇸US_9|2.4MB/s|1.1MB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
+  server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
   tls: true
   type: http
-- name: FR - zhuhai.uk|751KB/s
-  type: http
-  server: 87.98.174.157
-  port: 6103
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|672KB/s
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇩🇪DE_6|2.1MB/s|118KB/s
-  port: 8443
-  server: 188.120.225.125
-  skip-cert-verify: true
-  tls: true
-  type: http
+  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
