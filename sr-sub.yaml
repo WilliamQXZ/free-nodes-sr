@@ -1,9 +1,8 @@
-# Mac hourly sync 2026-11-02 23:14:36 | alive 1
+# Mac hourly sync 2026-11-03 01:24:53 | alive 1
 proxies:
-- name: 🇫🇷FR_1|1021KB/s|384KB/s
-  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  port: 443
-  server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
-  tls: true
+- name: IL - zhuhai.uk|577KB/s
   type: http
-  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  server: 62.90.77.30
+  port: 443
+  tls: true
+  skip-cert-verify: true
