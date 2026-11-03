@@ -1,89 +1,117 @@
-# Mac hourly sync 2026-11-03 11:04:18 | alive 9
+# Mac hourly sync 2026-11-03 23:54:16 | alive 10
 proxies:
-- name: 🇺🇸US-167.88.61.52-3130 | 123.202MB|693KB/s
-  server: 167.88.61.52
+- name: US - zhuhai.uk 02|4KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 3|2KB/s
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
+  server: 179.253.231.22
+  skip-cert-verify: true
+  sni: api.85s.me
   type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
-  skip-cert-verify: false
-- name: US - zhuhai.uk|617KB/s
-  type: http
-  server: 198.44.135.19
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|56KB/s
-  type: http
-  server: 44.229.69.166
-  port: 8443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US-167.88.61.52-3130 | 123.202MB|1KB/s
-  server: 167.88.61.52
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 20|2KB/s
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
+  server: 179.255.103.84
+  skip-cert-verify: true
+  sni: api.85s.me
   type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
-  skip-cert-verify: false
-- name: US - zhuhai.uk 06|1KB/s
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 9|2KB/s
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 10962
+  server: 64.186.224.154
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 14|1KB/s
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.255.141.28
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 11|1KB/s
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.255.102.237
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: US - zhuhai.uk 03|1KB/s
   type: http
-  server: zebpay.site
+  server: fan.226278.xyz
   port: 443
-  username: 'null'
-  password: 'null'
   tls: true
-  skip-cert-verify: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)
-  server: 137.175.82.44
+- name: 🇺🇸 美国 | USA 19|0KB/s
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
+  server: 179.253.231.141
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4
-  server: 137.175.82.43
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 7
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
+  server: 179.255.136.237
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
-- type: hysteria2
-  name: 🇺🇸_US_美国_IPV4 (4)
-  server: starlink-ft.251313.xyz
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 10
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
-  password: https://xship.best
-  tls: true
-  servername: xship.top
-  sni: xship.top
+  server: 179.255.141.59
   skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
