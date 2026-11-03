@@ -1,60 +1,24 @@
-# Mac hourly sync 2026-11-03 08:03:11 | alive 16
+# Mac hourly sync 2026-11-03 09:02:55 | alive 11
 proxies:
-- name: US - zhuhai.uk|849KB/s
-  type: http
-  server: 68.235.56.59
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|96KB/s
+- name: US - zhuhai.uk 08|40KB/s
   type: http
   server: 44.229.69.166
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US-167.88.61.52-3130 | 123.202MB|3KB/s
+- name: 🇺🇸US-167.88.61.52-3130 | 123.202MB|2KB/s
   server: 167.88.61.52
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: courses.browseseniorrolesandenhanceyourcareertoday.com
   skip-cert-verify: false
-- name: 🇺🇸US_4|2.0MB/s|2KB/s
+- name: US - zhuhai.uk 03|2KB/s
+  type: http
+  server: 162.217.114.50
   port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|1.5MB/s|2KB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|1.1MB/s|2KB/s
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 09|2KB/s
-  type: http
-  server: 45.145.72.122
-  port: 8443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_1|2.7MB/s|1KB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1.4MB/s|1KB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: US - zhuhai.uk 04|1KB/s
   type: http
   server: 138.199.35.212
@@ -72,7 +36,21 @@ proxies:
   tls: true
   skip-cert-verify: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)
+  name: 🇺🇸_US_美国_IPV4
+  server: 137.175.82.43
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)
   server: 198.200.57.142
   port: 22335
   password: github.com/Alvin9999-newpac/fanqiang
@@ -85,15 +63,8 @@ proxies:
   up: '11'
   down: '55'
   auth-str: github.com/Alvin9999-newpac/fanqiang
-- name: US - zhuhai.uk 07
-  type: http
-  server: goedkoopgeluid.icu
-  port: 443
-  tls: true
-  sni: goedkoopgeluid.icu
-  skip-cert-verify: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4
+  name: 🇺🇸_US_美国_IPV4 (2)
   server: 137.175.82.44
   port: 443
   password: dongtaiwang.com
@@ -128,3 +99,10 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+- name: US - zhuhai.uk 05
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
