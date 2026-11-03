@@ -1,5 +1,18 @@
-# Mac hourly sync 2026-11-03 10:04:40 | alive 7
+# Mac hourly sync 2026-11-03 11:04:18 | alive 9
 proxies:
+- name: 🇺🇸US-167.88.61.52-3130 | 123.202MB|693KB/s
+  server: 167.88.61.52
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
+  skip-cert-verify: false
+- name: US - zhuhai.uk|617KB/s
+  type: http
+  server: 198.44.135.19
+  port: 9443
+  tls: true
+  skip-cert-verify: true
 - name: US - zhuhai.uk 03|56KB/s
   type: http
   server: 44.229.69.166
