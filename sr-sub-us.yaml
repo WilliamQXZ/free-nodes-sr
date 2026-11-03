@@ -1,19 +1,44 @@
-# Mac hourly sync 2026-11-04 02:38:22 | alive 20
+# Mac hourly sync 2026-11-04 03:50:34 | alive 21
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|789KB/s
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
-  tls: true
-  servername: bing.com
-  sni: bing.com
+- name: '🇺🇸 美国 | USA 3 #2|2KB/s'
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.253.231.22
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 11|2KB/s
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.255.102.237
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: '🇺🇸 美国 | USA 10 #2|2KB/s'
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.255.141.59
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
 - name: 🇺🇸 美国 | USA 10|2KB/s
   network: ws
   password: 8deb189a-3aed-4865-843b-b72dae954c46
@@ -27,76 +52,11 @@ proxies:
     headers:
       Host: api.85s.me
     path: /
-- name: 🇺🇸 美国 | USA 2|2KB/s
+- name: 🇺🇸 美国 | USA 18|2KB/s
   network: ws
   password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
-  server: 179.253.255.7
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: 🇺🇸 美国 | USA 20|2KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 179.255.103.84
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: 🇺🇸 美国 | USA 9|2KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 10962
-  server: 64.186.224.154
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: '🇺🇸 美国 | USA 13 #2|2KB/s'
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 104.19.0.5
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: 🇺🇸 美国 | USA 8|2KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 8443
-  server: 179.253.226.191
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: '🇺🇸 美国 | USA 5 #2|2KB/s'
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 179.253.239.20
+  server: 104.17.0.3
   skip-cert-verify: true
   sni: api.85s.me
   type: trojan
@@ -118,60 +78,8 @@ proxies:
     headers:
       Host: api.85s.me
     path: /
-- name: 🇺🇸 美国 | USA 18|1KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 104.17.0.3
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: 🇺🇸 美国 | USA 21|1KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 179.253.238.240
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: '🇺🇸 美国 | USA 10 #2|1KB/s'
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 179.255.141.59
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: '🇺🇸 美国 | USA 3 #2|1KB/s'
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 179.253.231.22
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|0KB/s
+  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
   server: 137.175.82.44
   port: 443
   password: dongtaiwang.com
@@ -184,11 +92,11 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: 🇺🇸 美国 | USA 3|0KB/s
+- name: 🇺🇸 美国 | USA 9|1KB/s
   network: ws
   password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 45.139.193.156
+  port: 10962
+  server: 64.186.224.154
   skip-cert-verify: true
   sni: api.85s.me
   type: trojan
@@ -197,11 +105,11 @@ proxies:
     headers:
       Host: api.85s.me
     path: /
-- name: 🇺🇸 美国 | USA 11
+- name: '🇺🇸 美国 | USA 5 #2|1KB/s'
   network: ws
   password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
-  server: 179.255.102.237
+  server: 179.253.239.20
   skip-cert-verify: true
   sni: api.85s.me
   type: trojan
@@ -210,7 +118,7 @@ proxies:
     headers:
       Host: api.85s.me
     path: /
-- name: 🇺🇸 美国 | USA 14
+- name: 🇺🇸 美国 | USA 14|1KB/s
   network: ws
   password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
@@ -223,11 +131,130 @@ proxies:
     headers:
       Host: api.85s.me
     path: /
-- name: 🇺🇸 美国 | USA 7
+- name: 🇺🇸 美国 | USA 6|1KB/s
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 8443
+  server: 179.255.99.7
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 20|1KB/s
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.255.103.84
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: '🇺🇸 美国 | USA 13 #2|1KB/s'
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 104.19.0.5
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 7|1KB/s
   network: ws
   password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
   server: 179.255.136.237
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4|1KB/s
+  server: 137.175.82.43
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- name: 🇺🇸 美国 | USA 2|1KB/s
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.253.255.7
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 3
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 45.139.193.156
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 5
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.255.115.161
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: 🇺🇸 美国 | USA 8
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 8443
+  server: 179.253.226.191
   skip-cert-verify: true
   sni: api.85s.me
   type: trojan
@@ -252,16 +279,3 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: 🇺🇸 美国 | USA 6
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 8443
-  server: 179.255.99.7
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
