@@ -1,6 +1,42 @@
-# Mac hourly sync 2026-11-04 04:46:23 | alive 8
+# Mac hourly sync 2026-11-04 05:31:33 | alive 10
 proxies:
-- name: US - zhuhai.uk 05|2KB/s
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 10_IPV4|687KB/s
+  server: www.shopify.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|286KB/s
+  server: 137.175.82.44
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: US - zhuhai.uk 02|2KB/s
+  type: http
+  server: 38.28.185.224
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
   type: http
   server: 54.190.176.228
   port: 8443
@@ -8,16 +44,12 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|2KB/s
+- name: US - zhuhai.uk 08|1KB/s
   type: http
-  server: 38.28.185.224
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|2KB/s
-  type: http
-  server: 148.135.10.80
-  port: 443
+  server: 184.188.139.2
+  port: 8090
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk|1KB/s
@@ -26,6 +58,32 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 148.135.10.80
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|0KB/s
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: US - zhuhai.uk 04
+  type: http
+  server: zebpay.site
+  port: 443
+  username: Ok5vbmU=
+  tls: true
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4
   server: 137.175.82.43
@@ -40,38 +98,3 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)
-  server: 137.175.82.44
-  port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 06
-  type: http
-  server: purposebydesig.club
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
