@@ -1,23 +1,7 @@
-# Mac hourly sync 2026-11-04 05:31:33 | alive 10
+# Mac hourly sync 2026-11-04 07:14:32 | alive 4
 proxies:
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 10_IPV4|687KB/s
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|286KB/s
+  name: 🇺🇸_US_美国_IPV4 (2)|327KB/s
   server: 137.175.82.44
   port: 443
   password: dongtaiwang.com
@@ -30,42 +14,8 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 02|2KB/s
-  type: http
-  server: 38.28.185.224
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 54.190.176.228
-  port: 8443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
-  type: http
-  server: 184.188.139.2
-  port: 8090
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: fan.226278.xyz
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 148.135.10.80
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|0KB/s
+  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
   server: 198.200.57.142
   port: 22335
   password: github.com/Alvin9999-newpac/fanqiang
@@ -78,12 +28,6 @@ proxies:
   up: '11'
   down: '55'
   auth-str: github.com/Alvin9999-newpac/fanqiang
-- name: US - zhuhai.uk 04
-  type: http
-  server: zebpay.site
-  port: 443
-  username: Ok5vbmU=
-  tls: true
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4
   server: 137.175.82.43
@@ -98,3 +42,19 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 10_IPV4
+  server: www.shopify.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
