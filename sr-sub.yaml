@@ -1,43 +1,20 @@
-# Mac hourly sync 2026-11-03 07:03:23 | alive 6
+# Mac hourly sync 2026-11-03 08:03:08 | alive 3
 proxies:
-- name: IE - zhuhai.uk|792KB/s
+- name: US - zhuhai.uk|849KB/s
   type: http
-  server: 18.200.158.139
+  server: 68.235.56.59
   port: 443
-  username: 'null'
-  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇱🇺LU_1|2.5MB/s|747KB/s
-  password: None
-  port: 443
-  server: 185.221.132.242
-  skip-cert-verify: true
-  tls: true
+- name: GB - zhuhai.uk|821KB/s
   type: http
-- name: 🇷🇴RO_1|2.6MB/s|653KB/s
-  password: None
-  port: 443
-  server: 185.163.110.194
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇪🇸ES_3|3.0MB/s|627KB/s
-  password: None
-  port: 443
-  server: 130.195.250.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: RO - zhuhai.uk 02|548KB/s
-  type: http
-  server: 193.176.84.24
-  port: 9002
+  server: 84.17.50.214
+  port: 9443
   tls: true
   skip-cert-verify: true
-- name: DE - zhuhai.uk 03|421KB/s
+- name: DE - zhuhai.uk 02|534KB/s
   type: http
-  server: 176.94.74.21
-  port: 443
+  server: 213.177.229.161
+  port: 9443
   tls: true
   skip-cert-verify: true
