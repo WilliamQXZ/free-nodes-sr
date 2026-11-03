@@ -1,247 +1,44 @@
-# Mac hourly sync 2026-11-04 01:07:43 | alive 25
+# Mac hourly sync 2026-11-04 02:38:19 | alive 3
 proxies:
-- name: US - zhuhai.uk 06|71KB/s
-  type: http
-  server: jewelscollecti.icu
-  port: 443
+- type: hysteria
+  name: 🇫🇷_FR_法国_IPV4|856KB/s
+  server: 62.210.28.175
+  port: 24667
+  password: dongtaiwang.com
   tls: true
-  sni: jewelscollecti.icu
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: '🇺🇸 美国 | USA 3 #2|2KB/s'
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 179.253.231.22
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: 🇺🇸 美国 | USA 10|2KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 179.253.225.34
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: 🇩🇪 德国 | DEU|1KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 5.75.244.105
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: CA - zhuhai.uk|1KB/s
-  type: http
-  server: 4.172.245.121
-  port: 443
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|789KB/s
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
   tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: NL - zhuhai.uk 02|1KB/s
-  type: http
-  server: 51.159.225.197
-  port: 19362
-  username: 'null'
-  password: 'null'
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- type: hysteria
+  name: 🇫🇷_FR_法国_IPV4 (2)|775KB/s
+  server: 163.172.117.163
+  port: 36699
+  password: dongtaiwang.com
   tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: 🇩🇪 德国 | DEU 7|1KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 8443
-  server: 144.31.247.190
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: RU - zhuhai.uk|1KB/s
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 20416
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  sni: chalo-ru.nexorcdn.com
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 38.247.141.135
-  port: 443
-  tls: true
-  sni: 38.247.141.135
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 3|1KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 45.139.193.156
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: '🇺🇸 美国 | USA 5 #2|1KB/s'
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 179.253.239.20
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: 🇺🇸 美国 | USA 11|1KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 179.255.102.237
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 173.42.49.102
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: fan.226278.xyz
-  port: 443
-  tls: true
-- name: 🇺🇸 美国 | USA 8|1KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 8443
-  server: 179.253.226.191
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: ID - zhuhai.uk|1KB/s
-  type: http
-  server: 178.248.73.58
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 7|1KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 179.255.136.237
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: RU - zhuhai.uk 03|1KB/s
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 44008
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  sni: chalo-ru.nexorcdn.com
-- name: RU - zhuhai.uk 02|1KB/s
-  type: http
-  server: chalo-ru.nexorcdn.com
-  port: 41560
-  username: ef37886e2aacd6fa622e3de3810299c2
-  password: 9jkvAVV-9ufV6IGd
-  tls: true
-  sni: chalo-ru.nexorcdn.com
-- name: RO - zhuhai.uk|0KB/s
-  type: http
-  server: 193.176.84.24
-  port: 9002
-  tls: true
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 7|0KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 172.64.229.135
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: US - zhuhai.uk|0KB/s
-  type: http
-  server: 45.145.73.240
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: 🇯🇵 日本 | JPN 2|0KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 175.41.232.194
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- name: 🇯🇵 日本 | JPN|0KB/s
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 13.158.71.221
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
