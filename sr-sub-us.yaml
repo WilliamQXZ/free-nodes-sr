@@ -1,60 +1,48 @@
-# Mac hourly sync 2026-11-04 08:20:36 | alive 4
+# Mac hourly sync 2026-11-04 09:02:38 | alive 5
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|798KB/s
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+  port: 443
+  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
   tls: true
-  servername: bing.com
-  sni: bing.com
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 23.133.176.14
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4
+  server: 129.146.215.233
+  port: 51000
+  password: f274d006-4c01-4fe0-aaa4-83c426577cd0
+  tls: true
+  servername: cn.cremedelamer.com
+  sni: cn.cremedelamer.com
+  skip-cert-verify: true
+- type: vless
+  name: 🇺🇸_US_美国_IPV4 (4)
+  server: 38.207.182.119
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  tls: true
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  sni: t5pmr.mail-node.gfw.kdns.fr
   skip-cert-verify: true
   alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
-  server: 137.175.82.44
-  port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4|0KB/s
-  server: 137.175.82.43
-  port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 10_IPV4
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
+  - http/1.1
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /hls/cctv5phd.m3u8
+    path: /danfeng?ed=2560
     headers:
-      Host: guanwang.awsno.com
+      Host: t5pmr.mail-node.gfw.kdns.fr
+- name: US - zhuhai.uk 02
+  type: http
+  server: berniesbodybla.fun
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
