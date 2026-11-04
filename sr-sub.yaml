@@ -1,50 +1,27 @@
-# Mac hourly sync 2026-11-05 05:36:47 | alive 6
+# Mac hourly sync 2026-11-05 06:45:20 | alive 4
 proxies:
-- type: vless
-  name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4|972KB/s
-  server: edge.bookmai.com
-  port: 443
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: mother-earth.fyi
-  sni: mother-earth.fyi
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: NL - zhuhai.uk 02|740KB/s
-  type: http
-  server: 103.97.88.154
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- type: hysteria2
-  name: 🇺🇸_US_美国_IPV4 (2)|738KB/s
-  server: 129.146.124.201
-  port: 51000
-  password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27
-  tls: true
-  servername: cn.cremedelamer.com
-  sni: cn.cremedelamer.com
-  skip-cert-verify: true
-- name: RO - zhuhai.uk|699KB/s
+- name: IT-202.50.253.45-0112 | 104.608MB|726KB/s
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: RO - zhuhai.uk|680KB/s
   type: http
   server: 193.176.84.22
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: IT-202.50.253.99-0122 | 36.652MB|650KB/s
-  server: 202.50.253.99
+- name: IT-202.50.253.18-0118 | 36.025MB|616KB/s
+  server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: SG - zhuhai.uk 02|495KB/s
-  type: socks5
-  server: 47.236.168.243
-  port: 1080
-  username: '8888'
-  password: '8888'
+- name: US - zhuhai.uk 10|317KB/s
+  type: http
+  server: fan.596189.xyz
+  port: 443
+  tls: true
+  sni: fan.596189.xyz
+  skip-cert-verify: true
