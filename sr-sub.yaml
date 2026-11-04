@@ -1,6 +1,6 @@
-# Mac hourly sync 2026-11-04 18:39:43 | alive 1
+# Mac hourly sync 2026-11-04 21:21:33 | alive 1
 proxies:
-- name: IT-202.50.253.81-0189 | 74.797MB|345KB/s
+- name: IT-202.50.253.81-0189 | 74.797MB|283KB/s
   server: 202.50.253.81
   port: 19999
   type: ss
