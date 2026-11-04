@@ -1,29 +1,35 @@
-# Mac hourly sync 2026-11-04 10:02:46 | alive 3
+# Mac hourly sync 2026-11-04 11:05:25 | alive 5
 proxies:
-- name: US - zhuhai.uk 04|21KB/s
+- name: US - zhuhai.uk 02|2KB/s
+  type: http
+  server: berniesbodybla.fun
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+- name: US - zhuhai.uk 04|1KB/s
   type: socks5
   server: 69.55.49.177
   port: 38182
-- type: vless
-  name: 🇺🇸_US_美国_IPV4 (3)|3KB/s
-  server: 69.8.129.152
-  port: 443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  tls: true
-  servername: t5pmr.mail-node.gfw.kdns.fr
-  sni: t5pmr.mail-node.gfw.kdns.fr
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /danfeng?ed=2560
-    headers:
-      Host: t5pmr.mail-node.gfw.kdns.fr
 - name: US - zhuhai.uk 05|0KB/s
   type: http
   server: 23.133.176.14
   port: 443
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|0KB/s
+  type: http
+  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+  port: 443
+  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  tls: true
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4 (2)
+  server: 129.146.124.201
+  port: 51000
+  password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27
+  tls: true
+  servername: cn.cremedelamer.com
+  sni: cn.cremedelamer.com
   skip-cert-verify: true
