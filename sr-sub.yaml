@@ -1,58 +1,10 @@
-# Mac hourly sync 2026-11-04 07:13:56 | alive 7
+# Mac hourly sync 2026-11-04 08:20:32 | alive 3
 proxies:
-- type: anytls
-  name: 🇹🇼_TW_台湾_IPV4 (2)|910KB/s
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  tls: true
-  servername: px.ads.linkedin.com
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: IT-202.50.253.45-0184 | 70.278MB|770KB/s
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: DK_speednode_0006|719KB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- type: vless
-  name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4 (3)|709KB/s
-  server: 9.247.23.209
-  port: 443
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: mother-earth.fyi
-  sni: mother-earth.fyi
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: IT-202.50.253.72-0164 | 0.0MB|667KB/s
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: LV_speednode_0020|618KB/s
-  port: 443
-  server: 185.219.159.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|327KB/s
-  server: 137.175.82.44
-  port: 443
-  password: dongtaiwang.com
+  name: 🇺🇸_US_美国_IPV4 (3)|798KB/s
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
   tls: true
   servername: bing.com
   sni: bing.com
@@ -61,4 +13,20 @@ proxies:
   - h3
   up: '11'
   down: '55'
-  auth-str: dongtaiwang.com
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: LV_speednode_0021|284KB/s
+  password: None
+  port: 443
+  server: 185.219.159.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- type: ss
+  name: 🇬🇧_GB_英国->🇲🇾_MY_马来西亚_IPV4|273KB/s
+  server: xunlinknode.csdjhajkshdjkas.com
+  port: 40006
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  cipher: chacha20-ietf-poly1305
+  tls: false
+  skip-cert-verify: false
