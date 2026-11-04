@@ -1,29 +1,61 @@
-# Mac hourly sync 2026-11-05 02:39:13 | alive 3
+# Mac hourly sync 2026-11-05 03:58:14 | alive 5
 proxies:
-- name: NL_speednode_0023|766KB/s
-  port: 9002
-  server: 84.17.47.124
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 02|1.1MB/s
   type: http
-  udp: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (4)|493KB/s
-  server: 137.175.82.43
+  server: jewelscollecti.icu
   port: 443
-  password: dongtaiwang.com
   tls: true
-  servername: bing.com
-  sni: bing.com
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
-- name: IT-202.50.253.63-0493 | 75.628MB|464KB/s
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: '🇨🇿 捷克 | CZE #1|861KB/s'
+  network: xhttp
+  port: 443
+  server: 31.76.7.233
+  servername: e2865c20.con.rasterparcel.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8bdf363-ff05-4fe6-a013-a5605266657e
+  xhttp-opts:
+    mode: auto
+    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #2|657KB/s'
+  network: ws
+  port: 443
+  server: goold.zovip2.ir
+  servername: goold.zovip2.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dcb071-57db-4ed6-92af-bb4183a14168
+  ws-opts:
+    headers:
+      Host: goold.zovip2.ir
+    path: /api/v3/pulse
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4|562KB/s
+  server: 172.67.190.164
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: FR - zhuhai.uk|237KB/s
+  type: http
+  server: 217.181.201.254
+  port: 8090
+  tls: true
+  skip-cert-verify: true
