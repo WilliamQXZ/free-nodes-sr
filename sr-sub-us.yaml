@@ -1,39 +1,13 @@
-# Mac hourly sync 2026-11-05 02:39:16 | alive 4
+# Mac hourly sync 2026-11-05 03:58:44 | alive 10
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (4)|493KB/s
-  server: 137.175.82.43
+- name: US - zhuhai.uk 02|1.1MB/s
+  type: http
+  server: jewelscollecti.icu
   port: 443
-  password: dongtaiwang.com
   tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
-- type: hysteria2
-  name: 🇺🇸_US_美国->🇵🇱_PL_波兰_IPV4 (2)|1KB/s
-  server: 13.143.189.147
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  tls: true
-  servername: pl2.nexfile.net
-  sni: pl2.nexfile.net
-  skip-cert-verify: true
-- type: hysteria2
-  name: 🇺🇸_US_美国_IPV4 (2)
-  server: 129.146.124.201
-  port: 51000
-  password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27
-  tls: true
-  servername: cn.cremedelamer.com
-  sni: cn.cremedelamer.com
   skip-cert-verify: true
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4
+  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4|562KB/s
   server: 172.67.190.164
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
@@ -48,3 +22,57 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: zebpay.site
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+- name: US - zhuhai.uk 10|1KB/s
+  type: http
+  server: fan.596189.xyz
+  port: 443
+  tls: true
+  sni: fan.596189.xyz
+  skip-cert-verify: true
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: tzoa.fun
+  port: 443
+  username: 'null'
+  password: None
+  tls: true
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 23.133.176.14
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 162.243.146.243
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: a2f392f3.acsnet.co
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|0KB/s
+  type: http
+  server: 24.142.229.178
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 11
+  type: socks5
+  server: 104.168.249.36
+  port: 1080
+  username: test123
+  password: test123
+- name: US - zhuhai.uk 06
+  type: http
+  server: 198.44.138.27
+  port: 9443
+  tls: true
+  skip-cert-verify: true
