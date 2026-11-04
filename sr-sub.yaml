@@ -1,15 +1,25 @@
-# Mac hourly sync 2026-11-04 09:02:35 | alive 25
+# Mac hourly sync 2026-11-04 10:02:40 | alive 25
 proxies:
-- name: RO - zhuhai.uk 04|40KB/s
-  type: http
-  server: 193.176.84.35
+- name: DK_speednode_0005|51KB/s
   port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 193.176.84.35
+  server: 158.173.154.5
   skip-cert-verify: true
-- name: RO - zhuhai.uk|37KB/s
+  tls: true
+  type: http
+  udp: true
+- name: NL_speednode_0024|39KB/s
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 04|21KB/s
+  type: socks5
+  server: 69.55.49.177
+  port: 38182
+- name: RO - zhuhai.uk|18KB/s
   type: http
   server: 193.176.84.19
   port: 9002
@@ -17,123 +27,24 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: DK_speednode_0005|36KB/s
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: IT-202.50.253.81-0181 | 70.989MB|2KB/s
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: FR_speednode_0012|2KB/s
+- type: vless
+  name: 🇺🇸_US_美国_IPV4 (3)|3KB/s
+  server: 69.8.129.152
   port: 443
-  server: 82.65.162.76
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  tls: true
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  sni: t5pmr.mail-node.gfw.kdns.fr
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
-  port: 443
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  tls: true
-- name: DK_speednode_0006|1KB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: LV_speednode_0021|1KB/s
-  password: None
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DE_speednode_0004|1KB/s
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: FR - zhuhai.uk|1KB/s
-  type: http
-  server: fan.132031.xyz
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-- name: NL - zhuhai.uk|1KB/s
-  type: http
-  server: 5.255.118.82
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: FI - zhuhai.uk|1KB/s
-  type: socks5
-  server: 176.124.206.150
-  port: 8443
-- name: FR_speednode_0008|1KB/s
-  port: 19362
-  server: 51.159.225.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL_speednode_0022|1KB/s
-  password: 'null'
-  port: 443
-  server: 103.97.88.154
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: RO - zhuhai.uk 03|1KB/s
-  type: http
-  server: 193.176.84.22
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 23.133.176.14
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: DE - zhuhai.uk|1KB/s
-  type: http
-  server: 149.36.50.129
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: IE_speednode_0013|1KB/s
-  port: 443
-  server: 34.249.214.108
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: FR_speednode_0009|1KB/s
-  port: 8090
-  server: 83.206.1.225
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: HK - zhuhai.uk 02|0KB/s
+  alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+- name: HK - zhuhai.uk 02|2KB/s
   type: anytls
   server: 56481.df6h451rh.xin
   port: 443
@@ -144,41 +55,137 @@ proxies:
   - http/1.1
   skip-cert-verify: true
   client-fingerprint: chrome
-- name: FR_speednode_0010|0KB/s
+- name: DE_speednode_0004|2KB/s
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DK_speednode_0006|2KB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: FR_speednode_0012|2KB/s
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: IE_speednode_0013|1KB/s
+  port: 443
+  server: 34.249.214.108
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL_speednode_0025|1KB/s
+  password: None
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: LV - zhuhai.uk|1KB/s
+  type: http
+  server: 185.219.159.15
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: NL_speednode_0023|1KB/s
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO - zhuhai.uk 03|1KB/s
+  type: http
+  server: 193.176.84.22
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: FR_speednode_0009|1KB/s
+  port: 8090
+  server: 83.206.1.225
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: RO - zhuhai.uk 07|1KB/s
+  type: http
+  server: 193.176.84.24
+  port: 9002
+  username: 'null'
   password: 'null'
-  port: 23856
-  server: 51.159.225.196
+  tls: true
+  skip-cert-verify: true
+- name: LV_speednode_0021|1KB/s
+  password: None
+  port: 443
+  server: 185.219.159.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: IL - zhuhai.uk|1KB/s
+  type: http
+  server: 62.90.77.30
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.81-0181 | 70.989MB|1KB/s
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: SG - zhuhai.uk 02|1KB/s
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: '8888'
+  password: '8888'
+- name: NL - zhuhai.uk|1KB/s
+  type: http
+  server: 5.255.118.82
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: NL_speednode_0022|1KB/s
+  password: 'null'
+  port: 443
+  server: 103.97.88.154
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: 'null'
-- name: JP - zhuhai.uk 02
+- name: US - zhuhai.uk 05|0KB/s
   type: http
-  server: fan.587475.xyz
+  server: 23.133.176.14
   port: 443
   tls: true
   skip-cert-verify: true
-- name: JP - zhuhai.uk
+- name: RO - zhuhai.uk 02|0KB/s
   type: http
-  server: fan.571589.xyz
-  port: 443
+  server: 193.176.84.18
+  port: 9002
   tls: true
-  sni: fan.571589.xyz
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  password: 0324fbc29561
-  port: 443
-  server: er8u54dh.df6h451rh.xin
   skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
-- type: hysteria2
-  name: 🇺🇸_US_美国_IPV4
-  server: 129.146.215.233
-  port: 51000
-  password: f274d006-4c01-4fe0-aaa4-83c426577cd0
+- name: RO - zhuhai.uk 04|0KB/s
+  type: http
+  server: 193.176.84.35
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
-  servername: cn.cremedelamer.com
-  sni: cn.cremedelamer.com
+  sni: 193.176.84.35
   skip-cert-verify: true
