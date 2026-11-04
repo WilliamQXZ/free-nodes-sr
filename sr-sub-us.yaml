@@ -1,20 +1,36 @@
-# Mac hourly sync 2026-11-05 01:54:43 | alive 3
+# Mac hourly sync 2026-11-05 02:39:16 | alive 4
 proxies:
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 138.199.35.211
-  port: 9002
-  username: 'null'
-  password: 'null'
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (4)|493KB/s
+  server: 137.175.82.43
+  port: 443
+  password: dongtaiwang.com
   tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  username: 'null'
-  password: None
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- type: hysteria2
+  name: 🇺🇸_US_美国->🇵🇱_PL_波兰_IPV4 (2)|1KB/s
+  server: 13.143.189.147
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   tls: true
+  servername: pl2.nexfile.net
+  sni: pl2.nexfile.net
+  skip-cert-verify: true
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4 (2)
+  server: 129.146.124.201
+  port: 51000
+  password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27
+  tls: true
+  servername: cn.cremedelamer.com
+  sni: cn.cremedelamer.com
   skip-cert-verify: true
 - type: vmess
   name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4
