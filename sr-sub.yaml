@@ -1,27 +1,41 @@
-# Mac hourly sync 2026-11-05 06:45:20 | alive 4
+# Mac hourly sync 2026-11-05 07:41:06 | alive 5
 proxies:
-- name: IT-202.50.253.45-0112 | 104.608MB|726KB/s
-  server: 202.50.253.45
+- name: US - zhuhai.uk 08|879KB/s
+  type: http
+  server: 23.133.176.14
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: '🇨🇿 捷克 | CZE #1|717KB/s'
+  network: xhttp
+  port: 443
+  server: 31.76.7.233
+  servername: e2865c20.con.rasterparcel.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8bdf363-ff05-4fe6-a013-a5605266657e
+  xhttp-opts:
+    mode: auto
+    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
+- name: IT-202.50.253.63-0110 | 1.342MB|637KB/s
+  server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: RO - zhuhai.uk|680KB/s
+- name: RU - zhuhai.uk 02|602KB/s
   type: http
-  server: 193.176.84.22
-  port: 9002
+  server: 87.242.85.187
+  port: 8443
   tls: true
   skip-cert-verify: true
-- name: IT-202.50.253.18-0118 | 36.025MB|616KB/s
+- name: IT-202.50.253.18-0118 | 36.025MB|575KB/s
   server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk 10|317KB/s
-  type: http
-  server: fan.596189.xyz
-  port: 443
-  tls: true
-  sni: fan.596189.xyz
-  skip-cert-verify: true
