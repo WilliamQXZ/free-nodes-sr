@@ -1,21 +1,7 @@
-# Mac hourly sync 2026-11-04 07:14:32 | alive 4
+# Mac hourly sync 2026-11-04 08:20:36 | alive 4
 proxies:
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|327KB/s
-  server: 137.175.82.44
-  port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
+  name: 🇺🇸_US_美国_IPV4 (3)|798KB/s
   server: 198.200.57.142
   port: 22335
   password: github.com/Alvin9999-newpac/fanqiang
@@ -29,7 +15,21 @@ proxies:
   down: '55'
   auth-str: github.com/Alvin9999-newpac/fanqiang
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4
+  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
+  server: 137.175.82.44
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4|0KB/s
   server: 137.175.82.43
   port: 443
   password: dongtaiwang.com
