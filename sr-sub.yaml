@@ -1,9 +1,8 @@
-# Mac hourly sync 2026-11-05 10:03:53 | alive 1
+# Mac hourly sync 2026-11-05 11:02:34 | alive 1
 proxies:
-- name: DK_speednode_0006|157KB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
+- name: IL - zhuhai.uk|326KB/s
   type: http
-  udp: true
+  server: 169.150.248.17
+  port: 443
+  tls: true
+  skip-cert-verify: true
