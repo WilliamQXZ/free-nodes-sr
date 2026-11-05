@@ -1,41 +1,36 @@
-# Mac hourly sync 2026-11-06 01:02:26 | alive 12
+# Mac hourly sync 2026-11-06 04:04:13 | alive 13
 proxies:
-- name: 🇺🇸US_5|1.6MB/s|2KB/s
-  password: None
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 07|1.0MB/s
   type: http
-- name: 🇺🇸 美国 | USA 2|1KB/s
-  server: 154.12.47.231
-  port: 8443
-  type: vless
-  uuid: e146651d-c782-4823-bd7a-9eb4841f64a8
+  server: crosscards.site
+  port: 443
+  username: Ok5vbmU=
   tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: eb5O54Y8XyINkCJCG64GWRZYYRHqQS4mgXRI2ttGdG4
-    short-id: 792fad366e4a06c3
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: US - zhuhai.uk 05|1KB/s
+- name: US - zhuhai.uk|975KB/s
   type: http
-  server: 138.199.35.205
-  port: 9002
-  username: 'null'
-  password: 'null'
+  server: purecambogiasl.live
+  port: 443
+  username: bnVsbDpudWxs
   tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_6|1.4MB/s|1KB/s
+- name: 🇺🇸US_6|1.4MB/s|616KB/s
   password: None
   port: 9443
   server: 149.88.21.140
   skip-cert-verify: true
   tls: true
   type: http
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.198
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 173.42.49.102
+  port: 8090
+  tls: true
+  skip-cert-verify: true
 - name: 🇺🇸US_4|1.0MB/s|1KB/s
   password: None
   port: 443
@@ -43,68 +38,75 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk|1KB/s
-  type: socks5
-  server: 69.55.49.177
-  port: 38182
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 05|1KB/s
   type: http
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+  server: 68.235.56.51
   port: 443
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
   tls: true
-- name: US - zhuhai.uk 07|1KB/s
+  skip-cert-verify: true
+- name: 🇺🇸US_5|1.6MB/s|1KB/s
+  password: None
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
   type: http
-  server: 138.199.35.195
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 138.199.35.217
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 45.150.164.18
-  port: 8443
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)
+  server: 137.175.82.44
+  port: 443
+  password: dongtaiwang.com
   tls: true
-  sni: 45.150.164.18
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: US - zhuhai.uk 04
-  type: http
-  server: purposebydesig.club
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)
+  server: 137.175.82.43
   port: 443
-  username: bnVsbDpudWxs
+  password: dongtaiwang.com
   tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 10_IPV4
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (4)
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
   tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4
-  server: 172.67.190.164
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4 (5)
+  server: starlink-ft.251313.xyz
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
+  password: https://xship.best
   tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
+  servername: xship.top
+  sni: xship.top
+  skip-cert-verify: true
