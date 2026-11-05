@@ -1,47 +1,9 @@
-# Mac hourly sync 2026-11-05 12:03:29 | alive 8
+# Mac hourly sync 2026-11-05 13:05:22 | alive 8
 proxies:
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4|399KB/s
-  server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 10_IPV4|111KB/s
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
 - name: US - zhuhai.uk 04|1KB/s
   type: http
   server: 138.199.35.209
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 173.42.49.102
-  port: 8090
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 03|1KB/s
@@ -58,21 +20,79 @@ proxies:
   reality-opts:
     public-key: 4qE0kXmxDvNzsns2jdwd74AN35RptcTD4eKo5REa9w8
     short-id: '04'
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 138.199.35.219
-  port: 9002
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (4)
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
   tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: US - zhuhai.uk 09|1KB/s
-  type: http
-  server: 198.44.135.27
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4
+  server: 129.146.124.201
+  port: 51000
+  password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27
+  tls: true
+  servername: cn.cremedelamer.com
+  sni: cn.cremedelamer.com
+  skip-cert-verify: true
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4 (5)
+  server: starlink-ft.251313.xyz
   port: 443
+  password: https://xship.best
   tls: true
+  servername: xship.top
+  sni: xship.top
   skip-cert-verify: true
-- name: US - zhuhai.uk 07|0KB/s
-  type: http
-  server: 47.90.206.169
-  port: 7615
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)
+  server: 137.175.82.44
+  port: 443
+  password: dongtaiwang.com
   tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4
+  server: 172.67.190.164
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)
+  server: 137.175.82.43
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
