@@ -1,23 +1,75 @@
-# Mac hourly sync 2026-11-06 05:04:01 | alive 3
+# Mac hourly sync 2026-11-06 06:03:34 | alive 9
 proxies:
-- name: 🇳🇱NL_2|1.3MB/s|737KB/s
-  password: None
-  port: 9002
-  server: 84.17.47.126
+- type: hysteria
+  name: 🇩🇪_DE_德国_IPV4|981KB/s
+  server: 5.83.129.90
+  port: 54177
+  password: dongtaiwang.com
+  tls: true
+  servername: apple.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: DE - zhuhai.uk|842KB/s
+  type: http
+  server: 79.127.156.177
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- type: hysteria
+  name: 🇫🇷_FR_法国_IPV4 (2)|787KB/s
+  server: 163.172.117.163
+  port: 36699
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: 🇧🇪BE_1|2.8MB/s|769KB/s
+  port: 443
+  server: 146.70.176.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 02|619KB/s
+- name: RO - zhuhai.uk 06|714KB/s
   type: http
-  server: 138.199.35.198
+  server: 193.176.84.16
+  port: 9002
+  tls: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇺🇸US_6|1.4MB/s|708KB/s
+  password: None
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: RO - zhuhai.uk 03|700KB/s
+  type: http
+  server: 193.176.84.31
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: RO - zhuhai.uk|586KB/s
+- name: IT-202.50.253.72-0152 | 67.393MB|676KB/s
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk 03|376KB/s
   type: http
-  server: 193.176.84.26
-  port: 9002
-  username: 'null'
-  password: None
+  server: 38.28.193.1
+  port: 443
   tls: true
+  sni: 38.28.193.1
   skip-cert-verify: true
