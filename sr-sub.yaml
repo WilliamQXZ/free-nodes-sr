@@ -1,20 +1,38 @@
-# Mac hourly sync 2026-11-05 21:05:19 | alive 3
+# Mac hourly sync 2026-11-05 22:03:48 | alive 2
 proxies:
-- name: 🇷🇸RS_2|1.9MB/s|397KB/s
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇵🇱 波兰 | POL #1|423KB/s'
+  network: xhttp
   port: 443
-  server: 146.70.221.18
-  skip-cert-verify: true
+  server: cdn-ya.shamanapp.online
+  servername: cdn-ya.shamanapp.online
   tls: true
-  type: http
-- name: 🇷🇴RO_1|1.3MB/s|190KB/s
-  password: None
-  port: 9443
-  server: 135.136.1.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: IT-202.50.253.63-0110 | 74.918MB|155KB/s
-  server: 202.50.253.63
+  type: vless
+  uuid: 40c8a202-4b7f-45a6-b0aa-37db0fac4df8
+  xhttp-opts:
+    host: cdn-ya.shamanapp.online
+    mode: packet-up
+    no-grpc-header: true
+    path: /media/hls/720p/
+    sc-max-each-post-bytes: 20000
+    sc-min-posts-interval-ms: 5
+    seq-key: page
+    seq-placement: query
+    uplink-chunk-size: 20000
+    uplink-data-key: X-Request-Id
+    uplink-data-placement: header
+    uplink-http-method: GET
+    x-padding-bytes: 100-1000
+    x-padding-header: X-Cache
+    x-padding-key: _dc
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: header
+- name: IT-202.50.253.27-0105 | 94.837MB|142KB/s
+  server: 202.50.253.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
