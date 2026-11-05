@@ -1,6 +1,37 @@
-# Mac hourly sync 2026-11-05 16:06:03 | alive 2
+# Mac hourly sync 2026-11-05 17:04:12 | alive 25
 proxies:
-- name: US - zhuhai.uk 04|682KB/s
+- name: IT - zhuhai.uk|32KB/s
+  type: http
+  server: 93.42.177.250
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk|23KB/s
+  type: http
+  server: 84.17.47.147
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: DK_speednode_0006|13KB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL_speednode_0025|2KB/s
+  password: None
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US - zhuhai.uk 04|2KB/s
   type: http
   server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
   port: 443
@@ -8,9 +39,147 @@ proxies:
   password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
   tls: true
   skip-cert-verify: true
-- name: AT - zhuhai.uk|379KB/s
+- name: RO - zhuhai.uk|2KB/s
   type: http
-  server: 146.70.244.2
+  server: 193.176.84.37
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- type: vless
+  name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_IPV4|1KB/s
+  server: 87.232.88.27
+  port: 443
+  uuid: e08d9bc5-6832-4dd4-bd44-d9bbe61e5817
+  tls: true
+  servername: max.ru
+  sni: max.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 4qE0kXmxDvNzsns2jdwd74AN35RptcTD4eKo5REa9w8
+    short-id: '04'
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-67
+- name: FR - zhuhai.uk|1KB/s
+  type: http
+  server: 31.32.19.111
+  port: 8081
+  tls: true
+  skip-cert-verify: true
+- name: IE_speednode_0013|1KB/s
+  port: 443
+  server: 34.249.214.108
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DE - zhuhai.uk|1KB/s
+  type: http
+  server: 158.173.154.4
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: SG - zhuhai.uk 02|1KB/s
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: '8888'
+  password: '8888'
+- name: FR_speednode_0010|1KB/s
+  password: 'null'
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 162.244.227.36
   port: 443
   tls: true
   skip-cert-verify: true
+- name: JP - zhuhai.uk 02|1KB/s
+  type: socks5
+  server: 101.36.104.239
+  port: 10808
+- name: NL_speednode_0023|1KB/s
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: FR_speednode_0009|1KB/s
+  port: 8090
+  server: 83.206.1.225
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: LV_speednode_0020|1KB/s
+  port: 443
+  server: 185.219.159.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: FR - zhuhai.uk 02|1KB/s
+  type: http
+  server: 82.65.162.76
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: DE_speednode_0004|1KB/s
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: LV - zhuhai.uk|1KB/s
+  type: socks5
+  server: 195.135.255.98
+  port: 1080
+- name: US - zhuhai.uk 09|1KB/s
+  type: socks5
+  server: 69.55.49.177
+  port: 38182
+- name: DK_speednode_0005|1KB/s
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL_speednode_0024|1KB/s
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL - zhuhai.uk 02|1KB/s
+  type: http
+  server: 84.17.47.123
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: NL_speednode_0022|1KB/s
+  password: 'null'
+  port: 443
+  server: 103.97.88.154
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
