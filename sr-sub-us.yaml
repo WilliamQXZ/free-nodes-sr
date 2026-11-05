@@ -1,6 +1,6 @@
-# Mac hourly sync 2026-11-05 18:03:35 | alive 5
+# Mac hourly sync 2026-11-05 19:04:15 | alive 10
 proxies:
-- name: US - zhuhai.uk 04|0KB/s
+- name: US - zhuhai.uk 04|419KB/s
   type: http
   server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
   port: 443
@@ -8,26 +8,22 @@ proxies:
   password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 08
-  type: http
-  server: 45.145.73.240
-  port: 8443
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|401KB/s
+  server: 137.175.82.44
+  port: 443
+  password: dongtaiwang.com
   tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: US - zhuhai.uk 03
-  type: http
-  server: 138.199.35.216
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 09
-  type: socks5
-  server: 69.55.49.177
-  port: 38182
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4
+  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4|333KB/s
   server: 172.67.190.164
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
@@ -42,3 +38,65 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+- name: US - zhuhai.uk 09|28KB/s
+  type: socks5
+  server: 69.55.49.177
+  port: 38182
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
+  server: 137.175.82.43
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 162.244.227.36
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|0KB/s
+  type: http
+  server: 66.64.100.66
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk|0KB/s
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: purecambogiasl.live
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
