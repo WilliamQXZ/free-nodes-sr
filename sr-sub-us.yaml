@@ -1,15 +1,29 @@
-# Mac hourly sync 2026-11-05 10:03:57 | alive 7
+# Mac hourly sync 2026-11-05 11:02:39 | alive 11
 proxies:
-- name: US - zhuhai.uk 02|34KB/s
-  type: http
-  server: 173.42.49.102
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 09|2KB/s
-  type: http
-  server: 198.44.135.27
+- name: US - zhuhai.uk 03|3KB/s
+  type: vless
+  server: 87.232.88.27
   port: 443
+  uuid: e08d9bc5-6832-4dd4-bd44-d9bbe61e5817
+  tls: true
+  servername: max.ru
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-67
+  reality-opts:
+    public-key: 4qE0kXmxDvNzsns2jdwd74AN35RptcTD4eKo5REa9w8
+    short-id: '04'
+- name: US - zhuhai.uk|2KB/s
+  type: http
+  server: fullmanfirm.icu
+  port: 443
+  username: Ok5vbmU=
+  tls: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.219
+  port: 9002
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 04|1KB/s
@@ -18,27 +32,82 @@ proxies:
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
+- name: US - zhuhai.uk 02|1KB/s
   type: http
-  server: purposebydesig.club
-  port: 443
+  server: 173.42.49.102
+  port: 8090
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 47.90.206.169
-  port: 7615
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 138.199.35.219
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
+- name: US - zhuhai.uk 05|0KB/s
   type: http
   server: 98.101.229.212
   port: 8090
   tls: true
   skip-cert-verify: true
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4
+  server: 129.146.124.201
+  port: 51000
+  password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27
+  tls: true
+  servername: cn.cremedelamer.com
+  sni: cn.cremedelamer.com
+  skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (4)
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)
+  server: 137.175.82.44
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)
+  server: 137.175.82.43
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4
+  server: 172.67.190.164
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
