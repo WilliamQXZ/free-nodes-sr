@@ -1,48 +1,37 @@
-# Mac hourly sync 2026-11-05 08:19:07 | alive 6
+# Mac hourly sync 2026-11-05 09:02:38 | alive 4
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (5)|761KB/s
-  server: 137.175.82.44
-  port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
+- name: DK_speednode_0006|434KB/s
+  port: 9002
+  server: 158.173.154.1
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: IT-202.50.253.81-0115 | 0.886MB|649KB/s
-  server: 202.50.253.81
+  tls: true
+  type: http
+  udp: true
+- name: IT-202.50.253.18-0118 | 36.025MB|414KB/s
+  server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- type: hysteria2
-  name: 🇮🇳_IN_印度_IPV4|614KB/s
-  server: 144.24.109.215
-  port: 51000
-  password: d105c6ae-621b-47c1-b85b-075fd6a39aca
-  tls: true
-  servername: cn.cremedelamer.com
-  sni: cn.cremedelamer.com
-  skip-cert-verify: true
-- name: FI - zhuhai.uk|463KB/s
-  type: socks5
-  server: 176.124.206.150
-  port: 8443
-- name: MY - zhuhai.uk|434KB/s
-  type: http
-  server: 152.233.3.14
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: TW - zhuhai.uk|345KB/s
-  type: anytls
-  server: er8u54dh.df6h451rh.xin
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4|364KB/s
+  server: 172.67.190.164
   port: 443
-  password: 0324fbc29561
-  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: IL - zhuhai.uk|273KB/s
+  type: http
+  server: 169.150.248.17
+  port: 443
+  tls: true
   skip-cert-verify: true
