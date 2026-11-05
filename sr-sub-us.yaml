@@ -1,29 +1,58 @@
-# Mac hourly sync 2026-11-05 08:19:11 | alive 9
+# Mac hourly sync 2026-11-05 09:02:41 | alive 10
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (5)|761KB/s
-  server: 137.175.82.44
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4|364KB/s
+  server: 172.67.190.164
   port: 443
-  password: dongtaiwang.com
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
   tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: US - zhuhai.uk|27KB/s
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: US - zhuhai.uk 02|1KB/s
   type: http
-  server: 138.199.35.206
-  port: 9002
-  username: 'null'
-  password: 'null'
+  server: 173.42.49.102
+  port: 8090
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.219
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|1KB/s
+  type: vless
+  server: 87.232.88.27
+  port: 443
+  uuid: e08d9bc5-6832-4dd4-bd44-d9bbe61e5817
+  tls: true
+  servername: max.ru
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-67
+  reality-opts:
+    public-key: 4qE0kXmxDvNzsns2jdwd74AN35RptcTD4eKo5REa9w8
+    short-id: '04'
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4
+  server: 129.146.124.201
+  port: 51000
+  password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27
+  tls: true
+  servername: cn.cremedelamer.com
+  sni: cn.cremedelamer.com
   skip-cert-verify: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
+  name: 🇺🇸_US_美国_IPV4 (2)
   server: 137.175.82.43
   port: 443
   password: dongtaiwang.com
@@ -36,31 +65,8 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
-- type: hysteria2
-  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
-  server: 129.146.124.201
-  port: 51000
-  password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27
-  tls: true
-  servername: cn.cremedelamer.com
-  sni: cn.cremedelamer.com
-  skip-cert-verify: true
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #18|1KB/s'
-  network: ws
-  port: 8443
-  server: 104.19.34.75
-  servername: frosty-clover-b8ea-df1f0206.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6ba51de-d50a-407f-a8bb-5dc8b3073ec1
-  ws-opts:
-    headers:
-      Host: frosty-clover-b8ea-df1f0206.pages.dev
-    path: /7f0776a02fac
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (6)|1KB/s
+  name: 🇺🇸_US_美国_IPV4 (4)
   server: 198.200.57.142
   port: 22335
   password: github.com/Alvin9999-newpac/fanqiang
@@ -73,31 +79,29 @@ proxies:
   up: '11'
   down: '55'
   auth-str: github.com/Alvin9999-newpac/fanqiang
-- name: '🇺🇸 美国 | USA #3'
-  network: ws
-  port: 8080
-  server: www.digitalocean.com
-  servername: www.digitalocean.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2500e602-671c-4654-a602-c518b7282167
-  ws-opts:
-    headers:
-      Host: 2639w-throbbing-band-3840.xphnn6jp.workers.dev
-    path: /
-- name: '🇺🇸 美国 | USA #6'
-  network: ws
-  port: 8880
-  server: 185.193.30.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
-    path: /
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)
+  server: 137.175.82.44
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4 (5)
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.best
+  tls: true
+  servername: xship.top
+  sni: xship.top
+  skip-cert-verify: true
 - type: vmess
   name: 🇺🇸 机场推荐:dafei.de 美国 10_IPV4
   server: www.shopify.com
