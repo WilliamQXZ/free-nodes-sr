@@ -1,6 +1,6 @@
-# Mac hourly sync 2026-11-05 16:06:07 | alive 13
+# Mac hourly sync 2026-11-05 17:04:16 | alive 7
 proxies:
-- name: US - zhuhai.uk 04|682KB/s
+- name: US - zhuhai.uk 04|2KB/s
   type: http
   server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
   port: 443
@@ -8,38 +8,16 @@ proxies:
   password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
+- name: US - zhuhai.uk 05|1KB/s
   type: http
-  server: 138.199.35.206
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
-  type: http
-  server: 45.145.73.240
-  port: 8443
+  server: 162.244.227.36
+  port: 443
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 09|1KB/s
   type: socks5
   server: 69.55.49.177
   port: 38182
-- name: US - zhuhai.uk 03|0KB/s
-  type: http
-  server: 138.199.35.216
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|0KB/s
-  type: http
-  server: 162.244.227.36
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (4)
   server: 198.200.57.142
@@ -76,50 +54,11 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 02
+- name: US - zhuhai.uk 03
   type: http
-  server: 66.64.100.66
-  port: 443
+  server: 138.199.35.216
+  port: 9002
   username: 'null'
   password: 'null'
   tls: true
-  skip-cert-verify: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)
-  server: 137.175.82.44
-  port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 18_IPV4
-  server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- type: hysteria2
-  name: 🇺🇸_US_美国_IPV4
-  server: 129.146.124.201
-  port: 51000
-  password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27
-  tls: true
-  servername: cn.cremedelamer.com
-  sni: cn.cremedelamer.com
   skip-cert-verify: true
