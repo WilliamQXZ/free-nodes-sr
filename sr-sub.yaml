@@ -1,8 +1,16 @@
-# Mac hourly sync 2026-11-05 15:04:44 | alive 1
+# Mac hourly sync 2026-11-05 16:06:03 | alive 2
 proxies:
-- name: CA - zhuhai.uk|403KB/s
+- name: US - zhuhai.uk 04|682KB/s
   type: http
-  server: 23.169.224.34
-  port: 9443
+  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+  port: 443
+  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  tls: true
+  skip-cert-verify: true
+- name: AT - zhuhai.uk|379KB/s
+  type: http
+  server: 146.70.244.2
+  port: 443
   tls: true
   skip-cert-verify: true
