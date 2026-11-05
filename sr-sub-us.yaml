@@ -1,60 +1,10 @@
-# Mac hourly sync 2026-11-05 21:05:23 | alive 12
+# Mac hourly sync 2026-11-05 22:03:52 | alive 5
 proxies:
-- name: US - zhuhai.uk 09|8KB/s
+- name: US - zhuhai.uk 09|13KB/s
   type: socks5
   server: 69.55.49.177
   port: 38182
-- name: 🇺🇸US_5|1.6MB/s|1KB/s
-  password: None
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|1.0MB/s|1KB/s
-  password: None
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|4.1MB/s|1KB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|2.4MB/s|1KB/s
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸 美国 | USA 3|1KB/s
-  server: 87.232.88.27
-  port: 443
-  type: vless
-  uuid: e08d9bc5-6832-4dd4-bd44-d9bbe61e5817
-  tls: true
-  reality-opts:
-    public-key: 4qE0kXmxDvNzsns2jdwd74AN35RptcTD4eKo5REa9w8
-    short-id: '04'
-  servername: max.ru
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-67
-  udp: true
-- name: 🇺🇸US_6|1.4MB/s|0KB/s
-  password: None
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 04|0KB/s
+- name: US - zhuhai.uk 04|1KB/s
   type: http
   server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
   port: 443
@@ -62,53 +12,31 @@ proxies:
   password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 07
+- name: US - zhuhai.uk|0KB/s
   type: http
-  server: purecambogiasl.live
-  port: 443
+  server: 138.199.35.206
+  port: 9002
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (4)
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
+- name: US - zhuhai.uk 08|0KB/s
+  type: http
+  server: 45.145.73.240
+  port: 8443
   tls: true
-  servername: bing.com
-  sni: bing.com
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)
-  server: 137.175.82.43
-  port: 443
-  password: dongtaiwang.com
+- name: 🇺🇸 美国 | USA 2|0KB/s
+  server: 154.12.47.231
+  port: 8443
+  type: vless
+  uuid: e146651d-c782-4823-bd7a-9eb4841f64a8
   tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)
-  server: 137.175.82.44
-  port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: eb5O54Y8XyINkCJCG64GWRZYYRHqQS4mgXRI2ttGdG4
+    short-id: 792fad366e4a06c3
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
