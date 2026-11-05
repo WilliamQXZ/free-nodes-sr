@@ -1,41 +1,48 @@
-# Mac hourly sync 2026-11-05 07:41:06 | alive 5
+# Mac hourly sync 2026-11-05 08:19:07 | alive 6
 proxies:
-- name: US - zhuhai.uk 08|879KB/s
-  type: http
-  server: 23.133.176.14
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (5)|761KB/s
+  server: 137.175.82.44
   port: 443
+  password: dongtaiwang.com
   tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: '🇨🇿 捷克 | CZE #1|717KB/s'
-  network: xhttp
-  port: 443
-  server: 31.76.7.233
-  servername: e2865c20.con.rasterparcel.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8bdf363-ff05-4fe6-a013-a5605266657e
-  xhttp-opts:
-    mode: auto
-    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
-- name: IT-202.50.253.63-0110 | 1.342MB|637KB/s
-  server: 202.50.253.63
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: IT-202.50.253.81-0115 | 0.886MB|649KB/s
+  server: 202.50.253.81
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: RU - zhuhai.uk 02|602KB/s
-  type: http
-  server: 87.242.85.187
+- type: hysteria2
+  name: 🇮🇳_IN_印度_IPV4|614KB/s
+  server: 144.24.109.215
+  port: 51000
+  password: d105c6ae-621b-47c1-b85b-075fd6a39aca
+  tls: true
+  servername: cn.cremedelamer.com
+  sni: cn.cremedelamer.com
+  skip-cert-verify: true
+- name: FI - zhuhai.uk|463KB/s
+  type: socks5
+  server: 176.124.206.150
   port: 8443
+- name: MY - zhuhai.uk|434KB/s
+  type: http
+  server: 152.233.3.14
+  port: 9443
   tls: true
   skip-cert-verify: true
-- name: IT-202.50.253.18-0118 | 36.025MB|575KB/s
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: TW - zhuhai.uk|345KB/s
+  type: anytls
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
+  skip-cert-verify: true
