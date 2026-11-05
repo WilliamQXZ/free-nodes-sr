@@ -1,56 +1,30 @@
-# Mac hourly sync 2026-11-06 04:04:13 | alive 13
+# Mac hourly sync 2026-11-06 05:04:04 | alive 9
 proxies:
-- name: US - zhuhai.uk 07|1.0MB/s
-  type: http
-  server: crosscards.site
-  port: 443
-  username: Ok5vbmU=
-  tls: true
-- name: US - zhuhai.uk|975KB/s
-  type: http
-  server: purecambogiasl.live
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
-- name: 🇺🇸US_6|1.4MB/s|616KB/s
-  password: None
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 02|619KB/s
   type: http
   server: 138.199.35.198
   port: 9002
   tls: true
   skip-cert-verify: true
+- name: 🇺🇸US_3|4.1MB/s|1KB/s
+  password: None
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_2|2.4MB/s|1KB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 173.42.49.102
   port: 8090
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_4|1.0MB/s|1KB/s
-  password: None
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 68.235.56.51
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_5|1.6MB/s|1KB/s
-  password: None
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: US - zhuhai.uk 03|1KB/s
   type: http
   server: 138.199.35.217
@@ -59,20 +33,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)
-  server: 137.175.82.44
-  port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (2)
   server: 137.175.82.43
@@ -101,6 +61,20 @@ proxies:
   up: '11'
   down: '55'
   auth-str: github.com/Alvin9999-newpac/fanqiang
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)
+  server: 137.175.82.44
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
 - type: hysteria2
   name: 🇺🇸_US_美国_IPV4 (5)
   server: starlink-ft.251313.xyz
