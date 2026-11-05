@@ -1,40 +1,72 @@
-# Mac hourly sync 2026-11-06 05:04:04 | alive 9
+# Mac hourly sync 2026-11-06 06:03:37 | alive 10
 proxies:
-- name: US - zhuhai.uk 02|619KB/s
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_3|4.1MB/s|1KB/s
+- name: 🇺🇸US_6|1.4MB/s|708KB/s
   password: None
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 03|376KB/s
+  type: http
+  server: 38.28.193.1
   port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
   tls: true
-  type: http
-- name: 🇺🇸US_2|2.4MB/s|1KB/s
+  sni: 38.28.193.1
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 6|2KB/s
+  password: 0324fbc29561
   port: 443
-  server: 121.127.34.82
+  server: sdf65h46wr.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- name: 🇺🇸US_5|1.6MB/s|1KB/s
+  password: None
+  port: 9443
+  server: 154.47.25.78
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 06|1KB/s
+- name: US - zhuhai.uk|1KB/s
   type: http
-  server: 173.42.49.102
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.217
+  server: 138.199.35.195
   port: 9002
-  username: 'null'
-  password: 'null'
   tls: true
+  skip-cert-verify: true
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4 (5)|1KB/s
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.best
+  tls: true
+  servername: xship.top
+  sni: xship.top
   skip-cert-verify: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)
+  name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: 🇺🇸US_4|1.0MB/s|1KB/s
+  password: None
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
   server: 137.175.82.43
   port: 443
   password: dongtaiwang.com
@@ -48,21 +80,7 @@ proxies:
   down: '20'
   auth-str: dongtaiwang.com
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (4)
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)
+  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
   server: 137.175.82.44
   port: 443
   password: dongtaiwang.com
@@ -75,12 +93,3 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- type: hysteria2
-  name: 🇺🇸_US_美国_IPV4 (5)
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.best
-  tls: true
-  servername: xship.top
-  sni: xship.top
-  skip-cert-verify: true
