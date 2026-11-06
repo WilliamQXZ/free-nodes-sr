@@ -1,51 +1,87 @@
-# Mac hourly sync 2026-11-06 06:03:37 | alive 10
+# Mac hourly sync 2026-11-06 09:10:29 | alive 24
 proxies:
-- name: 🇺🇸US_6|1.4MB/s|708KB/s
+- name: 🇺🇸US_11|2.4MB/s|773KB/s
   password: None
-  port: 9443
-  server: 149.88.21.140
+  port: 9002
+  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
-- name: US - zhuhai.uk 03|376KB/s
-  type: http
-  server: 38.28.193.1
-  port: 443
+- name: 🇺🇸US_6|1.6MB/s|717KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
   tls: true
-  sni: 38.28.193.1
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 6|2KB/s
-  password: 0324fbc29561
+  type: http
+  username: 'null'
+- name: 🇺🇸US_17|1.3MB/s|556KB/s
   port: 443
-  server: sdf65h46wr.df6h451rh.xin
+  server: 216.107.139.82
   skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
+  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
+  tls: true
+  type: http
+- name: 🇺🇸US_3|2.7MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|3.0MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|2.7MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_22|1.9MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|2.4MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- name: 🇺🇸US_5|1.6MB/s|1KB/s
-  password: None
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk|1KB/s
+- name: US - zhuhai.uk|2KB/s
   type: http
   server: 138.199.35.195
   port: 9002
   tls: true
   skip-cert-verify: true
-- type: hysteria2
-  name: 🇺🇸_US_美国_IPV4 (5)|1KB/s
-  server: starlink-ft.251313.xyz
+- name: 🇺🇸US_18|2.1MB/s|2KB/s
   port: 443
-  password: https://xship.best
-  tls: true
-  servername: xship.top
-  sni: xship.top
+  server: 12.202.180.118
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|1.6MB/s|1KB/s
+  password: None
+  port: 443
+  server: 198.44.135.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_16|2.3MB/s|1KB/s
+  port: 443
+  server: 162.244.227.36
+  skip-cert-verify: true
+  tls: true
+  type: http
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
+  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
   server: 198.200.57.142
   port: 22335
   password: github.com/Alvin9999-newpac/fanqiang
@@ -58,15 +94,8 @@ proxies:
   up: '11'
   down: '55'
   auth-str: github.com/Alvin9999-newpac/fanqiang
-- name: 🇺🇸US_4|1.0MB/s|1KB/s
-  password: None
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
+  name: 🇺🇸_US_美国_IPV4|1KB/s
   server: 137.175.82.43
   port: 443
   password: dongtaiwang.com
@@ -79,8 +108,47 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
+- name: 🇺🇸US_1|2.9MB/s|1KB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 38.28.193.1
+  port: 443
+  tls: true
+  sni: 38.28.193.1
+  skip-cert-verify: true
+- name: 🇺🇸US_9|2.6MB/s|1KB/s
+  port: 443
+  server: 129.153.93.183
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|3.4MB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 167.88.60.242
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_4|3.0MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
+  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
   server: 137.175.82.44
   port: 443
   password: dongtaiwang.com
@@ -93,3 +161,23 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
+- name: 🇺🇸US_21|1.8MB/s|1KB/s
+  port: 8090
+  server: 66.153.187.90
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 184.188.139.2
+  port: 8090
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_15|1.1MB/s|1KB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
