@@ -1,7 +1,7 @@
-# Mac hourly sync 2026-11-07 04:00:46 | alive 7
+# Mac hourly sync 2026-11-07 06:21:30 | alive 6
 proxies:
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|949KB/s
+  name: 🇺🇸_US_美国_IPV4 (2)|982KB/s
   server: 137.175.82.44
   port: 443
   password: dongtaiwang.com
@@ -15,7 +15,7 @@ proxies:
   down: '55'
   auth-str: dongtaiwang.com
 - client-fingerprint: chrome
-  name: 🇺🇸US_2|3.5MB/s|2KB/s
+  name: 🇺🇸US_2|3.5MB/s|890KB/s
   network: tcp
   password: 6cddea99-9b18-4d42-8638-131bd9f5374f
   port: 443
@@ -24,20 +24,26 @@ proxies:
   sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   type: trojan
   udp: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
-  tls: true
-  servername: bing.com
-  sni: bing.com
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: '🇺🇸 美国 | USA #4|2KB/s'
+  network: http
+  port: 1288
+  server: 107.175.76.215
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 29a72eac-a4d1-4526-8fa0-d3ecc4e38b44
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4|1KB/s
   server: 137.175.82.43
@@ -52,35 +58,20 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '🇺🇸 美国 | USA #4|0KB/s'
-  network: http
-  port: 1288
-  server: 107.175.76.215
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
+  tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29a72eac-a4d1-4526-8fa0-d3ecc4e38b44
-- auth: f4b80b26-b6d4-49a6-a460-f50efb7a457c
-  name: '🇺🇸 美国 | USA #1'
-  password: f4b80b26-b6d4-49a6-a460-f50efb7a457c
-  port: 443
-  server: 186.246.18.62
-  skip-cert-verify: true
-  sni: hy.cardlist24.shop
-  tls: false
-  type: hysteria2
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
 - type: hysteria2
   name: 🇺🇸_US_美国_IPV4 (4)
   server: starlink-ft.251313.xyz
