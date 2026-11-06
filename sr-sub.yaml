@@ -1,7 +1,7 @@
-# Mac hourly sync 2026-11-07 03:59:37 | alive 6
+# Mac hourly sync 2026-11-07 06:21:26 | alive 7
 proxies:
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|949KB/s
+  name: 🇺🇸_US_美国_IPV4 (2)|982KB/s
   server: 137.175.82.44
   port: 443
   password: dongtaiwang.com
@@ -14,8 +14,46 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
+- client-fingerprint: chrome
+  name: 🇺🇸US_2|3.5MB/s|890KB/s
+  network: tcp
+  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
+  port: 443
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  skip-cert-verify: true
+  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  type: trojan
+  udp: true
+- name: 🇭🇺HU_1|1.1MB/s|763KB/s
+  password: None
+  port: 443
+  server: 146.70.203.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: FR_speednode_0012|753KB/s
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: NL_speednode_0023|698KB/s
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DE_speednode_0004|662KB/s
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - type: anytls
-  name: 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4|779KB/s
+  name: 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4|625KB/s
   server: sdf65h46wr.df6h451rh.xin
   port: 443
   password: 0324fbc29561
@@ -23,32 +61,3 @@ proxies:
   servername: images.ctfassets.net
   sni: images.ctfassets.net
   skip-cert-verify: true
-- name: FR_speednode_0008|741KB/s
-  port: 19362
-  server: 51.159.225.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- type: ss
-  name: 🇮🇹_IT_意大利_IPV4 (10)|689KB/s
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-- name: LV_speednode_0020|448KB/s
-  port: 443
-  server: 185.219.159.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: PL_speednode_0028|289KB/s
-  port: 443
-  server: 31.186.220.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
