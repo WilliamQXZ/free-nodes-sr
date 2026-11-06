@@ -1,46 +1,9 @@
-# Mac hourly sync 2026-11-07 02:56:03 | alive 7
+# Mac hourly sync 2026-11-07 03:59:37 | alive 6
 proxies:
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '🇺🇸 美国 | USA #4|922KB/s'
-  network: http
-  port: 1288
-  server: 107.175.76.215
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29a72eac-a4d1-4526-8fa0-d3ecc4e38b44
-- client-fingerprint: chrome
-  name: 🇺🇸US_2|3.5MB/s|847KB/s
-  network: tcp
-  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
-  port: 443
-  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  skip-cert-verify: true
-  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  type: trojan
-  udp: true
-- name: 🇸🇪SE_1|1.2MB/s|783KB/s
-  password: None
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
 - type: hysteria
-  name: 🇫🇷_FR_法国_IPV4 (2)|782KB/s
-  server: 163.172.117.163
-  port: 36699
+  name: 🇺🇸_US_美国_IPV4 (2)|949KB/s
+  server: 137.175.82.44
+  port: 443
   password: dongtaiwang.com
   tls: true
   servername: bing.com
@@ -51,30 +14,41 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: FR_speednode_0008|669KB/s
+- type: anytls
+  name: 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4|779KB/s
+  server: sdf65h46wr.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  tls: true
+  servername: images.ctfassets.net
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: FR_speednode_0008|741KB/s
   port: 19362
   server: 51.159.225.197
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: IT-202.50.253.72-0186 | 88.425MB|533KB/s
+- type: ss
+  name: 🇮🇹_IT_意大利_IPV4 (10)|689KB/s
   server: 202.50.253.72
   port: 19999
-  type: ss
-  cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4|444KB/s
-  server: 137.175.82.43
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: LV_speednode_0020|448KB/s
   port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
+  server: 185.219.159.15
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
+  tls: true
+  type: http
+  udp: true
+- name: PL_speednode_0028|289KB/s
+  port: 443
+  server: 31.186.220.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
