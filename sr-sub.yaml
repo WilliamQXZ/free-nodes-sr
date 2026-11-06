@@ -1,10 +1,80 @@
-# Mac hourly sync 2026-11-07 01:11:10 | alive 1
+# Mac hourly sync 2026-11-07 02:56:03 | alive 7
 proxies:
-- name: US - zhuhai.uk|270KB/s
-  type: http
-  server: fan.596189.xyz
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: '🇺🇸 美国 | USA #4|922KB/s'
+  network: http
+  port: 1288
+  server: 107.175.76.215
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 29a72eac-a4d1-4526-8fa0-d3ecc4e38b44
+- client-fingerprint: chrome
+  name: 🇺🇸US_2|3.5MB/s|847KB/s
+  network: tcp
+  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
   port: 443
-  username: 'null'
-  password: 'null'
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  skip-cert-verify: true
+  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  type: trojan
+  udp: true
+- name: 🇸🇪SE_1|1.2MB/s|783KB/s
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
   tls: true
-  sni: fan.596189.xyz
+  type: http
+- type: hysteria
+  name: 🇫🇷_FR_法国_IPV4 (2)|782KB/s
+  server: 163.172.117.163
+  port: 36699
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: FR_speednode_0008|669KB/s
+  port: 19362
+  server: 51.159.225.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: IT-202.50.253.72-0186 | 88.425MB|533KB/s
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4|444KB/s
+  server: 137.175.82.43
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
