@@ -1,28 +1,37 @@
-# Mac hourly sync 2026-11-07 20:32:53 | alive 6
+# Mac hourly sync 2026-11-08 00:12:37 | alive 6
 proxies:
-- name: US - zhuhai.uk|13KB/s
+- name: US - zhuhai.uk 05|5KB/s
   type: http
-  server: 138.199.35.197
+  server: 138.199.35.217
   port: 9002
-  username: 'null'
-  password: None
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
+- name: US - zhuhai.uk 03|1KB/s
   type: http
-  server: 138.199.35.202
+  server: 138.199.35.220
   port: 9002
-  username: 'null'
-  password: None
   tls: true
   skip-cert-verify: true
+- client-fingerprint: qq
+  name: '🇺🇸 美国 | USA #6|1KB/s'
+  network: xhttp
+  port: 443
+  server: us2.qik-fin.uk
+  servername: us2.qik-fin.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c4aa500-e3ae-4778-837b-f02dfea8c85f
+  xhttp-opts:
+    host: us2.qik-fin.uk
+    mode: stream-one
+    path: /static/js/chunk
 - name: US - zhuhai.uk 02|0KB/s
   type: http
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
-  port: 443
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  server: 138.199.35.196
+  port: 9002
   tls: true
+  skip-cert-verify: true
 - alpn:
   - ''
   alterId: 0
@@ -34,7 +43,7 @@ proxies:
     method: GET
     path:
     - /QQqun-737805443
-  name: '🇺🇸 美国 | USA #6|0KB/s'
+  name: '🇺🇸 美国 | USA #10'
   network: http
   port: 52080
   server: 23.94.83.37
@@ -43,15 +52,11 @@ proxies:
   type: vmess
   udp: true
   uuid: 355c1760-9bde-4b77-916b-5191e7f704a3
-- name: US - zhuhai.uk 07
+- name: US - zhuhai.uk
   type: http
-  server: berniesbodybla.fun
-  port: 443
-  tls: true
-  sni: berniesbodybla.fun
-- name: US - zhuhai.uk 05
-  type: http
-  server: 209.148.53.153
-  port: 8090
+  server: 138.199.35.204
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
