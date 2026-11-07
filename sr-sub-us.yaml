@@ -1,21 +1,7 @@
-# Mac hourly sync 2026-11-07 06:21:30 | alive 6
+# Mac hourly sync 2026-11-07 08:01:24 | alive 3
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|982KB/s
-  server: 137.175.82.44
-  port: 443
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
 - client-fingerprint: chrome
-  name: 🇺🇸US_2|3.5MB/s|890KB/s
+  name: 🇺🇸US_2|3.5MB/s|930KB/s
   network: tcp
   password: 6cddea99-9b18-4d42-8638-131bd9f5374f
   port: 443
@@ -24,60 +10,18 @@ proxies:
   sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '🇺🇸 美国 | USA #4|2KB/s'
-  network: http
-  port: 1288
-  server: 107.175.76.215
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29a72eac-a4d1-4526-8fa0-d3ecc4e38b44
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4|1KB/s
-  server: 137.175.82.43
+- name: US - zhuhai.uk 02
+  type: http
+  server: voteshirleysew.club
   port: 443
-  password: dongtaiwang.com
+  username: 'null'
+  password: 'null'
   tls: true
-  servername: bing.com
-  sni: bing.com
+  sni: voteshirleysew.club
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-- type: hysteria2
-  name: 🇺🇸_US_美国_IPV4 (4)
-  server: starlink-ft.251313.xyz
+- name: US - zhuhai.uk
+  type: http
+  server: 167.88.60.242
   port: 443
-  password: https://xship.best
   tls: true
-  servername: xship.top
-  sni: xship.top
   skip-cert-verify: true
