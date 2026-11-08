@@ -1,52 +1,16 @@
-# Mac hourly sync 2026-11-08 06:38:27 | alive 6
+# Mac hourly sync 2026-11-08 15:27:31 | alive 1
 proxies:
-- name: US_speednode_0039|883KB/s
-  port: 8443
-  server: 44.248.167.117
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|572KB/s
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
+  tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DK_speednode_0005|777KB/s
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL_speednode_0023|746KB/s
-  port: 9002
-  server: 84.17.47.124
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: FR_speednode_0010|688KB/s
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- client-fingerprint: chrome
-  name: '🇸🇪 瑞典 | SWE #1|610KB/s'
-  network: xhttp
-  port: 4443
-  server: swo2.nexfile.net
-  servername: swo2.nexfile.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  xhttp-opts:
-    host: swo2.nexfile.net
-    mode: auto
-    path: /api/v1/sync/
-- name: RO - zhuhai.uk 03|542KB/s
-  type: http
-  server: 193.176.84.18
-  port: 9002
-  tls: true
-  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
