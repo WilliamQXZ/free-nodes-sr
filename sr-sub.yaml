@@ -1,33 +1,15 @@
-# Mac hourly sync 2026-11-09 00:34:30 | alive 1
+# Mac hourly sync 2026-11-09 01:51:51 | alive 2
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇵🇱PL_1|2.6MB/s|253KB/s
-  network: xhttp
-  port: 443
-  server: cdn-ya.shamanapp.online
-  servername: cdn-ya.shamanapp.online
+- name: IT-202.50.253.36-0267 | 90.147MB|428KB/s
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk 10|313KB/s
+  type: http
+  server: 138.199.35.204
+  port: 9002
   tls: true
-  type: vless
-  uuid: 40c8a202-4b7f-45a6-b0aa-37db0fac4df8
-  xhttp-opts:
-    host: cdn-ya.shamanapp.online
-    mode: packet-up
-    no-grpc-header: true
-    path: /media/hls/720p/
-    sc-max-each-post-bytes: 20000
-    sc-min-posts-interval-ms: 5
-    seq-key: page
-    seq-placement: query
-    uplink-chunk-size: 20000
-    uplink-data-key: X-Request-Id
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Cache
-    x-padding-key: _dc
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: header
+  sni: 138.199.35.204
+  skip-cert-verify: true
