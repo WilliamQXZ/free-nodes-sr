@@ -1,5 +1,28 @@
-# Mac hourly sync 2026-11-09 01:51:55 | alive 15
+# Mac hourly sync 2026-11-09 02:39:03 | alive 17
 proxies:
+- name: 🇺🇸US_5|2.0MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+- type: vmess
+  name: 🇺🇸_US_美国_IPV4 (2)|0KB/s
+  server: 23.94.83.37
+  port: 52080
+  uuid: 355c1760-9bde-4b77-916b-5191e7f704a3
+  cipher: auto
+  alterId: 0
+  tls: false
+  servername: down-cdn.dingtalk.com
+  sni: down-cdn.dingtalk.com
+  network: http
+  http-opts:
+    path:
+    - /QQqun-737805443
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
 - name: US - zhuhai.uk 10|313KB/s
   type: http
   server: 138.199.35.204
