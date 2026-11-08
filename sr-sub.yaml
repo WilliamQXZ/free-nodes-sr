@@ -1,47 +1,29 @@
-# Mac hourly sync 2026-11-09 04:17:28 | alive 6
+# Mac hourly sync 2026-11-09 06:04:57 | alive 3
 proxies:
-- name: 🇮🇪IE_1|1.1MB/s|946KB/s
+- name: CH - zhuhai.uk 01|893KB/s
+  type: vless
+  server: prvtch.titun.su
   port: 443
-  server: 149.88.96.1
-  skip-cert-verify: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
   tls: true
+  servername: perevodchiki.su
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+- name: US - zhuhai.uk|679KB/s
   type: http
-- name: 🇺🇸US_4|1.0MB/s|805KB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
+  server: 138.199.35.215
+  port: 9002
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06|605KB/s
   type: http
-- name: 🇺🇸US_6|1.1MB/s|704KB/s
-  password: None
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
+  server: 138.199.35.207
+  port: 9002
   tls: true
-  type: http
-- name: 🇦🇹AT_1|1.1MB/s|683KB/s
-  port: 443
-  server: 146.70.244.18
+  sni: 138.199.35.207
   skip-cert-verify: true
-  tls: true
-  type: http
-- type: hysteria
-  name: 🇩🇪_DE_德国_IPV4 (2)|658KB/s
-  server: 5.83.129.90
-  port: 54177
-  password: dongtaiwang.com
-  tls: true
-  servername: apple.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: IT-202.50.253.36-0189 | 1.819MB|598KB/s
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
