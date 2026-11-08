@@ -1,12 +1,13 @@
-# Mac hourly sync 2026-11-08 19:12:52 | alive 1
+# Mac hourly sync 2026-11-08 21:51:09 | alive 2
 proxies:
-- type: trojan
-  name: 🇩🇪_DE_德国_IPV4|415KB/s
-  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+- name: US - zhuhai.uk 08|330KB/s
+  type: http
+  server: fan.226278.xyz
   port: 443
-  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
   tls: true
-  servername: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  skip-cert-verify: true
-  client-fingerprint: chrome
+- name: IT-202.50.253.36-0267 | 90.147MB|302KB/s
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
