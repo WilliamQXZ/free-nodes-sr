@@ -1,20 +1,20 @@
-# Mac hourly sync 2026-11-09 04:17:31 | alive 7
+# Mac hourly sync 2026-11-09 06:05:00 | alive 8
 proxies:
-- name: 🇺🇸US_4|1.0MB/s|805KB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk|679KB/s
   type: http
-- name: 🇺🇸US_6|1.1MB/s|704KB/s
-  password: None
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
+  server: 138.199.35.215
+  port: 9002
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06|605KB/s
   type: http
+  server: 138.199.35.207
+  port: 9002
+  tls: true
+  sni: 138.199.35.207
+  skip-cert-verify: true
 - type: vmess
-  name: 🇺🇸_US_美国_IPV4 (2)|3KB/s
+  name: 🇺🇸_US_美国_IPV4 (2)|2KB/s
   server: 23.94.83.37
   port: 52080
   uuid: 355c1760-9bde-4b77-916b-5191e7f704a3
@@ -30,28 +30,33 @@ proxies:
     headers:
       Host:
       - down-cdn.dingtalk.com
-- name: 🇺🇸US_5|2.0MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 05
   type: http
-- name: 🇺🇸US_3|1014KB/s|1KB/s
-  password: None
+  server: tzoa.fun
   port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
+  username: Ok5vbmU=
   tls: true
+- name: US - zhuhai.uk 04
   type: http
+  server: 149.88.21.140
+  port: 9443
+  tls: true
+  skip-cert-verify: true
 - name: 🇺🇸US_1|2.8MB/s
   port: 443
   server: 121.127.34.82
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_7|2.5MB/s
-  port: 443
-  server: 193.239.236.134
+- name: US - zhuhai.uk 03
+  type: http
+  server: 66.153.187.90
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_5|2.0MB/s
+  port: 9002
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
