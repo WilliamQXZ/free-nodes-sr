@@ -1,91 +1,47 @@
-# Mac hourly sync 2026-11-09 02:38:33 | alive 9
+# Mac hourly sync 2026-11-09 04:17:28 | alive 6
 proxies:
-- name: 🇩🇪DE_3|1.7MB/s|1.0MB/s
+- name: 🇮🇪IE_1|1.1MB/s|946KB/s
+  port: 443
+  server: 149.88.96.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|1.0MB/s|805KB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|1.1MB/s|704KB/s
   password: None
   port: 443
-  server: 172.64.68.89
+  server: 198.44.135.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇦🇹AT_1|1.1MB/s|683KB/s
+  port: 443
+  server: 146.70.244.18
   skip-cert-verify: true
   tls: true
   type: http
 - type: hysteria
-  name: 🇫🇷_FR_法国_IPV4 (2)|777KB/s
-  server: 163.172.117.163
-  port: 36699
+  name: 🇩🇪_DE_德国_IPV4 (2)|658KB/s
+  server: 5.83.129.90
+  port: 54177
   password: dongtaiwang.com
   tls: true
-  servername: bing.com
-  sni: bing.com
+  servername: apple.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: DE_speednode_0004|775KB/s
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: NL_speednode_0024|745KB/s
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: FR_speednode_0008|725KB/s
-  port: 19362
-  server: 51.159.225.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- type: hysteria
-  name: 🇫🇷_FR_法国_IPV4|684KB/s
-  server: 62.210.28.175
-  port: 24667
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: IT-202.50.253.90-0324 | 80.521MB|553KB/s
-  server: 202.50.253.90
+- name: IT-202.50.253.36-0189 | 1.819MB|598KB/s
+  server: 202.50.253.36
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- type: trojan
-  name: 🇩🇪_DE_德国_IPV4|543KB/s
-  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  port: 443
-  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
-  tls: true
-  servername: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: 🇦🇱 AL_23|332KB/s
-  server: 196.245.52.183
-  port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  reality-opts:
-    public-key: jIRVNEf9SpuWP2nJrAbHGGIUnfzOmwZZlrNGw-Y-O2Q
-    short-id: 2d2598d60447a967
-  servername: e60833x.nl7.h1clayd.click
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /d20896a4ce30
-    host: e60833x.nl7.h1clayd.click
-  udp: true
