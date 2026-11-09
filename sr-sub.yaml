@@ -1,36 +1,33 @@
-# Mac hourly sync 2026-11-10 06:30:46 | alive 5
+# Mac hourly sync 2026-11-10 07:02:20 | alive 4
 proxies:
-- name: US - zhuhai.uk 04|978KB/s
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 4|986KB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- name: US - zhuhai.uk 03|712KB/s
   type: http
-  server: 129.153.93.183
+  server: 138.199.35.196
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: AU - zhuhai.uk|478KB/s
+  type: http
+  server: 103.107.197.146
   port: 443
   tls: true
   skip-cert-verify: true
-- name: IT-202.50.253.18-0192 | 60.888MB|640KB/s
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.72-0159 | 118.838MB|610KB/s
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk|588KB/s
+- name: JP - zhuhai.uk 02|409KB/s
   type: http
-  server: 138.199.35.199
-  port: 9002
+  server: fan.571589.xyz
+  port: 443
   tls: true
-  sni: 138.199.35.199
-  skip-cert-verify: true
-- name: US - zhuhai.uk 09|484KB/s
-  type: http
-  server: 138.199.35.216
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.216
-  skip-cert-verify: true
+  sni: fan.571589.xyz
