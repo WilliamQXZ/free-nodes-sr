@@ -1,29 +1,37 @@
-# Mac hourly sync 2026-11-09 06:04:57 | alive 3
+# Mac hourly sync 2026-11-09 09:11:23 | alive 5
 proxies:
-- name: CH - zhuhai.uk 01|893KB/s
-  type: vless
-  server: prvtch.titun.su
+- name: 🇩🇪[www.v2nodes.com] trojan-DE-...|615KB/s
+  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
   port: 443
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  skip-cert-verify: true
+  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  type: trojan
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #3|558KB/s'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
   udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: perevodchiki.su
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
-- name: US - zhuhai.uk|679KB/s
-  type: http
-  server: 138.199.35.215
-  port: 9002
-  tls: true
+- cipher: aes-256-gcm
+  name: 意大利2|@ripaojiedian|539KB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+- name: '🇩🇪 德国 | DEU #2|462KB/s'
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|605KB/s
-  type: http
-  server: 138.199.35.207
-  port: 9002
-  tls: true
-  sni: 138.199.35.207
+  type: trojan
+  udp: true
+- name: '🇦🇺 澳大利亚 | AUS #1|136KB/s'
+  password: Trojan@82164024
+  port: 443
+  server: 45.32.241.180
   skip-cert-verify: true
+  sni: au.tronsg.com
+  type: trojan
+  udp: true
