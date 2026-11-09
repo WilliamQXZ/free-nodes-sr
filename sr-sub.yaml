@@ -1,38 +1,36 @@
-# Mac hourly sync 2026-11-10 03:58:00 | alive 4
+# Mac hourly sync 2026-11-10 06:30:46 | alive 5
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|797KB/s
-  server: 137.175.82.44
-  port: 20022
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: FR_speednode_0010|747KB/s
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk 04|978KB/s
   type: http
-  udp: true
-  username: 'null'
-- name: NL_speednode_0023|700KB/s
-  port: 9002
-  server: 84.17.47.124
-  skip-cert-verify: true
+  server: 129.153.93.183
+  port: 443
   tls: true
-  type: http
-  udp: true
-- name: IT-202.50.253.27-0191 | 119.205MB|427KB/s
-  server: 202.50.253.27
+  skip-cert-verify: true
+- name: IT-202.50.253.18-0192 | 60.888MB|640KB/s
+  server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.72-0159 | 118.838MB|610KB/s
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk|588KB/s
+  type: http
+  server: 138.199.35.199
+  port: 9002
+  tls: true
+  sni: 138.199.35.199
+  skip-cert-verify: true
+- name: US - zhuhai.uk 09|484KB/s
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.216
+  skip-cert-verify: true
