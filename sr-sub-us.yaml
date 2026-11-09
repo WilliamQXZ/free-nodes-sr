@@ -1,87 +1,20 @@
-# Mac hourly sync 2026-11-09 10:04:03 | alive 9
+# Mac hourly sync 2026-11-09 21:36:10 | alive 3
 proxies:
-- name: US - zhuhai.uk 10|783KB/s
+- name: US - zhuhai.uk 05|0KB/s
   type: http
-  server: 138.199.35.219
+  server: 138.199.35.217
   port: 9002
-  username: 'null'
-  password: 'null'
   tls: true
-  sni: 138.199.35.219
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|2KB/s
+- name: US - zhuhai.uk 06|0KB/s
   type: http
-  server: zebpay.site
+  server: fan.226278.xyz
   port: 443
   tls: true
-- name: US - zhuhai.uk 09|2KB/s
+- name: US - zhuhai.uk 03
   type: http
-  server: 138.199.35.216
-  port: 9002
-  username: 'null'
-  password: 'null'
+  server: 45.145.73.240
+  port: 8443
   tls: true
-  sni: 138.199.35.216
+  sni: 45.145.73.240
   skip-cert-verify: true
-- name: US - zhuhai.uk 05|2KB/s
-  type: http
-  server: 138.199.35.215
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.215
-  skip-cert-verify: true
-- name: US - zhuhai.uk|2KB/s
-  type: http
-  server: 138.199.35.196
-  port: 9002
-  tls: true
-  sni: 138.199.35.196
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|2KB/s
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 14|1KB/s
-  server: 196.245.52.188
-  port: 443
-  type: vless
-  uuid: 747db87a-0cf6-4ea7-ae6b-3293afe2cef6
-  tls: true
-  reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: ce43937e79bc30f0
-  servername: 62981et.us11.h1clayd.click
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: US - zhuhai.uk 08
-  type: http
-  server: jewelscollecti.icu
-  port: 443
-  username: 'null'
-  password: None
-  tls: true
-  sni: jewelscollecti.icu
-- type: vmess
-  name: 🇺🇸_US_美国_IPV4
-  server: 23.94.83.37
-  port: 52080
-  uuid: 355c1760-9bde-4b77-916b-5191e7f704a3
-  cipher: auto
-  alterId: 0
-  tls: false
-  servername: down-cdn.dingtalk.com
-  sni: down-cdn.dingtalk.com
-  network: http
-  http-opts:
-    path:
-    - /QQqun-737805443
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
