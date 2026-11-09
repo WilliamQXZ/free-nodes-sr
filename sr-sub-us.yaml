@@ -1,5 +1,25 @@
-# Mac hourly sync 2026-11-09 06:05:00 | alive 8
+# Mac hourly sync 2026-11-09 09:11:28 | alive 9
 proxies:
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: '🇺🇸 美国 | USA #3|1KB/s'
+  network: http
+  port: 52080
+  server: 23.94.83.37
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 355c1760-9bde-4b77-916b-5191e7f704a3
 - name: US - zhuhai.uk|679KB/s
   type: http
   server: 138.199.35.215
