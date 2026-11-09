@@ -1,5 +1,33 @@
-# Mac hourly sync 2026-11-10 02:56:41 | alive 5
+# Mac hourly sync 2026-11-10 04:34:38 | alive 7
 proxies:
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|797KB/s
+  server: 137.175.82.44
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4
+  server: 137.175.82.43
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
   server: 137.175.82.44
