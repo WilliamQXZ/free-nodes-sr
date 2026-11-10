@@ -1,7 +1,14 @@
-# Mac hourly sync 2026-11-10 20:03:06 | alive 1
+# Mac hourly sync 2026-11-10 21:04:08 | alive 2
 proxies:
-- name: IT-202.50.253.90-0184 | 83.003MB|119KB/s
-  server: 202.50.253.90
+- name: HK - zhuhai.uk 02|145KB/s
+  type: http
+  server: fan.240104.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+- name: IT-202.50.253.45-0219 | 77.011MB|121KB/s
+  server: 202.50.253.45
   port: 19999
   type: ss
   cipher: aes-256-gcm
