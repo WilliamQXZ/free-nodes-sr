@@ -1,10 +1,11 @@
-# Mac hourly sync 2026-11-10 07:02:24 | alive 5
+# Mac hourly sync 2026-11-10 08:02:32 | alive 6
 proxies:
-- name: US - zhuhai.uk 03|712KB/s
+- name: US - zhuhai.uk|58KB/s
   type: http
-  server: 138.199.35.196
-  port: 9002
+  server: 184.188.139.2
+  port: 8090
   tls: true
+  sni: 184.188.139.2
   skip-cert-verify: true
 - name: US - zhuhai.uk 02|1KB/s
   type: http
@@ -29,6 +30,12 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 138.199.35.196
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
   server: 137.175.82.44
