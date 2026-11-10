@@ -1,35 +1,30 @@
-# Mac hourly sync 2026-11-10 14:52:24 | alive 4
+# Mac hourly sync 2026-11-10 16:51:23 | alive 3
 proxies:
-- name: 🇺🇸US_15|2.2MB/s|516KB/s
+- name: 🇳🇱NL_3|4.1MB/s|264KB/s
   password: None
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- encryption: mlkem768x25519plus.native.0rtt.JOz04Neg9PDWwDsVd4DaTDB63yZZDX2FNbkadsv91gk
-  http-opts:
-    headers:
-      Host:
-      - ssh.webdade.com
-    path:
-    - /
-  name: 🇳🇱NL_1|1.0MB/s|465KB/s
-  network: http
-  port: 46132
-  server: edition.ativetechnology.ir
-  type: vless
-  udp: true
-  uuid: b86451af-4c98-4b7d-96e5-16f2e9df1d46
-  xudp: true
-- name: 🇫🇷FR_2|2.3MB/s|410KB/s
   port: 9443
-  server: 213.139.9.142
+  server: 149.36.51.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: IT-202.50.253.36-0240 | 87.094MB|127KB/s
-  server: 202.50.253.36
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4|250KB/s
+  server: 172.67.190.164
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: IT-202.50.253.90-0184 | 83.003MB|178KB/s
+  server: 202.50.253.90
   port: 19999
   type: ss
   cipher: aes-256-gcm
