@@ -1,21 +1,174 @@
-# Mac hourly sync 2026-11-10 08:02:32 | alive 6
+# Mac hourly sync 2026-11-10 09:04:14 | alive 26
 proxies:
-- name: US - zhuhai.uk|58KB/s
-  type: http
-  server: 184.188.139.2
-  port: 8090
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|709KB/s
+  server: 137.175.82.44
+  port: 20022
+  password: dongtaiwang.com
   tls: true
-  sni: 184.188.139.2
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: 🇺🇸US_9|2.0MB/s|82KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
   type: http
-  server: 138.199.35.216
+- name: 🇺🇸US_16|2.6MB/s|2KB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|1.5MB/s|2KB/s
+  password: None
+  port: 443
+  server: 198.44.135.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 03|2KB/s
+  type: http
+  server: 138.199.35.196
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_6|2.6MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|3.7MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (5)|1KB/s
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: 🇺🇸US_10|3.1MB/s|1KB/s
+  port: 443
+  server: 129.153.93.183
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_22|2.7MB/s|1KB/s
+  network: xhttp
+  port: 443
+  server: www.codex2api.com
+  servername: 86f9dec4s478.kuback.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  xhttp-opts:
+    host: 86f9dec4s478.kuback.top
+    path: 48a0348bf803e0097405a138424f4890
+    x-padding-bytes: 100-1000
+    x-padding-header: X-Forwarded-Uri
+    x-padding-key: _
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_2|3.8MB/s|1KB/s
+  network: xhttp
+  port: 443
+  server: 200.102.179.69
+  servername: dmbdnpctq8hjxx.hat.onl
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+  xhttp-opts:
+    host: dmbdnpctq8hjxx.hat.onl
+    mode: auto
+    path: /hls/014373eq/seg
+  xudp: true
+- name: 🇺🇸US_20|2.7MB/s|1KB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 🇺🇸US_19|3.1MB/s|1KB/s
+  password: None
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_18|2.2MB/s|1KB/s
+  password: None
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 138.199.35.206
   port: 9002
   username: 'null'
-  password: 'null'
+  password: None
   tls: true
-  sni: 138.199.35.216
   skip-cert-verify: true
+- name: 🇺🇸US_12|2.3MB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|1.5MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_15|2.2MB/s|1KB/s
+  password: None
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|1.0MB/s|1KB/s
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
+  tls: true
+  type: http
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4|1KB/s
   server: 137.175.82.43
@@ -30,31 +183,74 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.196
-  port: 9002
-  tls: true
+- name: 🇺🇸US_17|1.7MB/s|K001-260618|1KB/s
+  port: 443
+  server: 149.34.248.65
   skip-cert-verify: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
-  server: 137.175.82.44
-  port: 20022
-  password: dongtaiwang.com
+  sub_tag: K001-260618
   tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 04|1KB/s
   type: http
-  server: 138.199.35.206
+  udp: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.216
   port: 9002
   username: 'null'
-  password: None
+  password: 'null'
   tls: true
+  sni: 138.199.35.216
+  skip-cert-verify: true
+- name: 🇺🇸US_7|2.2MB/s|0KB/s
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+  server: 172.67.190.164
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_23|2.3MB/s
+  network: xhttp
+  port: 443
+  server: cf-cname.xingpingcn.top
+  servername: 86f9dec4s478.kuback.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  xhttp-opts:
+    host: 86f9dec4s478.kuback.top
+    path: 48a0348bf803e0097405a138424f4890
+    x-padding-bytes: 100-1000
+    x-padding-header: X-Forwarded-Uri
+    x-padding-key: _
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+  xudp: true
+- name: US - zhuhai.uk
+  type: http
+  server: 184.188.139.2
+  port: 8090
+  tls: true
+  sni: 184.188.139.2
   skip-cert-verify: true
