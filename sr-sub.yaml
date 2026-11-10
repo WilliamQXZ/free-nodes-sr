@@ -1,50 +1,48 @@
-# Mac hourly sync 2026-11-11 01:02:34 | alive 5
+# Mac hourly sync 2026-11-11 04:01:32 | alive 6
 proxies:
-- name: 🇦🇹AT_1|2.7MB/s|524KB/s
+- name: US - zhuhai.uk 01|1.0MB/s
+  type: vless
+  server: 104.36.69.105
   port: 443
-  server: 146.70.244.18
-  skip-cert-verify: true
+  uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
   tls: true
+  servername: portal.citygrainla.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+    short-id: 051f20c2344a2dfd
+- name: IE - zhuhai.uk 02|744KB/s
   type: http
-- type: hysteria
-  name: 🇩🇪_DE_德国_IPV4 (3)|487KB/s
-  server: 5.83.129.90
-  port: 54177
-  password: dongtaiwang.com
-  tls: true
-  servername: apple.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: 🇺🇸US_8|1.3MB/s|428KB/s
+  server: 18.200.158.139
   port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
+  username: 'null'
+  password: 'null'
   tls: true
+  skip-cert-verify: true
+- name: ID - zhuhai.uk|722KB/s
   type: http
-- name: IT-202.50.253.63-0235 | 77.788MB|362KB/s
+  server: 103.86.117.202
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk 03|655KB/s
+  type: http
+  server: 5.2.73.112
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.63-0235 | 77.788MB|468KB/s
   server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4|309KB/s
-  server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
+- name: SE - zhuhai.uk|381KB/s
+  type: http
+  server: 77.221.136.60
+  port: 8443
   tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
+  skip-cert-verify: true
