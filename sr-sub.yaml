@@ -1,13 +1,21 @@
-# Mac hourly sync 2026-11-12 03:59:37 | alive 5
+# Mac hourly sync 2026-11-12 05:18:57 | alive 7
 proxies:
-- name: 🇸🇪SE_1|1.6MB/s|868KB/s
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (4)|817KB/s
+  name: 🇫🇷_FR_法国_IPV4|978KB/s
+  server: 62.210.28.175
+  port: 24667
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (4)|853KB/s
   server: 198.200.57.142
   port: 22335
   password: github.com/Alvin9999-newpac/fanqiang
@@ -21,8 +29,8 @@ proxies:
   down: '55'
   auth-str: github.com/Alvin9999-newpac/fanqiang
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|727KB/s
-  server: 137.175.82.43
+  name: 🇺🇸_US_美国_IPV4 (3)|826KB/s
+  server: 137.175.82.44
   port: 20022
   password: dongtaiwang.com
   tls: true
@@ -31,18 +39,42 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-  up: '20'
-  down: '20'
+  up: '11'
+  down: '55'
   auth-str: dongtaiwang.com
-- name: 🇩🇪DE_2|1.6MB/s|505KB/s
-  port: 443
-  server: 213.177.229.161
+- name: 🇺🇸US_6|2.4MB/s|670KB/s
+  port: 9002
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
-- name: IT-202.50.253.27-0150 | 98.426MB|269KB/s
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: vmess
+  name: '@DeltaKroneckerGithub_3021_IPV4|652KB/s'
+  server: 172.64.145.93
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: US - zhuhai.uk 17|356KB/s
+  type: http
+  server: 138.199.35.214
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: ID - zhuhai.uk 02|296KB/s
+  type: http
+  server: 103.153.135.118
+  port: 443
+  tls: true
+  skip-cert-verify: true
