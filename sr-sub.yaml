@@ -1,40 +1,40 @@
-# Mac hourly sync 2026-11-11 13:08:20 | alive 5
+# Mac hourly sync 2026-11-11 14:04:07 | alive 6
 proxies:
-- type: trojan
-  name: 🇯🇵_JP_日本_IPV4|590KB/s
-  server: 185.220.238.77
-  port: 11543
-  password: HutaoCloud
-  tls: true
-  servername: 185.220.238.77
-  sni: 185.220.238.77
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /api
-- name: NL - zhuhai.uk|477KB/s
+- name: DE - zhuhai.uk 03|729KB/s
   type: http
-  server: 51.158.243.91
-  port: 443
+  server: 158.173.154.1
+  port: 9002
   tls: true
   skip-cert-verify: true
-- name: PL - zhuhai.uk|471KB/s
+- name: US - zhuhai.uk 05|547KB/s
+  type: http
+  server: 66.153.187.90
+  port: 8090
+  tls: true
+  sni: 66.153.187.90
+  skip-cert-verify: true
+- name: PL - zhuhai.uk|495KB/s
   type: http
   server: 151.115.54.133
   port: 443
   tls: true
   skip-cert-verify: true
-- name: IT - zhuhai.uk|433KB/s
-  type: http
-  server: 95.229.15.89
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.63-0235 | 51.455MB|379KB/s
-  server: 202.50.253.63
+- name: IT-202.50.253.18-0248 | 50.107MB|384KB/s
+  server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: KR - zhuhai.uk 02|317KB/s
+  type: http
+  server: 64.110.88.200
+  port: 30000
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_7|1.5MB/s|165KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
