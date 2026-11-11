@@ -1,7 +1,13 @@
-# Mac hourly sync 2026-11-12 02:00:14 | alive 4
+# Mac hourly sync 2026-11-12 03:59:37 | alive 5
 proxies:
+- name: 🇸🇪SE_1|1.6MB/s|868KB/s
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (4)|665KB/s
+  name: 🇺🇸_US_美国_IPV4 (4)|817KB/s
   server: 198.200.57.142
   port: 22335
   password: github.com/Alvin9999-newpac/fanqiang
@@ -14,21 +20,28 @@ proxies:
   up: '11'
   down: '55'
   auth-str: github.com/Alvin9999-newpac/fanqiang
-- name: 🇮🇹IT_6|3.0MB/s|637KB/s
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|727KB/s
+  server: 137.175.82.43
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- name: 🇩🇪DE_2|1.6MB/s|505KB/s
   port: 443
-  server: 185.183.105.146
+  server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_1|2.6MB/s|627KB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: IT-202.50.253.36-0178 | 98.133MB|313KB/s
-  server: 202.50.253.36
+- name: IT-202.50.253.27-0150 | 98.426MB|269KB/s
+  server: 202.50.253.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
