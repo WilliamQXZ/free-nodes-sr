@@ -1,27 +1,39 @@
-# Mac hourly sync 2026-11-11 09:04:11 | alive 4
+# Mac hourly sync 2026-11-11 13:08:20 | alive 5
 proxies:
-- name: 🇺🇸US_10|3.0MB/s|671KB/s
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
+- type: trojan
+  name: 🇯🇵_JP_日本_IPV4|590KB/s
+  server: 185.220.238.77
+  port: 11543
+  password: HutaoCloud
   tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_15|3.3MB/s|432KB/s
-  password: None
-  port: 8443
-  server: 18.206.28.143
+  servername: 185.220.238.77
+  sni: 185.220.238.77
   skip-cert-verify: true
-  tls: true
+  network: ws
+  ws-opts:
+    path: /api
+- name: NL - zhuhai.uk|477KB/s
   type: http
-- name: IT - zhuhai.uk 03|400KB/s
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.54-0193 | 55.236MB|362KB/s
-  server: 202.50.253.54
+  server: 51.158.243.91
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: PL - zhuhai.uk|471KB/s
+  type: http
+  server: 151.115.54.133
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: IT - zhuhai.uk|433KB/s
+  type: http
+  server: 95.229.15.89
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.63-0235 | 51.455MB|379KB/s
+  server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
