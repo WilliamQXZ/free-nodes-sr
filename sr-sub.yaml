@@ -1,41 +1,35 @@
-# Mac hourly sync 2026-11-11 22:03:34 | alive 4
+# Mac hourly sync 2026-11-11 23:28:51 | alive 4
 proxies:
+- name: 🇸🇪SE_1|1.6MB/s|406KB/s
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|1.5MB/s|315KB/s
+  password: None
+  port: 443
+  server: 198.44.135.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_2|1.6MB/s|290KB/s
+  port: 443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
 - type: hysteria
-  name: 🇫🇷_FR_法国_IPV4 (2)|318KB/s
-  server: 163.172.117.163
-  port: 36699
+  name: 🇩🇪_DE_德国_IPV4 (2)|283KB/s
+  server: 5.83.129.90
+  port: 54177
   password: dongtaiwang.com
   tls: true
-  servername: bing.com
-  sni: bing.com
+  servername: apple.com
+  sni: apple.com
   skip-cert-verify: true
   alpn:
   - h3
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: IT-202.50.253.18-0192 | 84.395MB|317KB/s
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_9|2.0MB/s|285KB/s
-  port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: '🇱🇻 拉脱维亚 | LVA #2|151KB/s'
-  network: xhttp
-  port: 4443
-  server: 2.26.88.140
-  servername: lv3.nexfile.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  xhttp-opts:
-    host: lv3.nexfile.net
-    path: /api/v1/sync/
