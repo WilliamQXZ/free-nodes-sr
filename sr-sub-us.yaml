@@ -1,5 +1,33 @@
-# Mac hourly sync 2026-11-11 13:08:23 | alive 17
+# Mac hourly sync 2026-11-11 14:09:34 | alive 17
 proxies:
+- name: US - zhuhai.uk 05|547KB/s
+  type: http
+  server: 66.153.187.90
+  port: 8090
+  tls: true
+  sni: 66.153.187.90
+  skip-cert-verify: true
+- name: 🇺🇸US_7|1.5MB/s|165KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_9|1.5MB/s|2KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|3.8MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: US - zhuhai.uk 04|2KB/s
   type: http
   server: 138.199.35.219
@@ -8,17 +36,51 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_5|3.8MB/s|1KB/s
+- name: 🇺🇸US_6|1.2MB/s|2KB/s
+  password: None
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|3.0MB/s|2KB/s
+  port: 9002
+  server: 138.199.35.220
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: US - zhuhai.uk 03|2KB/s
+  type: http
+  server: 138.199.35.200
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - name: 🇺🇸US_4|3.5MB/s|1KB/s
   password: None
   port: 9002
   server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
+  server: 137.175.82.43
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- name: 🇺🇸US_15|3.3MB/s|1KB/s
+  password: None
+  port: 8443
+  server: 18.206.28.143
   skip-cert-verify: true
   tls: true
   type: http
@@ -30,55 +92,26 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_7|1.5MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-- type: vless
-  name: 🇺🇸_US_美国_IPV4|1KB/s
-  server: 3.169.9.125
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  tls: true
-  servername: d14jyezfrcyf60.cloudfront.net
-  sni: d14jyezfrcyf60.cloudfront.net
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: d14jyezfrcyf60.cloudfront.net
-- name: 🇺🇸US_10|3.0MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_9|1.5MB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 05|0KB/s
-  type: http
-  server: 66.153.187.90
-  port: 8090
-  tls: true
-  sni: 66.153.187.90
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|0KB/s
+- name: US - zhuhai.uk 02|1KB/s
   type: http
   server: 172.64.69.89
   port: 443
   tls: true
   skip-cert-verify: true
+- name: 🇺🇸US_8|1.3MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_11|1.7MB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (3)
   server: 137.175.82.44
@@ -93,48 +126,6 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)
-  server: 137.175.82.43
-  port: 20022
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
-- name: 🇺🇸US_15|3.3MB/s
-  password: None
-  port: 8443
-  server: 18.206.28.143
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|3.0MB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_14|1.3MB/s|K001-260618
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_13|2.6MB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (4)
   server: 198.200.57.142
