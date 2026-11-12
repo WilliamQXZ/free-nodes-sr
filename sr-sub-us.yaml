@@ -1,7 +1,13 @@
-# Mac hourly sync 2026-11-12 17:02:53 | alive 16
+# Mac hourly sync 2026-11-12 18:03:22 | alive 16
 proxies:
+- name: 🇺🇸US_8|2.0MB/s|488KB/s
+  port: 443
+  server: 192.227.176.234
+  skip-cert-verify: true
+  tls: true
+  type: http
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (6)|427KB/s
+  name: 🇺🇸_US_美国_IPV4 (6)|373KB/s
   server: 137.175.82.44
   port: 20022
   password: dongtaiwang.com
@@ -14,78 +20,36 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: 🇺🇸US_6|2.8MB/s|64KB/s
+- name: 🇺🇸US_17|2.6MB/s|13KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  sni: 138.199.35.219
+  tls: true
+  type: http
+  username: 'null'
+- name: US - zhuhai.uk 04|2KB/s
+  type: http
+  server: 38.28.193.188
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_6|2.8MB/s|2KB/s
   password: None
   port: 9002
   server: 138.199.35.204
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_9|2.8MB/s|2KB/s
-  password: None
+- name: 🇺🇸US_14|2.7MB/s|2KB/s
   port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_16|3.2MB/s|2KB/s
-  port: 9002
-  server: 138.199.35.212
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇺🇸US_12|3.6MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_8|2.0MB/s|1KB/s
-  port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US-157.254.38.210-0180 | 58.063MB|1KB/s
-  server: sclass-b1.catcat321.com
-  port: 20028
-  type: trojan
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  sni: hk.catxstar.com
-  skip-cert-verify: false
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 12.202.180.118
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_21|2.4MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|3.1MB/s|K001-260618|1KB/s
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_4|1018KB/s|1KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (7)|1KB/s
   server: 198.200.57.142
@@ -100,8 +64,50 @@ proxies:
   up: '11'
   down: '55'
   auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: 🇺🇸US_4|1018KB/s|1KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_7|1.0MB/s|1KB/s
+  password: None
+  port: 443
+  server: 198.44.135.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|3.6MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_3|2.9MB/s|1KB/s
+  password: None
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|2.0MB/s|1KB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_21|2.4MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (5)|1KB/s
+  name: 🇺🇸_US_美国_IPV4 (5)|0KB/s
   server: 137.175.82.43
   port: 20022
   password: dongtaiwang.com
@@ -114,27 +120,27 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 198.44.138.27
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_17|2.6MB/s|0KB/s
-  password: 'null'
+- name: 🇺🇸US_16|3.2MB/s|0KB/s
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.212
   skip-cert-verify: true
-  sni: 138.199.35.219
   tls: true
   type: http
-  username: 'null'
-- type: trojan
-  name: 🇺🇸_US_美国_IPV4 (3)
-  server: 23.106.44.14
+  udp: true
+  x-toolall-mihomo: true
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+  server: 172.67.190.164
   port: 443
-  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
   tls: true
-  servername: sj6.freeguard.org
-  sni: sj6.freeguard.org
-  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
