@@ -1,15 +1,15 @@
-# Mac hourly sync 2026-11-12 14:04:17 | alive 5
+# Mac hourly sync 2026-11-12 15:03:47 | alive 3
 proxies:
-- name: 🇸🇪SE_1|1.6MB/s|506KB/s
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: IT-202.50.253.99-0136 | 38.608MB|399KB/s
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - type: hysteria
-  name: 🇫🇷_FR_法国_IPV4 (2)|473KB/s
-  server: 163.172.117.163
-  port: 36699
+  name: 🇺🇸_US_美国_IPV4 (6)|270KB/s
+  server: 137.175.82.44
+  port: 20022
   password: dongtaiwang.com
   tls: true
   servername: bing.com
@@ -20,31 +20,9 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: 🇸🇪SE_2|3.1MB/s|334KB/s
-  password: None
+- name: 🇺🇸US_8|2.0MB/s|256KB/s
   port: 443
-  server: 146.70.242.146
+  server: 192.227.176.234
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_13|2.0MB/s|302KB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- type: vless
-  name: 🇺🇸_US_美国_IPV4 (4)|299KB/s
-  server: 3.169.9.125
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  tls: true
-  servername: d14jyezfrcyf60.cloudfront.net
-  sni: d14jyezfrcyf60.cloudfront.net
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: d14jyezfrcyf60.cloudfront.net
