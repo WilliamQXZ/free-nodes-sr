@@ -1,15 +1,15 @@
-# Mac hourly sync 2026-11-12 15:03:47 | alive 3
+# Mac hourly sync 2026-11-12 16:02:38 | alive 4
 proxies:
-- name: IT-202.50.253.99-0136 | 38.608MB|399KB/s
+- name: IT-202.50.253.99-0177 | 109.351MB|464KB/s
   server: 202.50.253.99
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (6)|270KB/s
-  server: 137.175.82.44
-  port: 20022
+  name: 🇫🇷_FR_法国_IPV4|317KB/s
+  server: 62.210.28.175
+  port: 24667
   password: dongtaiwang.com
   tls: true
   servername: bing.com
@@ -20,9 +20,16 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: 🇺🇸US_8|2.0MB/s|256KB/s
+- name: 🇩🇪DE_6|3.9MB/s|267KB/s
+  password: None
   port: 443
-  server: 192.227.176.234
+  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
+- name: IT-202.50.253.63-0247 | 99.44MB|175KB/s
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
