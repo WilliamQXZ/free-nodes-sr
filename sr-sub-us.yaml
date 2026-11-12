@@ -1,29 +1,55 @@
-# Mac hourly sync 2026-11-13 01:03:41 | alive 8
+# Mac hourly sync 2026-11-13 02:02:32 | alive 8
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (5)|628KB/s
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-- name: US - zhuhai.uk|29KB/s
-  type: http
-  server: 138.199.35.215
+- name: 🇺🇸US_3|3.3MB/s|R002-260618|600KB/s
+  password: 'null'
   port: 9002
-  tls: true
-  sni: 138.199.35.215
+  server: 138.199.35.214
   skip-cert-verify: true
-- name: 🇺🇸US_4|1.5MB/s|2KB/s
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- type: vless
+  name: 🇺🇸_US_美国_IPV4 (2)|148KB/s
+  server: 3.169.9.125
   port: 443
-  server: 12.202.180.118
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  tls: true
+  servername: d14jyezfrcyf60.cloudfront.net
+  sni: d14jyezfrcyf60.cloudfront.net
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: d14jyezfrcyf60.cloudfront.net
+- name: 🇺🇸US_1|2.7MB/s|1KB/s
+  password: None
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #4|1KB/s'
+  network: xhttp
+  port: 443
+  server: 200.102.179.69
+  servername: dmbdnpctq8hjxx.hat.onl
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+  xhttp-opts:
+    host: dmbdnpctq8hjxx.hat.onl
+    mode: auto
+    path: /hls/014373eq/seg
+- name: 🇺🇸US_2|1.2MB/s|1KB/s
+  port: 443
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
@@ -41,14 +67,8 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 38.28.193.188
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
+  name: 🇺🇸_US_美国_IPV4 (3)|0KB/s
   server: 137.175.82.43
   port: 20022
   password: dongtaiwang.com
@@ -61,22 +81,17 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
-- name: 🇺🇸US_3|3.3MB/s|R002-260618|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  sub_tag: R002-260618
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (5)|0KB/s
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
   tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 138.199.35.207
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
