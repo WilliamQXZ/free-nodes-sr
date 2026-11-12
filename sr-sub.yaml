@@ -1,40 +1,16 @@
-# Mac hourly sync 2026-11-13 05:01:55 | alive 9
+# Mac hourly sync 2026-11-13 06:01:33 | alive 8
 proxies:
-- name: 🇩🇪DE_3|1.5MB/s|1.0MB/s
-  password: None
+- name: 🇺🇸US_2|1.2MB/s|916KB/s
   port: 443
-  server: 172.64.68.89
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: IE - zhuhai.uk|835KB/s
-  type: http
-  server: 18.200.158.139
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 18.200.158.139
-  skip-cert-verify: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|831KB/s
-  server: 137.175.82.43
-  port: 20022
+  name: 🇫🇷_FR_法国_IPV4 (2)|801KB/s
+  server: 163.172.117.163
+  port: 36699
   password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (5)|795KB/s
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
   tls: true
   servername: bing.com
   sni: bing.com
@@ -43,46 +19,55 @@ proxies:
   - h3
   up: '11'
   down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #4|752KB/s'
-  network: xhttp
+  auth-str: dongtaiwang.com
+- type: anytls
+  name: 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4|759KB/s
+  server: sdf65h46wr.df6h451rh.xin
   port: 443
-  server: 200.102.179.69
-  servername: dmbdnpctq8hjxx.hat.onl
+  password: 0324fbc29561
   tls: true
-  type: vless
-  udp: true
-  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
-  xhttp-opts:
-    host: dmbdnpctq8hjxx.hat.onl
-    mode: auto
-    path: /hls/014373eq/seg
-- name: IT-202.50.253.99-0177 | 71.516MB|622KB/s
+  servername: images.ctfassets.net
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|680KB/s
+  type: http
+  server: 149.34.248.65
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.99-0177 | 71.516MB|645KB/s
   server: 202.50.253.99
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: CA - zhuhai.uk 03|618KB/s
-  type: http
-  server: 4.172.245.121
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 4.172.245.121
-  skip-cert-verify: true
-- name: US - zhuhai.uk|615KB/s
+- name: US - zhuhai.uk|622KB/s
   type: http
   server: 138.199.35.213
   port: 9002
   tls: true
   sni: 138.199.35.213
   skip-cert-verify: true
-- name: IT-202.50.253.81-0176 | 55.528MB|596KB/s
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- type: vmess
+  name: 🇺🇸_US_美国_IPV4|610KB/s
+  server: 104.18.42.163
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: JP - zhuhai.uk|438KB/s
+  type: http
+  server: fan.587475.xyz
+  port: 443
+  tls: true
+  sni: fan.587475.xyz
+  skip-cert-verify: true
