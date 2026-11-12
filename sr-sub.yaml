@@ -1,10 +1,10 @@
-# Mac hourly sync 2026-11-12 20:05:23 | alive 5
+# Mac hourly sync 2026-11-12 21:04:06 | alive 1
 proxies:
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (7)|634KB/s
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
+  name: 🇫🇷_FR_法国_IPV4 (2)|311KB/s
+  server: 163.172.117.163
+  port: 36699
+  password: dongtaiwang.com
   tls: true
   servername: bing.com
   sni: bing.com
@@ -13,30 +13,4 @@ proxies:
   - h3
   up: '11'
   down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-- name: 🇷🇸RS_1|1.7MB/s|395KB/s
-  password: None
-  port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇺RU_1|2.1MB/s|246KB/s
-  password: None
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: IT-202.50.253.45-0194 | 108.48MB|222KB/s
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_8|2.0MB/s|210KB/s
-  port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
-  tls: true
-  type: http
+  auth-str: dongtaiwang.com
