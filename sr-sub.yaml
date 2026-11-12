@@ -1,15 +1,16 @@
-# Mac hourly sync 2026-11-12 16:02:38 | alive 4
+# Mac hourly sync 2026-11-12 17:02:49 | alive 3
 proxies:
-- name: IT-202.50.253.99-0177 | 109.351MB|464KB/s
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇸🇪SE_2|3.1MB/s|451KB/s
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
 - type: hysteria
-  name: 🇫🇷_FR_法国_IPV4|317KB/s
-  server: 62.210.28.175
-  port: 24667
+  name: 🇺🇸_US_美国_IPV4 (6)|427KB/s
+  server: 137.175.82.44
+  port: 20022
   password: dongtaiwang.com
   tls: true
   servername: bing.com
@@ -20,16 +21,19 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: 🇩🇪DE_6|3.9MB/s|267KB/s
-  password: None
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE_1|3.7MB/s|326KB/s
+  network: grpc
   port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
+  server: 212.113.116.181
+  servername: de.oncloudvpn.com
   tls: true
-  type: http
-- name: IT-202.50.253.63-0247 | 99.44MB|175KB/s
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  type: vless
+  udp: true
+  uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d
+  xudp: true
