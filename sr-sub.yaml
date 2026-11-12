@@ -1,56 +1,70 @@
-# Mac hourly sync 2026-11-13 03:01:33 | alive 7
+# Mac hourly sync 2026-11-13 04:02:04 | alive 9
 proxies:
-- name: NL - zhuhai.uk 02|774KB/s
+- name: DK - zhuhai.uk|933KB/s
   type: http
-  server: 51.159.225.196
-  port: 23856
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: GR - zhuhai.uk|746KB/s
-  type: http
-  server: 149.22.85.78
+  server: 185.245.84.50
   port: 443
   tls: true
-  sni: 149.22.85.78
   skip-cert-verify: true
-- name: DE - zhuhai.uk 03|721KB/s
+- type: hysteria
+  name: 🇫🇷_FR_法国_IPV4 (2)|788KB/s
+  server: 163.172.117.163
+  port: 36699
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: US - zhuhai.uk 05|732KB/s
   type: http
-  server: 158.173.154.2
+  server: 149.34.248.65
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: LT - zhuhai.uk|696KB/s
+  type: http
+  server: 89.124.11.9
+  port: 443
+  tls: true
+  sni: 89.124.11.9
+  skip-cert-verify: true
+- name: US - zhuhai.uk|687KB/s
+  type: http
+  server: 138.199.35.213
   port: 9002
+  tls: true
+  sni: 138.199.35.213
+  skip-cert-verify: true
+- name: NL - zhuhai.uk|675KB/s
+  type: http
+  server: 51.158.243.91
+  port: 443
   username: 'null'
-  password: 'null'
+  password: None
   tls: true
-  sni: 158.173.154.2
+  sni: 51.158.243.91
   skip-cert-verify: true
-- name: 🇺🇸US_3|3.3MB/s|R002-260618|670KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
+- name: DE - zhuhai.uk|662KB/s
   type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk|642KB/s
-  type: http
-  server: 138.199.35.215
-  port: 9002
+  server: 213.109.163.119
+  port: 443
   tls: true
-  sni: 138.199.35.215
+  sni: 213.109.163.119
   skip-cert-verify: true
-- name: IT-202.50.253.63-0247 | 99.44MB|526KB/s
-  server: 202.50.253.63
+- name: IT-202.50.253.99-0177 | 109.351MB|494KB/s
+  server: 202.50.253.99
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4|519KB/s
-  server: 172.67.190.164
+  name: '@DeltaKroneckerGithub_3021_IPV4|404KB/s'
+  server: 172.64.145.93
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
@@ -58,7 +72,6 @@ proxies:
   tls: true
   servername: guanwang.awsno.com
   sni: guanwang.awsno.com
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /hls/cctv5phd.m3u8
