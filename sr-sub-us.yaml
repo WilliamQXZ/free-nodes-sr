@@ -1,43 +1,32 @@
-# Mac hourly sync 2026-11-13 00:03:26 | alive 9
+# Mac hourly sync 2026-11-13 01:03:41 | alive 8
 proxies:
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|326KB/s
-  server: 137.175.82.43
-  port: 20022
-  password: dongtaiwang.com
+  name: 🇺🇸_US_美国_IPV4 (5)|628KB/s
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
   tls: true
   servername: bing.com
   sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
-- name: US - zhuhai.uk|12KB/s
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: US - zhuhai.uk|29KB/s
   type: http
   server: 138.199.35.215
   port: 9002
   tls: true
   sni: 138.199.35.215
   skip-cert-verify: true
-- name: 🇺🇸US_3|3.3MB/s|R002-260618|7KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 38.28.193.188
+- name: 🇺🇸US_4|1.5MB/s|2KB/s
   port: 443
-  tls: true
+  server: 12.202.180.118
   skip-cert-verify: true
+  tls: true
+  type: http
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
   server: 137.175.82.44
@@ -52,14 +41,37 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 02|1KB/s
-  type: trojan
-  server: 97.64.19.252
-  port: 8443
-  password: trojan2024pass
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 38.28.193.188
+  port: 443
   tls: true
-  sni: 97.64.19.252
   skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
+  server: 137.175.82.43
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- name: 🇺🇸US_3|3.3MB/s|R002-260618|1KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
 - name: US - zhuhai.uk 04|1KB/s
   type: http
   server: 138.199.35.207
@@ -68,16 +80,3 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_1|2.7MB/s|0KB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|1.2MB/s|0KB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
