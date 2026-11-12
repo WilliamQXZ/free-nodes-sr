@@ -1,84 +1,142 @@
-# Mac hourly sync 2026-11-12 10:02:37 | alive 13
+# Mac hourly sync 2026-11-12 11:02:34 | alive 20
 proxies:
-- name: 🇺🇸US-169.197.142.68-0142 | 77.788MB|483KB/s
-  server: 169.197.142.68
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-156.146.38.169-0081 | 46.532MB|465KB/s
-  server: 156.146.38.169
+- name: 🇺🇸US-156.146.38.168-0080 | 110.394MB|694KB/s
+  server: 156.146.38.168
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-193.151.160.18-0082 | 174.583MB|438KB/s
-  server: 193.151.160.18
+- name: 🇺🇸US-23.150.152.38-0184 | 54.24MB|687KB/s
+  server: 23.150.152.38
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-84.20.27.183-0140 | 84.488MB|405KB/s
+- name: 🇺🇸US-167.88.61.175-0083 | 61.535MB|685KB/s
+  server: 167.88.61.175
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.browseseniorrolesandenhanceyourcareertoday.com
+  skip-cert-verify: false
+- name: 🇬🇧GB-82.38.31.194-0104 | 91.32MB|585KB/s
+  server: 82.38.31.194
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.203-0110 | 98.467MB|577KB/s
+  server: 82.38.31.203
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇺🇸US-38.121.43.231-0123 | 56.781MB|533KB/s
+  server: 38.121.43.231
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US_16|3.2MB/s|532KB/s
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇬🇧GB-82.38.31.202-0092 | 102.387MB|507KB/s
+  server: 82.38.31.202
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇺🇸US-84.20.27.183-0140 | 84.488MB|489KB/s
   server: 84.20.27.183
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇺AU-45.63.30.142-0158 | 71.164MB|375KB/s
-  server: 45.63.30.142
+- name: 🇺🇸US-38.91.100.39-0176 | 48.808MB|470KB/s
+  server: 38.91.100.39
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US_3|2.9MB/s|463KB/s
+  password: None
   port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: connectwithemployerstohireyouridealteam.com
-  skip-cert-verify: false
-- name: 🇺🇸US-38.121.43.18-0133 | 72.935MB|371KB/s
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB-82.38.31.189-0097 | 94.876MB|454KB/s
+  server: 82.38.31.189
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: US - zhuhai.uk 09|447KB/s
+  type: http
+  server: 23.133.176.14
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- type: vmess
+  name: 🇺🇸_US_美国_IPV4 (2)|418KB/s
+  server: 104.18.42.163
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- cipher: aes-256-cfb
+  name: '🇺🇸 美国 | USA #4|415KB/s'
+  password: amazonskr05
+  port: 443
+  server: 3.16.78.3
+  type: ss
+  udp: true
+- name: 🇺🇸US-156.146.38.167-0211 | 41.96MB|393KB/s
+  server: 156.146.38.167
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-38.121.43.18-0133 | 72.935MB|388KB/s
   server: 38.121.43.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇬🇧GB-82.38.31.181-0100 | 92.747MB|360KB/s
-  server: 82.38.31.181
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US_15|3.1MB/s|K001-260618|337KB/s
+- name: 🇺🇸US-156.146.38.170-0174 | 5.709MB|367KB/s
+  server: 156.146.38.170
   port: 443
-  server: 149.34.248.65
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US_11|2.8MB/s|349KB/s
+  port: 9443
+  server: 38.95.111.226
   skip-cert-verify: true
-  sub_tag: K001-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇺🇸US_8|2.0MB/s|321KB/s
-  port: 443
-  server: 192.227.176.234
+- name: VN - zhuhai.uk|311KB/s
+  type: http
+  server: 14.225.19.28
+  port: 8443
+  tls: true
+  sni: 14.225.19.28
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US-38.22.17.219-0154 | 60.317MB|310KB/s
-  server: 38.22.17.219
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-169.197.140.218-0085 | 0.0MB|306KB/s
-  server: 169.197.140.218
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  skip-cert-verify: false
-- name: 🇬🇧GB-82.38.31.210-0093 | 99.569MB|280KB/s
-  server: 82.38.31.210
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: US - zhuhai.uk 10|237KB/s
-  type: http
-  server: fan.365747.xyz
-  port: 443
-  tls: true
