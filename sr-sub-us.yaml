@@ -1,84 +1,7 @@
-# Mac hourly sync 2026-11-12 23:02:35 | alive 17
+# Mac hourly sync 2026-11-13 00:03:26 | alive 9
 proxies:
-- name: 🇺🇸US_4|1.5MB/s|236KB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 09|35KB/s
-  type: http
-  server: 54.190.176.228
-  port: 8443
-  tls: true
-  sni: 54.190.176.228
-  skip-cert-verify: true
-- name: US - zhuhai.uk 17|1KB/s
-  type: http
-  server: 138.199.35.199
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 13|1KB/s
-  type: http
-  server: 162.243.146.243
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: a2f392f3.acsnet.co
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 172.64.68.89
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 172.64.68.89
-  skip-cert-verify: true
-- name: US - zhuhai.uk 16|1KB/s
-  type: http
-  server: 138.199.35.211
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.211
-  skip-cert-verify: true
-- name: 🇺🇸US_3|3.3MB/s|R002-260618|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 173.42.49.102
-  port: 8090
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 173.42.49.102
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 138.199.35.210
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.210
-  skip-cert-verify: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
+  name: 🇺🇸_US_美国_IPV4 (3)|326KB/s
   server: 137.175.82.43
   port: 20022
   password: dongtaiwang.com
@@ -91,55 +14,70 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 15|1KB/s
+- name: US - zhuhai.uk|12KB/s
   type: http
-  server: 45.145.72.122
-  port: 8443
-  tls: true
-  sni: 45.145.72.122
-  skip-cert-verify: true
-- name: US - zhuhai.uk 12|0KB/s
-  type: http
-  server: 162.191.235.197
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 19|0KB/s
-  type: http
-  server: 98.101.229.212
-  port: 8090
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|0KB/s
-  type: http
-  server: 44.217.145.28
-  port: 8443
-  tls: true
-  sni: 44.217.145.28
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|0KB/s
-  type: http
-  server: 138.199.35.198
+  server: 138.199.35.215
   port: 9002
-  username: 'null'
-  password: None
   tls: true
-  sni: 138.199.35.198
+  sni: 138.199.35.215
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|0KB/s
+- name: 🇺🇸US_3|3.3MB/s|R002-260618|7KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
   type: http
-  server: 138.199.35.208
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 38.28.193.188
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
+  server: 137.175.82.44
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: US - zhuhai.uk 02|1KB/s
+  type: trojan
+  server: 97.64.19.252
+  port: 8443
+  password: trojan2024pass
+  tls: true
+  sni: 97.64.19.252
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 138.199.35.207
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 18|0KB/s
-  type: http
-  server: 138.199.35.216
-  port: 9002
-  username: 'null'
+- name: 🇺🇸US_1|2.7MB/s|0KB/s
   password: None
-  tls: true
-  sni: 138.199.35.216
+  port: 443
+  server: 167.88.60.242
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_2|1.2MB/s|0KB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
