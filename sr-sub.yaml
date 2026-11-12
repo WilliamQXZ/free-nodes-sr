@@ -1,7 +1,7 @@
-# Mac hourly sync 2026-11-12 08:01:44 | alive 10
+# Mac hourly sync 2026-11-12 09:01:54 | alive 9
 proxies:
 - type: hysteria
-  name: 🇩🇪_DE_德国_IPV4 (2)|974KB/s
+  name: 🇩🇪_DE_德国_IPV4 (3)|706KB/s
   server: 5.83.129.90
   port: 54177
   password: dongtaiwang.com
@@ -14,79 +14,77 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: 🇩🇪DE_1|2.6MB/s|789KB/s
-  password: None
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: connect-pl
+  name: 🇵🇱 波兰 | POL 3|680KB/s
+  network: grpc
+  port: 8443
+  server: 138.124.242.46
+  servername: pl2-edge.gacvpn.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
+- name: NL - zhuhai.uk 02|671KB/s
+  type: vless
+  server: msk10.gacvpn.site
   port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
+  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
+  flow: xtls-rprx-vision
   tls: true
-  type: http
-- name: NL - zhuhai.uk|781KB/s
-  type: http
-  server: 84.17.47.147
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 84.17.47.147
+  servername: nl3-edge.gacvpn.site
   skip-cert-verify: true
-- type: hysteria
-  name: 🇫🇷_FR_法国_IPV4 (2)|760KB/s
-  server: 163.172.117.163
-  port: 36699
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: IT-202.50.253.81-0124 | 38.77MB|734KB/s
-  server: 202.50.253.81
+  client-fingerprint: edge
+  reality-opts:
+    public-key: Caj4X3VjnHfdRQzWLmjFCiG_CGw0scYYni6UxVfBs38
+    short-id: db6a4219fb
+- name: IT-202.50.253.45-0127 | 25.676MB|610KB/s
+  server: 202.50.253.45
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.63-0149 | 0.101MB|681KB/s
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: SG - zhuhai.uk|646KB/s
-  type: socks5
-  server: 47.236.168.243
-  port: 1080
-  username: '8888'
-  password: '8888'
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|563KB/s
-  server: 137.175.82.43
-  port: 20022
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
-- name: LV - zhuhai.uk|536KB/s
+- name: VN - zhuhai.uk|608KB/s
   type: http
-  server: 185.219.159.15
-  port: 443
-  tls: true
-  sni: 185.219.159.15
-  skip-cert-verify: true
-- name: JP - zhuhai.uk 03|524KB/s
-  type: http
-  server: 64.176.51.83
+  server: 14.225.19.28
   port: 8443
   tls: true
-  sni: 64.176.51.83
+  sni: 14.225.19.28
   skip-cert-verify: true
+- name: 🇺🇸US_4|1018KB/s|418KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- type: vless
+  name: 🇺🇸_US_美国_IPV4 (4)|412KB/s
+  server: 3.169.9.125
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  tls: true
+  servername: d14jyezfrcyf60.cloudfront.net
+  sni: d14jyezfrcyf60.cloudfront.net
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: d14jyezfrcyf60.cloudfront.net
+- name: US - zhuhai.uk 12|380KB/s
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_13|2.0MB/s|360KB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
