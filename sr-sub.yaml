@@ -1,16 +1,39 @@
-# Mac hourly sync 2026-11-12 07:01:39 | alive 8
+# Mac hourly sync 2026-11-12 08:01:44 | alive 10
 proxies:
-- name: 🇺🇸US_2|1.4MB/s|1.2MB/s
+- type: hysteria
+  name: 🇩🇪_DE_德国_IPV4 (2)|974KB/s
+  server: 5.83.129.90
+  port: 54177
+  password: dongtaiwang.com
+  tls: true
+  servername: apple.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: 🇩🇪DE_1|2.6MB/s|789KB/s
   password: None
   port: 443
-  server: 167.88.60.242
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
+- name: NL - zhuhai.uk|781KB/s
+  type: http
+  server: 84.17.47.147
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 84.17.47.147
+  skip-cert-verify: true
 - type: hysteria
-  name: 🇫🇷_FR_法国_IPV4|939KB/s
-  server: 62.210.28.175
-  port: 24667
+  name: 🇫🇷_FR_法国_IPV4 (2)|760KB/s
+  server: 163.172.117.163
+  port: 36699
   password: dongtaiwang.com
   tls: true
   servername: bing.com
@@ -21,47 +44,49 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 10|811KB/s
-  type: http
-  server: 23.133.176.14
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 23.133.176.14
-  skip-cert-verify: true
-- name: IT-202.50.253.36-0113 | 43.621MB|785KB/s
-  server: 202.50.253.36
+- name: IT-202.50.253.81-0124 | 38.77MB|734KB/s
+  server: 202.50.253.81
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_6|2.4MB/s|655KB/s
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: IT-202.50.253.18-0134 | 12.264MB|612KB/s
-  server: 202.50.253.18
+- name: IT-202.50.253.63-0149 | 0.101MB|681KB/s
+  server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: LV - zhuhai.uk|585KB/s
+- name: SG - zhuhai.uk|646KB/s
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: '8888'
+  password: '8888'
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|563KB/s
+  server: 137.175.82.43
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- name: LV - zhuhai.uk|536KB/s
   type: http
   server: 185.219.159.15
   port: 443
   tls: true
   sni: 185.219.159.15
   skip-cert-verify: true
-- name: IT - zhuhai.uk|166KB/s
+- name: JP - zhuhai.uk 03|524KB/s
   type: http
-  server: 93.42.177.250
-  port: 443
-  username: 'null'
-  password: None
+  server: 64.176.51.83
+  port: 8443
   tls: true
-  sni: 93.42.177.250
+  sni: 64.176.51.83
   skip-cert-verify: true
