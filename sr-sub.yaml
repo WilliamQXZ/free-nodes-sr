@@ -1,12 +1,6 @@
-# Mac hourly sync 2026-11-14 02:00:24 | alive 3
+# Mac hourly sync 2026-11-14 05:00:26 | alive 7
 proxies:
-- name: VN - zhuhai.uk|684KB/s
-  type: http
-  server: 14.225.19.28
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: ES - zhuhai.uk 01|590KB/s
+- name: ES - zhuhai.uk 01|703KB/s
   type: vless
   server: 9.247.174.134
   port: 8443
@@ -19,8 +13,57 @@ proxies:
   reality-opts:
     public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
     short-id: 974f7f8f
-- name: IT-202.50.253.90-0177 | 95.266MB|275KB/s
-  server: 202.50.253.90
+- name: US - zhuhai.uk 11|684KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  tls: true
+  sni: 138.199.35.201
+  skip-cert-verify: true
+- name: 🇺🇸US_2|3.2MB/s|P002-260618|562KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: KR - zhuhai.uk 02|535KB/s
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  servername: v1n4.11676767.xyz
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ep/video/TkZDG0RVE1kPREsSEQ8YEEBHSEpZUwhIFF4WRBIIFUkVRQQQRhNYEFASC0FbR1ZETQ9cXUZAQ1laV0cXFBJEXFNTAFEGB1BRB0pYElFeVhQDWV0SQwEWQlpGWRoNA10fBxk=
+    headers:
+      Host: v1n4.11676767.xyz
+- name: US - zhuhai.uk|380KB/s
+  type: http
+  server: 38.28.193.1
+  port: 443
+  tls: true
+  sni: 38.28.193.1
+  skip-cert-verify: true
+- name: 🇺🇸US_3|1.8MB/s|P002-260618|324KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: IT-202.50.253.45-0184 | 18.351MB|202KB/s
+  server: 202.50.253.45
   port: 19999
   type: ss
   cipher: aes-256-gcm
