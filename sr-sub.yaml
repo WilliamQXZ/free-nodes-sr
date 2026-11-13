@@ -1,202 +1,34 @@
-# Mac hourly sync 2026-11-13 20:44:22 | alive 25
+# Mac hourly sync 2026-11-13 22:53:38 | alive 4
 proxies:
-- name: HK - zhuhai.uk 03|116KB/s
-  type: http
-  server: 202.85.53.25
+- name: 🇨🇦CA_1|1.4MB/s|R002-260618|440KB/s
   port: 443
-  tls: true
+  server: 206.223.183.21
   skip-cert-verify: true
-- cipher: aes-256-gcm
-  name: '🇯🇵 日本 | JPN #1|6KB/s'
-  password: BeaUf9c0AEWH40Pu
-  port: 8388
-  server: 154.36.158.197
-  type: ss
-  udp: true
-- name: FR - zhuhai.uk 02|6KB/s
+  sub_tag: R002-260618
+  tls: true
   type: http
-  server: 31.32.19.111
-  port: 8081
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 31.32.19.111
-  skip-cert-verify: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #8|2KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #6|2KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #7|2KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-  udp: true
-- name: IE - zhuhai.uk|1KB/s
-  type: http
-  server: 18.200.158.139
-  port: 443
-  tls: true
-  sni: 18.200.158.139
-  skip-cert-verify: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #9|1KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #3|1KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP_1|5.1MB/s|1KB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)af2501f:110406
-    mode: tls
-  port: 2377
-  server: 13.231.100.94
-  type: ss
   x-toolall-mihomo: true
-- name: NL - zhuhai.uk 02|1KB/s
-  type: http
-  server: 84.17.47.148
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 84.17.47.148
-  skip-cert-verify: true
-- name: DE - zhuhai.uk|1KB/s
-  type: http
-  server: 158.173.154.4
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: RU - zhuhai.uk|1KB/s
-  type: http
-  server: 87.242.85.187
-  port: 8443
-  tls: true
-  sni: 87.242.85.187
-  skip-cert-verify: true
-- name: IT - zhuhai.uk|1KB/s
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: ES - zhuhai.uk 01|1KB/s
-  type: vless
-  server: 9.247.174.134
-  port: 8443
-  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
-  udp: true
-  network: tcp
-  tls: true
-  servername: play.googleapis.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
-    short-id: 974f7f8f
-- name: HK - zhuhai.uk 02|1KB/s
-  type: http
-  server: fan.240104.xyz
+- name: 🇵🇱PL_2|1.5MB/s|R002-260618|421KB/s
   port: 443
-  tls: true
-  sni: fan.240104.xyz
-- name: HK - zhuhai.uk|0KB/s
-  type: http
-  server: 119.28.24.235
-  port: 3128
-  tls: true
-  sni: 119.28.24.235
+  server: 37.120.156.18
   skip-cert-verify: true
-- name: IT - zhuhai.uk 02|0KB/s
-  type: ss
-  server: 202.50.253.99
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇪🇪EE_1|2.6MB/s|415KB/s
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+- type: ss
+  name: 🇮🇹_IT_意大利_IPV4 (3)|135KB/s
+  server: 202.50.253.90
   port: 19999
-  cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: FR - zhuhai.uk
-  type: http
-  server: 87.98.174.157
-  port: 6103
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 87.98.174.157
-  skip-cert-verify: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '🇩🇪 德国 | DEU #5'
-  network: http
-  port: 52080
-  server: 23.165.200.150
-  skip-cert-verify: true
+  cipher: aes-256-gcm
   tls: false
-  type: vmess
-  udp: true
-  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
-- name: NL - zhuhai.uk
-  type: http
-  server: 84.17.47.146
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: NL - zhuhai.uk 04
-  type: http
-  server: 84.17.47.126
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-  udp: true
-- name: PL - zhuhai.uk
-  type: http
-  server: 151.115.54.133
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: LT - zhuhai.uk
-  type: http
-  server: 89.124.11.9
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 89.124.11.9
-  skip-cert-verify: true
+  skip-cert-verify: false
