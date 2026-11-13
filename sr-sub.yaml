@@ -1,55 +1,60 @@
-# Mac hourly sync 2026-11-13 06:01:33 | alive 8
+# Mac hourly sync 2026-11-13 08:34:37 | alive 11
 proxies:
-- name: 🇺🇸US_2|1.2MB/s|916KB/s
+- name: 🇨🇭CH_2|3.4MB/s|R002-260618|833KB/s
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇩🇪DE_3|3.5MB/s|786KB/s
+  password: None
   port: 443
-  server: 68.235.56.51
+  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- type: hysteria
-  name: 🇫🇷_FR_法国_IPV4 (2)|801KB/s
-  server: 163.172.117.163
-  port: 36699
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- type: anytls
-  name: 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4|759KB/s
-  server: sdf65h46wr.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  tls: true
-  servername: images.ctfassets.net
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|680KB/s
-  type: http
-  server: 149.34.248.65
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.99-0177 | 71.516MB|645KB/s
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk|622KB/s
-  type: http
-  server: 138.199.35.213
+- name: 🇺🇸US_5|2.3MB/s|R002-260618|726KB/s
+  password: None
   port: 9002
-  tls: true
-  sni: 138.199.35.213
+  server: 138.199.35.195
   skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_9|1.5MB/s|706KB/s
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇱🇻LV_1|3.0MB/s|705KB/s
+  network: ws
+  port: 443
+  server: n1.topingr.ir
+  servername: cdn2.zovip2.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84be02cf-c5c5-4b33-ba26-31b5f8320033
+  ws-opts:
+    headers:
+      Host: cdn2.zovip2.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /api/v3/pulse
+  xudp: true
 - type: vmess
-  name: 🇺🇸_US_美国_IPV4|610KB/s
+  name: 🇺🇸_US_美国_IPV4|693KB/s
   server: 104.18.42.163
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
@@ -64,10 +69,40 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: JP - zhuhai.uk|438KB/s
-  type: http
-  server: fan.587475.xyz
-  port: 443
-  tls: true
-  sni: fan.587475.xyz
+- name: 🇺🇸US_15|3.1MB/s|533KB/s
+  port: 9443
+  server: 149.88.21.140
   skip-cert-verify: true
+  tls: true
+  type: http
+- type: anytls
+  name: 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4|490KB/s
+  server: sdf65h46wr.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  tls: true
+  servername: images.ctfassets.net
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- type: ss
+  name: 🇮🇹_IT_意大利_IPV4 (8)|474KB/s
+  server: 202.50.253.81
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹_IT_意大利_IPV4|426KB/s
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+- name: 🇪🇪EE_1|2.6MB/s|421KB/s
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
