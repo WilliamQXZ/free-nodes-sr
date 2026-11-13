@@ -1,15 +1,21 @@
-# Mac hourly sync 2026-11-14 06:42:25 | alive 4
+# Mac hourly sync 2026-11-14 07:52:21 | alive 3
 proxies:
-- name: US - zhuhai.uk 16|796KB/s
+- name: DE - zhuhai.uk|691KB/s
   type: http
-  server: 23.133.176.14
+  server: 217.92.132.233
   port: 443
   tls: true
-  sni: 23.133.176.14
+  sni: 217.92.132.233
   skip-cert-verify: true
+- name: IT-202.50.253.27-0180 | 51.125MB|655KB/s
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - type: vmess
-  name: '@DeltaKroneckerGithub_3021_IPV4|719KB/s'
-  server: 172.64.145.93
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4|626KB/s
+  server: 172.67.190.164
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
@@ -17,24 +23,9 @@ proxies:
   tls: true
   servername: guanwang.awsno.com
   sni: guanwang.awsno.com
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: 🇺🇸US_3|1.8MB/s|P002-260618|624KB/s
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: SG - zhuhai.uk 02|508KB/s
-  type: http
-  server: 66.42.49.247
-  port: 8443
-  tls: true
-  skip-cert-verify: true
