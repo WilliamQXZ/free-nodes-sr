@@ -1,43 +1,7 @@
-# Mac hourly sync 2026-11-15 04:01:46 | alive 6
+# Mac hourly sync 2026-11-15 05:03:33 | alive 5
 proxies:
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.202
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.204
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: '55'
-  name: 🇺🇸US_9|1015KB/s|1KB/s
-  port: 22335
-  server: 198.200.57.142
-  skip-cert-verify: true
-  type: hysteria
-  up: '11'
-  x-toolall-mihomo: true
-- name: 🇺🇸 美国 | USA 2|1KB/s
-  server: 137.175.82.43
-  port: 20022
-  type: hysteria
-  auth_str: dongtaiwang.com
-  auth-str: dongtaiwang.com
-  up: 10
-  down: 50
-  skip-cert-verify: true
-  alpn:
-  - h3
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #1|1KB/s'
+  name: '🇺🇸 美国 | USA #1|784KB/s'
   network: xhttp
   port: 443
   server: 200.102.179.69
@@ -50,21 +14,39 @@ proxies:
     host: dmbdnpctq8hjxx.hat.onl
     mode: auto
     path: /hls/014373eq/seg
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_12|1.1MB/s
-  network: xhttp
-  port: 8443
-  server: 104.18.162.1
-  servername: 3m.818567.xyz
+- name: US - zhuhai.uk 02|661KB/s
+  type: http
+  server: 138.199.35.204
+  port: 9002
   tls: true
-  type: vless
-  udp: true
-  uuid: 1662f377-776b-4e49-90d6-dd5b2c7920c8
-  xhttp-opts:
-    mode: packet-up
-    path: /v-stream
-  xudp: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 2|1KB/s
+  server: 137.175.82.43
+  port: 20022
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 10
+  down: 50
+  skip-cert-verify: true
+  alpn:
+  - h3
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 🇺🇸US_9|1015KB/s|1KB/s
+  port: 22335
+  server: 198.200.57.142
+  skip-cert-verify: true
+  type: hysteria
+  up: '11'
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 138.199.35.202
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
