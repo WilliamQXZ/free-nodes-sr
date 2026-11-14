@@ -1,9 +1,13 @@
-# Mac hourly sync 2026-11-14 18:58:48 | alive 1
+# Mac hourly sync 2026-11-14 20:29:26 | alive 1
 proxies:
-- name: 🇷🇺RU_1|2.4MB/s|126KB/s
-  password: None
-  port: 1446
-  server: 46.29.166.134
+- name: 🇺🇸 美国 | USA 2|124KB/s
+  server: 137.175.82.43
+  port: 20022
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 10
+  down: 50
   skip-cert-verify: true
-  tls: true
-  type: http
+  alpn:
+  - h3
