@@ -1,8 +1,17 @@
-# Mac hourly sync 2026-11-14 21:04:08 | alive 1
+# Mac hourly sync 2026-11-14 22:03:05 | alive 2
 proxies:
-- name: IT-202.50.253.18-0242 | 81.628MB|265KB/s
-  server: 202.50.253.18
+- name: IT-202.50.253.90-0141 | 85.015MB|299KB/s
+  server: 202.50.253.90
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇩🇪DE_2|2.9MB/s|R002-260618|240KB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
