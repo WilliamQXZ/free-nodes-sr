@@ -1,22 +1,35 @@
-# Mac hourly sync 2026-11-14 22:03:12 | alive 4
+# Mac hourly sync 2026-11-14 23:03:23 | alive 4
 proxies:
-- name: US - zhuhai.uk|1KB/s
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #1|1KB/s'
+  network: xhttp
+  port: 443
+  server: 200.102.179.69
+  servername: dmbdnpctq8hjxx.hat.onl
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+  xhttp-opts:
+    host: dmbdnpctq8hjxx.hat.onl
+    mode: auto
+    path: /hls/014373eq/seg
+- name: US - zhuhai.uk 03|1KB/s
   type: http
-  server: 138.199.35.209
+  server: 138.199.35.206
   port: 9002
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
-- alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: '55'
-  name: 🇺🇸US_9|1015KB/s|1KB/s
-  port: 22335
-  server: 198.200.57.142
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.219
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
   skip-cert-verify: true
-  type: hysteria
-  up: '11'
-  x-toolall-mihomo: true
 - name: 🇺🇸 美国 | USA 2|0KB/s
   server: 137.175.82.43
   port: 20022
@@ -28,11 +41,3 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: US - zhuhai.uk 02|0KB/s
-  type: http
-  server: 138.199.35.219
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
