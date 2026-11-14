@@ -1,60 +1,46 @@
-# Mac hourly sync 2026-11-14 18:58:54 | alive 7
+# Mac hourly sync 2026-11-14 20:29:31 | alive 5
 proxies:
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 44.248.167.117
-  port: 8443
-  tls: true
-  sni: 44.248.167.117
+- name: 🇺🇸 美国 | USA 2|124KB/s
+  server: 137.175.82.43
+  port: 20022
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 10
+  down: 50
   skip-cert-verify: true
-- name: 🇺🇸US_1|3.3MB/s|P002-260618|1KB/s
-  password: 'null'
+  alpn:
+  - h3
+- name: US - zhuhai.uk|1KB/s
+  type: http
+  server: 138.199.35.209
   port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
   type: http
-  udp: true
+  server: 138.199.35.219
+  port: 9002
   username: 'null'
-  x-toolall-mihomo: true
-- name: 🇺🇸US_5|2.6MB/s|0KB/s
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_4|3.1MB/s|P002-260618|0KB/s
   password: None
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
-  type: http
-  udp: true
+  skip-cert-verify: true
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 🇺🇸US_9|1015KB/s|1KB/s
+  port: 22335
+  server: 198.200.57.142
+  skip-cert-verify: true
+  type: hysteria
+  up: '11'
   x-toolall-mihomo: true
-- name: 🇺🇸US_7|2.3MB/s|0KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sni: 138.199.35.198
-  tls: true
-  type: http
-  username: 'null'
-- name: US - zhuhai.uk 11
+- name: US - zhuhai.uk 03|0KB/s
   type: http
   server: 138.199.35.206
   port: 9002
+  username: 'null'
+  password: None
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US-157.254.38.210-0129 | 60.601MB
-  server: sclass-b1.catcat321.com
-  port: 20027
-  type: trojan
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  sni: hk.catxstar.com
-  skip-cert-verify: false
