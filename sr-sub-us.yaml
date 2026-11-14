@@ -1,45 +1,9 @@
-# Mac hourly sync 2026-11-14 21:04:11 | alive 7
+# Mac hourly sync 2026-11-14 22:03:12 | alive 4
 proxies:
-- name: 🇺🇸 美国 | USA 2|1KB/s
-  server: 137.175.82.43
-  port: 20022
-  type: hysteria
-  auth_str: dongtaiwang.com
-  auth-str: dongtaiwang.com
-  up: 10
-  down: 50
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: US - zhuhai.uk|0KB/s
-  type: http
-  server: 138.199.35.209
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 2|124KB/s
-  server: 137.175.82.43
-  port: 20022
-  type: hysteria
-  auth_str: dongtaiwang.com
-  auth-str: dongtaiwang.com
-  up: 10
-  down: 50
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: US - zhuhai.uk|1KB/s
   type: http
   server: 138.199.35.209
   port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.219
-  port: 9002
-  username: 'null'
-  password: None
   tls: true
   skip-cert-verify: true
 - alpn:
@@ -53,9 +17,20 @@ proxies:
   type: hysteria
   up: '11'
   x-toolall-mihomo: true
-- name: US - zhuhai.uk 03|0KB/s
+- name: 🇺🇸 美国 | USA 2|0KB/s
+  server: 137.175.82.43
+  port: 20022
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 10
+  down: 50
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: US - zhuhai.uk 02|0KB/s
   type: http
-  server: 138.199.35.206
+  server: 138.199.35.219
   port: 9002
   username: 'null'
   password: None
