@@ -1,154 +1,12 @@
-# Mac hourly sync 2026-11-14 10:10:21 | alive 25
+# Mac hourly sync 2026-11-14 12:57:02 | alive 25
 proxies:
-- name: DE - zhuhai.uk|33KB/s
-  type: http
-  server: 217.92.132.233
-  port: 443
-  tls: true
-  sni: 217.92.132.233
-  skip-cert-verify: true
-- name: 🇺🇸US_5|2.6MB/s|30KB/s
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk|13KB/s
-  type: http
-  server: 44.248.167.117
-  port: 8443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- type: anytls
-  name: 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4|4KB/s
-  server: sdf65h46wr.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  tls: true
-  servername: images.ctfassets.net
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: IT-202.50.253.36-0232 | 3.34MB|3KB/s
-  server: 202.50.253.36
+- name: IT-202.50.253.90-0177 | 48.552MB|2KB/s
+  server: 202.50.253.90
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.18-0182 | 0.536MB|2KB/s
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.27-0180 | 51.125MB|2KB/s
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk 02|2KB/s
-  type: http
-  server: 129.153.93.183
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.99-0190 | 24.725MB|2KB/s
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: HK - zhuhai.uk|2KB/s
-  type: http
-  server: fan.240104.xyz
-  port: 443
-  tls: true
-  sni: fan.240104.xyz
-  skip-cert-verify: true
-- name: IT-202.50.253.45-0184 | 18.351MB|2KB/s
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.81-0173 | 25.4MB|2KB/s
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇯🇵JP-154.36.158.197-0266 | 0.029MB|2KB/s
-  server: 154.36.158.197
-  port: 8388
-  type: ss
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-- name: IT-202.50.253.63-0183 | 3.039MB|2KB/s
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.72-0132 | 38.056MB|2KB/s
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk 07|2KB/s
-  type: http
-  server: 172.64.69.89
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.54-0181 | 24.484MB|2KB/s
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_9|2.0MB/s|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_12|2.5MB/s|R002-260618|1KB/s
-  port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_7|2.3MB/s|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sni: 138.199.35.198
-  tls: true
-  type: http
-  username: 'null'
-- name: IE - zhuhai.uk|1KB/s
-  type: http
-  server: 18.200.158.139
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 18.200.158.139
-  skip-cert-verify: true
-- name: 🇺🇸US_1|3.3MB/s|P002-260618|1KB/s
+- name: 🇺🇸US_1|3.3MB/s|P002-260618|2KB/s
   password: 'null'
   port: 9002
   server: 138.199.35.202
@@ -159,17 +17,18 @@ proxies:
   udp: true
   username: 'null'
   x-toolall-mihomo: true
-- name: 🇺🇸US_10|3.6MB/s|R002-260618|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
+- name: IT-202.50.253.45-0184 | 18.351MB|2KB/s
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.27-0180 | 51.125MB|2KB/s
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇺🇸US_4|3.1MB/s|P002-260618|1KB/s
   password: None
   port: 9002
@@ -180,10 +39,152 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: US - zhuhai.uk 09|1KB/s
-  type: http
-  server: 38.28.193.188
-  port: 443
-  tls: true
-  sni: 38.28.193.188
+- name: IT-202.50.253.99-0190 | 24.725MB|1KB/s
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.81-0173 | 25.4MB|1KB/s
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.36-0232 | 3.34MB|1KB/s
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: SG - zhuhai.uk|1KB/s
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: '8888'
+  password: '8888'
+- name: 🇺🇸US_8|1.8MB/s|R002-260618|1KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
   skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: IT-202.50.253.18-0182 | 0.536MB|1KB/s
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.54-0181 | 24.484MB|1KB/s
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇩🇪DE_3|2.7MB/s|1KB/s
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: JP - zhuhai.uk 02|1KB/s
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06|0KB/s
+  type: http
+  server: 18.206.28.143
+  port: 8443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.72-0132 | 38.056MB|0KB/s
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.63-0183 | 3.039MB|0KB/s
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: NL - zhuhai.uk|0KB/s
+  type: http
+  server: 51.159.225.197
+  port: 19362
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇯🇵JP-154.36.158.197-0266 | 0.029MB
+  server: 154.36.158.197
+  port: 8388
+  type: ss
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
+- name: HK - zhuhai.uk
+  type: http
+  server: fan.240104.xyz
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: fan.240104.xyz
+- name: 🇩🇪DE_11|2.5MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇳🇱NL_10|2.4MB/s
+  password: 'null'
+  port: 443
+  server: 89.150.35.94
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: 🇫🇷FR_3|3.2MB/s|R002-260618
+  port: 6103
+  server: 87.98.174.157
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_2|2.9MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)
+  server: 137.175.82.43
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
