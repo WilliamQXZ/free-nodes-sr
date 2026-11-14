@@ -1,5 +1,28 @@
-# Mac hourly sync 2026-11-15 00:03:11 | alive 6
+# Mac hourly sync 2026-11-15 01:04:16 | alive 8
 proxies:
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 🇺🇸US_9|1015KB/s|485KB/s
+  port: 22335
+  server: 198.200.57.142
+  skip-cert-verify: true
+  type: hysteria
+  up: '11'
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk|364KB/s
+  type: http
+  server: fan.226278.xyz
+  port: 443
+  tls: true
+- name: US - zhuhai.uk 11|1KB/s
+  type: http
+  server: 138.199.35.214
+  port: 9002
+  tls: true
+  sni: 138.199.35.214
+  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 2|1KB/s
   server: 137.175.82.43
   port: 20022
@@ -11,54 +34,32 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: '55'
-  name: 🇺🇸US_9|1015KB/s|1KB/s
-  port: 22335
-  server: 198.200.57.142
-  skip-cert-verify: true
-  type: hysteria
-  up: '11'
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk 06|1KB/s
   type: http
-  server: 138.199.35.206
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_12|1.1MB/s|1KB/s
-  network: xhttp
+  server: 107.91.88.70
   port: 8443
-  server: 104.18.162.1
-  servername: 3m.818567.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1662f377-776b-4e49-90d6-dd5b2c7920c8
-  xhttp-opts:
-    mode: packet-up
-    path: /v-stream
-  xudp: true
-- name: US - zhuhai.uk|0KB/s
-  type: http
-  server: 138.199.35.209
-  port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|0KB/s
+- name: US - zhuhai.uk 14|0KB/s
   type: http
-  server: 138.199.35.219
+  server: 162.191.235.197
+  port: 8443
+  tls: true
+  sni: 162.191.235.197
+  skip-cert-verify: true
+- name: US - zhuhai.uk 13|0KB/s
+  type: http
+  server: 138.199.35.217
   port: 9002
   username: 'null'
   password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 09|0KB/s
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
