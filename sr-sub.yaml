@@ -1,14 +1,18 @@
-# Mac hourly sync 2026-11-15 00:03:06 | alive 2
+# Mac hourly sync 2026-11-15 01:04:10 | alive 2
 proxies:
-- name: 🇭🇰HK_1|1.9MB/s|458KB/s
-  port: 8443
-  server: 38.76.140.254
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 🇺🇸US_9|1015KB/s|485KB/s
+  port: 22335
+  server: 198.200.57.142
   skip-cert-verify: true
-  tls: true
+  type: hysteria
+  up: '11'
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk|364KB/s
   type: http
-- name: IT-202.50.253.81-0176 | 82.648MB|165KB/s
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: fan.226278.xyz
+  port: 443
+  tls: true
