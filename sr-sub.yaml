@@ -1,47 +1,38 @@
-# Mac hourly sync 2026-11-15 05:03:29 | alive 6
+# Mac hourly sync 2026-11-15 06:03:27 | alive 5
 proxies:
-- name: VN - zhuhai.uk|881KB/s
+- name: DE - zhuhai.uk|931KB/s
   type: http
-  server: 14.225.71.128
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇩🇪DE_1|3.0MB/s|864KB/s
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #1|784KB/s'
-  network: xhttp
-  port: 443
-  server: 200.102.179.69
-  servername: dmbdnpctq8hjxx.hat.onl
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
-  xhttp-opts:
-    host: dmbdnpctq8hjxx.hat.onl
-    mode: auto
-    path: /hls/014373eq/seg
-- name: NL - zhuhai.uk 03|755KB/s
-  type: http
-  server: 51.158.243.91
-  port: 443
-  tls: true
-  sni: 51.158.243.91
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|661KB/s
-  type: http
-  server: 138.199.35.204
+  server: 158.173.154.5
   port: 9002
   tls: true
+  sni: 158.173.154.5
   skip-cert-verify: true
-- name: ID - zhuhai.uk|356KB/s
+- name: 🇺🇸 美国 | USA 2|765KB/s
+  server: 137.175.82.43
+  port: 20022
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 10
+  down: 50
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: MX - zhuhai.uk|693KB/s
+  type: socks5
+  server: 94.194.165.96
+  port: 62000
+  username: QyVdo5ks
+  password: lcFa8dTH
+- name: JP - zhuhai.uk|289KB/s
+  type: socks5
+  server: 103.248.150.50
+  port: 42000
+  username: paZFN3JA
+  password: EGJDy5Kg
+- name: IT - zhuhai.uk|141KB/s
   type: http
-  server: 178.248.73.58
-  port: 443
+  server: 93.71.245.84
+  port: 8090
   tls: true
   skip-cert-verify: true
