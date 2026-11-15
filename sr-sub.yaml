@@ -1,22 +1,34 @@
-# Mac hourly sync 2026-11-16 05:02:13 | alive 8
+# Mac hourly sync 2026-11-16 06:01:41 | alive 7
 proxies:
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (5)|852KB/s
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
+  name: 🇩🇪_DE_德国->🇳🇱_NL_荷兰_IPV4|942KB/s
+  server: 5.83.129.143
+  port: 26691
+  password: dongtaiwang.com
   tls: true
-  servername: bing.com
-  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
   up: '11'
   down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
+  auth-str: dongtaiwang.com
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #2|817KB/s'
+  network: xhttp
+  port: 443
+  server: 200.102.179.69
+  servername: dmbdnpctq8hjxx.hat.onl
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+  xhttp-opts:
+    host: dmbdnpctq8hjxx.hat.onl
+    mode: auto
+    path: /hls/014373eq/seg
 - type: vmess
-  name: 🇺🇸_US_美国_IPV4 (2)|660KB/s
-  server: 104.18.42.163
+  name: '@DeltaKroneckerGithub_3021_IPV4|755KB/s'
+  server: 172.64.145.93
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
@@ -24,50 +36,35 @@ proxies:
   tls: true
   servername: guanwang.awsno.com
   sni: guanwang.awsno.com
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: IT-202.50.253.63-0198 | 24.325MB|563KB/s
-  server: 202.50.253.63
+- name: IT-202.50.253.72-0197 | 0.621MB|610KB/s
+  server: 202.50.253.72
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.27-0223 | 0.525MB|539KB/s
-  server: 202.50.253.27
+- name: IT-202.50.253.18-0200 | 24.764MB|599KB/s
+  server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk 10|533KB/s
+- name: LV - zhuhai.uk 02|596KB/s
   type: http
-  server: 138.199.35.196
+  server: 185.219.159.16
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 185.219.159.16
+  skip-cert-verify: true
+- name: US - zhuhai.uk|578KB/s
+  type: http
+  server: 138.199.35.213
   port: 9002
   tls: true
-  sni: 138.199.35.196
-  skip-cert-verify: true
-- name: US - zhuhai.uk|464KB/s
-  type: http
-  server: 162.243.146.243
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: a2f392f3.acsnet.co
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|370KB/s
-  type: http
-  server: 38.28.193.39
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 14|230KB/s
-  type: http
-  server: 45.150.164.18
-  port: 8443
-  tls: true
-  sni: 45.150.164.18
   skip-cert-verify: true
