@@ -1,24 +1,29 @@
-# Mac hourly sync 2026-11-15 23:03:03 | alive 2
+# Mac hourly sync 2026-11-16 00:02:55 | alive 3
 proxies:
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|202KB/s
-  server: 188.114.99.137
+- name: 🇩🇪DE_3|1.0MB/s|289KB/s
+  password: None
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 🇩🇪DE_2|2.8MB/s|167KB/s
-  port: 443
-  server: 172.64.69.89
+  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|269KB/s
+  server: 137.175.82.43
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- name: IT-202.50.253.63-0309 | 83.392MB|217KB/s
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
