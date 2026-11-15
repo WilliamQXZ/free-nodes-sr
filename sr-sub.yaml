@@ -1,38 +1,20 @@
-# Mac hourly sync 2026-11-15 16:04:50 | alive 4
+# Mac hourly sync 2026-11-15 17:04:15 | alive 3
 proxies:
-- name: RU - zhuhai.uk|368KB/s
-  type: http
-  server: 46.29.166.134
-  port: 1446
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_5|1.1MB/s|247KB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|224KB/s
-  server: 137.175.82.43
-  port: 20022
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
-- name: IT-202.50.253.18-0249 | 83.153MB|177KB/s
-  server: 202.50.253.18
+- name: IT-202.50.253.45-0313 | 82.471MB|380KB/s
+  server: 202.50.253.45
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: DE - zhuhai.uk|325KB/s
+  type: ss
+  server: 47.254.169.3
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+- name: TH - zhuhai.uk 02|255KB/s
+  type: socks5
+  server: 131.143.142.21
+  port: 62000
+  username: uhugtm4f
+  password: oogf0v53
