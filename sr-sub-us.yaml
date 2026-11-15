@@ -1,62 +1,27 @@
-# Mac hourly sync 2026-11-15 19:02:35 | alive 13
+# Mac hourly sync 2026-11-15 20:04:38 | alive 15
 proxies:
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4|366KB/s
-  server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: US - zhuhai.uk 04|13KB/s
-  type: http
-  server: 24.225.10.211
-  port: 443
-  tls: true
-  sni: 24.225.10.211
+- name: 🇺🇸US_4|1.3MB/s|K001-260618|122KB/s
+  password: None
+  port: 9443
+  server: 198.44.135.19
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|2KB/s
-  type: socks5
-  server: 23.230.200.176
-  port: 62000
-  username: u1f0cijj
-  password: ppyefe3k
-- name: 🇺🇸US_3|3.0MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
+  sub_tag: K001-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
-  server: 137.175.82.44
-  port: 20022
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk 03|16KB/s
   type: http
   server: 129.153.93.183
   port: 443
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: socks5
+  server: 23.230.200.176
+  port: 62000
+  username: u1f0cijj
+  password: ppyefe3k
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
   server: 137.175.82.43
@@ -71,24 +36,29 @@ proxies:
   up: '20'
   down: '20'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 07|1KB/s
+- name: US - zhuhai.uk 04|1KB/s
   type: http
-  server: 138.199.35.202
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.202
-  skip-cert-verify: true
-- type: hysteria2
-  name: 🇺🇸_US_美国_IPV4|1KB/s
-  server: starlink-ft.251313.xyz
+  server: 24.225.10.211
   port: 443
-  password: https://xship.2fa.cat
   tls: true
-  servername: xship.top
-  sni: xship.top
+  sni: 24.225.10.211
   skip-cert-verify: true
+- name: 🇺🇸US_6|2.8MB/s|1KB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_5|1.1MB/s|1KB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 - name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 138.199.35.200
@@ -96,6 +66,29 @@ proxies:
   tls: true
   sni: 138.199.35.200
   skip-cert-verify: true
+- name: US - zhuhai.uk|1KB/s
+  type: http
+  server: 162.243.146.243
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: a2f392f3.acsnet.co
+  skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
+  server: 137.175.82.44
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
 - client-fingerprint: chrome
   name: '🇺🇸 美国 | USA #4|1KB/s'
   network: xhttp
@@ -110,18 +103,42 @@ proxies:
     host: dmbdnpctq8hjxx.hat.onl
     mode: auto
     path: /hls/014373eq/seg
+- name: US - zhuhai.uk 07|0KB/s
+  type: http
+  server: 138.199.35.202
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  sni: 138.199.35.202
+  skip-cert-verify: true
+- name: 🇺🇸US_3|3.0MB/s|0KB/s
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 - name: US - zhuhai.uk 05|0KB/s
   type: http
   server: 138.199.35.210
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk|0KB/s
-  type: http
-  server: 162.243.146.243
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+  server: 172.67.190.164
   port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
   tls: true
-  sni: a2f392f3.acsnet.co
-  skip-cert-verify: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
