@@ -1,16 +1,25 @@
-# Mac hourly sync 2026-11-16 00:02:55 | alive 3
+# Mac hourly sync 2026-11-16 01:03:31 | alive 4
 proxies:
-- name: 🇩🇪DE_3|1.0MB/s|289KB/s
-  password: None
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4|484KB/s
+  server: 172.67.190.164
   port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
   tls: true
-  type: http
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|269KB/s
-  server: 137.175.82.43
-  port: 20022
+  name: 🇫🇷_FR_法国_IPV4|375KB/s
+  server: 62.210.28.175
+  port: 24667
   password: dongtaiwang.com
   tls: true
   servername: bing.com
@@ -18,12 +27,22 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-  up: '20'
-  down: '20'
+  up: '11'
+  down: '55'
   auth-str: dongtaiwang.com
-- name: IT-202.50.253.63-0309 | 83.392MB|217KB/s
-  server: 202.50.253.63
+- name: IT-202.50.253.54-0312 | 79.882MB|350KB/s
+  server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: NL - zhuhai.uk 01|290KB/s
+  type: vless
+  server: base.hosamobenl.co.uk
+  port: 443
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  udp: true
+  network: tcp
+  tls: true
+  servername: base.hosamobenl.co.uk
+  client-fingerprint: chrome
