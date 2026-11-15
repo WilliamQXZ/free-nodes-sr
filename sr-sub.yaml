@@ -1,34 +1,13 @@
-# Mac hourly sync 2026-11-15 07:03:27 | alive 11
+# Mac hourly sync 2026-11-15 08:01:32 | alive 3
 proxies:
-- name: 🇩🇪DE_2|2.9MB/s|R002-260618|960KB/s
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- type: hysteria
-  name: 🇩🇪_DE_德国->🇳🇱_NL_荷兰_IPV4|958KB/s
-  server: 5.83.129.143
-  port: 26691
-  password: dongtaiwang.com
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: 🇩🇪DE_1|3.0MB/s|832KB/s
+- name: 🇩🇪DE_1|3.0MB/s|982KB/s
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #1|787KB/s'
+  name: '🇺🇸 美国 | USA #1|829KB/s'
   network: xhttp
   port: 443
   server: 200.102.179.69
@@ -41,52 +20,9 @@ proxies:
     host: dmbdnpctq8hjxx.hat.onl
     mode: auto
     path: /hls/014373eq/seg
-- name: FR - zhuhai.uk|746KB/s
-  type: http
-  server: 82.66.235.221
-  port: 443
-  tls: true
-  sni: 82.66.235.221
-  skip-cert-verify: true
-- name: MX - zhuhai.uk|687KB/s
+- name: MX - zhuhai.uk|673KB/s
   type: socks5
   server: 94.194.165.96
   port: 62000
   username: QyVdo5ks
   password: lcFa8dTH
-- name: US - zhuhai.uk 03|670KB/s
-  type: socks5
-  server: 216.132.114.27
-  port: 62000
-  username: JzufiJ62
-  password: 75bPoRcB
-- alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: '55'
-  name: 🇺🇸US_9|1015KB/s|649KB/s
-  port: 22335
-  server: 198.200.57.142
-  skip-cert-verify: true
-  type: hysteria
-  up: '11'
-  x-toolall-mihomo: true
-- name: LV - zhuhai.uk|635KB/s
-  type: http
-  server: 185.219.159.16
-  port: 443
-  tls: true
-  sni: 185.219.159.16
-  skip-cert-verify: true
-- name: IT - zhuhai.uk 03|551KB/s
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.90-0141 | 1.74MB|494KB/s
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
