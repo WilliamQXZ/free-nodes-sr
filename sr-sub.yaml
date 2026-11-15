@@ -1,30 +1,16 @@
-# Mac hourly sync 2026-11-15 21:03:23 | alive 3
+# Mac hourly sync 2026-11-15 22:02:08 | alive 1
 proxies:
-- name: 🇩🇪DE_2|2.8MB/s|368KB/s
-  port: 443
-  server: 172.64.69.89
+- auth: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  down: ''
+  fingerprint: ''
+  name: '🇧🇾 BY_01 #1|381KB/s'
+  obfs: ''
+  obfs-password: ''
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: bl1.nexfile.net
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: IT-202.50.253.18-0249 | 83.153MB|278KB/s
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸 美国 | USA 7|199KB/s
-  server: 162.35.101.177
-  port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
-  udp: true
+  sni: bl1.nexfile.net
+  tls: false
+  type: hysteria2
+  up: ''
