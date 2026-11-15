@@ -1,27 +1,13 @@
-# Mac hourly sync 2026-11-15 09:03:40 | alive 6
+# Mac hourly sync 2026-11-15 10:03:50 | alive 2
 proxies:
-- name: IT-202.50.253.45-0185 | 0.485MB|696KB/s
-  server: 202.50.253.45
+- name: IT-202.50.253.54-0180 | 0.495MB|458KB/s
+  server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- type: hysteria
-  name: 🇫🇷_FR_法国_IPV4|680KB/s
-  server: 62.210.28.175
-  port: 24667
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
 - type: vmess
-  name: '@DeltaKroneckerGithub_3021_IPV4|643KB/s'
+  name: '@DeltaKroneckerGithub_3021_IPV4|184KB/s'
   server: 172.64.145.93
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
@@ -35,28 +21,3 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: 🇺🇸US_4|1.3MB/s|K001-260618|632KB/s
-  password: None
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk 02|616KB/s
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: HK - zhuhai.uk 02|229KB/s
-  type: http
-  server: 119.28.24.235
-  port: 3128
-  tls: true
-  sni: 119.28.24.235
-  skip-cert-verify: true
