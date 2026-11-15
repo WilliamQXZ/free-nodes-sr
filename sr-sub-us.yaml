@@ -1,7 +1,7 @@
-# Mac hourly sync 2026-11-15 07:03:30 | alive 6
+# Mac hourly sync 2026-11-15 08:01:36 | alive 7
 proxies:
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #1|787KB/s'
+  name: '🇺🇸 美国 | USA #1|829KB/s'
   network: xhttp
   port: 443
   server: 200.102.179.69
@@ -14,24 +14,25 @@ proxies:
     host: dmbdnpctq8hjxx.hat.onl
     mode: auto
     path: /hls/014373eq/seg
-- name: US - zhuhai.uk 03|670KB/s
-  type: socks5
-  server: 216.132.114.27
-  port: 62000
-  username: JzufiJ62
-  password: 75bPoRcB
 - alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: '55'
-  name: 🇺🇸US_9|1015KB/s|649KB/s
-  port: 22335
-  server: 198.200.57.142
-  skip-cert-verify: true
-  type: hysteria
-  up: '11'
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk 02|1KB/s
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_12|1.1MB/s|2KB/s
+  network: xhttp
+  port: 8443
+  server: 104.18.162.1
+  servername: 3m.818567.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1662f377-776b-4e49-90d6-dd5b2c7920c8
+  xhttp-opts:
+    mode: packet-up
+    path: /v-stream
+  xudp: true
+- name: US - zhuhai.uk 02|2KB/s
   type: http
   server: 138.199.35.200
   port: 9002
@@ -50,9 +51,26 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: US - zhuhai.uk 03|1KB/s
+  type: socks5
+  server: 216.132.114.27
+  port: 62000
+  username: JzufiJ62
+  password: 75bPoRcB
 - name: US - zhuhai.uk 04|1KB/s
   type: socks5
   server: 23.230.200.157
   port: 62000
   username: uw2u8ysi
   password: uclirp9v
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 🇺🇸US_9|1015KB/s|1KB/s
+  port: 22335
+  server: 198.200.57.142
+  skip-cert-verify: true
+  type: hysteria
+  up: '11'
+  x-toolall-mihomo: true
