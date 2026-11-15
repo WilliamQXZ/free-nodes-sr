@@ -1,16 +1,24 @@
-# Mac hourly sync 2026-11-15 22:02:08 | alive 1
+# Mac hourly sync 2026-11-15 23:03:03 | alive 2
 proxies:
-- auth: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  down: ''
-  fingerprint: ''
-  name: '🇧🇾 BY_01 #1|381KB/s'
-  obfs: ''
-  obfs-password: ''
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: bl1.nexfile.net
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|202KB/s
+  server: 188.114.99.137
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: 🇩🇪DE_2|2.8MB/s|167KB/s
+  port: 443
+  server: 172.64.69.89
   skip-cert-verify: true
-  sni: bl1.nexfile.net
-  tls: false
-  type: hysteria2
-  up: ''
+  tls: true
+  type: http
