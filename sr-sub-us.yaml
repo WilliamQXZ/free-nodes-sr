@@ -1,65 +1,69 @@
-# Mac hourly sync 2026-11-15 12:04:36 | alive 21
+# Mac hourly sync 2026-11-15 13:04:43 | alive 19
 proxies:
+- name: US - zhuhai.uk 15|19KB/s
+  type: http
+  server: 138.199.35.205
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_5|1.1MB/s|1KB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|422KB/s
-  server: 137.175.82.43
-  port: 20022
-  password: dongtaiwang.com
+  name: 🇺🇸_US_美国_IPV4 (5)|1KB/s
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
   tls: true
   servername: bing.com
   sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
-  up: '20'
-  down: '20'
-  auth-str: dongtaiwang.com
-- name: 🇺🇸US_6|2.8MB/s|421KB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
+  up: '11'
+  down: '55'
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: US - zhuhai.uk 09|1KB/s
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|420KB/s
-  server: 188.114.99.137
+  server: 172.64.69.89
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
   tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: US - zhuhai.uk 18|15KB/s
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  tls: true
+  sni: 172.64.69.89
   skip-cert-verify: true
-- name: US - zhuhai.uk 07|2KB/s
+- name: US - zhuhai.uk 07|1KB/s
   type: http
   server: 38.28.193.39
   port: 443
   tls: true
   sni: 38.28.193.39
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 138.199.35.210
+- name: 🇺🇸US_3|3.0MB/s|1KB/s
   port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 138.199.35.210
+  server: 138.199.35.201
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #4|1KB/s'
+  network: xhttp
+  port: 443
+  server: 200.102.179.69
+  servername: dmbdnpctq8hjxx.hat.onl
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+  xhttp-opts:
+    host: dmbdnpctq8hjxx.hat.onl
+    mode: auto
+    path: /hls/014373eq/seg
 - name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 44.217.145.28
@@ -68,6 +72,13 @@ proxies:
   password: 'null'
   tls: true
   sni: 44.217.145.28
+  skip-cert-verify: true
+- name: US - zhuhai.uk 11|1KB/s
+  type: http
+  server: 71.43.26.234
+  port: 443
+  tls: true
+  sni: 71.43.26.234
   skip-cert-verify: true
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
@@ -83,50 +94,59 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #4|1KB/s'
-  network: xhttp
-  port: 443
-  server: 200.102.179.69
-  servername: dmbdnpctq8hjxx.hat.onl
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
+  server: 137.175.82.43
+  port: 20022
+  password: dongtaiwang.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
-  xhttp-opts:
-    host: dmbdnpctq8hjxx.hat.onl
-    mode: auto
-    path: /hls/014373eq/seg
-- name: US - zhuhai.uk 09|1KB/s
-  type: http
-  server: 172.64.69.89
-  port: 443
-  tls: true
-  sni: 172.64.69.89
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- type: hysteria2
-  name: 🇺🇸_US_美国_IPV4|1KB/s
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.2fa.cat
-  tls: true
-  servername: xship.top
-  sni: xship.top
-  skip-cert-verify: true
-- name: US - zhuhai.uk 11|1KB/s
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- name: US - zhuhai.uk 02|1KB/s
   type: http
-  server: 71.43.26.234
-  port: 443
-  tls: true
-  sni: 71.43.26.234
-  skip-cert-verify: true
-- name: US - zhuhai.uk 15|1KB/s
-  type: http
-  server: 138.199.35.205
+  server: 138.199.35.203
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 16|1KB/s
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 138.199.35.210
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.210
+  skip-cert-verify: true
+- name: US - zhuhai.uk 10|0KB/s
+  type: http
+  server: 45.150.164.18
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_4|1.3MB/s|K001-260618|0KB/s
+  password: None
+  port: 9443
+  server: 198.44.135.19
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk 04|0KB/s
+  type: http
+  server: 162.191.87.112
+  port: 8443
+  tls: true
+  sni: 162.191.87.112
+  skip-cert-verify: true
+- name: US - zhuhai.uk 16|0KB/s
   type: http
   server: 18.206.28.143
   port: 8443
@@ -135,52 +155,9 @@ proxies:
   tls: true
   sni: 18.206.28.143
   skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
-  type: http
-  server: 209.148.53.153
-  port: 8090
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 162.191.87.112
-  port: 8443
-  tls: true
-  sni: 162.191.87.112
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|0KB/s
-  type: http
-  server: 138.199.35.203
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_3|3.0MB/s|0KB/s
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (5)|0KB/s
-  server: 198.200.57.142
-  port: 22335
-  password: github.com/Alvin9999-newpac/fanqiang
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: github.com/Alvin9999-newpac/fanqiang
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
-  server: 172.67.190.164
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
+  server: 188.114.99.137
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
@@ -195,8 +172,8 @@ proxies:
     headers:
       Host: guanwang.awsno.com
 - type: vmess
-  name: 🇺🇸_US_美国_IPV4 (2)
-  server: 104.18.42.163
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+  server: 172.67.190.164
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
