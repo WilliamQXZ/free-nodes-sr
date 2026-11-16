@@ -1,87 +1,63 @@
-# Mac hourly sync 2026-11-16 12:57:19 | alive 12
+# Mac hourly sync 2026-11-16 13:11:35 | alive 10
 proxies:
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #4|1KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-- name: 🇳🇬[www.v2nodes.com] trojan-NG-...|0KB/s
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20051
-  server: sclass-c2.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_3|2.3MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #5'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #3'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
+- name: IT-202.50.253.90-0209 | 0.746MB|1KB/s
   server: 202.50.253.90
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_4|3.2MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.54
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #7'
+  cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇭🇰HK-16.106.7.232-0598 | 0.015MB|1KB/s
+  server: sclass-c1.catcat321.com
+  port: 20086
+  type: trojan
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+  skip-cert-verify: false
+- name: IT-202.50.253.81-0208 | 3.699MB
+  server: 202.50.253.81
   port: 19999
-  server: 202.50.253.18
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #8'
+  cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #9'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
+- name: IT-202.50.253.99-0207 | 5.469MB
   server: 202.50.253.99
+  port: 19999
   type: ss
-  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.36-0205 | 12.245MB
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.63-0198 | 24.325MB
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.45-0204 | 21.408MB
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.54-0213 | 33.237MB
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.27-0223 | 0.525MB
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.18-0200 | 24.764MB
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
