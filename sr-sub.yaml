@@ -1,70 +1,87 @@
-# Mac hourly sync 2026-11-16 06:01:41 | alive 7
+# Mac hourly sync 2026-11-16 12:57:19 | alive 12
 proxies:
-- type: hysteria
-  name: 🇩🇪_DE_德国->🇳🇱_NL_荷兰_IPV4|942KB/s
-  server: 5.83.129.143
-  port: 26691
-  password: dongtaiwang.com
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #2|817KB/s'
-  network: xhttp
-  port: 443
-  server: 200.102.179.69
-  servername: dmbdnpctq8hjxx.hat.onl
-  tls: true
-  type: vless
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #4|1KB/s'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
   udp: true
-  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
-  xhttp-opts:
-    host: dmbdnpctq8hjxx.hat.onl
-    mode: auto
-    path: /hls/014373eq/seg
-- type: vmess
-  name: '@DeltaKroneckerGithub_3021_IPV4|755KB/s'
-  server: 172.64.145.93
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: IT-202.50.253.72-0197 | 0.621MB|610KB/s
+- name: 🇳🇬[www.v2nodes.com] trojan-NG-...|0KB/s
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20051
+  server: sclass-c2.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- name: 日本2|@ripaojiedian
+  network: tcp
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  port: 44184
+  server: v2jp.k1.ssnss.live
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_3|2.3MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #2'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
   server: 202.50.253.72
-  port: 19999
   type: ss
-  cipher: aes-256-gcm
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #5'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.18-0200 | 24.764MB|599KB/s
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #3'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_4|3.2MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #7'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
   server: 202.50.253.18
-  port: 19999
   type: ss
-  cipher: aes-256-gcm
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #8'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: LV - zhuhai.uk 02|596KB/s
-  type: http
-  server: 185.219.159.16
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 185.219.159.16
-  skip-cert-verify: true
-- name: US - zhuhai.uk|578KB/s
-  type: http
-  server: 138.199.35.213
-  port: 9002
-  tls: true
-  skip-cert-verify: true
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #9'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+  udp: true
