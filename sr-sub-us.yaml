@@ -1,33 +1,5 @@
-# Mac hourly sync 2026-11-19 20:03:46 | alive 8
+# Mac hourly sync 2026-11-19 21:04:31 | alive 7
 proxies:
-- name: 🇺🇸 美国 | USA 8|81KB/s
-  server: sdf65h46wr.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  udp: true
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: 🇺🇸US_9|2.7MB/s|18KB/s
-  port: 18080
-  server: 52.128.238.98
-  skip-cert-verify: true
-  type: http
-- name: US - zhuhai.uk 08|1KB/s
-  type: http
-  server: 74.208.250.147
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 12|1KB/s
-  type: http
-  server: 162.244.227.36
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 162.244.227.36
-  skip-cert-verify: true
 - name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 23.133.176.14
@@ -37,7 +9,36 @@ proxies:
   tls: true
   sni: 23.133.176.14
   skip-cert-verify: true
-- name: US - zhuhai.uk 13|0KB/s
+- name: 🇺🇸 美国 | USA 7|1KB/s
+  server: ssr2.762988.xyz
+  port: 33336
+  type: ssr
+  cipher: chacha20-ietf
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocolparam: ''
+  obfsparam: ''
+  udp: true
+- name: US - zhuhai.uk 12|0KB/s
+  type: http
+  server: 162.244.227.36
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 162.244.227.36
+  skip-cert-verify: true
+- name: US - zhuhai.uk 14
+  type: http
+  server: 24.142.229.178
+  port: 8090
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 24.142.229.178
+  skip-cert-verify: true
+- name: US - zhuhai.uk 13
   type: http
   server: 209.148.53.153
   port: 8090
@@ -45,12 +46,6 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_4|1.6MB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
 - type: vmess
   name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
   server: 188.114.99.137
@@ -67,3 +62,19 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+- name: 🇺🇸 美国 | USA 4
+  server: 89.124.122.19
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 99f2107b03f8
+  udp: true
