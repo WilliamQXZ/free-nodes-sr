@@ -1,8 +1,23 @@
-# Mac hourly sync 2026-11-19 15:03:31 | alive 1
+# Mac hourly sync 2026-11-19 16:04:14 | alive 3
 proxies:
-- name: IT-202.50.253.54-0174 | 11.109MB|418KB/s
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
+- name: 🇩🇪DE_2|2.9MB/s|631KB/s
+  password: 'null'
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #1|389KB/s'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
+- name: HK - zhuhai.uk 02|179KB/s
+  type: http
+  server: 38.76.140.254
+  port: 8443
+  tls: true
+  skip-cert-verify: true
