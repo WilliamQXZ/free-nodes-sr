@@ -1,6 +1,12 @@
-# Mac hourly sync 2026-11-19 18:02:36 | alive 8
+# Mac hourly sync 2026-11-19 19:03:07 | alive 8
 proxies:
-- name: US - zhuhai.uk 08|1KB/s
+- name: 🇺🇸US_4|1.6MB/s|447KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: US - zhuhai.uk 08|2KB/s
   type: http
   server: 74.208.250.147
   port: 8443
@@ -11,15 +17,22 @@ proxies:
   server: 52.128.238.98
   skip-cert-verify: true
   type: http
-- name: US - zhuhai.uk 12|1KB/s
-  type: http
-  server: 162.244.227.36
+- name: 🇺🇸 美国 | USA 8|1KB/s
+  server: sdf65h46wr.df6h451rh.xin
   port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 162.244.227.36
+  type: anytls
+  password: 0324fbc29561
+  udp: true
+  sni: images.ctfassets.net
   skip-cert-verify: true
+- name: 🇺🇸US_5|2.3MB/s|1KB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 - name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 23.133.176.14
@@ -29,38 +42,18 @@ proxies:
   tls: true
   sni: 23.133.176.14
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 8|1KB/s
-  server: sdf65h46wr.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  udp: true
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 2|0KB/s
-  server: 162.35.101.177
-  port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- name: US - zhuhai.uk 14
+  type: http
+  server: 24.142.229.178
+  port: 8090
+  username: 'null'
+  password: 'null'
   tls: true
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
-  udp: true
-- name: 🇺🇸US_8|1.0MB/s
-  port: 1080
-  server: 47.251.166.203
+  sni: 24.142.229.178
   skip-cert-verify: true
-  type: socks5
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
-  server: 188.114.99.137
+  name: 🇺🇸_US_美国_IPV4 (13)
+  server: 104.18.42.163
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
