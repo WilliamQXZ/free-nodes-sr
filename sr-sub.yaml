@@ -1,6 +1,6 @@
-# Mac hourly sync 2026-11-19 17:03:41 | alive 3
+# Mac hourly sync 2026-11-19 18:02:32 | alive 4
 proxies:
-- name: 🇩🇪DE_2|2.9MB/s|669KB/s
+- name: 🇩🇪DE_2|2.9MB/s|708KB/s
   password: 'null'
   port: 443
   server: 172.64.68.89
@@ -8,15 +8,23 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: IT-202.50.253.72-0132 | 103.163MB|359KB/s
-  server: 202.50.253.72
+- name: IT-202.50.253.18-0138 | 87.226MB|157KB/s
+  server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk 18|344KB/s
+- name: HK - zhuhai.uk|133KB/s
   type: http
-  server: fan.226278.xyz
+  server: fan.240104.xyz
   port: 443
   tls: true
+  sni: fan.240104.xyz
+  skip-cert-verify: true
+- name: JP - zhuhai.uk|118KB/s
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  tls: true
+  sni: fan.571589.xyz
   skip-cert-verify: true
