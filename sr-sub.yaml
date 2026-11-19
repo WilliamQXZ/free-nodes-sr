@@ -1,21 +1,14 @@
-# Mac hourly sync 2026-11-19 21:04:25 | alive 3
+# Mac hourly sync 2026-11-19 22:03:12 | alive 2
 proxies:
-- name: IT-202.50.253.27-0206 | 73.584MB|279KB/s
+- name: IT-202.50.253.27-0206 | 73.584MB|276KB/s
   server: 202.50.253.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.72-0132 | 103.163MB|255KB/s
-  server: 202.50.253.72
+- name: IT-202.50.253.45-0178 | 94.219MB|260KB/s
+  server: 202.50.253.45
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇩🇪DE_1|1.1MB/s|224KB/s
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  sni: 172.64.68.89
-  tls: true
-  type: http
