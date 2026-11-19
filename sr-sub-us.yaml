@@ -1,4 +1,4 @@
-# Mac hourly sync 2026-11-19 23:05:38 | alive 5
+# Mac hourly sync 2026-11-20 00:02:52 | alive 4
 proxies:
 - name: US - zhuhai.uk 12|1KB/s
   type: http
@@ -9,7 +9,22 @@ proxies:
   tls: true
   sni: 162.244.227.36
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 74.208.250.147
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 14|1KB/s
+  type: http
+  server: 24.142.229.178
+  port: 8090
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 24.142.229.178
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06
   type: http
   server: 23.133.176.14
   port: 443
@@ -18,35 +33,3 @@ proxies:
   tls: true
   sni: 23.133.176.14
   skip-cert-verify: true
-- name: 🇺🇸US_1|1.1MB/s|0KB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk 07
-  type: http
-  server: 107.151.238.27
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: 6b97ee1b.acsnet.co
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
-  server: 188.114.99.137
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
