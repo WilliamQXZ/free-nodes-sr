@@ -1,21 +1,54 @@
-# Mac hourly sync 2026-11-20 01:02:59 | alive 3
+# Mac hourly sync 2026-11-20 04:03:39 | alive 6
 proxies:
-- name: IT-202.50.253.90-0175 | 83.033MB|316KB/s
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.63-0143 | 49.827MB|261KB/s
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: JP - zhuhai.uk|149KB/s
+- name: 🇦🇹AT_1|1.1MB/s|R002-260618|824KB/s
+  port: 443
+  server: 146.70.244.2
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
   type: http
-  server: fan.571589.xyz
+  udp: true
+  x-toolall-mihomo: true
+- name: NL - zhuhai.uk|747KB/s
+  type: http
+  server: 84.17.47.146
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: AL - zhuhai.uk|635KB/s
+  type: http
+  server: 91.92.250.33
   port: 443
   tls: true
-  sni: fan.571589.xyz
+  sni: 91.92.250.33
   skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 4|297KB/s
+  server: 89.124.122.19
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 99f2107b03f8
+  udp: true
+- name: IT-202.50.253.18-0138 | 87.226MB|179KB/s
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: TH - zhuhai.uk 02|179KB/s
+  type: socks5
+  server: 87.84.49.206
+  port: 62000
+  username: ks878449260d
+  password: YlRoWvE0dL_cUqS94wPeKnA4
