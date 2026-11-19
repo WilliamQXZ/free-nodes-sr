@@ -1,27 +1,35 @@
-# Mac hourly sync 2026-11-19 18:02:32 | alive 4
+# Mac hourly sync 2026-11-19 19:03:02 | alive 5
 proxies:
-- name: 🇩🇪DE_2|2.9MB/s|708KB/s
-  password: 'null'
+- name: 🇺🇸US_4|1.6MB/s|447KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: DE - zhuhai.uk 01|397KB/s
+  type: ss
+  server: 47.85.162.44
   port: 443
-  server: 172.64.68.89
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+  udp: true
+- name: 🇫🇷FR_1|3.5MB/s|P002-260618|254KB/s
+  password: None
+  port: 9443
+  server: 138.199.47.247
   skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
   type: http
-  username: 'null'
-- name: IT-202.50.253.18-0138 | 87.226MB|157KB/s
-  server: 202.50.253.18
+  udp: true
+  x-toolall-mihomo: true
+- name: IT-202.50.253.45-0178 | 94.219MB|138KB/s
+  server: 202.50.253.45
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: HK - zhuhai.uk|133KB/s
-  type: http
-  server: fan.240104.xyz
-  port: 443
-  tls: true
-  sni: fan.240104.xyz
-  skip-cert-verify: true
-- name: JP - zhuhai.uk|118KB/s
+- name: JP - zhuhai.uk|136KB/s
   type: http
   server: fan.571589.xyz
   port: 443
