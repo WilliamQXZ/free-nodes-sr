@@ -1,54 +1,72 @@
-# Mac hourly sync 2026-11-20 04:03:39 | alive 6
+# Mac hourly sync 2026-11-20 05:02:04 | alive 8
 proxies:
-- name: 🇦🇹AT_1|1.1MB/s|R002-260618|824KB/s
-  port: 443
-  server: 146.70.244.2
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
+- name: 🇫🇷FR-162.19.192.89-1031 | 2.465MB|1.3MB/s
+  server: dp8yk.xiaoyan.io
+  port: 16616
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+- name: NL - zhuhai.uk 04|768KB/s
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: NL - zhuhai.uk|747KB/s
-  type: http
-  server: 84.17.47.146
+  server: 84.17.47.147
   port: 9002
-  username: 'null'
-  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: AL - zhuhai.uk|635KB/s
+- name: US - zhuhai.uk 03|760KB/s
   type: http
-  server: 91.92.250.33
+  server: 23.133.176.14
   port: 443
   tls: true
-  sni: 91.92.250.33
+  sni: 23.133.176.14
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 4|297KB/s
-  server: 89.124.122.19
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|615KB/s
+  server: 188.114.99.137
   port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
   tls: true
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
-  udp: true
-- name: IT-202.50.253.18-0138 | 87.226MB|179KB/s
-  server: 202.50.253.18
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: EC - zhuhai.uk|579KB/s
+  type: http
+  server: 38.165.231.71
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.72-0086 | 0.767MB|477KB/s
+  server: 202.50.253.72
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: TH - zhuhai.uk 02|179KB/s
-  type: socks5
-  server: 87.84.49.206
-  port: 62000
-  username: ks878449260d
-  password: YlRoWvE0dL_cUqS94wPeKnA4
+- name: JP - zhuhai.uk 02|245KB/s
+  type: http
+  server: fan.571589.xyz
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+  sni: fan.571589.xyz
+- name: JP - zhuhai.uk 04|118KB/s
+  type: http
+  server: jpgmo102-cdn-route.couldflare-cdn.com
+  port: 443
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  password: exaxgqkKkd0TAMrCxeonWg==
+  tls: true
+  skip-cert-verify: true
