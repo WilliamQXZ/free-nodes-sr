@@ -1,23 +1,6 @@
-# Mac hourly sync 2026-11-19 19:03:07 | alive 8
+# Mac hourly sync 2026-11-19 20:03:46 | alive 8
 proxies:
-- name: 🇺🇸US_4|1.6MB/s|447KB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
-- name: US - zhuhai.uk 08|2KB/s
-  type: http
-  server: 74.208.250.147
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_9|2.7MB/s|1KB/s
-  port: 18080
-  server: 52.128.238.98
-  skip-cert-verify: true
-  type: http
-- name: 🇺🇸 美国 | USA 8|1KB/s
+- name: 🇺🇸 美国 | USA 8|81KB/s
   server: sdf65h46wr.df6h451rh.xin
   port: 443
   type: anytls
@@ -25,14 +8,26 @@ proxies:
   udp: true
   sni: images.ctfassets.net
   skip-cert-verify: true
-- name: 🇺🇸US_5|2.3MB/s|1KB/s
-  port: 443
-  server: 149.88.21.129
+- name: 🇺🇸US_9|2.7MB/s|18KB/s
+  port: 18080
+  server: 52.128.238.98
   skip-cert-verify: true
-  tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 74.208.250.147
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 12|1KB/s
+  type: http
+  server: 162.244.227.36
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 162.244.227.36
+  skip-cert-verify: true
 - name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 23.133.176.14
@@ -42,18 +37,23 @@ proxies:
   tls: true
   sni: 23.133.176.14
   skip-cert-verify: true
-- name: US - zhuhai.uk 14
+- name: US - zhuhai.uk 13|0KB/s
   type: http
-  server: 24.142.229.178
+  server: 209.148.53.153
   port: 8090
   username: 'null'
-  password: 'null'
+  password: None
   tls: true
-  sni: 24.142.229.178
   skip-cert-verify: true
+- name: 🇺🇸US_4|1.6MB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
 - type: vmess
-  name: 🇺🇸_US_美国_IPV4 (13)
-  server: 104.18.42.163
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
+  server: 188.114.99.137
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
