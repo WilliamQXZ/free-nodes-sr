@@ -1,13 +1,12 @@
-# Mac hourly sync 2026-11-20 06:03:21 | alive 5
+# Mac hourly sync 2026-11-20 07:02:20 | alive 9
 proxies:
-- name: US - zhuhai.uk 03|2KB/s
+- name: US - zhuhai.uk|69KB/s
   type: http
-  server: 23.133.176.14
-  port: 443
+  server: 107.91.88.70
+  port: 8443
   tls: true
-  sni: 23.133.176.14
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 4|1KB/s
+- name: 🇺🇸 美国 | USA 4|21KB/s
   server: 89.124.122.19
   port: 443
   type: vless
@@ -23,13 +22,40 @@ proxies:
     grpc-mode: gun
     grpc-service-name: 99f2107b03f8
   udp: true
-- name: US - zhuhai.uk 02|0KB/s
-  type: hysteria2
-  server: starlink-ft.251313.xyz
+- name: 🇺🇸US_1|1.1MB/s|2KB/s
   port: 443
-  password: https://xship.top
-  sni: xship.top
+  server: 149.88.21.129
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 167.88.60.242
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 23.133.176.14
+  port: 443
+  tls: true
+  sni: 23.133.176.14
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 104.244.210.50
+  port: 9443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US-157.254.38.210-0234 | 0.024MB|1KB/s
+  server: sclass-b1.catcat321.com
+  port: 20051
+  type: trojan
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  sni: hk.catxstar.com
+  skip-cert-verify: false
 - type: vmess
   name: 🇺🇸_US_美国_IPV4 (13)
   server: 104.18.42.163
