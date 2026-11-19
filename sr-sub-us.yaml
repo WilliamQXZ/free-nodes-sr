@@ -1,19 +1,14 @@
-# Mac hourly sync 2026-11-19 22:03:17 | alive 6
+# Mac hourly sync 2026-11-19 23:05:38 | alive 5
 proxies:
-- name: US - zhuhai.uk 08|1KB/s
+- name: US - zhuhai.uk 12|1KB/s
   type: http
-  server: 74.208.250.147
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: 107.151.238.27
+  server: 162.244.227.36
   port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
+  username: 'null'
+  password: 'null'
   tls: true
-  sni: 6b97ee1b.acsnet.co
+  sni: 162.244.227.36
+  skip-cert-verify: true
 - name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 23.133.176.14
@@ -23,26 +18,22 @@ proxies:
   tls: true
   sni: 23.133.176.14
   skip-cert-verify: true
-- name: US - zhuhai.uk 12|0KB/s
-  type: http
-  server: 162.244.227.36
+- name: 🇺🇸US_1|1.1MB/s|0KB/s
   port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 162.244.227.36
+  server: 149.88.21.129
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 7
-  server: ssr2.762988.xyz
-  port: 33336
-  type: ssr
-  cipher: chacha20-ietf
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocolparam: ''
-  obfsparam: ''
+  tls: true
+  type: http
   udp: true
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk 07
+  type: http
+  server: 107.151.238.27
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: 6b97ee1b.acsnet.co
 - type: vmess
   name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
   server: 188.114.99.137
