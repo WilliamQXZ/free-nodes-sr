@@ -1,72 +1,69 @@
-# Mac hourly sync 2026-11-20 05:02:04 | alive 8
+# Mac hourly sync 2026-11-20 06:03:17 | alive 8
 proxies:
-- name: 🇫🇷FR-162.19.192.89-1031 | 2.465MB|1.3MB/s
-  server: dp8yk.xiaoyan.io
-  port: 16616
-  type: vmess
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇫🇷FR_1|1013KB/s|P002-260618|934KB/s
+  password: None
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇩🇪DE_2|1.2MB/s|P002-260618|820KB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- type: vless
+  name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4|752KB/s
+  server: 163.245.42.87
+  port: 443
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  tls: true
+  servername: mother-earth.fyi
+  sni: mother-earth.fyi
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-- name: NL - zhuhai.uk 04|768KB/s
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: CZ - zhuhai.uk|704KB/s
   type: http
-  server: 84.17.47.147
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|760KB/s
-  type: http
-  server: 23.133.176.14
+  server: 185.216.35.66
   port: 443
   tls: true
-  sni: 23.133.176.14
   skip-cert-verify: true
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|615KB/s
-  server: 188.114.99.137
+- name: SE - zhuhai.uk|682KB/s
+  type: http
+  server: 149.50.216.65
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
   tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: EC - zhuhai.uk|579KB/s
+  sni: 149.50.216.65
+  skip-cert-verify: true
+- name: FR - zhuhai.uk|610KB/s
+  type: http
+  server: 84.235.228.156
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 84.235.228.156
+  skip-cert-verify: true
+- name: EC - zhuhai.uk|592KB/s
   type: http
   server: 38.165.231.71
   port: 9443
   tls: true
   skip-cert-verify: true
-- name: IT-202.50.253.72-0086 | 0.767MB|477KB/s
-  server: 202.50.253.72
+- name: IT-202.50.253.36-0114 | 13.479MB|543KB/s
+  server: 202.50.253.36
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: JP - zhuhai.uk 02|245KB/s
-  type: http
-  server: fan.571589.xyz
-  port: 443
-  username: bnVsbDpudWxs
-  tls: true
-  sni: fan.571589.xyz
-- name: JP - zhuhai.uk 04|118KB/s
-  type: http
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  port: 443
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
-  tls: true
-  skip-cert-verify: true
