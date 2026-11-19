@@ -1,5 +1,19 @@
-# Mac hourly sync 2026-11-19 21:04:31 | alive 7
+# Mac hourly sync 2026-11-19 22:03:17 | alive 6
 proxies:
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 74.208.250.147
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 107.151.238.27
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: 6b97ee1b.acsnet.co
 - name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 23.133.176.14
@@ -9,7 +23,16 @@ proxies:
   tls: true
   sni: 23.133.176.14
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 7|1KB/s
+- name: US - zhuhai.uk 12|0KB/s
+  type: http
+  server: 162.244.227.36
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 162.244.227.36
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 7
   server: ssr2.762988.xyz
   port: 33336
   type: ssr
@@ -20,32 +43,6 @@ proxies:
   protocolparam: ''
   obfsparam: ''
   udp: true
-- name: US - zhuhai.uk 12|0KB/s
-  type: http
-  server: 162.244.227.36
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 162.244.227.36
-  skip-cert-verify: true
-- name: US - zhuhai.uk 14
-  type: http
-  server: 24.142.229.178
-  port: 8090
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 24.142.229.178
-  skip-cert-verify: true
-- name: US - zhuhai.uk 13
-  type: http
-  server: 209.148.53.153
-  port: 8090
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
 - type: vmess
   name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
   server: 188.114.99.137
@@ -62,19 +59,3 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: 🇺🇸 美国 | USA 4
-  server: 89.124.122.19
-  port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
-  udp: true
