@@ -1,20 +1,27 @@
-# Mac hourly sync 2026-11-20 09:02:14 | alive 3
+# Mac hourly sync 2026-11-20 10:04:05 | alive 4
 proxies:
-- name: EC - zhuhai.uk|535KB/s
+- name: 🇺🇸US_3|2.1MB/s|535KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: IT-202.50.253.27-0117 | 50.889MB|497KB/s
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.18-0102 | 4.466MB|390KB/s
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: DE - zhuhai.uk|266KB/s
   type: http
-  server: 38.165.231.71
-  port: 9443
+  server: 158.173.154.1
+  port: 9002
   tls: true
+  sni: 158.173.154.1
   skip-cert-verify: true
-- name: IT-202.50.253.54-0078 | 18.951MB|439KB/s
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.90-0110 | 0.979MB|402KB/s
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
