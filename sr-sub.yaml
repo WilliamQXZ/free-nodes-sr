@@ -1,30 +1,15 @@
-# Mac hourly sync 2026-11-20 11:02:11 | alive 4
+# Mac hourly sync 2026-11-20 12:03:06 | alive 2
 proxies:
-- name: 🇩🇪DE_1|2.4MB/s|814KB/s
+- name: 🇩🇪DE_1|2.4MB/s|675KB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   sni: 172.64.68.89
   tls: true
   type: http
-- name: IT-202.50.253.90-0110 | 0.979MB|521KB/s
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_4|1.3MB/s|465KB/s
-  port: 9443
-  server: 38.95.111.226
+- name: 🇩🇪DE_2|3.3MB/s|595KB/s
+  port: 443
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: DE - zhuhai.uk|240KB/s
-  type: http
-  server: 158.173.154.1
-  port: 9002
-  tls: true
-  sni: 158.173.154.1
-  skip-cert-verify: true
