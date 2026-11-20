@@ -1,25 +1,18 @@
-# Mac hourly sync 2026-11-20 19:02:21 | alive 4
+# Mac hourly sync 2026-11-20 20:04:21 | alive 3
 proxies:
-- name: JP - zhuhai.uk|363KB/s
-  type: http
-  server: 64.176.51.83
-  port: 8443
-  tls: true
-  sni: 64.176.51.83
-  skip-cert-verify: true
-- name: IT-202.50.253.63-0143 | 75.088MB|342KB/s
-  server: 202.50.253.63
+- name: IT-202.50.253.36-0114 | 71.317MB|305KB/s
+  server: 202.50.253.36
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US_3|2.1MB/s|320KB/s
+- name: 🇺🇸US_3|2.1MB/s|176KB/s
   password: l1tlrdx52v
   port: 62000
   server: 66.253.2.69
   type: socks5
   username: u_rb1dba2
-- name: IT-202.50.253.45-0094 | 46.485MB|264KB/s
+- name: IT-202.50.253.45-0094 | 46.485MB|125KB/s
   server: 202.50.253.45
   port: 19999
   type: ss
