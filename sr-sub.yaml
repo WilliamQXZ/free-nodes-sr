@@ -1,27 +1,63 @@
-# Mac hourly sync 2026-11-21 02:17:07 | alive 3
+# Mac hourly sync 2026-11-21 04:01:14 | alive 7
 proxies:
-- name: FR_speednode_0010|674KB/s
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
+- name: 🇻🇳VN_1|2.8MB/s|987KB/s
+  port: 443
+  server: 14.225.71.128
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  username: 'null'
-- client-fingerprint: qq
-  name: 🇪🇪[www.v2nodes.com] vless-EE-1...|254KB/s
-  network: tcp
+- name: 🇩🇪DE_4|2.9MB/s|869KB/s
   port: 443
-  server: 136.148.83.69
-  servername: szqbx-ru-77dc.my-fade.cloud
+  server: 172.64.68.89
+  skip-cert-verify: true
+  sni: 172.64.68.89
   tls: true
-  type: vless
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  type: http
+- type: vless
+  name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4|847KB/s
+  server: 163.245.42.87
+  port: 443
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  tls: true
+  servername: mother-earth.fyi
+  sni: mother-earth.fyi
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 🇧🇪BE_1|2.2MB/s|792KB/s
+  port: 443
+  server: 146.70.176.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_2|2.0MB/s|R002-260618|791KB/s
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- type: vmess
+  name: '@DeltaKroneckerGithub_3021_IPV4|723KB/s'
+  server: 172.64.145.93
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  network: ws
   ws-opts:
-    path: /
-- name: IT-202.50.253.99-0100 | 68.816MB|225KB/s
-  server: 202.50.253.99
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: IT-202.50.253.63-0143 | 75.088MB|394KB/s
+  server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
