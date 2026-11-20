@@ -1,6 +1,90 @@
-# Mac hourly sync 2026-11-21 04:01:51 | alive 8
+# Mac hourly sync 2026-11-21 06:48:13 | alive 15
 proxies:
-- name: 🇺🇸 美国 | USA 13|1KB/s
+- type: vmess
+  name: 🇺🇸_US_美国_IPV4 (14)|718KB/s
+  server: 104.18.42.163
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: US - zhuhai.uk 06|662KB/s
+  type: http
+  server: 66.135.172.202
+  port: 443
+  tls: true
+  sni: 66.135.172.202
+  skip-cert-verify: true
+- name: 🇺🇸US_3|3.3MB/s|648KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - mmsc.vnet.mobi
+    path:
+    - /3x
+  name: 🇺🇸US_11|3.4MB/s|327KB/s
+  network: http
+  port: 52080
+  server: 192.204.58.87
+  type: vmess
+  udp: true
+  uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
+  xudp: true
+- name: US - zhuhai.uk|1KB/s
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  sni: 138.199.35.206
+  skip-cert-verify: true
+- alterId: 64
+  cipher: auto
+  name: '🇺🇸 美国 | USA #11|1KB/s'
+  network: ws
+  port: 30004
+  server: 192.74.236.148
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.91334565.xyz
+    path: /path/1733477783705
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 172.64.69.89
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 172.64.69.89
+  skip-cert-verify: true
+- name: 🇺🇸US_7|2.9MB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸 美国 | USA 13
   password: 0324fbc29561
   port: 443
   server: sdf65h46wr.df6h451rh.xin
@@ -8,29 +92,39 @@ proxies:
   sni: images.ctfassets.net
   type: anytls
   udp: true
-- type: ss
-  name: 🇺🇸_US_美国_IPV4|1KB/s
-  server: 47.85.162.44
+- name: 🇺🇸US_2|1.3MB/s
   port: 443
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
-  cipher: 2022-blake3-chacha20-poly1305
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US_7|2.9MB/s
-  port: 443
-  server: 23.133.176.14
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_8|2.0MB/s
+  udp: true
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk 04
+  type: http
+  server: 138.199.35.218
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08
+  type: http
+  server: 184.188.139.2
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_4|3.3MB/s
   port: 9443
-  server: 152.233.50.145
+  server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
+  udp: true
+  x-toolall-mihomo: true
 - type: vmess
-  name: 🇺🇸_US_美国_IPV4 (14)
-  server: 104.18.42.163
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
+  server: 188.114.99.137
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
@@ -60,26 +154,3 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
-  server: 188.114.99.137
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 🇺🇸US-157.254.38.210-0234 | 0.025MB
-  server: sclass-b1.catcat321.com
-  port: 20051
-  type: trojan
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  sni: hk.catxstar.com
-  skip-cert-verify: false
