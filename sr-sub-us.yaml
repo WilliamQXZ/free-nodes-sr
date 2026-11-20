@@ -1,34 +1,25 @@
-# Mac hourly sync 2026-11-20 09:02:17 | alive 10
+# Mac hourly sync 2026-11-20 10:04:08 | alive 8
 proxies:
-- name: US - zhuhai.uk 04|3KB/s
-  type: http
-  server: 167.88.60.242
+- name: 🇺🇸US_3|2.1MB/s|535KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: 🇺🇸 美国 | USA 4|20KB/s
+  server: 199.242.185.178
   port: 443
+  type: vless
+  uuid: 0259e5aa-c188-4334-b204-32cd5ea859f6
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|2KB/s
-  type: http
-  server: 23.133.176.14
-  port: 443
-  tls: true
-  sni: 23.133.176.14
-  skip-cert-verify: true
-- name: 🇺🇸US_2|1.3MB/s|2KB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 6acrgYsF7FqZ0sNi5fc8wFGmapz_h5N3zA72zpp_EHY
+    short-id: 2251f9f7843ac533
+  servername: go-obsh-drun.keno.su
+  client-fingerprint: firefox
+  network: tcp
   udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸 美国 | USA 3|2KB/s
-  server: sdf65h46wr.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  udp: true
-  sni: images.ctfassets.net
-  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA|1KB/s
   server: 217.60.100.222
   port: 443
@@ -40,29 +31,30 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇺🇸US_4|1.3MB/s|1KB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: 🇺🇸 美国 | USA 3|1KB/s
+  server: sdf65h46wr.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
   udp: true
-  x-toolall-mihomo: true
+  sni: images.ctfassets.net
+  skip-cert-verify: true
 - name: US - zhuhai.uk|1KB/s
   type: http
-  server: 107.91.88.70
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  port: 443
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  tls: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 45.145.73.240
   port: 8443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 05
-  type: http
-  server: 104.244.210.50
-  port: 9443
-  tls: true
-  skip-cert-verify: true
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
-  server: 172.67.190.164
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
+  server: 188.114.99.137
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
@@ -77,8 +69,8 @@ proxies:
     headers:
       Host: guanwang.awsno.com
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
-  server: 188.114.99.137
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+  server: 172.67.190.164
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
