@@ -1,22 +1,11 @@
-# Mac hourly sync 2026-11-20 08:01:27 | alive 6
+# Mac hourly sync 2026-11-20 09:02:17 | alive 10
 proxies:
-- name: US - zhuhai.uk|412KB/s
+- name: US - zhuhai.uk 04|3KB/s
   type: http
-  server: 107.91.88.70
-  port: 8443
+  server: 167.88.60.242
+  port: 443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 7|2KB/s
-  server: ssr2.762988.xyz
-  port: 33336
-  type: ssr
-  cipher: chacha20-ietf
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocolparam: ''
-  obfsparam: ''
-  udp: true
 - name: US - zhuhai.uk 03|2KB/s
   type: http
   server: 23.133.176.14
@@ -24,25 +13,56 @@ proxies:
   tls: true
   sni: 23.133.176.14
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 4|0KB/s
-  server: 89.124.122.19
+- name: 🇺🇸US_2|1.3MB/s|2KB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸 美国 | USA 3|2KB/s
+  server: sdf65h46wr.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  udp: true
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA|1KB/s
+  server: 217.60.100.222
   port: 443
   type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
   tls: true
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
+  flow: xtls-rprx-vision
+  servername: 217.60.100.222
+  client-fingerprint: firefox
+  network: tcp
   udp: true
+- name: 🇺🇸US_4|1.3MB/s|1KB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk|1KB/s
+  type: http
+  server: 107.91.88.70
+  port: 8443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05
+  type: http
+  server: 104.244.210.50
+  port: 9443
+  tls: true
+  skip-cert-verify: true
 - type: vmess
-  name: 🇺🇸_US_美国_IPV4 (13)
-  server: 104.18.42.163
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+  server: 172.67.190.164
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
