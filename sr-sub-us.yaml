@@ -1,6 +1,18 @@
-# Mac hourly sync 2026-11-20 16:04:49 | alive 7
+# Mac hourly sync 2026-11-20 17:02:52 | alive 4
 proxies:
-- name: 🇺🇸 美国 | USA 3|3KB/s
+- name: US - zhuhai.uk 02|1KB/s
+  type: socks5
+  server: 23.230.200.249
+  port: 62000
+  username: kingstar123
+  password: kingstar123++
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 162.244.227.36
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 3|0KB/s
   server: sdf65h46wr.df6h451rh.xin
   port: 443
   type: anytls
@@ -8,48 +20,6 @@ proxies:
   udp: true
   sni: images.ctfassets.net
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: socks5
-  server: 23.230.200.249
-  port: 62000
-  username: kingstar123
-  password: kingstar123++
-- name: 🇺🇸US_3|2.1MB/s|1KB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
-- name: 🇺🇸US_2|1.3MB/s|1KB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk 04|0KB/s
-  type: http
-  server: 162.244.227.36
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
-  server: 188.114.99.137
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
 - type: vmess
   name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
   server: 172.67.190.164
