@@ -1,20 +1,26 @@
-# Mac hourly sync 2026-11-20 17:02:47 | alive 3
+# Mac hourly sync 2026-11-20 18:04:24 | alive 2
 proxies:
-- name: HK - zhuhai.uk 02|743KB/s
-  type: hysteria2
-  server: 31.59.169.225
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|325KB/s
+  server: 188.114.99.137
   port: 443
-  password: ca60984f-b1f0-4073-bd33-4c75168f749a
-  sni: ge-beer-1.fantoff.online
-- name: 🇩🇪DE_2|3.3MB/s|398KB/s
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: 🇺🇸US_2|1.3MB/s|232KB/s
   port: 443
-  server: 172.64.69.89
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: IT-202.50.253.81-0115 | 63.615MB|334KB/s
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  x-toolall-mihomo: true
