@@ -1,23 +1,28 @@
-# Mac hourly sync 2026-11-21 00:04:26 | alive 3
+# Mac hourly sync 2026-11-21 02:17:07 | alive 3
 proxies:
-- name: 🇨🇿CZ_1|3.6MB/s|332KB/s
-  port: 443
-  server: 185.216.35.66
+- name: FR_speednode_0010|674KB/s
+  password: 'null'
+  port: 23856
+  server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
-- name: IT-202.50.253.63-0143 | 75.088MB|255KB/s
-  server: 202.50.253.63
+  username: 'null'
+- client-fingerprint: qq
+  name: 🇪🇪[www.v2nodes.com] vless-EE-1...|254KB/s
+  network: tcp
+  port: 443
+  server: 136.148.83.69
+  servername: szqbx-ru-77dc.my-fade.cloud
+  tls: true
+  type: vless
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  ws-opts:
+    path: /
+- name: IT-202.50.253.99-0100 | 68.816MB|225KB/s
+  server: 202.50.253.99
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: JP - zhuhai.uk|255KB/s
-  type: http
-  server: 64.176.51.83
-  port: 8443
-  tls: true
-  sni: 64.176.51.83
-  skip-cert-verify: true
