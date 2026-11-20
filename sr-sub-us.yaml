@@ -1,93 +1,63 @@
-# Mac hourly sync 2026-11-20 21:05:19 | alive 10
+# Mac hourly sync 2026-11-20 22:05:04 | alive 9
 proxies:
-- name: 🇺🇸 美国 | USA 13|251KB/s
-  password: 0324fbc29561
-  port: 443
-  server: sdf65h46wr.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: US - zhuhai.uk|21KB/s
-  type: http
-  server: 38.247.141.135
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '🇺🇸 美国 | USA #10|3KB/s'
-  network: http
-  port: 44441
-  server: 192.220.47.85
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
-- name: 🇺🇸US_7|2.9MB/s|2KB/s
-  port: 443
-  server: 23.133.176.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|2.0MB/s|0KB/s
-  port: 9443
-  server: 152.233.50.145
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US - zhuhai.uk 02|0KB/s
-  type: http
-  server: 96.5.129.85
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|0KB/s
+- name: 🇺🇸US_3|3.3MB/s|154KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: US - zhuhai.uk 06|24KB/s
   type: socks5
   server: 23.230.200.176
   port: 62000
   username: u1f0cijj
   password: ppyefe3k
-- name: US - zhuhai.uk 03
+- name: 🇺🇸US_2|1.3MB/s|1KB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_7|2.9MB/s|1KB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|3.3MB/s|0KB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk 05|0KB/s
+  type: socks5
+  server: 216.132.114.194
+  port: 62000
+  username: utdr8wvs
+  password: 7i1dheg6
+- name: US - zhuhai.uk 03|0KB/s
   type: http
   server: 66.153.187.90
   port: 8090
   tls: true
   skip-cert-verify: true
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
-  server: 172.67.190.164
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4 (13)
+  server: starlink-ft.251313.xyz
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
+  password: https://xship.2fa.cat
   tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
-  server: 188.114.99.137
+  servername: xship.top
+  sni: xship.top
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02
+  type: http
+  server: 96.5.129.85
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
   tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
+  skip-cert-verify: true
