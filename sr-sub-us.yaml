@@ -1,8 +1,37 @@
-# Mac hourly sync 2026-11-22 06:02:06 | alive 9
+# Mac hourly sync 2026-11-22 07:03:32 | alive 9
 proxies:
 - type: vmess
-  name: 🇺🇸_US_美国_IPV4 (12)|707KB/s
-  server: 104.18.42.163
+  name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4|621KB/s
+  server: www.shopify.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: US - zhuhai.uk 03|588KB/s
+  type: vless
+  server: 162.35.101.177
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 99f2107b03f8
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|547KB/s
+  server: 188.114.99.137
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
@@ -16,7 +45,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: US - zhuhai.uk|386KB/s
+- name: US - zhuhai.uk|383KB/s
   type: http
   server: 38.28.193.188
   port: 443
@@ -25,18 +54,21 @@ proxies:
 - alterId: 0
   cipher: auto
   http-opts:
+    headers:
+      Host:
+      - mmsc.vnet.mobi
     method: GET
     path:
-    - /QQqun-737805443
-  name: '🇺🇸 美国 | USA #4|4KB/s'
+    - /3x
+  name: '🇺🇸 美国 | USA #5|4KB/s'
   network: http
   port: 52080
-  server: 107.174.133.115
+  server: 192.204.58.87
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd
+  uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
 - alpn:
   - ''
   alterId: 0
@@ -54,62 +86,30 @@ proxies:
   type: vmess
   udp: true
   uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: '🇺🇸 美国 | USA #4|3KB/s'
+  network: http
+  port: 52080
+  server: 107.174.133.115
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd
 - name: 🇺🇸US_2|1.3MB/s|2KB/s
   password: l1tlrdx52v
   port: 62000
   server: 66.253.2.69
   type: socks5
   username: u_rb1dba2
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - mmsc.vnet.mobi
-    method: GET
-    path:
-    - /3x
-  name: '🇺🇸 美国 | USA #5|1KB/s'
-  network: http
-  port: 52080
-  server: 192.204.58.87
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
-- name: US - zhuhai.uk 03|1KB/s
-  type: vless
-  server: 162.35.101.177
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 99f2107b03f8
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
-  server: 188.114.99.137
+  name: 🇺🇸_US_美国_IPV4 (12)
+  server: 104.18.42.163
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
