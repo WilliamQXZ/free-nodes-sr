@@ -1,23 +1,23 @@
-# Mac hourly sync 2026-11-22 04:03:38 | alive 14
+# Mac hourly sync 2026-11-22 05:03:57 | alive 18
 proxies:
 - alpn:
   - ''
   alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /3x
-  name: '🇺🇸 美国 | USA #6|245KB/s'
-  network: http
-  port: 2053
-  server: 192.204.58.87
+  name: '🇺🇸 美国 | USA #12|734KB/s'
+  network: ws
+  port: 16648
+  server: d1eyz.xiaoyan.io
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
-- name: US - zhuhai.uk 07|224KB/s
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- name: US - zhuhai.uk 07|65KB/s
   type: http
   server: 45.145.73.240
   port: 8443
@@ -42,26 +42,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
-- name: US - zhuhai.uk 10|2KB/s
-  type: http
-  server: 38.247.141.135
-  port: 443
-  tls: true
-  sni: 38.247.141.135
-  skip-cert-verify: true
-- name: US - zhuhai.uk 05|2KB/s
-  type: http
-  server: 38.28.193.188
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 38.28.193.1
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 11|1KB/s
+- name: US - zhuhai.uk 11|2KB/s
   type: http
   server: 129.153.93.183
   port: 443
@@ -70,19 +51,67 @@ proxies:
   tls: true
   sni: 129.153.93.183
   skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
+- name: 🇺🇸US_2|1.3MB/s|2KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇺🇸 美国 | USA #11|2KB/s'
+  network: ws
+  port: 16648
+  server: afzuv.xiaoyan.io
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- name: US - zhuhai.uk 05|2KB/s
   type: http
-  server: 66.135.172.202
+  server: 38.28.193.188
   port: 443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 107.91.88.70
-  port: 8443
-  tls: true
-  sni: 107.91.88.70
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: '🇺🇸 美国 | USA #4|1KB/s'
+  network: http
+  port: 52080
+  server: 107.174.133.115
   skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /3x
+  name: '🇺🇸 美国 | USA #6|1KB/s'
+  network: http
+  port: 2053
+  server: 192.204.58.87
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
 - name: US - zhuhai.uk 12|1KB/s
   type: trojan
   server: ipfast.kingmna.com
@@ -96,12 +125,41 @@ proxies:
     path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
     headers:
       Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-- name: 🇺🇸US_2|1.3MB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 38.28.193.1
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 10|1KB/s
+  type: http
+  server: 38.247.141.135
+  port: 443
+  tls: true
+  sni: 38.247.141.135
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 66.135.172.202
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 24.142.229.178
+  port: 8090
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 24.142.229.178
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 107.91.88.70
+  port: 8443
+  tls: true
+  sni: 107.91.88.70
+  skip-cert-verify: true
 - type: vmess
   name: 🇺🇸_US_美国_IPV4 (12)
   server: 104.18.42.163
