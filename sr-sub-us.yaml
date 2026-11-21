@@ -1,36 +1,151 @@
-# Mac hourly sync 2026-11-22 01:02:14 | alive 5
+# Mac hourly sync 2026-11-22 04:03:38 | alive 14
 proxies:
-- name: US - zhuhai.uk 03|39KB/s
-  type: http
-  server: 71.43.26.234
-  port: 443
-  tls: true
-  sni: 71.43.26.234
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /3x
+  name: '🇺🇸 美国 | USA #6|245KB/s'
+  network: http
+  port: 2053
+  server: 192.204.58.87
   skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
+- name: US - zhuhai.uk 07|224KB/s
   type: http
-  server: 162.191.87.112
+  server: 45.145.73.240
   port: 8443
   tls: true
-  sni: 162.191.87.112
+  sni: 45.145.73.240
   skip-cert-verify: true
-- name: US - zhuhai.uk 05|0KB/s
-  type: hysteria2
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.best
-  sni: xship.top
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - mmsc.vnet.mobi
+    method: GET
+    path:
+    - /3x
+  name: '🇺🇸 美国 | USA #5|4KB/s'
+  network: http
+  port: 52080
+  server: 192.204.58.87
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|0KB/s
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
+- name: US - zhuhai.uk 10|2KB/s
   type: http
-  server: 74.208.250.147
+  server: 38.247.141.135
+  port: 443
+  tls: true
+  sni: 38.247.141.135
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|2KB/s
+  type: http
+  server: 38.28.193.188
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 38.28.193.1
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 11|1KB/s
+  type: http
+  server: 129.153.93.183
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 129.153.93.183
+  skip-cert-verify: true
+- name: US - zhuhai.uk 08|1KB/s
+  type: http
+  server: 66.135.172.202
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 107.91.88.70
   port: 8443
   tls: true
-  sni: 74.208.250.147
+  sni: 107.91.88.70
   skip-cert-verify: true
+- name: US - zhuhai.uk 12|1KB/s
+  type: trojan
+  server: ipfast.kingmna.com
+  port: 443
+  password: 6-FrR5YsfjfyNp6AIFZgcQ
+  tls: true
+  sni: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
+    headers:
+      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
 - name: 🇺🇸US_2|1.3MB/s
   password: l1tlrdx52v
   port: 62000
   server: 66.253.2.69
   type: socks5
   username: u_rb1dba2
+- type: vmess
+  name: 🇺🇸_US_美国_IPV4 (12)
+  server: 104.18.42.163
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4
+  server: www.shopify.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
+  server: 188.114.99.137
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
