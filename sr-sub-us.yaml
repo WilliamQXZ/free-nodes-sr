@@ -1,218 +1,91 @@
-# Mac hourly sync 2026-11-21 21:03:26 | alive 33
+# Mac hourly sync 2026-11-21 22:03:42 | alive 8
 proxies:
-- name: 🇺🇸US-95.215.201.18-0076 | 75.603MB|541KB/s
-  server: 95.215.201.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-38.91.100.39-0144 | 70.044MB|414KB/s
-  server: 38.91.100.39
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk 02|4KB/s
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.216
+  skip-cert-verify: true
 - alterId: 0
   cipher: auto
   http-opts:
+    headers:
+      Host:
+      - mmsc.vnet.mobi
     method: GET
     path:
-    - /QQqun-737805443
-  name: '🇺🇸 美国 | USA #4|394KB/s'
+    - /3x
+  name: '🇺🇸 美国 | USA #5|3KB/s'
   network: http
   port: 52080
-  server: 107.174.133.115
+  server: 192.204.58.87
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd
-- name: 🇺🇸US-38.128.66.32-0108 | 82.736MB|329KB/s
-  server: 38.128.66.32
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-38.22.17.129-0098 | 127.476MB|255KB/s
-  server: 38.22.17.129
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-193.151.163.18-0095 | 203.068MB|247KB/s
-  server: 193.151.163.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-38.22.17.219-0111 | 83.845MB|1KB/s
-  server: 38.22.17.219
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-37.19.198.236-0072 | 55.488MB|1KB/s
-  server: 37.19.198.236
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-216.106.178.169-0102 | 71.252MB|1KB/s
-  server: 216.106.178.169
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-149.40.57.134-0200 | 82.383MB|1KB/s
-  server: 149.40.57.134
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-173.244.56.9-0123 | 67.63MB|1KB/s
-  server: 173.244.56.9
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-156.146.38.169-0214 | 82.295MB|1KB/s
-  server: 156.146.38.169
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-198.98.53.130-0208 | 1.235MB|1KB/s
-  server: 198.98.53.130
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: eDfN7SODQceIOmIAbtJJtK
-- name: 🇺🇸US-37.19.198.160-0070 | 66.752MB|1KB/s
-  server: 37.19.198.160
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
 - alpn:
   - ''
   alterId: 0
   cipher: auto
-  name: '🇺🇸 美国 | USA #8|1KB/s'
-  network: tcp
-  port: 52843
-  server: 23.147.56.181
-  skip-cert-verify: false
+  http-opts:
+    method: GET
+    path:
+    - /3x
+  name: '🇺🇸 美国 | USA #6|3KB/s'
+  network: http
+  port: 2053
+  server: 192.204.58.87
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 88be793c-c368-4eb1-8809-057e5df96606
-  xudp: true
-- name: 🇺🇸US-169.197.142.68-0110 | 87.589MB|1KB/s
-  server: 169.197.142.68
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-15.204.247.206-0176 | 23.193MB|1KB/s
-  server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: 🇺🇸US-45.86.51.18-0104 | 196.351MB|1KB/s
-  server: 45.86.51.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-38.121.43.231-0105 | 115.058MB|1KB/s
-  server: 38.121.43.231
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-149.40.57.133-0139 | 3.764MB|1KB/s
-  server: 149.40.57.133
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-162.251.62.31-0114 | 81.772MB|0KB/s
-  server: 162.251.62.31
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-172.111.36.123-0159 | 119.513MB|0KB/s
-  server: 172.111.36.123
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-156.146.38.168-0216 | 56.12MB|0KB/s
-  server: 156.146.38.168
+  uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
+- name: US - zhuhai.uk|2KB/s
+  type: http
+  server: 38.247.141.135
   port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-167.88.63.99-0107 | 86.347MB|0KB/s
-  server: 167.88.63.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-167.88.62.203-0097 | 147.263MB|0KB/s
-  server: 167.88.62.203
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-157.254.38.210-0226 | 2.634MB|0KB/s
-  server: sclass-01.catcat321.com
-  port: 20103
-  type: trojan
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  sni: hk.catxstar.com
-  skip-cert-verify: false
-- name: 🇺🇸US-185.230.230.18-0069 | 130.274MB|0KB/s
-  server: 185.230.230.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-37.19.198.243-0100 | 70.471MB|0KB/s
-  server: 37.19.198.243
+  tls: true
+  sni: 38.247.141.135
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 172.64.69.89
   port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-38.121.43.225-0166 | 119.39MB|0KB/s
-  server: 38.121.43.225
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-193.151.160.9-0071 | 159.984MB|0KB/s
-  server: 193.151.160.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-173.244.56.6-0125 | 89.589MB
-  server: 173.244.56.6
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 172.64.69.89
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06|0KB/s
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  tls: true
+  sni: 138.199.35.211
+  skip-cert-verify: true
+- name: 🇺🇸US_2|1.3MB/s|0KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
+  server: 188.114.99.137
   port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-84.20.27.183-0090 | 83.997MB
-  server: 84.20.27.183
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-172.111.38.72-0240 | 58.74MB
-  server: 172.111.38.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
