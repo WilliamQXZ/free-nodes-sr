@@ -1,80 +1,22 @@
-# Mac hourly sync 2026-11-22 05:03:57 | alive 18
+# Mac hourly sync 2026-11-22 06:02:06 | alive 9
 proxies:
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #12|734KB/s'
-  network: ws
-  port: 16648
-  server: d1eyz.xiaoyan.io
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  ws-opts:
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
-- name: US - zhuhai.uk 07|65KB/s
-  type: http
-  server: 45.145.73.240
-  port: 8443
-  tls: true
-  sni: 45.145.73.240
-  skip-cert-verify: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - mmsc.vnet.mobi
-    method: GET
-    path:
-    - /3x
-  name: '🇺🇸 美国 | USA #5|4KB/s'
-  network: http
-  port: 52080
-  server: 192.204.58.87
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
-- name: US - zhuhai.uk 11|2KB/s
-  type: http
-  server: 129.153.93.183
+- type: vmess
+  name: 🇺🇸_US_美国_IPV4 (12)|707KB/s
+  server: 104.18.42.163
   port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 129.153.93.183
-  skip-cert-verify: true
-- name: 🇺🇸US_2|1.3MB/s|2KB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
-- alpn:
-  - ''
-  alterId: 0
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
-  name: '🇺🇸 美国 | USA #11|2KB/s'
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
   network: ws
-  port: 16648
-  server: afzuv.xiaoyan.io
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
   ws-opts:
+    path: /hls/cctv5phd.m3u8
     headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
-- name: US - zhuhai.uk 05|2KB/s
+      Host: guanwang.awsno.com
+- name: US - zhuhai.uk|386KB/s
   type: http
   server: 38.28.193.188
   port: 443
@@ -86,7 +28,7 @@ proxies:
     method: GET
     path:
     - /QQqun-737805443
-  name: '🇺🇸 美国 | USA #4|1KB/s'
+  name: '🇺🇸 美国 | USA #4|4KB/s'
   network: http
   port: 52080
   server: 107.174.133.115
@@ -103,7 +45,7 @@ proxies:
     method: GET
     path:
     - /3x
-  name: '🇺🇸 美国 | USA #6|1KB/s'
+  name: '🇺🇸 美国 | USA #6|4KB/s'
   network: http
   port: 2053
   server: 192.204.58.87
@@ -112,70 +54,44 @@ proxies:
   type: vmess
   udp: true
   uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
-- name: US - zhuhai.uk 12|1KB/s
-  type: trojan
-  server: ipfast.kingmna.com
-  port: 443
-  password: 6-FrR5YsfjfyNp6AIFZgcQ
-  tls: true
-  sni: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
-    headers:
-      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 38.28.193.1
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 10|1KB/s
-  type: http
-  server: 38.247.141.135
-  port: 443
-  tls: true
-  sni: 38.247.141.135
-  skip-cert-verify: true
-- name: US - zhuhai.uk 08|1KB/s
-  type: http
-  server: 66.135.172.202
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 09|1KB/s
-  type: http
-  server: 24.142.229.178
-  port: 8090
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 24.142.229.178
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 107.91.88.70
-  port: 8443
-  tls: true
-  sni: 107.91.88.70
-  skip-cert-verify: true
-- type: vmess
-  name: 🇺🇸_US_美国_IPV4 (12)
-  server: 104.18.42.163
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: 🇺🇸US_2|1.3MB/s|2KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- alterId: 0
   cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
+  http-opts:
     headers:
-      Host: guanwang.awsno.com
+      Host:
+      - mmsc.vnet.mobi
+    method: GET
+    path:
+    - /3x
+  name: '🇺🇸 美国 | USA #5|1KB/s'
+  network: http
+  port: 52080
+  server: 192.204.58.87
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
+- name: US - zhuhai.uk 03|1KB/s
+  type: vless
+  server: 162.35.101.177
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 99f2107b03f8
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
 - type: vmess
   name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4
   server: www.shopify.com
