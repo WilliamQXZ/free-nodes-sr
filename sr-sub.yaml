@@ -1,14 +1,62 @@
-# Mac hourly sync 2026-11-22 01:02:09 | alive 2
+# Mac hourly sync 2026-11-22 04:03:35 | alive 6
 proxies:
-- name: IT-202.50.253.99-0204 | 44.544MB|257KB/s
-  server: 202.50.253.99
+- name: NL - zhuhai.uk|684KB/s
+  type: http
+  server: 84.17.47.150
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.54-0255 | 0.331MB|656KB/s
+  server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.72-0203 | 4.812MB|253KB/s
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: SG - zhuhai.uk 02|273KB/s
+  type: socks5
+  server: 47.236.168.243
+  port: 1080
+  username: '8888'
+  password: '8888'
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /3x
+  name: '🇺🇸 美国 | USA #6|245KB/s'
+  network: http
+  port: 2053
+  server: 192.204.58.87
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
+- name: US - zhuhai.uk 07|224KB/s
+  type: http
+  server: 45.145.73.240
+  port: 8443
+  tls: true
+  sni: 45.145.73.240
+  skip-cert-verify: true
+- type: vless
+  name: 🇸🇨_SC_塞舌尔->🇳🇱_NL_荷兰_IPV4|131KB/s
+  server: 196.196.148.63
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  servername: 717252g.nl8.h1clayd.click
+  sni: 717252g.nl8.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: d3bd772514c87d28
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 204adda7e3da
