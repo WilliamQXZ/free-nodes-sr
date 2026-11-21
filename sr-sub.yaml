@@ -1,8 +1,14 @@
-# Mac hourly sync 2026-11-21 12:58:30 | alive 1
+# Mac hourly sync 2026-11-21 13:47:01 | alive 2
 proxies:
-- name: IT-202.50.253.18-0183 | 19.524MB|346KB/s
-  server: 202.50.253.18
+- name: IT-202.50.253.90-0199 | 0.579MB|371KB/s
+  server: 202.50.253.90
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: SE - zhuhai.uk|201KB/s
+  type: http
+  server: 77.221.136.60
+  port: 8443
+  tls: true
+  skip-cert-verify: true
