@@ -1,47 +1,48 @@
-# Mac hourly sync 2026-11-22 05:03:54 | alive 5
+# Mac hourly sync 2026-11-22 06:02:02 | alive 6
 proxies:
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #2|795KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #12|734KB/s'
-  network: ws
-  port: 16648
-  server: d1eyz.xiaoyan.io
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  ws-opts:
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
-- name: NL - zhuhai.uk|699KB/s
+- name: DE - zhuhai.uk 02|779KB/s
   type: http
-  server: 84.17.47.150
+  server: 158.173.154.3
   port: 9002
-  username: 'null'
-  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: IT-202.50.253.54-0255 | 0.331MB|351KB/s
+- name: IT-202.50.253.63-0259 | 6.839MB|718KB/s
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- type: vmess
+  name: 🇺🇸_US_美国_IPV4 (12)|707KB/s
+  server: 104.18.42.163
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: IT-202.50.253.54-0255 | 0.331MB|666KB/s
   server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: HK - zhuhai.uk|193KB/s
+- name: SG - zhuhai.uk|426KB/s
+  type: socks5
+  server: 66.80.2.252
+  port: 62000
+  username: usereb7d
+  password: c0a34a
+- name: US - zhuhai.uk|386KB/s
   type: http
-  server: fan.240104.xyz
+  server: 38.28.193.188
   port: 443
   tls: true
-  sni: fan.240104.xyz
   skip-cert-verify: true
