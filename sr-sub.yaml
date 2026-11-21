@@ -1,8 +1,72 @@
-# Mac hourly sync 2026-11-21 17:32:55 | alive 1
+# Mac hourly sync 2026-11-21 19:02:20 | alive 11
 proxies:
-- name: CH - zhuhai.uk|430KB/s
+- name: 🇺🇸US-149.40.57.133-0139 | 3.764MB|548KB/s
+  server: 149.40.57.133
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-172.111.36.123-0159 | 119.513MB|505KB/s
+  server: 172.111.36.123
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-156.146.38.169-0214 | 82.295MB|433KB/s
+  server: 156.146.38.169
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇪🇸ES-79.127.139.242-0103 | 82.885MB|424KB/s
+  server: 79.127.139.242
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-172.111.38.72-0240 | 58.74MB|325KB/s
+  server: 172.111.38.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk|314KB/s
   type: http
-  server: 37.120.213.210
-  port: 9443
+  server: 38.247.141.135
+  port: 443
   tls: true
+  sni: 38.247.141.135
   skip-cert-verify: true
+- name: 🇺🇸US-193.151.163.18-0095 | 203.068MB|304KB/s
+  server: 193.151.163.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: NL - zhuhai.uk 03|302KB/s
+  type: http
+  server: 84.17.47.124
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 84.17.47.124
+  skip-cert-verify: true
+- name: 🇺🇸US-95.215.201.18-0076 | 75.603MB|284KB/s
+  server: 95.215.201.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-173.244.56.6-0125 | 89.589MB|267KB/s
+  server: 173.244.56.6
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇩🇪DE-57.129.83.85-0094 | 85.899MB|146KB/s
+  server: 57.129.83.85
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
