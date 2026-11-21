@@ -1,7 +1,13 @@
-# Mac hourly sync 2026-11-22 00:03:01 | alive 1
+# Mac hourly sync 2026-11-22 01:02:09 | alive 2
 proxies:
-- name: IT-202.50.253.90-0199 | 5.937MB|171KB/s
-  server: 202.50.253.90
+- name: IT-202.50.253.99-0204 | 44.544MB|257KB/s
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.72-0203 | 4.812MB|253KB/s
+  server: 202.50.253.72
   port: 19999
   type: ss
   cipher: aes-256-gcm
