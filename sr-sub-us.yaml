@@ -1,5 +1,21 @@
-# Mac hourly sync 2026-11-21 11:04:12 | alive 3
+# Mac hourly sync 2026-11-21 12:58:35 | alive 4
 proxies:
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
+  server: 188.114.99.137
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
 - name: US - zhuhai.uk 04|1KB/s
   type: vless
   server: 162.35.101.177
