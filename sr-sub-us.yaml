@@ -1,21 +1,5 @@
-# Mac hourly sync 2026-11-21 08:44:48 | alive 9
+# Mac hourly sync 2026-11-21 09:43:07 | alive 7
 proxies:
-- type: vmess
-  name: 🇺🇸_US_美国_IPV4 (14)|20KB/s
-  server: 104.18.42.163
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
 - alterId: 0
   cipher: auto
   http-opts:
@@ -32,50 +16,28 @@ proxies:
   udp: true
   uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
   xudp: true
-- name: 🇺🇸 美国 | USA 13|4KB/s
-  password: 0324fbc29561
-  port: 443
-  server: sdf65h46wr.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: 🇺🇸US_7|2.9MB/s|2KB/s
-  port: 443
-  server: 23.133.176.14
-  skip-cert-verify: true
+- name: US - zhuhai.uk|2KB/s
+  type: socks5
+  server: 23.230.200.250
+  port: 62000
+  username: kingstar123
+  password: kingstar123++
+- name: 🇺🇸 美国 | USA|2KB/s
+  server: 45.86.245.122
+  port: 8444
+  type: vless
+  uuid: 0f2dc4af-951f-4690-922e-07c6e8bab26a
   tls: true
-  type: http
-- name: 🇺🇸 美国 | USA 9|1KB/s
-  network: ws
-  password: zhs000666
-  port: 443
-  server: 104.17.22.231
-  skip-cert-verify: true
-  sni: 666-4sd.pages.dev
-  type: trojan
+  servername: at-43-wt6w.new-wave-split.site
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /xh
+    host: at-43-wt6w.new-wave-split.site
   udp: true
-  ws-opts:
-    headers:
-      Host: 666-4sd.pages.dev
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 🇺🇸US_8|2.0MB/s
-  port: 9443
-  server: 152.233.50.145
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|3.3MB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
-  server: 172.67.190.164
+  name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4|1KB/s
+  server: www.shopify.com
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
@@ -83,12 +45,26 @@ proxies:
   tls: true
   servername: guanwang.awsno.com
   sni: guanwang.awsno.com
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+- name: 🇺🇸 美国 | USA 2
+  server: germanyafterpool.fun
+  port: 443
+  type: hysteria2
+  password: 9a9f167d-b461-466f-be50-f0ffd598a6f8
+  auth: 9a9f167d-b461-466f-be50-f0ffd598a6f8
+  sni: germanyafterpool.fun
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03
+  type: http
+  server: 173.42.49.102
+  port: 8090
+  tls: true
+  sni: 173.42.49.102
+  skip-cert-verify: true
 - type: vmess
   name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
   server: 188.114.99.137
