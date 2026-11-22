@@ -1,42 +1,33 @@
-# Mac hourly sync 2026-11-22 17:04:14 | alive 5
+# Mac hourly sync 2026-11-22 18:03:03 | alive 4
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|758KB/s
-  server: 38.6.222.131
-  port: 11008
-  password: dongtaiwang.com
+- name: 🇺🇸 美国 | USA 2|426KB/s
+  server: 162.35.101.177
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: IT-202.50.253.63-0207 | 89.762MB|427KB/s
-  server: 202.50.253.63
-  port: 19999
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 99f2107b03f8
+  udp: true
+- name: IT - zhuhai.uk 02|387KB/s
   type: ss
+  server: 202.50.253.99
+  port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: GB - zhuhai.uk|416KB/s
-  type: http
-  server: 212.102.63.31
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|403KB/s
-  type: http
-  server: 172.64.69.89
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 172.64.69.89
-  skip-cert-verify: true
-- name: IT-202.50.253.90-0228 | 76.251MB|331KB/s
-  server: 202.50.253.90
+- name: KR - zhuhai.uk 02|293KB/s
+  type: socks5
+  server: 183.106.215.208
+  port: 1080
+- name: IT-202.50.253.54-0241 | 75.455MB|163KB/s
+  server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
