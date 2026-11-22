@@ -1,6 +1,37 @@
-# Mac hourly sync 2026-11-22 21:04:50 | alive 7
+# Mac hourly sync 2026-11-22 22:03:57 | alive 9
 proxies:
-- name: US - zhuhai.uk 13|27KB/s
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|320KB/s
+  server: 188.114.99.137
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: US - zhuhai.uk 09|250KB/s
+  type: http
+  server: 38.28.193.39
+  port: 443
+  tls: true
+  sni: 38.28.193.39
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|11KB/s
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 13|1KB/s
   type: http
   server: 71.43.26.234
   port: 443
@@ -11,7 +42,7 @@ proxies:
   - h3
   auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
   down: 200
-  name: 🇺🇸 美国 | USA 7|3KB/s
+  name: 🇺🇸 美国 | USA 7|1KB/s
   obfs: salamander
   obfs-password: re61ep4ancwplwh8
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -22,8 +53,23 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 172.64.69.89
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 172.64.69.89
+  skip-cert-verify: true
+- name: US - zhuhai.uk 12|0KB/s
+  type: http
+  server: 45.150.164.18
+  port: 8443
+  tls: true
+  skip-cert-verify: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4|1KB/s
+  name: 🇺🇸_US_美国_IPV4|0KB/s
   server: 137.175.82.41
   port: 20022
   password: dongtaiwang.com
@@ -36,42 +82,12 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- alpn:
-  - h3
-  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  down: 200
-  name: 🇺🇸 美国 | USA 6|1KB/s
-  obfs: salamander
-  obfs-password: kydqninqtcdomlcb
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 40205
-  server: a1dgus.supertoolify.com
-  skip-cert-verify: true
-  sni: psstatic.cdn.bcebos.com
-  type: hysteria2
-  udp: true
-  up: 100
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 04|0KB/s
   type: http
-  server: 138.199.35.216
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 172.64.69.89
-  port: 443
+  server: 24.142.229.178
+  port: 8090
   username: 'null'
   password: 'null'
   tls: true
-  sni: 172.64.69.89
-  skip-cert-verify: true
-- name: US - zhuhai.uk 09|0KB/s
-  type: http
-  server: 38.28.193.39
-  port: 443
-  tls: true
-  sni: 38.28.193.39
+  sni: 24.142.229.178
   skip-cert-verify: true
