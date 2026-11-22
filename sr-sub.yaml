@@ -1,14 +1,28 @@
-# Mac hourly sync 2026-11-22 15:03:23 | alive 2
+# Mac hourly sync 2026-11-22 16:02:55 | alive 3
 proxies:
-- name: EC - zhuhai.uk|364KB/s
-  type: http
-  server: 38.165.231.71
-  port: 9443
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|678KB/s
+  server: 38.6.222.131
+  port: 11008
+  password: dongtaiwang.com
   tls: true
-  sni: 38.165.231.71
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: IT-202.50.253.54-0241 | 75.455MB|352KB/s
-  server: 202.50.253.54
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: 🇩🇪DE_1|1.2MB/s|398KB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  sni: 172.64.68.89
+  tls: true
+  type: http
+- name: IT-202.50.253.63-0207 | 89.762MB|209KB/s
+  server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
