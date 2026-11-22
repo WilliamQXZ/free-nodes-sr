@@ -1,42 +1,36 @@
-# Mac hourly sync 2026-11-23 04:01:34 | alive 9
+# Mac hourly sync 2026-11-23 05:01:35 | alive 5
 proxies:
-- name: VN - zhuhai.uk|877KB/s
-  type: socks5
-  server: 221.133.22.195
-  port: 62000
-  username: KUs4xRXd
-  password: 480w0Yy4
-- name: US - zhuhai.uk|857KB/s
+- name: DE - zhuhai.uk|873KB/s
+  type: http
+  server: 158.173.154.4
+  port: 9002
+  tls: true
+  sni: 158.173.154.4
+  skip-cert-verify: true
+- name: US - zhuhai.uk|862KB/s
   type: http
   server: 74.208.250.147
   port: 8443
   tls: true
   sni: 74.208.250.147
   skip-cert-verify: true
-- name: NL - zhuhai.uk 04|747KB/s
-  type: http
-  server: 84.17.47.126
-  port: 9002
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|843KB/s
+  server: 38.6.222.132
+  port: 11008
+  password: dongtaiwang.com
   tls: true
-  sni: 84.17.47.126
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: IT - zhuhai.uk|705KB/s
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: NL - zhuhai.uk 06|697KB/s
-  type: http
-  server: 84.17.47.123
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|602KB/s
-  server: 188.114.99.137
+  name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4|689KB/s
+  server: www.shopify.com
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
@@ -44,28 +38,15 @@ proxies:
   tls: true
   servername: guanwang.awsno.com
   sni: guanwang.awsno.com
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: IT-202.50.253.90-0228 | 15.9MB|543KB/s
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.54-0241 | 0.34MB|421KB/s
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: AU - zhuhai.uk|353KB/s
+- name: JP - zhuhai.uk 02|392KB/s
   type: http
-  server: 103.62.50.130
+  server: fan.571589.xyz
   port: 443
   tls: true
-  sni: 103.62.50.130
+  sni: fan.571589.xyz
   skip-cert-verify: true
