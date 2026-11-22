@@ -1,65 +1,42 @@
-# Mac hourly sync 2026-11-22 07:03:28 | alive 6
+# Mac hourly sync 2026-11-22 08:01:53 | alive 5
 proxies:
-- name: NL - zhuhai.uk|736KB/s
+- type: vless
+  name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4|844KB/s
+  server: 163.245.42.87
+  port: 443
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  tls: true
+  servername: mother-earth.fyi
+  sni: mother-earth.fyi
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 🇺🇸US_2|1.3MB/s|804KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: NL - zhuhai.uk 05|770KB/s
   type: http
-  server: 84.17.47.146
+  server: 84.17.47.124
   port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
   skip-cert-verify: true
-- name: IT-202.50.253.27-0201 | 1.416MB|654KB/s
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4|621KB/s
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: US - zhuhai.uk 03|588KB/s
-  type: vless
-  server: 162.35.101.177
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 99f2107b03f8
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|547KB/s
-  server: 188.114.99.137
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: US - zhuhai.uk|383KB/s
+- name: US - zhuhai.uk|382KB/s
   type: http
   server: 38.28.193.188
   port: 443
   tls: true
+  skip-cert-verify: true
+- name: HK - zhuhai.uk 02|191KB/s
+  type: http
+  server: fan.240104.xyz
+  port: 443
+  tls: true
+  sni: fan.240104.xyz
   skip-cert-verify: true
