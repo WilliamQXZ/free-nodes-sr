@@ -1,8 +1,34 @@
-# Mac hourly sync 2026-11-22 19:02:23 | alive 1
+# Mac hourly sync 2026-11-22 20:03:57 | alive 4
 proxies:
-- name: IT-202.50.253.90-0228 | 76.251MB|288KB/s
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk 06|475KB/s
+  type: http
+  server: 172.64.69.89
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 172.64.69.89
+  skip-cert-verify: true
+- name: GB - zhuhai.uk|357KB/s
+  type: http
+  server: 212.102.63.31
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- type: vless
+  name: 🇷🇺_RU_俄罗斯_IPV4|311KB/s
+  server: 136.148.83.69
+  port: 443
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+  tls: true
+  servername: szqbx-ru-77dc.my-fade.cloud
+  sni: szqbx-ru-77dc.my-fade.cloud
+  skip-cert-verify: true
+  client-fingerprint: chrome
+- name: US - zhuhai.uk 09|298KB/s
+  type: http
+  server: 38.28.193.39
+  port: 443
+  tls: true
+  sni: 38.28.193.39
+  skip-cert-verify: true
