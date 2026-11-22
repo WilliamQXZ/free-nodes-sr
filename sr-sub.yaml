@@ -1,38 +1,15 @@
-# Mac hourly sync 2026-11-23 01:03:41 | alive 3
+# Mac hourly sync 2026-11-23 02:01:38 | alive 2
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4|419KB/s
-  server: 137.175.82.41
-  port: 20022
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- type: vmess
-  name: 🇺🇸_US_美国_IPV4 (12)|230KB/s
-  server: 104.18.42.163
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: IT - zhuhai.uk|196KB/s
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #3|459KB/s'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1619... #5|384KB/s'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
