@@ -1,56 +1,6 @@
-# Mac hourly sync 2026-11-22 17:04:17 | alive 9
+# Mac hourly sync 2026-11-22 18:03:08 | alive 8
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|758KB/s
-  server: 38.6.222.131
-  port: 11008
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 06|403KB/s
-  type: http
-  server: 172.64.69.89
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 172.64.69.89
-  skip-cert-verify: true
-- name: US - zhuhai.uk 12|17KB/s
-  type: http
-  server: 45.150.164.18
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
-  server: 38.6.222.132
-  port: 11008
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 13|1KB/s
-  type: http
-  server: 71.43.26.234
-  port: 443
-  tls: true
-  sni: 71.43.26.234
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 2|1KB/s
+- name: 🇺🇸 美国 | USA 2|426KB/s
   server: 162.35.101.177
   port: 443
   type: vless
@@ -74,6 +24,43 @@ proxies:
   password: None
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 172.64.69.89
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 172.64.69.89
+  skip-cert-verify: true
+- name: US - zhuhai.uk 13|1KB/s
+  type: http
+  server: 71.43.26.234
+  port: 443
+  tls: true
+  sni: 71.43.26.234
+  skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
+  server: 38.6.222.131
+  port: 11008
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 38.28.193.39
+  port: 443
+  tls: true
+  sni: 38.28.193.39
+  skip-cert-verify: true
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4|1KB/s
   server: 137.175.82.41
@@ -88,10 +75,9 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 09|0KB/s
+- name: US - zhuhai.uk 12|0KB/s
   type: http
-  server: 38.28.193.39
-  port: 443
+  server: 45.150.164.18
+  port: 8443
   tls: true
-  sni: 38.28.193.39
   skip-cert-verify: true
