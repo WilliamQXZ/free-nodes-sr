@@ -1,22 +1,15 @@
-# Mac hourly sync 2026-11-23 01:03:44 | alive 11
+# Mac hourly sync 2026-11-23 04:01:38 | alive 13
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4|419KB/s
-  server: 137.175.82.41
-  port: 20022
-  password: dongtaiwang.com
+- name: US - zhuhai.uk|857KB/s
+  type: http
+  server: 74.208.250.147
+  port: 8443
   tls: true
-  servername: bing.com
-  sni: bing.com
+  sni: 74.208.250.147
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
 - type: vmess
-  name: 🇺🇸_US_美国_IPV4 (12)|230KB/s
-  server: 104.18.42.163
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|602KB/s
+  server: 188.114.99.137
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
@@ -34,7 +27,7 @@ proxies:
   - h3
   auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
   down: 200
-  name: 🇺🇸 美国 | USA 7|29KB/s
+  name: 🇺🇸 美国 | USA 7|3KB/s
   obfs: salamander
   obfs-password: re61ep4ancwplwh8
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -45,6 +38,37 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
+- name: US - zhuhai.uk 02|2KB/s
+  type: http
+  server: 172.64.68.89
+  port: 443
+  tls: true
+  sni: 172.64.68.89
+  skip-cert-verify: true
+- name: 🇺🇸US_1|1007KB/s|1KB/s
+  password: 'null'
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸 美国 | USA 4|1KB/s
+  server: 162.35.101.177
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 99f2107b03f8
+  udp: true
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
   server: 38.6.222.131
@@ -59,26 +83,12 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 06|1KB/s
+- name: US - zhuhai.uk 03|1KB/s
   type: http
-  server: 172.64.69.89
-  port: 443
-  username: 'null'
-  password: 'null'
+  server: 152.233.50.145
+  port: 9443
   tls: true
-  sni: 172.64.69.89
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 5|1KB/s
-  server: ssr2.762988.xyz
-  port: 33336
-  type: ssr
-  cipher: chacha20-ietf
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocolparam: ''
-  obfsparam: ''
-  udp: true
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
   server: 38.6.222.132
@@ -93,29 +103,49 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 09|1KB/s
-  type: http
-  server: 38.28.193.39
-  port: 443
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4|1KB/s
+  server: 137.175.82.41
+  port: 20022
+  password: dongtaiwang.com
   tls: true
-  sni: 38.28.193.39
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: US - zhuhai.uk 12|1KB/s
-  type: http
-  server: 45.150.164.18
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 13
-  type: http
-  server: 71.43.26.234
-  port: 443
-  tls: true
-  sni: 71.43.26.234
-  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: 🇺🇸 美国 | USA 5
+  server: ssr2.762988.xyz
+  port: 33336
+  type: ssr
+  cipher: chacha20-ietf
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocolparam: ''
+  obfsparam: ''
+  udp: true
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
-  server: 188.114.99.137
+  name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4
+  server: www.shopify.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- type: vmess
+  name: 🇺🇸_US_美国_IPV4 (12)
+  server: 104.18.42.163
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
