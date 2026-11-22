@@ -1,33 +1,7 @@
-# Mac hourly sync 2026-11-22 18:03:03 | alive 4
+# Mac hourly sync 2026-11-22 19:02:23 | alive 1
 proxies:
-- name: 🇺🇸 美国 | USA 2|426KB/s
-  server: 162.35.101.177
-  port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
-  udp: true
-- name: IT - zhuhai.uk 02|387KB/s
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: KR - zhuhai.uk 02|293KB/s
-  type: socks5
-  server: 183.106.215.208
-  port: 1080
-- name: IT-202.50.253.54-0241 | 75.455MB|163KB/s
-  server: 202.50.253.54
+- name: IT-202.50.253.90-0228 | 76.251MB|288KB/s
+  server: 202.50.253.90
   port: 19999
   type: ss
   cipher: aes-256-gcm
