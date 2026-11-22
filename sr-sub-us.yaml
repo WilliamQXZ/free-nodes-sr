@@ -1,34 +1,11 @@
-# Mac hourly sync 2026-11-22 09:01:42 | alive 13
+# Mac hourly sync 2026-11-22 10:04:17 | alive 18
 proxies:
-- name: 🇺🇸 美国 | USA 10|662KB/s
-  server: media.embrofree.org
-  port: 443
-  type: hysteria2
-  password: 713142c9-ad09-4894-b35c-645423f3f6c9
-  auth: 713142c9-ad09-4894-b35c-645423f3f6c9
-  sni: media.embrofree.org
-  skip-cert-verify: true
-- name: US - zhuhai.uk|288KB/s
+- name: US - zhuhai.uk|345KB/s
   type: http
-  server: 38.28.193.188
+  server: 149.34.248.65
   port: 443
   tls: true
   skip-cert-verify: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '🇺🇸 美国 | USA #7|4KB/s'
-  network: http
-  port: 52080
-  server: 107.174.133.115
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd
 - alpn:
   - ''
   alterId: 0
@@ -37,7 +14,7 @@ proxies:
     method: GET
     path:
     - /3x
-  name: '🇺🇸 美国 | USA #8|4KB/s'
+  name: '🇺🇸 美国 | USA #8|337KB/s'
   network: http
   port: 2053
   server: 192.204.58.87
@@ -46,30 +23,12 @@ proxies:
   type: vmess
   udp: true
   uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #12|3KB/s'
-  network: ws
-  port: 16648
-  server: d1eyz.xiaoyan.io
+- name: US - zhuhai.uk 04|283KB/s
+  type: http
+  server: 38.95.111.226
+  port: 9443
+  tls: true
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  ws-opts:
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
-- name: 🇺🇸 美国 | USA 5|2KB/s
-  server: 48.103.218.77
-  port: 18443
-  type: ss
-  cipher: aes-256-gcm
-  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
-  udp: true
 - alterId: 0
   cipher: auto
   http-opts:
@@ -88,18 +47,50 @@ proxies:
   type: vmess
   udp: true
   uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
-- name: 🇺🇸 美国 | USA 6|1KB/s
-  server: 179.253.80.175
-  port: 4443
-  type: vless
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  tls: true
-  servername: swo2.nexfile.net
-  client-fingerprint: firefox
-  network: xhttp
-  xhttp-opts:
-    path: /api/v1/sync/
+- name: 🇺🇸 美国 | USA 5|1KB/s
+  server: 48.103.218.77
+  port: 18443
+  type: ss
+  cipher: aes-256-gcm
+  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
   udp: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.204
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 2|1KB/s
+  server: 162.35.101.177
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 99f2107b03f8
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: '🇺🇸 美国 | USA #7|1KB/s'
+  network: http
+  port: 52080
+  server: 107.174.133.115
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
   server: 38.6.222.132
@@ -114,20 +105,6 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: 🇺🇸 美国 | USA 3|1KB/s
-  server: swo2.nexfile.net
-  port: 4443
-  type: vless
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  tls: true
-  servername: swo2.nexfile.net
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /api/v1/sync/
-    host: swo2.nexfile.net
-    mode: auto
-  udp: true
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
   server: 38.6.222.131
@@ -142,24 +119,77 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 05|1KB/s
   type: http
-  server: 162.191.87.112
-  port: 8443
-  tls: true
-  sni: 162.191.87.112
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 8|1KB/s
-  server: 5.34.178.120
+  server: 172.64.68.89
   port: 443
-  type: vless
-  uuid: 23b848b7-93e5-4d96-b36d-ed704912e5b7
   tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 4RaNuv9yehmcfpdzvRxCWWzEWERWzZSIHqcgg3l35Cw
-    short-id: e16bbf1a5bee2321
-  servername: www.cloudflare.com
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 3|1KB/s
+  server: swo2.nexfile.net
+  port: 4443
+  type: vless
+  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  tls: true
+  servername: swo2.nexfile.net
   client-fingerprint: chrome
-  network: tcp
+  network: xhttp
+  xhttp-opts:
+    path: /api/v1/sync/
+    host: swo2.nexfile.net
+    mode: auto
   udp: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 24.142.229.178
+  port: 8090
+  tls: true
+  skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4|1KB/s
+  server: 137.175.82.41
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 6|1KB/s
+  server: 179.253.80.175
+  port: 4443
+  type: vless
+  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  tls: true
+  servername: swo2.nexfile.net
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /api/v1/sync/
+  udp: true
+- name: US - zhuhai.uk 03|0KB/s
+  type: http
+  server: 129.153.93.183
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 10
+  server: media.embrofree.org
+  port: 443
+  type: hysteria2
+  password: 713142c9-ad09-4894-b35c-645423f3f6c9
+  auth: 713142c9-ad09-4894-b35c-645423f3f6c9
+  sni: media.embrofree.org
+  skip-cert-verify: true
