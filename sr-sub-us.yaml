@@ -1,9 +1,9 @@
-# Mac hourly sync 2026-11-22 13:02:06 | alive 12
+# Mac hourly sync 2026-11-22 14:03:35 | alive 11
 proxies:
-- name: US - zhuhai.uk 02|35KB/s
+- name: US - zhuhai.uk|300KB/s
   type: http
-  server: 138.199.35.204
-  port: 9002
+  server: 149.34.248.65
+  port: 443
   tls: true
   skip-cert-verify: true
 - name: US - zhuhai.uk 05|2KB/s
@@ -12,38 +12,34 @@ proxies:
   port: 443
   tls: true
   skip-cert-verify: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
-  server: 38.6.222.132
-  port: 11008
-  password: dongtaiwang.com
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: 138.199.35.211
+  port: 9002
+  username: 'null'
+  password: None
   tls: true
-  servername: bing.com
-  sni: bing.com
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - mmsc.vnet.mobi
-    method: GET
-    path:
-    - /3x
-  name: '🇺🇸 美国 | USA #9|1KB/s'
-  network: http
-  port: 52080
-  server: 192.204.58.87
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.204
+  port: 9002
+  tls: true
   skip-cert-verify: true
-  tls: false
-  type: vmess
+- name: 🇺🇸 美国 | USA 8|1KB/s
+  server: 5.34.178.120
+  port: 443
+  type: vless
+  uuid: 23b848b7-93e5-4d96-b36d-ed704912e5b7
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 4RaNuv9yehmcfpdzvRxCWWzEWERWzZSIHqcgg3l35Cw
+    short-id: e16bbf1a5bee2321
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
-  uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
 - name: 🇺🇸 美国 | USA 3|1KB/s
   server: swo2.nexfile.net
   port: 4443
@@ -58,6 +54,20 @@ proxies:
     host: swo2.nexfile.net
     mode: auto
   udp: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
+  server: 38.6.222.132
+  port: 11008
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
 - name: 🇺🇸 美国 | USA 2|1KB/s
   server: 162.35.101.177
   port: 443
@@ -74,21 +84,6 @@ proxies:
     grpc-mode: gun
     grpc-service-name: 99f2107b03f8
   udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '🇺🇸 美国 | USA #7|1KB/s'
-  network: http
-  port: 52080
-  server: 107.174.133.115
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd
 - name: 🇺🇸 美国 | USA 6|1KB/s
   server: 179.253.80.175
   port: 4443
@@ -101,43 +96,12 @@ proxies:
   xhttp-opts:
     path: /api/v1/sync/
   udp: true
-- name: US - zhuhai.uk 06|1KB/s
+- name: US - zhuhai.uk 04|1KB/s
   type: http
-  server: 24.142.229.178
-  port: 8090
+  server: 38.95.111.226
+  port: 9443
   tls: true
   skip-cert-verify: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /3x
-  name: '🇺🇸 美国 | USA #8'
-  network: http
-  port: 2053
-  server: 192.204.58.87
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4
-  server: 137.175.82.41
-  port: 20022
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
 - name: 🇺🇸 美国 | USA 5
   server: 48.103.218.77
   port: 18443
