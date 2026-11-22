@@ -1,32 +1,44 @@
-# Mac hourly sync 2026-11-22 09:01:38 | alive 4
+# Mac hourly sync 2026-11-22 10:04:13 | alive 5
 proxies:
-- name: 🇺🇸 美国 | USA 10|662KB/s
-  server: media.embrofree.org
-  port: 443
-  type: hysteria2
-  password: 713142c9-ad09-4894-b35c-645423f3f6c9
-  auth: 713142c9-ad09-4894-b35c-645423f3f6c9
-  sni: media.embrofree.org
-  skip-cert-verify: true
-- name: IT-202.50.253.18-0206 | 22.367MB|459KB/s
-  server: 202.50.253.18
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #3|420KB/s'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+  udp: true
+- name: IT-202.50.253.81-0253 | 0.586MB|407KB/s
+  server: 202.50.253.81
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk|288KB/s
+- name: US - zhuhai.uk|345KB/s
   type: http
-  server: 38.28.193.188
+  server: 149.34.248.65
   port: 443
   tls: true
   skip-cert-verify: true
-- type: vless
-  name: 🇷🇺_RU_俄罗斯_IPV4|215KB/s
-  server: 136.148.83.69
-  port: 443
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
-  tls: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-  sni: szqbx-ru-77dc.my-fade.cloud
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /3x
+  name: '🇺🇸 美国 | USA #8|337KB/s'
+  network: http
+  port: 2053
+  server: 192.204.58.87
   skip-cert-verify: true
-  client-fingerprint: chrome
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
+- name: US - zhuhai.uk 04|283KB/s
+  type: http
+  server: 38.95.111.226
+  port: 9443
+  tls: true
+  skip-cert-verify: true
