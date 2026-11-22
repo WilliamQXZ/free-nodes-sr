@@ -1,16 +1,28 @@
-# Mac hourly sync 2026-11-22 12:03:23 | alive 2
+# Mac hourly sync 2026-11-22 13:02:02 | alive 3
 proxies:
-- name: US - zhuhai.uk|410KB/s
+- name: JP - zhuhai.uk 02|504KB/s
   type: http
-  server: 149.34.248.65
+  server: jpgmo102-cdn-route.couldflare-cdn.com
   port: 443
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  password: exaxgqkKkd0TAMrCxeonWg==
   tls: true
+  sni: jpgmo102-cdn-route.couldflare-cdn.com
+- name: IT-202.50.253.90-0254 | 0.832MB|332KB/s
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: https://alvin9999.com|230KB/s
+  port: 24667
+  protocol: udp
+  server: 62.210.124.132
   skip-cert-verify: true
-- type: ss
-  name: 🇩🇪_DE_德国_IPV4|385KB/s
-  server: 47.254.128.109
-  port: 443
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  cipher: 2022-blake3-chacha20-poly1305
-  tls: false
-  skip-cert-verify: false
+  sni: bing.com
+  type: hysteria
+  up: 11 Mbps
