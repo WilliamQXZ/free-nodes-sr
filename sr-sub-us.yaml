@@ -1,13 +1,32 @@
-# Mac hourly sync 2026-11-22 23:03:40 | alive 7
+# Mac hourly sync 2026-11-23 00:04:31 | alive 9
 proxies:
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 12|1KB/s
   type: http
-  server: 138.199.35.216
-  port: 9002
-  username: 'null'
-  password: None
+  server: 45.150.164.18
+  port: 8443
   tls: true
   skip-cert-verify: true
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 38.28.193.39
+  port: 443
+  tls: true
+  sni: 38.28.193.39
+  skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
+  server: 38.6.222.131
+  port: 11008
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
 - alpn:
   - h3
   auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -23,21 +42,15 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
-- name: US - zhuhai.uk 09|1KB/s
+- name: US - zhuhai.uk 02|1KB/s
   type: http
-  server: 38.28.193.39
-  port: 443
+  server: 138.199.35.216
+  port: 9002
+  username: 'null'
+  password: None
   tls: true
-  sni: 38.28.193.39
   skip-cert-verify: true
-- name: US - zhuhai.uk 13|1KB/s
-  type: http
-  server: 71.43.26.234
-  port: 443
-  tls: true
-  sni: 71.43.26.234
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
+- name: US - zhuhai.uk 06|0KB/s
   type: http
   server: 172.64.69.89
   port: 443
@@ -46,22 +59,13 @@ proxies:
   tls: true
   sni: 172.64.69.89
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 4|0KB/s
-  server: 162.35.101.177
+- name: US - zhuhai.uk 13|0KB/s
+  type: http
+  server: 71.43.26.234
   port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
-  udp: true
+  sni: 71.43.26.234
+  skip-cert-verify: true
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4|0KB/s
   server: 137.175.82.41
@@ -76,3 +80,19 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
+  server: 188.114.99.137
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
