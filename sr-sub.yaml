@@ -1,18 +1,38 @@
-# Mac hourly sync 2026-11-23 00:04:27 | alive 2
+# Mac hourly sync 2026-11-23 01:03:41 | alive 3
 proxies:
-- name: 🇩🇪DE_1|2.0MB/s|497KB/s
-  password: 'null'
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4|419KB/s
+  server: 137.175.82.41
+  port: 20022
+  password: dongtaiwang.com
   tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: GB - zhuhai.uk|416KB/s
-  type: http
-  server: 212.102.63.31
-  port: 443
-  tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- type: vmess
+  name: 🇺🇸_US_美国_IPV4 (12)|230KB/s
+  server: 104.18.42.163
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: IT - zhuhai.uk|196KB/s
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
