@@ -1,9 +1,18 @@
-# Mac hourly sync 2026-11-22 23:03:37 | alive 1
+# Mac hourly sync 2026-11-23 00:04:27 | alive 2
 proxies:
-- name: IE - zhuhai.uk|238KB/s
+- name: 🇩🇪DE_1|2.0MB/s|497KB/s
+  password: 'null'
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
   type: http
-  server: 149.88.96.12
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: GB - zhuhai.uk|416KB/s
+  type: http
+  server: 212.102.63.31
   port: 443
   tls: true
-  sni: 149.88.96.12
   skip-cert-verify: true
