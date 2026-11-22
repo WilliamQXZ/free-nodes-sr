@@ -1,28 +1,15 @@
-# Mac hourly sync 2026-11-22 14:03:31 | alive 4
+# Mac hourly sync 2026-11-22 15:03:23 | alive 2
 proxies:
-- name: IT-202.50.253.90-0254 | 0.832MB|385KB/s
-  server: 202.50.253.90
+- name: EC - zhuhai.uk|364KB/s
+  type: http
+  server: 38.165.231.71
+  port: 9443
+  tls: true
+  sni: 38.165.231.71
+  skip-cert-verify: true
+- name: IT-202.50.253.54-0241 | 75.455MB|352KB/s
+  server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk|300KB/s
-  type: http
-  server: 149.34.248.65
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #3|246KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-- name: HK - zhuhai.uk 02|157KB/s
-  type: http
-  server: fan.240104.xyz
-  port: 443
-  tls: true
-  sni: fan.240104.xyz
-  skip-cert-verify: true
