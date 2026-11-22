@@ -1,44 +1,8 @@
-# Mac hourly sync 2026-11-22 10:04:13 | alive 5
+# Mac hourly sync 2026-11-22 11:02:55 | alive 1
 proxies:
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #3|420KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-- name: IT-202.50.253.81-0253 | 0.586MB|407KB/s
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk|345KB/s
+- name: US - zhuhai.uk 05|478KB/s
   type: http
-  server: 149.34.248.65
+  server: 172.64.68.89
   port: 443
-  tls: true
-  skip-cert-verify: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /3x
-  name: '🇺🇸 美国 | USA #8|337KB/s'
-  network: http
-  port: 2053
-  server: 192.204.58.87
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
-- name: US - zhuhai.uk 04|283KB/s
-  type: http
-  server: 38.95.111.226
-  port: 9443
   tls: true
   skip-cert-verify: true
