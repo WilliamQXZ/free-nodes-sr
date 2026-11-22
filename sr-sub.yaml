@@ -1,42 +1,32 @@
-# Mac hourly sync 2026-11-22 08:01:53 | alive 5
+# Mac hourly sync 2026-11-22 09:01:38 | alive 4
 proxies:
-- type: vless
-  name: 🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4|844KB/s
-  server: 163.245.42.87
+- name: 🇺🇸 美国 | USA 10|662KB/s
+  server: media.embrofree.org
   port: 443
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: mother-earth.fyi
-  sni: mother-earth.fyi
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 🇺🇸US_2|1.3MB/s|804KB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
-- name: NL - zhuhai.uk 05|770KB/s
-  type: http
-  server: 84.17.47.124
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
+  type: hysteria2
+  password: 713142c9-ad09-4894-b35c-645423f3f6c9
+  auth: 713142c9-ad09-4894-b35c-645423f3f6c9
+  sni: media.embrofree.org
   skip-cert-verify: true
-- name: US - zhuhai.uk|382KB/s
+- name: IT-202.50.253.18-0206 | 22.367MB|459KB/s
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk|288KB/s
   type: http
   server: 38.28.193.188
   port: 443
   tls: true
   skip-cert-verify: true
-- name: HK - zhuhai.uk 02|191KB/s
-  type: http
-  server: fan.240104.xyz
+- type: vless
+  name: 🇷🇺_RU_俄罗斯_IPV4|215KB/s
+  server: 136.148.83.69
   port: 443
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
   tls: true
-  sni: fan.240104.xyz
+  servername: szqbx-ru-77dc.my-fade.cloud
+  sni: szqbx-ru-77dc.my-fade.cloud
   skip-cert-verify: true
+  client-fingerprint: chrome
