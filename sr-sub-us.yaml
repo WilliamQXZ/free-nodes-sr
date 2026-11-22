@@ -1,48 +1,26 @@
-# Mac hourly sync 2026-11-22 08:01:57 | alive 11
+# Mac hourly sync 2026-11-22 09:01:42 | alive 13
 proxies:
-- name: 🇺🇸US_2|1.3MB/s|804KB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
-- name: US - zhuhai.uk|382KB/s
+- name: 🇺🇸 美国 | USA 10|662KB/s
+  server: media.embrofree.org
+  port: 443
+  type: hysteria2
+  password: 713142c9-ad09-4894-b35c-645423f3f6c9
+  auth: 713142c9-ad09-4894-b35c-645423f3f6c9
+  sni: media.embrofree.org
+  skip-cert-verify: true
+- name: US - zhuhai.uk|288KB/s
   type: http
   server: 38.28.193.188
   port: 443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 02|40KB/s
-  type: http
-  server: 162.191.87.112
-  port: 8443
-  tls: true
-  sni: 162.191.87.112
-  skip-cert-verify: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /3x
-  name: '🇺🇸 美国 | USA #6|4KB/s'
-  network: http
-  port: 2053
-  server: 192.204.58.87
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /QQqun-737805443
-  name: '🇺🇸 美国 | USA #4|2KB/s'
+  name: '🇺🇸 美国 | USA #7|4KB/s'
   network: http
   port: 52080
   server: 107.174.133.115
@@ -51,32 +29,31 @@ proxies:
   type: vmess
   udp: true
   uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd
-- alterId: 0
+- alpn:
+  - ''
+  alterId: 0
   cipher: auto
   http-opts:
-    headers:
-      Host:
-      - mmsc.vnet.mobi
     method: GET
     path:
     - /3x
-  name: '🇺🇸 美国 | USA #5|1KB/s'
+  name: '🇺🇸 美国 | USA #8|4KB/s'
   network: http
-  port: 52080
+  port: 2053
   server: 192.204.58.87
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
+  uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
 - alpn:
   - ''
   alterId: 0
   cipher: auto
-  name: '🇺🇸 美国 | USA #11|1KB/s'
+  name: '🇺🇸 美国 | USA #12|3KB/s'
   network: ws
   port: 16648
-  server: afzuv.xiaoyan.io
+  server: d1eyz.xiaoyan.io
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -86,64 +63,103 @@ proxies:
     headers:
       Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
     path: /
-- name: US - zhuhai.uk 03|1KB/s
+- name: 🇺🇸 美国 | USA 5|2KB/s
+  server: 48.103.218.77
+  port: 18443
+  type: ss
+  cipher: aes-256-gcm
+  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - mmsc.vnet.mobi
+    method: GET
+    path:
+    - /3x
+  name: '🇺🇸 美国 | USA #9|2KB/s'
+  network: http
+  port: 52080
+  server: 192.204.58.87
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
+- name: 🇺🇸 美国 | USA 6|1KB/s
+  server: 179.253.80.175
+  port: 4443
   type: vless
-  server: 162.35.101.177
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
   tls: true
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 99f2107b03f8
+  servername: swo2.nexfile.net
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /api/v1/sync/
+  udp: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
+  server: 38.6.222.132
+  port: 11008
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: 🇺🇸 美国 | USA 3|1KB/s
+  server: swo2.nexfile.net
+  port: 4443
+  type: vless
+  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  tls: true
+  servername: swo2.nexfile.net
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /api/v1/sync/
+    host: swo2.nexfile.net
+    mode: auto
+  udp: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
+  server: 38.6.222.131
+  port: 11008
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 162.191.87.112
+  port: 8443
+  tls: true
+  sni: 162.191.87.112
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 8|1KB/s
+  server: 5.34.178.120
+  port: 443
+  type: vless
+  uuid: 23b848b7-93e5-4d96-b36d-ed704912e5b7
+  tls: true
+  flow: xtls-rprx-vision
   reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-- type: vmess
-  name: 🇺🇸_US_美国_IPV4 (12)
-  server: 104.18.42.163
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
+    public-key: 4RaNuv9yehmcfpdzvRxCWWzEWERWzZSIHqcgg3l35Cw
+    short-id: e16bbf1a5bee2321
+  servername: www.cloudflare.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
-  server: 188.114.99.137
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
+  network: tcp
+  udp: true
