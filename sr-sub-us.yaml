@@ -1,19 +1,44 @@
-# Mac hourly sync 2026-11-23 17:00:23 | alive 14
+# Mac hourly sync 2026-11-23 18:03:21 | alive 18
 proxies:
-- name: 🇺🇸US_10|2.7MB/s|371KB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
-- cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #4|2KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-  udp: true
-- name: 🇺🇸US_14|2.8MB/s|2KB/s
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|598KB/s
+  server: 38.6.222.132
+  port: 11008
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4 (11)|33KB/s
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.2fa.cat
+  tls: true
+  servername: xship.top
+  sni: xship.top
+  skip-cert-verify: true
+- name: 🇺🇸US_8|2.4MB/s|27KB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: 138.199.35.201
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  sni: 138.199.35.201
+  skip-cert-verify: true
+- name: 🇺🇸US_14|2.8MB/s|1KB/s
   password: None
   port: 9002
   server: 138.199.35.216
@@ -21,37 +46,50 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_11|2.8MB/s|1KB/s
-  port: 9443
-  server: 152.233.50.145
-  skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4|1KB/s
+  server: 137.175.82.41
+  port: 20022
+  password: dongtaiwang.com
   tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_4|3.4MB/s|P002-260618|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.218
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇺🇸US_8|2.4MB/s|1KB/s
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: 🇺🇸US_5|3.0MB/s|R002-260618|1KB/s
   port: 443
-  server: 23.133.176.14
+  server: 12.221.146.147
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_12|1.4MB/s|R002-260618|1KB/s
+  port: 443
+  server: 24.225.10.211
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 - name: 🇺🇸US_15|2.4MB/s|1KB/s
   port: 9002
   server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
+- name: US - zhuhai.uk 03|1KB/s
+  type: http
+  server: 12.202.180.10
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - name: 🇺🇸US_2|1.4MB/s|1KB/s
   password: 'null'
   port: 9002
@@ -69,6 +107,14 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
+- name: 🇺🇸US_11|2.8MB/s|1KB/s
+  port: 9443
+  server: 152.233.50.145
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 - name: 🇺🇸US_9|1.8MB/s|1KB/s
   port: 9443
   server: 38.95.111.226
@@ -77,54 +123,41 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇺🇸US_5|3.0MB/s|R002-260618|0KB/s
-  port: 443
-  server: 12.221.146.147
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.219
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  sni: 138.199.35.219
+  skip-cert-verify: true
+- name: 🇺🇸US_7|3.0MB/s|R002-260618|1KB/s
+  port: 9002
+  server: 138.199.35.211
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|0KB/s
-  server: 38.6.222.131
-  port: 11008
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
+- name: 🇺🇸US_4|3.4MB/s|P002-260618|0KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.218
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4
-  server: 137.175.82.41
-  port: 20022
-  password: dongtaiwang.com
+  sub_tag: P002-260618
   tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)
-  server: 38.6.222.132
-  port: 11008
-  password: dongtaiwang.com
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk 06|0KB/s
+  type: http
+  server: 138.199.35.214
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
-  servername: bing.com
-  sni: bing.com
+  sni: 138.199.35.214
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
