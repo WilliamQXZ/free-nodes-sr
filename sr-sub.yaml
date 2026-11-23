@@ -1,23 +1,35 @@
-# Mac hourly sync 2026-11-23 18:03:16 | alive 2
+# Mac hourly sync 2026-11-23 19:03:09 | alive 4
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|598KB/s
-  server: 38.6.222.132
-  port: 11008
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
+- name: SG - zhuhai.uk 02|498KB/s
+  type: vmess
+  server: byr3a.xiaoyan.io
+  port: 16618
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+- name: 🇩🇪DE_1|3.4MB/s|370KB/s
+  password: 'null'
+  port: 443
+  server: 172.64.69.89
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: RU - zhuhai.uk|299KB/s
+  tls: true
+  type: http
+  username: 'null'
+- name: RU - zhuhai.uk|255KB/s
   type: http
   server: 46.29.166.134
   port: 1446
   tls: true
   sni: 46.29.166.134
   skip-cert-verify: true
+- name: IT-202.50.253.81-0146 | 79.063MB|238KB/s
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
