@@ -1,24 +1,23 @@
-# Mac hourly sync 2026-11-23 17:00:19 | alive 3
+# Mac hourly sync 2026-11-23 18:03:16 | alive 2
 proxies:
-- cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1619... #5|537KB/s'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-- name: 🇩🇪DE_2|2.8MB/s|508KB/s
-  password: 'null'
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|598KB/s
+  server: 38.6.222.132
+  port: 11008
+  password: dongtaiwang.com
   tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: RU - zhuhai.uk|299KB/s
   type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇺🇸US_10|2.7MB/s|371KB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
+  server: 46.29.166.134
+  port: 1446
+  tls: true
+  sni: 46.29.166.134
+  skip-cert-verify: true
