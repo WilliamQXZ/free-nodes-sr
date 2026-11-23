@@ -1,48 +1,38 @@
-# Mac hourly sync 2026-11-24 00:02:47 | alive 5
+# Mac hourly sync 2026-11-24 01:02:13 | alive 5
 proxies:
-- name: 🇹🇼 🇨🇳 台湾 | TWN 3|537KB/s
-  password: 2902c46c8493
+- name: US - zhuhai.uk|742KB/s
+  type: http
+  server: 167.88.60.226
   port: 443
-  server: rtifgjdr.df6h451rh.xin
+  tls: true
+  sni: 167.88.60.226
   skip-cert-verify: true
-  sni: docs.microsoft.com
+- type: ss
+  name: 🇩🇪_DE_德国_IPV4 (2)|392KB/s
+  server: 47.254.167.157
+  port: 443
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  cipher: 2022-blake3-chacha20-poly1305
+  tls: false
+  skip-cert-verify: false
+- name: IT-202.50.253.36-0130 | 79.388MB|336KB/s
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.54-0143 | 71.56MB|297KB/s
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 | HKG 3|151KB/s
+  password: 0324fbc29561
+  port: 443
+  server: 5641sdds.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
   type: anytls
   udp: true
-- name: DE - zhuhai.uk|424KB/s
-  type: http
-  server: 152.233.20.206
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4|259KB/s
-  server: 137.175.82.41
-  port: 20022
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: 🇦🇹AT_1|1.2MB/s|R002-260618|241KB/s
-  port: 443
-  server: 146.70.244.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk 04|227KB/s
-  type: http
-  server: 38.28.193.188
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 38.28.193.188
-  skip-cert-verify: true
