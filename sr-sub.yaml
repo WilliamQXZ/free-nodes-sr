@@ -1,38 +1,71 @@
-# Mac hourly sync 2026-11-24 01:02:13 | alive 5
+# Mac hourly sync 2026-11-24 04:01:45 | alive 9
 proxies:
-- name: US - zhuhai.uk|742KB/s
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|826KB/s
+  server: 38.6.222.131
+  port: 11008
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: LV - zhuhai.uk|754KB/s
   type: http
-  server: 167.88.60.226
+  server: 109.248.147.66
   port: 443
   tls: true
-  sni: 167.88.60.226
+  sni: 109.248.147.66
   skip-cert-verify: true
+- name: MD - zhuhai.uk|743KB/s
+  type: http
+  server: 178.175.142.7
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: NL - zhuhai.uk 02|719KB/s
+  type: http
+  server: 149.36.51.129
+  port: 443
+  tls: true
+  sni: 149.36.51.129
+  skip-cert-verify: true
+- name: IT - zhuhai.uk|680KB/s
+  type: http
+  server: 185.183.105.130
+  port: 443
+  tls: true
+  sni: 185.183.105.130
+  skip-cert-verify: true
+- name: DE - zhuhai.uk|671KB/s
+  type: http
+  server: 152.233.20.206
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: IT-202.50.253.99-0125 | 57.672MB|581KB/s
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - type: ss
-  name: 🇩🇪_DE_德国_IPV4 (2)|392KB/s
+  name: 🇩🇪_DE_德国_IPV4 (2)|567KB/s
   server: 47.254.167.157
   port: 443
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   cipher: 2022-blake3-chacha20-poly1305
   tls: false
   skip-cert-verify: false
-- name: IT-202.50.253.36-0130 | 79.388MB|336KB/s
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.54-0143 | 71.56MB|297KB/s
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- client-fingerprint: chrome
-  name: 🇭🇰 香港 | HKG 3|151KB/s
-  password: 0324fbc29561
+- name: HK - zhuhai.uk 02|195KB/s
+  type: http
+  server: fan.240104.xyz
   port: 443
-  server: 5641sdds.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: fan.240104.xyz
