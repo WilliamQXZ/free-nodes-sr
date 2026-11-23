@@ -1,40 +1,15 @@
-# Mac hourly sync 2026-11-24 06:01:59 | alive 10
+# Mac hourly sync 2026-11-24 07:01:28 | alive 11
 proxies:
-- name: 🇺🇸US_1|1001KB/s|898KB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
-- type: hysteria2
-  name: 🇺🇸_US_美国_IPV4 (10)|268KB/s
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.2fa.cat
-  tls: true
-  servername: xship.top
-  sni: xship.top
-  skip-cert-verify: true
-- name: US - zhuhai.uk 03|2KB/s
+- name: US - zhuhai.uk|1017KB/s
   type: http
-  server: 129.153.93.183
+  server: 167.88.60.226
   port: 443
-  username: 'null'
-  password: 'null'
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|2KB/s
-  type: http
-  server: 38.28.193.188
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 38.28.193.188
+  sni: 167.88.60.226
   skip-cert-verify: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
-  server: 38.6.222.132
+  name: 🇺🇸_US_美国_IPV4 (3)|844KB/s
+  server: 38.6.222.131
   port: 11008
   password: dongtaiwang.com
   tls: true
@@ -46,9 +21,48 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|620KB/s
+  server: 188.114.99.137
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: US - zhuhai.uk 04|379KB/s
+  type: http
+  server: 38.28.193.188
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 38.28.193.188
+  skip-cert-verify: true
+- name: US - zhuhai.uk 03|2KB/s
+  type: http
+  server: 129.153.93.183
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_1|1001KB/s|2KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
-  server: 38.6.222.131
+  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
+  server: 38.6.222.132
   port: 11008
   password: dongtaiwang.com
   tls: true
@@ -74,6 +88,15 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4 (10)|0KB/s
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.2fa.cat
+  tls: true
+  servername: xship.top
+  sni: xship.top
+  skip-cert-verify: true
 - type: vmess
   name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4
   server: www.shopify.com
@@ -92,22 +115,6 @@ proxies:
 - type: vmess
   name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
   server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
-  server: 188.114.99.137
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
