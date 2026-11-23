@@ -1,73 +1,52 @@
-# Mac hourly sync 2026-11-24 05:03:19 | alive 8
+# Mac hourly sync 2026-11-24 06:01:56 | alive 7
 proxies:
-- name: HK - zhuhai.uk|2.8MB/s
-  type: anytls
-  server: ibsdsf.df6h451rh.xin
-  port: 443
-  password: 2902c46c8493
-  udp: true
-  sni: docs.microsoft.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|826KB/s
-  server: 38.6.222.131
-  port: 11008
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: GB - zhuhai.uk|803KB/s
-  type: http
-  server: 212.102.63.61
-  port: 443
-  tls: true
-  sni: 212.102.63.61
-  skip-cert-verify: true
-- name: MD - zhuhai.uk|785KB/s
-  type: http
-  server: 178.175.142.7
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: NL - zhuhai.uk|746KB/s
-  type: http
-  server: 149.36.51.161
-  port: 9443
-  tls: true
-  sni: 149.36.51.161
-  skip-cert-verify: true
-- name: DE - zhuhai.uk|721KB/s
-  type: http
-  server: 152.233.20.206
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4|609KB/s
-  server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: IT-202.50.253.72-0137 | 54.176MB|547KB/s
-  server: 202.50.253.72
+- name: 🇺🇸US_1|1001KB/s|898KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: IT-202.50.253.36-0130 | 79.388MB|841KB/s
+  server: 202.50.253.36
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.90-0139 | 45.427MB|672KB/s
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT-202.50.253.27-0123 | 78.955MB|586KB/s
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- type: vless
+  name: 🇷🇺_RU_俄罗斯_IPV4|439KB/s
+  server: 136.148.83.69
+  port: 443
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+  tls: true
+  servername: szqbx-ru-77dc.my-fade.cloud
+  sni: szqbx-ru-77dc.my-fade.cloud
+  skip-cert-verify: true
+  client-fingerprint: chrome
+- name: DE - zhuhai.uk 02|376KB/s
+  type: http
+  server: fan.973511.xyz
+  port: 443
+  username: bnVsbDpudWxs
+  tls: true
+  skip-cert-verify: true
+- type: hysteria2
+  name: 🇺🇸_US_美国_IPV4 (10)|268KB/s
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.2fa.cat
+  tls: true
+  servername: xship.top
+  sni: xship.top
+  skip-cert-verify: true
