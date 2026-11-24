@@ -1,87 +1,99 @@
-# Mac hourly sync 2026-11-25 05:01:39 | alive 13
+# Mac hourly sync 2026-11-25 06:01:47 | alive 16
 proxies:
-- name: 🇺🇸US-37.19.198.236-0187 | 41.711MB|1.0MB/s
-  server: 37.19.198.236
+- name: 🇺🇸US-23.150.152.38-0172 | 56.366MB|1.1MB/s
+  server: 23.150.152.38
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-38.22.17.129-0148 | 86.058MB|1.0MB/s
+  server: 38.22.17.129
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-37.19.198.160-0182 | 45.32MB|1.0MB/s
+  server: 37.19.198.160
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-156.146.38.169-0117 | 59.388MB|1.0MB/s
+- name: 🇺🇸US-167.88.61.52-0121 | 123.465MB|1006KB/s
+  server: 167.88.61.52
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
+  skip-cert-verify: false
+- name: 🇺🇸US-156.146.38.169-0117 | 59.388MB|1002KB/s
   server: 156.146.38.169
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-149.40.57.133-0197 | 46.336MB|1.0MB/s
-  server: 149.40.57.133
+- name: 🇺🇸US-156.146.38.170-0122 | 24.497MB|1001KB/s
+  server: 156.146.38.170
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-95.215.201.18-0114 | 108.126MB|993KB/s
+  server: 95.215.201.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-38.91.107.188-0141 | 76.502MB|1016KB/s
-  server: 38.91.107.188
+- name: 🇺🇸US-172.111.38.72-0211 | 56.107MB|990KB/s
+  server: 172.111.38.72
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-193.151.163.18-0119 | 68.734MB|1001KB/s
-  server: 193.151.163.18
+- name: 🇺🇸US-173.244.56.9-0125 | 79.198MB|971KB/s
+  server: 173.244.56.9
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-38.128.66.32-0186 | 72.889MB|944KB/s
+  server: 38.128.66.32
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-45.86.51.18-0112 | 117.511MB|995KB/s
-  server: 45.86.51.18
-  port: 19999
+- name: 🇺🇸US-15.204.247.206-0258 | 1.092MB|793KB/s
+  server: 15.204.247.206
+  port: 4444
   type: ss
   cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-169.197.142.68-0180 | 87.622MB|994KB/s
-  server: 169.197.142.68
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-84.20.27.183-0165 | 136.175MB|950KB/s
-  server: 84.20.27.183
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-38.121.43.231-0124 | 82.501MB|899KB/s
-  server: 38.121.43.231
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk 02|873KB/s
+  password: pKEW8JPByTVTLtM
+- name: NL - zhuhai.uk 03|632KB/s
   type: http
-  server: 138.199.35.206
+  server: 84.17.47.150
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
+  sni: 84.17.47.150
   skip-cert-verify: true
-- name: RU - zhuhai.uk 01|680KB/s
-  type: vless
-  server: 201.24.116.192
-  port: 443
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-  udp: true
-  network: grpc
+- name: HK - zhuhai.uk 04|622KB/s
+  type: http
+  server: 209.33.167.96
+  port: 8443
   tls: true
-  servername: vps3.nemnogogo.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: mobile.api.Event
-- name: 🇺🇸US-43.255.157.222-0549 | 3.542MB|372KB/s
-  server: xvxn1hkzf.mateflora.com
-  port: 443
-  type: trojan
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  sni: xvxn1hkzf.mateflora.com
-  skip-cert-verify: false
-- name: HK - zhuhai.uk|172KB/s
+  sni: 209.33.167.96
+  skip-cert-verify: true
+- name: KR - zhuhai.uk 02|599KB/s
+  type: socks5
+  server: 59.11.209.162
+  port: 1080
+- name: ID - zhuhai.uk|422KB/s
+  type: socks5
+  server: 203.84.138.59
+  port: 62000
+  username: 9tcjLp2W
+  password: RRWtX6XP
+- name: HK - zhuhai.uk|174KB/s
   type: http
   server: fan.240104.xyz
   port: 443
