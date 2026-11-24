@@ -1,72 +1,90 @@
-# Mac hourly sync 2026-11-25 04:01:38 | alive 10
+# Mac hourly sync 2026-11-25 05:01:39 | alive 13
 proxies:
-- name: 🇺🇸US-193.151.160.18-0118 | 92.451MB|1.1MB/s
-  server: 193.151.160.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-172.111.36.123-0123 | 85.518MB|1.1MB/s
-  server: 172.111.36.123
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-156.146.38.168-0120 | 49.688MB|1.0MB/s
-  server: 156.146.38.168
+- name: 🇺🇸US-37.19.198.236-0187 | 41.711MB|1.0MB/s
+  server: 37.19.198.236
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-173.244.56.9-0125 | 79.198MB|1.0MB/s
-  server: 173.244.56.9
+- name: 🇺🇸US-156.146.38.169-0117 | 59.388MB|1.0MB/s
+  server: 156.146.38.169
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-37.19.198.244-0183 | 41.718MB|1018KB/s
-  server: 37.19.198.244
+- name: 🇺🇸US-149.40.57.133-0197 | 46.336MB|1.0MB/s
+  server: 149.40.57.133
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-38.91.107.188-0141 | 76.502MB|1016KB/s
+  server: 38.91.107.188
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-193.151.163.18-0119 | 68.734MB|1001KB/s
+  server: 193.151.163.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-45.86.51.18-0112 | 117.511MB|995KB/s
+  server: 45.86.51.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-169.197.142.68-0180 | 87.622MB|994KB/s
+  server: 169.197.142.68
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-84.20.27.183-0165 | 136.175MB|950KB/s
+  server: 84.20.27.183
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-38.121.43.231-0124 | 82.501MB|899KB/s
+  server: 38.121.43.231
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk 02|873KB/s
+  type: http
+  server: 138.199.35.206
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: RU - zhuhai.uk 01|680KB/s
+  type: vless
+  server: 201.24.116.192
   port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇺🇸US-38.22.17.219-0198 | 65.284MB|946KB/s
-  server: 38.22.17.219
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-38.91.100.39-0193 | 74.008MB|920KB/s
-  server: 38.91.100.39
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-43.255.157.222-0549 | 3.542MB|354KB/s
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  network: grpc
+  tls: true
+  servername: vps3.nemnogogo.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+- name: 🇺🇸US-43.255.157.222-0549 | 3.542MB|372KB/s
   server: xvxn1hkzf.mateflora.com
   port: 443
   type: trojan
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   sni: xvxn1hkzf.mateflora.com
   skip-cert-verify: false
-- name: CH - zhuhai.uk 01|330KB/s
-  type: vless
-  server: 193.233.89.130
-  port: 8443
-  uuid: 7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe
-  udp: true
-  network: grpc
-  tls: true
-  servername: g.play2go.gay
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c
-  grpc-opts:
-    grpc-service-name: grpc
-- name: HK - zhuhai.uk|170KB/s
+- name: HK - zhuhai.uk|172KB/s
   type: http
   server: fan.240104.xyz
   port: 443
+  username: 'null'
+  password: 'null'
   tls: true
-  sni: fan.240104.xyz
-  skip-cert-verify: true
