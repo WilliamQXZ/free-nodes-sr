@@ -1,48 +1,69 @@
-# Mac hourly sync 2026-11-25 01:02:08 | alive 8
+# Mac hourly sync 2026-11-25 04:01:38 | alive 10
 proxies:
-- name: 🇺🇸US-169.197.142.68-0180 | 87.622MB|513KB/s
-  server: 169.197.142.68
+- name: 🇺🇸US-193.151.160.18-0118 | 92.451MB|1.1MB/s
+  server: 193.151.160.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-149.40.57.138-0132 | 81.17MB|507KB/s
-  server: 149.40.57.138
+- name: 🇺🇸US-172.111.36.123-0123 | 85.518MB|1.1MB/s
+  server: 172.111.36.123
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱NL-193.29.139.147-0161 | 77.501MB|502KB/s
-  server: 193.29.139.147
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US-149.40.57.133-0197 | 46.336MB|439KB/s
-  server: 149.40.57.133
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-216.106.178.169-0178 | 76.376MB|414KB/s
-  server: 216.106.178.169
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-37.19.198.243-0184 | 44.621MB|362KB/s
-  server: 37.19.198.243
+- name: 🇺🇸US-156.146.38.168-0120 | 49.688MB|1.0MB/s
+  server: 156.146.38.168
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸US-149.40.57.134-0159 | 66.579MB|348KB/s
-  server: 149.40.57.134
+- name: 🇺🇸US-173.244.56.9-0125 | 79.198MB|1.0MB/s
+  server: 173.244.56.9
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-37.19.198.244-0183 | 41.718MB|1018KB/s
+  server: 37.19.198.244
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-38.22.17.219-0198 | 65.284MB|946KB/s
+  server: 38.22.17.219
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: HK - zhuhai.uk|157KB/s
+- name: 🇺🇸US-38.91.100.39-0193 | 74.008MB|920KB/s
+  server: 38.91.100.39
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-43.255.157.222-0549 | 3.542MB|354KB/s
+  server: xvxn1hkzf.mateflora.com
+  port: 443
+  type: trojan
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  sni: xvxn1hkzf.mateflora.com
+  skip-cert-verify: false
+- name: CH - zhuhai.uk 01|330KB/s
+  type: vless
+  server: 193.233.89.130
+  port: 8443
+  uuid: 7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe
+  udp: true
+  network: grpc
+  tls: true
+  servername: g.play2go.gay
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c
+  grpc-opts:
+    grpc-service-name: grpc
+- name: HK - zhuhai.uk|170KB/s
   type: http
   server: fan.240104.xyz
   port: 443
