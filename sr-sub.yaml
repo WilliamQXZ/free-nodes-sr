@@ -1,55 +1,69 @@
-# Mac hourly sync 2026-11-25 23:03:18 | alive 9
+# Mac hourly sync 2026-11-26 00:02:37 | alive 11
 proxies:
-- name: 🇬🇧GB-82.38.31.214-0067 | 115.575MB|407KB/s
-  server: 82.38.31.214
+- name: 🇬🇧GB-82.38.31.190-0076 | 114.773MB|458KB/s
+  server: 82.38.31.190
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US-216.106.178.169-0120 | 73.631MB|329KB/s
-  server: 216.106.178.169
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.90-0102 | 114.038MB|327KB/s
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-156.146.38.170-0142 | 80.633MB|319KB/s
-  server: 156.146.38.170
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: KR - zhuhai.uk 02|313KB/s
-  type: socks5
-  server: 59.11.209.162
-  port: 1080
-- name: 🇬🇧GB-82.38.31.202-0098 | 117.273MB|270KB/s
+- name: 🇬🇧GB-82.38.31.202-0098 | 117.273MB|456KB/s
   server: 82.38.31.202
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇺🇸US-37.19.198.236-0136 | 267.01MB|246KB/s
-  server: 37.19.198.236
+- name: AE-151.241.19.36-0083 | 131.086MB|439KB/s
+  server: 151.241.19.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-172.111.36.123-0075 | 96.417MB|434KB/s
+  server: 172.111.36.123
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-95.215.201.18-0052 | 64.305MB|406KB/s
+  server: 95.215.201.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-156.146.38.170-0142 | 80.633MB|402KB/s
+  server: 156.146.38.170
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: US - zhuhai.uk|219KB/s
+- name: 🇺🇸US-162.251.62.31-0119 | 74.966MB|384KB/s
+  server: 162.251.62.31
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: IT - zhuhai.uk|376KB/s
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇬🇧GB-82.38.31.205-0090 | 124.931MB|328KB/s
+  server: 82.38.31.205
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: IT-202.50.253.81-0106 | 113.646MB|296KB/s
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk|213KB/s
   type: http
   server: 138.199.35.197
   port: 9002
   tls: true
   sni: 138.199.35.197
   skip-cert-verify: true
-- name: 🇬🇧GB-82.38.31.212-0086 | 108.075MB|174KB/s
-  server: 82.38.31.212
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
