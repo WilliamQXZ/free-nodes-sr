@@ -1,5 +1,20 @@
-# Mac hourly sync 2026-11-25 06:01:52 | alive 43
+# Mac hourly sync 2026-11-25 18:27:28 | alive 45
 proxies:
+- name: 🇺🇸 美国 | USA 2|24KB/s
+  server: sdf65h46wr.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  udp: true
+  skip-cert-verify: true
+- name: 🇺🇸US_4|2.6MB/s|1KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - name: 🇺🇸US-23.150.152.38-0172 | 56.366MB|1.1MB/s
   server: 23.150.152.38
   port: 19999
