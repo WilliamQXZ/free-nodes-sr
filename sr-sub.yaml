@@ -1,97 +1,105 @@
-# Mac hourly sync 2026-11-26 01:02:14 | alive 15
+# Mac hourly sync 2026-11-26 04:01:55 | alive 18
 proxies:
-- name: 🇺🇸US-167.88.63.99-0069 | 70.108MB|615KB/s
-  server: 167.88.63.99
+- name: 🇺🇸US-149.40.57.138-0096 | 56.767MB|1.1MB/s
+  server: 149.40.57.138
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-149.40.57.134-0108 | 77.294MB|608KB/s
-  server: 149.40.57.134
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-172.111.36.123-0075 | 96.417MB|558KB/s
-  server: 172.111.36.123
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT - zhuhai.uk 02|551KB/s
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-137.184.89.151-0053 | 82.149MB|544KB/s
-  server: 137.184.89.151
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-37.19.198.243-0148 | 226.736MB|544KB/s
-  server: 37.19.198.243
+- name: 🇺🇸US-156.146.38.169-0141 | 92.896MB|1.0MB/s
+  server: 156.146.38.169
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: US - zhuhai.uk|544KB/s
+- name: 🇺🇸US-156.146.38.168-0113 | 78.182MB|1.0MB/s
+  server: 156.146.38.168
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-37.19.198.160-0134 | 130.937MB|1023KB/s
+  server: 37.19.198.160
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-37.19.198.244-0135 | 256.649MB|1010KB/s
+  server: 37.19.198.244
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸US-173.244.56.9-0068 | 52.745MB|986KB/s
+  server: 173.244.56.9
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: US - zhuhai.uk|958KB/s
   type: http
   server: 138.199.35.197
   port: 9002
   tls: true
   sni: 138.199.35.197
   skip-cert-verify: true
-- name: RU - zhuhai.uk 04|510KB/s
-  type: vless
-  server: vps3.nemnogogo.com
-  port: 443
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-  udp: true
-  network: grpc
-  tls: true
-  servername: vps3.nemnogogo.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: mobile.api.Event
-- name: 🇺🇸US-172.111.38.72-0126 | 43.141MB|442KB/s
-  server: 172.111.38.72
+- name: 🇺🇸US-172.111.36.123-0075 | 96.417MB|949KB/s
+  server: 172.111.36.123
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: AE-151.241.19.29-0087 | 134.591MB|440KB/s
-  server: 151.241.19.29
+- name: 🇺🇸US-38.22.17.219-0094 | 69.103MB|937KB/s
+  server: 38.22.17.219
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸US-149.40.57.138-0096 | 56.767MB|408KB/s
-  server: 149.40.57.138
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇬🇧GB-82.38.31.207-0077 | 121.013MB|389KB/s
-  server: 82.38.31.207
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: US - zhuhai.uk 07|379KB/s
+- name: US - zhuhai.uk 13|902KB/s
   type: http
-  server: 138.199.35.218
+  server: 138.199.35.209
+  port: 9002
+  username: 'null'
+  password: None
+  tls: true
+  sni: 138.199.35.209
+  skip-cert-verify: true
+- name: 🇬🇧GB-185.176.206.9-0064 | 148.873MB|864KB/s
+  server: 185.176.206.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸US-162.251.62.31-0119 | 74.966MB|839KB/s
+  server: 162.251.62.31
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk 04|807KB/s
+  type: http
+  server: 138.199.35.216
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
-  sni: 138.199.35.218
   skip-cert-verify: true
+- name: 🇬🇧GB-82.38.31.180-0118 | 118.96MB|708KB/s
+  server: 82.38.31.180
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇬🇧GB-82.38.31.217-0073 | 121.712MB|677KB/s
+  server: 82.38.31.217
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|357KB/s
-  server: 38.6.222.132
-  port: 11008
+  name: 🇺🇸_US_美国_IPV4|652KB/s
+  server: 137.175.82.41
+  port: 20022
   password: dongtaiwang.com
   tls: true
   servername: bing.com
@@ -102,12 +110,26 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 13|272KB/s
-  type: http
-  server: 138.199.35.209
-  port: 9002
-  username: 'null'
-  password: None
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|432KB/s
+  server: 188.114.99.137
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
   tls: true
-  sni: 138.199.35.209
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: HK - zhuhai.uk 02|171KB/s
+  type: http
+  server: fan.240104.xyz
+  port: 443
+  tls: true
+  sni: fan.240104.xyz
   skip-cert-verify: true
