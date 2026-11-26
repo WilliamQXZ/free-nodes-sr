@@ -1,7 +1,7 @@
-# Mac hourly sync 2026-11-26 18:03:38 | alive 2
+# Mac hourly sync 2026-11-26 19:05:23 | alive 3
 proxies:
 - type: anytls
-  name: 🇭🇰_HK_香港_IPV4|387KB/s
+  name: 🇭🇰_HK_香港_IPV4|511KB/s
   server: 5641sdds.df6h451rh.xin
   port: 443
   password: 0324fbc29561
@@ -10,11 +10,18 @@ proxies:
   sni: images.ctfassets.net
   skip-cert-verify: true
   client-fingerprint: chrome
-- name: 🇨🇦 加拿大 | CAN|127KB/s
-  password: f00f8f7d-ef35-42ac-b10f-680a7a3f81ed
+- name: BE_speednode_0001|446KB/s
   port: 443
-  server: im.lovehk.xyz
+  server: 146.70.123.98
   skip-cert-verify: true
-  sni: im.lovehk.xyz
-  type: anytls
+  tls: true
+  type: http
   udp: true
+- name: TW - zhuhai.uk|162KB/s
+  type: anytls
+  server: a54ge.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
+  sni: docs.microsoft.com
+  skip-cert-verify: true
