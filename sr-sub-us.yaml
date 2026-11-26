@@ -1,27 +1,22 @@
-# Mac hourly sync 2026-11-26 19:05:45 | alive 8
+# Mac hourly sync 2026-11-26 20:04:15 | alive 10
 proxies:
-- name: US - zhuhai.uk 07|1KB/s
-  type: http
-  server: fan.226278.xyz
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4|346KB/s
+  server: 172.67.190.164
   port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
   tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 09|1KB/s
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  tls: true
-  sni: 138.199.35.200
-  skip-cert-verify: true
-- name: US - zhuhai.uk 11|1KB/s
-  type: http
-  server: 23.133.176.14
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 5|0KB/s
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: 🇺🇸 美国 | USA 5|183KB/s
   server: 153.56.230.6
   port: 443
   type: vless
@@ -36,32 +31,53 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 99f2107b03f8
-- name: US - zhuhai.uk|0KB/s
+- name: US - zhuhai.uk 13|12KB/s
   type: http
-  server: 193.239.236.147
-  port: 9443
+  server: 138.199.35.195
+  port: 9002
   tls: true
-  sni: 193.239.236.147
+  skip-cert-verify: true
+- name: US - zhuhai.uk 11|1KB/s
+  type: http
+  server: 23.133.176.14
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  tls: true
+  sni: 138.199.35.212
+  skip-cert-verify: true
+- name: US - zhuhai.uk 12|1KB/s
+  type: http
+  server: 138.199.35.198
+  port: 9002
+  tls: true
+  sni: 138.199.35.198
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 4|1KB/s
+  server: 176.114.95.245
+  port: 443
+  type: vless
+  uuid: 9a591702-24c7-4abf-9f14-ac59438a64e6
+  tls: false
+  encryption: mlkem768x25519plus.native.0rtt.NPITyKcLP3ZK5ulXf_tjxU85NIRZTq1etgX54VAeI0c
+  network: tcp
+  udp: true
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 138.199.35.200
+  port: 9002
+  tls: true
+  sni: 138.199.35.200
   skip-cert-verify: true
 - type: vmess
-  name: 🇺🇸_US_美国_IPV4 (5)
-  server: 104.18.42.163
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
-  server: 172.67.190.164
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
+  server: 188.114.99.137
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
