@@ -1,12 +1,27 @@
-# Mac hourly sync 2026-11-26 18:03:42 | alive 14
+# Mac hourly sync 2026-11-26 19:05:45 | alive 8
 proxies:
-- name: US - zhuhai.uk 07|2KB/s
+- name: US - zhuhai.uk 07|1KB/s
   type: http
   server: fan.226278.xyz
   port: 443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 5|1KB/s
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 138.199.35.200
+  port: 9002
+  tls: true
+  sni: 138.199.35.200
+  skip-cert-verify: true
+- name: US - zhuhai.uk 11|1KB/s
+  type: http
+  server: 23.133.176.14
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 5|0KB/s
   server: 153.56.230.6
   port: 443
   type: vless
@@ -21,114 +36,13 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 99f2107b03f8
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4|225KB/s
-  server: 137.175.82.41
-  port: 20022
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: 🇺🇸 美国 | USA 4|2KB/s
-  server: 176.114.95.245
-  port: 443
-  type: vless
-  uuid: 9a591702-24c7-4abf-9f14-ac59438a64e6
-  tls: false
-  encryption: mlkem768x25519plus.native.0rtt.NPITyKcLP3ZK5ulXf_tjxU85NIRZTq1etgX54VAeI0c
-  network: tcp
-  udp: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
-  server: 38.6.222.132
-  port: 11008
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 08|1KB/s
-  type: vless
-  server: h3.1free.us.ci
-  port: 443
-  uuid: db4ef831-e55a-4ec2-86a0-f621de93fc8a
-  tls: true
-  servername: h3.1free.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /57252d2116d6439f
-    headers:
-      Host: h3.1free.us.ci
-- name: US - zhuhai.uk 12|1KB/s
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  tls: true
-  sni: 138.199.35.198
-  skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
+- name: US - zhuhai.uk|0KB/s
   type: http
   server: 193.239.236.147
   port: 9443
   tls: true
   sni: 193.239.236.147
   skip-cert-verify: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
-  server: 38.6.222.131
-  port: 11008
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 09|0KB/s
-  type: http
-  server: 138.199.35.200
-  port: 9002
-  tls: true
-  sni: 138.199.35.200
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|0KB/s
-  type: http
-  server: 138.199.35.212
-  port: 9002
-  tls: true
-  sni: 138.199.35.212
-  skip-cert-verify: true
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
-  server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
 - type: vmess
   name: 🇺🇸_US_美国_IPV4 (5)
   server: 104.18.42.163
@@ -146,8 +60,8 @@ proxies:
     headers:
       Host: guanwang.awsno.com
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
-  server: 188.114.99.137
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+  server: 172.67.190.164
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   cipher: auto
@@ -156,6 +70,21 @@ proxies:
   servername: guanwang.awsno.com
   sni: guanwang.awsno.com
   client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4
+  server: www.shopify.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
   network: ws
   ws-opts:
     path: /hls/cctv5phd.m3u8
