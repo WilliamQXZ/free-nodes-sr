@@ -1,33 +1,51 @@
-# Mac hourly sync 2026-11-26 09:11:36 | alive 4
+# Mac hourly sync 2026-11-26 10:02:14 | alive 4
 proxies:
-- name: '🇬🇧 英国 | GBR #3|833KB/s'
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: uk-tube-01.stre4m.net
-  skip-cert-verify: true
-  sni: mother-earth.fyi
-  tls: false
-  type: hysteria2
-- name: ID - zhuhai.uk 02|767KB/s
-  type: http
-  server: 103.86.117.202
+- client-fingerprint: qq
+  name: '🇬🇧 英国 | GBR #2|512KB/s'
+  network: tcp
   port: 443
-  username: 'null'
-  password: 'null'
+  server: 136.148.83.71
+  servername: wccfu-ru-79dc.my-fade.cloud
   tls: true
-  sni: 103.86.117.202
-  skip-cert-verify: true
-- type: ss
-  name: 🇩🇪_DE_德国_IPV4|297KB/s
-  server: 47.254.128.109
+  type: vless
+  udp: true
+  uuid: 00000000-0000-0001-0000-000000000000
+  ws-opts:
+    path: /
+- type: vmess
+  name: 🇺🇸_US_美国_IPV4 (5)|434KB/s
+  server: 104.18.42.163
   port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1624...|430KB/s
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  cipher: 2022-blake3-chacha20-poly1305
-  tls: false
-  skip-cert-verify: false
-- name: SG - zhuhai.uk|139KB/s
-  type: socks5
-  server: 66.80.2.252
-  port: 62000
-  username: usereb7d
-  password: c0a34a
+  port: 443
+  server: 47.254.167.157
+  type: ss
+- name: 🇺🇸 美国 | USA 5|161KB/s
+  server: 153.56.230.6
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 99f2107b03f8
