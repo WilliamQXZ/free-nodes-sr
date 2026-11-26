@@ -1,5 +1,26 @@
-# Mac hourly sync 2026-11-26 17:02:33 | alive 14
+# Mac hourly sync 2026-11-26 18:03:42 | alive 14
 proxies:
+- name: US - zhuhai.uk 07|2KB/s
+  type: http
+  server: fan.226278.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 5|1KB/s
+  server: 153.56.230.6
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 99f2107b03f8
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4|225KB/s
   server: 137.175.82.41
@@ -14,12 +35,6 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 07|2KB/s
-  type: http
-  server: fan.226278.xyz
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 4|2KB/s
   server: 176.114.95.245
   port: 443
@@ -43,21 +58,6 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: 🇺🇸 美国 | USA 5|1KB/s
-  server: 153.56.230.6
-  port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
 - name: US - zhuhai.uk 08|1KB/s
   type: vless
   server: h3.1free.us.ci
