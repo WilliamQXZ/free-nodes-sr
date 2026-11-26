@@ -1,38 +1,62 @@
-# Mac hourly sync 2026-11-27 05:03:33 | alive 5
+# Mac hourly sync 2026-11-27 06:02:47 | alive 7
 proxies:
-- name: BE - zhuhai.uk|834KB/s
-  type: http
-  server: 146.70.176.242
-  port: 443
+- name: 🇺🇸 美国 | USA 9|990KB/s
+  server: 156.229.167.109
+  port: 8443
+  type: vless
+  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
   tls: true
-  skip-cert-verify: true
-- name: NL - zhuhai.uk|697KB/s
+  reality-opts:
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: 4ad2e4e660550e43
+  servername: github.githubassets.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: IT-202.50.253.99-0056 | 91.9MB|677KB/s
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk 03|654KB/s
   type: http
-  server: 84.17.47.124
+  server: 138.199.35.195
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
-  sni: 84.17.47.124
   skip-cert-verify: true
-- name: LV - zhuhai.uk|576KB/s
+- name: IT-202.50.253.18-0062 | 78.66MB|628KB/s
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk 11|608KB/s
   type: http
-  server: 185.219.159.15
-  port: 443
+  server: 3a34a055-te8ao0-telzv3-4550.fmtdc1.sghuawei.com
+  port: 5443
+  username: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   tls: true
-  skip-cert-verify: true
-- name: SE - zhuhai.uk|469KB/s
+  sni: 3a34a055-te8ao0-telzv3-4550.fmtdc1.sghuawei.com
+- name: US - zhuhai.uk 07|593KB/s
   type: http
-  server: 77.221.136.60
-  port: 8443
+  server: 50.76.211.251
+  port: 8090
   tls: true
+  sni: 50.76.211.251
   skip-cert-verify: true
-- name: ID - zhuhai.uk|418KB/s
-  type: http
-  server: 178.248.73.58
-  port: 443
-  username: 'null'
-  password: 'null'
+- client-fingerprint: firefox
+  name: '🇱🇻 拉脱维亚 | LVA #1|152KB/s'
+  network: ws
+  port: 8450
+  server: 213.183.45.23
+  servername: fonts.plumstatic.com
   tls: true
-  sni: 178.248.73.58
-  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  ws-opts:
+    path: /ws
