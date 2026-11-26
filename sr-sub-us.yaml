@@ -1,25 +1,12 @@
-# Mac hourly sync 2026-11-26 21:05:23 | alive 11
+# Mac hourly sync 2026-11-26 22:03:47 | alive 9
 proxies:
-- name: 🇺🇸US_2|1.2MB/s|182KB/s
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sni: 149.34.248.65
-  tls: true
-  type: http
-- name: US - zhuhai.uk 13|1KB/s
-  type: http
-  server: 138.199.35.195
-  port: 9002
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 07|1KB/s
+- name: US - zhuhai.uk 07|351KB/s
   type: http
   server: fan.226278.xyz
   port: 443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 5|1KB/s
+- name: 🇺🇸 美国 | USA 5|61KB/s
   server: 153.56.230.6
   port: 443
   type: vless
@@ -34,7 +21,15 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 99f2107b03f8
-- name: 🇺🇸 美国 | USA 9|1KB/s
+- name: 🇺🇸US_1|1.2MB/s|8KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸 美国 | USA 9|2KB/s
   server: 156.229.167.109
   port: 8443
   type: vless
@@ -47,6 +42,21 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇺🇸 美国 | USA 8|1KB/s
+  server: 162.35.101.177
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 99f2107b03f8
 - name: US - zhuhai.uk 11|1KB/s
   type: http
   server: 23.133.176.14
@@ -55,44 +65,43 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk|1KB/s
-  type: http
-  server: 193.239.236.147
-  port: 9443
-  tls: true
-  sni: 193.239.236.147
-  skip-cert-verify: true
-- name: US - zhuhai.uk 12|1KB/s
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  tls: true
-  sni: 138.199.35.198
-  skip-cert-verify: true
-- client-fingerprint: chrome
-  name: 🇺🇸[www.v2nodes.com] vless-US-1...|1KB/s
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇺🇸 美国 | USA #1|0KB/s'
   network: ws
   port: 443
-  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+  server: JP032011.ssgreen.org
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
+  type: vmess
+  udp: true
+  uuid: 4b9dc0c5-388d-45c5-9ad3-a91db984784e
   ws-opts:
     headers:
-      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-    path: /ffad70ffdfc3bcda
-- name: US - zhuhai.uk 04|0KB/s
+      Host: JP032011.ssgreen.org
+    path: /wes
+- name: US - zhuhai.uk 13|0KB/s
   type: http
-  server: 138.199.35.212
+  server: 138.199.35.195
   port: 9002
   tls: true
-  sni: 138.199.35.212
   skip-cert-verify: true
-- name: US - zhuhai.uk 09|0KB/s
-  type: http
-  server: 138.199.35.200
-  port: 9002
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇺🇸 美国 | USA #2'
+  network: ws
+  port: 443
+  server: US032020.ssgreen.org
+  skip-cert-verify: true
   tls: true
-  sni: 138.199.35.200
-  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 25e53ac3-1737-48c0-b92c-10d012af52f5
+  ws-opts:
+    headers:
+      Host: US032020.ssgreen.org
+    path: /wes
