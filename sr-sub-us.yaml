@@ -1,22 +1,25 @@
-# Mac hourly sync 2026-11-26 20:04:15 | alive 10
+# Mac hourly sync 2026-11-26 21:05:23 | alive 11
 proxies:
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4|346KB/s
-  server: 172.67.190.164
+- name: 🇺🇸US_2|1.2MB/s|182KB/s
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sni: 149.34.248.65
   tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 🇺🇸 美国 | USA 5|183KB/s
+  type: http
+- name: US - zhuhai.uk 13|1KB/s
+  type: http
+  server: 138.199.35.195
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
+  type: http
+  server: fan.226278.xyz
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 5|1KB/s
   server: 153.56.230.6
   port: 443
   type: vless
@@ -31,12 +34,19 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 99f2107b03f8
-- name: US - zhuhai.uk 13|12KB/s
-  type: http
-  server: 138.199.35.195
-  port: 9002
+- name: 🇺🇸 美国 | USA 9|1KB/s
+  server: 156.229.167.109
+  port: 8443
+  type: vless
+  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
   tls: true
-  skip-cert-verify: true
+  reality-opts:
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: 4ad2e4e660550e43
+  servername: github.githubassets.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: US - zhuhai.uk 11|1KB/s
   type: http
   server: 23.133.176.14
@@ -45,12 +55,12 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
+- name: US - zhuhai.uk|1KB/s
   type: http
-  server: 138.199.35.212
-  port: 9002
+  server: 193.239.236.147
+  port: 9443
   tls: true
-  sni: 138.199.35.212
+  sni: 193.239.236.147
   skip-cert-verify: true
 - name: US - zhuhai.uk 12|1KB/s
   type: http
@@ -59,50 +69,30 @@ proxies:
   tls: true
   sni: 138.199.35.198
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 4|1KB/s
-  server: 176.114.95.245
+- client-fingerprint: chrome
+  name: 🇺🇸[www.v2nodes.com] vless-US-1...|1KB/s
+  network: ws
   port: 443
+  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+  tls: true
   type: vless
-  uuid: 9a591702-24c7-4abf-9f14-ac59438a64e6
-  tls: false
-  encryption: mlkem768x25519plus.native.0rtt.NPITyKcLP3ZK5ulXf_tjxU85NIRZTq1etgX54VAeI0c
-  network: tcp
-  udp: true
-- name: US - zhuhai.uk 09|1KB/s
+  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
+  ws-opts:
+    headers:
+      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+    path: /ffad70ffdfc3bcda
+- name: US - zhuhai.uk 04|0KB/s
+  type: http
+  server: 138.199.35.212
+  port: 9002
+  tls: true
+  sni: 138.199.35.212
+  skip-cert-verify: true
+- name: US - zhuhai.uk 09|0KB/s
   type: http
   server: 138.199.35.200
   port: 9002
   tls: true
   sni: 138.199.35.200
   skip-cert-verify: true
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
-  server: 188.114.99.137
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
