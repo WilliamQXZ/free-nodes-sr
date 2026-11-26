@@ -1,57 +1,22 @@
-# Mac hourly sync 2026-11-26 14:02:44 | alive 6
+# Mac hourly sync 2026-11-26 15:02:32 | alive 3
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|600KB/s
-  server: 38.6.222.131
-  port: 11008
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: 🇺🇸 美国 | USA 4|306KB/s
-  server: 176.114.95.245
+- name: TW - zhuhai.uk|1.0MB/s
+  type: anytls
+  server: er8u54dh.df6h451rh.xin
   port: 443
-  type: vless
-  uuid: 9a591702-24c7-4abf-9f14-ac59438a64e6
-  tls: false
-  encryption: mlkem768x25519plus.native.0rtt.NPITyKcLP3ZK5ulXf_tjxU85NIRZTq1etgX54VAeI0c
-  network: tcp
+  password: 2902c46c8493
   udp: true
-- type: hysteria
-  name: 🇫🇷_FR_法国_IPV4|226KB/s
-  server: 62.210.124.132
-  port: 24667
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
+  sni: px.ads.linkedin.com
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 02|196KB/s
+- name: IT-202.50.253.81-0106 | 106.681MB|368KB/s
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk 02|209KB/s
   type: http
   server: 141.148.181.144
   port: 443
   tls: true
   skip-cert-verify: true
-- name: HK - zhuhai.uk 02|160KB/s
-  type: http
-  server: 119.28.24.235
-  port: 3128
-  tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.27-0105 | 110.394MB|132KB/s
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
