@@ -1,23 +1,51 @@
-# Mac hourly sync 2026-11-26 16:03:38 | alive 3
+# Mac hourly sync 2026-11-26 17:02:29 | alive 5
 proxies:
-- type: anytls
-  name: 🇭🇰_HK_香港_IPV4 (2)|363KB/s
-  server: ibsdsf.df6h451rh.xin
-  port: 443
-  password: 2902c46c8493
-  tls: true
-  servername: docs.microsoft.com
-  sni: docs.microsoft.com
+- name: 🇰🇷KR_2|1.7MB/s|916KB/s
+  port: 1080
+  server: 183.106.215.208
   skip-cert-verify: true
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪[www.v2nodes.com] ss-DE-1624...|325KB/s
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  type: socks5
+- type: anytls
+  name: 🇭🇰_HK_香港_IPV4|808KB/s
+  server: 5641sdds.df6h451rh.xin
   port: 443
-  server: 47.254.167.157
-  type: ss
-- name: US - zhuhai.uk 02|234KB/s
-  type: http
-  server: 141.148.181.144
-  port: 443
+  password: 0324fbc29561
   tls: true
+  servername: images.ctfassets.net
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+  client-fingerprint: chrome
+- client-fingerprint: qq
+  name: '🇬🇧 英国 | GBR #2|298KB/s'
+  network: tcp
+  port: 443
+  server: 136.148.83.71
+  servername: wccfu-ru-79dc.my-fade.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-0001-0000-000000000000
+  ws-opts:
+    path: /
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4|225KB/s
+  server: 137.175.82.41
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: TW - zhuhai.uk|117KB/s
+  type: anytls
+  server: a54ge.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
+  sni: docs.microsoft.com
   skip-cert-verify: true
