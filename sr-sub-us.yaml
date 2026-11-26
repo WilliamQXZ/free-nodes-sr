@@ -1,57 +1,39 @@
-# Mac hourly sync 2026-11-27 00:04:59 | alive 11
+# Mac hourly sync 2026-11-27 01:03:59 | alive 11
 proxies:
-- name: 🇺🇸 美国 | USA 8|254KB/s
-  server: 162.35.101.177
-  port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- name: US - zhuhai.uk 09|1KB/s
+  type: http
+  server: 138.199.35.197
+  port: 9002
+  username: 'null'
+  password: 'null'
   tls: true
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
-- name: US - zhuhai.uk|11KB/s
+  sni: 138.199.35.197
+  skip-cert-verify: true
+- name: US - zhuhai.uk|1KB/s
   type: http
   server: 96.5.129.85
   port: 443
   tls: true
   sni: 96.5.129.85
   skip-cert-verify: true
-- name: US - zhuhai.uk 07|2KB/s
+- name: US - zhuhai.uk 10|1KB/s
+  type: http
+  server: 138.199.35.216
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 138.199.35.216
+  skip-cert-verify: true
+- name: US - zhuhai.uk 07|1KB/s
   type: http
   server: fan.226278.xyz
   port: 443
   tls: true
   sni: fan.226278.xyz
   skip-cert-verify: true
-- name: US - zhuhai.uk 03|1KB/s
-  type: http
-  server: 167.88.60.226
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
-  type: http
-  server: 138.199.35.208
-  port: 9002
-  tls: true
-  sni: 138.199.35.208
-  skip-cert-verify: true
-- name: 🇺🇸US_1|1.2MB/s|1KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸 美国 | USA 5|1KB/s
-  server: 153.56.230.6
+- name: 🇺🇸 美国 | USA 8|1KB/s
+  server: 162.35.101.177
   port: 443
   type: vless
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
@@ -72,26 +54,20 @@ proxies:
   tls: true
   sni: 138.199.35.211
   skip-cert-verify: true
-- client-fingerprint: chrome
-  name: 🇺🇸[www.v2nodes.com] vless-US-1...|0KB/s
-  network: ws
-  port: 443
-  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 138.199.35.208
+  port: 9002
   tls: true
-  type: vless
-  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
-  ws-opts:
-    headers:
-      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-    path: /ffad70ffdfc3bcda
-- name: US - zhuhai.uk 02|0KB/s
+  sni: 138.199.35.208
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
   type: http
   server: 138.199.35.195
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 9
+- name: 🇺🇸 美国 | USA 9|0KB/s
   server: 156.229.167.109
   port: 8443
   type: vless
@@ -104,3 +80,20 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇺🇸US_1|1.2MB/s|0KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: US - zhuhai.uk 08
+  type: http
+  server: 107.151.238.27
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: 6b97ee1b.acsnet.co
+  skip-cert-verify: true
