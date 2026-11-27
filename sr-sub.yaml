@@ -1,62 +1,67 @@
-# Mac hourly sync 2026-11-27 06:02:47 | alive 7
+# Mac hourly sync 2026-11-27 09:03:26 | alive 7
 proxies:
-- name: 🇺🇸 美国 | USA 9|990KB/s
-  server: 156.229.167.109
-  port: 8443
-  type: vless
-  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
+- name: NL - zhuhai.uk|597KB/s
+  type: http
+  server: 84.17.47.126
+  port: 9002
   tls: true
-  reality-opts:
-    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
-    short-id: 4ad2e4e660550e43
-  servername: github.githubassets.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: IT-202.50.253.99-0056 | 91.9MB|677KB/s
+  skip-cert-verify: true
+- name: 🇺🇸US_18|1.9MB/s|587KB/s
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: IT-202.50.253.99-0056 | 91.9MB|434KB/s
   server: 202.50.253.99
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk 03|654KB/s
-  type: http
-  server: 138.199.35.195
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.18-0062 | 78.66MB|628KB/s
+- name: IT-202.50.253.18-0062 | 78.66MB|412KB/s
   server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US - zhuhai.uk 11|608KB/s
+- name: DE - zhuhai.uk 02|346KB/s
   type: http
-  server: 3a34a055-te8ao0-telzv3-4550.fmtdc1.sghuawei.com
-  port: 5443
-  username: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  server: 167.172.172.190
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
   tls: true
-  sni: 3a34a055-te8ao0-telzv3-4550.fmtdc1.sghuawei.com
-- name: US - zhuhai.uk 07|593KB/s
-  type: http
-  server: 50.76.211.251
-  port: 8090
+  sni: a7acacbe.acsnet.co
+- name: 🇺🇸 美国 | USA 16|279KB/s
+  server: 162.35.101.177
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
-  sni: 50.76.211.251
-  skip-cert-verify: true
-- client-fingerprint: firefox
-  name: '🇱🇻 拉脱维亚 | LVA #1|152KB/s'
-  network: ws
-  port: 8450
-  server: 213.183.45.23
-  servername: fonts.plumstatic.com
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 99f2107b03f8
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|1006KB/s|197KB/s
+  network: xhttp
+  port: 443
+  server: 3.219.184.102
+  servername: fortuna.masynbazar.ru
   tls: true
   type: vless
   udp: true
-  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
-  ws-opts:
-    path: /ws
+  uuid: a5b1d16b-719b-4bd6-9d7b-fe6d84607da9
+  xhttp-opts:
+    host: fortuna.masynbazar.ru
+    mode: packet-up
+    path: /
+  xudp: true
