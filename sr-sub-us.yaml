@@ -1,39 +1,92 @@
-# Mac hourly sync 2026-11-27 19:32:17 | alive 5
+# Mac hourly sync 2026-11-27 20:04:59 | alive 10
 proxies:
-- name: US - zhuhai.uk 04|2KB/s
-  type: http
-  server: 38.28.193.71
+- name: 🇺🇸US_11|2.5MB/s|427KB/s
   port: 443
-  tls: true
-  sni: 38.28.193.71
+  server: 149.88.21.129
   skip-cert-verify: true
-- name: US - zhuhai.uk 06|1KB/s
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk 06|2KB/s
   type: http
   server: 66.135.172.202
   port: 443
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk 05|1KB/s
+- name: 🇺🇸US-143.20.71.68-0113 | 0.119MB|1KB/s
+  server: waic.pro.main.sys-metric-report.com
+  port: 28014
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+- name: 🇺🇸US_10|3.7MB/s|1KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|1006KB/s|1KB/s
+  network: xhttp
+  port: 443
+  server: 3.219.184.102
+  servername: fortuna.masynbazar.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5b1d16b-719b-4bd6-9d7b-fe6d84607da9
+  xhttp-opts:
+    host: fortuna.masynbazar.ru
+    mode: packet-up
+    path: /
+  xudp: true
+- name: 🇺🇸US_14|1.2MB/s|1KB/s
+  password: ppyefe3k
+  port: 62000
+  server: 23.230.200.176
+  skip-cert-verify: true
+  type: socks5
+  username: u1f0cijj
+- name: US - zhuhai.uk 02|1KB/s
   type: http
-  server: 138.199.35.195
+  server: 138.199.35.207
   port: 9002
   username: 'null'
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: US - zhuhai.uk
-  type: http
-  server: 23.161.192.49
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_13|2.7MB/s
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- name: 🇺🇸 美国 | USA 16|1KB/s
+  server: 162.35.101.177
   port: 443
-  server: 66.163.114.166
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 99f2107b03f8
+- name: 🇺🇸US_6|1.7MB/s|1KB/s
+  port: 9443
+  server: 38.95.111.226
   skip-cert-verify: true
-  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
-  type: trojan
+  tls: true
+  type: http
   udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_9|2.2MB/s|0KB/s
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
