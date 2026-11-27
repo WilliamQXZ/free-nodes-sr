@@ -1,30 +1,60 @@
-# Mac hourly sync 2026-11-27 09:03:26 | alive 7
+# Mac hourly sync 2026-11-27 10:29:16 | alive 9
 proxies:
-- name: NL - zhuhai.uk|597KB/s
+- name: NL - zhuhai.uk 03|705KB/s
+  type: http
+  server: 51.159.225.196
+  port: 23856
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 51.159.225.196
+  skip-cert-verify: true
+- name: NL - zhuhai.uk 02|701KB/s
+  type: http
+  server: 84.17.47.123
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: 84.17.47.123
+  skip-cert-verify: true
+- name: NL - zhuhai.uk|696KB/s
   type: http
   server: 84.17.47.126
   port: 9002
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_18|1.9MB/s|587KB/s
-  port: 9443
-  server: 198.44.138.27
+- name: 🇺🇸US_9|2.2MB/s|627KB/s
+  port: 9002
+  server: 138.199.35.201
   skip-cert-verify: true
   tls: true
   type: http
-- name: IT-202.50.253.99-0056 | 91.9MB|434KB/s
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.18-0062 | 78.66MB|412KB/s
+  udp: true
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 | HKG|529KB/s
+  password: 2902c46c8493
+  port: 443
+  server: ibsdsf.df6h451rh.xin
+  skip-cert-verify: true
+  sni: docs.microsoft.com
+  type: anytls
+  udp: true
+- name: DE - zhuhai.uk 07|520KB/s
+  type: http
+  server: 87.106.223.158
+  port: 443
+  tls: true
+  sni: 87.106.223.158
+  skip-cert-verify: true
+- name: IT-202.50.253.18-0062 | 78.66MB|407KB/s
   server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: DE - zhuhai.uk 02|346KB/s
+- name: DE - zhuhai.uk 02|351KB/s
   type: http
   server: 167.172.172.190
   port: 443
@@ -32,36 +62,9 @@ proxies:
   password: e4b72b531a2d10900519
   tls: true
   sni: a7acacbe.acsnet.co
-- name: 🇺🇸 美国 | USA 16|279KB/s
-  server: 162.35.101.177
-  port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- name: HK - zhuhai.uk 02|179KB/s
+  type: http
+  server: 119.28.24.235
+  port: 3128
   tls: true
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_3|1006KB/s|197KB/s
-  network: xhttp
-  port: 443
-  server: 3.219.184.102
-  servername: fortuna.masynbazar.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5b1d16b-719b-4bd6-9d7b-fe6d84607da9
-  xhttp-opts:
-    host: fortuna.masynbazar.ru
-    mode: packet-up
-    path: /
-  xudp: true
+  skip-cert-verify: true
