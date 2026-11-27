@@ -1,23 +1,15 @@
-# Mac hourly sync 2026-11-27 23:06:33 | alive 3
+# Mac hourly sync 2026-11-28 00:04:08 | alive 2
 proxies:
-- name: BE_speednode_0001|320KB/s
+- name: NN_speednode_0023|279KB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: 146.70.123.98
-  skip-cert-verify: true
+  server: usgp1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   udp: true
-- type: anytls
-  name: 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4|215KB/s
-  server: sdf65h46wr.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  tls: true
-  servername: images.ctfassets.net
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: IT-202.50.253.72-0073 | 95.739MB|156KB/s
-  server: 202.50.253.72
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: IT-202.50.253.81-0076 | 89.037MB|236KB/s
+  server: 202.50.253.81
   port: 19999
   type: ss
   cipher: aes-256-gcm
