@@ -1,7 +1,7 @@
-# Mac hourly sync 2026-11-28 00:04:12 | alive 11
+# Mac hourly sync 2026-11-28 01:02:23 | alive 14
 proxies:
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4|105KB/s
+  name: 🇺🇸_US_美国_IPV4|248KB/s
   server: 137.175.82.41
   port: 20022
   password: dongtaiwang.com
@@ -14,11 +14,49 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: 🇺🇸US_23|2.5MB/s|16KB/s
-  port: 18080
-  server: 52.128.238.98
-  skip-cert-verify: true
+- name: US - zhuhai.uk 05|37KB/s
   type: http
+  server: 138.199.35.195
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_22|2.1MB/s|12KB/s
+  password: None
+  port: 38182
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 38.28.193.71
+  port: 443
+  tls: true
+  sni: 38.28.193.71
+  skip-cert-verify: true
+- name: US - zhuhai.uk 02|1KB/s
+  type: http
+  server: 138.199.35.207
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_16|2.0MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 66.135.172.202
+  port: 443
+  tls: true
+  skip-cert-verify: true
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
   server: 38.6.222.131
@@ -33,15 +71,27 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.207
-  port: 9002
-  username: 'null'
-  password: 'null'
+- name: 🇺🇸US_17|2.8MB/s|1KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
+  server: 38.6.222.132
+  port: 11008
+  password: dongtaiwang.com
   tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: 🇺🇸US_20|1.9MB/s|1KB/s
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: 🇺🇸US_20|1.9MB/s|0KB/s
   password: 'null'
   port: 9002
   server: 138.199.35.198
@@ -50,33 +100,18 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: US - zhuhai.uk 06|1KB/s
+- name: 🇺🇸US_23|2.5MB/s
+  port: 18080
+  server: 52.128.238.98
+  skip-cert-verify: true
   type: http
-  server: 66.135.172.202
+- name: 🇺🇸US-66.163.114.166-1323 | 47.418MB
+  server: 66.163.114.166
   port: 443
-  tls: true
-  skip-cert-verify: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 38.28.193.71
-  port: 443
-  tls: true
-  sni: 38.28.193.71
-  skip-cert-verify: true
-- name: 🇺🇸US-143.20.71.68-0113 | 0.119MB|0KB/s
-  server: waic.pro.main.sys-metric-report.com
-  port: 28014
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
-- name: 🇺🇸US_15|2.8MB/s|0KB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  skip-cert-verify: false
 - type: vmess
   name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
   server: 172.67.190.164
@@ -93,10 +128,3 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: 🇺🇸US-66.163.114.166-1323 | 47.418MB
-  server: 66.163.114.166
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
-  skip-cert-verify: false
