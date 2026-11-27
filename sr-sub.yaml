@@ -1,29 +1,53 @@
-# Mac hourly sync 2026-11-28 05:04:00 | alive 15
+# Mac hourly sync 2026-11-28 06:03:49 | alive 15
 proxies:
-- name: JP - zhuhai.uk 02|2.1MB/s
-  type: http
-  server: 133.18.200.207
-  port: 343
-  tls: true
+- name: 🇺🇸US_23|2.5MB/s|1.0MB/s
+  port: 18080
+  server: 52.128.238.98
   skip-cert-verify: true
-- type: hysteria2
-  name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_IPV4|784KB/s
-  server: uk-tube-01.stre4m.net
-  port: 13337
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  tls: true
-  servername: mother-earth.fyi
-  sni: mother-earth.fyi
-  skip-cert-verify: true
-- name: NL - zhuhai.uk 05|758KB/s
   type: http
-  server: 84.17.47.124
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|839KB/s
+  server: 38.6.222.131
+  port: 11008
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: IT-202.50.253.27-0140 | 80.437MB|735KB/s
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: US - zhuhai.uk 07|687KB/s
+  type: http
+  server: 138.199.35.206
   port: 9002
+  tls: true
+  sni: 138.199.35.206
+  skip-cert-verify: true
+- name: IT-202.50.253.45-0163 | 90.147MB|667KB/s
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: DE - zhuhai.uk 03|665KB/s
+  type: http
+  server: 193.233.75.115
+  port: 443
   username: 'null'
   password: 'null'
   tls: true
+  sni: 193.233.75.115
   skip-cert-verify: true
-- name: 🇺🇸US_16|2.0MB/s|679KB/s
+- name: 🇺🇸US_16|2.0MB/s|619KB/s
   port: 9002
   server: 138.199.35.200
   skip-cert-verify: true
@@ -31,93 +55,24 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: VN - zhuhai.uk|677KB/s
-  type: socks5
-  server: 103.184.113.190
-  port: 62000
-  username: qT46DZLv
-  password: jHsK2gqs
-- name: US - zhuhai.uk|672KB/s
-  type: http
-  server: 138.199.35.217
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.217
-  skip-cert-verify: true
-- name: 🇺🇸US_22|2.1MB/s|604KB/s
-  password: None
-  port: 38182
-  server: 69.55.49.177
-  skip-cert-verify: true
-  type: socks5
 - alpn:
   - http/1.1
   client-fingerprint: android
-  name: '🇺🇸 美国 | USA #22|603KB/s'
+  name: '🇺🇸 美国 | USA #5|610KB/s'
   network: xhttp
   port: 443
-  server: ddddd.as2-0.kdns.fr
-  servername: ddddd.as2-0.kdns.fr
+  server: ss.260920-3.kdns.fr
+  servername: ss.260920-3.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: da988d4c-540f-4719-896e-a878812bad69
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
   xhttp-opts:
-    host: ddddd.as2-0.kdns.fr
-    mode: auto
-    path: /NgInAz8EvgxBHueA9ne8tqLzLX
-- alpn:
-  - http/1.1
-  client-fingerprint: android
-  name: '🇺🇸 美国 | USA #18|586KB/s'
-  network: xhttp
-  port: 443
-  server: ddddddd.260920-1.kdns.fr
-  servername: ddddddd.260920-1.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: da988d4c-540f-4719-896e-a878812bad69
-  xhttp-opts:
-    host: ddddddd.260920-1.kdns.fr
-    mode: auto
-    path: /NgInAz8EvgxBHueA9ne8tqLzLX
-- alpn:
-  - http/1.1
-  client-fingerprint: android
-  name: '🇺🇸 美国 | USA #7|574KB/s'
-  network: xhttp
-  port: 443
-  server: r.r0-4.cc.cd
-  servername: r.r0-4.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: da988d4c-540f-4719-896e-a878812bad69
-  xhttp-opts:
-    host: r.r0-4.cc.cd
-    mode: auto
-    path: /NgInAz8EvgxBHueA9ne8tqLzLX
-- alpn:
-  - http/1.1
-  client-fingerprint: android
-  name: '🇺🇸 美国 | USA #31|543KB/s'
-  network: xhttp
-  port: 443
-  server: ss.22299999.xyz
-  servername: ss.22299999.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: da988d4c-540f-4719-896e-a878812bad69
-  xhttp-opts:
-    host: ss.22299999.xyz
+    host: ss.260920-3.kdns.fr
     mode: auto
     path: /NgInAz8EvgxBHueA9ne8tqLzLX
 - type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|468KB/s
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|605KB/s
   server: 188.114.99.137
   port: 443
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
@@ -132,26 +87,48 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+- name: US - zhuhai.uk|592KB/s
+  type: http
+  server: 138.199.35.205
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - alpn:
   - http/1.1
   client-fingerprint: android
-  name: '🇺🇸 美国 | USA #26|462KB/s'
+  name: '🇺🇸 美国 | USA #14|582KB/s'
   network: xhttp
   port: 443
-  server: d.as2-0.kdns.fr
-  servername: d.as2-0.kdns.fr
+  server: sssss.444411111.xyz
+  servername: sssss.444411111.xyz
   tls: true
   type: vless
   udp: true
-  uuid: da988d4c-540f-4719-896e-a878812bad69
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
   xhttp-opts:
-    host: d.as2-0.kdns.fr
+    host: sssss.444411111.xyz
     mode: auto
     path: /NgInAz8EvgxBHueA9ne8tqLzLX
 - alpn:
   - http/1.1
   client-fingerprint: android
-  name: '🇺🇸 美国 | USA #12|221KB/s'
+  name: '🇺🇸 美国 | USA #29|539KB/s'
+  network: xhttp
+  port: 443
+  server: qq.99944444.xyz
+  servername: qq.99944444.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  xhttp-opts:
+    host: qq.99944444.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #12|511KB/s'
   network: xhttp
   port: 443
   server: ddddddd.r0-6.cc.cd
@@ -164,8 +141,25 @@ proxies:
     host: ddddddd.r0-6.cc.cd
     mode: auto
     path: /NgInAz8EvgxBHueA9ne8tqLzLX
-- name: HK - zhuhai.uk 02|193KB/s
-  type: http
-  server: fan.240104.xyz
+- name: SG - zhuhai.uk|421KB/s
+  type: socks5
+  server: 66.80.2.252
+  port: 62000
+  username: usereb7d
+  password: c0a34a
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #22|294KB/s'
+  network: xhttp
   port: 443
+  server: ddddd.as2-0.kdns.fr
+  servername: ddddd.as2-0.kdns.fr
   tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: ddddd.as2-0.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
