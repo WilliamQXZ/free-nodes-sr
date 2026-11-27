@@ -1,28 +1,14 @@
-# Mac hourly sync 2026-11-28 04:03:29 | alive 14
+# Mac hourly sync 2026-11-28 05:04:03 | alive 44
 proxies:
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|668KB/s
-  server: 38.6.222.131
-  port: 11008
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: 🇺🇸US_19|2.6MB/s|667KB/s
+- name: 🇺🇸US_16|2.0MB/s|679KB/s
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: US - zhuhai.uk|663KB/s
+- name: US - zhuhai.uk|672KB/s
   type: http
   server: 138.199.35.217
   port: 9002
@@ -31,12 +17,125 @@ proxies:
   tls: true
   sni: 138.199.35.217
   skip-cert-verify: true
-- name: 🇺🇸US_23|2.5MB/s|2KB/s
-  port: 18080
-  server: 52.128.238.98
+- name: 🇺🇸US_22|2.1MB/s|604KB/s
+  password: None
+  port: 38182
+  server: 69.55.49.177
   skip-cert-verify: true
-  type: http
-- name: 🇺🇸US-143.20.71.68-0113 | 0.119MB|2KB/s
+  type: socks5
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #22|603KB/s'
+  network: xhttp
+  port: 443
+  server: ddddd.as2-0.kdns.fr
+  servername: ddddd.as2-0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: ddddd.as2-0.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #18|586KB/s'
+  network: xhttp
+  port: 443
+  server: ddddddd.260920-1.kdns.fr
+  servername: ddddddd.260920-1.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: ddddddd.260920-1.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #7|574KB/s'
+  network: xhttp
+  port: 443
+  server: r.r0-4.cc.cd
+  servername: r.r0-4.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: r.r0-4.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #31|543KB/s'
+  network: xhttp
+  port: 443
+  server: ss.22299999.xyz
+  servername: ss.22299999.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: ss.22299999.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|468KB/s
+  server: 188.114.99.137
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #26|462KB/s'
+  network: xhttp
+  port: 443
+  server: d.as2-0.kdns.fr
+  servername: d.as2-0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: d.as2-0.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #12|221KB/s'
+  network: xhttp
+  port: 443
+  server: ddddddd.r0-6.cc.cd
+  servername: ddddddd.r0-6.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: ddddddd.r0-6.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- name: 🇺🇸US-143.20.71.68-0113 | 0.119MB|5KB/s
   server: waic.pro.main.sys-metric-report.com
   port: 28014
   type: ss
@@ -56,13 +155,7 @@ proxies:
     path: /ffad70ffdfc3bcda
     headers:
       Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-- name: 🇺🇸US_17|2.8MB/s|1KB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
-- name: 🇺🇸US_20|1.9MB/s|1KB/s
+- name: 🇺🇸US_20|1.9MB/s|2KB/s
   password: 'null'
   port: 9002
   server: 138.199.35.198
@@ -71,15 +164,35 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: US - zhuhai.uk 03|1KB/s
+- name: US - zhuhai.uk 02|2KB/s
   type: http
-  server: 71.43.26.234
-  port: 443
+  server: 138.199.35.195
+  port: 9002
   tls: true
   skip-cert-verify: true
+- name: 🇺🇸US_18|1.9MB/s|1KB/s
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_15|2.8MB/s|1KB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_17|2.8MB/s|1KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
-  server: 38.6.222.132
+  name: 🇺🇸_US_美国_IPV4 (3)|1KB/s
+  server: 38.6.222.131
   port: 11008
   password: dongtaiwang.com
   tls: true
@@ -91,22 +204,14 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 02|1KB/s
+- name: US - zhuhai.uk 03|1KB/s
   type: http
-  server: 138.199.35.195
-  port: 9002
+  server: 71.43.26.234
+  port: 443
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_16|2.0MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4|0KB/s
+  name: 🇺🇸_US_美国_IPV4|1KB/s
   server: 137.175.82.41
   port: 20022
   password: dongtaiwang.com
@@ -119,6 +224,365 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #5|1KB/s'
+  network: xhttp
+  port: 443
+  server: ss.260920-3.kdns.fr
+  servername: ss.260920-3.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  xhttp-opts:
+    host: ss.260920-3.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #20|1KB/s'
+  network: xhttp
+  port: 443
+  server: dd.260920-1.kdns.fr
+  servername: dd.260920-1.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: dd.260920-1.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #2|1KB/s'
+  network: xhttp
+  port: 443
+  server: qqqqqqqq.99944444.xyz
+  servername: qqqqqqqq.99944444.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  xhttp-opts:
+    host: qqqqqqqq.99944444.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #27|1KB/s'
+  network: xhttp
+  port: 443
+  server: dddd.r0-6.cc.cd
+  servername: dddd.r0-6.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: dddd.r0-6.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #14|1KB/s'
+  network: xhttp
+  port: 443
+  server: sssss.444411111.xyz
+  servername: sssss.444411111.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  xhttp-opts:
+    host: sssss.444411111.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #11|1KB/s'
+  network: xhttp
+  port: 443
+  server: sssssss.260920-3.kdns.fr
+  servername: sssssss.260920-3.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  xhttp-opts:
+    host: sssssss.260920-3.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #13|1KB/s'
+  network: xhttp
+  port: 443
+  server: rrrr.r0-4.cc.cd
+  servername: rrrr.r0-4.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: rrrr.r0-4.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #30|1KB/s'
+  network: xhttp
+  port: 443
+  server: rrr.260920-006.ccwu.cc
+  servername: rrr.260920-006.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  xhttp-opts:
+    host: rrr.260920-006.ccwu.cc
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #28|1KB/s'
+  network: xhttp
+  port: 443
+  server: rrrrrrrr.260920-006.ccwu.cc
+  servername: rrrrrrrr.260920-006.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  xhttp-opts:
+    host: rrrrrrrr.260920-006.ccwu.cc
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #19|1KB/s'
+  network: xhttp
+  port: 443
+  server: dddd.as2-0.kdns.fr
+  servername: dddd.as2-0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: dddd.as2-0.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #10|1KB/s'
+  network: xhttp
+  port: 443
+  server: ss.444411111.xyz
+  servername: ss.444411111.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  xhttp-opts:
+    host: ss.444411111.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #32|1KB/s'
+  network: xhttp
+  port: 443
+  server: rrrrr.r0-4.cc.cd
+  servername: rrrrr.r0-4.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: rrrrr.r0-4.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #1|1KB/s'
+  network: xhttp
+  port: 443
+  server: s.22299999.xyz
+  servername: s.22299999.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: s.22299999.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #21|1KB/s'
+  network: xhttp
+  port: 443
+  server: rrrrrr.r0-4.cc.cd
+  servername: rrrrrr.r0-4.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: rrrrrr.r0-4.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #29|1KB/s'
+  network: xhttp
+  port: 443
+  server: qq.99944444.xyz
+  servername: qq.99944444.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  xhttp-opts:
+    host: qq.99944444.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #3|1KB/s'
+  network: xhttp
+  port: 443
+  server: s.260920-3.kdns.fr
+  servername: s.260920-3.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  xhttp-opts:
+    host: s.260920-3.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #23|1KB/s'
+  network: xhttp
+  port: 443
+  server: qqq.99944444.xyz
+  servername: qqq.99944444.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  xhttp-opts:
+    host: qqq.99944444.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #24|1KB/s'
+  network: xhttp
+  port: 443
+  server: bb.1111-08.ccwu.cc
+  servername: bb.1111-08.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  xhttp-opts:
+    host: bb.1111-08.ccwu.cc
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- name: 🇺🇸US_19|2.6MB/s|1KB/s
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #15|0KB/s'
+  network: xhttp
+  port: 443
+  server: rr.r0-4.cc.cd
+  servername: rr.r0-4.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: rr.r0-4.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 26_IPV4
+  server: www.shopify.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- type: vmess
+  name: 🇺🇸_US_美国_IPV4 (8)
+  server: 104.18.42.163
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+  server: 172.67.190.164
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
 - name: 🇺🇸US-66.163.114.166-1323 | 47.418MB
   server: 66.163.114.166
   port: 443
