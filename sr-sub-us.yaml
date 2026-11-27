@@ -1,187 +1,39 @@
-# Mac hourly sync 2026-11-27 10:29:20 | alive 18
+# Mac hourly sync 2026-11-27 19:32:17 | alive 5
 proxies:
-- name: 🇺🇸US_9|2.2MB/s|627KB/s
+- name: US - zhuhai.uk 04|2KB/s
+  type: http
+  server: 38.28.193.71
+  port: 443
+  tls: true
+  sni: 38.28.193.71
+  skip-cert-verify: true
+- name: US - zhuhai.uk 06|1KB/s
+  type: http
+  server: 66.135.172.202
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 138.199.35.195
   port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸 美国 | USA 8|70KB/s
-  password: 1010cbba-c467-45cd-87f3-a583871f6c1a
-  port: 443
-  server: signal.lovehk.xyz
-  skip-cert-verify: true
-  sni: signal.lovehk.xyz
-  type: anytls
-  udp: true
-- name: 🇺🇸US_7|3.5MB/s|2KB/s
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '🇺🇸 美国 | USA #5|1KB/s'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.114.114
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #1|1KB/s'
-  network: ws
-  port: 443
-  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-  tls: true
-  type: vless
-  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
-  ws-opts:
-    headers:
-      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-    path: /ffad70ffdfc3bcda
-- name: 🇺🇸US-66.163.114.166-2362 | 22.461MB|1KB/s
-  server: 66.163.114.166
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
-  skip-cert-verify: false
-- name: 🇺🇸US_10|3.7MB/s|1KB/s
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
-- name: 🇺🇸US_14|1.2MB/s|1KB/s
-  password: ppyefe3k
-  port: 62000
-  server: 23.230.200.176
-  skip-cert-verify: true
-  type: socks5
-  username: u1f0cijj
-- name: 🇺🇸US_8|3.3MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk 04|1KB/s
-  type: http
-  server: 3a34a055-te8ao0-telzv3-4550.fmtdc1.sghuawei.com
-  port: 5443
-  username: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  tls: true
-- name: 🇺🇸US_11|2.5MB/s|1KB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_3|1006KB/s|1KB/s
-  network: xhttp
-  port: 443
-  server: 3.219.184.102
-  servername: fortuna.masynbazar.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5b1d16b-719b-4bd6-9d7b-fe6d84607da9
-  xhttp-opts:
-    host: fortuna.masynbazar.ru
-    mode: packet-up
-    path: /
-  xudp: true
-- name: 🇺🇸US_4|1.7MB/s|1KB/s
+  username: 'null'
   password: 'null'
-  port: 9002
-  server: 138.199.35.220
+  tls: true
   skip-cert-verify: true
-  tls: true
+- name: US - zhuhai.uk
   type: http
-  username: 'null'
-- name: 🇺🇸 美国 | USA 13|1KB/s
-  server: rrrr.r0-4.cc.cd
-  port: 443
-  type: vless
-  uuid: da988d4c-540f-4719-896e-a878812bad69
+  server: 23.161.192.49
+  port: 9443
   tls: true
-  alpn:
-  - http/1.1
-  servername: rrrr.r0-4.cc.cd
-  client-fingerprint: android
-  network: xhttp
-  xhttp-opts:
-    path: /NgInAz8EvgxBHueA9ne8tqLzLX
-    host: rrrr.r0-4.cc.cd
-    mode: auto
-  udp: true
-- name: US - zhuhai.uk 02|1KB/s
-  type: http
-  server: 138.199.35.209
-  port: 9002
-  username: 'null'
-  password: None
-  tls: true
-  sni: 138.199.35.209
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 15|1KB/s
-  server: rr.r0-4.cc.cd
+- client-fingerprint: chrome
+  name: 🇺🇸US_13|2.7MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  type: vless
-  uuid: da988d4c-540f-4719-896e-a878812bad69
-  tls: true
-  alpn:
-  - http/1.1
-  servername: rr.r0-4.cc.cd
-  client-fingerprint: android
-  network: xhttp
-  xhttp-opts:
-    path: /NgInAz8EvgxBHueA9ne8tqLzLX
-    host: rr.r0-4.cc.cd
-    mode: auto
-  udp: true
-- name: 🇺🇸 美国 | USA 16|0KB/s
-  server: 162.35.101.177
-  port: 443
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
-- name: 🇺🇸 美国 | USA 24
-  server: bb.1111-08.ccwu.cc
-  port: 443
-  type: vless
-  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
-  tls: true
-  alpn:
-  - http/1.1
-  servername: bb.1111-08.ccwu.cc
-  client-fingerprint: android
-  network: xhttp
-  xhttp-opts:
-    path: /NgInAz8EvgxBHueA9ne8tqLzLX
-    host: bb.1111-08.ccwu.cc
-    mode: auto
+  server: 66.163.114.166
+  skip-cert-verify: true
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
   udp: true
