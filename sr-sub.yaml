@@ -1,16 +1,23 @@
-# Mac hourly sync 2026-11-28 00:04:08 | alive 2
+# Mac hourly sync 2026-11-28 01:02:18 | alive 2
 proxies:
-- name: NN_speednode_0023|279KB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
+- name: US_speednode_0027|317KB/s
   port: 443
-  server: usgp1-cdn-route.couldflare-cdn.com
+  server: 172.64.69.89
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: IT-202.50.253.81-0076 | 89.037MB|236KB/s
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4|248KB/s
+  server: 137.175.82.41
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
