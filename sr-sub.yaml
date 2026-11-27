@@ -1,9 +1,23 @@
-# Mac hourly sync 2026-11-27 18:53:18 | alive 1
+# Mac hourly sync 2026-11-27 20:04:54 | alive 3
 proxies:
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_5|1.1MB/s|197KB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
+- name: 🇺🇸US_11|2.5MB/s|427KB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  x-toolall-mihomo: true
+- name: NL_speednode_0014|206KB/s
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: IT-202.50.253.18-0081 | 83.573MB|154KB/s
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
