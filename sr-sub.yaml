@@ -1,66 +1,43 @@
-# Mac hourly sync 2026-11-28 04:03:25 | alive 9
+# Mac hourly sync 2026-11-28 05:04:00 | alive 15
 proxies:
-- type: anytls
-  name: 🇹🇼_TW_台湾_IPV4|2.7MB/s
-  server: rtifgjdr.df6h451rh.xin
-  port: 443
-  password: 2902c46c8493
-  tls: true
-  servername: docs.microsoft.com
-  sni: docs.microsoft.com
-  skip-cert-verify: true
-- type: hysteria
-  name: 🇫🇷_FR_法国_IPV4|825KB/s
-  server: 62.210.124.132
-  port: 24667
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: VN - zhuhai.uk|815KB/s
-  type: socks5
-  server: 103.184.113.190
-  port: 62000
-  username: qT46DZLv
-  password: jHsK2gqs
-- name: NL - zhuhai.uk 04|696KB/s
+- name: JP - zhuhai.uk 02|2.1MB/s
   type: http
-  server: 84.17.47.125
+  server: 133.18.200.207
+  port: 343
+  tls: true
+  skip-cert-verify: true
+- type: hysteria2
+  name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_IPV4|784KB/s
+  server: uk-tube-01.stre4m.net
+  port: 13337
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  tls: true
+  servername: mother-earth.fyi
+  sni: mother-earth.fyi
+  skip-cert-verify: true
+- name: NL - zhuhai.uk 05|758KB/s
+  type: http
+  server: 84.17.47.124
   port: 9002
   username: 'null'
-  password: None
+  password: 'null'
   tls: true
-  sni: 84.17.47.125
   skip-cert-verify: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (3)|668KB/s
-  server: 38.6.222.131
-  port: 11008
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: 🇺🇸US_19|2.6MB/s|667KB/s
+- name: 🇺🇸US_16|2.0MB/s|679KB/s
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: US - zhuhai.uk|663KB/s
+- name: VN - zhuhai.uk|677KB/s
+  type: socks5
+  server: 103.184.113.190
+  port: 62000
+  username: qT46DZLv
+  password: jHsK2gqs
+- name: US - zhuhai.uk|672KB/s
   type: http
   server: 138.199.35.217
   port: 9002
@@ -69,12 +46,124 @@ proxies:
   tls: true
   sni: 138.199.35.217
   skip-cert-verify: true
-- name: ID - zhuhai.uk|479KB/s
-  type: http
-  server: 103.86.117.202
-  port: 443
-  tls: true
+- name: 🇺🇸US_22|2.1MB/s|604KB/s
+  password: None
+  port: 38182
+  server: 69.55.49.177
   skip-cert-verify: true
+  type: socks5
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #22|603KB/s'
+  network: xhttp
+  port: 443
+  server: ddddd.as2-0.kdns.fr
+  servername: ddddd.as2-0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: ddddd.as2-0.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #18|586KB/s'
+  network: xhttp
+  port: 443
+  server: ddddddd.260920-1.kdns.fr
+  servername: ddddddd.260920-1.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: ddddddd.260920-1.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #7|574KB/s'
+  network: xhttp
+  port: 443
+  server: r.r0-4.cc.cd
+  servername: r.r0-4.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: r.r0-4.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #31|543KB/s'
+  network: xhttp
+  port: 443
+  server: ss.22299999.xyz
+  servername: ss.22299999.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: ss.22299999.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4|468KB/s
+  server: 188.114.99.137
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #26|462KB/s'
+  network: xhttp
+  port: 443
+  server: d.as2-0.kdns.fr
+  servername: d.as2-0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: d.as2-0.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: '🇺🇸 美国 | USA #12|221KB/s'
+  network: xhttp
+  port: 443
+  server: ddddddd.r0-6.cc.cd
+  servername: ddddddd.r0-6.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: ddddddd.r0-6.cc.cd
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
 - name: HK - zhuhai.uk 02|193KB/s
   type: http
   server: fan.240104.xyz
