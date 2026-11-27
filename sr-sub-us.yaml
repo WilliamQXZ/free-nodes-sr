@@ -1,76 +1,11 @@
-# Mac hourly sync 2026-11-27 22:04:32 | alive 15
+# Mac hourly sync 2026-11-27 23:06:39 | alive 11
 proxies:
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4|368KB/s
-  server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 🇺🇸US_15|2.8MB/s|297KB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: US - zhuhai.uk 01|10KB/s
-  type: vless
-  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-  port: 443
-  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
-  udp: true
-  network: ws
-  tls: true
-  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-  skip-cert-verify: true
-  ws-opts:
-    path: /ffad70ffdfc3bcda
-    headers:
-      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-- name: 🇺🇸US_23|2.5MB/s|1KB/s
-  port: 18080
-  server: 52.128.238.98
-  skip-cert-verify: true
-  type: http
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.195
-  port: 9002
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US_17|2.8MB/s|1KB/s
+- name: 🇺🇸US_17|2.8MB/s|114KB/s
   password: l1tlrdx52v
   port: 62000
   server: 66.253.2.69
   type: socks5
   username: u_rb1dba2
-- name: 🇺🇸US_16|2.0MB/s|1KB/s
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US-143.20.71.68-0113 | 0.119MB|1KB/s
-  server: waic.pro.main.sys-metric-report.com
-  port: 28014
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
 - name: 🇺🇸US_20|1.9MB/s|1KB/s
   password: 'null'
   port: 9002
@@ -80,27 +15,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4|1KB/s
-  server: 137.175.82.41
-  port: 20022
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: 🇺🇸US_22|2.1MB/s|1KB/s
-  password: None
-  port: 38182
-  server: 69.55.49.177
-  skip-cert-verify: true
-  type: socks5
-- name: US - zhuhai.uk 02|0KB/s
+- name: US - zhuhai.uk 02|1KB/s
   type: http
   server: 138.199.35.207
   port: 9002
@@ -108,26 +23,38 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|0KB/s
-  server: 38.6.222.132
-  port: 11008
-  password: dongtaiwang.com
+- name: US - zhuhai.uk 04|1KB/s
+  type: http
+  server: 38.28.193.71
+  port: 443
   tls: true
-  servername: bing.com
-  sni: bing.com
+  sni: 38.28.193.71
   skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 06
+- name: US - zhuhai.uk 06|1KB/s
   type: http
   server: 66.135.172.202
   port: 443
   tls: true
   skip-cert-verify: true
+- name: 🇺🇸US_22|2.1MB/s|1KB/s
+  password: None
+  port: 38182
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
+- name: US - zhuhai.uk 05|1KB/s
+  type: http
+  server: 138.199.35.195
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_23|2.5MB/s
+  port: 18080
+  server: 52.128.238.98
+  skip-cert-verify: true
+  type: http
 - type: vmess
   name: 🇺🇸 机场推荐:dafei.de 美国 89_IPV4
   server: 188.114.99.137
@@ -144,3 +71,26 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+  server: 172.67.190.164
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: 🇺🇸US-66.163.114.166-1323 | 47.418MB
+  server: 66.163.114.166
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  skip-cert-verify: false
