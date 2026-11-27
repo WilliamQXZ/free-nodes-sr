@@ -1,23 +1,17 @@
-# Mac hourly sync 2026-11-27 20:04:54 | alive 3
+# Mac hourly sync 2026-11-27 21:03:53 | alive 2
 proxies:
-- name: 🇺🇸US_11|2.5MB/s|427KB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: NL_speednode_0014|206KB/s
-  port: 443
-  server: 149.36.51.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: IT-202.50.253.18-0081 | 83.573MB|154KB/s
-  server: 202.50.253.18
+- name: IT-202.50.253.63-0075 | 89.832MB|291KB/s
+  server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- client-fingerprint: chrome
+  name: 🇹🇼 台湾2|@ripaojiedian|170KB/s
+  password: 0324fbc29561
+  port: 443
+  server: a54ge.df6h451rh.xin
+  skip-cert-verify: true
+  sni: docs.microsoft.com
+  type: anytls
+  udp: true
