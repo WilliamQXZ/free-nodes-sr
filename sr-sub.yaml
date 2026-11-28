@@ -1,45 +1,8 @@
-# Mac hourly sync 2026-11-28 18:04:31 | alive 5
+# Mac hourly sync 2026-11-28 19:02:12 | alive 1
 proxies:
-- type: hysteria2
-  name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_IPV4|713KB/s
-  server: uk-tube-01.stre4m.net
-  port: 13337
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  tls: true
-  servername: mother-earth.fyi
-  sni: mother-earth.fyi
-  skip-cert-verify: true
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (6)|709KB/s
-  server: 38.6.222.131
-  port: 11008
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
-- name: KR - zhuhai.uk 02|447KB/s
-  type: http
-  server: 152.69.230.221
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: IT-202.50.253.45-0163 | 73.282MB|328KB/s
-  server: 202.50.253.45
+- name: IT-202.50.253.81-0143 | 75.015MB|361KB/s
+  server: 202.50.253.81
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: RU - zhuhai.uk|255KB/s
-  type: http
-  server: 46.29.166.134
-  port: 1446
-  username: 'null'
-  password: 'null'
-  tls: true
-  skip-cert-verify: true
