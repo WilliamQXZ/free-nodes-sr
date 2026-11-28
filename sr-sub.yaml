@@ -1,9 +1,17 @@
-# Mac hourly sync 2026-11-28 11:02:04 | alive 4
+# Mac hourly sync 2026-11-28 12:04:10 | alive 3
 proxies:
+- name: DE_speednode_0003|401KB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (6)|839KB/s
-  server: 38.6.222.131
-  port: 11008
+  name: 🇺🇸_US_美国_IPV4|292KB/s
+  server: 137.175.82.42
+  port: 20022
   password: dongtaiwang.com
   tls: true
   servername: bing.com
@@ -11,35 +19,15 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-  up: '11'
-  down: '55'
+  up: '20'
+  down: '20'
   auth-str: dongtaiwang.com
-- type: hysteria2
-  name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_IPV4|737KB/s
-  server: uk-tube-01.stre4m.net
-  port: 13337
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  tls: true
-  servername: mother-earth.fyi
-  sni: mother-earth.fyi
+- client-fingerprint: chrome
+  name: 🇹🇼 台湾2|@ripaojiedian|243KB/s
+  password: 0324fbc29561
+  port: 443
+  server: a54ge.df6h451rh.xin
   skip-cert-verify: true
-- name: IT-202.50.253.54-0121 | 84.55MB|346KB/s
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- type: hysteria
-  name: 🇫🇷_FR_法国_IPV4|177KB/s
-  server: 62.210.124.132
-  port: 24667
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
+  sni: docs.microsoft.com
+  type: anytls
+  udp: true
