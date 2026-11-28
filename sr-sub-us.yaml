@@ -1,6 +1,6 @@
-# Mac hourly sync 2026-11-28 22:03:26 | alive 6
+# Mac hourly sync 2026-11-28 23:02:22 | alive 7
 proxies:
-- name: US - zhuhai.uk 02|3KB/s
+- name: US - zhuhai.uk 02|12KB/s
   type: http
   server: 138.199.35.217
   port: 9002
@@ -8,12 +8,6 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US-143.20.71.68-0265 | 0.076MB|3KB/s
-  server: waic.pro.main.sys-metric-report.com
-  port: 28014
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
 - alpn:
   - h3
   auth: 216c50f9-37dc-457d-b3f5-90732791d10d
@@ -27,20 +21,12 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
-  server: 38.6.222.131
-  port: 11008
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '11'
-  down: '55'
-  auth-str: dongtaiwang.com
+- name: 🇺🇸US-143.20.71.68-0265 | 0.076MB|1KB/s
+  server: waic.pro.main.sys-metric-report.com
+  port: 28014
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
 - name: US - zhuhai.uk 03|1KB/s
   type: vless
   server: 162.35.101.177
@@ -56,6 +42,36 @@ proxies:
   reality-opts:
     public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
     short-id: bd8f712209a9c283
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4|0KB/s
+  server: 137.175.82.42
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- type: vmess
+  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4
+  server: 172.67.190.164
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  cipher: auto
+  alterId: 0
+  tls: true
+  servername: guanwang.awsno.com
+  sni: guanwang.awsno.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
 - name: 🇺🇸US-66.163.114.166-0182 | 0.0MB
   server: 66.163.114.166
   port: 443
