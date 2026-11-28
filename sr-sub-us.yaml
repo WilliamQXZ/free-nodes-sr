@@ -1,9 +1,15 @@
-# Mac hourly sync 2026-11-28 13:02:47 | alive 6
+# Mac hourly sync 2026-11-28 14:04:10 | alive 5
 proxies:
+- name: 🇺🇸US-143.20.71.68-0265 | 45.356MB|1KB/s
+  server: waic.pro.main.sys-metric-report.com
+  port: 28014
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (5)|776KB/s
-  server: 38.6.222.132
-  port: 11008
+  name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
+  server: 137.175.82.41
+  port: 20022
   password: dongtaiwang.com
   tls: true
   servername: bing.com
@@ -14,24 +20,6 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: US - zhuhai.uk 03|7KB/s
-  type: http
-  server: 207.5.30.9
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸US-143.20.71.68-0265 | 45.356MB|2KB/s
-  server: waic.pro.main.sys-metric-report.com
-  port: 28014
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
-- name: US - zhuhai.uk 05|1KB/s
-  type: http
-  server: 138.199.35.220
-  port: 9002
-  tls: true
-  skip-cert-verify: true
 - type: hysteria
   name: 🇺🇸_US_美国_IPV4 (6)|1KB/s
   server: 38.6.222.131
@@ -46,9 +34,15 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
+- name: US - zhuhai.uk 05|0KB/s
+  type: http
+  server: 138.199.35.220
+  port: 9002
+  tls: true
+  skip-cert-verify: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
-  server: 137.175.82.41
+  name: 🇺🇸_US_美国_IPV4|0KB/s
+  server: 137.175.82.42
   port: 20022
   password: dongtaiwang.com
   tls: true
@@ -57,6 +51,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-  up: '11'
-  down: '55'
+  up: '20'
+  down: '20'
   auth-str: dongtaiwang.com
