@@ -1,7 +1,18 @@
-# Mac hourly sync 2026-11-28 07:03:43 | alive 9
+# Mac hourly sync 2026-11-28 08:02:07 | alive 11
 proxies:
+- name: 🇺🇸US-143.20.71.68-0265 | 45.356MB|2.0MB/s
+  server: waic.pro.main.sys-metric-report.com
+  port: 28014
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+- name: 🇺🇸US_23|2.5MB/s|929KB/s
+  port: 18080
+  server: 52.128.238.98
+  skip-cert-verify: true
+  type: http
 - type: hysteria
-  name: 🇫🇷_FR_法国_IPV4|994KB/s
+  name: 🇫🇷_FR_法国_IPV4|882KB/s
   server: 62.210.124.132
   port: 24667
   password: dongtaiwang.com
@@ -14,95 +25,90 @@ proxies:
   up: '11'
   down: '55'
   auth-str: dongtaiwang.com
-- name: 🇺🇸US_20|1.9MB/s|650KB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sni: 138.199.35.198
+- name: 🇺🇸US_17|2.8MB/s|824KB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3)|808KB/s
+  server: 38.6.222.131
+  port: 11008
+  password: dongtaiwang.com
   tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '11'
+  down: '55'
+  auth-str: dongtaiwang.com
+- name: DE - zhuhai.uk 05|733KB/s
   type: http
+  server: 158.173.154.2
+  port: 9002
   username: 'null'
-- name: US - zhuhai.uk|633KB/s
-  type: http
-  server: 138.199.35.205
-  port: 9002
+  password: 'null'
   tls: true
+  sni: 158.173.154.2
   skip-cert-verify: true
-- name: US - zhuhai.uk 07|607KB/s
-  type: http
-  server: 138.199.35.206
-  port: 9002
-  tls: true
-  sni: 138.199.35.206
-  skip-cert-verify: true
-- type: vmess
-  name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4|556KB/s
-  server: 172.67.190.164
+- name: US - zhuhai.uk 01|613KB/s
+  type: vless
+  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  cipher: auto
-  alterId: 0
-  tls: true
-  servername: guanwang.awsno.com
-  sni: guanwang.awsno.com
-  client-fingerprint: chrome
+  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
+  udp: true
   network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: US - zhuhai.uk 10|369KB/s
-  type: http
-  server: 38.28.193.1
-  port: 443
   tls: true
+  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
   skip-cert-verify: true
+  ws-opts:
+    path: /ffad70ffdfc3bcda
+    headers:
+      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+- name: IT-202.50.253.63-0141 | 84.673MB|608KB/s
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - alpn:
   - http/1.1
   client-fingerprint: android
-  name: '🇺🇸 美国 | USA #21|272KB/s'
+  name: '🇺🇸 美国 | USA #22|182KB/s'
   network: xhttp
   port: 443
-  server: rrrrrr.r0-4.cc.cd
-  servername: rrrrrr.r0-4.cc.cd
+  server: ddddd.as2-0.kdns.fr
+  servername: ddddd.as2-0.kdns.fr
   tls: true
   type: vless
   udp: true
   uuid: da988d4c-540f-4719-896e-a878812bad69
   xhttp-opts:
-    host: rrrrrr.r0-4.cc.cd
+    host: ddddd.as2-0.kdns.fr
     mode: auto
     path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- name: JP - zhuhai.uk|146KB/s
+  type: http
+  server: fan.587475.xyz
+  port: 443
+  tls: true
+  sni: fan.587475.xyz
 - alpn:
   - http/1.1
   client-fingerprint: android
-  name: '🇺🇸 美国 | USA #11|143KB/s'
+  name: '🇺🇸 美国 | USA #3|143KB/s'
   network: xhttp
   port: 443
-  server: sssssss.260920-3.kdns.fr
-  servername: sssssss.260920-3.kdns.fr
+  server: s.260920-3.kdns.fr
+  servername: s.260920-3.kdns.fr
   tls: true
   type: vless
   udp: true
   uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
   xhttp-opts:
-    host: sssssss.260920-3.kdns.fr
-    mode: auto
-    path: /NgInAz8EvgxBHueA9ne8tqLzLX
-- alpn:
-  - http/1.1
-  client-fingerprint: android
-  name: '🇺🇸 美国 | USA #5|137KB/s'
-  network: xhttp
-  port: 443
-  server: ss.260920-3.kdns.fr
-  servername: ss.260920-3.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
-  xhttp-opts:
-    host: ss.260920-3.kdns.fr
+    host: s.260920-3.kdns.fr
     mode: auto
     path: /NgInAz8EvgxBHueA9ne8tqLzLX
