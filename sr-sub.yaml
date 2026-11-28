@@ -1,16 +1,11 @@
-# Mac hourly sync 2026-11-28 21:03:26 | alive 2
+# Mac hourly sync 2026-11-28 22:03:20 | alive 1
 proxies:
-- name: 🇺🇸US-143.20.71.68-0265 | 0.076MB|216KB/s
-  server: waic.pro.main.sys-metric-report.com
-  port: 28014
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
-- name: HK - zhuhai.uk 02|155KB/s
-  type: http
-  server: fan.240104.xyz
+- auth: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  name: '🇩🇪 德国 | DEU #14|675KB/s'
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
   port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: fan.240104.xyz
+  server: 135.126.21.106
+  skip-cert-verify: true
+  sni: de1-balance.rezproffx.ru
+  tls: false
+  type: hysteria2
