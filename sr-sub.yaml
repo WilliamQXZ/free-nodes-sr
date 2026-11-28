@@ -1,30 +1,16 @@
-# Mac hourly sync 2026-11-28 20:03:04 | alive 4
+# Mac hourly sync 2026-11-28 21:03:26 | alive 2
 proxies:
-- name: IT-202.50.253.27-0140 | 75.578MB|364KB/s
-  server: 202.50.253.27
-  port: 19999
+- name: 🇺🇸US-143.20.71.68-0265 | 0.076MB|216KB/s
+  server: waic.pro.main.sys-metric-report.com
+  port: 28014
   type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: IT-202.50.253.36-0132 | 73.004MB|344KB/s
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- type: hysteria2
-  name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_IPV4|234KB/s
-  server: uk-tube-01.stre4m.net
-  port: 13337
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  tls: true
-  servername: mother-earth.fyi
-  sni: mother-earth.fyi
-  skip-cert-verify: true
-- name: DE - zhuhai.uk 03|141KB/s
-  type: hysteria2
-  server: 135.126.21.107
+  cipher: chacha20-ietf-poly1305
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+- name: HK - zhuhai.uk 02|155KB/s
+  type: http
+  server: fan.240104.xyz
   port: 443
-  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
-  sni: de2-balance.rezproffx.ru
-  skip-cert-verify: true
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: fan.240104.xyz
