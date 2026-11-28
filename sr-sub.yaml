@@ -1,24 +1,40 @@
-# Mac hourly sync 2026-11-29 01:03:24 | alive 3
+# Mac hourly sync 2026-11-29 02:02:44 | alive 3
 proxies:
-- name: 🇰🇷KR_1|2.1MB/s|1.4MB/s
-  port: 1080
-  server: 59.11.209.162
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4|468KB/s
+  server: 137.175.82.42
+  port: 20022
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-  type: socks5
+  alpn:
+  - h3
+  up: '20'
+  down: '20'
+  auth-str: dongtaiwang.com
+- name: 🇺🇸 美国 | USA 3|197KB/s
+  server: 162.35.101.177
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 99f2107b03f8
 - type: anytls
-  name: 🇹🇼_TW_台湾_IPV4|277KB/s
-  server: a54ge.df6h451rh.xin
+  name: 🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4|134KB/s
+  server: sdf65h46wr.df6h451rh.xin
   port: 443
   password: 0324fbc29561
   tls: true
-  servername: docs.microsoft.com
-  sni: docs.microsoft.com
+  servername: images.ctfassets.net
+  sni: images.ctfassets.net
   skip-cert-verify: true
-  client-fingerprint: chrome
-- name: BE_speednode_0001|238KB/s
-  port: 443
-  server: 146.70.123.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
