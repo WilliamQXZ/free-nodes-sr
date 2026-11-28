@@ -1,12 +1,6 @@
-# Mac hourly sync 2026-11-28 21:03:29 | alive 7
+# Mac hourly sync 2026-11-28 22:03:26 | alive 6
 proxies:
-- name: 🇺🇸US-143.20.71.68-0265 | 0.076MB|216KB/s
-  server: waic.pro.main.sys-metric-report.com
-  port: 28014
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
-- name: US - zhuhai.uk 02|4KB/s
+- name: US - zhuhai.uk 02|3KB/s
   type: http
   server: 138.199.35.217
   port: 9002
@@ -14,11 +8,17 @@ proxies:
   password: 'null'
   tls: true
   skip-cert-verify: true
+- name: 🇺🇸US-143.20.71.68-0265 | 0.076MB|3KB/s
+  server: waic.pro.main.sys-metric-report.com
+  port: 28014
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
 - alpn:
   - h3
   auth: 216c50f9-37dc-457d-b3f5-90732791d10d
   down: 200
-  name: 🇺🇸 美国 | USA|1KB/s
+  name: 🇺🇸 美国 | USA|2KB/s
   password: 216c50f9-37dc-457d-b3f5-90732791d10d
   port: 443
   server: 45.86.74.193
@@ -28,9 +28,9 @@ proxies:
   udp: true
   up: 100
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4 (2)|1KB/s
-  server: 137.175.82.41
-  port: 20022
+  name: 🇺🇸_US_美国_IPV4 (4)|1KB/s
+  server: 38.6.222.131
+  port: 11008
   password: dongtaiwang.com
   tls: true
   servername: bing.com
@@ -40,20 +40,6 @@ proxies:
   - h3
   up: '11'
   down: '55'
-  auth-str: dongtaiwang.com
-- type: hysteria
-  name: 🇺🇸_US_美国_IPV4|1KB/s
-  server: 137.175.82.42
-  port: 20022
-  password: dongtaiwang.com
-  tls: true
-  servername: bing.com
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '20'
-  down: '20'
   auth-str: dongtaiwang.com
 - name: US - zhuhai.uk 03|1KB/s
   type: vless
@@ -70,9 +56,10 @@ proxies:
   reality-opts:
     public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
     short-id: bd8f712209a9c283
-- name: US - zhuhai.uk 04|0KB/s
-  type: socks5
-  server: 104.168.249.36
-  port: 1080
-  username: test123
-  password: test123
+- name: 🇺🇸US-66.163.114.166-0182 | 0.0MB
+  server: 66.163.114.166
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  skip-cert-verify: false
