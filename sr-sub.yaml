@@ -1,17 +1,9 @@
-# Mac hourly sync 2026-11-28 12:04:10 | alive 3
+# Mac hourly sync 2026-11-28 13:02:42 | alive 3
 proxies:
-- name: DE_speednode_0003|401KB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - type: hysteria
-  name: 🇺🇸_US_美国_IPV4|292KB/s
-  server: 137.175.82.42
-  port: 20022
+  name: 🇺🇸_US_美国_IPV4 (5)|776KB/s
+  server: 38.6.222.132
+  port: 11008
   password: dongtaiwang.com
   tls: true
   servername: bing.com
@@ -19,11 +11,17 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-  up: '20'
-  down: '20'
+  up: '11'
+  down: '55'
   auth-str: dongtaiwang.com
+- name: IT-202.50.253.63-0141 | 84.673MB|346KB/s
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - client-fingerprint: chrome
-  name: 🇹🇼 台湾2|@ripaojiedian|243KB/s
+  name: 🇹🇼 台湾2|@ripaojiedian|303KB/s
   password: 0324fbc29561
   port: 443
   server: a54ge.df6h451rh.xin
